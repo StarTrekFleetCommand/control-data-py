@@ -169,7 +169,73 @@
       },
       "bonus": {
         "percentage": true,
-        "value": 1
+        "value": 1.0
+      }
+    },
+    {
+      "level": 6,
+      "research_time": 113714100,
+      "increased_power": 162500,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 50
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 28350000000
+          }
+        ],
+        "materials": [
+          {
+            "type": "ore",
+            "value": 2000,
+            "grade": 7,
+            "rarity": "uncommon"
+          }
+        ],
+        "others": []
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 2.0
+      }
+    },
+    {
+      "level": 7,
+      "research_time": 113714100,
+      "increased_power": 243750,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 50
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 28350000000
+          }
+        ],
+        "materials": [
+          {
+            "type": "ore",
+            "value": 2000,
+            "grade": 7,
+            "rarity": "uncommon"
+          }
+        ],
+        "others": []
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 3.5
       }
     }
   ],

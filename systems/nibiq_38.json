@@ -13,11 +13,6 @@
       "warp": 40
     },
     {
-      "$ref": "systems/zizeyab_37",
-      "distance": 40,
-      "warp": 40
-    },
-    {
       "$ref": "systems/tiwoqua_38",
       "distance": 40,
       "warp": 40
@@ -31,22 +26,25 @@
       "$ref": "systems/yajoy_37",
       "distance": 40,
       "warp": 40
+    },
+    {
+      "$ref": "systems/zizeyab_37",
+      "distance": 40,
+      "warp": 40
     }
   ],
   "faction": "neutral",
   "level": 38,
   "mining": [
     {
-      "type": "3\u2605 Raw Ore",
-      "amount": 20,
-      "grade": 3,
+      "type": "3\u2605 raw ore",
+      "amount": 1,
       "mining_per_hour": 300,
       "size": 40000
     },
     {
-      "type": "3\u2605 Raw Crystal",
-      "amount": 20,
-      "grade": 3,
+      "type": "3\u2605 raw crystal",
+      "amount": 1,
       "mining_per_hour": 300,
       "size": 40000
     }
@@ -54,6 +52,6 @@
   "planets": [],
   "scopely_id": 1241882920,
   "system_space": "normal",
-  "system_type": "hub",
+  "system_type": "route",
   "warp": 40
 }

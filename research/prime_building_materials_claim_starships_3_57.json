@@ -1,0 +1,38 @@
+{
+  "research_name": "Prime Building Materials Claim",
+  "description": "Unlocks a daily claim that provides upgrade materials for the War Room, Command Center, Artifact Gallery, and District 56 buildings.",
+  "location": {
+    "column": 57,
+    "row": 3,
+    "tree": "starships"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 240,
+      "increased_power": 120000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 39
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "building materials particle",
+            "value": 1000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 1.0
+      }
+    }
+  ],
+  "img_url": "./assets/prime_building_materials_claim_starships_3_57.png"
+}

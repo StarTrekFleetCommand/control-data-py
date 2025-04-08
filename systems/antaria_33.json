@@ -1,0 +1,31 @@
+{
+  "name": "Antaria",
+  "capture_nodes": 0,
+  "connected_systems": [
+    {
+      "$ref": "systems/miranil_33",
+      "distance": 10,
+      "warp": 25
+    },
+    {
+      "$ref": "systems/baneth_32",
+      "distance": 25,
+      "warp": 25
+    },
+    {
+      "$ref": "systems/kalak_30",
+      "distance": 25,
+      "warp": 25
+    }
+  ],
+  "faction": "neutral",
+  "level": 33,
+  "mining": [],
+  "planets": [
+    "Antaria"
+  ],
+  "scopely_id": 921774270,
+  "system_space": "normal",
+  "system_type": "route",
+  "warp": 25
+}

@@ -3,12 +3,12 @@
   "capture_nodes": 0,
   "connected_systems": [
     {
-      "$ref": "systems/balrosh_29",
+      "$ref": "systems/torana_27",
       "distance": 20,
       "warp": 22
     },
     {
-      "$ref": "systems/torana_27",
+      "$ref": "systems/balrosh_29",
       "distance": 20,
       "warp": 22
     },
@@ -27,9 +27,8 @@
   "level": 30,
   "mining": [
     {
-      "type": "3\u2605 Raw Crystal",
-      "amount": 24,
-      "grade": 3,
+      "type": "3\u2605 raw crystal",
+      "amount": 1,
       "mining_per_hour": 300,
       "size": 18000
     }
@@ -41,6 +40,6 @@
   ],
   "scopely_id": 625581925,
   "system_space": "normal",
-  "system_type": "hub",
+  "system_type": "route",
   "warp": 22
 }

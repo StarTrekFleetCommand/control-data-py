@@ -1,0 +1,174 @@
+{
+  "officer_name": "Specialist Seven",
+  "description": "Not all wounds heal with time.\nGetting home was the mission. The mission was completed. Why, then, did Seven of Nine still feel empty?\nDespite her best efforts, Seven was never fully able to integrate into civilian life on Earth. The idea of being static was alien to her, the concept of comfort a far-gone dream. She felt as if she would sink into her too-soft bed at any time and be delivered back to the Borg.\nSeven hoped that a career in Starfleet would ease her discomfort and provide a sense of meaning to her life again. However, Federation bureaucracies proved too insurmountable a wall, and she was denied entry to Starfleet Academy.\nNot content to wallow away in the utopian cities of Earth, Seven struck out on her own, eager to find a path that was hers alone to tread.\nShe found herself drawn to the darker corners of the quadrant, far from the safety of the Federation. Seven was most at home in the Neutral Zone, where she struck up friendships among the other wayward souls and Independent operators that didn\u2019t fit in with Federation policies. There were good people out here, Seven realized, good people who needed protection that Starfleet couldn\u2019t provide.\nWord soon began to spread across the Neutral Zone of a partially cybernetic guardian, a fierce protector who fought with the fury of a thousand suns to protect her territory.\nSo hear this warning, pirates and slavers of the quadrant, keep a keen eye for the symbol of the Hound of Yoruba, for if you see her ship approaching first... It is already too late.",
+  "class": "command",
+  "group": "\u21e5 retaliation squad",
+  "faction": "neutral",
+  "rarity": "epic",
+  "ability_info": {
+    "captain_maneuver": {
+      "name": "Harmony in Individuality",
+      "bonus": "On round start against player Battleships with Hull Breach, Specialist Seven increases your shots by {value} <b>each round for 4 rounds (Cumulative)",
+      "percentage": true,
+      "value": 0.6
+    },
+    "officer_ability": {
+      "name": "Power In Perfection",
+      "bonus": "On round start against players, Specialist Seven has {value} ({value} at rank {value}) chance to apply Hull Breach to your target for 2 rounds.",
+      "percentage": true
+    },
+    "below_decks_ability": null
+  },
+  "synergy": {
+    "command": 0.1,
+    "engineering": 0.3,
+    "science": 0.3
+  },
+  "traits": [
+    {
+      "name": "Assimilated",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 1500
+        },
+        {
+          "level": 2,
+          "trait_xp": 2700
+        },
+        {
+          "level": 3,
+          "trait_xp": 3800
+        }
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Charismatic",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 7650
+        },
+        {
+          "level": 2,
+          "trait_xp": 6000
+        },
+        {
+          "level": 3,
+          "trait_xp": 7000
+        },
+        {
+          "level": 4,
+          "trait_xp": 8850
+        }
+      ],
+      "tier": 2
+    },
+    {
+      "name": "Calculated",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 10000
+        },
+        {
+          "level": 2,
+          "trait_xp": 4000
+        },
+        {
+          "level": 3,
+          "trait_xp": 7000
+        },
+        {
+          "level": 4,
+          "trait_xp": 10000
+        },
+        {
+          "level": 5,
+          "trait_xp": 15000
+        },
+        {
+          "level": 6,
+          "trait_xp": 23000
+        },
+        {
+          "level": 7,
+          "trait_xp": 42000
+        },
+        {
+          "level": 8,
+          "trait_xp": 68000
+        },
+        {
+          "level": 9,
+          "trait_xp": 107000
+        }
+      ],
+      "tier": 3
+    }
+  ],
+  "ranks": [
+    {
+      "rank_id": 1,
+      "name": "ENSIGN I",
+      "officer_ability_value": 0.6,
+      "requirements": {
+        "badges": 0,
+        "credits": 0,
+        "others": [],
+        "shards": 100,
+        "xp": 0
+      }
+    },
+    {
+      "rank_id": 2,
+      "name": "LIEUTENANT JG II",
+      "officer_ability_value": 0.7,
+      "requirements": {
+        "badges": 0,
+        "credits": 1100,
+        "others": [],
+        "shards": 100,
+        "xp": 50000
+      }
+    },
+    {
+      "rank_id": 3,
+      "name": "LIEUTENANT III",
+      "officer_ability_value": 0.8,
+      "requirements": {
+        "badges": 1,
+        "credits": 4500,
+        "others": [],
+        "shards": 200,
+        "xp": 500000
+      }
+    },
+    {
+      "rank_id": 4,
+      "name": "LT. COMMANDER IV",
+      "officer_ability_value": 0.9,
+      "requirements": {
+        "badges": 2,
+        "credits": 11500,
+        "others": [],
+        "shards": 300,
+        "xp": 1250000
+      }
+    },
+    {
+      "rank_id": 5,
+      "name": "COMMANDER V",
+      "officer_ability_value": 1.0,
+      "requirements": {
+        "badges": 4,
+        "credits": 25000,
+        "others": [],
+        "shards": 800,
+        "xp": 2500000
+      }
+    }
+  ],
+  "img_url": "./assets/specialist_seven.png"
+}

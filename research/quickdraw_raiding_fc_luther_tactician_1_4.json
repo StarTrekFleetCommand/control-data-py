@@ -1,0 +1,83 @@
+{
+  "research_name": "Quickdraw Raiding",
+  "description": "Reduces the number of rounds needed to charge weapons when attacking a station if your weapon fire is delayed due to an enemy player's ability. <color=#FFEF40>(On Duty - Selectable)</color>",
+  "location": {
+    "column": 4,
+    "row": 1,
+    "tree": "fc luther tactician"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 0,
+      "increased_power": 120000,
+      "requirements": [
+        {
+          "name": "Command Center",
+          "level": 40
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "sloan skill points",
+            "value": 1065
+          }
+        ]
+      },
+      "rewards": [],
+      "bonus": {
+        "percentage": false,
+        "value": 1.0
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 0,
+      "increased_power": 120000,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "sloan skill points",
+            "value": 2130
+          }
+        ]
+      },
+      "rewards": [],
+      "bonus": {
+        "percentage": false,
+        "value": 2.0
+      }
+    },
+    {
+      "level": 3,
+      "research_time": 0,
+      "increased_power": 120000,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "sloan skill points",
+            "value": 3900
+          }
+        ]
+      },
+      "rewards": [],
+      "bonus": {
+        "percentage": false,
+        "value": 3.0
+      }
+    }
+  ],
+  "img_url": "./assets/quickdraw_raiding_fc_luther_tactician_1_4.png"
+}

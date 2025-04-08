@@ -3,18 +3,13 @@
   "capture_nodes": 0,
   "connected_systems": [
     {
-      "$ref": "systems/omtose_16",
-      "distance": 6,
-      "warp": 13
-    },
-    {
       "$ref": "systems/caldik_16",
       "distance": 6,
       "warp": 13
     },
     {
-      "$ref": "systems/kohva_15",
-      "distance": 7,
+      "$ref": "systems/omtose_16",
+      "distance": 6,
       "warp": 13
     },
     {
@@ -26,6 +21,11 @@
       "$ref": "systems/leone_27",
       "distance": 24,
       "warp": 24
+    },
+    {
+      "$ref": "systems/kohva_15",
+      "distance": 7,
+      "warp": 13
     }
   ],
   "faction": "neutral",
@@ -38,6 +38,6 @@
   ],
   "scopely_id": 1422258500,
   "system_space": "normal",
-  "system_type": "hub",
+  "system_type": "route",
   "warp": 13
 }

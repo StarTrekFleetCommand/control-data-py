@@ -8,18 +8,18 @@
       "warp": 25
     },
     {
-      "$ref": "systems/spira_27",
-      "distance": 20,
-      "warp": 20
+      "$ref": "systems/pandosia_31",
+      "distance": 25,
+      "warp": 25
     },
     {
-      "$ref": "systems/s_mtharz_25",
+      "$ref": "systems/smtharz_25",
       "distance": 19,
       "warp": 18
     },
     {
-      "$ref": "systems/pandosia_31",
-      "distance": 25,
+      "$ref": "systems/spira_27",
+      "distance": 20,
       "warp": 25
     }
   ],
@@ -27,15 +27,9 @@
   "level": 27,
   "mining": [
     {
-      "type": "Raw Latinum",
-      "amount": 24,
+      "type": "raw latinum",
+      "amount": 8,
       "mining_per_hour": 32,
-      "size": 82000
-    },
-    {
-      "type": "Raw Latinum",
-      "amount": 24,
-      "mining_per_hour": 64,
       "size": 82000
     }
   ],
@@ -47,6 +41,6 @@
   ],
   "scopely_id": 840804243,
   "system_space": "normal",
-  "system_type": "hub",
-  "warp": 19
+  "system_type": "route",
+  "warp": 25
 }

@@ -1,0 +1,411 @@
+{
+  "research_name": "The Scientific Method",
+  "description": "Increases base Repair Cost Efficiency. <color=#FFEF40>(On Duty)</color>",
+  "location": {
+    "column": 4,
+    "row": 1,
+    "tree": "fleet commander"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 0,
+      "increased_power": 3900,
+      "requirements": [
+        {
+          "name": "Relativity",
+          "level": 1
+        },
+        {
+          "name": "Command Center",
+          "level": 40
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "rare commander skill points",
+            "value": 1
+          },
+          {
+            "type": "janeway skill points",
+            "value": 110
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.16
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 0,
+      "increased_power": 1350,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "rare commander skill points",
+            "value": 1
+          },
+          {
+            "type": "janeway skill points",
+            "value": 135
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.22
+      }
+    },
+    {
+      "level": 3,
+      "research_time": 0,
+      "increased_power": 1750,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "rare commander skill points",
+            "value": 2
+          },
+          {
+            "type": "janeway skill points",
+            "value": 160
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.28
+      }
+    },
+    {
+      "level": 4,
+      "research_time": 0,
+      "increased_power": 2250,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "rare commander skill points",
+            "value": 3
+          },
+          {
+            "type": "janeway skill points",
+            "value": 185
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.34
+      }
+    },
+    {
+      "level": 5,
+      "research_time": 0,
+      "increased_power": 4250,
+      "requirements": [
+        {
+          "name": "Command Center",
+          "level": 45
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "rare commander skill points",
+            "value": 4
+          },
+          {
+            "type": "janeway skill points",
+            "value": 215
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.44
+      }
+    },
+    {
+      "level": 6,
+      "research_time": 0,
+      "increased_power": 4250,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "rare commander skill points",
+            "value": 4
+          },
+          {
+            "type": "janeway skill points",
+            "value": 250
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.54
+      }
+    },
+    {
+      "level": 7,
+      "research_time": 0,
+      "increased_power": 4750,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "rare commander skill points",
+            "value": 5
+          },
+          {
+            "type": "janeway skill points",
+            "value": 285
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.64
+      }
+    },
+    {
+      "level": 8,
+      "research_time": 0,
+      "increased_power": 6000,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "rare commander skill points",
+            "value": 6
+          },
+          {
+            "type": "janeway skill points",
+            "value": 325
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.74
+      }
+    },
+    {
+      "level": 9,
+      "research_time": 0,
+      "increased_power": 10000,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "rare commander skill points",
+            "value": 6
+          },
+          {
+            "type": "janeway skill points",
+            "value": 375
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.84
+      }
+    },
+    {
+      "level": 10,
+      "research_time": 0,
+      "increased_power": 29500,
+      "requirements": [
+        {
+          "name": "Command Center",
+          "level": 50
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "rare commander skill points",
+            "value": 7
+          },
+          {
+            "type": "janeway skill points",
+            "value": 425
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.98
+      }
+    },
+    {
+      "level": 11,
+      "research_time": 0,
+      "increased_power": 22000,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "rare commander skill points",
+            "value": 8
+          },
+          {
+            "type": "janeway skill points",
+            "value": 480
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 1.12
+      }
+    },
+    {
+      "level": 12,
+      "research_time": 0,
+      "increased_power": 38000,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "rare commander skill points",
+            "value": 9
+          },
+          {
+            "type": "janeway skill points",
+            "value": 540
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 1.26
+      }
+    },
+    {
+      "level": 13,
+      "research_time": 0,
+      "increased_power": 38000,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "rare commander skill points",
+            "value": 11
+          },
+          {
+            "type": "janeway skill points",
+            "value": 605
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 1.4
+      }
+    },
+    {
+      "level": 14,
+      "research_time": 0,
+      "increased_power": 64000,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "rare commander skill points",
+            "value": 13
+          },
+          {
+            "type": "janeway skill points",
+            "value": 680
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 1.6
+      }
+    },
+    {
+      "level": 15,
+      "research_time": 0,
+      "increased_power": 120000,
+      "requirements": [
+        {
+          "name": "Command Center",
+          "level": 60
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "rare commander skill points",
+            "value": 16
+          },
+          {
+            "type": "janeway skill points",
+            "value": 765
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 2.0
+      }
+    }
+  ],
+  "img_url": "./assets/the_scientific_method_fleet_commander_1_4.png"
+}

@@ -23,11 +23,6 @@
       "warp": 5
     },
     {
-      "$ref": "systems/orasi_18_50",
-      "distance": 30,
-      "warp": 185
-    },
-    {
       "$ref": "systems/demavar_8",
       "distance": 5,
       "warp": 5
@@ -41,14 +36,19 @@
       "$ref": "systems/robesi_8",
       "distance": 5,
       "warp": 5
+    },
+    {
+      "$ref": "systems/orasi_18_50",
+      "distance": 30,
+      "warp": 185
     }
   ],
   "faction": "neutral",
   "level": 8,
   "mining": [
     {
-      "type": "Tritanium",
-      "amount": 30,
+      "type": "tritanium",
+      "amount": 1,
       "mining_per_hour": 320,
       "size": 1500
     }
@@ -59,6 +59,6 @@
   ],
   "scopely_id": 1559195274,
   "system_space": "normal",
-  "system_type": "hub",
+  "system_type": "route",
   "warp": 5
 }

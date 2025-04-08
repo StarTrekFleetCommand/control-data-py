@@ -8,29 +8,23 @@
       "warp": 95
     },
     {
-      "$ref": "systems/new_vulcan_42",
-      "distance": 80,
-      "warp": 70
-    },
-    {
       "$ref": "systems/vita_nova_43",
       "distance": 80,
       "warp": 80
+    },
+    {
+      "$ref": "systems/new_vulcan_42",
+      "distance": 80,
+      "warp": 70
     }
   ],
   "faction": "neutral",
   "level": 43,
   "mining": [
     {
-      "type": "Concentrated Latinum",
-      "amount": 18,
+      "type": "concentrated latinum",
+      "amount": 8,
       "mining_per_hour": 55,
-      "size": 168000
-    },
-    {
-      "type": "Concentrated Latinum",
-      "amount": 18,
-      "mining_per_hour": 110,
       "size": 168000
     }
   ],
@@ -41,6 +35,6 @@
   ],
   "scopely_id": 182422424,
   "system_space": "deep",
-  "system_type": "hub",
+  "system_type": "route",
   "warp": 80
 }

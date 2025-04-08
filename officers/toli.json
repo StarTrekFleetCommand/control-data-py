@@ -1,0 +1,141 @@
+{
+  "officer_name": "Toli",
+  "description": "Toli is a Deltan, and as with all his people, he gives off extremely strong and powerfully alluring vibes. Toli isn\u2019t the kind of guy to deny his true, fun-loving self. He\u2019s beautiful and he knows it. And he\u2019s very happy for other people to know it, too. So the rigidity of life in a Starfleet uniform just isn\u2019t his kick.\n\nInstead, Toli is part of the rogue, ragtag group of alien outcasts who make up the crew of Trill adventurer Masriad Vael. Together they travel the galaxy, operating at the edges of the law to liberate some of the galaxy\u2019s rarest and most valuable items from the galaxy\u2019s most undeserving.\n\nToli is the crew\u2019s negotiator. Extremely vain and a lover of his own reflection, he doesn\u2019t mind using his appeal to disarm those he is negotiating with, or to open doors that would otherwise remain closed to the gang. His philosophy is, if you\u2019ve got it, flaunt it. But be careful what you flaunt in front of Toli; because if it\u2019s valuable, he\u2019ll steal it.",
+  "class": "engineering",
+  "group": "symbiosis",
+  "faction": "neutral",
+  "rarity": "rare",
+  "ability_info": {
+    "captain_maneuver": {
+      "name": "Chain of Command",
+      "bonus": "This Officer does not have a Captain's Maneuver. Equipping this Officer as the captain of a ship provides no benefit.",
+      "percentage": true,
+      "value": 0.0
+    },
+    "officer_ability": {
+      "name": "The Looking Glass",
+      "bonus": "Decreases all Armada and Invading Entities base Mitigation stats by {value}({value} at rank {value}) of Officer Defense every round (Cumulative)",
+      "percentage": true
+    },
+    "below_decks_ability": {
+      "name": "Too Hot to Handle",
+      "bonus": "Increases base Warp Speed by {value} ({value} at rank {value})",
+      "percentage": true
+    }
+  },
+  "synergy": {
+    "command": 0.0,
+    "engineering": 0.0,
+    "science": 0.0
+  },
+  "traits": [
+    {
+      "name": "Resourceful",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 1500
+        },
+        {
+          "level": 2,
+          "trait_xp": 2700
+        },
+        {
+          "level": 3,
+          "trait_xp": 3800
+        }
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Thief",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 7650
+        },
+        {
+          "level": 2,
+          "trait_xp": 6000
+        },
+        {
+          "level": 3,
+          "trait_xp": 7000
+        },
+        {
+          "level": 4,
+          "trait_xp": 8850
+        }
+      ],
+      "tier": 2
+    }
+  ],
+  "ranks": [
+    {
+      "rank_id": 1,
+      "name": "ENSIGN I",
+      "officer_ability_value": 1.0,
+      "requirements": {
+        "badges": 0,
+        "credits": 0,
+        "others": [],
+        "shards": 38,
+        "xp": 0
+      },
+      "below_deck_ability_value": 1.0
+    },
+    {
+      "rank_id": 2,
+      "name": "LIEUTENANT JG II",
+      "officer_ability_value": 2.0,
+      "requirements": {
+        "badges": 0,
+        "credits": 0,
+        "others": [],
+        "shards": 55,
+        "xp": 10000
+      },
+      "below_deck_ability_value": 3.0
+    },
+    {
+      "rank_id": 3,
+      "name": "LIEUTENANT III",
+      "officer_ability_value": 4.0,
+      "requirements": {
+        "badges": 0,
+        "credits": 1100,
+        "others": [],
+        "shards": 115,
+        "xp": 100000
+      },
+      "below_deck_ability_value": 6.0
+    },
+    {
+      "rank_id": 4,
+      "name": "LT. COMMANDER IV",
+      "officer_ability_value": 7.0,
+      "requirements": {
+        "badges": 1,
+        "credits": 4500,
+        "others": [],
+        "shards": 155,
+        "xp": 250000
+      },
+      "below_deck_ability_value": 10.0
+    },
+    {
+      "rank_id": 5,
+      "name": "COMMANDER V",
+      "officer_ability_value": 11.0,
+      "requirements": {
+        "badges": 2,
+        "credits": 11500,
+        "others": [],
+        "shards": 225,
+        "xp": 500000
+      },
+      "below_deck_ability_value": 15.0
+    }
+  ],
+  "img_url": "./assets/toli.png"
+}

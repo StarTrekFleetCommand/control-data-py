@@ -3,13 +3,13 @@
   "capture_nodes": 14,
   "connected_systems": [
     {
-      "$ref": "systems/ado_17",
-      "distance": 20,
+      "$ref": "systems/temeri_alpha_20",
+      "distance": 5,
       "warp": 20
     },
     {
-      "$ref": "systems/temeri_alpha_20",
-      "distance": 5,
+      "$ref": "systems/ado_17",
+      "distance": 20,
       "warp": 20
     },
     {
@@ -22,16 +22,15 @@
   "level": 20,
   "mining": [
     {
-      "type": "2\u21f4 Raw Isogen",
-      "amount": 20,
-      "grade": 2,
+      "type": "2\u21f4 raw isogen",
+      "amount": 1,
       "mining_per_hour": 1500,
-      "size": 300000
+      "size": 750000
     }
   ],
   "planets": [],
   "scopely_id": 250210568,
   "system_space": "origin",
-  "system_type": "hub",
+  "system_type": "route",
   "warp": 20
 }

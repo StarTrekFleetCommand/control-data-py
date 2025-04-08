@@ -1,0 +1,183 @@
+{
+  "officer_name": "Masriad Vael",
+  "description": "Masriad Vael is unlike any other Trill in the Alpha Quadrant, for even though her host body is from our universe, the Symbiont inside her is from the Mirror Universe. Their unique joining makes them especially sensitive to fluctuations in the barriers between dimensions, and allows them to see into the Mirror Universe during special dream states.\n\nMasriad is the latest in a line of Prime Universe Trill to host the Mirror Vael Symbiont, which fell through the dimensions over 300 years ago. Vael has seen and remembers a great many things over their multiple lifetimes, yet even after three centuries, Vael still finds it hard to be fully of this universe. The Mirror at her core still itches at the difference; it knows it is out of place. To that end, Vael almost always surrounds whichever self they happen to be with misfits or eccentrics.\n\nIn her current body, the sharp-witted and adventurous Masriad Vael captains a diverse, rogue crew of Independent treasure hunters operating, for the most part, on the edges of the law as they \u201cliberate\u201d some of the galaxy\u2019s rarest and most valuable items from the galaxy\u2019s most undeserving. In that role, Masriad Vael has earned a reputation as one of the most respected and skilled operators in the galaxy.",
+  "class": "command",
+  "group": "symbiosis",
+  "faction": "neutral",
+  "rarity": "epic",
+  "ability_info": {
+    "captain_maneuver": {
+      "name": "Chain of Command",
+      "bonus": "This Officer does not have a Captain's Maneuver. Equipping this Officer as the captain of a ship provides no benefit.",
+      "percentage": true,
+      "value": 0.0
+    },
+    "officer_ability": {
+      "name": "Honor Among Thieves",
+      "bonus": "On combat start against Invading Entities, increases Apex Barrier by {value} ({value} at rank {value}).\n\nApex Barrier provides <b>true damage mitigation from all sources after all other bonuses. Every 100 Apex Barrier increases the damage you can take by 1%.",
+      "percentage": false
+    },
+    "below_decks_ability": {
+      "name": "The Winning Gambit",
+      "bonus": "When hit by an Armada or Hostile, increases Critical Hit chance by {value} ({value} at rank {value}) for 4 rounds\n(Weapons with multiple shots will only trigger this ability once per attack).",
+      "percentage": true
+    }
+  },
+  "synergy": {
+    "command": 0.0,
+    "engineering": 0.0,
+    "science": 0.0
+  },
+  "traits": [
+    {
+      "name": "Uncompromising",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 1500
+        },
+        {
+          "level": 2,
+          "trait_xp": 2700
+        },
+        {
+          "level": 3,
+          "trait_xp": 3800
+        }
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Survivor",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 7650
+        },
+        {
+          "level": 2,
+          "trait_xp": 6000
+        },
+        {
+          "level": 3,
+          "trait_xp": 7000
+        },
+        {
+          "level": 4,
+          "trait_xp": 8850
+        }
+      ],
+      "tier": 2
+    },
+    {
+      "name": "Leader",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 10000
+        },
+        {
+          "level": 2,
+          "trait_xp": 4000
+        },
+        {
+          "level": 3,
+          "trait_xp": 7000
+        },
+        {
+          "level": 4,
+          "trait_xp": 10000
+        },
+        {
+          "level": 5,
+          "trait_xp": 15000
+        },
+        {
+          "level": 6,
+          "trait_xp": 23000
+        },
+        {
+          "level": 7,
+          "trait_xp": 42000
+        },
+        {
+          "level": 8,
+          "trait_xp": 68000
+        },
+        {
+          "level": 9,
+          "trait_xp": 107000
+        }
+      ],
+      "tier": 3
+    }
+  ],
+  "ranks": [
+    {
+      "rank_id": 1,
+      "name": "ENSIGN I",
+      "officer_ability_value": 500.0,
+      "requirements": {
+        "badges": 0,
+        "credits": 0,
+        "others": [],
+        "shards": 100,
+        "xp": 0
+      },
+      "below_deck_ability_value": 0.04
+    },
+    {
+      "rank_id": 2,
+      "name": "LIEUTENANT JG II",
+      "officer_ability_value": 1000.0,
+      "requirements": {
+        "badges": 0,
+        "credits": 1100,
+        "others": [],
+        "shards": 100,
+        "xp": 50000
+      },
+      "below_deck_ability_value": 0.05
+    },
+    {
+      "rank_id": 3,
+      "name": "LIEUTENANT III",
+      "officer_ability_value": 1500.0,
+      "requirements": {
+        "badges": 1,
+        "credits": 4500,
+        "others": [],
+        "shards": 200,
+        "xp": 500000
+      },
+      "below_deck_ability_value": 0.06
+    },
+    {
+      "rank_id": 4,
+      "name": "LT. COMMANDER IV",
+      "officer_ability_value": 2750.0,
+      "requirements": {
+        "badges": 2,
+        "credits": 11500,
+        "others": [],
+        "shards": 300,
+        "xp": 1250000
+      },
+      "below_deck_ability_value": 0.08
+    },
+    {
+      "rank_id": 5,
+      "name": "COMMANDER V",
+      "officer_ability_value": 5000.0,
+      "requirements": {
+        "badges": 4,
+        "credits": 25000,
+        "others": [],
+        "shards": 800,
+        "xp": 2500000
+      },
+      "below_deck_ability_value": 0.12
+    }
+  ],
+  "img_url": "./assets/masriad_vael.png"
+}

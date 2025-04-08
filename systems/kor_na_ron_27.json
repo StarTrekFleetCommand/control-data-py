@@ -13,27 +13,39 @@
       "warp": 21
     },
     {
-      "$ref": "systems/duriana_28",
-      "distance": 21,
-      "warp": 7
-    },
-    {
       "$ref": "systems/paradane_27",
       "distance": 21,
       "warp": 21
+    },
+    {
+      "$ref": "systems/duriana_28",
+      "distance": 21,
+      "warp": 7
     }
   ],
   "faction": "augment",
   "level": 27,
   "mining": [
     {
-      "type": "Corrupted Data",
-      "amount": 36,
+      "type": "corrupted data",
+      "amount": 1,
       "mining_per_hour": 8,
       "size": 4000
     }
   ],
   "planets": [
+    "Corrupted Data Accelerator",
+    "Corrupted Data Accelerator",
+    "Corrupted Data Accelerator",
+    "Corrupted Data Accelerator",
+    "Corrupted Data Accelerator",
+    "Corrupted Data Accelerator",
+    "Corrupted Data Accelerator",
+    "Corrupted Data Accelerator",
+    "Corrupted Data Accelerator",
+    "Corrupted Data Accelerator",
+    "Corrupted Data Accelerator",
+    "Corrupted Data Accelerator",
     "Finaloe",
     "Iiwuyuk",
     "Kor Na Ron",
@@ -41,6 +53,6 @@
   ],
   "scopely_id": 694278480,
   "system_space": "normal",
-  "system_type": "hub",
+  "system_type": "route",
   "warp": 21
 }

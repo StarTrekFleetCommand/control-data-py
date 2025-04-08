@@ -1,0 +1,342 @@
+{
+  "research_name": "Learning Curve",
+  "description": "Increases base Research Speed. <color=#FFEF40>(On Duty)</color>",
+  "location": {
+    "column": 1,
+    "row": 1,
+    "tree": "fleet commander"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 0,
+      "increased_power": 51000,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "janeway skill points",
+            "value": 25
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.16
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 0,
+      "increased_power": 15000,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "janeway skill points",
+            "value": 30
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.22
+      }
+    },
+    {
+      "level": 3,
+      "research_time": 0,
+      "increased_power": 11000,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "janeway skill points",
+            "value": 35
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.28
+      }
+    },
+    {
+      "level": 4,
+      "research_time": 0,
+      "increased_power": 19000,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "janeway skill points",
+            "value": 40
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.34
+      }
+    },
+    {
+      "level": 5,
+      "research_time": 0,
+      "increased_power": 16000,
+      "requirements": [
+        {
+          "name": "Command Center",
+          "level": 10
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "janeway skill points",
+            "value": 50
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.44
+      }
+    },
+    {
+      "level": 6,
+      "research_time": 0,
+      "increased_power": 26000,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "janeway skill points",
+            "value": 55
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.54
+      }
+    },
+    {
+      "level": 7,
+      "research_time": 0,
+      "increased_power": 22000,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "janeway skill points",
+            "value": 65
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.64
+      }
+    },
+    {
+      "level": 8,
+      "research_time": 0,
+      "increased_power": 32000,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "janeway skill points",
+            "value": 75
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.74
+      }
+    },
+    {
+      "level": 9,
+      "research_time": 0,
+      "increased_power": 28000,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "janeway skill points",
+            "value": 85
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.84
+      }
+    },
+    {
+      "level": 10,
+      "research_time": 0,
+      "increased_power": 45000,
+      "requirements": [
+        {
+          "name": "Command Center",
+          "level": 30
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "janeway skill points",
+            "value": 95
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.98
+      }
+    },
+    {
+      "level": 11,
+      "research_time": 0,
+      "increased_power": 55000,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "janeway skill points",
+            "value": 110
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 1.12
+      }
+    },
+    {
+      "level": 12,
+      "research_time": 0,
+      "increased_power": 60000,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "janeway skill points",
+            "value": 120
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 1.26
+      }
+    },
+    {
+      "level": 13,
+      "research_time": 0,
+      "increased_power": 75000,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "janeway skill points",
+            "value": 135
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 1.4
+      }
+    },
+    {
+      "level": 14,
+      "research_time": 0,
+      "increased_power": 85000,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "janeway skill points",
+            "value": 155
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 1.6
+      }
+    },
+    {
+      "level": 15,
+      "research_time": 0,
+      "increased_power": 100000,
+      "requirements": [
+        {
+          "name": "Command Center",
+          "level": 45
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "janeway skill points",
+            "value": 170
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 2.0
+      }
+    }
+  ],
+  "img_url": "./assets/learning_curve_fleet_commander_1_1.png"
+}

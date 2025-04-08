@@ -28,9 +28,9 @@
       "warp": 5
     },
     {
-      "$ref": "systems/clytomenes_12",
-      "distance": 7,
-      "warp": 7
+      "$ref": "systems/nausicaa_12",
+      "distance": 8,
+      "warp": 8
     },
     {
       "$ref": "systems/fithis_8",
@@ -38,9 +38,9 @@
       "warp": 5
     },
     {
-      "$ref": "systems/nausicaa_12",
-      "distance": 8,
-      "warp": 8
+      "$ref": "systems/clytomenes_12",
+      "distance": 7,
+      "warp": 7
     }
   ],
   "faction": "neutral",
@@ -51,13 +51,16 @@
   "level": 9,
   "mining": [
     {
-      "type": "Tritanium",
-      "amount": 6,
+      "type": "tritanium",
+      "amount": 2,
       "mining_per_hour": 320,
       "size": 6000
     }
   ],
   "planets": [
+    "'",
+    "'",
+    "'",
     "Eauay",
     "Gepig",
     "Hobatai",

@@ -28,7 +28,7 @@
       "warp": 5
     },
     {
-      "$ref": "systems/aodaan_8",
+      "$ref": "systems/silneimhe_8",
       "distance": 5,
       "warp": 5
     },
@@ -38,7 +38,7 @@
       "warp": 7
     },
     {
-      "$ref": "systems/s_ilneimhe_8",
+      "$ref": "systems/aodaan_8",
       "distance": 5,
       "warp": 5
     }
@@ -51,13 +51,17 @@
   "level": 9,
   "mining": [
     {
-      "type": "Tritanium",
-      "amount": 6,
+      "type": "tritanium",
+      "amount": 2,
       "mining_per_hour": 320,
       "size": 6000
     }
   ],
   "planets": [
+    "'",
+    "'",
+    "'",
+    "'",
     "Feehan",
     "Heoew",
     "Lonem",

@@ -3,12 +3,12 @@
   "capture_nodes": 0,
   "connected_systems": [
     {
-      "$ref": "systems/ganzin_48",
+      "$ref": "systems/toen_48",
       "distance": 160,
       "warp": 160
     },
     {
-      "$ref": "systems/toen_48",
+      "$ref": "systems/ganzin_48",
       "distance": 160,
       "warp": 160
     },
@@ -28,6 +28,6 @@
   ],
   "scopely_id": 549542882,
   "system_space": "deep",
-  "system_type": "hub",
+  "system_type": "route",
   "warp": 160
 }

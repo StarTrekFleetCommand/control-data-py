@@ -194,7 +194,7 @@
         },
         {
           "ability_bonus": 1.65,
-          "additional_officer_slot": true,
+          "additional_officer_slot": false,
           "level": 5,
           "ship_xp": 260784
         }
@@ -249,7 +249,7 @@
             ],
             "others": [
               {
-                "type": "5\u2605 Common Survey Parts",
+                "type": "5\u2605 common survey parts",
                 "value": 37584
               }
             ]
@@ -319,7 +319,7 @@
             ],
             "others": [
               {
-                "type": "5\u2605 Common Survey Parts",
+                "type": "5\u2605 common survey parts",
                 "value": 40475
               }
             ]
@@ -336,7 +336,7 @@
           ],
           "additional_info": {
             "mining_laser_info": {
-              "mining_bonus": 29
+              "mining_bonus": 29.0
             }
           },
           "quantity": 1
@@ -371,7 +371,7 @@
             ],
             "others": [
               {
-                "type": "5\u2605 Common Survey Parts",
+                "type": "5\u2605 common survey parts",
                 "value": 34693
               }
             ]
@@ -422,7 +422,7 @@
             ],
             "others": [
               {
-                "type": "5\u2605 Common Survey Parts",
+                "type": "5\u2605 common survey parts",
                 "value": 52039
               }
             ]
@@ -475,7 +475,7 @@
             ],
             "others": [
               {
-                "type": "5\u2605 Common Survey Parts",
+                "type": "5\u2605 common survey parts",
                 "value": 43366
               }
             ]
@@ -524,7 +524,7 @@
             ],
             "others": [
               {
-                "type": "5\u2605 Common Survey Parts",
+                "type": "5\u2605 common survey parts",
                 "value": 49148
               }
             ]
@@ -577,7 +577,7 @@
             ],
             "others": [
               {
-                "type": "5\u2605 Common Survey Parts",
+                "type": "5\u2605 common survey parts",
                 "value": 31802
               }
             ]
@@ -628,7 +628,7 @@
         },
         {
           "ability_bonus": 1.8,
-          "additional_officer_slot": true,
+          "additional_officer_slot": false,
           "level": 10,
           "ship_xp": 777617
         }
@@ -669,12 +669,12 @@
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Survey Parts",
-                "value": 8640
+                "type": "5\u2605 common survey parts",
+                "value": 53097
               },
               {
-                "type": "5\u2605 Common Survey Parts",
-                "value": 53097
+                "type": "5\u2605 uncommon survey parts",
+                "value": 8640
               }
             ]
           },
@@ -729,8 +729,8 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 36993,
+                "type": "gas",
+                "value": 17124,
                 "grade": 5,
                 "rarity": "uncommon"
               },
@@ -741,15 +741,15 @@
                 "rarity": "common"
               },
               {
-                "type": "gas",
-                "value": 17124,
+                "type": "crystal",
+                "value": 36993,
                 "grade": 5,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Survey Parts",
+                "type": "5\u2605 uncommon survey parts",
                 "value": 6912
               }
             ]
@@ -787,8 +787,8 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 30267,
+                "type": "gas",
+                "value": 20930,
                 "grade": 5,
                 "rarity": "uncommon"
               },
@@ -799,15 +799,15 @@
                 "rarity": "common"
               },
               {
-                "type": "gas",
-                "value": 20930,
+                "type": "crystal",
+                "value": 30267,
                 "grade": 5,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Survey Parts",
+                "type": "5\u2605 uncommon survey parts",
                 "value": 7488
               }
             ]
@@ -858,7 +858,7 @@
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Survey Parts",
+                "type": "5\u2605 uncommon survey parts",
                 "value": 9792
               }
             ]
@@ -911,12 +911,12 @@
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Survey Parts",
-                "value": 8064
+                "type": "5\u2605 common survey parts",
+                "value": 46970
               },
               {
-                "type": "5\u2605 Common Survey Parts",
-                "value": 46970
+                "type": "5\u2605 uncommon survey parts",
+                "value": 8064
               }
             ]
           },
@@ -964,12 +964,12 @@
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Survey Parts",
-                "value": 10368
+                "type": "5\u2605 common survey parts",
+                "value": 55139
               },
               {
-                "type": "5\u2605 Common Survey Parts",
-                "value": 55139
+                "type": "5\u2605 uncommon survey parts",
+                "value": 10368
               }
             ]
           },
@@ -1021,12 +1021,12 @@
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Survey Parts",
-                "value": 6336
+                "type": "5\u2605 common survey parts",
+                "value": 49012
               },
               {
-                "type": "5\u2605 Common Survey Parts",
-                "value": 49012
+                "type": "5\u2605 uncommon survey parts",
+                "value": 6336
               }
             ]
           },
@@ -1075,7 +1075,7 @@
           "ship_xp": 1337055
         },
         {
-          "ability_bonus": 2,
+          "ability_bonus": 2.0,
           "additional_officer_slot": false,
           "level": 15,
           "ship_xp": 1486805
@@ -1103,26 +1103,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 18945,
+                "type": "gas",
+                "value": 9894,
                 "grade": 5,
                 "rarity": "uncommon"
               },
               {
-                "type": "gas",
-                "value": 9894,
+                "type": "crystal",
+                "value": 18945,
                 "grade": 5,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Survey Parts",
-                "value": 9360
+                "type": "5\u2605 common survey parts",
+                "value": 57521
               },
               {
-                "type": "5\u2605 Common Survey Parts",
-                "value": 57521
+                "type": "5\u2605 uncommon survey parts",
+                "value": 9360
               }
             ]
           },
@@ -1177,8 +1177,8 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 16759,
+                "type": "gas",
+                "value": 11131,
                 "grade": 5,
                 "rarity": "uncommon"
               },
@@ -1189,15 +1189,15 @@
                 "rarity": "common"
               },
               {
-                "type": "gas",
-                "value": 11131,
+                "type": "crystal",
+                "value": 16759,
                 "grade": 5,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Survey Parts",
+                "type": "5\u2605 uncommon survey parts",
                 "value": 7488
               }
             ]
@@ -1235,8 +1235,8 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 19674,
+                "type": "gas",
+                "value": 9482,
                 "grade": 5,
                 "rarity": "uncommon"
               },
@@ -1247,15 +1247,15 @@
                 "rarity": "common"
               },
               {
-                "type": "gas",
-                "value": 9482,
+                "type": "crystal",
+                "value": 19674,
                 "grade": 5,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Survey Parts",
+                "type": "5\u2605 uncommon survey parts",
                 "value": 8112
               }
             ]
@@ -1292,8 +1292,8 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 17488,
+                "type": "gas",
+                "value": 10719,
                 "grade": 5,
                 "rarity": "uncommon"
               },
@@ -1304,15 +1304,15 @@
                 "rarity": "common"
               },
               {
-                "type": "gas",
-                "value": 10719,
+                "type": "crystal",
+                "value": 17488,
                 "grade": 5,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Survey Parts",
+                "type": "5\u2605 uncommon survey parts",
                 "value": 10608
               }
             ]
@@ -1365,12 +1365,12 @@
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Survey Parts",
-                "value": 8736
+                "type": "5\u2605 common survey parts",
+                "value": 50884
               },
               {
-                "type": "5\u2605 Common Survey Parts",
-                "value": 50884
+                "type": "5\u2605 uncommon survey parts",
+                "value": 8736
               }
             ]
           },
@@ -1418,12 +1418,12 @@
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Survey Parts",
-                "value": 11232
+                "type": "5\u2605 common survey parts",
+                "value": 59734
               },
               {
-                "type": "5\u2605 Common Survey Parts",
-                "value": 59734
+                "type": "5\u2605 uncommon survey parts",
+                "value": 11232
               }
             ]
           },
@@ -1475,12 +1475,12 @@
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Survey Parts",
-                "value": 6864
+                "type": "5\u2605 common survey parts",
+                "value": 53097
               },
               {
-                "type": "5\u2605 Common Survey Parts",
-                "value": 53097
+                "type": "5\u2605 uncommon survey parts",
+                "value": 6864
               }
             ]
           },
@@ -1530,7 +1530,7 @@
         },
         {
           "ability_bonus": 2.2,
-          "additional_officer_slot": true,
+          "additional_officer_slot": false,
           "level": 20,
           "ship_xp": 2416358
         }
@@ -1557,26 +1557,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 16104,
+                "type": "gas",
+                "value": 7747,
                 "grade": 5,
                 "rarity": "uncommon"
               },
               {
-                "type": "gas",
-                "value": 7747,
+                "type": "crystal",
+                "value": 16104,
                 "grade": 5,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Survey Parts",
-                "value": 10345
+                "type": "5\u2605 common survey parts",
+                "value": 63569
               },
               {
-                "type": "5\u2605 Common Survey Parts",
-                "value": 63569
+                "type": "5\u2605 uncommon survey parts",
+                "value": 10345
               }
             ]
           },
@@ -1631,21 +1631,21 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 13689,
+                "type": "gas",
+                "value": 6835,
                 "grade": 5,
                 "rarity": "uncommon"
               },
               {
-                "type": "gas",
-                "value": 6835,
+                "type": "crystal",
+                "value": 13689,
                 "grade": 5,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Survey Parts",
+                "type": "5\u2605 uncommon survey parts",
                 "value": 8276
               }
             ]
@@ -1683,21 +1683,21 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 12078,
+                "type": "gas",
+                "value": 7291,
                 "grade": 5,
                 "rarity": "uncommon"
               },
               {
-                "type": "gas",
-                "value": 7291,
+                "type": "crystal",
+                "value": 12078,
                 "grade": 5,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Survey Parts",
+                "type": "5\u2605 uncommon survey parts",
                 "value": 8966
               }
             ]
@@ -1734,21 +1734,21 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 18520,
+                "type": "gas",
+                "value": 11392,
                 "grade": 5,
                 "rarity": "uncommon"
               },
               {
-                "type": "gas",
-                "value": 11392,
+                "type": "crystal",
+                "value": 18520,
                 "grade": 5,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Survey Parts",
+                "type": "5\u2605 uncommon survey parts",
                 "value": 11724
               }
             ]
@@ -1795,12 +1795,12 @@
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Survey Parts",
-                "value": 9655
+                "type": "5\u2605 common survey parts",
+                "value": 56235
               },
               {
-                "type": "5\u2605 Common Survey Parts",
-                "value": 56235
+                "type": "5\u2605 uncommon survey parts",
+                "value": 9655
               }
             ]
           },
@@ -1834,26 +1834,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 20130,
+                "type": "gas",
+                "value": 12303,
                 "grade": 5,
                 "rarity": "uncommon"
               },
               {
-                "type": "gas",
-                "value": 12303,
+                "type": "crystal",
+                "value": 20130,
                 "grade": 5,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Survey Parts",
-                "value": 12414
+                "type": "5\u2605 common survey parts",
+                "value": 66014
               },
               {
-                "type": "5\u2605 Common Survey Parts",
-                "value": 66014
+                "type": "5\u2605 uncommon survey parts",
+                "value": 12414
               }
             ]
           },
@@ -1899,12 +1899,12 @@
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Survey Parts",
-                "value": 7587
+                "type": "5\u2605 common survey parts",
+                "value": 58680
               },
               {
-                "type": "5\u2605 Common Survey Parts",
-                "value": 58680
+                "type": "5\u2605 uncommon survey parts",
+                "value": 7587
               }
             ]
           },
@@ -1981,26 +1981,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 13804,
+                "type": "gas",
+                "value": 11717,
                 "grade": 5,
                 "rarity": "uncommon"
               },
               {
-                "type": "gas",
-                "value": 11717,
+                "type": "crystal",
+                "value": 13804,
                 "grade": 5,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Survey Parts",
-                "value": 11084
+                "type": "5\u2605 common survey parts",
+                "value": 68110
               },
               {
-                "type": "5\u2605 Common Survey Parts",
-                "value": 68110
+                "type": "5\u2605 uncommon survey parts",
+                "value": 11084
               }
             ]
           },
@@ -2075,7 +2075,7 @@
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Survey Parts",
+                "type": "5\u2605 uncommon survey parts",
                 "value": 8867
               }
             ]
@@ -2133,7 +2133,7 @@
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Survey Parts",
+                "type": "5\u2605 uncommon survey parts",
                 "value": 9606
               }
             ]
@@ -2170,21 +2170,21 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 17254,
+                "type": "gas",
+                "value": 13182,
                 "grade": 5,
                 "rarity": "uncommon"
               },
               {
-                "type": "gas",
-                "value": 13182,
+                "type": "crystal",
+                "value": 17254,
                 "grade": 5,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Survey Parts",
+                "type": "5\u2605 uncommon survey parts",
                 "value": 12562
               }
             ]
@@ -2231,12 +2231,12 @@
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Survey Parts",
-                "value": 10345
+                "type": "5\u2605 common survey parts",
+                "value": 60251
               },
               {
-                "type": "5\u2605 Common Survey Parts",
-                "value": 60251
+                "type": "5\u2605 uncommon survey parts",
+                "value": 10345
               }
             ]
           },
@@ -2270,26 +2270,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 18980,
+                "type": "gas",
+                "value": 12694,
                 "grade": 5,
                 "rarity": "uncommon"
               },
               {
-                "type": "gas",
-                "value": 12694,
+                "type": "crystal",
+                "value": 18980,
                 "grade": 5,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Survey Parts",
-                "value": 13301
+                "type": "5\u2605 common survey parts",
+                "value": 70730
               },
               {
-                "type": "5\u2605 Common Survey Parts",
-                "value": 70730
+                "type": "5\u2605 uncommon survey parts",
+                "value": 13301
               }
             ]
           },
@@ -2327,26 +2327,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 11216,
+                "type": "gas",
+                "value": 11229,
                 "grade": 5,
                 "rarity": "uncommon"
               },
               {
-                "type": "gas",
-                "value": 11229,
+                "type": "crystal",
+                "value": 11216,
                 "grade": 5,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Survey Parts",
-                "value": 8128
+                "type": "5\u2605 common survey parts",
+                "value": 62871
               },
               {
-                "type": "5\u2605 Common Survey Parts",
-                "value": 62871
+                "type": "5\u2605 uncommon survey parts",
+                "value": 8128
               }
             ]
           },
@@ -2396,7 +2396,7 @@
         },
         {
           "ability_bonus": 2.7,
-          "additional_officer_slot": true,
+          "additional_officer_slot": false,
           "level": 30,
           "ship_xp": 4778346
         }
@@ -2437,12 +2437,12 @@
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Survey Parts",
-                "value": 12132
+                "type": "5\u2605 common survey parts",
+                "value": 74552
               },
               {
-                "type": "5\u2605 Common Survey Parts",
-                "value": 74552
+                "type": "5\u2605 uncommon survey parts",
+                "value": 12132
               }
             ]
           },
@@ -2517,7 +2517,7 @@
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Survey Parts",
+                "type": "5\u2605 uncommon survey parts",
                 "value": 9706
               }
             ]
@@ -2534,7 +2534,7 @@
           ],
           "additional_info": {
             "mining_laser_info": {
-              "mining_bonus": 44
+              "mining_bonus": 44.0
             }
           },
           "quantity": 1
@@ -2575,7 +2575,7 @@
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Survey Parts",
+                "type": "5\u2605 uncommon survey parts",
                 "value": 10515
               }
             ]
@@ -2619,20 +2619,20 @@
               },
               {
                 "type": "crystal",
-                "value": 6986,
-                "grade": 5,
-                "rarity": "rare"
-              },
-              {
-                "type": "crystal",
                 "value": 330509,
                 "grade": 5,
                 "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 6986,
+                "grade": 5,
+                "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Survey Parts",
+                "type": "5\u2605 uncommon survey parts",
                 "value": 13750
               }
             ]
@@ -2671,26 +2671,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 18885,
+                "type": "gas",
+                "value": 17637,
                 "grade": 5,
                 "rarity": "uncommon"
               },
               {
-                "type": "gas",
-                "value": 17637,
+                "type": "crystal",
+                "value": 18885,
                 "grade": 5,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Survey Parts",
-                "value": 11324
+                "type": "5\u2605 common survey parts",
+                "value": 65950
               },
               {
-                "type": "5\u2605 Common Survey Parts",
-                "value": 65950
+                "type": "5\u2605 uncommon survey parts",
+                "value": 11324
               }
             ]
           },
@@ -2724,26 +2724,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 23606,
+                "type": "gas",
+                "value": 19774,
                 "grade": 5,
                 "rarity": "uncommon"
               },
               {
-                "type": "gas",
-                "value": 19774,
+                "type": "crystal",
+                "value": 23606,
                 "grade": 5,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Survey Parts",
-                "value": 14559
+                "type": "5\u2605 common survey parts",
+                "value": 77419
               },
               {
-                "type": "5\u2605 Common Survey Parts",
-                "value": 77419
+                "type": "5\u2605 uncommon survey parts",
+                "value": 14559
               }
             ]
           },
@@ -2781,26 +2781,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 21718,
+                "type": "gas",
+                "value": 16033,
                 "grade": 5,
                 "rarity": "uncommon"
               },
               {
-                "type": "gas",
-                "value": 16033,
+                "type": "crystal",
+                "value": 21718,
                 "grade": 5,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Survey Parts",
-                "value": 8897
+                "type": "5\u2605 common survey parts",
+                "value": 68817
               },
               {
-                "type": "5\u2605 Common Survey Parts",
-                "value": 68817
+                "type": "5\u2605 uncommon survey parts",
+                "value": 8897
               }
             ]
           },
@@ -2849,7 +2849,7 @@
           "ship_xp": 6099019
         },
         {
-          "ability_bonus": 3,
+          "ability_bonus": 3.0,
           "additional_officer_slot": false,
           "level": 35,
           "ship_xp": 6355177
@@ -2891,12 +2891,12 @@
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Survey Parts",
-                "value": 12891
+                "type": "5\u2605 common survey parts",
+                "value": 79211
               },
               {
-                "type": "5\u2605 Common Survey Parts",
-                "value": 79211
+                "type": "5\u2605 uncommon survey parts",
+                "value": 12891
               }
             ]
           },
@@ -2971,7 +2971,7 @@
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Survey Parts",
+                "type": "5\u2605 uncommon survey parts",
                 "value": 10313
               }
             ]
@@ -3029,7 +3029,7 @@
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Survey Parts",
+                "type": "5\u2605 uncommon survey parts",
                 "value": 11172
               }
             ]
@@ -3073,20 +3073,20 @@
               },
               {
                 "type": "crystal",
-                "value": 7422,
-                "grade": 5,
-                "rarity": "rare"
-              },
-              {
-                "type": "crystal",
                 "value": 351166,
                 "grade": 5,
                 "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 7422,
+                "grade": 5,
+                "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Survey Parts",
+                "type": "5\u2605 uncommon survey parts",
                 "value": 14609
               }
             ]
@@ -3125,26 +3125,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 20065,
+                "type": "gas",
+                "value": 18739,
                 "grade": 5,
                 "rarity": "uncommon"
               },
               {
-                "type": "gas",
-                "value": 18739,
+                "type": "crystal",
+                "value": 20065,
                 "grade": 5,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Survey Parts",
-                "value": 12031
+                "type": "5\u2605 common survey parts",
+                "value": 70072
               },
               {
-                "type": "5\u2605 Common Survey Parts",
-                "value": 70072
+                "type": "5\u2605 uncommon survey parts",
+                "value": 12031
               }
             ]
           },
@@ -3178,26 +3178,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 25081,
+                "type": "gas",
+                "value": 21010,
                 "grade": 5,
                 "rarity": "uncommon"
               },
               {
-                "type": "gas",
-                "value": 21010,
+                "type": "crystal",
+                "value": 25081,
                 "grade": 5,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Survey Parts",
-                "value": 15469
+                "type": "5\u2605 common survey parts",
+                "value": 82258
               },
               {
-                "type": "5\u2605 Common Survey Parts",
-                "value": 82258
+                "type": "5\u2605 uncommon survey parts",
+                "value": 15469
               }
             ]
           },
@@ -3235,26 +3235,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 23075,
+                "type": "gas",
+                "value": 17036,
                 "grade": 5,
                 "rarity": "uncommon"
               },
               {
-                "type": "gas",
-                "value": 17036,
+                "type": "crystal",
+                "value": 23075,
                 "grade": 5,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Survey Parts",
-                "value": 9453
+                "type": "5\u2605 common survey parts",
+                "value": 73118
               },
               {
-                "type": "5\u2605 Common Survey Parts",
-                "value": 73118
+                "type": "5\u2605 uncommon survey parts",
+                "value": 9453
               }
             ]
           },
@@ -3345,12 +3345,12 @@
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Survey Parts",
-                "value": 14005
+                "type": "5\u2605 common survey parts",
+                "value": 86066
               },
               {
-                "type": "5\u2605 Common Survey Parts",
-                "value": 86066
+                "type": "5\u2605 uncommon survey parts",
+                "value": 14005
               }
             ]
           },
@@ -3425,7 +3425,7 @@
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Survey Parts",
+                "type": "5\u2605 uncommon survey parts",
                 "value": 11204
               }
             ]
@@ -3442,7 +3442,7 @@
           ],
           "additional_info": {
             "mining_laser_info": {
-              "mining_bonus": 51
+              "mining_bonus": 51.0
             }
           },
           "quantity": 1
@@ -3483,7 +3483,7 @@
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Survey Parts",
+                "type": "5\u2605 uncommon survey parts",
                 "value": 12138
               }
             ]
@@ -3540,7 +3540,7 @@
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Survey Parts",
+                "type": "5\u2605 uncommon survey parts",
                 "value": 15873
               }
             ]
@@ -3579,26 +3579,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 34890,
+                "type": "gas",
+                "value": 27764,
                 "grade": 5,
                 "rarity": "uncommon"
               },
               {
-                "type": "gas",
-                "value": 27764,
+                "type": "crystal",
+                "value": 34890,
                 "grade": 5,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Survey Parts",
-                "value": 13072
+                "type": "5\u2605 common survey parts",
+                "value": 76135
               },
               {
-                "type": "5\u2605 Common Survey Parts",
-                "value": 76135
+                "type": "5\u2605 uncommon survey parts",
+                "value": 13072
               }
             ]
           },
@@ -3646,12 +3646,12 @@
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Survey Parts",
-                "value": 16806
+                "type": "5\u2605 common survey parts",
+                "value": 89376
               },
               {
-                "type": "5\u2605 Common Survey Parts",
-                "value": 89376
+                "type": "5\u2605 uncommon survey parts",
+                "value": 16806
               }
             ]
           },
@@ -3689,26 +3689,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 35980,
+                "type": "gas",
+                "value": 33934,
                 "grade": 5,
                 "rarity": "uncommon"
               },
               {
-                "type": "gas",
-                "value": 33934,
+                "type": "crystal",
+                "value": 35980,
                 "grade": 5,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Survey Parts",
-                "value": 10271
+                "type": "5\u2605 common survey parts",
+                "value": 79445
               },
               {
-                "type": "5\u2605 Common Survey Parts",
-                "value": 79445
+                "type": "5\u2605 uncommon survey parts",
+                "value": 10271
               }
             ]
           },
@@ -3758,7 +3758,7 @@
         },
         {
           "ability_bonus": 3.7,
-          "additional_officer_slot": true,
+          "additional_officer_slot": false,
           "level": 45,
           "ship_xp": 9908666
         }
@@ -3805,7 +3805,7 @@
             ],
             "others": [
               {
-                "type": "5\u2605 Rare Survey Parts",
+                "type": "5\u2605 rare survey parts",
                 "value": 1056
               }
             ]
@@ -3881,7 +3881,7 @@
             ],
             "others": [
               {
-                "type": "5\u2605 Rare Survey Parts",
+                "type": "5\u2605 rare survey parts",
                 "value": 845
               }
             ]
@@ -3898,7 +3898,7 @@
           ],
           "additional_info": {
             "mining_laser_info": {
-              "mining_bonus": 55
+              "mining_bonus": 55.0
             }
           },
           "quantity": 1
@@ -3939,7 +3939,7 @@
             ],
             "others": [
               {
-                "type": "5\u2605 Rare Survey Parts",
+                "type": "5\u2605 rare survey parts",
                 "value": 916
               }
             ]
@@ -3996,7 +3996,7 @@
             ],
             "others": [
               {
-                "type": "5\u2605 Rare Survey Parts",
+                "type": "5\u2605 rare survey parts",
                 "value": 1197
               }
             ]
@@ -4035,26 +4035,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 42643,
+                "type": "gas",
+                "value": 75408,
                 "grade": 5,
                 "rarity": "uncommon"
               },
               {
-                "type": "gas",
-                "value": 75408,
+                "type": "crystal",
+                "value": 42643,
                 "grade": 5,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "5\u2605 Rare Survey Parts",
-                "value": 986
+                "type": "5\u2605 common survey parts",
+                "value": 182061
               },
               {
-                "type": "5\u2605 Common Survey Parts",
-                "value": 182061
+                "type": "5\u2605 rare survey parts",
+                "value": 986
               }
             ]
           },
@@ -4102,12 +4102,12 @@
             ],
             "others": [
               {
-                "type": "5\u2605 Rare Survey Parts",
-                "value": 1268
+                "type": "5\u2605 common survey parts",
+                "value": 222519
               },
               {
-                "type": "5\u2605 Common Survey Parts",
-                "value": 222519
+                "type": "5\u2605 rare survey parts",
+                "value": 1268
               }
             ]
           },
@@ -4165,7 +4165,7 @@
             ],
             "others": [
               {
-                "type": "5\u2605 Rare Survey Parts",
+                "type": "5\u2605 rare survey parts",
                 "value": 775
               }
             ]
@@ -4203,7 +4203,7 @@
           "ship_xp": 10756530
         },
         {
-          "ability_bonus": 4,
+          "ability_bonus": 4.0,
           "additional_officer_slot": false,
           "level": 48,
           "ship_xp": 11057713
@@ -4263,7 +4263,7 @@
             ],
             "others": [
               {
-                "type": "5\u2605 Rare Survey Parts",
+                "type": "5\u2605 rare survey parts",
                 "value": 1280
               }
             ]
@@ -4339,7 +4339,7 @@
             ],
             "others": [
               {
-                "type": "5\u2605 Rare Survey Parts",
+                "type": "5\u2605 rare survey parts",
                 "value": 1024
               }
             ]
@@ -4356,7 +4356,7 @@
           ],
           "additional_info": {
             "mining_laser_info": {
-              "mining_bonus": 59
+              "mining_bonus": 59.0
             }
           },
           "quantity": 1
@@ -4397,7 +4397,7 @@
             ],
             "others": [
               {
-                "type": "5\u2605 Rare Survey Parts",
+                "type": "5\u2605 rare survey parts",
                 "value": 1109
               }
             ]
@@ -4434,16 +4434,16 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 58172,
-                "grade": 5,
-                "rarity": "uncommon"
-              },
-              {
                 "type": "gas",
                 "value": 1348,
                 "grade": 5,
                 "rarity": "epic"
+              },
+              {
+                "type": "crystal",
+                "value": 58172,
+                "grade": 5,
+                "rarity": "uncommon"
               },
               {
                 "type": "crystal",
@@ -4454,7 +4454,7 @@
             ],
             "others": [
               {
-                "type": "5\u2605 Rare Survey Parts",
+                "type": "5\u2605 rare survey parts",
                 "value": 1450
               }
             ]
@@ -4493,26 +4493,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 48477,
+                "type": "gas",
+                "value": 91440,
                 "grade": 5,
                 "rarity": "uncommon"
               },
               {
-                "type": "gas",
-                "value": 91440,
+                "type": "crystal",
+                "value": 48477,
                 "grade": 5,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "5\u2605 Rare Survey Parts",
-                "value": 1194
+                "type": "5\u2605 common survey parts",
+                "value": 220791
               },
               {
-                "type": "5\u2605 Common Survey Parts",
-                "value": 220791
+                "type": "5\u2605 rare survey parts",
+                "value": 1194
               }
             ]
           },
@@ -4560,12 +4560,12 @@
             ],
             "others": [
               {
-                "type": "5\u2605 Rare Survey Parts",
-                "value": 1536
+                "type": "5\u2605 common survey parts",
+                "value": 269856
               },
               {
-                "type": "5\u2605 Common Survey Parts",
-                "value": 269856
+                "type": "5\u2605 rare survey parts",
+                "value": 1536
               }
             ]
           },
@@ -4623,7 +4623,7 @@
             ],
             "others": [
               {
-                "type": "5\u2605 Rare Survey Parts",
+                "type": "5\u2605 rare survey parts",
                 "value": 939
               }
             ]
@@ -4721,7 +4721,7 @@
             ],
             "others": [
               {
-                "type": "5\u2605 Rare Survey Parts",
+                "type": "5\u2605 rare survey parts",
                 "value": 1476
               }
             ]
@@ -4797,7 +4797,7 @@
             ],
             "others": [
               {
-                "type": "5\u2605 Rare Survey Parts",
+                "type": "5\u2605 rare survey parts",
                 "value": 1181
               }
             ]
@@ -4814,7 +4814,7 @@
           ],
           "additional_info": {
             "mining_laser_info": {
-              "mining_bonus": 63
+              "mining_bonus": 63.0
             }
           },
           "quantity": 1
@@ -4855,7 +4855,7 @@
             ],
             "others": [
               {
-                "type": "5\u2605 Rare Survey Parts",
+                "type": "5\u2605 rare survey parts",
                 "value": 1280
               }
             ]
@@ -4892,16 +4892,16 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 102546,
-                "grade": 5,
-                "rarity": "uncommon"
-              },
-              {
                 "type": "gas",
                 "value": 1555,
                 "grade": 5,
                 "rarity": "epic"
+              },
+              {
+                "type": "crystal",
+                "value": 102546,
+                "grade": 5,
+                "rarity": "uncommon"
               },
               {
                 "type": "crystal",
@@ -4912,7 +4912,7 @@
             ],
             "others": [
               {
-                "type": "5\u2605 Rare Survey Parts",
+                "type": "5\u2605 rare survey parts",
                 "value": 1673
               }
             ]
@@ -4965,12 +4965,12 @@
             ],
             "others": [
               {
-                "type": "5\u2605 Rare Survey Parts",
-                "value": 1378
+                "type": "5\u2605 common survey parts",
+                "value": 254759
               },
               {
-                "type": "5\u2605 Common Survey Parts",
-                "value": 254759
+                "type": "5\u2605 rare survey parts",
+                "value": 1378
               }
             ]
           },
@@ -5018,12 +5018,12 @@
             ],
             "others": [
               {
-                "type": "5\u2605 Rare Survey Parts",
-                "value": 1772
+                "type": "5\u2605 common survey parts",
+                "value": 311372
               },
               {
-                "type": "5\u2605 Common Survey Parts",
-                "value": 311372
+                "type": "5\u2605 rare survey parts",
+                "value": 1772
               }
             ]
           },
@@ -5081,7 +5081,7 @@
             ],
             "others": [
               {
-                "type": "5\u2605 Rare Survey Parts",
+                "type": "5\u2605 rare survey parts",
                 "value": 1083
               }
             ]
@@ -5131,7 +5131,7 @@
           "ship_xp": 16462505
         },
         {
-          "ability_bonus": 6,
+          "ability_bonus": 6.0,
           "additional_officer_slot": false,
           "level": 60,
           "ship_xp": 17269168

@@ -1,0 +1,32 @@
+{
+  "name": "Rudellia",
+  "capture_nodes": 0,
+  "connected_systems": [
+    {
+      "$ref": "systems/vanden_45",
+      "distance": 170,
+      "warp": 100
+    },
+    {
+      "$ref": "systems/manora_39",
+      "distance": 170,
+      "warp": 40
+    },
+    {
+      "$ref": "systems/arawath_45",
+      "distance": 170,
+      "warp": 100
+    }
+  ],
+  "faction": "neutral",
+  "level": 50,
+  "mining": [],
+  "planets": [
+    "Rudellia I",
+    "Rudellia II"
+  ],
+  "scopely_id": 635875340,
+  "system_space": "normal",
+  "system_type": "route",
+  "warp": 170
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Leichter",
+  "capture_nodes": 0,
+  "connected_systems": [
+    {
+      "$ref": "systems/jaslyn_60",
+      "distance": 250,
+      "warp": 250
+    },
+    {
+      "$ref": "systems/dijorjoh_50",
+      "distance": 160,
+      "warp": 110
+    },
+    {
+      "$ref": "systems/suvfa_53",
+      "distance": 10,
+      "warp": 160
+    }
+  ],
+  "faction": "neutral",
+  "level": 53,
+  "mining": [],
+  "planets": [
+    "Maram",
+    "Nuzirae",
+    "Visiv"
+  ],
+  "scopely_id": 1556753534,
+  "system_space": "normal",
+  "system_type": "route",
+  "warp": 160
+}

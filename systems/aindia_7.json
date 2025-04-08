@@ -3,12 +3,7 @@
   "capture_nodes": 0,
   "connected_systems": [
     {
-      "$ref": "systems/maluria_7",
-      "distance": 5,
-      "warp": 5
-    },
-    {
-      "$ref": "systems/mara_eya_6",
+      "$ref": "systems/silneimhe_8",
       "distance": 5,
       "warp": 5
     },
@@ -18,22 +13,27 @@
       "warp": 5
     },
     {
-      "$ref": "systems/s_ilneimhe_8",
-      "distance": 5,
-      "warp": 5
-    },
-    {
-      "$ref": "systems/alonso_6",
-      "distance": 5,
-      "warp": 5
-    },
-    {
       "$ref": "systems/ulzar_6",
       "distance": 5,
       "warp": 5
     },
     {
+      "$ref": "systems/maluria_7",
+      "distance": 5,
+      "warp": 5
+    },
+    {
       "$ref": "systems/mielikki_6",
+      "distance": 5,
+      "warp": 5
+    },
+    {
+      "$ref": "systems/mara_eya_6",
+      "distance": 5,
+      "warp": 5
+    },
+    {
+      "$ref": "systems/alonso_6",
       "distance": 5,
       "warp": 5
     },
@@ -47,8 +47,8 @@
   "level": 7,
   "mining": [
     {
-      "type": "Tritanium",
-      "amount": 30,
+      "type": "tritanium",
+      "amount": 1,
       "mining_per_hour": 320,
       "size": 1500
     }
@@ -59,6 +59,6 @@
   ],
   "scopely_id": 1293550007,
   "system_space": "normal",
-  "system_type": "hub",
+  "system_type": "route",
   "warp": 5
 }

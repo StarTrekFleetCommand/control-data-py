@@ -13,11 +13,6 @@
       "warp": 22
     },
     {
-      "$ref": "systems/niawillen_28",
-      "distance": 22,
-      "warp": 22
-    },
-    {
       "$ref": "systems/nalomas_28",
       "distance": 25,
       "warp": 25
@@ -25,6 +20,11 @@
     {
       "$ref": "systems/shynna_29",
       "distance": 20,
+      "warp": 22
+    },
+    {
+      "$ref": "systems/niawillen_28",
+      "distance": 22,
       "warp": 22
     },
     {
@@ -42,19 +42,20 @@
   "level": 30,
   "mining": [
     {
-      "type": "3\u2605 Raw Gas",
-      "amount": 24,
-      "grade": 3,
+      "type": "3\u2605 raw gas",
+      "amount": 1,
       "mining_per_hour": 300,
       "size": 18000
     }
   ],
   "planets": [
+    "'",
+    "'",
     "Gufenik",
     "Onyxis"
   ],
   "scopely_id": 81531,
   "system_space": "normal",
-  "system_type": "hub",
+  "system_type": "route",
   "warp": 22
 }

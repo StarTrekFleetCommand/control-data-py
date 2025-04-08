@@ -1,6 +1,6 @@
 {
   "officer_name": "Mirror Troi",
-  "description": "",
+  "description": "Although both the Prime and alternate dimensions share many similarities, there are just as many deviations that serve to discern them from each other. Notable among these divergences are the respective iterations of Starfleet. While the Starfleet associated with the United Federation of Planets could be regarded as diplomatic peacekeepers, the same could not be said of the Imperial Starfleet. The militant wing of the Terran Empire, Imperial Starfleet, was feared throughout the alternate dimension as conquerors and an extension of the Emperor\u2019s will. Even though both organizations shared similar chains of command, one unique duty in particular was feared throughout the ranks of Imperial Starfleet - the role of Inquisitor. Perhaps the most infamous among the Terran Inquisitors was Deanna Troi.\n\nA Betazoid of the Troi bloodline, Deanna was born on Betazed sometime in the year 2336. Deanna was an empath with innate psionic abilities, capable of reading the minds and emotions of others. These unique skills would eventually see Deanna promoted to the rank of Inquisitor of the Terran Empire, serving under Captain Jean-Luc Picard of the ISS Stargazer. Her psionic abilities were of paramount importance to Picard as they allowed her to closely monitor the emotions and thoughts of the Stargazer crew. When Picard set his sights on the ISS Enterprise-D, Deanna\u2019s deep understanding of the Stargazer crew\u2019s loyalties allowed her Captain to hand-pick his most loyal officers, who would, in turn, go on to serve under him aboard the Enterprise-D.\n\nAs Kira Nerys re-emerged from the shadows and used classified military intel to woo her subjects and claim the mantle of Terran Empress, Deanna was faced with a dilemma: follow in the footsteps of Captain Picard\u2019s defiance and continue to serve him to the end, or swear fealty to this new Empress. With an impossible decision to make, Deanna ultimately chose to serve Empress Nerys as an advisor, and attempted to exploit this esteemed position by distracting the Empress\u2019 attention away from the defiance of Picard and his crew. While seemingly betraying him, Deanna\u2019s loyalty to Captain Picard was unwavering - a fact that she would make sure he knew, one way or another.",
   "class": "science",
   "group": "mirror universe",
   "faction": "federation",
@@ -8,21 +8,21 @@
   "ability_info": {
     "captain_maneuver": {
       "name": "Psionic Tactics",
-      "bonus": "On combat start while against an Explorer player: Mirror Troi increases your Apex Barrier by {value} for the duration of combat.\n\nThis ability does not trigger when Tal is assigned to the bridge of your ship.\n\nApex Barrier provides <b>true damage mitigation</b> from all sources after all other bonuses. Every 100 Apex Barrier increases the damage you can take by 1%.",
+      "bonus": "On combat start while against an Explorer player: Mirror Troi increases your Apex Barrier by {value} for the duration of combat.\n\nThis ability does not trigger when Tal is assigned to the bridge of your ship.\n\nApex Barrier provides <b>true damage mitigation from all sources after all other bonuses. Every 100 Apex Barrier increases the damage you can take by 1%.",
       "percentage": false,
-      "value": 7500
+      "value": 7500.0
     },
     "officer_ability": {
       "name": "Inquisitor's Wrath",
-      "bonus": "On round start against players with Assimilate, Mirror Troi increases your Energy Weapon damage by {value} ({1:#,#%} at rank {2:#,#}) for 1 round.",
+      "bonus": "On round start against players with Assimilate, Mirror Troi increases your Energy Weapon damage by {value} ({value} at rank {value}) for 1 round.",
       "percentage": true
     },
     "below_decks_ability": null
   },
   "synergy": {
-    "command": 18750,
-    "engineering": 18750,
-    "science": 3500
+    "command": 18750.0,
+    "engineering": 18750.0,
+    "science": 3500.0
   },
   "traits": [
     {
@@ -94,13 +94,13 @@
     {
       "rank_id": 3,
       "name": "LIEUTENANT III",
-      "officer_ability_value": 15,
+      "officer_ability_value": 15.0,
       "requirements": {
         "badges": 0,
         "credits": 0,
         "others": [
           {
-            "name": "Liquid Trellium-D",
+            "name": "liquid trellium-d",
             "value": 5200
           }
         ],
@@ -111,13 +111,13 @@
     {
       "rank_id": 4,
       "name": "LT. COMMANDER IV",
-      "officer_ability_value": 23,
+      "officer_ability_value": 23.0,
       "requirements": {
         "badges": 1,
         "credits": 0,
         "others": [
           {
-            "name": "Liquid Trellium-D",
+            "name": "liquid trellium-d",
             "value": 21400
           }
         ],
@@ -128,13 +128,13 @@
     {
       "rank_id": 5,
       "name": "COMMANDER V",
-      "officer_ability_value": 35,
+      "officer_ability_value": 35.0,
       "requirements": {
         "badges": 2,
         "credits": 0,
         "others": [
           {
-            "name": "Liquid Trellium-D",
+            "name": "liquid trellium-d",
             "value": 54600
           }
         ],

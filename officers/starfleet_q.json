@@ -1,0 +1,174 @@
+{
+  "officer_name": "Starfleet Q",
+  "description": "In the year 2364, under the command of Captain Jean-Luc Picard, the USS Enterprise-D embarked on its maiden voyage to Deneb IV. Its mission was to make contact with a species known as the Bandi and investigate the expedited construction of Farpoint Station. However, en route to Deneb IV, Captain Picard and his crew would encounter a being unlike any other - the omnipotent Q. Hailing from an extra-dimensional realm known as the Q Continuum, Q took it upon himself to place humanity as a whole on trial for alleged savagery and barbarism throughout their history. While Captain Picard was successful in his defense of humanity's history and standing among their galactic peers, Q would find himself personally fascinated with Picard, and the two would go on to develop a complicated and storied relationship with one another.\n\nOver the subsequent years, Q would continue to appear without notice to unsuspecting Starfleet crews and captains, ready to test their moral ethics and question humanity's place in the galaxy. While capable of adopting any external appearance that he saw fit, Q would frequently apparate on the bridge of a Starfleet vessel in the form of a male humanoid donned in full captain's uniform. Although his motivations for doing so were questionable, and could be easily mistaken for stolen valor, this mockery was nothing more than an attempt to unsettle the Starfleet captain unfortunate enough to find Q on their bridge.",
+  "class": "command",
+  "group": "interceptor retaliation squad",
+  "faction": "neutral",
+  "rarity": "epic",
+  "ability_info": {
+    "captain_maneuver": {
+      "name": "Mon Capitaine",
+      "bonus": "On round start against players, Starfleet Q has {value} chance to apply Morale to your ship for 1 round.",
+      "percentage": true,
+      "value": 0.4
+    },
+    "officer_ability": {
+      "name": "You Hit Me!",
+      "bonus": "On round start, if placed on a ship with Morale against players commanding an Interceptor, Starfleet Q increases your Apex Barrier by {value} ({value} at rank {value}) for 5 rounds.\n\nThis ability does not trigger when Tal is assigned to the bridge of your ship.\n\nApex Barrier provides <b>true damage mitigation from all sources after all other bonuses. Every 100 Apex Barrier increases the damage you can take by 1%.",
+      "percentage": false
+    },
+    "below_decks_ability": null
+  },
+  "synergy": {
+    "command": 0.1,
+    "engineering": 0.3,
+    "science": 0.3
+  },
+  "traits": [
+    {
+      "name": "Deceptive",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 1500
+        },
+        {
+          "level": 2,
+          "trait_xp": 2700
+        },
+        {
+          "level": 3,
+          "trait_xp": 3800
+        }
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Charismatic",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 7650
+        },
+        {
+          "level": 2,
+          "trait_xp": 6000
+        },
+        {
+          "level": 3,
+          "trait_xp": 7000
+        },
+        {
+          "level": 4,
+          "trait_xp": 8850
+        }
+      ],
+      "tier": 2
+    },
+    {
+      "name": "Specialist",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 10000
+        },
+        {
+          "level": 2,
+          "trait_xp": 4000
+        },
+        {
+          "level": 3,
+          "trait_xp": 7000
+        },
+        {
+          "level": 4,
+          "trait_xp": 10000
+        },
+        {
+          "level": 5,
+          "trait_xp": 15000
+        },
+        {
+          "level": 6,
+          "trait_xp": 23000
+        },
+        {
+          "level": 7,
+          "trait_xp": 42000
+        },
+        {
+          "level": 8,
+          "trait_xp": 68000
+        },
+        {
+          "level": 9,
+          "trait_xp": 107000
+        }
+      ],
+      "tier": 3
+    }
+  ],
+  "ranks": [
+    {
+      "rank_id": 1,
+      "name": "ENSIGN I",
+      "officer_ability_value": 10000.0,
+      "requirements": {
+        "badges": 0,
+        "credits": 0,
+        "others": [],
+        "shards": 100,
+        "xp": 0
+      }
+    },
+    {
+      "rank_id": 2,
+      "name": "LIEUTENANT JG II",
+      "officer_ability_value": 12000.0,
+      "requirements": {
+        "badges": 0,
+        "credits": 1100,
+        "others": [],
+        "shards": 100,
+        "xp": 50000
+      }
+    },
+    {
+      "rank_id": 3,
+      "name": "LIEUTENANT III",
+      "officer_ability_value": 14000.0,
+      "requirements": {
+        "badges": 1,
+        "credits": 4500,
+        "others": [],
+        "shards": 200,
+        "xp": 500000
+      }
+    },
+    {
+      "rank_id": 4,
+      "name": "LT. COMMANDER IV",
+      "officer_ability_value": 15000.0,
+      "requirements": {
+        "badges": 2,
+        "credits": 11500,
+        "others": [],
+        "shards": 300,
+        "xp": 1250000
+      }
+    },
+    {
+      "rank_id": 5,
+      "name": "COMMANDER V",
+      "officer_ability_value": 16000.0,
+      "requirements": {
+        "badges": 4,
+        "credits": 25000,
+        "others": [],
+        "shards": 800,
+        "xp": 2500000
+      }
+    }
+  ],
+  "img_url": "./assets/starfleet_q.png"
+}

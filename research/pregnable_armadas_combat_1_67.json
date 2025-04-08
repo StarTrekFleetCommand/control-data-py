@@ -155,15 +155,15 @@
         "materials": [
           {
             "type": "ore",
-            "value": 10000,
-            "grade": 5,
-            "rarity": "uncommon"
-          },
-          {
-            "type": "ore",
             "value": 17000,
             "grade": 5,
             "rarity": "common"
+          },
+          {
+            "type": "ore",
+            "value": 10000,
+            "grade": 5,
+            "rarity": "uncommon"
           }
         ],
         "others": []
@@ -268,7 +268,7 @@
       },
       "bonus": {
         "percentage": true,
-        "value": 1
+        "value": 1.0
       }
     },
     {
@@ -398,15 +398,15 @@
         "materials": [
           {
             "type": "ore",
-            "value": 22000,
-            "grade": 5,
-            "rarity": "uncommon"
-          },
-          {
-            "type": "ore",
             "value": 38000,
             "grade": 5,
             "rarity": "common"
+          },
+          {
+            "type": "ore",
+            "value": 22000,
+            "grade": 5,
+            "rarity": "uncommon"
           }
         ],
         "others": []
@@ -456,7 +456,7 @@
       },
       "bonus": {
         "percentage": true,
-        "value": 2
+        "value": 2.0
       }
     }
   ],

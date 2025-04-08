@@ -1,6 +1,6 @@
 {
   "officer_name": "Hoshi Sato",
-  "description": "",
+  "description": "Throughout the history of the Federation, Starfleet has prided itself on its robust network of diplomats, ambassadors, and negotiators. Many such diplomats have been rightfully immortalized as heroes of not only the Federation, but of the Alpha Quadrant itself.\nHowever, for every successful negotiation, every diplomatic breakthrough, every positive conversation, there is one unsung hero that must be thanked.\nHoshi Sato was always brilliant. Mastering every academic pursuit she put her mind to, she found herself gravitating towards linguistics, particularly of the alien variety. Even before official first contact, Hoshi was mentoring in the strange dialect known as \u201cKlingon\u201d, a famously hostile and difficult language to comprehend.\nOn board the Enterprise, Sato served dutifully as her comms officer, navigating more than a few delicate diplomatic situations with her mastery of the spoken word.\nTo this day, the Federation relies upon principles set out by Hoshi Sato in its pursuit for galactic peace.",
   "class": "science",
   "group": "enterprise nx-01",
   "faction": "federation",
@@ -10,23 +10,23 @@
       "name": "Chain of Command",
       "bonus": "This Officer does not have a Captain's Maneuver. Equipping this Officer as the captain of a ship provides no benefit.",
       "percentage": true,
-      "value": 0
+      "value": 0.0
     },
     "officer_ability": {
       "name": "Outside the Box",
-      "bonus": "Hoshi Sato increases the Cargo size of the ship by {value} ({1:#,#%} at rank {2:#,#}) of base.",
+      "bonus": "Hoshi Sato increases the Cargo size of the ship by {value} ({value} at rank {value}) of base.",
       "percentage": true
     },
     "below_decks_ability": {
       "name": "Strange Ideas",
-      "bonus": "Hoshi Sato increases Gas mining speed by {value} ({1:#,#%} at rank {2:#,#}) of base.",
+      "bonus": "Hoshi Sato increases Gas mining speed by {value} ({value} at rank {value}) of base.",
       "percentage": true
     }
   },
   "synergy": {
-    "command": 0,
-    "engineering": 0,
-    "science": 0
+    "command": 0.0,
+    "engineering": 0.0,
+    "science": 0.0
   },
   "traits": [
     {
@@ -82,9 +82,7 @@
         "shards": 38,
         "xp": 0
       },
-      "below_deck_ability_value": [
-        0.5
-      ]
+      "below_deck_ability_value": 0.5
     },
     {
       "rank_id": 2,
@@ -97,9 +95,7 @@
         "shards": 55,
         "xp": 10000
       },
-      "below_deck_ability_value": [
-        1
-      ]
+      "below_deck_ability_value": 1.0
     },
     {
       "rank_id": 3,
@@ -112,9 +108,7 @@
         "shards": 115,
         "xp": 100000
       },
-      "below_deck_ability_value": [
-        2
-      ]
+      "below_deck_ability_value": 2.0
     },
     {
       "rank_id": 4,
@@ -127,9 +121,7 @@
         "shards": 155,
         "xp": 250000
       },
-      "below_deck_ability_value": [
-        3
-      ]
+      "below_deck_ability_value": 3.0
     },
     {
       "rank_id": 5,
@@ -142,9 +134,7 @@
         "shards": 225,
         "xp": 500000
       },
-      "below_deck_ability_value": [
-        5
-      ]
+      "below_deck_ability_value": 5.0
     }
   ],
   "img_url": "./assets/hoshi_sato.png"

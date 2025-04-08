@@ -3,14 +3,14 @@
   "capture_nodes": 0,
   "connected_systems": [
     {
+      "$ref": "systems/neotek_48",
+      "distance": 160,
+      "warp": 160
+    },
+    {
       "$ref": "systems/maumo_47",
       "distance": 160,
       "warp": 150
-    },
-    {
-      "$ref": "systems/neo_tek_48",
-      "distance": 160,
-      "warp": 160
     },
     {
       "$ref": "systems/jublu_48",
@@ -22,16 +22,14 @@
   "level": 48,
   "mining": [
     {
-      "type": "4\u2605 Raw Crystal",
-      "amount": 10,
-      "grade": 4,
+      "type": "4\u2605 raw crystal",
+      "amount": 2,
       "mining_per_hour": 300,
       "size": 2400000
     },
     {
-      "type": "4\u2605 Raw Ore",
-      "amount": 10,
-      "grade": 4,
+      "type": "4\u2605 raw ore",
+      "amount": 1,
       "mining_per_hour": 300,
       "size": 2400000
     }
@@ -41,6 +39,6 @@
   ],
   "scopely_id": 1601095427,
   "system_space": "deep",
-  "system_type": "hub",
+  "system_type": "route",
   "warp": 160
 }

@@ -1,0 +1,28 @@
+{
+  "name": "Corad",
+  "capture_nodes": 0,
+  "connected_systems": [
+    {
+      "$ref": "systems/earorfilad_24",
+      "distance": 25,
+      "warp": 17
+    },
+    {
+      "$ref": "systems/travers_12",
+      "distance": 25,
+      "warp": 25
+    }
+  ],
+  "faction": "neutral",
+  "level": 12,
+  "mining": [],
+  "planets": [
+    "Fordran",
+    "Tarmand",
+    "Zaran"
+  ],
+  "scopely_id": 744269956,
+  "system_space": "normal",
+  "system_type": "route",
+  "warp": 25
+}

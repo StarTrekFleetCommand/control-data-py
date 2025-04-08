@@ -1,0 +1,37 @@
+{
+  "name": "Dijor'joh",
+  "capture_nodes": 0,
+  "connected_systems": [
+    {
+      "$ref": "systems/aran_50",
+      "distance": 10,
+      "warp": 110
+    },
+    {
+      "$ref": "systems/kalak_30",
+      "distance": 110,
+      "warp": 25
+    },
+    {
+      "$ref": "systems/burdow_55",
+      "distance": 200,
+      "warp": 200
+    },
+    {
+      "$ref": "systems/leichter_53",
+      "distance": 160,
+      "warp": 160
+    }
+  ],
+  "faction": "neutral",
+  "level": 50,
+  "mining": [],
+  "planets": [
+    "Dijor'jaahal",
+    "Saulo's Comet"
+  ],
+  "scopely_id": 2000631744,
+  "system_space": "normal",
+  "system_type": "route",
+  "warp": 110
+}

@@ -1,6 +1,6 @@
 {
   "officer_name": "Mirror Picard",
-  "description": "",
+  "description": "Although retaining a storied history as one of the most supreme powers in their galaxy, the Terran Empire\u2019s dominance over the alternate universe has been questioned - and even threatened - on several occasions. Throughout the centuries, there have been prolonged periods of flux and uncertainty as the balance of power frequently shifted between the Empire and other dangerous factions. However, even at their lowest points, the Empire remained home to some of the most fearsome, bloodthirsty warriors the galaxy had to offer. Noteworthy among them was Captain Jean-Luc Picard, a name that was both feared and revered in equal measure.\n\nAs captain of the crumbling ISS Stargazer, Picard remained a force to be reckoned with among the ranks of the dwindling Empire. Even though his ship had seen better days, Picard was frequently capable of commanding both ship and crew in order to obtain the upper hand in battle with any given adversary. Later, a routine mission to Mars would reveal a project that the Empire had been working on in secret - a new Galaxy-class vessel that would become a jewel in the Empire\u2019s fleet. Finding himself mysteriously drawn to this new ship, as if fate itself was guiding him, Picard would stop at nothing until the captain\u2019s chair of the ISS Enterprise-D was his and his alone.\n\nWhen Intendant Kira Nerys re-emerged from the shadows and used her classified Alliance intel to once again shift the balance of power in favor of the Empire, the Terrans would enter a new age of power and prosperity. With her appointment as head of state, the new Terran Empress would accept nothing less than the unflinching love and loyalty of her new subjects - a price that Picard and his crew were unwilling to pay as they refused to bow down to a Bajoran leader. As punishment, they would be banished and routed from their homeland, with the ISS Enterprise-D cast into a wormhole to be discarded and forgotten. Although death seemed to be a certainty, the wormhole was in fact an interphasic rift, acting as a gateway to a parallel universe. Rather than the cold embrace of death, Picard and the crew of the ISS Enterprise-D have instead found themselves lost and adrift in a strange, new world...",
   "class": "command",
   "group": "mirror universe",
   "faction": "federation",
@@ -14,7 +14,7 @@
     },
     "officer_ability": {
       "name": "Anticollective",
-      "bonus": "On round start against players with Assimilate, Mirror Picard increases your Apex Barrier by {value} ({1:#,#%} at rank {2:#,#}) for 1 round.\n\nThis ability does not trigger when Tal is assigned to the bridge of your ship.\n\nApex Barrier provides <b>true damage mitigation</b> from all sources after all other bonuses. Every 100 Apex Barrier increases the damage you can take by 1%.",
+      "bonus": "On round start against players with Assimilate, Mirror Picard increases your Apex Barrier by {value} ({value} at rank {value}) for 1 round.\n\nThis ability does not trigger when Tal is assigned to the bridge of your ship.\n\nApex Barrier provides <b>true damage mitigation from all sources after all other bonuses. Every 100 Apex Barrier increases the damage you can take by 1%.",
       "percentage": false
     },
     "below_decks_ability": null
@@ -112,7 +112,7 @@
     {
       "rank_id": 1,
       "name": "ENSIGN I",
-      "officer_ability_value": 10000,
+      "officer_ability_value": 10000.0,
       "requirements": {
         "badges": 0,
         "credits": 0,
@@ -124,13 +124,13 @@
     {
       "rank_id": 2,
       "name": "LIEUTENANT JG II",
-      "officer_ability_value": 13000,
+      "officer_ability_value": 13000.0,
       "requirements": {
         "badges": 0,
         "credits": 0,
         "others": [
           {
-            "name": "Liquid Trellium-D",
+            "name": "liquid trellium-d",
             "value": 4400
           }
         ],
@@ -141,13 +141,13 @@
     {
       "rank_id": 3,
       "name": "LIEUTENANT III",
-      "officer_ability_value": 17000,
+      "officer_ability_value": 17000.0,
       "requirements": {
         "badges": 1,
         "credits": 0,
         "others": [
           {
-            "name": "Liquid Trellium-D",
+            "name": "liquid trellium-d",
             "value": 17100
           }
         ],
@@ -158,13 +158,13 @@
     {
       "rank_id": 4,
       "name": "LT. COMMANDER IV",
-      "officer_ability_value": 22000,
+      "officer_ability_value": 22000.0,
       "requirements": {
         "badges": 2,
         "credits": 0,
         "others": [
           {
-            "name": "Liquid Trellium-D",
+            "name": "liquid trellium-d",
             "value": 43100
           }
         ],
@@ -175,13 +175,13 @@
     {
       "rank_id": 5,
       "name": "COMMANDER V",
-      "officer_ability_value": 30000,
+      "officer_ability_value": 30000.0,
       "requirements": {
         "badges": 4,
         "credits": 0,
         "others": [
           {
-            "name": "Liquid Trellium-D",
+            "name": "liquid trellium-d",
             "value": 97800
           }
         ],

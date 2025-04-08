@@ -1,0 +1,386 @@
+{
+  "research_name": "Face of the Enemy",
+  "description": "Increases base Damage of Romulan ships against Federation ships.",
+  "location": {
+    "column": 122,
+    "row": 3,
+    "tree": "combat"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 2548800,
+      "increased_power": 245000,
+      "requirements": [
+        {
+          "name": "Romulan Radiation Conditioning",
+          "level": 1
+        },
+        {
+          "name": "R&D Department",
+          "level": 61
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-tritanium",
+            "value": 13750
+          },
+          {
+            "type": "\u03c3-dilithium",
+            "value": 37500
+          }
+        ],
+        "materials": [
+          {
+            "type": "ore",
+            "value": 20800,
+            "grade": 6,
+            "rarity": "common"
+          }
+        ],
+        "others": []
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.5
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 3412800,
+      "increased_power": 16000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 62
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-tritanium",
+            "value": 21000
+          },
+          {
+            "type": "\u03c3-dilithium",
+            "value": 57500
+          }
+        ],
+        "materials": [
+          {
+            "type": "ore",
+            "value": 6400,
+            "grade": 6,
+            "rarity": "uncommon"
+          }
+        ],
+        "others": []
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.75
+      }
+    },
+    {
+      "level": 3,
+      "research_time": 4622400,
+      "increased_power": 17000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 63
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-tritanium",
+            "value": 44000
+          },
+          {
+            "type": "\u03c3-dilithium",
+            "value": 121000
+          }
+        ],
+        "materials": [
+          {
+            "type": "ore",
+            "value": 13600,
+            "grade": 6,
+            "rarity": "uncommon"
+          }
+        ],
+        "others": []
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 1.0
+      }
+    },
+    {
+      "level": 4,
+      "research_time": 6220800,
+      "increased_power": 18000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 64
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-tritanium",
+            "value": 86000
+          },
+          {
+            "type": "\u03c3-dilithium",
+            "value": 236000
+          }
+        ],
+        "materials": [
+          {
+            "type": "ore",
+            "value": 4800,
+            "grade": 6,
+            "rarity": "rare"
+          }
+        ],
+        "others": []
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 1.5
+      }
+    },
+    {
+      "level": 5,
+      "research_time": 8424000,
+      "increased_power": 18000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 65
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-tritanium",
+            "value": 133000
+          },
+          {
+            "type": "\u03c3-dilithium",
+            "value": 365000
+          }
+        ],
+        "materials": [
+          {
+            "type": "ore",
+            "value": 7200,
+            "grade": 6,
+            "rarity": "rare"
+          }
+        ],
+        "others": []
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 2.0
+      }
+    },
+    {
+      "level": 6,
+      "research_time": 11361600,
+      "increased_power": 20000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 66
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-tritanium",
+            "value": 226000
+          },
+          {
+            "type": "\u03c3-dilithium",
+            "value": 620000
+          }
+        ],
+        "materials": [
+          {
+            "type": "ore",
+            "value": 8800,
+            "grade": 6,
+            "rarity": "rare"
+          }
+        ],
+        "others": []
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 2.75
+      }
+    },
+    {
+      "level": 7,
+      "research_time": 15379200,
+      "increased_power": 20000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 67
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-tritanium",
+            "value": 316000
+          },
+          {
+            "type": "\u03c3-dilithium",
+            "value": 870000
+          }
+        ],
+        "materials": [
+          {
+            "type": "ore",
+            "value": 11200,
+            "grade": 6,
+            "rarity": "rare"
+          }
+        ],
+        "others": []
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 3.75
+      }
+    },
+    {
+      "level": 8,
+      "research_time": 19958400,
+      "increased_power": 21000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 68
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-tritanium",
+            "value": 443000
+          },
+          {
+            "type": "\u03c3-dilithium",
+            "value": 1220000
+          }
+        ],
+        "materials": [
+          {
+            "type": "ore",
+            "value": 12800,
+            "grade": 6,
+            "rarity": "rare"
+          }
+        ],
+        "others": []
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 5.0
+      }
+    },
+    {
+      "level": 9,
+      "research_time": 25920000,
+      "increased_power": 22000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 69
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-tritanium",
+            "value": 620000
+          },
+          {
+            "type": "\u03c3-dilithium",
+            "value": 1700000
+          }
+        ],
+        "materials": [
+          {
+            "type": "ore",
+            "value": 15200,
+            "grade": 6,
+            "rarity": "rare"
+          }
+        ],
+        "others": []
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 7.0
+      }
+    },
+    {
+      "level": 10,
+      "research_time": 33696000,
+      "increased_power": 22000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 70
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-tritanium",
+            "value": 865000
+          },
+          {
+            "type": "\u03c3-dilithium",
+            "value": 2380000
+          }
+        ],
+        "materials": [
+          {
+            "type": "ore",
+            "value": 18400,
+            "grade": 6,
+            "rarity": "rare"
+          }
+        ],
+        "others": []
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 10.0
+      }
+    }
+  ],
+  "img_url": "./assets/face_of_the_enemy_combat_3_122.png"
+}

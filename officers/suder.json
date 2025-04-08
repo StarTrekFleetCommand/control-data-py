@@ -1,0 +1,141 @@
+{
+  "officer_name": "Suder",
+  "description": "As a Betazoid born without the capacity for empathy, Lon Suder was plagued with images of violence from a young age.\nCursed with an impossibly strong urge to inflict pain, the young man joined the Maquis, seeing it as an opportunity to sate his darkest thirsts.\nFate would land him on board the USS Voyager during its long journey through the Delta Quadrant, where Suder would once again be faced with the terrifying nature of his murderous tendencies. Eventually, his urges got the better of him. Caught red-handed by Tuvok, Suder was confined to the brig for the rest of Voyager\u2019s journey home.\nSuder eventually found some measure of redemption when he sacrificed his own life to save Voyager from a Kazon attack. Or, at least, that is how things went in one timeline.\nThe Krenim\u2019s abuse of time has resulted in many changes to our present, including the ultimate fate of Lon Suder.\nHaving never been faced with the choice to sacrifice himself, Ensign Suder never defeated his inner demons. He has since returned to the Alpha Quadrant, and his bloodlust has only deepened in captivity...",
+  "class": "engineering",
+  "group": "voyager 30th anniversary",
+  "faction": "neutral",
+  "rarity": "rare",
+  "ability_info": {
+    "captain_maneuver": {
+      "name": "Chain of Command",
+      "bonus": "This Officer does not have a Captain's Maneuver. Equipping this Officer as the captain of a ship provides no benefit.",
+      "percentage": true,
+      "value": 0.0
+    },
+    "officer_ability": {
+      "name": "Silence Your Demons",
+      "bonus": "Repairs {value} ({value} at rank {value}) of hull damage taken in the previous round of combat when fighting hostiles.",
+      "percentage": true
+    },
+    "below_decks_ability": {
+      "name": "Violent Tendencies",
+      "bonus": "At the start of combat increases Critical Hit Damage by {value} ({value} at rank {value}) for 5 rounds when fighting hostiles.",
+      "percentage": true
+    }
+  },
+  "synergy": {
+    "command": 0.0,
+    "engineering": 0.0,
+    "science": 0.0
+  },
+  "traits": [
+    {
+      "name": "Warrior",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 1500
+        },
+        {
+          "level": 2,
+          "trait_xp": 2700
+        },
+        {
+          "level": 3,
+          "trait_xp": 3800
+        }
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Patriotic",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 7650
+        },
+        {
+          "level": 2,
+          "trait_xp": 6000
+        },
+        {
+          "level": 3,
+          "trait_xp": 7000
+        },
+        {
+          "level": 4,
+          "trait_xp": 8850
+        }
+      ],
+      "tier": 2
+    }
+  ],
+  "ranks": [
+    {
+      "rank_id": 1,
+      "name": "ENSIGN I",
+      "officer_ability_value": 0.12,
+      "requirements": {
+        "badges": 0,
+        "credits": 0,
+        "others": [],
+        "shards": 38,
+        "xp": 0
+      },
+      "below_deck_ability_value": 0.3
+    },
+    {
+      "rank_id": 2,
+      "name": "LIEUTENANT JG II",
+      "officer_ability_value": 0.15,
+      "requirements": {
+        "badges": 0,
+        "credits": 0,
+        "others": [],
+        "shards": 55,
+        "xp": 10000
+      },
+      "below_deck_ability_value": 0.45
+    },
+    {
+      "rank_id": 3,
+      "name": "LIEUTENANT III",
+      "officer_ability_value": 0.18,
+      "requirements": {
+        "badges": 0,
+        "credits": 1100,
+        "others": [],
+        "shards": 115,
+        "xp": 100000
+      },
+      "below_deck_ability_value": 0.65
+    },
+    {
+      "rank_id": 4,
+      "name": "LT. COMMANDER IV",
+      "officer_ability_value": 0.21,
+      "requirements": {
+        "badges": 1,
+        "credits": 4500,
+        "others": [],
+        "shards": 155,
+        "xp": 250000
+      },
+      "below_deck_ability_value": 0.9
+    },
+    {
+      "rank_id": 5,
+      "name": "COMMANDER V",
+      "officer_ability_value": 0.24,
+      "requirements": {
+        "badges": 2,
+        "credits": 11500,
+        "others": [],
+        "shards": 225,
+        "xp": 500000
+      },
+      "below_deck_ability_value": 1.2
+    }
+  ],
+  "img_url": "./assets/suder.png"
+}

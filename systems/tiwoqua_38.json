@@ -3,13 +3,13 @@
   "capture_nodes": 0,
   "connected_systems": [
     {
-      "$ref": "systems/terminimurus_39",
-      "distance": 27,
+      "$ref": "systems/nibiq_38",
+      "distance": 40,
       "warp": 40
     },
     {
-      "$ref": "systems/nibiq_38",
-      "distance": 40,
+      "$ref": "systems/terminimurus_39",
+      "distance": 27,
       "warp": 40
     }
   ],
@@ -21,14 +21,14 @@
   "level": 38,
   "mining": [
     {
-      "type": "Parsteel",
-      "amount": 5,
+      "type": "parsteel",
+      "amount": 1,
       "mining_per_hour": 1200,
       "size": 125000
     },
     {
-      "type": "Tritanium",
-      "amount": 5,
+      "type": "tritanium",
+      "amount": 1,
       "mining_per_hour": 320,
       "size": 45000
     }
@@ -48,6 +48,6 @@
   ],
   "scopely_id": 964152827,
   "system_space": "normal",
-  "system_type": "route",
+  "system_type": "hub",
   "warp": 40
 }

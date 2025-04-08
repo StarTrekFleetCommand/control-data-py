@@ -1,0 +1,91 @@
+{
+  "officer_name": "T'Laan",
+  "description": "T'Laan is an incredibly intelligent vulcan cadet in the academy. Though she had initially wanted to return to her people and help in the settling of New Vulcan, her experience with Lucia, Grace, Shev, and Vel convinced her to stay in the academy and Starfleet.",
+  "class": "science",
+  "group": "starfleet academy",
+  "faction": "federation",
+  "rarity": "common",
+  "ability_info": {
+    "captain_maneuver": {
+      "name": "Thorough Scans",
+      "bonus": "T'Laan increases the Ship Experience gained by {value}.",
+      "percentage": true,
+      "value": 0.15
+    },
+    "officer_ability": {
+      "name": "Objective Defense",
+      "bonus": "If the opponent is a Hostile, T'Laan decreases the Damage done by its Kinetic Weapons by {value}. Works against Hostiles of level 51 and under.",
+      "percentage": true
+    },
+    "below_decks_ability": null
+  },
+  "synergy": {
+    "command": 0.05,
+    "engineering": 0.05,
+    "science": 0.03
+  },
+  "traits": [],
+  "ranks": [
+    {
+      "rank_id": 1,
+      "name": "ENSIGN I",
+      "officer_ability_value": 0.05,
+      "requirements": {
+        "badges": 0,
+        "credits": 0,
+        "others": [],
+        "shards": 4,
+        "xp": 0
+      }
+    },
+    {
+      "rank_id": 2,
+      "name": "LIEUTENANT JG II",
+      "officer_ability_value": 0.07,
+      "requirements": {
+        "badges": 0,
+        "credits": 0,
+        "others": [],
+        "shards": 8,
+        "xp": 500
+      }
+    },
+    {
+      "rank_id": 3,
+      "name": "LIEUTENANT III",
+      "officer_ability_value": 0.1,
+      "requirements": {
+        "badges": 0,
+        "credits": 0,
+        "others": [],
+        "shards": 20,
+        "xp": 5000
+      }
+    },
+    {
+      "rank_id": 4,
+      "name": "LT. COMMANDER IV",
+      "officer_ability_value": 0.15,
+      "requirements": {
+        "badges": 0,
+        "credits": 0,
+        "others": [],
+        "shards": 48,
+        "xp": 50000
+      }
+    },
+    {
+      "rank_id": 5,
+      "name": "COMMANDER V",
+      "officer_ability_value": 0.2,
+      "requirements": {
+        "badges": 0,
+        "credits": 1050,
+        "others": [],
+        "shards": 88,
+        "xp": 100000
+      }
+    }
+  ],
+  "img_url": "./assets/tlaan.png"
+}

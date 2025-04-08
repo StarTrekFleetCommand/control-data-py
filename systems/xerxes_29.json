@@ -6,6 +6,11 @@
       "$ref": "systems/noakyn_30",
       "distance": 11,
       "warp": 23
+    },
+    {
+      "$ref": "systems/kalla_36",
+      "distance": 38,
+      "warp": 38
     }
   ],
   "faction": "neutral",
@@ -16,8 +21,8 @@
   "level": 29,
   "mining": [
     {
-      "type": "Tritanium",
-      "amount": 25,
+      "type": "tritanium",
+      "amount": 1,
       "mining_per_hour": 320,
       "size": 25000
     }
@@ -37,6 +42,6 @@
   ],
   "scopely_id": 558854731,
   "system_space": "normal",
-  "system_type": "terminal",
+  "system_type": "hub",
   "warp": 23
 }

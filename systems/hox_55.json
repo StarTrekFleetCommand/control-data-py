@@ -1,0 +1,29 @@
+{
+  "name": "Hox",
+  "capture_nodes": 0,
+  "connected_systems": [
+    {
+      "$ref": "systems/hadmet_54",
+      "distance": 240,
+      "warp": 80
+    }
+  ],
+  "faction": "dominion",
+  "level": 55,
+  "mining": [
+    {
+      "type": "5\u2605 raw gas",
+      "amount": 1,
+      "mining_per_hour": 1000,
+      "size": 60000000
+    }
+  ],
+  "planets": [
+    "Hox Alpha",
+    "Hox Beta"
+  ],
+  "scopely_id": 2033372035,
+  "system_space": "deep",
+  "system_type": "route",
+  "warp": 240
+}

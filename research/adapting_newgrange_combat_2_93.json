@@ -1,0 +1,188 @@
+{
+  "research_name": "Adapting Newgrange",
+  "description": "Increases Newgrange Base Hazard Resistance.",
+  "location": {
+    "column": 93,
+    "row": 2,
+    "tree": "combat"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 16329600,
+      "increased_power": 145000,
+      "requirements": [
+        {
+          "name": "6\u21f5 Offensive Explorers",
+          "level": 1
+        },
+        {
+          "name": "R&D Department",
+          "level": 68
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "rare hazard particle",
+            "value": 8000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.25
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 17193600,
+      "increased_power": 2000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 68
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "rare hazard particle",
+            "value": 13000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.4
+      }
+    },
+    {
+      "level": 3,
+      "research_time": 17625600,
+      "increased_power": 1000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 68
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "rare hazard particle",
+            "value": 17000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.6
+      }
+    },
+    {
+      "level": 4,
+      "research_time": 18144000,
+      "increased_power": 2000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 68
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "rare hazard particle",
+            "value": 21000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.8
+      }
+    },
+    {
+      "level": 5,
+      "research_time": 18662400,
+      "increased_power": 1000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 68
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "rare hazard particle",
+            "value": 25000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 1.0
+      }
+    },
+    {
+      "level": 6,
+      "research_time": 19008000,
+      "increased_power": 2000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 68
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": []
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 1.2
+      }
+    },
+    {
+      "level": 7,
+      "research_time": 19958400,
+      "increased_power": 1000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 68
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": []
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 1.5
+      }
+    }
+  ],
+  "img_url": "./assets/adapting_newgrange_combat_2_93.png"
+}

@@ -1,0 +1,46 @@
+{
+  "research_name": "Distant Origin",
+  "description": "Allows you to unslot Janeway from the Command Centre seat without cooldown. <color=#FFEF40>(Always On)</color>",
+  "location": {
+    "column": 5,
+    "row": 1,
+    "tree": "fleet commander"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 0,
+      "increased_power": 500000,
+      "requirements": [
+        {
+          "name": "Life Line",
+          "level": 1
+        },
+        {
+          "name": "Command Center",
+          "level": 50
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "rare commander skill points",
+            "value": 27
+          },
+          {
+            "type": "janeway skill points",
+            "value": 160
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 4000.0
+      }
+    }
+  ],
+  "img_url": "./assets/distant_origin_fleet_commander_1_5.png"
+}

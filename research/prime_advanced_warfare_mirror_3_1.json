@@ -1,0 +1,38 @@
+{
+  "research_name": "Prime \u03a9 Advanced Warfare",
+  "description": "Increases base weapon damage for all ships.",
+  "location": {
+    "column": 1,
+    "row": 3,
+    "tree": "mirror"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 240,
+      "increased_power": 96000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 40
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "omega prime particle",
+            "value": 1000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 5.0
+      }
+    }
+  ],
+  "img_url": "./assets/prime_advanced_warfare_mirror_3_1.png"
+}

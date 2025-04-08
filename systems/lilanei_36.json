@@ -3,14 +3,14 @@
   "capture_nodes": 0,
   "connected_systems": [
     {
-      "$ref": "systems/morvani_34",
-      "distance": 38,
-      "warp": 32
-    },
-    {
       "$ref": "systems/rekar_28",
       "distance": 38,
       "warp": 24
+    },
+    {
+      "$ref": "systems/morvani_34",
+      "distance": 38,
+      "warp": 32
     },
     {
       "$ref": "systems/elaisik_38",
@@ -24,6 +24,6 @@
   "planets": [],
   "scopely_id": 163435504,
   "system_space": "normal",
-  "system_type": "hub",
+  "system_type": "route",
   "warp": 38
 }

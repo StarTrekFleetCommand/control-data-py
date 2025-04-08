@@ -13,16 +13,6 @@
       "warp": 5
     },
     {
-      "$ref": "systems/lyon_6",
-      "distance": 5,
-      "warp": 5
-    },
-    {
-      "$ref": "systems/rua_8",
-      "distance": 5,
-      "warp": 5
-    },
-    {
       "$ref": "systems/littledove_6",
       "distance": 5,
       "warp": 5
@@ -33,7 +23,7 @@
       "warp": 5
     },
     {
-      "$ref": "systems/taleka_6",
+      "$ref": "systems/lyon_6",
       "distance": 5,
       "warp": 5
     },
@@ -48,6 +38,16 @@
       "warp": 5
     },
     {
+      "$ref": "systems/rua_8",
+      "distance": 5,
+      "warp": 5
+    },
+    {
+      "$ref": "systems/taleka_6",
+      "distance": 5,
+      "warp": 5
+    },
+    {
       "$ref": "systems/istyna_6",
       "distance": 5,
       "warp": 5
@@ -57,8 +57,8 @@
   "level": 7,
   "mining": [
     {
-      "type": "Tritanium",
-      "amount": 30,
+      "type": "tritanium",
+      "amount": 1,
       "mining_per_hour": 320,
       "size": 1500
     }
@@ -69,6 +69,6 @@
   ],
   "scopely_id": 326639237,
   "system_space": "normal",
-  "system_type": "hub",
+  "system_type": "route",
   "warp": 5
 }

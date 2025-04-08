@@ -1,0 +1,38 @@
+{
+  "research_name": "Prime Apex Hunter",
+  "description": "Increases base Apex Shred on all ships when fighting Players (does not apply while defending station).",
+  "location": {
+    "column": 42,
+    "row": 3,
+    "tree": "combat"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 0,
+      "increased_power": 141500,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 40
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "apex hunter particle",
+            "value": 1000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.25
+      }
+    }
+  ],
+  "img_url": "./assets/prime_apex_hunter_combat_3_42.png"
+}

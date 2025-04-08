@@ -3,14 +3,14 @@
   "capture_nodes": 0,
   "connected_systems": [
     {
-      "$ref": "systems/tugh_li_wov_52",
-      "distance": 255,
-      "warp": 230
-    },
-    {
       "$ref": "systems/seretos_53",
       "distance": 255,
       "warp": 255
+    },
+    {
+      "$ref": "systems/tughli_wov_52",
+      "distance": 255,
+      "warp": 230
     },
     {
       "$ref": "systems/lycrus_52",
@@ -27,12 +27,13 @@
   "level": 53,
   "mining": [],
   "planets": [
+    "</b>",
     "Eitee",
     "Oagub",
     "Ouzoy"
   ],
   "scopely_id": 2116394759,
   "system_space": "deep",
-  "system_type": "hub",
+  "system_type": "route",
   "warp": 255
 }

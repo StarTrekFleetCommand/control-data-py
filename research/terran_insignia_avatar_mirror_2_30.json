@@ -1,0 +1,48 @@
+{
+  "research_name": "Terran Insignia Avatar",
+  "description": "Unlocks the Terran Insignia Avatar.",
+  "location": {
+    "column": 30,
+    "row": 2,
+    "tree": "mirror"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 240,
+      "increased_power": 0,
+      "requirements": [
+        {
+          "name": "Epic Station Module Materials Efficiency",
+          "level": 1
+        },
+        {
+          "name": "Operations",
+          "level": 40
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "common mirror dust",
+            "value": 37470
+          },
+          {
+            "type": "epic mirror dust",
+            "value": 13335
+          }
+        ]
+      },
+      "rewards": [
+        {
+          "type": "Raw Trellium-A",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "img_url": "./assets/terran_insignia_avatar_mirror_2_30.png"
+}

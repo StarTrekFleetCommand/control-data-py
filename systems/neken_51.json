@@ -1,0 +1,40 @@
+{
+  "name": "Neken",
+  "capture_nodes": 0,
+  "connected_systems": [
+    {
+      "$ref": "systems/eviloy_29",
+      "distance": 205,
+      "warp": 25
+    }
+  ],
+  "faction": "neutral",
+  "level": 51,
+  "mining": [
+    {
+      "type": "5\u2605 raw crystal",
+      "amount": 1,
+      "mining_per_hour": 140,
+      "size": 1200000
+    },
+    {
+      "type": "5\u2605 raw gas",
+      "amount": 1,
+      "mining_per_hour": 140,
+      "size": 1200000
+    },
+    {
+      "type": "5\u2605 raw ore",
+      "amount": 1,
+      "mining_per_hour": 140,
+      "size": 1200000
+    }
+  ],
+  "planets": [
+    "Neken"
+  ],
+  "scopely_id": 1952086646,
+  "system_space": "normal",
+  "system_type": "route",
+  "warp": 205
+}

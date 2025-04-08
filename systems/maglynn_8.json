@@ -3,7 +3,7 @@
   "capture_nodes": 0,
   "connected_systems": [
     {
-      "$ref": "systems/s_ilneimhe_8",
+      "$ref": "systems/silneimhe_8",
       "distance": 5,
       "warp": 5
     }
@@ -16,8 +16,8 @@
   "level": 8,
   "mining": [
     {
-      "type": "Parsteel",
-      "amount": 16,
+      "type": "parsteel",
+      "amount": 1,
       "mining_per_hour": 1200,
       "size": 5000
     }
@@ -38,6 +38,6 @@
   ],
   "scopely_id": 1040185241,
   "system_space": "normal",
-  "system_type": "terminal",
+  "system_type": "hub",
   "warp": 5
 }

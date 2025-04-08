@@ -1,0 +1,43 @@
+{
+  "research_name": "Prime Construction Speed",
+  "description": "Increases base Construction Speed for buildings.",
+  "location": {
+    "column": 76,
+    "row": 1,
+    "tree": "station"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 5762880,
+      "increased_power": 730000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 61
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-dilithium",
+            "value": 86000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "multidimensional particle",
+            "value": 1000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 2.5
+      }
+    }
+  ],
+  "img_url": "./assets/prime_construction_speed_station_1_76.png"
+}

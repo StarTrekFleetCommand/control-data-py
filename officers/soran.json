@@ -1,0 +1,174 @@
+{
+  "officer_name": "Soran",
+  "description": "Dr. Tolian Soran was an El-Aurian scientist born in the late 21st century. His formative years living on the El-Aurian homeworld were idyllic, with Soran enjoying all of the comforts and luxuries of a successful, family-oriented life. Along with his wife, Leandra, Soran would become the proud parent of several children whom he loved dearly. However, Soran's halcyon days would come to an abrupt end in the 23rd century when the El-Aurian homeworld was invaded by the Borg Collective. Although he escaped the onslaught, Soran's family was lost during the invasion. The trauma of this loss transformed Soran from a loving husband and father into a twisted, bitter nihilist who believed that the only universal constant was one that all living beings eventually encounter - death itself. \n\nIn the years following the assimilation and destruction of the El-Aurians, Soran was one of the 415 El-Aurian refugees traveling to Earth onboard the fleet comprised of the SS Lakul and SS Robert Fox, when both transport ships became trapped in the celestial doorway of the Nexus. Although both transport vessels were eventually destroyed, 47 survivors were rescued by the USS Enterprise-B, with Soran among them. As the Nexus was a realm shaped by the desires and needs of those who entered it, many survivors expressed an intense desire to return to the Nexus. While their Federation rescuers tried to calm them, none of the survivors expressed such an intense desire to return to the Nexus as Soran did. Knowing that the Nexus was the only way for him to be reunited with his family, Soran's compulsion to return to this extra-dimensional realm would become all-consuming. He would focus the remainder of his life's work on attempting to return to the Nexus permanently.\n\nSoran's master plan to return to the Nexus involved the acquisition and deployment of a Trilithium weapon. This devastating artillery was intended to destroy a number of stars and, through the alteration of gravitational forces due to the stars' destruction, would force the doorway of the Nexus to wash over the planet Veridian III. Here, Soran would be waiting patiently, assured that he would return to the Nexus once again. It would take the combined efforts of Starfleet captains James T. Kirk and Jean-Luc Picard to put a stop to Soran's plan, with both Soran and Kirk losing their lives in the conflict. Although he never managed to return to the Nexus, Soran would instead be reunited in death with the family he longed to be with once again.",
+  "class": "command",
+  "group": "explorer retaliation squad",
+  "faction": "neutral",
+  "rarity": "epic",
+  "ability_info": {
+    "captain_maneuver": {
+      "name": "Time Is the Fire...",
+      "bonus": "On round start against players, Soran has {value} chance to apply Burning to your target for 1 round.\n\nThis ability does not trigger when Tal is assigned to the bridge of your ship.",
+      "percentage": true,
+      "value": 0.4
+    },
+    "officer_ability": {
+      "name": "Toothless Predator",
+      "bonus": "On round start against players commanding an Explorer afflicted by Burning, Soran increases your Apex Barrier by {value} ({value} at rank {value}) for 5 rounds.\n\nThis ability does not trigger when Tal is assigned to the bridge of your ship.\n\nApex Barrier provides <b>true damage mitigation from all sources after all other bonuses. Every 100 Apex Barrier increases the damage you can take by 1%.",
+      "percentage": false
+    },
+    "below_decks_ability": null
+  },
+  "synergy": {
+    "command": 0.1,
+    "engineering": 0.3,
+    "science": 0.3
+  },
+  "traits": [
+    {
+      "name": "Diplomat",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 1500
+        },
+        {
+          "level": 2,
+          "trait_xp": 2700
+        },
+        {
+          "level": 3,
+          "trait_xp": 3800
+        }
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Perceptive",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 7650
+        },
+        {
+          "level": 2,
+          "trait_xp": 6000
+        },
+        {
+          "level": 3,
+          "trait_xp": 7000
+        },
+        {
+          "level": 4,
+          "trait_xp": 8850
+        }
+      ],
+      "tier": 2
+    },
+    {
+      "name": "Psionic",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 10000
+        },
+        {
+          "level": 2,
+          "trait_xp": 4000
+        },
+        {
+          "level": 3,
+          "trait_xp": 7000
+        },
+        {
+          "level": 4,
+          "trait_xp": 10000
+        },
+        {
+          "level": 5,
+          "trait_xp": 15000
+        },
+        {
+          "level": 6,
+          "trait_xp": 23000
+        },
+        {
+          "level": 7,
+          "trait_xp": 42000
+        },
+        {
+          "level": 8,
+          "trait_xp": 68000
+        },
+        {
+          "level": 9,
+          "trait_xp": 107000
+        }
+      ],
+      "tier": 3
+    }
+  ],
+  "ranks": [
+    {
+      "rank_id": 1,
+      "name": "ENSIGN I",
+      "officer_ability_value": 10000.0,
+      "requirements": {
+        "badges": 0,
+        "credits": 0,
+        "others": [],
+        "shards": 100,
+        "xp": 0
+      }
+    },
+    {
+      "rank_id": 2,
+      "name": "LIEUTENANT JG II",
+      "officer_ability_value": 12000.0,
+      "requirements": {
+        "badges": 0,
+        "credits": 1100,
+        "others": [],
+        "shards": 100,
+        "xp": 50000
+      }
+    },
+    {
+      "rank_id": 3,
+      "name": "LIEUTENANT III",
+      "officer_ability_value": 14000.0,
+      "requirements": {
+        "badges": 1,
+        "credits": 4500,
+        "others": [],
+        "shards": 200,
+        "xp": 500000
+      }
+    },
+    {
+      "rank_id": 4,
+      "name": "LT. COMMANDER IV",
+      "officer_ability_value": 15000.0,
+      "requirements": {
+        "badges": 2,
+        "credits": 11500,
+        "others": [],
+        "shards": 300,
+        "xp": 1250000
+      }
+    },
+    {
+      "rank_id": 5,
+      "name": "COMMANDER V",
+      "officer_ability_value": 16000.0,
+      "requirements": {
+        "badges": 4,
+        "credits": 25000,
+        "others": [],
+        "shards": 800,
+        "xp": 2500000
+      }
+    }
+  ],
+  "img_url": "./assets/soran.png"
+}

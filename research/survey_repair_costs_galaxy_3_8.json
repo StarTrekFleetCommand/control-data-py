@@ -290,15 +290,15 @@
         "materials": [
           {
             "type": "crystal",
-            "value": 24,
-            "grade": 3,
-            "rarity": "rare"
-          },
-          {
-            "type": "crystal",
             "value": 400,
             "grade": 3,
             "rarity": "uncommon"
+          },
+          {
+            "type": "crystal",
+            "value": 24,
+            "grade": 3,
+            "rarity": "rare"
           }
         ],
         "others": []
@@ -372,7 +372,7 @@
       },
       "bonus": {
         "percentage": true,
-        "value": 1
+        "value": 1.0
       }
     }
   ],

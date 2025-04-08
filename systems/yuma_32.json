@@ -3,6 +3,11 @@
   "capture_nodes": 0,
   "connected_systems": [
     {
+      "$ref": "systems/idola_30",
+      "distance": 12,
+      "warp": 24
+    },
+    {
       "$ref": "systems/wallach_30",
       "distance": 24,
       "warp": 24
@@ -17,11 +22,10 @@
   "level": 32,
   "mining": [
     {
-      "type": "1\u21f4 Raw Isogen",
-      "amount": 6,
-      "grade": 1,
+      "type": "1\u21f4 raw isogen",
+      "amount": 1,
       "mining_per_hour": 750,
-      "size": 200000
+      "size": 500000
     }
   ],
   "planets": [

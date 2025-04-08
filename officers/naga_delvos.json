@@ -1,0 +1,183 @@
+{
+  "officer_name": "Naga Delvos",
+  "description": "\u201cPeace is a profitable illusion.\u201d\n\nBorn to a wealthy family on the Orion homeworld, Naga Delvos was a prodigy. After mastering calculus at age six and forming her first cabal at age twelve, it was clear to all who knew her that she was destined for greatness.\nThen came the Emerald Chain.\nFormed from the ashes of the old Orion Syndicate, the Emerald Chain rose to power in the wake of the Burn. Establishing a brutal order where there was chaos, they quickly established their dominance over Orion territory.\nNaga, knowing what fate awaited criminals under the watchful gaze of the Chain, elected to focus her keen mind on climbing that blood-encrusted ladder instead.\nThe determined young woman rapidly rose through the ranks, becoming a favored Enforcer of the Chain\u2019s enigmatic leader, Osyraa. Her quick wit, sharp mind, and willingness to shed blood made her an ideal lawbringer.\nStill, something stirs in Naga\u2019s heart. The blood of Orion pirates runs through her veins. A renegade\u2019s heart beats in her chest. There may be more destiny left to fulfill for Naga Delvos after all.",
+  "class": "command",
+  "group": "emerald chain",
+  "faction": "neutral",
+  "rarity": "epic",
+  "ability_info": {
+    "captain_maneuver": {
+      "name": "Cube Triangulation",
+      "bonus": "Increases the Cost Efficiency of the Borg Cube's Transwarp Jump by {value}.",
+      "percentage": true,
+      "value": 1.0
+    },
+    "officer_ability": {
+      "name": "Ouroboros",
+      "bonus": "Increases the base damage of the Borg Cube's Cutting Beam against players by {value} ({value} at rank {value}).",
+      "percentage": true
+    },
+    "below_decks_ability": {
+      "name": "Salvager's Spirit",
+      "bonus": "Increases base repair cost efficiency of the ship {value} ({value} at rank {value}).\n\nBelow-Deck Abilities are only activated when assigned to a below-decks slot on a ship.",
+      "percentage": true
+    }
+  },
+  "synergy": {
+    "command": 0.0,
+    "engineering": 0.0,
+    "science": 0.0
+  },
+  "traits": [
+    {
+      "name": "Marksman",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 1500
+        },
+        {
+          "level": 2,
+          "trait_xp": 2700
+        },
+        {
+          "level": 3,
+          "trait_xp": 3800
+        }
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Genius",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 7650
+        },
+        {
+          "level": 2,
+          "trait_xp": 6000
+        },
+        {
+          "level": 3,
+          "trait_xp": 7000
+        },
+        {
+          "level": 4,
+          "trait_xp": 8850
+        }
+      ],
+      "tier": 2
+    },
+    {
+      "name": "Rogue",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 10000
+        },
+        {
+          "level": 2,
+          "trait_xp": 4000
+        },
+        {
+          "level": 3,
+          "trait_xp": 7000
+        },
+        {
+          "level": 4,
+          "trait_xp": 10000
+        },
+        {
+          "level": 5,
+          "trait_xp": 15000
+        },
+        {
+          "level": 6,
+          "trait_xp": 23000
+        },
+        {
+          "level": 7,
+          "trait_xp": 42000
+        },
+        {
+          "level": 8,
+          "trait_xp": 68000
+        },
+        {
+          "level": 9,
+          "trait_xp": 107000
+        }
+      ],
+      "tier": 3
+    }
+  ],
+  "ranks": [
+    {
+      "rank_id": 1,
+      "name": "ENSIGN I",
+      "officer_ability_value": 0.3,
+      "requirements": {
+        "badges": 0,
+        "credits": 0,
+        "others": [],
+        "shards": 100,
+        "xp": 0
+      },
+      "below_deck_ability_value": 1.5
+    },
+    {
+      "rank_id": 2,
+      "name": "LIEUTENANT JG II",
+      "officer_ability_value": 0.6,
+      "requirements": {
+        "badges": 0,
+        "credits": 1000,
+        "others": [],
+        "shards": 100,
+        "xp": 50000
+      },
+      "below_deck_ability_value": 3.0
+    },
+    {
+      "rank_id": 3,
+      "name": "LIEUTENANT III",
+      "officer_ability_value": 0.9,
+      "requirements": {
+        "badges": 1,
+        "credits": 4000,
+        "others": [],
+        "shards": 200,
+        "xp": 500000
+      },
+      "below_deck_ability_value": 4.5
+    },
+    {
+      "rank_id": 4,
+      "name": "LT. COMMANDER IV",
+      "officer_ability_value": 1.2,
+      "requirements": {
+        "badges": 2,
+        "credits": 10500,
+        "others": [],
+        "shards": 300,
+        "xp": 1250000
+      },
+      "below_deck_ability_value": 6.0
+    },
+    {
+      "rank_id": 5,
+      "name": "COMMANDER V",
+      "officer_ability_value": 1.5,
+      "requirements": {
+        "badges": 4,
+        "credits": 22500,
+        "others": [],
+        "shards": 800,
+        "xp": 2500000
+      },
+      "below_deck_ability_value": 7.5
+    }
+  ],
+  "img_url": "./assets/naga_delvos.png"
+}

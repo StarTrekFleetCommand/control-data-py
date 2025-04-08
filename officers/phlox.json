@@ -1,6 +1,6 @@
 {
   "officer_name": "Phlox",
-  "description": "",
+  "description": "One of the first aliens to serve aboard the Enterprise, Doctor Phlox of Denobula is one of its most beloved, most valuable crew members.\nDespite having only six months of service within Starfleet, the good Doctor Phlox was selected to assist the Enterprise in her maiden voyage following a miraculous treatment of a dying Klingon warrior.\nAlthough his patient would eventually be captured by the Suliban, Phlox continued to serve with distinction aboard the Enterprise, proving himself an invaluable member of the crew on numerous occasions.\nEven considering his odd propensity of collecting and cataloging odd alien fauna, one could not ask for a better physician, especially if one\u2019s life is on the line.",
   "class": "science",
   "group": "enterprise nx-01",
   "faction": "federation",
@@ -10,23 +10,23 @@
       "name": "Chain of Command",
       "bonus": "This Officer does not have a Captain's Maneuver. Equipping this Officer as the captain of a ship provides no benefit.",
       "percentage": true,
-      "value": 0
+      "value": 0.0
     },
     "officer_ability": {
       "name": "Denobulan Threat Response",
-      "bonus": "On combat start against players and hostiles, Phlox reduces the opponent's Critical Hit Chance by {value} ({1:#,#%} at rank {2:#,#}), for 8 rounds. (Does not trigger at Armadas, Assaults or Station Combat).",
+      "bonus": "On combat start against players and hostiles, Phlox reduces the opponent's Critical Hit Chance by {value} ({value} at rank {value}), for 8 rounds. (Does not trigger at Armadas, Assaults or Station Combat).",
       "percentage": true
     },
     "below_decks_ability": {
       "name": "Specimen Cataloging",
-      "bonus": "Phlox increases the efficiency of charging the Borg Cube's Cutting Beam by {value} ({1:#,#%} at rank {2:#,#})",
+      "bonus": "Phlox increases the efficiency of charging the Borg Cube's Cutting Beam by {value} ({value} at rank {value})",
       "percentage": true
     }
   },
   "synergy": {
-    "command": 0,
-    "engineering": 0,
-    "science": 0
+    "command": 0.0,
+    "engineering": 0.0,
+    "science": 0.0
   },
   "traits": [
     {
@@ -124,9 +124,7 @@
         "shards": 100,
         "xp": 0
       },
-      "below_deck_ability_value": [
-        0.2
-      ]
+      "below_deck_ability_value": 0.2
     },
     {
       "rank_id": 2,
@@ -139,9 +137,7 @@
         "shards": 100,
         "xp": 50000
       },
-      "below_deck_ability_value": [
-        0.4
-      ]
+      "below_deck_ability_value": 0.4
     },
     {
       "rank_id": 3,
@@ -154,9 +150,7 @@
         "shards": 200,
         "xp": 500000
       },
-      "below_deck_ability_value": [
-        0.6
-      ]
+      "below_deck_ability_value": 0.6
     },
     {
       "rank_id": 4,
@@ -169,14 +163,12 @@
         "shards": 300,
         "xp": 1250000
       },
-      "below_deck_ability_value": [
-        0.8
-      ]
+      "below_deck_ability_value": 0.8
     },
     {
       "rank_id": 5,
       "name": "COMMANDER V",
-      "officer_ability_value": 1,
+      "officer_ability_value": 1.0,
       "requirements": {
         "badges": 4,
         "credits": 25000,
@@ -184,9 +176,7 @@
         "shards": 800,
         "xp": 2500000
       },
-      "below_deck_ability_value": [
-        1
-      ]
+      "below_deck_ability_value": 1.0
     }
   ],
   "img_url": "./assets/phlox.png"

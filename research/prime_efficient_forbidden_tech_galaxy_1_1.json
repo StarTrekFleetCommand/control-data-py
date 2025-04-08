@@ -1,0 +1,43 @@
+{
+  "research_name": "Prime Efficient Forbidden Tech",
+  "description": "Increases base Forbidden Tech Protomatter cost efficiency for level up.",
+  "location": {
+    "column": 1,
+    "row": 1,
+    "tree": "galaxy"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 250980,
+      "increased_power": 17250,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 19
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 46000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "agonizer switch",
+            "value": 1000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.2
+      }
+    }
+  ],
+  "img_url": "./assets/prime_efficient_forbidden_tech_galaxy_1_1.png"
+}

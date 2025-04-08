@@ -8,17 +8,17 @@
       "warp": 16
     },
     {
-      "$ref": "systems/klaiz_22",
-      "distance": 15,
-      "warp": 15
-    },
-    {
       "$ref": "systems/kol_ran_22",
       "distance": 15,
       "warp": 15
     },
     {
-      "$ref": "systems/ka_bi_17",
+      "$ref": "systems/klaiz_22",
+      "distance": 15,
+      "warp": 15
+    },
+    {
+      "$ref": "systems/kabi_17",
       "distance": 15,
       "warp": 15
     },
@@ -32,9 +32,8 @@
   "level": 20,
   "mining": [
     {
-      "type": "3\u2605 Raw Crystal",
-      "amount": 24,
-      "grade": 3,
+      "type": "3\u2605 raw crystal",
+      "amount": 1,
       "mining_per_hour": 300,
       "size": 3600
     }
@@ -45,6 +44,6 @@
   ],
   "scopely_id": 1735899624,
   "system_space": "normal",
-  "system_type": "hub",
+  "system_type": "route",
   "warp": 13
 }

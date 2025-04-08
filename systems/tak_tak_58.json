@@ -1,0 +1,28 @@
+{
+  "name": "Tak Tak",
+  "capture_nodes": 0,
+  "connected_systems": [
+    {
+      "$ref": "systems/sivis_60",
+      "distance": 250,
+      "warp": 250
+    },
+    {
+      "$ref": "systems/sakari_53",
+      "distance": 225,
+      "warp": 160
+    }
+  ],
+  "faction": "neutral",
+  "level": 58,
+  "mining": [],
+  "planets": [
+    "Meyuv",
+    "Womua",
+    "Wujep"
+  ],
+  "scopely_id": 2045712999,
+  "system_space": "deep",
+  "system_type": "route",
+  "warp": 225
+}

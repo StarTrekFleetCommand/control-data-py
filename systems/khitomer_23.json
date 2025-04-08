@@ -13,7 +13,7 @@
       "warp": 16
     },
     {
-      "$ref": "systems/k_amia_24",
+      "$ref": "systems/kamia_24",
       "distance": 17,
       "warp": 17
     },
@@ -32,8 +32,8 @@
   "level": 23,
   "mining": [
     {
-      "type": "Dilithium",
-      "amount": 4,
+      "type": "dilithium",
+      "amount": 2,
       "mining_per_hour": 80,
       "size": 4000
     }
@@ -48,6 +48,6 @@
   ],
   "scopely_id": 846029245,
   "system_space": "normal",
-  "system_type": "hub",
+  "system_type": "route",
   "warp": 17
 }

@@ -3,7 +3,27 @@
   "capture_nodes": 0,
   "connected_systems": [
     {
+      "$ref": "systems/orin_theta_12_59",
+      "distance": 205,
+      "warp": 205
+    },
+    {
+      "$ref": "systems/thora_omega_2_57",
+      "distance": 205,
+      "warp": 205
+    },
+    {
       "$ref": "systems/belmont_51",
+      "distance": 205,
+      "warp": 205
+    },
+    {
+      "$ref": "systems/thora_omega_2_57",
+      "distance": 205,
+      "warp": 205
+    },
+    {
+      "$ref": "systems/orin_theta_12_59",
       "distance": 205,
       "warp": 205
     }
@@ -12,8 +32,8 @@
   "level": 51,
   "mining": [
     {
-      "type": "Parsteel",
-      "amount": 18,
+      "type": "parsteel",
+      "amount": 1,
       "mining_per_hour": 1200,
       "size": 10000000
     }
@@ -25,6 +45,6 @@
   ],
   "scopely_id": 1131821012,
   "system_space": "deep",
-  "system_type": "terminal",
+  "system_type": "route",
   "warp": 205
 }

@@ -19,10 +19,6 @@
         {
           "name": "R&D Department",
           "level": 35
-        },
-        {
-          "name": "Romulan Points",
-          "level": 7000000
         }
       ],
       "required_by": [],
@@ -72,10 +68,6 @@
         {
           "name": "R&D Department",
           "level": 37
-        },
-        {
-          "name": "Romulan Points",
-          "level": 12000000
         }
       ],
       "required_by": [],
@@ -125,10 +117,6 @@
         {
           "name": "R&D Department",
           "level": 39
-        },
-        {
-          "name": "Romulan Points",
-          "level": 20000000
         }
       ],
       "required_by": [],
@@ -178,10 +166,6 @@
         {
           "name": "R&D Department",
           "level": 41
-        },
-        {
-          "name": "Romulan Points",
-          "level": 30000000
         }
       ],
       "required_by": [],
@@ -219,10 +203,6 @@
         {
           "name": "R&D Department",
           "level": 43
-        },
-        {
-          "name": "Romulan Points",
-          "level": 42000000
         }
       ],
       "required_by": [],
@@ -240,9 +220,9 @@
         "materials": [
           {
             "type": "ore",
-            "value": 850,
+            "value": 9000,
             "grade": 4,
-            "rarity": "rare"
+            "rarity": "common"
           },
           {
             "type": "ore",
@@ -252,9 +232,9 @@
           },
           {
             "type": "ore",
-            "value": 9000,
+            "value": 850,
             "grade": 4,
-            "rarity": "common"
+            "rarity": "rare"
           }
         ],
         "others": []
@@ -272,10 +252,6 @@
         {
           "name": "R&D Department",
           "level": 45
-        },
-        {
-          "name": "Romulan Points",
-          "level": 60000000
         }
       ],
       "required_by": [],
@@ -293,9 +269,9 @@
         "materials": [
           {
             "type": "ore",
-            "value": 950,
+            "value": 13000,
             "grade": 4,
-            "rarity": "rare"
+            "rarity": "common"
           },
           {
             "type": "ore",
@@ -305,9 +281,9 @@
           },
           {
             "type": "ore",
-            "value": 13000,
+            "value": 950,
             "grade": 4,
-            "rarity": "common"
+            "rarity": "rare"
           }
         ],
         "others": []
@@ -325,10 +301,6 @@
         {
           "name": "R&D Department",
           "level": 47
-        },
-        {
-          "name": "Romulan Points",
-          "level": 80000000
         }
       ],
       "required_by": [],
@@ -346,9 +318,9 @@
         "materials": [
           {
             "type": "ore",
-            "value": 1100,
+            "value": 18000,
             "grade": 4,
-            "rarity": "rare"
+            "rarity": "common"
           },
           {
             "type": "ore",
@@ -358,9 +330,9 @@
           },
           {
             "type": "ore",
-            "value": 18000,
+            "value": 1100,
             "grade": 4,
-            "rarity": "common"
+            "rarity": "rare"
           }
         ],
         "others": []
@@ -378,10 +350,6 @@
         {
           "name": "R&D Department",
           "level": 49
-        },
-        {
-          "name": "Romulan Points",
-          "level": 115000000
         }
       ],
       "required_by": [],
@@ -399,9 +367,9 @@
         "materials": [
           {
             "type": "ore",
-            "value": 1200,
+            "value": 24000,
             "grade": 4,
-            "rarity": "rare"
+            "rarity": "common"
           },
           {
             "type": "ore",
@@ -411,9 +379,9 @@
           },
           {
             "type": "ore",
-            "value": 24000,
+            "value": 1200,
             "grade": 4,
-            "rarity": "common"
+            "rarity": "rare"
           }
         ],
         "others": []
@@ -431,10 +399,6 @@
         {
           "name": "R&D Department",
           "level": 51
-        },
-        {
-          "name": "Romulan Points",
-          "level": 150000000
         }
       ],
       "required_by": [],
@@ -472,10 +436,6 @@
         {
           "name": "R&D Department",
           "level": 53
-        },
-        {
-          "name": "Romulan Points",
-          "level": 200000000
         }
       ],
       "required_by": [],
@@ -493,22 +453,22 @@
         "materials": [
           {
             "type": "ore",
-            "value": 12000,
-            "grade": 5,
-            "rarity": "uncommon"
-          },
-          {
-            "type": "ore",
             "value": 36000,
             "grade": 5,
             "rarity": "common"
+          },
+          {
+            "type": "ore",
+            "value": 12000,
+            "grade": 5,
+            "rarity": "uncommon"
           }
         ],
         "others": []
       },
       "bonus": {
         "percentage": true,
-        "value": 1
+        "value": 1.0
       }
     }
   ],

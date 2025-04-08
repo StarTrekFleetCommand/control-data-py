@@ -1,6 +1,6 @@
 {
   "officer_name": "Mirror Ezri",
-  "description": "",
+  "description": "A mercenary, a lover, and a rebel - Ezri Tigan didn\u2019t have an easy life, but it certainly could not be defined as drab. Unlike her counterpart, Ezri was never joined with a symbiont, and in the harsh reality of the alternate dimension, she chose the life of a mercenary with Brunt as her partner. This path led to her cooperation with the Klingon-Cardassian Alliance, where Intendant Kira, Ezri\u2019s superior and subsequent lover, selected her to cross over to another dimension. Tasked with stealing a cloaking device, Ezri used Quark and Rom to smuggle it back to her employer, but her seemingly successful operation went awry when the Terran Rebellion captured her.\n\nBrunt, Ezri\u2019s close friend and partner in crime, saved her, Quark, and Rom from captivity and helped deliver the cloaking device to Regent Worf. The Ferengi expected that the Klingon-Cardassian Alliance would hold up their end of the deal, but much to their surprise, the Regent imprisoned Quark and Rom after using them to obtain the device. This betrayal encouraged Brunt to urge Ezri to request their immediate release. Brunt would meet his end when Intendant Kira appeared and killed Ezri\u2019s longtime friend, suspecting him of treachery.\n\nThe death of Brunt has changed Ezri. Previously apathetic to the Rebellion\u2019s cause, she decided to side with them by helping the Ferengi to sabotage Worf\u2019s ship and abandoned Intendant Kira in the process, thus granting the Terrans a long-sought victory over the Klingon-Cardassian Alliance. Attempting to distance herself from her past, Ezri has started a new life with the people she loves. However, her happiness would be short-lived when she witnessed the resurgence of the Terran Empire, and the appointment of a new Empress...",
   "class": "science",
   "group": "mirror universe",
   "faction": "neutral",
@@ -8,21 +8,21 @@
   "ability_info": {
     "captain_maneuver": {
       "name": "The Smart Move",
-      "bonus": "On combat start while against a Battleship player: Mirror Ezri increases your Apex Barrier by {value} for the duration of combat.\n\nThis ability does not trigger when Tal is assigned to the bridge of your ship.\n\nApex Barrier provides <b>true damage mitigation</b> from all sources after all other bonuses. Every 100 Apex Barrier increases the damage you can take by 1%.",
+      "bonus": "On combat start while against a Battleship player: Mirror Ezri increases your Apex Barrier by {value} for the duration of combat.\n\nThis ability does not trigger when Tal is assigned to the bridge of your ship.\n\nApex Barrier provides <b>true damage mitigation from all sources after all other bonuses. Every 100 Apex Barrier increases the damage you can take by 1%.",
       "percentage": false,
-      "value": 7500
+      "value": 7500.0
     },
     "officer_ability": {
       "name": "Clean It Up",
-      "bonus": "On round start against players with Assimilate, Mirror Ezri increases your Kinetic Weapon damage by {value} ({1:#,#%} at rank {2:#,#}) for 1 round.",
+      "bonus": "On round start against players with Assimilate, Mirror Ezri increases your Kinetic Weapon damage by {value} ({value} at rank {value}) for 1 round.",
       "percentage": true
     },
     "below_decks_ability": null
   },
   "synergy": {
-    "command": 18750,
-    "engineering": 18750,
-    "science": 3500
+    "command": 18750.0,
+    "engineering": 18750.0,
+    "science": 3500.0
   },
   "traits": [
     {
@@ -94,13 +94,13 @@
     {
       "rank_id": 3,
       "name": "LIEUTENANT III",
-      "officer_ability_value": 15,
+      "officer_ability_value": 15.0,
       "requirements": {
         "badges": 0,
         "credits": 0,
         "others": [
           {
-            "name": "Liquid Trellium-D",
+            "name": "liquid trellium-d",
             "value": 5200
           }
         ],
@@ -111,13 +111,13 @@
     {
       "rank_id": 4,
       "name": "LT. COMMANDER IV",
-      "officer_ability_value": 23,
+      "officer_ability_value": 23.0,
       "requirements": {
         "badges": 1,
         "credits": 0,
         "others": [
           {
-            "name": "Liquid Trellium-D",
+            "name": "liquid trellium-d",
             "value": 21400
           }
         ],
@@ -128,13 +128,13 @@
     {
       "rank_id": 5,
       "name": "COMMANDER V",
-      "officer_ability_value": 35,
+      "officer_ability_value": 35.0,
       "requirements": {
         "badges": 2,
         "credits": 0,
         "others": [
           {
-            "name": "Liquid Trellium-D",
+            "name": "liquid trellium-d",
             "value": 54600
           }
         ],

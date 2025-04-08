@@ -3,16 +3,6 @@
   "capture_nodes": 0,
   "connected_systems": [
     {
-      "$ref": "systems/loiat_24",
-      "distance": 8,
-      "warp": 19
-    },
-    {
-      "$ref": "systems/morska_29",
-      "distance": 20,
-      "warp": 20
-    },
-    {
       "$ref": "systems/vosak_24",
       "distance": 8,
       "warp": 19
@@ -28,9 +18,9 @@
       "warp": 19
     },
     {
-      "$ref": "systems/yadow_25",
-      "distance": 19,
-      "warp": 18
+      "$ref": "systems/ias_26",
+      "distance": 8,
+      "warp": 19
     },
     {
       "$ref": "systems/izth_26",
@@ -38,9 +28,19 @@
       "warp": 19
     },
     {
-      "$ref": "systems/ias_26",
+      "$ref": "systems/morska_29",
+      "distance": 20,
+      "warp": 20
+    },
+    {
+      "$ref": "systems/loiat_24",
       "distance": 8,
       "warp": 19
+    },
+    {
+      "$ref": "systems/yadow_25",
+      "distance": 19,
+      "warp": 18
     }
   ],
   "faction": "klingon",
@@ -51,9 +51,8 @@
   "level": 27,
   "mining": [
     {
-      "type": "3\u2605 Raw Crystal",
-      "amount": 25,
-      "grade": 3,
+      "type": "3\u2605 raw crystal",
+      "amount": 2,
       "mining_per_hour": 300,
       "size": 8500
     }

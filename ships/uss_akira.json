@@ -6,7 +6,7 @@
   "faction": "federation",
   "rarity": "uncommon",
   "blueprints": {
-    "cost": 0,
+    "cost": 12000,
     "quantity": 150
   },
   "ship_ability": {
@@ -246,7 +246,7 @@
         },
         {
           "ability_bonus": 0.2,
-          "additional_officer_slot": true,
+          "additional_officer_slot": false,
           "level": 5,
           "ship_xp": 653402
         }
@@ -254,12 +254,12 @@
       "initial_build_cost": {
         "resources": [
           {
-            "type": "\u03c3-dilithium",
-            "value": 364
-          },
-          {
             "type": "\u03c3-tritanium",
             "value": 43400
+          },
+          {
+            "type": "\u03c3-dilithium",
+            "value": 364
           }
         ],
         "materials": [
@@ -284,12 +284,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 4000
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 538900
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 4000
               }
             ],
             "materials": [
@@ -308,19 +308,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Interceptor Parts",
+                "type": "6\u2605 uncommon interceptor parts",
                 "value": 128100
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 4
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 344
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 4
             }
           ],
           "additional_info": {
@@ -354,21 +354,15 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 3400
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 458100
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 3400
               }
             ],
             "materials": [
-              {
-                "type": "crystal",
-                "value": 12800,
-                "grade": 6,
-                "rarity": "uncommon"
-              },
               {
                 "type": "gas",
                 "value": 8600,
@@ -380,23 +374,29 @@
                 "value": 41200,
                 "grade": 6,
                 "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 12800,
+                "grade": 6,
+                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Common Interceptor Parts",
+                "type": "6\u2605 common interceptor parts",
                 "value": 82000
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 4
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 344
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 4
             }
           ],
           "additional_info": {
@@ -430,21 +430,15 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 2000
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 269500
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 2000
               }
             ],
             "materials": [
-              {
-                "type": "crystal",
-                "value": 9000,
-                "grade": 6,
-                "rarity": "uncommon"
-              },
               {
                 "type": "gas",
                 "value": 6400,
@@ -456,23 +450,29 @@
                 "value": 28900,
                 "grade": 6,
                 "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 9000,
+                "grade": 6,
+                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Common Interceptor Parts",
+                "type": "6\u2605 common interceptor parts",
                 "value": 61500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 2
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 186
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 2
             }
           ],
           "additional_info": {
@@ -489,21 +489,15 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 3400
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 458100
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 3400
               }
             ],
             "materials": [
-              {
-                "type": "crystal",
-                "value": 11500,
-                "grade": 6,
-                "rarity": "uncommon"
-              },
               {
                 "type": "gas",
                 "value": 8600,
@@ -515,23 +509,29 @@
                 "value": 41200,
                 "grade": 6,
                 "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 11500,
+                "grade": 6,
+                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Common Interceptor Parts",
+                "type": "6\u2605 common interceptor parts",
                 "value": 82000
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 3
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 241
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 3
             }
           ],
           "additional_info": {
@@ -565,12 +565,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 600
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 80800
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 600
               }
             ],
             "materials": [
@@ -589,19 +589,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Common Interceptor Parts",
+                "type": "6\u2605 common interceptor parts",
                 "value": 20500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 1
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 56
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 1
             }
           ],
           "additional_info": {
@@ -620,12 +620,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 1600
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 215600
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 1600
               }
             ],
             "materials": [
@@ -644,19 +644,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Common Interceptor Parts",
+                "type": "6\u2605 common interceptor parts",
                 "value": 51200
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 2
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 130
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 2
             }
           ],
           "additional_info": {
@@ -673,12 +673,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 2000
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 269500
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 2000
               }
             ],
             "materials": [
@@ -697,19 +697,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Common Interceptor Parts",
+                "type": "6\u2605 common interceptor parts",
                 "value": 61500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 2
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 186
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 2
             }
           ],
           "additional_info": {
@@ -726,21 +726,15 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 3000
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 404200
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 3000
               }
             ],
             "materials": [
-              {
-                "type": "crystal",
-                "value": 11500,
-                "grade": 6,
-                "rarity": "uncommon"
-              },
               {
                 "type": "gas",
                 "value": 9600,
@@ -752,23 +746,29 @@
                 "value": 41200,
                 "grade": 6,
                 "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 11500,
+                "grade": 6,
+                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Common Interceptor Parts",
+                "type": "6\u2605 common interceptor parts",
                 "value": 92200
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 4
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 279
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 4
             }
           ],
           "additional_info": {
@@ -807,7 +807,7 @@
         },
         {
           "ability_bonus": 0.25,
-          "additional_officer_slot": true,
+          "additional_officer_slot": false,
           "level": 10,
           "ship_xp": 1932774
         }
@@ -824,12 +824,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 7600
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 1034700
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 7600
               }
             ],
             "materials": [
@@ -848,19 +848,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Interceptor Parts",
+                "type": "6\u2605 uncommon interceptor parts",
                 "value": 71300
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 36
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 2854
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 36
             }
           ],
           "additional_info": {
@@ -894,21 +894,15 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 6500
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 879500
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 6500
               }
             ],
             "materials": [
-              {
-                "type": "crystal",
-                "value": 20300,
-                "grade": 6,
-                "rarity": "uncommon"
-              },
               {
                 "type": "gas",
                 "value": 13600,
@@ -920,23 +914,29 @@
                 "value": 99200,
                 "grade": 6,
                 "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 20300,
+                "grade": 6,
+                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Common Interceptor Parts",
+                "type": "6\u2605 common interceptor parts",
                 "value": 254700
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 36
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 2854
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 36
             }
           ],
           "additional_info": {
@@ -970,26 +970,26 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 3800
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 517400
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 3800
               }
             ],
             "materials": [
               {
                 "type": "gas",
-                "value": 3700,
-                "grade": 6,
-                "rarity": "uncommon"
-              },
-              {
-                "type": "gas",
                 "value": 11900,
                 "grade": 6,
                 "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 3700,
+                "grade": 6,
+                "rarity": "uncommon"
               },
               {
                 "type": "crystal",
@@ -1000,19 +1000,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Interceptor Parts",
+                "type": "6\u2605 uncommon interceptor parts",
                 "value": 38900
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 20
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 1542
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 20
             }
           ],
           "additional_info": {
@@ -1029,21 +1029,15 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 6500
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 879500
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 6500
               }
             ],
             "materials": [
-              {
-                "type": "crystal",
-                "value": 18300,
-                "grade": 6,
-                "rarity": "uncommon"
-              },
               {
                 "type": "gas",
                 "value": 13600,
@@ -1055,23 +1049,29 @@
                 "value": 99200,
                 "grade": 6,
                 "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 18300,
+                "grade": 6,
+                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Common Interceptor Parts",
+                "type": "6\u2605 common interceptor parts",
                 "value": 254700
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 25
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 2005
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 25
             }
           ],
           "additional_info": {
@@ -1105,12 +1105,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 1100
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 155200
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 1100
               }
             ],
             "materials": [
@@ -1129,19 +1129,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Common Interceptor Parts",
+                "type": "6\u2605 common interceptor parts",
                 "value": 63700
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 6
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 463
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 6
             }
           ],
           "additional_info": {
@@ -1160,12 +1160,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 3100
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 413900
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 3100
               }
             ],
             "materials": [
@@ -1184,19 +1184,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Common Interceptor Parts",
+                "type": "6\u2605 common interceptor parts",
                 "value": 159200
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 14
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 1080
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 14
             }
           ],
           "additional_info": {
@@ -1213,15 +1213,21 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 3800
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 517400
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 3800
               }
             ],
             "materials": [
+              {
+                "type": "gas",
+                "value": 11900,
+                "grade": 6,
+                "rarity": "common"
+              },
               {
                 "type": "gas",
                 "value": 3700,
@@ -1233,29 +1239,23 @@
                 "value": 14200,
                 "grade": 6,
                 "rarity": "uncommon"
-              },
-              {
-                "type": "gas",
-                "value": 11900,
-                "grade": 6,
-                "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Interceptor Parts",
+                "type": "6\u2605 uncommon interceptor parts",
                 "value": 38900
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 20
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 1542
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 20
             }
           ],
           "additional_info": {
@@ -1272,15 +1272,21 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 5700
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 776000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 5700
               }
             ],
             "materials": [
+              {
+                "type": "gas",
+                "value": 15300,
+                "grade": 6,
+                "rarity": "common"
+              },
               {
                 "type": "gas",
                 "value": 5500,
@@ -1292,29 +1298,23 @@
                 "value": 20300,
                 "grade": 6,
                 "rarity": "uncommon"
-              },
-              {
-                "type": "gas",
-                "value": 15300,
-                "grade": 6,
-                "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Interceptor Parts",
+                "type": "6\u2605 uncommon interceptor parts",
                 "value": 58400
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 29
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 2314
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 29
             }
           ],
           "additional_info": {
@@ -1370,12 +1370,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 10500
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 1422700
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 10500
               }
             ],
             "materials": [
@@ -1400,19 +1400,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Interceptor Parts",
+                "type": "6\u2605 uncommon interceptor parts",
                 "value": 65400
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 42
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 3298
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 42
             }
           ],
           "additional_info": {
@@ -1446,12 +1446,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 8900
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 1209300
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 8900
               }
             ],
             "materials": [
@@ -1476,19 +1476,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Interceptor Parts",
+                "type": "6\u2605 uncommon interceptor parts",
                 "value": 47600
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 42
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 3298
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 42
             }
           ],
           "additional_info": {
@@ -1522,15 +1522,21 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 5300
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 711400
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 5300
               }
             ],
             "materials": [
+              {
+                "type": "gas",
+                "value": 35800,
+                "grade": 6,
+                "rarity": "common"
+              },
               {
                 "type": "gas",
                 "value": 3400,
@@ -1542,29 +1548,23 @@
                 "value": 16800,
                 "grade": 6,
                 "rarity": "uncommon"
-              },
-              {
-                "type": "gas",
-                "value": 35800,
-                "grade": 6,
-                "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Interceptor Parts",
+                "type": "6\u2605 uncommon interceptor parts",
                 "value": 35700
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 23
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 1783
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 23
             }
           ],
           "additional_info": {
@@ -1581,12 +1581,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 8900
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 1209300
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 8900
               }
             ],
             "materials": [
@@ -1611,19 +1611,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Interceptor Parts",
+                "type": "6\u2605 uncommon interceptor parts",
                 "value": 47600
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 29
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 2318
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 29
             }
           ],
           "additional_info": {
@@ -1657,12 +1657,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 1600
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 213400
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 1600
               }
             ],
             "materials": [
@@ -1681,19 +1681,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Common Interceptor Parts",
+                "type": "6\u2605 common interceptor parts",
                 "value": 287700
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 7
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 535
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 7
             }
           ],
           "additional_info": {
@@ -1712,12 +1712,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 4200
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 569100
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 4200
               }
             ],
             "materials": [
@@ -1736,19 +1736,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Common Interceptor Parts",
+                "type": "6\u2605 common interceptor parts",
                 "value": 719200
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 16
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 1248
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 16
             }
           ],
           "additional_info": {
@@ -1765,15 +1765,21 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 5300
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 711400
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 5300
               }
             ],
             "materials": [
+              {
+                "type": "gas",
+                "value": 35800,
+                "grade": 6,
+                "rarity": "common"
+              },
               {
                 "type": "gas",
                 "value": 3400,
@@ -1785,29 +1791,23 @@
                 "value": 16800,
                 "grade": 6,
                 "rarity": "uncommon"
-              },
-              {
-                "type": "gas",
-                "value": 35800,
-                "grade": 6,
-                "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Interceptor Parts",
+                "type": "6\u2605 uncommon interceptor parts",
                 "value": 35700
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 23
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 1783
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 23
             }
           ],
           "additional_info": {
@@ -1824,12 +1824,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 7900
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 1067100
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 7900
               }
             ],
             "materials": [
@@ -1848,19 +1848,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Interceptor Parts",
+                "type": "6\u2605 uncommon interceptor parts",
                 "value": 53500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 34
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 2674
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 34
             }
           ],
           "additional_info": {
@@ -1899,7 +1899,7 @@
         },
         {
           "ability_bonus": 0.36,
-          "additional_officer_slot": true,
+          "additional_officer_slot": false,
           "level": 20,
           "ship_xp": 6631549
         }
@@ -1916,12 +1916,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 17100
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 2309600
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 17100
               }
             ],
             "materials": [
@@ -1946,19 +1946,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Interceptor Parts",
+                "type": "6\u2605 rare interceptor parts",
                 "value": 12100
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 83
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 6416
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 83
             }
           ],
           "additional_info": {
@@ -1992,12 +1992,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 14500
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 1963200
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 14500
               }
             ],
             "materials": [
@@ -2016,19 +2016,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Interceptor Parts",
+                "type": "6\u2605 uncommon interceptor parts",
                 "value": 112700
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 83
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 6416
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 83
             }
           ],
           "additional_info": {
@@ -2062,12 +2062,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 8500
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 1154800
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 8500
               }
             ],
             "materials": [
@@ -2086,19 +2086,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Interceptor Parts",
+                "type": "6\u2605 uncommon interceptor parts",
                 "value": 84500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 45
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 3468
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 45
             }
           ],
           "additional_info": {
@@ -2115,12 +2115,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 14500
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 1963200
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 14500
               }
             ],
             "materials": [
@@ -2139,19 +2139,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Interceptor Parts",
+                "type": "6\u2605 uncommon interceptor parts",
                 "value": 112700
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 58
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 4509
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 58
             }
           ],
           "additional_info": {
@@ -2185,12 +2185,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 2600
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 346400
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 2600
               }
             ],
             "materials": [
@@ -2209,19 +2209,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Common Interceptor Parts",
+                "type": "6\u2605 common interceptor parts",
                 "value": 398000
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 13
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 1040
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 13
             }
           ],
           "additional_info": {
@@ -2240,12 +2240,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 6800
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 923900
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 6800
               }
             ],
             "materials": [
@@ -2264,19 +2264,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Common Interceptor Parts",
+                "type": "6\u2605 common interceptor parts",
                 "value": 995100
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 31
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 2428
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 31
             }
           ],
           "additional_info": {
@@ -2293,12 +2293,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 8500
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 1154800
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 8500
               }
             ],
             "materials": [
@@ -2317,19 +2317,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Interceptor Parts",
+                "type": "6\u2605 uncommon interceptor parts",
                 "value": 84500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 45
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 3468
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 45
             }
           ],
           "additional_info": {
@@ -2346,12 +2346,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 12800
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 1732200
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 12800
               }
             ],
             "materials": [
@@ -2370,19 +2370,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Interceptor Parts",
+                "type": "6\u2605 rare interceptor parts",
                 "value": 9900
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 67
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 5202
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 67
             }
           ],
           "additional_info": {
@@ -2438,12 +2438,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 25700
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 3510600
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 25700
               }
             ],
             "materials": [
@@ -2468,19 +2468,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Interceptor Parts",
+                "type": "6\u2605 rare interceptor parts",
                 "value": 15500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 132
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 10441
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 132
             }
           ],
           "additional_info": {
@@ -2514,12 +2514,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 21900
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 2984100
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 21900
               }
             ],
             "materials": [
@@ -2538,19 +2538,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Interceptor Parts",
+                "type": "6\u2605 uncommon interceptor parts",
                 "value": 144700
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 132
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 10441
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 132
             }
           ],
           "additional_info": {
@@ -2584,12 +2584,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 12900
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 1755300
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 12900
               }
             ],
             "materials": [
@@ -2608,19 +2608,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Interceptor Parts",
+                "type": "6\u2605 uncommon interceptor parts",
                 "value": 108500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 72
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 5644
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 72
             }
           ],
           "additional_info": {
@@ -2637,12 +2637,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 21900
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 2984100
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 21900
               }
             ],
             "materials": [
@@ -2661,19 +2661,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Interceptor Parts",
+                "type": "6\u2605 uncommon interceptor parts",
                 "value": 144700
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 93
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 7337
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 93
             }
           ],
           "additional_info": {
@@ -2707,12 +2707,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 3900
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 526600
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 3900
               }
             ],
             "materials": [
@@ -2731,19 +2731,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Common Interceptor Parts",
+                "type": "6\u2605 common interceptor parts",
                 "value": 511400
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 21
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 1693
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 21
             }
           ],
           "additional_info": {
@@ -2762,12 +2762,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 10300
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 1404300
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 10300
               }
             ],
             "materials": [
@@ -2786,19 +2786,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Common Interceptor Parts",
+                "type": "6\u2605 common interceptor parts",
                 "value": 1278600
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 50
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 3951
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 50
             }
           ],
           "additional_info": {
@@ -2815,12 +2815,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 12900
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 1755300
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 12900
               }
             ],
             "materials": [
@@ -2839,19 +2839,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Interceptor Parts",
+                "type": "6\u2605 uncommon interceptor parts",
                 "value": 108500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 72
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 5644
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 72
             }
           ],
           "additional_info": {
@@ -2868,12 +2868,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 19300
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 2633000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 19300
               }
             ],
             "materials": [
@@ -2892,19 +2892,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Interceptor Parts",
+                "type": "6\u2605 rare interceptor parts",
                 "value": 12700
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 107
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 8466
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 107
             }
           ],
           "additional_info": {
@@ -2960,43 +2960,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 31200
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 4249700
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 31200
               }
             ],
             "materials": [
-              {
-                "type": "crystal",
-                "value": 66900,
-                "grade": 6,
-                "rarity": "uncommon"
-              },
               {
                 "type": "gas",
                 "value": 4600,
                 "grade": 6,
                 "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 66900,
+                "grade": 6,
+                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Interceptor Parts",
+                "type": "6\u2605 uncommon interceptor parts",
                 "value": 122600
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 142
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 11155
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 142
             }
           ],
           "additional_info": {
@@ -3030,12 +3030,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 26500
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 3612300
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 26500
               }
             ],
             "materials": [
@@ -3048,23 +3048,23 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Interceptor Parts",
-                "value": 89200
+                "type": "6\u2605 common interceptor parts",
+                "value": 1083400
               },
               {
-                "type": "6\u2605 Common Interceptor Parts",
-                "value": 1083400
+                "type": "6\u2605 uncommon interceptor parts",
+                "value": 89200
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 142
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 11155
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 142
             }
           ],
           "additional_info": {
@@ -3098,12 +3098,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 15600
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 2124900
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 15600
               }
             ],
             "materials": [
@@ -3114,33 +3114,33 @@
                 "rarity": "uncommon"
               },
               {
-                "type": "crystal",
-                "value": 36000,
-                "grade": 6,
-                "rarity": "uncommon"
-              },
-              {
                 "type": "gas",
                 "value": 2500,
                 "grade": 6,
                 "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 36000,
+                "grade": 6,
+                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Interceptor Parts",
+                "type": "6\u2605 uncommon interceptor parts",
                 "value": 66900
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 77
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 6029
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 77
             }
           ],
           "additional_info": {
@@ -3157,12 +3157,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 26500
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 3612300
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 26500
               }
             ],
             "materials": [
@@ -3175,23 +3175,23 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Interceptor Parts",
-                "value": 89200
+                "type": "6\u2605 common interceptor parts",
+                "value": 1083400
               },
               {
-                "type": "6\u2605 Common Interceptor Parts",
-                "value": 1083400
+                "type": "6\u2605 uncommon interceptor parts",
+                "value": 89200
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 99
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 7838
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 99
             }
           ],
           "additional_info": {
@@ -3225,26 +3225,26 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 4700
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 637500
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 4700
               }
             ],
             "materials": [
               {
                 "type": "gas",
-                "value": 3900,
-                "grade": 6,
-                "rarity": "uncommon"
-              },
-              {
-                "type": "gas",
                 "value": 65800,
                 "grade": 6,
                 "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 3900,
+                "grade": 6,
+                "rarity": "uncommon"
               },
               {
                 "type": "crystal",
@@ -3255,19 +3255,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Interceptor Parts",
+                "type": "6\u2605 uncommon interceptor parts",
                 "value": 22300
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 23
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 1809
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 23
             }
           ],
           "additional_info": {
@@ -3286,26 +3286,26 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 12500
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 1699900
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 12500
               }
             ],
             "materials": [
               {
                 "type": "gas",
-                "value": 9600,
-                "grade": 6,
-                "rarity": "uncommon"
-              },
-              {
-                "type": "gas",
                 "value": 164600,
                 "grade": 6,
                 "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 9600,
+                "grade": 6,
+                "rarity": "uncommon"
               },
               {
                 "type": "crystal",
@@ -3316,19 +3316,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Interceptor Parts",
+                "type": "6\u2605 uncommon interceptor parts",
                 "value": 55700
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 54
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 4221
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 54
             }
           ],
           "additional_info": {
@@ -3345,12 +3345,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 15600
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 2124900
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 15600
               }
             ],
             "materials": [
@@ -3361,33 +3361,33 @@
                 "rarity": "uncommon"
               },
               {
-                "type": "crystal",
-                "value": 36000,
-                "grade": 6,
-                "rarity": "uncommon"
-              },
-              {
                 "type": "gas",
                 "value": 2500,
                 "grade": 6,
                 "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 36000,
+                "grade": 6,
+                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Interceptor Parts",
+                "type": "6\u2605 uncommon interceptor parts",
                 "value": 66900
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 77
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 6029
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 77
             }
           ],
           "additional_info": {
@@ -3404,12 +3404,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 23400
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 3187300
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 23400
               }
             ],
             "materials": [
@@ -3420,33 +3420,33 @@
                 "rarity": "uncommon"
               },
               {
-                "type": "crystal",
-                "value": 51400,
-                "grade": 6,
-                "rarity": "uncommon"
-              },
-              {
                 "type": "gas",
                 "value": 3800,
                 "grade": 6,
                 "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 51400,
+                "grade": 6,
+                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Interceptor Parts",
+                "type": "6\u2605 uncommon interceptor parts",
                 "value": 100300
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 115
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 9044
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 115
             }
           ],
           "additional_info": {
@@ -3485,7 +3485,7 @@
         },
         {
           "ability_bonus": 0.6,
-          "additional_officer_slot": true,
+          "additional_officer_slot": false,
           "level": 35,
           "ship_xp": 15163333
         }
@@ -3502,43 +3502,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 45700
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 6035800
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 45700
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 27100,
+                "type": "gas",
+                "value": 5600,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "gas",
-                "value": 5600,
+                "type": "crystal",
+                "value": 27100,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Interceptor Parts",
+                "type": "6\u2605 rare interceptor parts",
                 "value": 23200
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 211
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 15733
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 211
             }
           ],
           "additional_info": {
@@ -3572,12 +3572,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 38800
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 5130500
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 38800
               }
             ],
             "materials": [
@@ -3596,23 +3596,23 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Interceptor Parts",
-                "value": 172900
+                "type": "6\u2605 common interceptor parts",
+                "value": 1337700
               },
               {
-                "type": "6\u2605 Common Interceptor Parts",
-                "value": 1337700
+                "type": "6\u2605 uncommon interceptor parts",
+                "value": 172900
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 211
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 15733
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 211
             }
           ],
           "additional_info": {
@@ -3646,12 +3646,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 22800
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 3017900
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 22800
               }
             ],
             "materials": [
@@ -3662,33 +3662,33 @@
                 "rarity": "uncommon"
               },
               {
-                "type": "crystal",
-                "value": 74500,
-                "grade": 6,
-                "rarity": "uncommon"
-              },
-              {
                 "type": "gas",
                 "value": 3100,
                 "grade": 6,
                 "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 74500,
+                "grade": 6,
+                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Interceptor Parts",
+                "type": "6\u2605 uncommon interceptor parts",
                 "value": 129700
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 114
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 8504
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 114
             }
           ],
           "additional_info": {
@@ -3705,12 +3705,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 38800
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 5130500
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 38800
               }
             ],
             "materials": [
@@ -3729,23 +3729,23 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Interceptor Parts",
-                "value": 172900
+                "type": "6\u2605 common interceptor parts",
+                "value": 1337700
               },
               {
-                "type": "6\u2605 Common Interceptor Parts",
-                "value": 1337700
+                "type": "6\u2605 uncommon interceptor parts",
+                "value": 172900
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 148
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 11055
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 148
             }
           ],
           "additional_info": {
@@ -3779,26 +3779,26 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 6900
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 905400
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 6900
               }
             ],
             "materials": [
               {
                 "type": "gas",
-                "value": 4800,
-                "grade": 6,
-                "rarity": "uncommon"
-              },
-              {
-                "type": "gas",
                 "value": 81200,
                 "grade": 6,
                 "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 4800,
+                "grade": 6,
+                "rarity": "uncommon"
               },
               {
                 "type": "crystal",
@@ -3809,19 +3809,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Interceptor Parts",
+                "type": "6\u2605 uncommon interceptor parts",
                 "value": 43200
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 34
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 2551
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 34
             }
           ],
           "additional_info": {
@@ -3840,26 +3840,26 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 18300
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 2414300
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 18300
               }
             ],
             "materials": [
               {
                 "type": "gas",
-                "value": 11900,
-                "grade": 6,
-                "rarity": "uncommon"
-              },
-              {
-                "type": "gas",
                 "value": 203000,
                 "grade": 6,
                 "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 11900,
+                "grade": 6,
+                "rarity": "uncommon"
               },
               {
                 "type": "crystal",
@@ -3870,19 +3870,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Interceptor Parts",
+                "type": "6\u2605 uncommon interceptor parts",
                 "value": 108100
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 80
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 5953
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 80
             }
           ],
           "additional_info": {
@@ -3899,12 +3899,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 22800
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 3017900
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 22800
               }
             ],
             "materials": [
@@ -3915,33 +3915,33 @@
                 "rarity": "uncommon"
               },
               {
-                "type": "crystal",
-                "value": 74500,
-                "grade": 6,
-                "rarity": "uncommon"
-              },
-              {
                 "type": "gas",
                 "value": 3100,
                 "grade": 6,
                 "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 74500,
+                "grade": 6,
+                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Interceptor Parts",
+                "type": "6\u2605 uncommon interceptor parts",
                 "value": 129700
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 114
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 8504
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 114
             }
           ],
           "additional_info": {
@@ -3958,12 +3958,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 34300
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 4526900
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 34300
               }
             ],
             "materials": [
@@ -3974,33 +3974,33 @@
                 "rarity": "uncommon"
               },
               {
-                "type": "crystal",
-                "value": 20900,
+                "type": "gas",
+                "value": 4600,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "gas",
-                "value": 4600,
+                "type": "crystal",
+                "value": 20900,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Interceptor Parts",
+                "type": "6\u2605 rare interceptor parts",
                 "value": 19000
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 171
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 12756
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 171
             }
           ],
           "additional_info": {
@@ -4056,43 +4056,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 70200
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 9269300
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 70200
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 30700,
+                "type": "gas",
+                "value": 13900,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "gas",
-                "value": 13900,
+                "type": "crystal",
+                "value": 30700,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Interceptor Parts",
+                "type": "6\u2605 rare interceptor parts",
                 "value": 19800
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 223
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 16633
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 223
             }
           ],
           "additional_info": {
@@ -4126,12 +4126,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 59700
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 7878900
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 59700
               }
             ],
             "materials": [
@@ -4144,23 +4144,23 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Common Interceptor Parts",
+                "type": "6\u2605 common interceptor parts",
                 "value": 1173900
               },
               {
-                "type": "6\u2605 Rare Interceptor Parts",
+                "type": "6\u2605 rare interceptor parts",
                 "value": 14400
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 223
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 16633
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 223
             }
           ],
           "additional_info": {
@@ -4194,12 +4194,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 35100
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 4634700
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 35100
               }
             ],
             "materials": [
@@ -4218,23 +4218,23 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Interceptor Parts",
-                "value": 366800
+                "type": "6\u2605 common interceptor parts",
+                "value": 880400
               },
               {
-                "type": "6\u2605 Common Interceptor Parts",
-                "value": 880400
+                "type": "6\u2605 uncommon interceptor parts",
+                "value": 366800
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 120
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 8991
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 120
             }
           ],
           "additional_info": {
@@ -4251,12 +4251,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 59700
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 7878900
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 59700
               }
             ],
             "materials": [
@@ -4269,23 +4269,23 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Common Interceptor Parts",
+                "type": "6\u2605 common interceptor parts",
                 "value": 1173900
               },
               {
-                "type": "6\u2605 Rare Interceptor Parts",
+                "type": "6\u2605 rare interceptor parts",
                 "value": 14400
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 157
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 11688
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 157
             }
           ],
           "additional_info": {
@@ -4319,26 +4319,26 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 10500
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 1390400
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 10500
               }
             ],
             "materials": [
               {
                 "type": "gas",
-                "value": 7300,
-                "grade": 6,
-                "rarity": "uncommon"
-              },
-              {
-                "type": "gas",
                 "value": 124700,
                 "grade": 6,
                 "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 7300,
+                "grade": 6,
+                "rarity": "uncommon"
               },
               {
                 "type": "crystal",
@@ -4349,19 +4349,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Interceptor Parts",
+                "type": "6\u2605 uncommon interceptor parts",
                 "value": 122300
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 36
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 2697
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 36
             }
           ],
           "additional_info": {
@@ -4380,26 +4380,26 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 28100
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 3707700
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 28100
               }
             ],
             "materials": [
               {
                 "type": "gas",
-                "value": 18200,
-                "grade": 6,
-                "rarity": "uncommon"
-              },
-              {
-                "type": "gas",
                 "value": 311700,
                 "grade": 6,
                 "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 18200,
+                "grade": 6,
+                "rarity": "uncommon"
               },
               {
                 "type": "crystal",
@@ -4410,19 +4410,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Interceptor Parts",
+                "type": "6\u2605 uncommon interceptor parts",
                 "value": 305700
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 84
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 6294
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 84
             }
           ],
           "additional_info": {
@@ -4439,12 +4439,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 35100
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 4634700
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 35100
               }
             ],
             "materials": [
@@ -4463,23 +4463,23 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Interceptor Parts",
-                "value": 366800
+                "type": "6\u2605 common interceptor parts",
+                "value": 880400
               },
               {
-                "type": "6\u2605 Common Interceptor Parts",
-                "value": 880400
+                "type": "6\u2605 uncommon interceptor parts",
+                "value": 366800
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 120
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 8991
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 120
             }
           ],
           "additional_info": {
@@ -4496,12 +4496,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 52600
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 6952000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 52600
               }
             ],
             "materials": [
@@ -4512,33 +4512,33 @@
                 "rarity": "uncommon"
               },
               {
-                "type": "crystal",
-                "value": 23600,
+                "type": "gas",
+                "value": 11300,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "gas",
-                "value": 11300,
+                "type": "crystal",
+                "value": 23600,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Interceptor Parts",
+                "type": "6\u2605 rare interceptor parts",
                 "value": 16200
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 181
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 13486
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 181
             }
           ],
           "additional_info": {
@@ -4594,12 +4594,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 118300
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 15705500
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 118300
               }
             ],
             "materials": [
@@ -4618,19 +4618,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Interceptor Parts",
+                "type": "6\u2605 uncommon interceptor parts",
                 "value": 463200
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 314
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 23722
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 314
             }
           ],
           "additional_info": {
@@ -4664,12 +4664,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 100500
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 13349700
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 100500
               }
             ],
             "materials": [
@@ -4682,23 +4682,23 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Common Interceptor Parts",
+                "type": "6\u2605 common interceptor parts",
                 "value": 2022100
               },
               {
-                "type": "6\u2605 Rare Interceptor Parts",
+                "type": "6\u2605 rare interceptor parts",
                 "value": 45800
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 314
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 23722
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 314
             }
           ],
           "additional_info": {
@@ -4732,43 +4732,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 59100
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 7852800
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 59100
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 23300,
+                "type": "gas",
+                "value": 17800,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "gas",
-                "value": 17800,
+                "type": "crystal",
+                "value": 23300,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Interceptor Parts",
+                "type": "6\u2605 uncommon interceptor parts",
                 "value": 252700
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 170
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 12823
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 170
             }
           ],
           "additional_info": {
@@ -4785,12 +4785,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 100500
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 13349700
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 100500
               }
             ],
             "materials": [
@@ -4803,23 +4803,23 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Common Interceptor Parts",
+                "type": "6\u2605 common interceptor parts",
                 "value": 2022100
               },
               {
-                "type": "6\u2605 Rare Interceptor Parts",
+                "type": "6\u2605 rare interceptor parts",
                 "value": 45800
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 221
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 16669
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 221
             }
           ],
           "additional_info": {
@@ -4853,12 +4853,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 17700
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 2355800
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 17700
               }
             ],
             "materials": [
@@ -4877,23 +4877,23 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Interceptor Parts",
-                "value": 84200
+                "type": "6\u2605 common interceptor parts",
+                "value": 505500
               },
               {
-                "type": "6\u2605 Common Interceptor Parts",
-                "value": 505500
+                "type": "6\u2605 uncommon interceptor parts",
+                "value": 84200
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 51
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 3847
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 51
             }
           ],
           "additional_info": {
@@ -4912,12 +4912,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 47300
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 6282200
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 47300
               }
             ],
             "materials": [
@@ -4936,23 +4936,23 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Interceptor Parts",
-                "value": 210500
+                "type": "6\u2605 common interceptor parts",
+                "value": 1263800
               },
               {
-                "type": "6\u2605 Common Interceptor Parts",
-                "value": 1263800
+                "type": "6\u2605 uncommon interceptor parts",
+                "value": 210500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 119
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 8976
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 119
             }
           ],
           "additional_info": {
@@ -4969,43 +4969,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 59100
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 7852800
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 59100
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 23300,
+                "type": "gas",
+                "value": 17800,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "gas",
-                "value": 17800,
+                "type": "crystal",
+                "value": 23300,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Interceptor Parts",
+                "type": "6\u2605 uncommon interceptor parts",
                 "value": 252700
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 170
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 12823
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 170
             }
           ],
           "additional_info": {
@@ -5022,12 +5022,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 88700
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 11779100
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 88700
               }
             ],
             "materials": [
@@ -5046,19 +5046,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Interceptor Parts",
+                "type": "6\u2605 uncommon interceptor parts",
                 "value": 379000
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 255
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 19234
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 255
             }
           ],
           "additional_info": {
@@ -5114,12 +5114,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 167500
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 22249500
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 167500
               }
             ],
             "materials": [
@@ -5132,23 +5132,23 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Interceptor Parts",
+                "type": "6\u2605 uncommon interceptor parts",
                 "value": 465300
               },
               {
-                "type": "6\u2605 Rare Interceptor Parts",
+                "type": "6\u2605 rare interceptor parts",
                 "value": 39700
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 428
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 31393
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 428
             }
           ],
           "additional_info": {
@@ -5182,47 +5182,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 142400
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 18912100
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 142400
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 47200,
+                "type": "gas",
+                "value": 15200,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "gas",
-                "value": 15200,
+                "type": "crystal",
+                "value": 47200,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Interceptor Parts",
+                "type": "6\u2605 uncommon interceptor parts",
                 "value": 338400
               },
               {
-                "type": "6\u2605 Rare Interceptor Parts",
+                "type": "6\u2605 rare interceptor parts",
                 "value": 28800
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 428
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 31393
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 428
             }
           ],
           "additional_info": {
@@ -5256,43 +5256,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 83800
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 11124700
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 83800
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 33000,
+                "type": "gas",
+                "value": 10700,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "gas",
-                "value": 10700,
+                "type": "crystal",
+                "value": 33000,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Interceptor Parts",
+                "type": "6\u2605 uncommon interceptor parts",
                 "value": 253800
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 231
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 16969
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 231
             }
           ],
           "additional_info": {
@@ -5309,47 +5309,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 142400
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 18912100
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 142400
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 47200,
+                "type": "gas",
+                "value": 13700,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "gas",
-                "value": 13700,
+                "type": "crystal",
+                "value": 47200,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Interceptor Parts",
+                "type": "6\u2605 uncommon interceptor parts",
                 "value": 338400
               },
               {
-                "type": "6\u2605 Rare Interceptor Parts",
+                "type": "6\u2605 rare interceptor parts",
                 "value": 28800
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 301
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 22060
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 301
             }
           ],
           "additional_info": {
@@ -5383,47 +5383,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 25100
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 3337400
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 25100
               }
             ],
             "materials": [
-              {
-                "type": "crystal",
-                "value": 277900,
-                "grade": 6,
-                "rarity": "uncommon"
-              },
               {
                 "type": "gas",
                 "value": 249600,
                 "grade": 6,
                 "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 277900,
+                "grade": 6,
+                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Interceptor Parts",
-                "value": 84600
+                "type": "6\u2605 common interceptor parts",
+                "value": 2353100
               },
               {
-                "type": "6\u2605 Common Interceptor Parts",
-                "value": 2353100
+                "type": "6\u2605 uncommon interceptor parts",
+                "value": 84600
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 69
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 5091
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 69
             }
           ],
           "additional_info": {
@@ -5442,47 +5442,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 67000
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 8899800
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 67000
               }
             ],
             "materials": [
-              {
-                "type": "crystal",
-                "value": 833600,
-                "grade": 6,
-                "rarity": "uncommon"
-              },
               {
                 "type": "gas",
                 "value": 624000,
                 "grade": 6,
                 "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 833600,
+                "grade": 6,
+                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Interceptor Parts",
-                "value": 211500
+                "type": "6\u2605 common interceptor parts",
+                "value": 5882600
               },
               {
-                "type": "6\u2605 Common Interceptor Parts",
-                "value": 5882600
+                "type": "6\u2605 uncommon interceptor parts",
+                "value": 211500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 162
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 11878
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 162
             }
           ],
           "additional_info": {
@@ -5499,43 +5499,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 83800
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 11124700
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 83800
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 33000,
+                "type": "gas",
+                "value": 10700,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "gas",
-                "value": 10700,
+                "type": "crystal",
+                "value": 33000,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Interceptor Parts",
+                "type": "6\u2605 uncommon interceptor parts",
                 "value": 253800
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 231
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 16969
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 231
             }
           ],
           "additional_info": {
@@ -5552,12 +5552,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 125600
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 16687100
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 125600
               }
             ],
             "materials": [
@@ -5570,23 +5570,23 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Interceptor Parts",
+                "type": "6\u2605 uncommon interceptor parts",
                 "value": 380700
               },
               {
-                "type": "6\u2605 Rare Interceptor Parts",
+                "type": "6\u2605 rare interceptor parts",
                 "value": 32400
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 347
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 25454
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 347
             }
           ],
           "additional_info": {
@@ -5624,8 +5624,8 @@
           "ship_xp": 37357851
         },
         {
-          "ability_bonus": 1,
-          "additional_officer_slot": true,
+          "ability_bonus": 1.0,
+          "additional_officer_slot": false,
           "level": 55,
           "ship_xp": 39173442
         }
@@ -5642,43 +5642,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 277400
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 36030300
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 277400
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 85300,
+                "type": "gas",
+                "value": 15500,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "gas",
-                "value": 15500,
+                "type": "crystal",
+                "value": 85300,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Interceptor Parts",
+                "type": "6\u2605 rare interceptor parts",
                 "value": 41500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 565
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 41830
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 565
             }
           ],
           "additional_info": {
@@ -5712,43 +5712,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 235800
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 30625800
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 235800
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 65600,
+                "type": "gas",
+                "value": 12900,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "gas",
-                "value": 12900,
+                "type": "crystal",
+                "value": 65600,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Interceptor Parts",
+                "type": "6\u2605 rare interceptor parts",
                 "value": 30200
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 565
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 41830
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 565
             }
           ],
           "additional_info": {
@@ -5782,43 +5782,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 138700
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 18015200
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 138700
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 45900,
+                "type": "gas",
+                "value": 9100,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "gas",
-                "value": 9100,
+                "type": "crystal",
+                "value": 45900,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Interceptor Parts",
+                "type": "6\u2605 rare interceptor parts",
                 "value": 22600
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 306
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 22611
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 306
             }
           ],
           "additional_info": {
@@ -5835,43 +5835,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 235800
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 30625800
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 235800
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 65600,
+                "type": "gas",
+                "value": 11600,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "gas",
-                "value": 11600,
+                "type": "crystal",
+                "value": 65600,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Interceptor Parts",
+                "type": "6\u2605 rare interceptor parts",
                 "value": 30200
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 397
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 29394
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 397
             }
           ],
           "additional_info": {
@@ -5905,47 +5905,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 41600
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 5404500
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 41600
               }
             ],
             "materials": [
-              {
-                "type": "crystal",
-                "value": 387800,
-                "grade": 6,
-                "rarity": "uncommon"
-              },
               {
                 "type": "gas",
                 "value": 348200,
                 "grade": 6,
                 "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 387800,
+                "grade": 6,
+                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Interceptor Parts",
-                "value": 926900
+                "type": "6\u2605 common interceptor parts",
+                "value": 3283700
               },
               {
-                "type": "6\u2605 Common Interceptor Parts",
-                "value": 3283700
+                "type": "6\u2605 uncommon interceptor parts",
+                "value": 926900
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 92
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 6783
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 92
             }
           ],
           "additional_info": {
@@ -5964,47 +5964,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 111000
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 14412100
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 111000
               }
             ],
             "materials": [
-              {
-                "type": "crystal",
-                "value": 1163500,
-                "grade": 6,
-                "rarity": "uncommon"
-              },
               {
                 "type": "gas",
                 "value": 870400,
                 "grade": 6,
                 "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 1163500,
+                "grade": 6,
+                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Interceptor Parts",
-                "value": 2317200
+                "type": "6\u2605 common interceptor parts",
+                "value": 8209200
               },
               {
-                "type": "6\u2605 Common Interceptor Parts",
-                "value": 8209200
+                "type": "6\u2605 uncommon interceptor parts",
+                "value": 2317200
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 214
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 15828
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 214
             }
           ],
           "additional_info": {
@@ -6021,43 +6021,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 138700
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 18015200
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 138700
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 45900,
+                "type": "gas",
+                "value": 9100,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "gas",
-                "value": 9100,
+                "type": "crystal",
+                "value": 45900,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Interceptor Parts",
+                "type": "6\u2605 rare interceptor parts",
                 "value": 22600
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 306
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 22611
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 306
             }
           ],
           "additional_info": {
@@ -6074,43 +6074,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 208100
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 27022700
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 208100
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 65600,
+                "type": "gas",
+                "value": 11600,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "gas",
-                "value": 11600,
+                "type": "crystal",
+                "value": 65600,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Interceptor Parts",
+                "type": "6\u2605 rare interceptor parts",
                 "value": 33900
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 458
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 33916
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 458
             }
           ],
           "additional_info": {
@@ -6166,43 +6166,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 433500
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 56539900
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 433500
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 112700,
+                "type": "gas",
+                "value": 20500,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "gas",
-                "value": 20500,
+                "type": "crystal",
+                "value": 112700,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Interceptor Parts",
+                "type": "6\u2605 rare interceptor parts",
                 "value": 55000
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 590
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 43655
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 590
             }
           ],
           "additional_info": {
@@ -6236,43 +6236,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 368400
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 48058900
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 368400
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 86700,
+                "type": "gas",
+                "value": 17100,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "gas",
-                "value": 17100,
+                "type": "crystal",
+                "value": 86700,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Interceptor Parts",
+                "type": "6\u2605 rare interceptor parts",
                 "value": 40000
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 590
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 43655
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 590
             }
           ],
           "additional_info": {
@@ -6306,43 +6306,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 216700
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 28269900
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 216700
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 60700,
+                "type": "gas",
+                "value": 12000,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "gas",
-                "value": 12000,
+                "type": "crystal",
+                "value": 60700,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Interceptor Parts",
+                "type": "6\u2605 rare interceptor parts",
                 "value": 30000
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 319
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 23597
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 319
             }
           ],
           "additional_info": {
@@ -6359,43 +6359,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 368400
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 48058900
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 368400
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 86700,
+                "type": "gas",
+                "value": 15400,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "gas",
-                "value": 15400,
+                "type": "crystal",
+                "value": 86700,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Interceptor Parts",
+                "type": "6\u2605 rare interceptor parts",
                 "value": 40000
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 414
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 30676
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 414
             }
           ],
           "additional_info": {
@@ -6429,12 +6429,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 65000
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 8481000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 65000
               }
             ],
             "materials": [
@@ -6453,23 +6453,23 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Interceptor Parts",
-                "value": 1227700
+                "type": "6\u2605 common interceptor parts",
+                "value": 4352600
               },
               {
-                "type": "6\u2605 Common Interceptor Parts",
-                "value": 4352600
+                "type": "6\u2605 uncommon interceptor parts",
+                "value": 1227700
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 96
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 7079
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 96
             }
           ],
           "additional_info": {
@@ -6488,12 +6488,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 173400
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 22616000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 173400
               }
             ],
             "materials": [
@@ -6512,23 +6512,23 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Interceptor Parts",
-                "value": 3069300
+                "type": "6\u2605 common interceptor parts",
+                "value": 10881500
               },
               {
-                "type": "6\u2605 Common Interceptor Parts",
-                "value": 10881500
+                "type": "6\u2605 uncommon interceptor parts",
+                "value": 3069300
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 223
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 16518
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 223
             }
           ],
           "additional_info": {
@@ -6545,43 +6545,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 216700
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 28269900
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 216700
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 60700,
+                "type": "gas",
+                "value": 12000,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "gas",
-                "value": 12000,
+                "type": "crystal",
+                "value": 60700,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Interceptor Parts",
+                "type": "6\u2605 rare interceptor parts",
                 "value": 30000
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 319
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 23597
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 319
             }
           ],
           "additional_info": {
@@ -6598,43 +6598,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 325100
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 42404900
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 325100
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 86700,
+                "type": "gas",
+                "value": 15400,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "gas",
-                "value": 15400,
+                "type": "crystal",
+                "value": 86700,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Interceptor Parts",
+                "type": "6\u2605 rare interceptor parts",
                 "value": 45000
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 478
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 35396
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 478
             }
           ],
           "additional_info": {
@@ -6673,7 +6673,7 @@
         },
         {
           "ability_bonus": 1.2,
-          "additional_officer_slot": true,
+          "additional_officer_slot": false,
           "level": 65,
           "ship_xp": 57114419
         }
@@ -6690,43 +6690,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 549600
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 71691100
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 549600
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 125300,
+                "type": "gas",
+                "value": 26000,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "gas",
-                "value": 26000,
+                "type": "crystal",
+                "value": 125300,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Interceptor Parts",
+                "type": "6\u2605 rare interceptor parts",
                 "value": 69700
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 615
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 45544
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 615
             }
           ],
           "additional_info": {
@@ -6760,43 +6760,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 467200
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 60937400
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 467200
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 96400,
+                "type": "gas",
+                "value": 21600,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "gas",
-                "value": 21600,
+                "type": "crystal",
+                "value": 96400,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Interceptor Parts",
+                "type": "6\u2605 rare interceptor parts",
                 "value": 50700
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 615
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 45544
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 615
             }
           ],
           "additional_info": {
@@ -6830,43 +6830,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 274800
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 35845600
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 274800
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 67500,
+                "type": "gas",
+                "value": 15200,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "gas",
-                "value": 15200,
+                "type": "crystal",
+                "value": 67500,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Interceptor Parts",
+                "type": "6\u2605 rare interceptor parts",
                 "value": 38000
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 332
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 24618
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 332
             }
           ],
           "additional_info": {
@@ -6883,43 +6883,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 467200
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 60937400
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 467200
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 96400,
+                "type": "gas",
+                "value": 19500,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "gas",
-                "value": 19500,
+                "type": "crystal",
+                "value": 96400,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Interceptor Parts",
+                "type": "6\u2605 rare interceptor parts",
                 "value": 50700
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 432
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 32004
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 432
             }
           ],
           "additional_info": {
@@ -6953,12 +6953,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 82400
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 10753700
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 82400
               }
             ],
             "materials": [
@@ -6977,19 +6977,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Interceptor Parts",
+                "type": "6\u2605 uncommon interceptor parts",
                 "value": 1556700
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 100
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 7385
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 100
             }
           ],
           "additional_info": {
@@ -7008,12 +7008,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 219800
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 28676400
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 219800
               }
             ],
             "materials": [
@@ -7032,19 +7032,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Interceptor Parts",
+                "type": "6\u2605 uncommon interceptor parts",
                 "value": 3891800
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 233
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 17233
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 233
             }
           ],
           "additional_info": {
@@ -7061,43 +7061,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 274800
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 35845600
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 274800
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 67500,
+                "type": "gas",
+                "value": 15200,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "gas",
-                "value": 15200,
+                "type": "crystal",
+                "value": 67500,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Interceptor Parts",
+                "type": "6\u2605 rare interceptor parts",
                 "value": 38000
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 332
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 24618
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 332
             }
           ],
           "additional_info": {
@@ -7114,43 +7114,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 412200
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 53768300
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 412200
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 96400,
+                "type": "gas",
+                "value": 19500,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "gas",
-                "value": 19500,
+                "type": "crystal",
+                "value": 96400,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Interceptor Parts",
+                "type": "6\u2605 rare interceptor parts",
                 "value": 57000
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 499
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 36927
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 499
             }
           ],
           "additional_info": {
@@ -7189,7 +7189,7 @@
         },
         {
           "ability_bonus": 1.3,
-          "additional_officer_slot": true,
+          "additional_officer_slot": false,
           "level": 70,
           "ship_xp": 65682629
         }
@@ -7206,43 +7206,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 677100
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 88320500
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 677100
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 154300,
+                "type": "gas",
+                "value": 32000,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "gas",
-                "value": 32000,
+                "type": "crystal",
+                "value": 154300,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Interceptor Parts",
+                "type": "6\u2605 rare interceptor parts",
                 "value": 85800
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 641
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 47500
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 641
             }
           ],
           "additional_info": {
@@ -7276,43 +7276,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 575500
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 75072400
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 575500
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 118700,
+                "type": "gas",
+                "value": 26700,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "gas",
-                "value": 26700,
+                "type": "crystal",
+                "value": 118700,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Interceptor Parts",
+                "type": "6\u2605 rare interceptor parts",
                 "value": 62400
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 641
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 47500
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 641
             }
           ],
           "additional_info": {
@@ -7346,43 +7346,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 338600
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 44160200
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 338600
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 83100,
+                "type": "gas",
+                "value": 18700,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "gas",
-                "value": 18700,
+                "type": "crystal",
+                "value": 83100,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Interceptor Parts",
+                "type": "6\u2605 rare interceptor parts",
                 "value": 46800
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 347
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 25676
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 347
             }
           ],
           "additional_info": {
@@ -7399,43 +7399,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 575500
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 75072400
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 575500
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 118700,
+                "type": "gas",
+                "value": 24000,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "gas",
-                "value": 24000,
+                "type": "crystal",
+                "value": 118700,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Interceptor Parts",
+                "type": "6\u2605 rare interceptor parts",
                 "value": 62400
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 451
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 33378
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 451
             }
           ],
           "additional_info": {
@@ -7469,12 +7469,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 101600
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 13248100
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 101600
               }
             ],
             "materials": [
@@ -7493,19 +7493,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Interceptor Parts",
+                "type": "6\u2605 uncommon interceptor parts",
                 "value": 1917800
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 104
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 7703
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 104
             }
           ],
           "additional_info": {
@@ -7524,12 +7524,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 270800
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 35328200
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 270800
               }
             ],
             "materials": [
@@ -7548,19 +7548,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Interceptor Parts",
+                "type": "6\u2605 uncommon interceptor parts",
                 "value": 4794500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 243
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 17973
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 243
             }
           ],
           "additional_info": {
@@ -7577,43 +7577,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 338600
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 44160200
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 338600
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 83100,
+                "type": "gas",
+                "value": 18700,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "gas",
-                "value": 18700,
+                "type": "crystal",
+                "value": 83100,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Interceptor Parts",
+                "type": "6\u2605 rare interceptor parts",
                 "value": 46800
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 347
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 25676
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 347
             }
           ],
           "additional_info": {
@@ -7630,43 +7630,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 507800
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 66240400
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 507800
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 118700,
+                "type": "gas",
+                "value": 24000,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "gas",
-                "value": 24000,
+                "type": "crystal",
+                "value": 118700,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Interceptor Parts",
+                "type": "6\u2605 rare interceptor parts",
                 "value": 70200
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 520
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 38513
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 520
             }
           ],
           "additional_info": {

@@ -1,0 +1,40 @@
+{
+  "name": "Het'Tenz'A",
+  "capture_nodes": 0,
+  "connected_systems": [
+    {
+      "$ref": "systems/dohrmas_46",
+      "distance": 120,
+      "warp": 120
+    },
+    {
+      "$ref": "systems/kostok_44",
+      "distance": 110,
+      "warp": 105
+    },
+    {
+      "$ref": "systems/maht_ha_44",
+      "distance": 110,
+      "warp": 105
+    }
+  ],
+  "faction": "klingon",
+  "level": 45,
+  "mining": [
+    {
+      "type": "concentrated latinum",
+      "amount": 8,
+      "mining_per_hour": 57,
+      "size": 235200
+    }
+  ],
+  "planets": [
+    "Jeiihoo",
+    "Kauj",
+    "Mebiroy"
+  ],
+  "scopely_id": 1769281385,
+  "system_space": "deep",
+  "system_type": "route",
+  "warp": 110
+}

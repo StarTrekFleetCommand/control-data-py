@@ -1,0 +1,38 @@
+{
+  "research_name": "Relativity Krenim Formation Shield Mitigation",
+  "description": "Increases the Shield Mitigation for the USS Relativity against Krenim Formation Armadas",
+  "location": {
+    "column": 69,
+    "row": 1,
+    "tree": "starships"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 240,
+      "increased_power": 310000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 42
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "charged tachyons",
+            "value": 10
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.1
+      }
+    }
+  ],
+  "img_url": "./assets/relativity_krenim_formation_shield_mitigation_starships_1_69.png"
+}

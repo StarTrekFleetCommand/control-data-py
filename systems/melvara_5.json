@@ -10,7 +10,7 @@
     {
       "$ref": "systems/zukerat_4",
       "distance": 3,
-      "warp": 3
+      "warp": 5
     },
     {
       "$ref": "systems/volta_9",
@@ -26,8 +26,8 @@
   "level": 5,
   "mining": [
     {
-      "type": "Parsteel",
-      "amount": 4,
+      "type": "parsteel",
+      "amount": 1,
       "mining_per_hour": 1200,
       "size": 5000
     }

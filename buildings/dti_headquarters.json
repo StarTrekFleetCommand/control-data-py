@@ -1,0 +1,2430 @@
+{
+  "building_name": "DTI Headquarters",
+  "description": "The DTI houses a powerful temporal matter converter that unlocks the power to transmute materials. The Material Converter applies high concentrations of tachyon energy to artificially refine the material, converting it into different types of the same grade and rarity For example, G4 Rare Ore -> G4 Rare Crystal. It also has the ability to convert materials into different rarities of the same type and grade! For example, G4 Uncommon Crystal -> G4 Rare Crystal.\n\nThis technology is unstable and requires additional investment before safeties can be lifted higher grades of materials can be refined. Grade 4 is available at level 30, Grade 5 is available at Level 40, Grade 6 is available at Level 50.\n\nA recurring claim of Bonus Converter Tokens is unlocked at level 40. These can be used with Bonus Converter Refineries which have no tax and no cooldown. A one time claim of 5 tokens is unlocked at levels 20, 30, 50, 60 and 70.",
+  "levels": [
+    {
+      "level": 1,
+      "build_time": 35,
+      "increased_power": 20,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 42
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 800
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 16
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 150.0,
+        "bonus2": 0.05,
+        "bonus3": 0.01,
+        "bonus4": 0.2,
+        "bonus5": 0.01,
+        "bonus6": 1.0
+      }
+    },
+    {
+      "level": 2,
+      "build_time": 150,
+      "increased_power": 20,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 42
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 1000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 25
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 150.0,
+        "bonus2": 0.06,
+        "bonus3": 0.02,
+        "bonus4": 0.25,
+        "bonus5": 0.02,
+        "bonus6": 2.0
+      }
+    },
+    {
+      "level": 3,
+      "build_time": 330,
+      "increased_power": 25,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 42
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 1200
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 30
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 150.0,
+        "bonus2": 0.07,
+        "bonus3": 0.02,
+        "bonus4": 0.3,
+        "bonus5": 0.03,
+        "bonus6": 3.0
+      }
+    },
+    {
+      "level": 4,
+      "build_time": 480,
+      "increased_power": 25,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 42
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 1500
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 30
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 150.0,
+        "bonus2": 0.08,
+        "bonus3": 0.03,
+        "bonus4": 0.35,
+        "bonus5": 0.04,
+        "bonus6": 4.0
+      }
+    },
+    {
+      "level": 5,
+      "build_time": 780,
+      "increased_power": 30,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 42
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 1800
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 35
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 150.0,
+        "bonus2": 0.09,
+        "bonus3": 0.04,
+        "bonus4": 0.4,
+        "bonus5": 0.05,
+        "bonus6": 5.0
+      }
+    },
+    {
+      "level": 6,
+      "build_time": 1380,
+      "increased_power": 40,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 42
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 2200
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 35
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 150.0,
+        "bonus2": 0.1,
+        "bonus3": 0.05,
+        "bonus4": 0.45,
+        "bonus5": 0.06,
+        "bonus6": 6.0
+      }
+    },
+    {
+      "level": 7,
+      "build_time": 2640,
+      "increased_power": 50,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 42
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 3000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 40
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 150.0,
+        "bonus2": 0.11,
+        "bonus3": 0.05,
+        "bonus4": 0.5,
+        "bonus5": 0.07,
+        "bonus6": 7.0
+      }
+    },
+    {
+      "level": 8,
+      "build_time": 3600,
+      "increased_power": 60,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 42
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 4000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 40
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 150.0,
+        "bonus2": 0.12,
+        "bonus3": 0.06,
+        "bonus4": 0.6,
+        "bonus5": 0.08,
+        "bonus6": 8.0
+      }
+    },
+    {
+      "level": 9,
+      "build_time": 5400,
+      "increased_power": 70,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 42
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 5500
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 45
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 150.0,
+        "bonus2": 0.13,
+        "bonus3": 0.07,
+        "bonus4": 0.7,
+        "bonus5": 0.09,
+        "bonus6": 9.0
+      }
+    },
+    {
+      "level": 10,
+      "build_time": 6600,
+      "increased_power": 80,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 42
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 7000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 45
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 375.0,
+        "bonus2": 0.14,
+        "bonus3": 0.08,
+        "bonus4": 0.8,
+        "bonus5": 0.1,
+        "bonus6": 10.0
+      }
+    },
+    {
+      "level": 11,
+      "build_time": 7500,
+      "increased_power": 105,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 42
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 6800
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 50
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 375.0,
+        "bonus2": 0.15,
+        "bonus3": 0.08,
+        "bonus4": 0.9,
+        "bonus5": 0.11,
+        "bonus6": 11.0
+      }
+    },
+    {
+      "level": 12,
+      "build_time": 13800,
+      "increased_power": 125,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 42
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 9350
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 55
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 375.0,
+        "bonus2": 0.16,
+        "bonus3": 0.09,
+        "bonus4": 1.0,
+        "bonus5": 0.12,
+        "bonus6": 12.0
+      }
+    },
+    {
+      "level": 13,
+      "build_time": 19500,
+      "increased_power": 150,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 42
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 13600
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 60
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 375.0,
+        "bonus2": 0.17,
+        "bonus3": 0.1,
+        "bonus4": 1.15,
+        "bonus5": 0.13,
+        "bonus6": 13.0
+      }
+    },
+    {
+      "level": 14,
+      "build_time": 25920,
+      "increased_power": 175,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 42
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 18700
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 60
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 375.0,
+        "bonus2": 0.18,
+        "bonus3": 0.11,
+        "bonus4": 1.25,
+        "bonus5": 0.14,
+        "bonus6": 14.0
+      }
+    },
+    {
+      "level": 15,
+      "build_time": 34560,
+      "increased_power": 200,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 42
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 25500
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 65
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 375.0,
+        "bonus2": 0.19,
+        "bonus3": 0.11,
+        "bonus4": 1.4,
+        "bonus5": 0.15,
+        "bonus6": 15.0
+      }
+    },
+    {
+      "level": 16,
+      "build_time": 41760,
+      "increased_power": 225,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 42
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 34000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 70
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 375.0,
+        "bonus2": 0.2,
+        "bonus3": 0.12,
+        "bonus4": 1.5,
+        "bonus5": 0.16,
+        "bonus6": 16.0
+      }
+    },
+    {
+      "level": 17,
+      "build_time": 43200,
+      "increased_power": 300,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 42
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 47600
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 75
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 375.0,
+        "bonus2": 0.21,
+        "bonus3": 0.13,
+        "bonus4": 1.65,
+        "bonus5": 0.17,
+        "bonus6": 17.0
+      }
+    },
+    {
+      "level": 18,
+      "build_time": 64800,
+      "increased_power": 300,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 42
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 68000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 85
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 375.0,
+        "bonus2": 0.22,
+        "bonus3": 0.14,
+        "bonus4": 1.75,
+        "bonus5": 0.18,
+        "bonus6": 18.0
+      }
+    },
+    {
+      "level": 19,
+      "build_time": 93600,
+      "increased_power": 300,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 42
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 102000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 90
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 375.0,
+        "bonus2": 0.23,
+        "bonus3": 0.14,
+        "bonus4": 1.9,
+        "bonus5": 0.19,
+        "bonus6": 19.0
+      }
+    },
+    {
+      "level": 20,
+      "build_time": 134640,
+      "increased_power": 400,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 42
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 144500
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 95
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 750.0,
+        "bonus2": 0.24,
+        "bonus3": 0.15,
+        "bonus4": 2.15,
+        "bonus5": 0.2,
+        "bonus6": 20.0
+      },
+      "rewards": [
+        {
+          "type": "DTI Threat Evaluation Level Alpha",
+          "value": 100
+        }
+      ]
+    },
+    {
+      "level": 21,
+      "build_time": 117360,
+      "increased_power": 400,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 42
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 243270
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 105
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 750.0,
+        "bonus2": 0.25,
+        "bonus3": 0.16,
+        "bonus4": 2.5,
+        "bonus5": 0.23,
+        "bonus6": 21.5
+      }
+    },
+    {
+      "level": 22,
+      "build_time": 177840,
+      "increased_power": 500,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 42
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 378420
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 110
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 750.0,
+        "bonus2": 0.26,
+        "bonus3": 0.17,
+        "bonus4": 2.75,
+        "bonus5": 0.26,
+        "bonus6": 23.0
+      }
+    },
+    {
+      "level": 23,
+      "build_time": 216000,
+      "increased_power": 500,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 42
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 622710
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 120
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 750.0,
+        "bonus2": 0.27,
+        "bonus3": 0.17,
+        "bonus4": 3.0,
+        "bonus5": 0.29,
+        "bonus6": 24.5
+      }
+    },
+    {
+      "level": 24,
+      "build_time": 264960,
+      "increased_power": 600,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 42
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 981240
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 125
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 750.0,
+        "bonus2": 0.28,
+        "bonus3": 0.18,
+        "bonus4": 3.25,
+        "bonus5": 0.32,
+        "bonus6": 26.0
+      }
+    },
+    {
+      "level": 25,
+      "build_time": 237600,
+      "increased_power": 550,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 42
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 1591200
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 135
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 750.0,
+        "bonus2": 0.29,
+        "bonus3": 0.19,
+        "bonus4": 3.5,
+        "bonus5": 0.35,
+        "bonus6": 27.5
+      }
+    },
+    {
+      "level": 26,
+      "build_time": 334080,
+      "increased_power": 750,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 42
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 2486250
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 145
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 750.0,
+        "bonus2": 0.3,
+        "bonus3": 0.2,
+        "bonus4": 3.75,
+        "bonus5": 0.38,
+        "bonus6": 29.0
+      }
+    },
+    {
+      "level": 27,
+      "build_time": 381600,
+      "increased_power": 750,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 42
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 3794400
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 160
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 750.0,
+        "bonus2": 0.31,
+        "bonus3": 0.2,
+        "bonus4": 4.0,
+        "bonus5": 0.41,
+        "bonus6": 30.5
+      }
+    },
+    {
+      "level": 28,
+      "build_time": 427680,
+      "increased_power": 750,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 42
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 5691600
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 170
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 750.0,
+        "bonus2": 0.32,
+        "bonus3": 0.21,
+        "bonus4": 4.25,
+        "bonus5": 0.44,
+        "bonus6": 32.0
+      }
+    },
+    {
+      "level": 29,
+      "build_time": 491040,
+      "increased_power": 1000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 42
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 9061000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 180
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 750.0,
+        "bonus2": 0.33,
+        "bonus3": 0.22,
+        "bonus4": 4.5,
+        "bonus5": 0.47,
+        "bonus6": 33.5
+      }
+    },
+    {
+      "level": 30,
+      "build_time": 531360,
+      "increased_power": 1000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 42
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 13260000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 195
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 1125.0,
+        "bonus2": 0.35,
+        "bonus3": 0.23,
+        "bonus4": 5.0,
+        "bonus5": 0.5,
+        "bonus6": 35.0
+      }
+    },
+    {
+      "level": 31,
+      "build_time": 669600,
+      "increased_power": 1000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 42
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 20961000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 210
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 1125.0,
+        "bonus2": 0.37,
+        "bonus3": 0.23,
+        "bonus4": 5.25,
+        "bonus5": 0.55,
+        "bonus6": 36.5
+      }
+    },
+    {
+      "level": 32,
+      "build_time": 685440,
+      "increased_power": 1250,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 42
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 30277000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 225
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 1125.0,
+        "bonus2": 0.39,
+        "bonus3": 0.24,
+        "bonus4": 5.5,
+        "bonus5": 0.6,
+        "bonus6": 38.0
+      }
+    },
+    {
+      "level": 33,
+      "build_time": 996480,
+      "increased_power": 1250,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 42
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 46835000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 245
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 1500.0,
+        "bonus2": 0.41,
+        "bonus3": 0.25,
+        "bonus4": 5.75,
+        "bonus5": 0.65,
+        "bonus6": 39.5
+      }
+    },
+    {
+      "level": 34,
+      "build_time": 1260000,
+      "increased_power": 1250,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 42
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 73950000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 260
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 1500.0,
+        "bonus2": 0.43,
+        "bonus3": 0.26,
+        "bonus4": 6.0,
+        "bonus5": 0.7,
+        "bonus6": 41.0
+      }
+    },
+    {
+      "level": 35,
+      "build_time": 1752480,
+      "increased_power": 1250,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 42
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 114444000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 280
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 1500.0,
+        "bonus2": 0.45,
+        "bonus3": 0.26,
+        "bonus4": 6.25,
+        "bonus5": 0.75,
+        "bonus6": 42.5
+      }
+    },
+    {
+      "level": 36,
+      "build_time": 2239200,
+      "increased_power": 1500,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 42
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 161262000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 300
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 1650.0,
+        "bonus2": 0.47,
+        "bonus3": 0.27,
+        "bonus4": 6.5,
+        "bonus5": 0.8,
+        "bonus6": 44.0
+      }
+    },
+    {
+      "level": 37,
+      "build_time": 2193120,
+      "increased_power": 1750,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 42
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 247860000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 325
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 1800.0,
+        "bonus2": 0.49,
+        "bonus3": 0.28,
+        "bonus4": 6.75,
+        "bonus5": 0.85,
+        "bonus6": 45.5
+      }
+    },
+    {
+      "level": 38,
+      "build_time": 3801600,
+      "increased_power": 1750,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 42
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 385560000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 350
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 1950.0,
+        "bonus2": 0.51,
+        "bonus3": 0.29,
+        "bonus4": 7.0,
+        "bonus5": 0.9,
+        "bonus6": 47.0
+      }
+    },
+    {
+      "level": 39,
+      "build_time": 5045760,
+      "increased_power": 1500,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 42
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 657900000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 375
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 2100.0,
+        "bonus2": 0.53,
+        "bonus3": 0.29,
+        "bonus4": 7.25,
+        "bonus5": 0.95,
+        "bonus6": 48.5
+      }
+    },
+    {
+      "level": 40,
+      "build_time": 8377920,
+      "increased_power": 2000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 42
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 2865520000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 400
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 2250.0,
+        "bonus2": 0.55,
+        "bonus3": 0.3,
+        "bonus4": 7.5,
+        "bonus5": 1.0,
+        "bonus6": 50.0
+      }
+    },
+    {
+      "level": 41,
+      "build_time": 7850880,
+      "increased_power": 2000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 42
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 2924000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 435
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 2400.0,
+        "bonus2": 0.57,
+        "bonus3": 0.32,
+        "bonus4": 8.15,
+        "bonus5": 1.05,
+        "bonus6": 51.5
+      }
+    },
+    {
+      "level": 42,
+      "build_time": 12068640,
+      "increased_power": 2000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 42
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 4355400000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 465
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 2550.0,
+        "bonus2": 0.59,
+        "bonus3": 0.33,
+        "bonus4": 8.65,
+        "bonus5": 1.1,
+        "bonus6": 53.0
+      }
+    },
+    {
+      "level": 43,
+      "build_time": 15945120,
+      "increased_power": 2500,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 43
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 6222000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 500
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 2700.0,
+        "bonus2": 0.61,
+        "bonus3": 0.35,
+        "bonus4": 9.15,
+        "bonus5": 1.15,
+        "bonus6": 54.5
+      }
+    },
+    {
+      "level": 44,
+      "build_time": 20812320,
+      "increased_power": 2500,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 44
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 9333000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 535
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 2850.0,
+        "bonus2": 0.63,
+        "bonus3": 0.36,
+        "bonus4": 9.65,
+        "bonus5": 1.2,
+        "bonus6": 56.0
+      }
+    },
+    {
+      "level": 45,
+      "build_time": 26867520,
+      "increased_power": 2500,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 45
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 13260000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 575
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 3000.0,
+        "bonus2": 0.65,
+        "bonus3": 0.38,
+        "bonus4": 10.15,
+        "bonus5": 1.25,
+        "bonus6": 57.5
+      },
+      "rewards": [
+        {
+          "type": "DTI Threat Evaluation Level Beta",
+          "value": 100
+        }
+      ]
+    },
+    {
+      "level": 46,
+      "build_time": 34344000,
+      "increased_power": 2500,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 46
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 18232500000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 620
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 3150.0,
+        "bonus2": 0.67,
+        "bonus3": 0.39,
+        "bonus4": 10.65,
+        "bonus5": 1.3,
+        "bonus6": 59.0
+      }
+    },
+    {
+      "level": 47,
+      "build_time": 43506720,
+      "increased_power": 3000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 47
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 26520000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 665
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 3300.0,
+        "bonus2": 0.69,
+        "bonus3": 0.41,
+        "bonus4": 11.15,
+        "bonus5": 1.35,
+        "bonus6": 60.5
+      }
+    },
+    {
+      "level": 48,
+      "build_time": 54660960,
+      "increased_power": 3000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 48
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 42840000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 715
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 3450.0,
+        "bonus2": 0.71,
+        "bonus3": 0.42,
+        "bonus4": 11.65,
+        "bonus5": 1.4,
+        "bonus6": 62.0
+      }
+    },
+    {
+      "level": 49,
+      "build_time": 68152320,
+      "increased_power": 3000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 49
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 71400000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 770
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 3600.0,
+        "bonus2": 0.73,
+        "bonus3": 0.44,
+        "bonus4": 12.15,
+        "bonus5": 1.45,
+        "bonus6": 63.5
+      }
+    },
+    {
+      "level": 50,
+      "build_time": 84376800,
+      "increased_power": 3000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 50
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 124950000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 830
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 3750.0,
+        "bonus2": 0.75,
+        "bonus3": 0.45,
+        "bonus4": 12.75,
+        "bonus5": 1.5,
+        "bonus6": 65.0
+      }
+    },
+    {
+      "level": 51,
+      "build_time": 89439840,
+      "increased_power": 3500,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 51
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 623220000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 890
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 3900.0,
+        "bonus2": 0.77,
+        "bonus3": 0.47,
+        "bonus4": 13.75,
+        "bonus5": 1.55,
+        "bonus6": 67.0
+      }
+    },
+    {
+      "level": 52,
+      "build_time": 94805280,
+      "increased_power": 3500,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 52
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 1127100000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 955
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 4050.0,
+        "bonus2": 0.79,
+        "bonus3": 0.48,
+        "bonus4": 14.4,
+        "bonus5": 1.6,
+        "bonus6": 69.0
+      }
+    },
+    {
+      "level": 53,
+      "build_time": 100494720,
+      "increased_power": 4000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 53
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 1893120000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 1030
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 4200.0,
+        "bonus2": 0.81,
+        "bonus3": 0.5,
+        "bonus4": 15.0,
+        "bonus5": 1.65,
+        "bonus6": 71.0
+      }
+    },
+    {
+      "level": 54,
+      "build_time": 106524000,
+      "increased_power": 4000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 54
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 2839680000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 1105
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 4350.0,
+        "bonus2": 0.83,
+        "bonus3": 0.51,
+        "bonus4": 15.65,
+        "bonus5": 1.7,
+        "bonus6": 73.0
+      }
+    },
+    {
+      "level": 55,
+      "build_time": 112914720,
+      "increased_power": 4000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 55
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 4826640000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 1190
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 4500.0,
+        "bonus2": 0.85,
+        "bonus3": 0.53,
+        "bonus4": 16.25,
+        "bonus5": 1.75,
+        "bonus6": 75.0
+      }
+    },
+    {
+      "level": 56,
+      "build_time": 119689920,
+      "increased_power": 4000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 56
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 7584720000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 1275
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 4650.0,
+        "bonus2": 0.87,
+        "bonus3": 0.54,
+        "bonus4": 16.9,
+        "bonus5": 1.8,
+        "bonus6": 77.0
+      }
+    },
+    {
+      "level": 57,
+      "build_time": 126871200,
+      "increased_power": 4000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 57
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 11873888000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 1375
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 4800.0,
+        "bonus2": 0.89,
+        "bonus3": 0.56,
+        "bonus4": 17.5,
+        "bonus5": 1.85,
+        "bonus6": 79.0
+      }
+    },
+    {
+      "level": 58,
+      "build_time": 134484480,
+      "increased_power": 5000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 58
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 17155584000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 1475
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 4950.0,
+        "bonus2": 0.91,
+        "bonus3": 0.57,
+        "bonus4": 18.15,
+        "bonus5": 1.9,
+        "bonus6": 81.0
+      }
+    },
+    {
+      "level": 59,
+      "build_time": 142552800,
+      "increased_power": 5000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 59
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 25733376000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 1585
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 5100.0,
+        "bonus2": 0.93,
+        "bonus3": 0.59,
+        "bonus4": 18.75,
+        "bonus5": 1.95,
+        "bonus6": 83.0
+      }
+    },
+    {
+      "level": 60,
+      "build_time": 151106400,
+      "increased_power": 5000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 60
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 40188000000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 1705
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 5250.0,
+        "bonus2": 0.95,
+        "bonus3": 0.6,
+        "bonus4": 20.0,
+        "bonus5": 2.0,
+        "bonus6": 85.0
+      },
+      "rewards": [
+        {
+          "type": "DTI Threat Evaluation Level Omega",
+          "value": 100
+        }
+      ]
+    },
+    {
+      "level": 61,
+      "build_time": 3496320,
+      "increased_power": 6000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 61
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 290700
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 1835
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 5400.0,
+        "bonus2": 0.98,
+        "bonus3": 0.62,
+        "bonus4": 20.65,
+        "bonus5": 2.05,
+        "bonus6": 87.0
+      }
+    },
+    {
+      "level": 62,
+      "build_time": 4720320,
+      "increased_power": 6000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 62
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 443700
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 1970
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 5550.0,
+        "bonus2": 1.01,
+        "bonus3": 0.63,
+        "bonus4": 21.25,
+        "bonus5": 2.1,
+        "bonus6": 89.0
+      }
+    },
+    {
+      "level": 63,
+      "build_time": 6372000,
+      "increased_power": 7000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 63
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 1306620
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 2120
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 5700.0,
+        "bonus2": 1.04,
+        "bonus3": 0.65,
+        "bonus4": 21.9,
+        "bonus5": 2.15,
+        "bonus6": 91.0
+      }
+    },
+    {
+      "level": 64,
+      "build_time": 8602560,
+      "increased_power": 7000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 64
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 3055368
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 2275
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 5850.0,
+        "bonus2": 1.07,
+        "bonus3": 0.66,
+        "bonus4": 22.5,
+        "bonus5": 2.2,
+        "bonus6": 93.0
+      }
+    },
+    {
+      "level": 65,
+      "build_time": 11612160,
+      "increased_power": 8000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 65
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 6014813
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 2450
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 6000.0,
+        "bonus2": 1.1,
+        "bonus3": 0.68,
+        "bonus4": 23.15,
+        "bonus5": 2.25,
+        "bonus6": 95.0
+      }
+    },
+    {
+      "level": 66,
+      "build_time": 15677280,
+      "increased_power": 7000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 66
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 7507115
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 2630
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 6300.0,
+        "bonus2": 1.13,
+        "bonus3": 0.69,
+        "bonus4": 23.75,
+        "bonus5": 2.3,
+        "bonus6": 98.0
+      }
+    },
+    {
+      "level": 67,
+      "build_time": 21163680,
+      "increased_power": 9000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 67
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 9851500
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 2830
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 6600.0,
+        "bonus2": 1.16,
+        "bonus3": 0.71,
+        "bonus4": 24.4,
+        "bonus5": 2.35,
+        "bonus6": 101.0
+      }
+    },
+    {
+      "level": 68,
+      "build_time": 27512640,
+      "increased_power": 8000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 68
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 13727500
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 3040
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 6900.0,
+        "bonus2": 1.19,
+        "bonus3": 0.72,
+        "bonus4": 25.0,
+        "bonus5": 2.4,
+        "bonus6": 104.0
+      }
+    },
+    {
+      "level": 69,
+      "build_time": 35766720,
+      "increased_power": 9000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 69
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 19218500
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 3270
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 7200.0,
+        "bonus2": 1.22,
+        "bonus3": 0.74,
+        "bonus4": 26.55,
+        "bonus5": 2.45,
+        "bonus6": 107.0
+      }
+    },
+    {
+      "level": 70,
+      "build_time": 46497600,
+      "increased_power": 9000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 70
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 26970500
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 3515
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 7500.0,
+        "bonus2": 1.25,
+        "bonus3": 0.75,
+        "bonus4": 28.15,
+        "bonus5": 2.5,
+        "bonus6": 110.0
+      }
+    }
+  ],
+  "bonuses": {
+    "bonus1": {
+      "name": "PvP Apex Barrier",
+      "percentage": false
+    },
+    "bonus2": {
+      "name": "Isolytic Defense",
+      "percentage": false
+    },
+    "bonus3": {
+      "name": "Isolytic Damage",
+      "percentage": false
+    },
+    "bonus4": {
+      "name": "Officer Stats",
+      "percentage": true
+    },
+    "bonus5": {
+      "name": "Broken Ship Parts",
+      "percentage": true
+    },
+    "bonus6": {
+      "name": "Damage vs Krenim",
+      "percentage": true
+    }
+  }
+}

@@ -1,0 +1,422 @@
+{
+  "research_name": "D'vor Latinum Mining Improvement",
+  "description": "Increases the base mining rate of Raw Latinum for the D'vor.",
+  "location": {
+    "column": 3,
+    "row": 1,
+    "tree": "starships"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 233040,
+      "increased_power": 7000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 24
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "tritanium",
+            "value": 100000
+          },
+          {
+            "type": "dilithium",
+            "value": 80000
+          }
+        ],
+        "materials": [
+          {
+            "type": "ore",
+            "value": 50,
+            "grade": 3,
+            "rarity": "common"
+          },
+          {
+            "type": "ore",
+            "value": 5,
+            "grade": 3,
+            "rarity": "uncommon"
+          }
+        ],
+        "others": []
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 29.0
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 255000,
+      "increased_power": 500,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "tritanium",
+            "value": 110000
+          },
+          {
+            "type": "dilithium",
+            "value": 95000
+          }
+        ],
+        "materials": [
+          {
+            "type": "ore",
+            "value": 100,
+            "grade": 3,
+            "rarity": "common"
+          },
+          {
+            "type": "ore",
+            "value": 6,
+            "grade": 3,
+            "rarity": "uncommon"
+          }
+        ],
+        "others": []
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 32.0
+      }
+    },
+    {
+      "level": 3,
+      "research_time": 280500,
+      "increased_power": 500,
+      "requirements": [
+        {
+          "name": "D'vor Security Enhancement",
+          "level": 3
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "tritanium",
+            "value": 120000
+          },
+          {
+            "type": "dilithium",
+            "value": 120000
+          }
+        ],
+        "materials": [
+          {
+            "type": "ore",
+            "value": 150,
+            "grade": 3,
+            "rarity": "common"
+          },
+          {
+            "type": "ore",
+            "value": 7,
+            "grade": 3,
+            "rarity": "uncommon"
+          }
+        ],
+        "others": []
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 36.0
+      }
+    },
+    {
+      "level": 4,
+      "research_time": 334380,
+      "increased_power": 500,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "tritanium",
+            "value": 135000
+          },
+          {
+            "type": "dilithium",
+            "value": 135000
+          }
+        ],
+        "materials": [
+          {
+            "type": "ore",
+            "value": 200,
+            "grade": 3,
+            "rarity": "common"
+          },
+          {
+            "type": "ore",
+            "value": 8,
+            "grade": 3,
+            "rarity": "uncommon"
+          }
+        ],
+        "others": []
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 40.0
+      }
+    },
+    {
+      "level": 5,
+      "research_time": 367800,
+      "increased_power": 500,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 26
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "tritanium",
+            "value": 150000
+          },
+          {
+            "type": "dilithium",
+            "value": 150000
+          }
+        ],
+        "materials": [
+          {
+            "type": "ore",
+            "value": 250,
+            "grade": 3,
+            "rarity": "common"
+          },
+          {
+            "type": "ore",
+            "value": 10,
+            "grade": 3,
+            "rarity": "uncommon"
+          }
+        ],
+        "others": []
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 45.0
+      }
+    },
+    {
+      "level": 6,
+      "research_time": 388020,
+      "increased_power": 500,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "tritanium",
+            "value": 175000
+          },
+          {
+            "type": "dilithium",
+            "value": 175000
+          }
+        ],
+        "materials": [
+          {
+            "type": "ore",
+            "value": 300,
+            "grade": 3,
+            "rarity": "common"
+          },
+          {
+            "type": "ore",
+            "value": 12,
+            "grade": 3,
+            "rarity": "uncommon"
+          }
+        ],
+        "others": []
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 50.0
+      }
+    },
+    {
+      "level": 7,
+      "research_time": 426780,
+      "increased_power": 500,
+      "requirements": [
+        {
+          "name": "D'vor Security Enhancement",
+          "level": 7
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "tritanium",
+            "value": 200000
+          },
+          {
+            "type": "dilithium",
+            "value": 200000
+          }
+        ],
+        "materials": [
+          {
+            "type": "ore",
+            "value": 350,
+            "grade": 3,
+            "rarity": "common"
+          },
+          {
+            "type": "ore",
+            "value": 14,
+            "grade": 3,
+            "rarity": "uncommon"
+          }
+        ],
+        "others": []
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 56.0
+      }
+    },
+    {
+      "level": 8,
+      "research_time": 462240,
+      "increased_power": 1000,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "tritanium",
+            "value": 225000
+          },
+          {
+            "type": "dilithium",
+            "value": 250000
+          }
+        ],
+        "materials": [
+          {
+            "type": "ore",
+            "value": 400,
+            "grade": 3,
+            "rarity": "common"
+          },
+          {
+            "type": "ore",
+            "value": 16,
+            "grade": 3,
+            "rarity": "uncommon"
+          }
+        ],
+        "others": []
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 62.0
+      }
+    },
+    {
+      "level": 9,
+      "research_time": 519720,
+      "increased_power": 1000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 28
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "tritanium",
+            "value": 250000
+          },
+          {
+            "type": "dilithium",
+            "value": 300000
+          }
+        ],
+        "materials": [
+          {
+            "type": "ore",
+            "value": 20,
+            "grade": 3,
+            "rarity": "uncommon"
+          },
+          {
+            "type": "ore",
+            "value": 2,
+            "grade": 3,
+            "rarity": "rare"
+          }
+        ],
+        "others": []
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 70.0
+      }
+    },
+    {
+      "level": 10,
+      "research_time": 592800,
+      "increased_power": 1000,
+      "requirements": [
+        {
+          "name": "D'vor Security Enhancement",
+          "level": 10
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "tritanium",
+            "value": 300000
+          },
+          {
+            "type": "dilithium",
+            "value": 350000
+          }
+        ],
+        "materials": [
+          {
+            "type": "ore",
+            "value": 25,
+            "grade": 3,
+            "rarity": "uncommon"
+          },
+          {
+            "type": "ore",
+            "value": 3,
+            "grade": 3,
+            "rarity": "rare"
+          }
+        ],
+        "others": []
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 80.0
+      }
+    }
+  ],
+  "img_url": "./assets/dvor_latinum_mining_improvement_starships_1_3.png"
+}

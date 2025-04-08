@@ -1,0 +1,284 @@
+{
+  "research_name": "\u03a9 Rapid Scrapping",
+  "description": "Increases base scrapping speed.",
+  "location": {
+    "column": 10,
+    "row": 3,
+    "tree": "mirror"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 240,
+      "increased_power": 24000,
+      "requirements": [
+        {
+          "name": "\u03a9 Efficient Research Resources",
+          "level": 1
+        },
+        {
+          "name": "R&D Department",
+          "level": 40
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "omega mirror dust",
+            "value": 290
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.15
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 240,
+      "increased_power": 4000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 42
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "omega mirror dust",
+            "value": 330
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.25
+      }
+    },
+    {
+      "level": 3,
+      "research_time": 240,
+      "increased_power": 5000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 44
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "omega mirror dust",
+            "value": 380
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.35
+      }
+    },
+    {
+      "level": 4,
+      "research_time": 240,
+      "increased_power": 5000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 46
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "omega mirror dust",
+            "value": 430
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.5
+      }
+    },
+    {
+      "level": 5,
+      "research_time": 240,
+      "increased_power": 6000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 48
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "omega mirror dust",
+            "value": 480
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.65
+      }
+    },
+    {
+      "level": 6,
+      "research_time": 240,
+      "increased_power": 6000,
+      "requirements": [
+        {
+          "name": "\u03a9 Efficient Research Materials",
+          "level": 5
+        },
+        {
+          "name": "R&D Department",
+          "level": 50
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "omega mirror dust",
+            "value": 570
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.85
+      }
+    },
+    {
+      "level": 7,
+      "research_time": 240,
+      "increased_power": 7000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 52
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "omega mirror dust",
+            "value": 660
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 1.05
+      }
+    },
+    {
+      "level": 8,
+      "research_time": 240,
+      "increased_power": 8000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 54
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "omega mirror dust",
+            "value": 760
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 1.3
+      }
+    },
+    {
+      "level": 9,
+      "research_time": 240,
+      "increased_power": 8000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 56
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "omega mirror dust",
+            "value": 860
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 1.55
+      }
+    },
+    {
+      "level": 10,
+      "research_time": 240,
+      "increased_power": 9000,
+      "requirements": [
+        {
+          "name": "\u03a9 Efficient Research Resources",
+          "level": 10
+        },
+        {
+          "name": "R&D Department",
+          "level": 58
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "omega mirror dust",
+            "value": 1010
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 1.8
+      }
+    }
+  ],
+  "img_url": "./assets/rapid_scrapping_mirror_3_10.png"
+}

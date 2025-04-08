@@ -3,11 +3,6 @@
   "capture_nodes": 0,
   "connected_systems": [
     {
-      "$ref": "systems/iapedes_36",
-      "distance": 38,
-      "warp": 38
-    },
-    {
       "$ref": "systems/alpha_onias_36",
       "distance": 38,
       "warp": 38
@@ -16,6 +11,11 @@
       "$ref": "systems/argandu_29",
       "distance": 32,
       "warp": 32
+    },
+    {
+      "$ref": "systems/iapedes_36",
+      "distance": 38,
+      "warp": 38
     },
     {
       "$ref": "systems/beta_paldorios_35",
@@ -27,15 +27,9 @@
   "level": 34,
   "mining": [
     {
-      "type": "Raw Latinum",
-      "amount": 12,
+      "type": "raw latinum",
+      "amount": 8,
       "mining_per_hour": 46,
-      "size": 350000
-    },
-    {
-      "type": "Raw Latinum",
-      "amount": 12,
-      "mining_per_hour": 85,
       "size": 350000
     }
   ],
@@ -50,6 +44,6 @@
   ],
   "scopely_id": 1416011212,
   "system_space": "normal",
-  "system_type": "hub",
+  "system_type": "route",
   "warp": 32
 }

@@ -3,14 +3,14 @@
   "capture_nodes": 0,
   "connected_systems": [
     {
-      "$ref": "systems/noakyn_30",
-      "distance": 11,
-      "warp": 23
-    },
-    {
       "$ref": "systems/ortek_28",
       "distance": 23,
       "warp": 22
+    },
+    {
+      "$ref": "systems/noakyn_30",
+      "distance": 11,
+      "warp": 23
     },
     {
       "$ref": "systems/fyrsta_32",
@@ -23,10 +23,11 @@
   "mining": [],
   "planets": [
     "Byrja",
+    "Von",
     "Von"
   ],
   "scopely_id": 721212454,
   "system_space": "normal",
-  "system_type": "hub",
+  "system_type": "route",
   "warp": 23
 }

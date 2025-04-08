@@ -27,12 +27,6 @@
         ],
         "materials": [
           {
-            "type": "crystal",
-            "value": 100,
-            "grade": 3,
-            "rarity": "common"
-          },
-          {
             "type": "ore",
             "value": 10,
             "grade": 3,
@@ -40,6 +34,12 @@
           },
           {
             "type": "gas",
+            "value": 100,
+            "grade": 3,
+            "rarity": "common"
+          },
+          {
+            "type": "crystal",
             "value": 100,
             "grade": 3,
             "rarity": "common"
@@ -73,15 +73,15 @@
         "materials": [
           {
             "type": "gas",
-            "value": 25,
-            "grade": 3,
-            "rarity": "uncommon"
-          },
-          {
-            "type": "gas",
             "value": 200,
             "grade": 3,
             "rarity": "common"
+          },
+          {
+            "type": "gas",
+            "value": 25,
+            "grade": 3,
+            "rarity": "uncommon"
           }
         ],
         "others": []
@@ -112,15 +112,15 @@
         "materials": [
           {
             "type": "gas",
-            "value": 75,
-            "grade": 3,
-            "rarity": "uncommon"
-          },
-          {
-            "type": "gas",
             "value": 400,
             "grade": 3,
             "rarity": "common"
+          },
+          {
+            "type": "gas",
+            "value": 75,
+            "grade": 3,
+            "rarity": "uncommon"
           }
         ],
         "others": []
@@ -330,7 +330,7 @@
       },
       "bonus": {
         "percentage": true,
-        "value": 1
+        "value": 1.0
       }
     }
   ],

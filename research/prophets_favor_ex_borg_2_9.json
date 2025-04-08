@@ -1,0 +1,42 @@
+{
+  "research_name": "Prophet's Favor",
+  "description": "Increases base Bajoran reputation earned from faction store",
+  "location": {
+    "column": 9,
+    "row": 2,
+    "tree": "ex-borg"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 82680480,
+      "increased_power": 171500,
+      "requirements": [
+        {
+          "name": "Enemies of Bajor",
+          "level": 1
+        },
+        {
+          "name": "R&D Department",
+          "level": 38
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "ex-borg credits",
+            "value": 12000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 1.0
+      }
+    }
+  ],
+  "img_url": "./assets/prophets_favor_ex_borg_2_9.png"
+}

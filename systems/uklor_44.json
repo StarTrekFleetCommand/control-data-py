@@ -3,19 +3,19 @@
   "capture_nodes": 0,
   "connected_systems": [
     {
-      "$ref": "systems/cha_takla_46",
+      "$ref": "systems/chatakla_46",
       "distance": 120,
       "warp": 120
+    },
+    {
+      "$ref": "systems/higqar_38",
+      "distance": 95,
+      "warp": 39
     },
     {
       "$ref": "systems/alarek_42",
       "distance": 95,
       "warp": 70
-    },
-    {
-      "$ref": "systems/hig_qar_38",
-      "distance": 95,
-      "warp": 39
     }
   ],
   "faction": "klingon",
@@ -24,6 +24,6 @@
   "planets": [],
   "scopely_id": 1653674927,
   "system_space": "normal",
-  "system_type": "hub",
+  "system_type": "route",
   "warp": 95
 }

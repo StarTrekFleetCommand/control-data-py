@@ -5,12 +5,12 @@
     {
       "$ref": "systems/bodex_2",
       "distance": 2,
-      "warp": 3
+      "warp": 5
     },
     {
       "$ref": "systems/toshen_2",
       "distance": 2,
-      "warp": 3
+      "warp": 5
     },
     {
       "$ref": "systems/melvara_5",
@@ -31,8 +31,8 @@
   "level": 4,
   "mining": [
     {
-      "type": "Parsteel",
-      "amount": 6,
+      "type": "parsteel",
+      "amount": 1,
       "mining_per_hour": 1200,
       "size": 5000
     }
@@ -52,5 +52,5 @@
   "scopely_id": 73970,
   "system_space": "normal",
   "system_type": "hub",
-  "warp": 3
+  "warp": 5
 }

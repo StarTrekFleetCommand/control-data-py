@@ -1,0 +1,45 @@
+{
+  "name": "Maht-H'A",
+  "capture_nodes": 0,
+  "connected_systems": [
+    {
+      "$ref": "systems/hettenza_45",
+      "distance": 110,
+      "warp": 110
+    },
+    {
+      "$ref": "systems/shan_mhnatir_44",
+      "distance": 110,
+      "warp": 95
+    },
+    {
+      "$ref": "systems/imada_44",
+      "distance": 105,
+      "warp": 105
+    },
+    {
+      "$ref": "systems/somraw_44",
+      "distance": 105,
+      "warp": 95
+    }
+  ],
+  "faction": "klingon",
+  "level": 44,
+  "mining": [
+    {
+      "type": "4\u2605 raw crystal",
+      "amount": 1,
+      "mining_per_hour": 300,
+      "size": 400000
+    }
+  ],
+  "planets": [
+    "Damal",
+    "Solek",
+    "Sueoh"
+  ],
+  "scopely_id": 834590587,
+  "system_space": "deep",
+  "system_type": "route",
+  "warp": 105
+}

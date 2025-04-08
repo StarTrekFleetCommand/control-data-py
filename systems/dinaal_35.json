@@ -1,0 +1,35 @@
+{
+  "name": "Dinaal",
+  "capture_nodes": 0,
+  "connected_systems": [
+    {
+      "$ref": "systems/kalak_30",
+      "distance": 26,
+      "warp": 25
+    },
+    {
+      "$ref": "systems/fsep_086_40",
+      "distance": 56,
+      "warp": 56
+    },
+    {
+      "$ref": "systems/verto_peyl_35",
+      "distance": 10,
+      "warp": 26
+    }
+  ],
+  "faction": "neutral",
+  "level": 35,
+  "mining": [],
+  "planets": [
+    "Derelict Sensor Array",
+    "Dinaal",
+    "Hutaa",
+    "Uecan",
+    "Vowus"
+  ],
+  "scopely_id": 1445129642,
+  "system_space": "normal",
+  "system_type": "route",
+  "warp": 26
+}

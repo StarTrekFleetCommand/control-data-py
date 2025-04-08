@@ -1,0 +1,26 @@
+{
+  "name": "New Talax",
+  "capture_nodes": 0,
+  "connected_systems": [
+    {
+      "$ref": "systems/kalak_30",
+      "distance": 90,
+      "warp": 25
+    },
+    {
+      "$ref": "systems/valla_terna_45",
+      "distance": 10,
+      "warp": 90
+    }
+  ],
+  "faction": "neutral",
+  "level": 45,
+  "mining": [],
+  "planets": [
+    "New Talax"
+  ],
+  "scopely_id": 1904794449,
+  "system_space": "normal",
+  "system_type": "route",
+  "warp": 90
+}

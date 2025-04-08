@@ -8,7 +8,7 @@
       "warp": 120
     },
     {
-      "$ref": "systems/kor_ar_ka_44",
+      "$ref": "systems/kor_arka_44",
       "distance": 110,
       "warp": 100
     },
@@ -27,14 +27,8 @@
   "level": 45,
   "mining": [
     {
-      "type": "Concentrated Latinum",
-      "amount": 12,
-      "mining_per_hour": 114,
-      "size": 235200
-    },
-    {
-      "type": "Concentrated Latinum",
-      "amount": 12,
+      "type": "concentrated latinum",
+      "amount": 8,
       "mining_per_hour": 57,
       "size": 235200
     }
@@ -44,6 +38,6 @@
   ],
   "scopely_id": 1066263194,
   "system_space": "deep",
-  "system_type": "hub",
+  "system_type": "route",
   "warp": 110
 }

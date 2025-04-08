@@ -1,6 +1,6 @@
 {
   "officer_name": "Trip Tucker",
-  "description": "",
+  "description": "Charles Tucker III was born in Panama City, Florida in the year 2121. Affectionately known as \u201cTrip\u201d among family and friends, Tucker acquired the nickname by being the third Tucker male in three consecutive generations to be given the name \u201cCharles.\u201d A young Tucker harbored aspirations of being a Starfleet captain from a young age, but the persuasion of his father - along with a reverence of the inventor Emory Erickson - would later see him focus on engineering as a primary discipline. \n\nAlthough he joined Starfleet in 2139, it would not be until 2151 when, under the rank of commander, Tucker was assigned as chief engineer of the Enterprise NX-01. During its time in active service, the Enterprise NX-01 would remain under Tucker\u2019s diligent observation and maintenance. His affinity for mechanical engineering and natural charisma would see Tucker become a trusted and beloved member of the Enterprise crew. \n\nTucker\u2019s final act of service to Starfleet came in 2161. Following the successful rescue of Shran\u2019s daughter Talla from Rigel X, the Enterprise was intercepted and boarded by Talla's would-be captors. With his captain\u2019s life directly under threat, Tucker\u2019s ingenuity and bravery would see him lure the assailants into one of the ship\u2019s plasma junctions, which had been rigged for detonation. While the ensuing blast eliminated all threats onboard the ship, it would also claim Tucker\u2019s life in the process. Although Tucker valiantly gave his life to save that of his captain, his sacrifice was not to be in vain. Captain Archer\u2019s survival and presence at the signing of the Federation Charter would ensure the formation of the United Federation of Planets - a fitting tribute and legacy to one of Starfleet\u2019s most gifted engineers.",
   "class": "engineering",
   "group": "enterprise nx-01",
   "faction": "federation",
@@ -10,7 +10,7 @@
       "name": "Chain of Command",
       "bonus": "This Officer does not have a Captain's Maneuver. Equipping this Officer as the captain of a ship provides no benefit.",
       "percentage": true,
-      "value": 0
+      "value": 0.0
     },
     "officer_ability": {
       "name": "Things Blow Up",
@@ -24,9 +24,9 @@
     }
   },
   "synergy": {
-    "command": 0,
-    "engineering": 0,
-    "science": 0
+    "command": 0.0,
+    "engineering": 0.0,
+    "science": 0.0
   },
   "traits": [
     {
@@ -124,9 +124,7 @@
         "shards": 100,
         "xp": 0
       },
-      "below_deck_ability_value": [
-        0.3
-      ]
+      "below_deck_ability_value": 0.3
     },
     {
       "rank_id": 2,
@@ -139,9 +137,7 @@
         "shards": 100,
         "xp": 50000
       },
-      "below_deck_ability_value": [
-        0.6
-      ]
+      "below_deck_ability_value": 0.6
     },
     {
       "rank_id": 3,
@@ -154,9 +150,7 @@
         "shards": 200,
         "xp": 500000
       },
-      "below_deck_ability_value": [
-        0.8
-      ]
+      "below_deck_ability_value": 0.8
     },
     {
       "rank_id": 4,
@@ -169,9 +163,7 @@
         "shards": 300,
         "xp": 1250000
       },
-      "below_deck_ability_value": [
-        1
-      ]
+      "below_deck_ability_value": 1.0
     },
     {
       "rank_id": 5,
@@ -184,9 +176,7 @@
         "shards": 800,
         "xp": 2500000
       },
-      "below_deck_ability_value": [
-        1.5
-      ]
+      "below_deck_ability_value": 1.5
     }
   ],
   "img_url": "./assets/trip_tucker.png"

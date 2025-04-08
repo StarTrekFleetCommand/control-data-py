@@ -4,16 +4,16 @@
   "connected_systems": [
     {
       "$ref": "systems/odin_46",
-      "distance": 130,
-      "warp": 130
+      "distance": 150,
+      "warp": 150
     },
     {
-      "$ref": "systems/glacii_45",
+      "$ref": "systems/ertama_45",
       "distance": 130,
       "warp": 120
     },
     {
-      "$ref": "systems/er_tama_45",
+      "$ref": "systems/glacii_45",
       "distance": 130,
       "warp": 120
     }
@@ -22,8 +22,8 @@
   "level": 46,
   "mining": [
     {
-      "type": "Dilithium",
-      "amount": 6,
+      "type": "dilithium",
+      "amount": 1,
       "mining_per_hour": 80,
       "size": 500000
     }
@@ -34,6 +34,6 @@
   ],
   "scopely_id": 1683936460,
   "system_space": "deep",
-  "system_type": "hub",
+  "system_type": "route",
   "warp": 130
 }

@@ -3,11 +3,6 @@
   "capture_nodes": 0,
   "connected_systems": [
     {
-      "$ref": "systems/d_deridex_38",
-      "distance": 40,
-      "warp": 38
-    },
-    {
       "$ref": "systems/tiwoqua_38",
       "distance": 27,
       "warp": 40
@@ -26,20 +21,25 @@
       "$ref": "systems/piuioab_37",
       "distance": 27,
       "warp": 40
+    },
+    {
+      "$ref": "systems/dderidex_38",
+      "distance": 40,
+      "warp": 38
     }
   ],
   "faction": "romulan",
   "level": 39,
   "mining": [
     {
-      "type": "Parsteel",
-      "amount": 5,
+      "type": "parsteel",
+      "amount": 1,
       "mining_per_hour": 1200,
       "size": 125000
     },
     {
-      "type": "Tritanium",
-      "amount": 5,
+      "type": "tritanium",
+      "amount": 1,
       "mining_per_hour": 320,
       "size": 45000
     }
@@ -49,6 +49,6 @@
   ],
   "scopely_id": 1680845187,
   "system_space": "normal",
-  "system_type": "hub",
+  "system_type": "route",
   "warp": 40
 }

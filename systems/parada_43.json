@@ -1,0 +1,29 @@
+{
+  "name": "Parada",
+  "capture_nodes": 0,
+  "connected_systems": [
+    {
+      "$ref": "systems/karemma_41",
+      "distance": 75,
+      "warp": 45
+    }
+  ],
+  "faction": "dominion",
+  "level": 43,
+  "mining": [
+    {
+      "type": "4\u2605 raw ore",
+      "amount": 1,
+      "mining_per_hour": 2000,
+      "size": 5000000
+    }
+  ],
+  "planets": [
+    "Parada I",
+    "Parada II"
+  ],
+  "scopely_id": 270659844,
+  "system_space": "deep",
+  "system_type": "route",
+  "warp": 75
+}

@@ -18,11 +18,6 @@
       "warp": 18
     },
     {
-      "$ref": "systems/strezhi_26",
-      "distance": 8,
-      "warp": 19
-    },
-    {
       "$ref": "systems/mewudoh_25",
       "distance": 8,
       "warp": 19
@@ -31,6 +26,11 @@
       "$ref": "systems/rator_29",
       "distance": 20,
       "warp": 20
+    },
+    {
+      "$ref": "systems/strezhi_26",
+      "distance": 8,
+      "warp": 19
     },
     {
       "$ref": "systems/nipaj_24",
@@ -51,9 +51,8 @@
   "level": 27,
   "mining": [
     {
-      "type": "3\u2605 Raw Ore",
-      "amount": 25,
-      "grade": 3,
+      "type": "3\u2605 raw ore",
+      "amount": 2,
       "mining_per_hour": 300,
       "size": 8500
     }

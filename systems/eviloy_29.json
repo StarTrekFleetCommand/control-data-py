@@ -1,0 +1,52 @@
+{
+  "name": "Eviloy",
+  "capture_nodes": 0,
+  "connected_systems": [
+    {
+      "$ref": "systems/kalak_30",
+      "distance": 25,
+      "warp": 25
+    },
+    {
+      "$ref": "systems/sadell_40",
+      "distance": 58,
+      "warp": 58
+    },
+    {
+      "$ref": "systems/neken_51",
+      "distance": 205,
+      "warp": 205
+    }
+  ],
+  "faction": "neutral",
+  "level": 29,
+  "mining": [
+    {
+      "type": "3\u2605 raw ore",
+      "amount": 1,
+      "mining_per_hour": 300,
+      "size": 25000
+    },
+    {
+      "type": "3\u2605 raw crystal",
+      "amount": 1,
+      "mining_per_hour": 300,
+      "size": 25000
+    },
+    {
+      "type": "3\u2605 raw gas",
+      "amount": 1,
+      "mining_per_hour": 300,
+      "size": 25000
+    }
+  ],
+  "planets": [
+    "Eviloy Prime",
+    "Loxil",
+    "New D'evore"
+  ],
+  "scopely_id": 2072864272,
+  "system_space": "normal",
+  "system_type": "route",
+  "warp": 25
+}

@@ -1,0 +1,292 @@
+{
+  "research_name": "\u03a9 Energy Weaponry",
+  "description": "Increases base damage of Energy Weapons for all ships.",
+  "location": {
+    "column": 11,
+    "row": 1,
+    "tree": "mirror"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 240,
+      "increased_power": 23500,
+      "requirements": [
+        {
+          "name": "\u03a9 Kinetic Weaponry",
+          "level": 1
+        },
+        {
+          "name": "R&D Department",
+          "level": 40
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "omega mirror dust",
+            "value": 410
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 1.0
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 240,
+      "increased_power": 500,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 40
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "omega mirror dust",
+            "value": 450
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 1.5
+      }
+    },
+    {
+      "level": 3,
+      "research_time": 240,
+      "increased_power": 500,
+      "requirements": [
+        {
+          "name": "\u03a9 Kinetic Weaponry",
+          "level": 3
+        },
+        {
+          "name": "R&D Department",
+          "level": 40
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "omega mirror dust",
+            "value": 500
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 2.0
+      }
+    },
+    {
+      "level": 4,
+      "research_time": 240,
+      "increased_power": 10000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 45
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "omega mirror dust",
+            "value": 590
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 2.5
+      }
+    },
+    {
+      "level": 5,
+      "research_time": 240,
+      "increased_power": 1000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 45
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "omega mirror dust",
+            "value": 630
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 3.0
+      }
+    },
+    {
+      "level": 6,
+      "research_time": 240,
+      "increased_power": 500,
+      "requirements": [
+        {
+          "name": "\u03a9 Critical Damage Floor",
+          "level": 3
+        },
+        {
+          "name": "R&D Department",
+          "level": 45
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "omega mirror dust",
+            "value": 730
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 4.0
+      }
+    },
+    {
+      "level": 7,
+      "research_time": 240,
+      "increased_power": 16500,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 51
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "omega mirror dust",
+            "value": 910
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 5.0
+      }
+    },
+    {
+      "level": 8,
+      "research_time": 240,
+      "increased_power": 2000,
+      "requirements": [
+        {
+          "name": "\u03a9 Kinetic Weaponry",
+          "level": 8
+        },
+        {
+          "name": "R&D Department",
+          "level": 51
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "omega mirror dust",
+            "value": 1010
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 6.5
+      }
+    },
+    {
+      "level": 9,
+      "research_time": 240,
+      "increased_power": 41500,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 61
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "omega mirror dust",
+            "value": 1280
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 8.0
+      }
+    },
+    {
+      "level": 10,
+      "research_time": 240,
+      "increased_power": 4000,
+      "requirements": [
+        {
+          "name": "\u03a9 Critical Damage Floor",
+          "level": 5
+        },
+        {
+          "name": "R&D Department",
+          "level": 61
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "omega mirror dust",
+            "value": 1460
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 10.0
+      }
+    }
+  ],
+  "img_url": "./assets/energy_weaponry_mirror_1_11.png"
+}

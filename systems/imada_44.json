@@ -8,7 +8,7 @@
       "warp": 120
     },
     {
-      "$ref": "systems/maht_h_a_44",
+      "$ref": "systems/maht_ha_44",
       "distance": 105,
       "warp": 105
     },
@@ -18,22 +18,22 @@
       "warp": 105
     },
     {
-      "$ref": "systems/alycen_44",
-      "distance": 105,
+      "$ref": "systems/harrizon_44",
+      "distance": 11,
       "warp": 105
     },
     {
-      "$ref": "systems/harrizon_44",
-      "distance": 110,
-      "warp": 110
+      "$ref": "systems/alycen_44",
+      "distance": 105,
+      "warp": 105
     }
   ],
   "faction": "neutral",
   "level": 44,
   "mining": [
     {
-      "type": "Dilithium",
-      "amount": 6,
+      "type": "dilithium",
+      "amount": 1,
       "mining_per_hour": 80,
       "size": 500000
     }
@@ -43,6 +43,6 @@
   ],
   "scopely_id": 193648807,
   "system_space": "deep",
-  "system_type": "hub",
+  "system_type": "route",
   "warp": 105
 }

@@ -5,7 +5,7 @@
     {
       "$ref": "systems/utoqa_10",
       "distance": 3,
-      "warp": 7
+      "warp": 8
     }
   ],
   "faction": "neutral",
@@ -16,8 +16,8 @@
   "level": 9,
   "mining": [
     {
-      "type": "Parsteel",
-      "amount": 25,
+      "type": "parsteel",
+      "amount": 1,
       "mining_per_hour": 1200,
       "size": 15000
     }
@@ -37,6 +37,6 @@
   ],
   "scopely_id": 1786096059,
   "system_space": "normal",
-  "system_type": "terminal",
-  "warp": 7
+  "system_type": "hub",
+  "warp": 8
 }

@@ -3,7 +3,7 @@
   "capture_nodes": 5,
   "connected_systems": [
     {
-      "$ref": "systems/tigan_beta_20",
+      "$ref": "systems/triss_alpha_30",
       "distance": 5,
       "warp": 20
     },
@@ -13,7 +13,7 @@
       "warp": 20
     },
     {
-      "$ref": "systems/triss_alpha_30",
+      "$ref": "systems/tigan_beta_20",
       "distance": 5,
       "warp": 20
     }
@@ -26,10 +26,10 @@
   "level": 20,
   "mining": [
     {
-      "type": "Dilithium",
-      "amount": 20,
-      "mining_per_hour": 120,
-      "size": 10000
+      "type": "3\u2605 raw gas",
+      "amount": 1,
+      "mining_per_hour": 450,
+      "size": 30000
     }
   ],
   "planets": [

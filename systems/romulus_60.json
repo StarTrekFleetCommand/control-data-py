@@ -3,14 +3,14 @@
   "capture_nodes": 0,
   "connected_systems": [
     {
-      "$ref": "systems/romii_38",
-      "distance": 15,
-      "warp": 40
-    },
-    {
       "$ref": "systems/terix_38",
       "distance": 40,
       "warp": 39
+    },
+    {
+      "$ref": "systems/romii_38",
+      "distance": 15,
+      "warp": 40
     },
     {
       "$ref": "systems/cheron_39",
@@ -35,6 +35,6 @@
   ],
   "scopely_id": 439344754,
   "system_space": "normal",
-  "system_type": "hub",
+  "system_type": "route",
   "warp": 40
 }

@@ -1,6 +1,6 @@
 {
   "officer_name": "Mirror Data",
-  "description": "",
+  "description": "Much like his counterpart from a parallel universe, Data was one of a number of Soong-type androids created by Dr. Noonien Soong in the 24th century. While originally intended to be put to work as a mining automaton, a chance encounter with Captain Jean-Luc Picard and the crew of the ISS Stargazer would see this android\u2019s purpose irrevocably altered. Using an elaborate cover story to fake his demise, Picard would free Data from his mining duties and offer him a position as crew member of the ISS Stargazer - a role which Data would eventually accept in the capacity of science officer.\n\nUnder the banner of Imperial Starfleet, Data became a key member of Picard\u2019s crew, being of vital importance to several operations. One of these missions would lead to the Stargazer obtaining illegal contraband from Coridan IX, which was revealed to be a cache of Borg components. Rather than leaving this technology to gather dust, Data instead opted to utilize the components in order to improve himself, augmenting his own Soong-type architecture with Borg components. This process would lead to Data becoming occupied with the concept of self-improvement, much to the chagrin of Captain Picard, who would encourage his science officer to focus on creation over improvement.\n\nWhen the ISS Enterprise-D was banished through an interphasic rift by the newly-crowned Terran Empress Kira Nerys, Data would find himself stranded in a peculiar, yet eerily familiar new realm. While seemingly confined to this unexplored dimension, Data was confronted with endless possibilities of creation, as well as opportunities to keep improving upon his own architecture. Intrigued by the prospects that presented themselves to him, finding a way back home was no longer a priority for Data.",
   "class": "engineering",
   "group": "mirror universe",
   "faction": "federation",
@@ -8,21 +8,21 @@
   "ability_info": {
     "captain_maneuver": {
       "name": "Self-Improvement",
-      "bonus": "On combat start while against an Interceptor player, Mirror Data increases your Apex Barrier by {value} for the duration of combat.\n\nThis ability does not trigger when Tal is assigned to the bridge of your ship.\n\nApex Barrier provides <b>true damage mitigation</b> from all sources after all other bonuses. Every 100 Apex Barrier increases the damage you can take by 1%.",
+      "bonus": "On combat start while against an Interceptor player, Mirror Data increases your Apex Barrier by {value} for the duration of combat.\n\nThis ability does not trigger when Tal is assigned to the bridge of your ship.\n\nApex Barrier provides <b>true damage mitigation from all sources after all other bonuses. Every 100 Apex Barrier increases the damage you can take by 1%.",
       "percentage": false,
-      "value": 7500
+      "value": 7500.0
     },
     "officer_ability": {
       "name": "Reflections",
-      "bonus": "On round start against players, Mirror Data has {value} ({1:#,#%} at rank {2:#,#}) chance to apply Assimilate to them for 2 rounds.\n\nWhile a ship is affected by the Assimilate state, Officer Abilities have their effectiveness reduced by 25%.",
+      "bonus": "On round start against players, Mirror Data has {value} ({value} at rank {value}) chance to apply Assimilate to them for 2 rounds.\n\nWhile a ship is affected by the Assimilate state, Officer Abilities have their effectiveness reduced by 25%.",
       "percentage": true
     },
     "below_decks_ability": null
   },
   "synergy": {
-    "command": 18750,
-    "engineering": 3500,
-    "science": 18750
+    "command": 18750.0,
+    "engineering": 3500.0,
+    "science": 18750.0
   },
   "traits": [
     {
@@ -100,7 +100,7 @@
         "credits": 0,
         "others": [
           {
-            "name": "Liquid Trellium-D",
+            "name": "liquid trellium-d",
             "value": 5200
           }
         ],
@@ -117,7 +117,7 @@
         "credits": 0,
         "others": [
           {
-            "name": "Liquid Trellium-D",
+            "name": "liquid trellium-d",
             "value": 21400
           }
         ],
@@ -128,13 +128,13 @@
     {
       "rank_id": 5,
       "name": "COMMANDER V",
-      "officer_ability_value": 1,
+      "officer_ability_value": 1.0,
       "requirements": {
         "badges": 2,
         "credits": 0,
         "others": [
           {
-            "name": "Liquid Trellium-D",
+            "name": "liquid trellium-d",
             "value": 54600
           }
         ],

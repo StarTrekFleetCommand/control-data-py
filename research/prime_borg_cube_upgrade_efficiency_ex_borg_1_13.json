@@ -1,0 +1,38 @@
+{
+  "research_name": "Prime Borg Cube Upgrade Efficiency.",
+  "description": "Increases base Cost Efficiency of both <i>Shape Memory Alloy</i> used in Borg Cube Ship Components and <i>Advanced Cybernetics</i> used in Research.",
+  "location": {
+    "column": 13,
+    "row": 1,
+    "tree": "ex-borg"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 7247100,
+      "increased_power": 97000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 28
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "temporal particle",
+            "value": 1000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.5
+      }
+    }
+  ],
+  "img_url": "./assets/prime_borg_cube_upgrade_efficiency_ex_borg_1_13.png"
+}

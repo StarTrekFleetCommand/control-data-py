@@ -3,12 +3,7 @@
   "capture_nodes": 0,
   "connected_systems": [
     {
-      "$ref": "systems/jen_rik_29",
-      "distance": 25,
-      "warp": 25
-    },
-    {
-      "$ref": "systems/neethia_30",
+      "$ref": "systems/jenrik_29",
       "distance": 25,
       "warp": 25
     },
@@ -18,7 +13,12 @@
       "warp": 25
     },
     {
-      "$ref": "systems/amok_tal_32",
+      "$ref": "systems/amoktal_32",
+      "distance": 25,
+      "warp": 25
+    },
+    {
+      "$ref": "systems/neethia_30",
       "distance": 25,
       "warp": 25
     }
@@ -35,6 +35,6 @@
   ],
   "scopely_id": 14279376,
   "system_space": "normal",
-  "system_type": "hub",
+  "system_type": "route",
   "warp": 25
 }

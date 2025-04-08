@@ -5,7 +5,7 @@
     {
       "$ref": "systems/nilkino_10",
       "distance": 3,
-      "warp": 7
+      "warp": 8
     },
     {
       "$ref": "systems/netron_alpha_23",
@@ -21,19 +21,19 @@
   "level": 9,
   "mining": [
     {
-      "type": "Parsteel",
-      "amount": 25,
+      "type": "parsteel",
+      "amount": 1,
       "mining_per_hour": 1200,
       "size": 15000
     }
   ],
   "planets": [
-    "Cameweo",
     "Digicav",
     "Hupay",
     "Iexim",
     "Lutib",
     "Muooziy",
+    "Ph\u00f83\u00f1\u00eeX",
     "Qixahus",
     "Uejohea",
     "Uubacey",
@@ -42,6 +42,6 @@
   ],
   "scopely_id": 1225355489,
   "system_space": "normal",
-  "system_type": "route",
-  "warp": 7
+  "system_type": "hub",
+  "warp": 8
 }

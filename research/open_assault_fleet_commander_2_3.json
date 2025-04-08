@@ -1,6 +1,6 @@
 {
   "research_name": "Open Assault",
-  "description": "Increases base Damage when attacking a player at a Mining Node\n(On Duty)",
+  "description": "Increases base Damage when attacking a player at a Mining Node\n<color=#FFEF40>(On Duty)</color>",
   "location": {
     "column": 3,
     "row": 2,
@@ -207,7 +207,7 @@
       },
       "bonus": {
         "percentage": true,
-        "value": 1
+        "value": 1.0
       }
     },
     {
@@ -343,7 +343,7 @@
       },
       "bonus": {
         "percentage": true,
-        "value": 4
+        "value": 4.0
       }
     }
   ],

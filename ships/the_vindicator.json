@@ -1,0 +1,7346 @@
+{
+  "ship_name": "THE VINDICATOR",
+  "description": "Equipped with a patented new technology, the Vindicator uses extra-dimensional interference to overload enemy sensors, making it the primary target. The Vindicator harvests energy from the subsequent onslaught to increase the power of its own weapons. This ship was built to take damage, and return it with a vengeance.",
+  "ship_class": "battleship",
+  "grade": 4,
+  "faction": "neutral",
+  "rarity": "epic",
+  "blueprints": {
+    "cost": 0,
+    "quantity": 200
+  },
+  "ship_ability": {
+    "title": "Unfettered Revenge",
+    "description": "Increases Weapon Damage by {value} for 5 rounds each time you are hit by an Armada (cumulative).\n(Weapons with multiple shots will only trigger this ability once per attack.)",
+    "percentage": true
+  },
+  "scrap_info": {
+    "scrappable": false
+  },
+  "requirements": [
+    {
+      "name": "Shipyard",
+      "level": 40
+    }
+  ],
+  "tiers": [
+    {
+      "tier": 1,
+      "build_time": 7568640,
+      "repair_time": 84000,
+      "components": [
+        {
+          "name": "Phaser Turrets",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": []
+          },
+          "repair_cost": [],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 242,
+              "armor_pierce": 242,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 2563,
+              "min_damage": 2074,
+              "shield_pierce": 2393,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": []
+          },
+          "repair_cost": [],
+          "additional_info": {
+            "armor_info": {
+              "armor": 24200,
+              "hull_health": 360080
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Railgun",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": []
+          },
+          "repair_cost": [],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 1056,
+              "armor_pierce": 1056,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 11457,
+              "min_damage": 9158,
+              "shield_pierce": 10560,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": []
+          },
+          "repair_cost": [],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 400000,
+              "increased_protected_cargo": 24000,
+              "ship_increased_cargo": 0,
+              "ship_increased_protected_cargo": 0
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": []
+          },
+          "repair_cost": [],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 110,
+              "warp_speed": 4.66
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": []
+          },
+          "repair_cost": [],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 13290,
+              "shield_health": 477410
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": []
+          },
+          "repair_cost": [],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 8420,
+              "impulse_speed": 110
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 0.05,
+          "additional_officer_slot": false,
+          "level": 1,
+          "ship_xp": 0
+        },
+        {
+          "ability_bonus": 0.1,
+          "additional_officer_slot": false,
+          "level": 2,
+          "ship_xp": 8000
+        },
+        {
+          "ability_bonus": 0.15,
+          "additional_officer_slot": false,
+          "level": 3,
+          "ship_xp": 12000
+        },
+        {
+          "ability_bonus": 0.2,
+          "additional_officer_slot": false,
+          "level": 4,
+          "ship_xp": 20000
+        },
+        {
+          "ability_bonus": 0.25,
+          "additional_officer_slot": false,
+          "level": 5,
+          "ship_xp": 29000
+        }
+      ],
+      "initial_build_cost": {
+        "resources": [
+          {
+            "type": "tritanium",
+            "value": 16256500000
+          },
+          {
+            "type": "dilithium",
+            "value": 7800000
+          }
+        ],
+        "materials": [
+          {
+            "type": "ore",
+            "value": 39400,
+            "grade": 4,
+            "rarity": "common"
+          }
+        ],
+        "others": []
+      }
+    },
+    {
+      "tier": 2,
+      "build_time": 480000,
+      "repair_time": 96000,
+      "components": [
+        {
+          "name": "Phaser Turrets",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 4334400000
+              },
+              {
+                "type": "dilithium",
+                "value": 2063000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 3700,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 2900,
+                "grade": 4,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 300
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 11819070
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 315,
+              "armor_pierce": 315,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 3332,
+              "min_damage": 2696,
+              "shield_pierce": 3111,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 7801800000
+              },
+              {
+                "type": "dilithium",
+                "value": 3714000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 6700,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 5300,
+                "grade": 4,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 500
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 21274326
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 26250,
+              "hull_health": 390930
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Railgun",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 4334400000
+              },
+              {
+                "type": "dilithium",
+                "value": 2063000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 3700,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 2900,
+                "grade": 4,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 300
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 11819070
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 1373,
+              "armor_pierce": 1373,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 14894,
+              "min_damage": 11905,
+              "shield_pierce": 13728,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 3467500000
+              },
+              {
+                "type": "dilithium",
+                "value": 1651000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 3000,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 2300,
+                "grade": 4,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 200
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 9455256
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 140000,
+              "increased_protected_cargo": 8000,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 200
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 4334400000
+              },
+              {
+                "type": "dilithium",
+                "value": 2063000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 3700,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 2900,
+                "grade": 4,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 300
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 11819070
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 115,
+              "warp_speed": 5
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 6935000000
+              },
+              {
+                "type": "dilithium",
+                "value": 3302000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 6000,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 4700,
+                "grade": 4,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 500
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 18910512
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 13010,
+              "shield_health": 540500
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 3467500000
+              },
+              {
+                "type": "dilithium",
+                "value": 1651000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 3000,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 2300,
+                "grade": 4,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 200
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 9455256
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 10940,
+              "impulse_speed": 110
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 0.3,
+          "additional_officer_slot": false,
+          "level": 6,
+          "ship_xp": 41000
+        },
+        {
+          "ability_bonus": 0.35,
+          "additional_officer_slot": false,
+          "level": 7,
+          "ship_xp": 59000
+        },
+        {
+          "ability_bonus": 0.4,
+          "additional_officer_slot": false,
+          "level": 8,
+          "ship_xp": 78000
+        },
+        {
+          "ability_bonus": 0.45,
+          "additional_officer_slot": false,
+          "level": 9,
+          "ship_xp": 100000
+        },
+        {
+          "ability_bonus": 0.5,
+          "additional_officer_slot": false,
+          "level": 10,
+          "ship_xp": 130000
+        }
+      ]
+    },
+    {
+      "tier": 3,
+      "build_time": 960000,
+      "repair_time": 108000,
+      "components": [
+        {
+          "name": "Phaser Turrets",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 12789600000
+              },
+              {
+                "type": "dilithium",
+                "value": 5616000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 6300,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 5000,
+                "grade": 4,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 500
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 46064920
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 425,
+              "armor_pierce": 425,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 4498,
+              "min_damage": 3639,
+              "shield_pierce": 4199,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 23021300000
+              },
+              {
+                "type": "dilithium",
+                "value": 10108000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 11400,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 9000,
+                "grade": 4,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 900
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 82916856
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 30260,
+              "hull_health": 450420
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Railgun",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 12789600000
+              },
+              {
+                "type": "dilithium",
+                "value": 5616000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 6300,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 5000,
+                "grade": 4,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 500
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 46064920
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 1854,
+              "armor_pierce": 1854,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 20106,
+              "min_damage": 16072,
+              "shield_pierce": 18533,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 10231700000
+              },
+              {
+                "type": "dilithium",
+                "value": 4492000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 5100,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 4000,
+                "grade": 4,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 400
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 36851936
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 120000,
+              "increased_protected_cargo": 10000,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 200
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 12789600000
+              },
+              {
+                "type": "dilithium",
+                "value": 5616000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 6300,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 5000,
+                "grade": 4,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 500
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 46064920
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 150,
+              "warp_speed": 5.33
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 20463400000
+              },
+              {
+                "type": "dilithium",
+                "value": 8985000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 10100,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 8000,
+                "grade": 4,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 800
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 73703872
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 14790,
+              "shield_health": 615290
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 10231700000
+              },
+              {
+                "type": "dilithium",
+                "value": 4492000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 5100,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 4000,
+                "grade": 4,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 400
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 36851936
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 14770,
+              "impulse_speed": 110
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 0.55,
+          "additional_officer_slot": false,
+          "level": 11,
+          "ship_xp": 158000
+        },
+        {
+          "ability_bonus": 0.6,
+          "additional_officer_slot": false,
+          "level": 12,
+          "ship_xp": 190000
+        },
+        {
+          "ability_bonus": 0.65,
+          "additional_officer_slot": false,
+          "level": 13,
+          "ship_xp": 235000
+        },
+        {
+          "ability_bonus": 0.7,
+          "additional_officer_slot": false,
+          "level": 14,
+          "ship_xp": 275000
+        },
+        {
+          "ability_bonus": 0.75,
+          "additional_officer_slot": false,
+          "level": 15,
+          "ship_xp": 318000
+        }
+      ]
+    },
+    {
+      "tier": 4,
+      "build_time": 1600000,
+      "repair_time": 126000,
+      "components": [
+        {
+          "name": "Phaser Turrets",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 34672100000
+              },
+              {
+                "type": "dilithium",
+                "value": 15072000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 2800,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 2300,
+                "grade": 4,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 800
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 82620560
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 476,
+              "armor_pierce": 476,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 5038,
+              "min_damage": 4076,
+              "shield_pierce": 4703,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 62409700000
+              },
+              {
+                "type": "dilithium",
+                "value": 27130000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 5100,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 4200,
+                "grade": 4,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 1400
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 148717008
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 35650,
+              "hull_health": 530680
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Railgun",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 34672100000
+              },
+              {
+                "type": "dilithium",
+                "value": 15072000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 2800,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 2300,
+                "grade": 4,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 800
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 82620560
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 2076,
+              "armor_pierce": 2076,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 22519,
+              "min_damage": 18001,
+              "shield_pierce": 20757,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 27737700000
+              },
+              {
+                "type": "dilithium",
+                "value": 12058000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 2300,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 1800,
+                "grade": 4,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 600
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 66096448
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 120000,
+              "increased_protected_cargo": 10000,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 200
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 34672100000
+              },
+              {
+                "type": "dilithium",
+                "value": 15072000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 2800,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 2300,
+                "grade": 4,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 800
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 82620560
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 170,
+              "warp_speed": 5.66
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 55475300000
+              },
+              {
+                "type": "dilithium",
+                "value": 24116000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 4500,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 3700,
+                "grade": 4,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 1200
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 132192896
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 17160,
+              "shield_health": 713930
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 27737700000
+              },
+              {
+                "type": "dilithium",
+                "value": 12058000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 2300,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 1800,
+                "grade": 4,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 600
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 66096448
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 16540,
+              "impulse_speed": 110
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 0.8,
+          "additional_officer_slot": false,
+          "level": 16,
+          "ship_xp": 378000
+        },
+        {
+          "ability_bonus": 0.85,
+          "additional_officer_slot": false,
+          "level": 17,
+          "ship_xp": 430000
+        },
+        {
+          "ability_bonus": 0.9,
+          "additional_officer_slot": false,
+          "level": 18,
+          "ship_xp": 483000
+        },
+        {
+          "ability_bonus": 0.95,
+          "additional_officer_slot": false,
+          "level": 19,
+          "ship_xp": 565000
+        },
+        {
+          "ability_bonus": 1.0,
+          "additional_officer_slot": false,
+          "level": 20,
+          "ship_xp": 628000
+        }
+      ]
+    },
+    {
+      "tier": 5,
+      "build_time": 2400000,
+      "repair_time": 138000,
+      "components": [
+        {
+          "name": "Phaser Turrets",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 84707100000
+              },
+              {
+                "type": "dilithium",
+                "value": 48884000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 1900,
+                "grade": 4,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 1600,
+                "grade": 4,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 1200
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 129550990
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 547,
+              "armor_pierce": 547,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 5794,
+              "min_damage": 4687,
+              "shield_pierce": 5409,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 152472700000
+              },
+              {
+                "type": "dilithium",
+                "value": 87991000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 3400,
+                "grade": 4,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 2900,
+                "grade": 4,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 2100
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 233191782
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 41412,
+              "hull_health": 616445
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Railgun",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 84707100000
+              },
+              {
+                "type": "dilithium",
+                "value": 48884000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 9000,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 7300,
+                "grade": 4,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 1200
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 129550990
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 2388,
+              "armor_pierce": 2388,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 25897,
+              "min_damage": 20701,
+              "shield_pierce": 23871,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 67765600000
+              },
+              {
+                "type": "dilithium",
+                "value": 39107000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 7200,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 5900,
+                "grade": 4,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 900
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 103640792
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 160000,
+              "increased_protected_cargo": 12000,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 200
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 84707100000
+              },
+              {
+                "type": "dilithium",
+                "value": 48884000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 9000,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 7300,
+                "grade": 4,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 1200
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 129550990
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 205,
+              "warp_speed": 6
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 135531300000
+              },
+              {
+                "type": "dilithium",
+                "value": 78214000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 3100,
+                "grade": 4,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 2600,
+                "grade": 4,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 1800
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 207281584
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 19936,
+              "shield_health": 829310
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 67765600000
+              },
+              {
+                "type": "dilithium",
+                "value": 39107000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 7200,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 5900,
+                "grade": 4,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 900
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 103640792
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 19020,
+              "impulse_speed": 110
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 1.05,
+          "additional_officer_slot": false,
+          "level": 21,
+          "ship_xp": 695000
+        },
+        {
+          "ability_bonus": 1.1,
+          "additional_officer_slot": false,
+          "level": 22,
+          "ship_xp": 798000
+        },
+        {
+          "ability_bonus": 1.15,
+          "additional_officer_slot": false,
+          "level": 23,
+          "ship_xp": 875000
+        },
+        {
+          "ability_bonus": 1.2,
+          "additional_officer_slot": false,
+          "level": 24,
+          "ship_xp": 955000
+        },
+        {
+          "ability_bonus": 1.25,
+          "additional_officer_slot": false,
+          "level": 25,
+          "ship_xp": 1083000
+        }
+      ]
+    },
+    {
+      "tier": 6,
+      "build_time": 3200000,
+      "repair_time": 156000,
+      "components": [
+        {
+          "name": "Phaser Turrets",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 154961300000
+              },
+              {
+                "type": "dilithium",
+                "value": 99888000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 2300,
+                "grade": 4,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 2000,
+                "grade": 4,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 1300
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 211471590
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 657,
+              "armor_pierce": 657,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 6952,
+              "min_damage": 5625,
+              "shield_pierce": 6490,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 278930300000
+              },
+              {
+                "type": "dilithium",
+                "value": 179798000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 4200,
+                "grade": 4,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 3600,
+                "grade": 4,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 2400
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 380648862
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 49694,
+              "hull_health": 739734
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Railgun",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 154961300000
+              },
+              {
+                "type": "dilithium",
+                "value": 99888000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 11000,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 8900,
+                "grade": 4,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 1300
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 211471590
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 2865,
+              "armor_pierce": 2865,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 31076,
+              "min_damage": 24841,
+              "shield_pierce": 28645,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 123969000000
+              },
+              {
+                "type": "dilithium",
+                "value": 79910000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 8800,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 7200,
+                "grade": 4,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 1100
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 169177272
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 200000,
+              "increased_protected_cargo": 16000,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 200
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 154961300000
+              },
+              {
+                "type": "dilithium",
+                "value": 99888000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 11000,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 8900,
+                "grade": 4,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 1300
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 211471590
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 220,
+              "warp_speed": 6.33
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 247938000000
+              },
+              {
+                "type": "dilithium",
+                "value": 159820000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 3700,
+                "grade": 4,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 3200,
+                "grade": 4,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 2100
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 338354544
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 23923,
+              "shield_health": 995172
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 123969000000
+              },
+              {
+                "type": "dilithium",
+                "value": 79910000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 8800,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 7200,
+                "grade": 4,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 1100
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 169177272
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 22830,
+              "impulse_speed": 110
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 1.3,
+          "additional_officer_slot": false,
+          "level": 26,
+          "ship_xp": 1175000
+        },
+        {
+          "ability_bonus": 1.35,
+          "additional_officer_slot": false,
+          "level": 27,
+          "ship_xp": 1270000
+        },
+        {
+          "ability_bonus": 1.4,
+          "additional_officer_slot": false,
+          "level": 28,
+          "ship_xp": 1423000
+        },
+        {
+          "ability_bonus": 1.45,
+          "additional_officer_slot": false,
+          "level": 29,
+          "ship_xp": 1530000
+        },
+        {
+          "ability_bonus": 1.5,
+          "additional_officer_slot": false,
+          "level": 30,
+          "ship_xp": 1640000
+        }
+      ]
+    },
+    {
+      "tier": 7,
+      "build_time": 4000000,
+      "repair_time": 174000,
+      "components": [
+        {
+          "name": "Phaser Turrets",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 366705600000
+              },
+              {
+                "type": "dilithium",
+                "value": 288938000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 11600,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 9100,
+                "grade": 5,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 1500
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 581939850
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 808,
+              "armor_pierce": 808,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 8551,
+              "min_damage": 6918,
+              "shield_pierce": 7983,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 660070000000
+              },
+              {
+                "type": "dilithium",
+                "value": 520088000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 20900,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 16400,
+                "grade": 5,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 2800
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 1047491730
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 61124,
+              "hull_health": 909873
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Railgun",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 366705600000
+              },
+              {
+                "type": "dilithium",
+                "value": 288938000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 11600,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 9100,
+                "grade": 5,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 1500
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 581939850
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 3524,
+              "armor_pierce": 3524,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 38224,
+              "min_damage": 30554,
+              "shield_pierce": 35233,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 293364400000
+              },
+              {
+                "type": "dilithium",
+                "value": 231150000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 9300,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 7300,
+                "grade": 5,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 1200
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 465551880
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 220000,
+              "increased_protected_cargo": 16000,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 200
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 366705600000
+              },
+              {
+                "type": "dilithium",
+                "value": 288938000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 11600,
+                "grade": 5,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 1500
+              },
+              {
+                "type": "aether core tier 7",
+                "value": 1
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 581939850
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 245,
+              "warp_speed": 6.66
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 586728900000
+              },
+              {
+                "type": "dilithium",
+                "value": 462300000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 18600,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 14600,
+                "grade": 5,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 2500
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 931103760
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 29425,
+              "shield_health": 1224062
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 293364400000
+              },
+              {
+                "type": "dilithium",
+                "value": 231150000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 9300,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 7300,
+                "grade": 5,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 1200
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 465551880
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 28080,
+              "impulse_speed": 110
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 1.6,
+          "additional_officer_slot": false,
+          "level": 31,
+          "ship_xp": 1825000
+        },
+        {
+          "ability_bonus": 1.7,
+          "additional_officer_slot": false,
+          "level": 32,
+          "ship_xp": 1948000
+        },
+        {
+          "ability_bonus": 1.8,
+          "additional_officer_slot": false,
+          "level": 33,
+          "ship_xp": 2075000
+        },
+        {
+          "ability_bonus": 1.9,
+          "additional_officer_slot": false,
+          "level": 34,
+          "ship_xp": 2293000
+        },
+        {
+          "ability_bonus": 2.0,
+          "additional_officer_slot": false,
+          "level": 35,
+          "ship_xp": 2433000
+        }
+      ]
+    },
+    {
+      "tier": 8,
+      "build_time": 5200000,
+      "repair_time": 191340,
+      "components": [
+        {
+          "name": "Phaser Turrets",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 773669500000
+              },
+              {
+                "type": "dilithium",
+                "value": 612355000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 15000,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 11800,
+                "grade": 5,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 1900
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 1360561790
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 1066,
+              "armor_pierce": 1066,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 11288,
+              "min_damage": 9132,
+              "shield_pierce": 10537,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 1392605100000
+              },
+              {
+                "type": "dilithium",
+                "value": 1102238000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 27100,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 21300,
+                "grade": 5,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 3500
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 2449011222
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 80684,
+              "hull_health": 1201032
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Railgun",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 773669500000
+              },
+              {
+                "type": "dilithium",
+                "value": 612355000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 15000,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 11800,
+                "grade": 5,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 1900
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 1360561790
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 4652,
+              "armor_pierce": 4652,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 50455,
+              "min_damage": 40332,
+              "shield_pierce": 46507,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 618935600000
+              },
+              {
+                "type": "dilithium",
+                "value": 489884000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 12000,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 9500,
+                "grade": 5,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 1500
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 1088449432
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 270000,
+              "increased_protected_cargo": 16000,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 200
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 773669500000
+              },
+              {
+                "type": "dilithium",
+                "value": 612355000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 15000,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 11800,
+                "grade": 5,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 1900
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 1360561790
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 290,
+              "warp_speed": 7
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 1237871200000
+              },
+              {
+                "type": "dilithium",
+                "value": 979767000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 24000,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 18900,
+                "grade": 5,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 3100
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 2176898864
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 38841,
+              "shield_health": 1615762
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 618935600000
+              },
+              {
+                "type": "dilithium",
+                "value": 489884000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 12000,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 9500,
+                "grade": 5,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 1500
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 1088449432
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 37060,
+              "impulse_speed": 110
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 2.1,
+          "additional_officer_slot": false,
+          "level": 36,
+          "ship_xp": 2578000
+        },
+        {
+          "ability_bonus": 2.2,
+          "additional_officer_slot": false,
+          "level": 37,
+          "ship_xp": 2830000
+        },
+        {
+          "ability_bonus": 2.3,
+          "additional_officer_slot": false,
+          "level": 38,
+          "ship_xp": 2990000
+        },
+        {
+          "ability_bonus": 2.4,
+          "additional_officer_slot": false,
+          "level": 39,
+          "ship_xp": 3153000
+        },
+        {
+          "ability_bonus": 2.5,
+          "additional_officer_slot": false,
+          "level": 40,
+          "ship_xp": 3445000
+        }
+      ]
+    },
+    {
+      "tier": 9,
+      "build_time": 6400000,
+      "repair_time": 210000,
+      "components": [
+        {
+          "name": "Phaser Turrets",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 1439121200000
+              },
+              {
+                "type": "dilithium",
+                "value": 1268401000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 6600,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 5400,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 2100
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 1843481810
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 1531,
+              "armor_pierce": 1531,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 16203,
+              "min_damage": 13110,
+              "shield_pierce": 15126,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 2590418200000
+              },
+              {
+                "type": "dilithium",
+                "value": 2283122000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 12000,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 9700,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 3800
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 3318267258
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 116992,
+              "hull_health": 1741496
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Railgun",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 1439121200000
+              },
+              {
+                "type": "dilithium",
+                "value": 1268401000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 6600,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 5400,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 2100
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 1843481810
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 6678,
+              "armor_pierce": 6678,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 72428,
+              "min_damage": 57896,
+              "shield_pierce": 66761,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 1151297000000
+              },
+              {
+                "type": "dilithium",
+                "value": 1014721000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 5300,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 4300,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 1700
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 1474785448
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 330000,
+              "increased_protected_cargo": 24000,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 200
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 1439121200000
+              },
+              {
+                "type": "dilithium",
+                "value": 1268401000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 6600,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 5400,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 2100
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 1843481810
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 340,
+              "warp_speed": 7.25
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 2302594000000
+              },
+              {
+                "type": "dilithium",
+                "value": 2029442000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 10600,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 8600,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 3400
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 2949570896
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 56319,
+              "shield_health": 2342855
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 1151297000000
+              },
+              {
+                "type": "dilithium",
+                "value": 1014721000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 5300,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 4300,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 1700
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 1474785448
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 53740,
+              "impulse_speed": 110
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 2.6,
+          "additional_officer_slot": false,
+          "level": 41,
+          "ship_xp": 3623000
+        },
+        {
+          "ability_bonus": 2.7,
+          "additional_officer_slot": false,
+          "level": 42,
+          "ship_xp": 3805000
+        },
+        {
+          "ability_bonus": 2.8,
+          "additional_officer_slot": false,
+          "level": 43,
+          "ship_xp": 4140000
+        },
+        {
+          "ability_bonus": 2.9,
+          "additional_officer_slot": false,
+          "level": 44,
+          "ship_xp": 4340000
+        },
+        {
+          "ability_bonus": 3.0,
+          "additional_officer_slot": false,
+          "level": 45,
+          "ship_xp": 4543000
+        }
+      ]
+    },
+    {
+      "tier": 10,
+      "build_time": 8000000,
+      "repair_time": 228000,
+      "components": [
+        {
+          "name": "Phaser Turrets",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 2003825600000
+              },
+              {
+                "type": "dilithium",
+                "value": 1887257000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 3600,
+                "grade": 5,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 3100,
+                "grade": 5,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 2300
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 2735672250
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 2287,
+              "armor_pierce": 2287,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 24220,
+              "min_damage": 19595,
+              "shield_pierce": 22610,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 3606886000000
+              },
+              {
+                "type": "dilithium",
+                "value": 3397062000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 6600,
+                "grade": 5,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 5500,
+                "grade": 5,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 4100
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 4924210050
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 176658,
+              "hull_health": 2629659
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Railgun",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 2003825600000
+              },
+              {
+                "type": "dilithium",
+                "value": 1887257000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 18400,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 14900,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 2300
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 2735672250
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 9980,
+              "armor_pierce": 9980,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 108263,
+              "min_damage": 86540,
+              "shield_pierce": 99790,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 1603060500000
+              },
+              {
+                "type": "dilithium",
+                "value": 1509805000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 14700,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 11900,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 1800
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 2188537800
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 390000,
+              "increased_protected_cargo": 24000,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 200
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 2003825600000
+              },
+              {
+                "type": "dilithium",
+                "value": 1887257000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 18400,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 14900,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 2300
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 2735672250
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 400,
+              "warp_speed": 7.5
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 3206120900000
+              },
+              {
+                "type": "dilithium",
+                "value": 3019611000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 5800,
+                "grade": 5,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 4900,
+                "grade": 5,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 3700
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 4377075600
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 85042,
+              "shield_health": 3537711
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 1603060500000
+              },
+              {
+                "type": "dilithium",
+                "value": 1509805000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 14700,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 11900,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 1800
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 2188537800
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 81150,
+              "impulse_speed": 110
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 3.1,
+          "additional_officer_slot": false,
+          "level": 46,
+          "ship_xp": 4923000
+        },
+        {
+          "ability_bonus": 3.2,
+          "additional_officer_slot": false,
+          "level": 47,
+          "ship_xp": 5143000
+        },
+        {
+          "ability_bonus": 3.3,
+          "additional_officer_slot": false,
+          "level": 48,
+          "ship_xp": 5370000
+        },
+        {
+          "ability_bonus": 3.4,
+          "additional_officer_slot": false,
+          "level": 49,
+          "ship_xp": 5798000
+        },
+        {
+          "ability_bonus": 3.5,
+          "additional_officer_slot": false,
+          "level": 50,
+          "ship_xp": 6040000
+        }
+      ]
+    },
+    {
+      "tier": 11,
+      "build_time": 10400000,
+      "repair_time": 252000,
+      "components": [
+        {
+          "name": "Phaser Turrets",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 3539763900000
+              },
+              {
+                "type": "dilithium",
+                "value": 3529832000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 4900,
+                "grade": 5,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 4200,
+                "grade": 5,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 2500
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 3964318840
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 2377,
+              "armor_pierce": 2377,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 25182,
+              "min_damage": 20372,
+              "shield_pierce": 23507,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 6371575100000
+              },
+              {
+                "type": "dilithium",
+                "value": 6353698000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 8900,
+                "grade": 5,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 7500,
+                "grade": 5,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 4500
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 7135773912
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 211990,
+              "hull_health": 3155591
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Railgun",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 3539763900000
+              },
+              {
+                "type": "dilithium",
+                "value": 3529832000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 24800,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 20200,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 2500
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 3964318840
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 10376,
+              "armor_pierce": 10376,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 112558,
+              "min_damage": 89973,
+              "shield_pierce": 103750,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 2831811100000
+              },
+              {
+                "type": "dilithium",
+                "value": 2823866000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 19900,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 16200,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 2000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 3171455072
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 470000,
+              "increased_protected_cargo": 32000,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 200
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 3539763900000
+              },
+              {
+                "type": "dilithium",
+                "value": 3529832000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 24800,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 20200,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 2500
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 3964318840
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 675,
+              "warp_speed": 7.75
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 5663622300000
+              },
+              {
+                "type": "dilithium",
+                "value": 5647731000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 7900,
+                "grade": 5,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 6700,
+                "grade": 5,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 4000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 6342910144
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 102050,
+              "shield_health": 4245253
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 2831811100000
+              },
+              {
+                "type": "dilithium",
+                "value": 2823866000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 19900,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 16200,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 2000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 3171455072
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 97380,
+              "impulse_speed": 110
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 3.6,
+          "additional_officer_slot": false,
+          "level": 51,
+          "ship_xp": 6290000
+        },
+        {
+          "ability_bonus": 3.7,
+          "additional_officer_slot": false,
+          "level": 52,
+          "ship_xp": 6770000
+        },
+        {
+          "ability_bonus": 3.8,
+          "additional_officer_slot": false,
+          "level": 53,
+          "ship_xp": 7038000
+        },
+        {
+          "ability_bonus": 3.9,
+          "additional_officer_slot": false,
+          "level": 54,
+          "ship_xp": 7310000
+        },
+        {
+          "ability_bonus": 4.0,
+          "additional_officer_slot": false,
+          "level": 55,
+          "ship_xp": 7848000
+        }
+      ]
+    },
+    {
+      "tier": 12,
+      "build_time": 14400000,
+      "repair_time": 276660,
+      "components": [
+        {
+          "name": "Phaser Turrets",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 8092344500000
+              },
+              {
+                "type": "dilithium",
+                "value": 9164015000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 10500,
+                "grade": 5,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 8900,
+                "grade": 5,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 2700
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 7773241250
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 3243,
+              "armor_pierce": 3243,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 34348,
+              "min_damage": 27788,
+              "shield_pierce": 32064,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 14566220100000
+              },
+              {
+                "type": "dilithium",
+                "value": 16495227000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 19000,
+                "grade": 5,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 16000,
+                "grade": 5,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 4800
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 13991834250
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 286187,
+              "hull_health": 4260048
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Railgun",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 8092344500000
+              },
+              {
+                "type": "dilithium",
+                "value": 9164015000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 52900,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 43000,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 2700
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 7773241250
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 14155,
+              "armor_pierce": 14155,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 153536,
+              "min_damage": 122730,
+              "shield_pierce": 141522,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 6473875600000
+              },
+              {
+                "type": "dilithium",
+                "value": 7331212000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 42300,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 34400,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 2100
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 6218593000
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 570000,
+              "increased_protected_cargo": 32000,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 200
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 8092344500000
+              },
+              {
+                "type": "dilithium",
+                "value": 9164015000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 52900,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 43000,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 2700
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 7773241250
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 860,
+              "warp_speed": 8
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 12947751200000
+              },
+              {
+                "type": "dilithium",
+                "value": 14662424000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 16900,
+                "grade": 5,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 14200,
+                "grade": 5,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 4300
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 12437186000
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 137768,
+              "shield_health": 5731092
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 6473875600000
+              },
+              {
+                "type": "dilithium",
+                "value": 7331212000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 42300,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 34400,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 2100
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 6218593000
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 131460,
+              "impulse_speed": 110
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 4.1,
+          "additional_officer_slot": false,
+          "level": 56,
+          "ship_xp": 8143000
+        },
+        {
+          "ability_bonus": 4.2,
+          "additional_officer_slot": false,
+          "level": 57,
+          "ship_xp": 8440000
+        },
+        {
+          "ability_bonus": 4.3,
+          "additional_officer_slot": false,
+          "level": 58,
+          "ship_xp": 9038000
+        },
+        {
+          "ability_bonus": 4.4,
+          "additional_officer_slot": false,
+          "level": 59,
+          "ship_xp": 9355000
+        },
+        {
+          "ability_bonus": 4.5,
+          "additional_officer_slot": false,
+          "level": 60,
+          "ship_xp": 10000000
+        }
+      ]
+    },
+    {
+      "tier": 13,
+      "build_time": 19200000,
+      "repair_time": 300000,
+      "components": [
+        {
+          "name": "Phaser Turrets",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 258800
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 1200
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 10400,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 7100,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 2900
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 280
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 5406,
+              "armor_pierce": 5406,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 57259,
+              "min_damage": 46324,
+              "shield_pierce": 53451,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 465900
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 2200
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 18700,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 12900,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 5200
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 504
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 472209,
+              "hull_health": 7029079
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Railgun",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 258800
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 1200
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 47700,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 34900,
+                "grade": 6,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 2900
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 280
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 23596,
+              "armor_pierce": 23596,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 255946,
+              "min_damage": 204591,
+              "shield_pierce": 235918,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 207100
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 1000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 38200,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 27900,
+                "grade": 6,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 2300
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 224
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 680000,
+              "increased_protected_cargo": 44800,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 200
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 258800
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 1200
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 47700,
+                "grade": 6,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 2900
+              },
+              {
+                "type": "aether core tier 13",
+                "value": 1
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 280
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 975,
+              "warp_speed": 8.25
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 414100
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 2000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 16600,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 11400,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 4600
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 448
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 227317,
+              "shield_health": 9456302
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 207100
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 1000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 38200,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 27900,
+                "grade": 6,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 2300
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 224
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 216910,
+              "impulse_speed": 110
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 4.6,
+          "additional_officer_slot": false,
+          "level": 61,
+          "ship_xp": 10100000
+        },
+        {
+          "ability_bonus": 4.7,
+          "additional_officer_slot": false,
+          "level": 62,
+          "ship_xp": 10201000
+        },
+        {
+          "ability_bonus": 4.8,
+          "additional_officer_slot": false,
+          "level": 63,
+          "ship_xp": 10303010
+        },
+        {
+          "ability_bonus": 4.9,
+          "additional_officer_slot": false,
+          "level": 64,
+          "ship_xp": 10406040
+        },
+        {
+          "ability_bonus": 5.0,
+          "additional_officer_slot": false,
+          "level": 65,
+          "ship_xp": 10510101
+        }
+      ]
+    },
+    {
+      "tier": 14,
+      "build_time": 22080000,
+      "repair_time": 323340,
+      "components": [
+        {
+          "name": "Phaser Turrets",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 386000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 2000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 8300,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 5700,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 3100
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 390
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 7335,
+              "armor_pierce": 7335,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 77688,
+              "min_damage": 62851,
+              "shield_pierce": 72521,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 694900
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 3600
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 15000,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 10300,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 5500
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 702
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 566651,
+              "hull_health": 8434895
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Railgun",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 386000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 2000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 8300,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 5700,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 3100
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 390
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 32014,
+              "armor_pierce": 32014,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 347262,
+              "min_damage": 277584,
+              "shield_pierce": 320089,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 308800
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 1600
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 74500,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 54500,
+                "grade": 6,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 2500
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 312
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 810000,
+              "increased_protected_cargo": 67200,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 200
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 386000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 2000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 93100,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 68100,
+                "grade": 6,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 3100
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 390
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 980,
+              "warp_speed": 8.5
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 617700
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 3200
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 13400,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 9200,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 4900
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 624
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 272780,
+              "shield_health": 11347562
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 308800
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 1600
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 74500,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 54500,
+                "grade": 6,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 2500
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 312
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 260290,
+              "impulse_speed": 110
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 5.1,
+          "additional_officer_slot": false,
+          "level": 66,
+          "ship_xp": 10615202
+        },
+        {
+          "ability_bonus": 5.2,
+          "additional_officer_slot": false,
+          "level": 67,
+          "ship_xp": 10721354
+        },
+        {
+          "ability_bonus": 5.3,
+          "additional_officer_slot": false,
+          "level": 68,
+          "ship_xp": 10828567
+        },
+        {
+          "ability_bonus": 5.4,
+          "additional_officer_slot": false,
+          "level": 69,
+          "ship_xp": 10936853
+        },
+        {
+          "ability_bonus": 5.5,
+          "additional_officer_slot": false,
+          "level": 70,
+          "ship_xp": 11046221
+        }
+      ]
+    },
+    {
+      "tier": 15,
+      "build_time": 25440000,
+      "repair_time": 348660,
+      "components": [
+        {
+          "name": "Phaser Turrets",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 638800
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 3200
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 3200,
+                "grade": 6,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 2300,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 3300
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 580
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 9356,
+              "armor_pierce": 9356,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 99092,
+              "min_damage": 80168,
+              "shield_pierce": 92501,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 1149900
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 5800
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 5800,
+                "grade": 6,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 4100,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 5900
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 1044
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 708314,
+              "hull_health": 10543619
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Railgun",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 638800
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 3200
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 15800,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 10800,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 3300
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 580
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 40834,
+              "armor_pierce": 40834,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 442936,
+              "min_damage": 354062,
+              "shield_pierce": 408277,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 511000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 2600
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 12600,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 8700,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 2600
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 464
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 980000,
+              "increased_protected_cargo": 100800,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 200
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 638800
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 3200
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 15800,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 10800,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 3300
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 580
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 1125,
+              "warp_speed": 8.75
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 1022100
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 5200
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 5200,
+                "grade": 6,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 3600,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 5200
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 928
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 340975,
+              "shield_health": 14184453
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 511000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 2600
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 12600,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 8700,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 2600
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 464
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 325360,
+              "impulse_speed": 110
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 5.6,
+          "additional_officer_slot": false,
+          "level": 71,
+          "ship_xp": 11155590
+        },
+        {
+          "ability_bonus": 5.7,
+          "additional_officer_slot": false,
+          "level": 72,
+          "ship_xp": 11264958
+        },
+        {
+          "ability_bonus": 5.8,
+          "additional_officer_slot": false,
+          "level": 73,
+          "ship_xp": 11374327
+        },
+        {
+          "ability_bonus": 5.9,
+          "additional_officer_slot": false,
+          "level": 74,
+          "ship_xp": 11483695
+        },
+        {
+          "ability_bonus": 6.0,
+          "additional_officer_slot": false,
+          "level": 75,
+          "ship_xp": 11593064
+        }
+      ]
+    },
+    {
+      "tier": 16,
+      "build_time": 33120000,
+      "repair_time": 371340,
+      "components": [
+        {
+          "name": "Phaser Turrets",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 961200
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 5000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 3800,
+                "grade": 6,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 2700,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 3500
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 960
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 12162,
+              "armor_pierce": 12162,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 128819,
+              "min_damage": 104218,
+              "shield_pierce": 120251,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 1730200
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 8900
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 6900,
+                "grade": 6,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 4800,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 6200
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 1728
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 1012890,
+              "hull_health": 15657270
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Railgun",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 961200
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 5000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 18700,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 12900,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 3500
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 960
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 53084,
+              "armor_pierce": 53084,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 575816,
+              "min_damage": 460280,
+              "shield_pierce": 530760,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 769000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 4000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 15000,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 10300,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 2800
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 768
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 1170000,
+              "increased_protected_cargo": 153200,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 200
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 961200
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 5000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 18700,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 12900,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 3500
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 960
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 1300,
+              "warp_speed": 9
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 1538000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 7900
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 6100,
+                "grade": 6,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 4300,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 5500
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 1536
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 487590,
+              "shield_health": 20283770
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 769000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 4000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 15000,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 10300,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 2800
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 768
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 422970,
+              "impulse_speed": 110
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 6.1,
+          "additional_officer_slot": false,
+          "level": 76,
+          "ship_xp": 11702432
+        },
+        {
+          "ability_bonus": 6.2,
+          "additional_officer_slot": false,
+          "level": 77,
+          "ship_xp": 11811801
+        },
+        {
+          "ability_bonus": 6.3,
+          "additional_officer_slot": false,
+          "level": 78,
+          "ship_xp": 11921169
+        },
+        {
+          "ability_bonus": 6.4,
+          "additional_officer_slot": false,
+          "level": 79,
+          "ship_xp": 12030538
+        },
+        {
+          "ability_bonus": 6.5,
+          "additional_officer_slot": false,
+          "level": 80,
+          "ship_xp": 12139907
+        }
+      ]
+    },
+    {
+      "tier": 17,
+      "build_time": 43040000,
+      "repair_time": 408000,
+      "components": [
+        {
+          "name": "Phaser Turrets",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 1661800
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 8700
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 2700,
+                "grade": 6,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 1900,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 4000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 1810
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 17027,
+              "armor_pierce": 17027,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 180347,
+              "min_damage": 145905,
+              "shield_pierce": 168351,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 2991200
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 15600
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 4900,
+                "grade": 6,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 3400,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 7300
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 3258
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 1289131,
+              "hull_health": 22062523
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Railgun",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 1661800
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 8700
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 2700,
+                "grade": 6,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 1900,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 4000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 1810
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 74318,
+              "armor_pierce": 74318,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 806143,
+              "min_damage": 644392,
+              "shield_pierce": 743064,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 1329400
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 6900
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 2200,
+                "grade": 6,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 1500,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 3200
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 1448
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 1410000,
+              "increased_protected_cargo": 236000,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 200
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 1661800
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 8700
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 2700,
+                "grade": 6,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 1900,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 4000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 1810
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 1450,
+              "warp_speed": 9.25
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 2658900
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 13900
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 4400,
+                "grade": 6,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 3000,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 6400
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 2896
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 620575,
+              "shield_health": 25815705
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 1329400
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 6900
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 2200,
+                "grade": 6,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 1500,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 3200
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 1448
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 592160,
+              "impulse_speed": 110
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 6.6,
+          "additional_officer_slot": false,
+          "level": 81,
+          "ship_xp": 12249275
+        },
+        {
+          "ability_bonus": 6.7,
+          "additional_officer_slot": false,
+          "level": 82,
+          "ship_xp": 12358644
+        },
+        {
+          "ability_bonus": 6.8,
+          "additional_officer_slot": false,
+          "level": 83,
+          "ship_xp": 12468012
+        },
+        {
+          "ability_bonus": 6.9,
+          "additional_officer_slot": false,
+          "level": 84,
+          "ship_xp": 12577381
+        },
+        {
+          "ability_bonus": 7.0,
+          "additional_officer_slot": false,
+          "level": 85,
+          "ship_xp": 12686749
+        }
+      ]
+    },
+    {
+      "tier": 18,
+      "build_time": 56000000,
+      "repair_time": 426660,
+      "components": [
+        {
+          "name": "Phaser Turrets",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 2294400
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 12200
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 3600,
+                "grade": 6,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 2500,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 4600
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 2590
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 24689,
+              "armor_pierce": 24689,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 261503,
+              "min_damage": 211563,
+              "shield_pierce": 244108,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 4129800
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 22000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 6400,
+                "grade": 6,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 4500,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 8300
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 4662
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 1869240,
+              "hull_health": 33535035
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Railgun",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 2294400
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 12200
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 3600,
+                "grade": 6,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 2500,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 4600
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 2590
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 107761,
+              "armor_pierce": 107761,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 1168907,
+              "min_damage": 934369,
+              "shield_pierce": 1077442,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 1835500
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 9800
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 2900,
+                "grade": 6,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 2000,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 3700
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 2072
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 1690000,
+              "increased_protected_cargo": 372000,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 200
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 2294400
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 12200
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 3600,
+                "grade": 6,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 2500,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 4600
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 2590
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 1750,
+              "warp_speed": 9.5
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 3671000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 19600
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 5700,
+                "grade": 6,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 4000,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 7400
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 4144
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 899834,
+              "shield_health": 37432772
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 1835500
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 9800
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 2900,
+                "grade": 6,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 2000,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "the vindicator parts",
+                "value": 3700
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 2072
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 858630,
+              "impulse_speed": 110
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 7.1,
+          "additional_officer_slot": false,
+          "level": 86,
+          "ship_xp": 12796118
+        },
+        {
+          "ability_bonus": 7.2,
+          "additional_officer_slot": false,
+          "level": 87,
+          "ship_xp": 12905486
+        },
+        {
+          "ability_bonus": 7.3,
+          "additional_officer_slot": false,
+          "level": 88,
+          "ship_xp": 13014855
+        },
+        {
+          "ability_bonus": 7.4,
+          "additional_officer_slot": false,
+          "level": 89,
+          "ship_xp": 13124223
+        },
+        {
+          "ability_bonus": 7.5,
+          "additional_officer_slot": false,
+          "level": 90,
+          "ship_xp": 13233592
+        }
+      ]
+    }
+  ],
+  "img_url": "./assets/the_vindicator.png"
+}

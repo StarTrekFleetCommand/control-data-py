@@ -48,10 +48,6 @@
           }
         ]
       },
-      "bonus": {
-        "percentage": true,
-        "value": 0.3
-      },
       "rewards": [
         {
           "type": "Beta Particle",
@@ -61,7 +57,11 @@
           "type": "Gamma Particle",
           "value": 1
         }
-      ]
+      ],
+      "bonus": {
+        "percentage": true,
+        "value": 0.3
+      }
     },
     {
       "level": 2,
@@ -382,7 +382,7 @@
       },
       "bonus": {
         "percentage": true,
-        "value": 3
+        "value": 3.0
       }
     }
   ],

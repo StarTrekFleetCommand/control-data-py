@@ -13,14 +13,19 @@
       "warp": 22
     },
     {
+      "$ref": "systems/alpha_horunia_26",
+      "distance": 15,
+      "warp": 22
+    },
+    {
       "$ref": "systems/ortek_28",
       "distance": 18,
       "warp": 22
     },
     {
-      "$ref": "systems/alpha_horunia_26",
-      "distance": 15,
-      "warp": 22
+      "$ref": "systems/hann_26",
+      "distance": 22,
+      "warp": 18
     },
     {
       "$ref": "systems/koltiska_28",
@@ -33,12 +38,7 @@
       "warp": 22
     },
     {
-      "$ref": "systems/hann_26",
-      "distance": 22,
-      "warp": 18
-    },
-    {
-      "$ref": "systems/er_yozun_24",
+      "$ref": "systems/eryozun_24",
       "distance": 18,
       "warp": 22
     }
@@ -47,16 +47,14 @@
   "level": 28,
   "mining": [
     {
-      "type": "3\u2605 Raw Ore",
-      "amount": 36,
-      "grade": 3,
+      "type": "3\u2605 raw ore",
+      "amount": 1,
       "mining_per_hour": 300,
       "size": 18000
     },
     {
-      "type": "3\u2605 Raw Gas",
-      "amount": 36,
-      "grade": 3,
+      "type": "3\u2605 raw gas",
+      "amount": 1,
       "mining_per_hour": 300,
       "size": 18000
     }
@@ -67,6 +65,6 @@
   ],
   "scopely_id": 955177926,
   "system_space": "normal",
-  "system_type": "hub",
+  "system_type": "route",
   "warp": 22
 }

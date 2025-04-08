@@ -3,17 +3,17 @@
   "capture_nodes": 0,
   "connected_systems": [
     {
-      "$ref": "systems/tin_jib_50",
-      "distance": 185,
-      "warp": 185
-    },
-    {
       "$ref": "systems/dela_51",
       "distance": 185,
       "warp": 185
     },
     {
-      "$ref": "systems/tlhuhwi__50",
+      "$ref": "systems/tin_jib_50",
+      "distance": 185,
+      "warp": 185
+    },
+    {
+      "$ref": "systems/tlhuhwi_50",
       "distance": 185,
       "warp": 185
     }
@@ -22,9 +22,8 @@
   "level": 50,
   "mining": [
     {
-      "type": "5\u2605 Raw Crystal",
-      "amount": 18,
-      "grade": 5,
+      "type": "5\u2605 raw crystal",
+      "amount": 1,
       "mining_per_hour": 130,
       "size": 1000000
     }
@@ -36,6 +35,6 @@
   ],
   "scopely_id": 678395209,
   "system_space": "deep",
-  "system_type": "hub",
+  "system_type": "route",
   "warp": 185
 }

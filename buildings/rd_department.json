@@ -1,0 +1,2994 @@
+{
+  "building_name": "R&D Department",
+  "description": "The Research Lab is vital for the discovery of new technologies. Here, new Ships, buildings or supporting technologies are unlocked.",
+  "levels": [
+    {
+      "level": 1,
+      "build_time": 180,
+      "increased_power": 30,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 4
+        },
+        {
+          "name": "Academy",
+          "level": 1
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 100
+          }
+        ],
+        "materials": [],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 0.0
+      }
+    },
+    {
+      "level": 2,
+      "build_time": 240,
+      "increased_power": 30,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 4
+        },
+        {
+          "name": "Academy",
+          "level": 2
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 200
+          }
+        ],
+        "materials": [],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 0.03
+      }
+    },
+    {
+      "level": 3,
+      "build_time": 360,
+      "increased_power": 35,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 5
+        },
+        {
+          "name": "Academy",
+          "level": 3
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 350
+          }
+        ],
+        "materials": [],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 0.04
+      }
+    },
+    {
+      "level": 4,
+      "build_time": 780,
+      "increased_power": 45,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 5
+        },
+        {
+          "name": "Academy",
+          "level": 4
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 500
+          }
+        ],
+        "materials": [],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 0.05
+      }
+    },
+    {
+      "level": 5,
+      "build_time": 1320,
+      "increased_power": 40,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 5
+        },
+        {
+          "name": "Academy",
+          "level": 5
+        },
+        {
+          "name": "Tritanium Warehouse",
+          "level": 3
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 800
+          }
+        ],
+        "materials": [],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 0.06
+      }
+    },
+    {
+      "level": 6,
+      "build_time": 2160,
+      "increased_power": 60,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 6
+        },
+        {
+          "name": "Academy",
+          "level": 6
+        },
+        {
+          "name": "Tritanium Warehouse",
+          "level": 3
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 1200
+          }
+        ],
+        "materials": [],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 0.08
+      }
+    },
+    {
+      "level": 7,
+      "build_time": 4200,
+      "increased_power": 70,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 7
+        },
+        {
+          "name": "Academy",
+          "level": 7
+        },
+        {
+          "name": "Tritanium Warehouse",
+          "level": 5
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 2000
+          }
+        ],
+        "materials": [],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 0.09
+      }
+    },
+    {
+      "level": 8,
+      "build_time": 6000,
+      "increased_power": 90,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 8
+        },
+        {
+          "name": "Academy",
+          "level": 8
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 3000
+          }
+        ],
+        "materials": [],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 0.11
+      }
+    },
+    {
+      "level": 9,
+      "build_time": 9000,
+      "increased_power": 100,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 9
+        },
+        {
+          "name": "Academy",
+          "level": 9
+        },
+        {
+          "name": "Tritanium Warehouse",
+          "level": 9
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 4500
+          }
+        ],
+        "materials": [],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 0.12
+      }
+    },
+    {
+      "level": 10,
+      "build_time": 9900,
+      "increased_power": 125,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 10
+        },
+        {
+          "name": "Academy",
+          "level": 10
+        },
+        {
+          "name": "Dilithium Generator A",
+          "level": 5
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 7000
+          }
+        ],
+        "materials": [],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 0.14
+      }
+    },
+    {
+      "level": 11,
+      "build_time": 10200,
+      "increased_power": 175,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 11
+        },
+        {
+          "name": "Academy",
+          "level": 11
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 8160
+          },
+          {
+            "type": "dilithium",
+            "value": 12
+          }
+        ],
+        "materials": [],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 0.16
+      }
+    },
+    {
+      "level": 12,
+      "build_time": 18300,
+      "increased_power": 175,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 12
+        },
+        {
+          "name": "Academy",
+          "level": 12
+        },
+        {
+          "name": "Dilithium Warehouse",
+          "level": 10
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 11220
+          },
+          {
+            "type": "dilithium",
+            "value": 33
+          }
+        ],
+        "materials": [],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 0.18
+      }
+    },
+    {
+      "level": 13,
+      "build_time": 27360,
+      "increased_power": 225,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 13
+        },
+        {
+          "name": "Tritanium Warehouse",
+          "level": 11
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 16320
+          },
+          {
+            "type": "dilithium",
+            "value": 72
+          }
+        ],
+        "materials": [],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 0.2
+      }
+    },
+    {
+      "level": 14,
+      "build_time": 38160,
+      "increased_power": 300,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 14
+        },
+        {
+          "name": "Academy",
+          "level": 14
+        },
+        {
+          "name": "Dilithium Generator B",
+          "level": 11
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 22440
+          },
+          {
+            "type": "dilithium",
+            "value": 132
+          }
+        ],
+        "materials": [],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 0.22
+      }
+    },
+    {
+      "level": 15,
+      "build_time": 48960,
+      "increased_power": 300,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 15
+        },
+        {
+          "name": "Academy",
+          "level": 15
+        },
+        {
+          "name": "Refinery",
+          "level": 13
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 30600
+          },
+          {
+            "type": "dilithium",
+            "value": 225
+          }
+        ],
+        "materials": [
+          {
+            "type": "gas",
+            "value": 50,
+            "grade": 2,
+            "rarity": "common"
+          }
+        ],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 0.24
+      }
+    },
+    {
+      "level": 16,
+      "build_time": 58320,
+      "increased_power": 300,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 16
+        },
+        {
+          "name": "Academy",
+          "level": 16
+        },
+        {
+          "name": "Defense Platform B",
+          "level": 12
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 40800
+          },
+          {
+            "type": "dilithium",
+            "value": 300
+          }
+        ],
+        "materials": [
+          {
+            "type": "gas",
+            "value": 100,
+            "grade": 2,
+            "rarity": "common"
+          }
+        ],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 0.26
+      }
+    },
+    {
+      "level": 17,
+      "build_time": 62640,
+      "increased_power": 400,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 17
+        },
+        {
+          "name": "Academy",
+          "level": 17
+        },
+        {
+          "name": "Tritanium Generator B",
+          "level": 17
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 57120
+          },
+          {
+            "type": "dilithium",
+            "value": 420
+          }
+        ],
+        "materials": [
+          {
+            "type": "gas",
+            "value": 200,
+            "grade": 2,
+            "rarity": "common"
+          },
+          {
+            "type": "gas",
+            "value": 15,
+            "grade": 2,
+            "rarity": "uncommon"
+          }
+        ],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 0.29
+      }
+    },
+    {
+      "level": 18,
+      "build_time": 95760,
+      "increased_power": 400,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 18
+        },
+        {
+          "name": "Academy",
+          "level": 18
+        },
+        {
+          "name": "Drydock C",
+          "level": 8
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 81600
+          },
+          {
+            "type": "dilithium",
+            "value": 600
+          }
+        ],
+        "materials": [
+          {
+            "type": "gas",
+            "value": 1000,
+            "grade": 2,
+            "rarity": "common"
+          },
+          {
+            "type": "gas",
+            "value": 85,
+            "grade": 2,
+            "rarity": "uncommon"
+          }
+        ],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 0.31
+      }
+    },
+    {
+      "level": 19,
+      "build_time": 138960,
+      "increased_power": 600,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 19
+        },
+        {
+          "name": "Academy",
+          "level": 19
+        },
+        {
+          "name": "Defense Platform C",
+          "level": 8
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 122400
+          },
+          {
+            "type": "dilithium",
+            "value": 900
+          }
+        ],
+        "materials": [
+          {
+            "type": "gas",
+            "value": 5000,
+            "grade": 2,
+            "rarity": "common"
+          },
+          {
+            "type": "gas",
+            "value": 300,
+            "grade": 2,
+            "rarity": "uncommon"
+          }
+        ],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 0.34
+      }
+    },
+    {
+      "level": 20,
+      "build_time": 208800,
+      "increased_power": 500,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 20
+        },
+        {
+          "name": "Academy",
+          "level": 20
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 173400
+          },
+          {
+            "type": "dilithium",
+            "value": 1275
+          }
+        ],
+        "materials": [],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 0.36
+      }
+    },
+    {
+      "level": 21,
+      "build_time": 190800,
+      "increased_power": 700,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 21
+        },
+        {
+          "name": "Academy",
+          "level": 21
+        },
+        {
+          "name": "Tritanium Warehouse",
+          "level": 21
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 291924
+          },
+          {
+            "type": "dilithium",
+            "value": 2147
+          }
+        ],
+        "materials": [],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 0.39
+      }
+    },
+    {
+      "level": 22,
+      "build_time": 296640,
+      "increased_power": 550,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 22
+        },
+        {
+          "name": "Academy",
+          "level": 22
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 454104
+          },
+          {
+            "type": "dilithium",
+            "value": 3339
+          }
+        ],
+        "materials": [],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 0.42
+      }
+    },
+    {
+      "level": 23,
+      "build_time": 349920,
+      "increased_power": 1000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 23
+        },
+        {
+          "name": "Academy",
+          "level": 23
+        },
+        {
+          "name": "Defense Platform A",
+          "level": 23
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 747252
+          },
+          {
+            "type": "dilithium",
+            "value": 5495
+          }
+        ],
+        "materials": [
+          {
+            "type": "gas",
+            "value": 200,
+            "grade": 3,
+            "rarity": "common"
+          }
+        ],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 0.45
+      }
+    },
+    {
+      "level": 24,
+      "build_time": 429120,
+      "increased_power": 750,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 24
+        },
+        {
+          "name": "Academy",
+          "level": 24
+        },
+        {
+          "name": "Defense Platform B",
+          "level": 24
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 1177488
+          },
+          {
+            "type": "dilithium",
+            "value": 8658
+          }
+        ],
+        "materials": [
+          {
+            "type": "gas",
+            "value": 600,
+            "grade": 3,
+            "rarity": "common"
+          }
+        ],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 0.48
+      }
+    },
+    {
+      "level": 25,
+      "build_time": 397440,
+      "increased_power": 1000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 25
+        },
+        {
+          "name": "Academy",
+          "level": 25
+        },
+        {
+          "name": "Dilithium Warehouse",
+          "level": 25
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 1909440
+          },
+          {
+            "type": "dilithium",
+            "value": 14040
+          }
+        ],
+        "materials": [
+          {
+            "type": "gas",
+            "value": 700,
+            "grade": 3,
+            "rarity": "common"
+          },
+          {
+            "type": "gas",
+            "value": 80,
+            "grade": 3,
+            "rarity": "uncommon"
+          }
+        ],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 0.51
+      }
+    },
+    {
+      "level": 26,
+      "build_time": 538560,
+      "increased_power": 1000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 26
+        },
+        {
+          "name": "Academy",
+          "level": 26
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 2983500
+          },
+          {
+            "type": "dilithium",
+            "value": 21938
+          }
+        ],
+        "materials": [
+          {
+            "type": "gas",
+            "value": 900,
+            "grade": 3,
+            "rarity": "common"
+          },
+          {
+            "type": "gas",
+            "value": 120,
+            "grade": 3,
+            "rarity": "uncommon"
+          }
+        ],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 0.55
+      }
+    },
+    {
+      "level": 27,
+      "build_time": 613440,
+      "increased_power": 1250,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 27
+        },
+        {
+          "name": "Academy",
+          "level": 27
+        },
+        {
+          "name": "Refinery",
+          "level": 26
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 4553280
+          },
+          {
+            "type": "dilithium",
+            "value": 33480
+          }
+        ],
+        "materials": [
+          {
+            "type": "gas",
+            "value": 1000,
+            "grade": 3,
+            "rarity": "common"
+          },
+          {
+            "type": "gas",
+            "value": 160,
+            "grade": 3,
+            "rarity": "uncommon"
+          }
+        ],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 0.58
+      }
+    },
+    {
+      "level": 28,
+      "build_time": 712800,
+      "increased_power": 1250,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 28
+        },
+        {
+          "name": "Academy",
+          "level": 28
+        },
+        {
+          "name": "Defense Platform B",
+          "level": 28
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 6829920
+          },
+          {
+            "type": "dilithium",
+            "value": 50220
+          }
+        ],
+        "materials": [
+          {
+            "type": "gas",
+            "value": 1200,
+            "grade": 3,
+            "rarity": "common"
+          },
+          {
+            "type": "gas",
+            "value": 210,
+            "grade": 3,
+            "rarity": "uncommon"
+          }
+        ],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 0.62
+      }
+    },
+    {
+      "level": 29,
+      "build_time": 784800,
+      "increased_power": 1250,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 29
+        },
+        {
+          "name": "Academy",
+          "level": 29
+        },
+        {
+          "name": "Dilithium Vault",
+          "level": 28
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 10873200
+          },
+          {
+            "type": "dilithium",
+            "value": 79950
+          }
+        ],
+        "materials": [
+          {
+            "type": "gas",
+            "value": 1400,
+            "grade": 3,
+            "rarity": "common"
+          },
+          {
+            "type": "gas",
+            "value": 260,
+            "grade": 3,
+            "rarity": "uncommon"
+          }
+        ],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 0.65
+      }
+    },
+    {
+      "level": 30,
+      "build_time": 851040,
+      "increased_power": 1500,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 30
+        },
+        {
+          "name": "Academy",
+          "level": 30
+        },
+        {
+          "name": "Tritanium Warehouse",
+          "level": 28
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 15912000
+          },
+          {
+            "type": "dilithium",
+            "value": 117000
+          }
+        ],
+        "materials": [
+          {
+            "type": "gas",
+            "value": 1600,
+            "grade": 3,
+            "rarity": "common"
+          },
+          {
+            "type": "gas",
+            "value": 330,
+            "grade": 3,
+            "rarity": "uncommon"
+          }
+        ],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 0.69
+      }
+    },
+    {
+      "level": 31,
+      "build_time": 1117440,
+      "increased_power": 1500,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 31
+        },
+        {
+          "name": "Academy",
+          "level": 31
+        },
+        {
+          "name": "Defense Platform B",
+          "level": 26
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 25153200
+          },
+          {
+            "type": "dilithium",
+            "value": 184950
+          }
+        ],
+        "materials": [
+          {
+            "type": "gas",
+            "value": 1900,
+            "grade": 3,
+            "rarity": "common"
+          },
+          {
+            "type": "gas",
+            "value": 410,
+            "grade": 3,
+            "rarity": "uncommon"
+          }
+        ],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 0.73
+      }
+    },
+    {
+      "level": 32,
+      "build_time": 1091520,
+      "increased_power": 1750,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 32
+        },
+        {
+          "name": "Academy",
+          "level": 32
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 36332400
+          },
+          {
+            "type": "dilithium",
+            "value": 267150
+          }
+        ],
+        "materials": [
+          {
+            "type": "gas",
+            "value": 2100,
+            "grade": 3,
+            "rarity": "common"
+          },
+          {
+            "type": "gas",
+            "value": 25,
+            "grade": 3,
+            "rarity": "rare"
+          }
+        ],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 0.77
+      }
+    },
+    {
+      "level": 33,
+      "build_time": 1585440,
+      "increased_power": 1750,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 33
+        },
+        {
+          "name": "Tritanium Vault",
+          "level": 29
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 56202000
+          },
+          {
+            "type": "dilithium",
+            "value": 413250
+          }
+        ],
+        "materials": [
+          {
+            "type": "gas",
+            "value": 2400,
+            "grade": 3,
+            "rarity": "common"
+          },
+          {
+            "type": "gas",
+            "value": 590,
+            "grade": 3,
+            "rarity": "uncommon"
+          }
+        ],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 0.81
+      }
+    },
+    {
+      "level": 34,
+      "build_time": 2099520,
+      "increased_power": 2250,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 34
+        },
+        {
+          "name": "Academy",
+          "level": 34
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 88740000
+          },
+          {
+            "type": "dilithium",
+            "value": 652500
+          }
+        ],
+        "materials": [
+          {
+            "type": "gas",
+            "value": 2800,
+            "grade": 3,
+            "rarity": "common"
+          },
+          {
+            "type": "gas",
+            "value": 700,
+            "grade": 3,
+            "rarity": "uncommon"
+          }
+        ],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 0.85
+      }
+    },
+    {
+      "level": 35,
+      "build_time": 2767680,
+      "increased_power": 2000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 35
+        },
+        {
+          "name": "Academy",
+          "level": 35
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 137332800
+          },
+          {
+            "type": "dilithium",
+            "value": 1009800
+          }
+        ],
+        "materials": [
+          {
+            "type": "gas",
+            "value": 3100,
+            "grade": 3,
+            "rarity": "common"
+          },
+          {
+            "type": "gas",
+            "value": 820,
+            "grade": 3,
+            "rarity": "uncommon"
+          }
+        ],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 0.89
+      }
+    },
+    {
+      "level": 36,
+      "build_time": 3536640,
+      "increased_power": 2000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 36
+        },
+        {
+          "name": "Academy",
+          "level": 36
+        },
+        {
+          "name": "Defense Platform A",
+          "level": 30
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 193514400
+          },
+          {
+            "type": "dilithium",
+            "value": 1422900
+          }
+        ],
+        "materials": [
+          {
+            "type": "gas",
+            "value": 3500,
+            "grade": 3,
+            "rarity": "common"
+          },
+          {
+            "type": "gas",
+            "value": 75,
+            "grade": 3,
+            "rarity": "rare"
+          }
+        ],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 0.93
+      }
+    },
+    {
+      "level": 37,
+      "build_time": 3654720,
+      "increased_power": 2500,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 37
+        },
+        {
+          "name": "Academy",
+          "level": 37
+        },
+        {
+          "name": "Tritanium Warehouse",
+          "level": 32
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 297432000
+          },
+          {
+            "type": "dilithium",
+            "value": 2187000
+          }
+        ],
+        "materials": [
+          {
+            "type": "gas",
+            "value": 3900,
+            "grade": 3,
+            "rarity": "common"
+          },
+          {
+            "type": "gas",
+            "value": 1110,
+            "grade": 3,
+            "rarity": "uncommon"
+          }
+        ],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 0.98
+      }
+    },
+    {
+      "level": 38,
+      "build_time": 5927040,
+      "increased_power": 2500,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 38
+        },
+        {
+          "name": "Academy",
+          "level": 38
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 462672000
+          },
+          {
+            "type": "dilithium",
+            "value": 3402000
+          }
+        ],
+        "materials": [
+          {
+            "type": "gas",
+            "value": 4300,
+            "grade": 3,
+            "rarity": "common"
+          },
+          {
+            "type": "gas",
+            "value": 200,
+            "grade": 3,
+            "rarity": "rare"
+          }
+        ],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 1.02
+      }
+    },
+    {
+      "level": 39,
+      "build_time": 7866720,
+      "increased_power": 2500,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 39
+        },
+        {
+          "name": "Academy",
+          "level": 39
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 789480000
+          },
+          {
+            "type": "dilithium",
+            "value": 5805000
+          }
+        ],
+        "materials": [
+          {
+            "type": "gas",
+            "value": 4800,
+            "grade": 3,
+            "rarity": "common"
+          },
+          {
+            "type": "gas",
+            "value": 200,
+            "grade": 3,
+            "rarity": "rare"
+          }
+        ],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 1.07
+      }
+    },
+    {
+      "level": 40,
+      "build_time": 13962240,
+      "increased_power": 3000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 40
+        },
+        {
+          "name": "Academy",
+          "level": 40
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 3438624000
+          },
+          {
+            "type": "dilithium",
+            "value": 9030000
+          }
+        ],
+        "materials": [
+          {
+            "type": "gas",
+            "value": 50000,
+            "grade": 4,
+            "rarity": "common"
+          }
+        ],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 1.11
+      }
+    },
+    {
+      "level": 41,
+      "build_time": 13085280,
+      "increased_power": 3000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 41
+        },
+        {
+          "name": "Academy",
+          "level": 41
+        },
+        {
+          "name": "Tritanium Vault",
+          "level": 36
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 3508800000
+          },
+          {
+            "type": "dilithium",
+            "value": 12900000
+          }
+        ],
+        "materials": [
+          {
+            "type": "gas",
+            "value": 85000,
+            "grade": 4,
+            "rarity": "common"
+          },
+          {
+            "type": "gas",
+            "value": 14000,
+            "grade": 4,
+            "rarity": "uncommon"
+          }
+        ],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 1.16
+      }
+    },
+    {
+      "level": 42,
+      "build_time": 20113920,
+      "increased_power": 3500,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 42
+        },
+        {
+          "name": "Academy",
+          "level": 42
+        },
+        {
+          "name": "Defense Platform D",
+          "level": 36
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 5226480000
+          },
+          {
+            "type": "dilithium",
+            "value": 19215000
+          }
+        ],
+        "materials": [
+          {
+            "type": "gas",
+            "value": 14500,
+            "grade": 4,
+            "rarity": "uncommon"
+          },
+          {
+            "type": "gas",
+            "value": 4000,
+            "grade": 4,
+            "rarity": "rare"
+          }
+        ],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 1.21
+      }
+    },
+    {
+      "level": 43,
+      "build_time": 26575200,
+      "increased_power": 3500,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 43
+        },
+        {
+          "name": "Academy",
+          "level": 43
+        },
+        {
+          "name": "Dilithium Vault",
+          "level": 36
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 7466400000
+          },
+          {
+            "type": "dilithium",
+            "value": 27450000
+          }
+        ],
+        "materials": [
+          {
+            "type": "gas",
+            "value": 16000,
+            "grade": 4,
+            "rarity": "uncommon"
+          },
+          {
+            "type": "gas",
+            "value": 3000,
+            "grade": 4,
+            "rarity": "rare"
+          }
+        ],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 1.26
+      }
+    },
+    {
+      "level": 44,
+      "build_time": 34686720,
+      "increased_power": 3500,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 44
+        },
+        {
+          "name": "Academy",
+          "level": 44
+        },
+        {
+          "name": "4\u2605 Tactical Battleships",
+          "level": 1
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 11199600000
+          },
+          {
+            "type": "dilithium",
+            "value": 41175000
+          }
+        ],
+        "materials": [
+          {
+            "type": "gas",
+            "value": 1000,
+            "grade": 4,
+            "rarity": "uncommon"
+          },
+          {
+            "type": "gas",
+            "value": 6500,
+            "grade": 4,
+            "rarity": "rare"
+          }
+        ],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 1.31
+      }
+    },
+    {
+      "level": 45,
+      "build_time": 44779680,
+      "increased_power": 3500,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 45
+        },
+        {
+          "name": "Academy",
+          "level": 45
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 15912000000
+          },
+          {
+            "type": "dilithium",
+            "value": 58500000
+          }
+        ],
+        "materials": [
+          {
+            "type": "gas",
+            "value": 8000,
+            "grade": 4,
+            "rarity": "uncommon"
+          },
+          {
+            "type": "gas",
+            "value": 8000,
+            "grade": 4,
+            "rarity": "rare"
+          }
+        ],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 1.37
+      }
+    },
+    {
+      "level": 46,
+      "build_time": 57241440,
+      "increased_power": 4000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 46
+        },
+        {
+          "name": "Academy",
+          "level": 46
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 21879000000
+          },
+          {
+            "type": "dilithium",
+            "value": 80437500
+          }
+        ],
+        "materials": [
+          {
+            "type": "gas",
+            "value": 9000,
+            "grade": 4,
+            "rarity": "uncommon"
+          },
+          {
+            "type": "gas",
+            "value": 9000,
+            "grade": 4,
+            "rarity": "rare"
+          }
+        ],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 1.43
+      }
+    },
+    {
+      "level": 47,
+      "build_time": 72511200,
+      "increased_power": 4000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 47
+        },
+        {
+          "name": "Academy",
+          "level": 47
+        },
+        {
+          "name": "4\u2605 Offensive Strategies",
+          "level": 1
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 31824000000
+          },
+          {
+            "type": "dilithium",
+            "value": 117000000
+          }
+        ],
+        "materials": [
+          {
+            "type": "gas",
+            "value": 10000,
+            "grade": 4,
+            "rarity": "uncommon"
+          },
+          {
+            "type": "gas",
+            "value": 10000,
+            "grade": 4,
+            "rarity": "rare"
+          }
+        ],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 1.49
+      }
+    },
+    {
+      "level": 48,
+      "build_time": 91101600,
+      "increased_power": 5000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 48
+        },
+        {
+          "name": "Academy",
+          "level": 48
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 51408000000
+          },
+          {
+            "type": "dilithium",
+            "value": 189000000
+          }
+        ],
+        "materials": [
+          {
+            "type": "gas",
+            "value": 12000,
+            "grade": 4,
+            "rarity": "uncommon"
+          },
+          {
+            "type": "gas",
+            "value": 5000,
+            "grade": 4,
+            "rarity": "rare"
+          }
+        ],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 1.55
+      }
+    },
+    {
+      "level": 49,
+      "build_time": 113587200,
+      "increased_power": 4000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 49
+        },
+        {
+          "name": "Academy",
+          "level": 49
+        },
+        {
+          "name": "Tritanium Vault",
+          "level": 43
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 85680000000
+          },
+          {
+            "type": "dilithium",
+            "value": 315000000
+          }
+        ],
+        "materials": [
+          {
+            "type": "gas",
+            "value": 25000,
+            "grade": 4,
+            "rarity": "uncommon"
+          },
+          {
+            "type": "gas",
+            "value": 20000,
+            "grade": 4,
+            "rarity": "rare"
+          }
+        ],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 1.61
+      }
+    },
+    {
+      "level": 50,
+      "build_time": 140627520,
+      "increased_power": 5000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 50
+        },
+        {
+          "name": "Academy",
+          "level": 50
+        },
+        {
+          "name": "Treasury",
+          "level": 1
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 149940000000
+          },
+          {
+            "type": "dilithium",
+            "value": 551250000
+          }
+        ],
+        "materials": [],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 1.7
+      }
+    },
+    {
+      "level": 51,
+      "build_time": 149065920,
+      "increased_power": 5000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 51
+        },
+        {
+          "name": "Academy",
+          "level": 51
+        },
+        {
+          "name": "Tritanium Vault",
+          "level": 51
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 747864000000
+          },
+          {
+            "type": "dilithium",
+            "value": 1170000000
+          }
+        ],
+        "materials": [
+          {
+            "type": "gas",
+            "value": 20600,
+            "grade": 5,
+            "rarity": "common"
+          }
+        ],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 1.77
+      }
+    },
+    {
+      "level": 52,
+      "build_time": 158009760,
+      "increased_power": 6000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 52
+        },
+        {
+          "name": "Academy",
+          "level": 52
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 1352520000000
+          },
+          {
+            "type": "dilithium",
+            "value": 1989000000
+          }
+        ],
+        "materials": [
+          {
+            "type": "gas",
+            "value": 37500,
+            "grade": 5,
+            "rarity": "common"
+          },
+          {
+            "type": "gas",
+            "value": 14200,
+            "grade": 5,
+            "rarity": "uncommon"
+          }
+        ],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 1.84
+      }
+    },
+    {
+      "level": 53,
+      "build_time": 167490720,
+      "increased_power": 5000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 53
+        },
+        {
+          "name": "Academy",
+          "level": 53
+        },
+        {
+          "name": "Dilithium Vault",
+          "level": 53
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 2271744000000
+          },
+          {
+            "type": "dilithium",
+            "value": 3480000000
+          }
+        ],
+        "materials": [
+          {
+            "type": "gas",
+            "value": 87700,
+            "grade": 5,
+            "rarity": "common"
+          },
+          {
+            "type": "gas",
+            "value": 51000,
+            "grade": 5,
+            "rarity": "uncommon"
+          }
+        ],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 1.91
+      }
+    },
+    {
+      "level": 54,
+      "build_time": 177540480,
+      "increased_power": 6000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 54
+        },
+        {
+          "name": "Academy",
+          "level": 54
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 3407616000000
+          },
+          {
+            "type": "dilithium",
+            "value": 5220000000
+          }
+        ],
+        "materials": [
+          {
+            "type": "gas",
+            "value": 75600,
+            "grade": 5,
+            "rarity": "common"
+          },
+          {
+            "type": "gas",
+            "value": 11100,
+            "grade": 5,
+            "rarity": "rare"
+          }
+        ],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 1.98
+      }
+    },
+    {
+      "level": 55,
+      "build_time": 188192160,
+      "increased_power": 6000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 55
+        },
+        {
+          "name": "Academy",
+          "level": 55
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 5791968000000
+          },
+          {
+            "type": "dilithium",
+            "value": 8190000000
+          }
+        ],
+        "materials": [
+          {
+            "type": "gas",
+            "value": 75900,
+            "grade": 5,
+            "rarity": "uncommon"
+          },
+          {
+            "type": "gas",
+            "value": 12600,
+            "grade": 5,
+            "rarity": "rare"
+          }
+        ],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 2.05
+      }
+    },
+    {
+      "level": 56,
+      "build_time": 199483200,
+      "increased_power": 6000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 56
+        },
+        {
+          "name": "Academy",
+          "level": 56
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 9101664000000
+          },
+          {
+            "type": "dilithium",
+            "value": 12870000000
+          }
+        ],
+        "materials": [
+          {
+            "type": "gas",
+            "value": 82700,
+            "grade": 5,
+            "rarity": "uncommon"
+          },
+          {
+            "type": "gas",
+            "value": 15000,
+            "grade": 5,
+            "rarity": "rare"
+          }
+        ],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 2.13
+      }
+    },
+    {
+      "level": 57,
+      "build_time": 211452480,
+      "increased_power": 7000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 57
+        },
+        {
+          "name": "Academy",
+          "level": 57
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 14248665600000
+          },
+          {
+            "type": "dilithium",
+            "value": 20148000000
+          }
+        ],
+        "materials": [
+          {
+            "type": "gas",
+            "value": 82500,
+            "grade": 5,
+            "rarity": "uncommon"
+          },
+          {
+            "type": "gas",
+            "value": 21600,
+            "grade": 5,
+            "rarity": "rare"
+          }
+        ],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 2.21
+      }
+    },
+    {
+      "level": 58,
+      "build_time": 224140320,
+      "increased_power": 7000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 58
+        },
+        {
+          "name": "Academy",
+          "level": 58
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 20586700800000
+          },
+          {
+            "type": "dilithium",
+            "value": 31536000000
+          }
+        ],
+        "materials": [
+          {
+            "type": "gas",
+            "value": 152700,
+            "grade": 5,
+            "rarity": "common"
+          },
+          {
+            "type": "gas",
+            "value": 24200,
+            "grade": 5,
+            "rarity": "rare"
+          }
+        ],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 2.29
+      }
+    },
+    {
+      "level": 59,
+      "build_time": 237588480,
+      "increased_power": 7000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 59
+        },
+        {
+          "name": "Academy",
+          "level": 59
+        },
+        {
+          "name": "Tritanium Vault",
+          "level": 59
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 30880051200000
+          },
+          {
+            "type": "dilithium",
+            "value": 47304000000
+          }
+        ],
+        "materials": [
+          {
+            "type": "gas",
+            "value": 236600,
+            "grade": 5,
+            "rarity": "common"
+          },
+          {
+            "type": "gas",
+            "value": 126300,
+            "grade": 5,
+            "rarity": "uncommon"
+          }
+        ],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 2.37
+      }
+    },
+    {
+      "level": 60,
+      "build_time": 251843040,
+      "increased_power": 8000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 60
+        },
+        {
+          "name": "Academy",
+          "level": 60
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 48225600000000
+          },
+          {
+            "type": "dilithium",
+            "value": 73875000000
+          }
+        ],
+        "materials": [
+          {
+            "type": "gas",
+            "value": 130500,
+            "grade": 5,
+            "rarity": "uncommon"
+          },
+          {
+            "type": "gas",
+            "value": 24400,
+            "grade": 5,
+            "rarity": "rare"
+          }
+        ],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 2.45
+      }
+    },
+    {
+      "level": 61,
+      "build_time": 4993920,
+      "increased_power": 9000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 61
+        },
+        {
+          "name": "Academy",
+          "level": 61
+        },
+        {
+          "name": "Tritanium Vault",
+          "level": 61
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 348840
+          },
+          {
+            "type": "\u03c3-dilithium",
+            "value": 2565
+          }
+        ],
+        "materials": [
+          {
+            "type": "gas",
+            "value": 6900,
+            "grade": 6,
+            "rarity": "common"
+          },
+          {
+            "type": "crystal",
+            "value": 6700,
+            "grade": 6,
+            "rarity": "common"
+          }
+        ],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 2.65
+      },
+      "rewards": []
+    },
+    {
+      "level": 62,
+      "build_time": 6742080,
+      "increased_power": 10000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 62
+        },
+        {
+          "name": "Academy",
+          "level": 62
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 532440
+          },
+          {
+            "type": "\u03c3-dilithium",
+            "value": 3915
+          }
+        ],
+        "materials": [
+          {
+            "type": "gas",
+            "value": 6800,
+            "grade": 6,
+            "rarity": "uncommon"
+          },
+          {
+            "type": "crystal",
+            "value": 6300,
+            "grade": 6,
+            "rarity": "common"
+          }
+        ],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 2.85
+      },
+      "rewards": []
+    },
+    {
+      "level": 63,
+      "build_time": 9102240,
+      "increased_power": 10000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 63
+        },
+        {
+          "name": "Academy",
+          "level": 63
+        },
+        {
+          "name": "Dilithium Vault",
+          "level": 63
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 1567944
+          },
+          {
+            "type": "\u03c3-dilithium",
+            "value": 8235
+          }
+        ],
+        "materials": [
+          {
+            "type": "gas",
+            "value": 30800,
+            "grade": 6,
+            "rarity": "uncommon"
+          },
+          {
+            "type": "crystal",
+            "value": 189000,
+            "grade": 6,
+            "rarity": "common"
+          }
+        ],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 3.05
+      },
+      "rewards": []
+    },
+    {
+      "level": 64,
+      "build_time": 12288960,
+      "increased_power": 10000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 64
+        },
+        {
+          "name": "Academy",
+          "level": 64
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 3666441
+          },
+          {
+            "type": "\u03c3-dilithium",
+            "value": 18593
+          }
+        ],
+        "materials": [
+          {
+            "type": "gas",
+            "value": 15750,
+            "grade": 6,
+            "rarity": "rare"
+          }
+        ],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 3.25
+      },
+      "rewards": []
+    },
+    {
+      "level": 65,
+      "build_time": 16588800,
+      "increased_power": 12000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 65
+        },
+        {
+          "name": "Academy",
+          "level": 65
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 7217775
+          },
+          {
+            "type": "\u03c3-dilithium",
+            "value": 35381
+          }
+        ],
+        "materials": [
+          {
+            "type": "gas",
+            "value": 21000,
+            "grade": 6,
+            "rarity": "rare"
+          },
+          {
+            "type": "crystal",
+            "value": 18900,
+            "grade": 6,
+            "rarity": "rare"
+          }
+        ],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 3.5
+      },
+      "rewards": []
+    },
+    {
+      "level": 66,
+      "build_time": 22394880,
+      "increased_power": 11000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 66
+        },
+        {
+          "name": "Academy",
+          "level": 66
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 9008538
+          },
+          {
+            "type": "\u03c3-dilithium",
+            "value": 60218
+          }
+        ],
+        "materials": [
+          {
+            "type": "gas",
+            "value": 31500,
+            "grade": 6,
+            "rarity": "rare"
+          },
+          {
+            "type": "crystal",
+            "value": 28350,
+            "grade": 6,
+            "rarity": "rare"
+          }
+        ],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 3.75
+      },
+      "rewards": []
+    },
+    {
+      "level": 67,
+      "build_time": 30234240,
+      "increased_power": 10000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 67
+        },
+        {
+          "name": "Academy",
+          "level": 67
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 11821800
+          },
+          {
+            "type": "\u03c3-dilithium",
+            "value": 86925
+          }
+        ],
+        "materials": [
+          {
+            "type": "gas",
+            "value": 38500,
+            "grade": 6,
+            "rarity": "rare"
+          }
+        ],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 4.0
+      },
+      "rewards": []
+    },
+    {
+      "level": 68,
+      "build_time": 39303360,
+      "increased_power": 15000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 68
+        },
+        {
+          "name": "Academy",
+          "level": 68
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 16473000
+          },
+          {
+            "type": "\u03c3-dilithium",
+            "value": 121125
+          }
+        ],
+        "materials": [
+          {
+            "type": "gas",
+            "value": 49000,
+            "grade": 6,
+            "rarity": "rare"
+          },
+          {
+            "type": "crystal",
+            "value": 44100,
+            "grade": 6,
+            "rarity": "rare"
+          }
+        ],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 4.3
+      },
+      "rewards": []
+    },
+    {
+      "level": 69,
+      "build_time": 51095520,
+      "increased_power": 15000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 69
+        },
+        {
+          "name": "Academy",
+          "level": 69
+        },
+        {
+          "name": "Tritanium Vault",
+          "level": 69
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 23062200
+          },
+          {
+            "type": "\u03c3-dilithium",
+            "value": 169575
+          }
+        ],
+        "materials": [
+          {
+            "type": "gas",
+            "value": 63000,
+            "grade": 6,
+            "rarity": "rare"
+          },
+          {
+            "type": "crystal",
+            "value": 976500,
+            "grade": 6,
+            "rarity": "common"
+          }
+        ],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 4.6
+      },
+      "rewards": []
+    },
+    {
+      "level": 70,
+      "build_time": 66424320,
+      "increased_power": 10000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 70
+        },
+        {
+          "name": "Academy",
+          "level": 70
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 32364600
+          },
+          {
+            "type": "\u03c3-dilithium",
+            "value": 237975
+          }
+        ],
+        "materials": [
+          {
+            "type": "gas",
+            "value": 85750,
+            "grade": 6,
+            "rarity": "rare"
+          },
+          {
+            "type": "crystal",
+            "value": 77180,
+            "grade": 6,
+            "rarity": "rare"
+          }
+        ],
+        "others": []
+      },
+      "bonuses": {
+        "bonus1": 5.0
+      },
+      "rewards": []
+    }
+  ],
+  "bonuses": {
+    "bonus1": {
+      "name": "Research Speed Bonus",
+      "percentage": true
+    }
+  }
+}

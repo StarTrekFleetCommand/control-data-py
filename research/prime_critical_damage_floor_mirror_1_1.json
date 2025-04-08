@@ -1,0 +1,38 @@
+{
+  "research_name": "Prime \u03a9 Critical Damage Floor",
+  "description": "Critical Hit Damage cannot be reduced by enemy Players or Hostiles below a base percentage.",
+  "location": {
+    "column": 1,
+    "row": 1,
+    "tree": "mirror"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 240,
+      "increased_power": 96000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 40
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "omega prime particle",
+            "value": 1000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 1.5
+      }
+    }
+  ],
+  "img_url": "./assets/prime_critical_damage_floor_mirror_1_1.png"
+}

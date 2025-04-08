@@ -8,7 +8,7 @@
       "warp": 25
     },
     {
-      "$ref": "systems/p_jem_29",
+      "$ref": "systems/pjem_29",
       "distance": 25,
       "warp": 20
     },
@@ -22,11 +22,10 @@
   "level": 34,
   "mining": [
     {
-      "type": "3\u2605 Raw Gas",
-      "amount": 20,
-      "grade": 3,
+      "type": "3\u2605 raw gas",
+      "amount": 2,
       "mining_per_hour": 300,
-      "size": 25000
+      "size": 18000
     }
   ],
   "planets": [
@@ -36,6 +35,6 @@
   ],
   "scopely_id": 1016428829,
   "system_space": "normal",
-  "system_type": "hub",
+  "system_type": "route",
   "warp": 25
 }

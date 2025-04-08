@@ -1,0 +1,2684 @@
+{
+  "building_name": "The Nova Squadron",
+  "description": "The Nova Squadron building is where the most promising cadets train to become the next generation of elite Starfleet officers. The skill within increases SHP, Cost Efficiency for Building Materials, and Weapon Damage.",
+  "levels": [
+    {
+      "level": 1,
+      "build_time": 35,
+      "increased_power": 20,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 30
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 800
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet distinctions",
+            "value": 1
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.3,
+        "bonus2": 0.01,
+        "bonus3": 0.2,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "build_time": 150,
+      "increased_power": 20,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 30
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 1000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 58
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.31,
+        "bonus2": 0.02,
+        "bonus3": 0.21,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "build_time": 330,
+      "increased_power": 25,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 31
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 1200
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 174
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.33,
+        "bonus2": 0.03,
+        "bonus3": 0.22,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "build_time": 480,
+      "increased_power": 25,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 31
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 1500
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 231
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.36,
+        "bonus2": 0.04,
+        "bonus3": 0.23,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "build_time": 780,
+      "increased_power": 30,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 32
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 1800
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 405
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.41,
+        "bonus2": 0.05,
+        "bonus3": 0.25,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "build_time": 1380,
+      "increased_power": 40,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 32
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 2200
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 463
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.47,
+        "bonus2": 0.06,
+        "bonus3": 0.28,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "build_time": 2640,
+      "increased_power": 50,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 33
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 3000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 579
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.54,
+        "bonus2": 0.07,
+        "bonus3": 0.31,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "build_time": 3600,
+      "increased_power": 60,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 33
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 4000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 636
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.63,
+        "bonus2": 0.08,
+        "bonus3": 0.35,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "build_time": 5400,
+      "increased_power": 70,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 34
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 5500
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 810
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.73,
+        "bonus2": 0.09,
+        "bonus3": 0.4,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "build_time": 6600,
+      "increased_power": 80,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 34
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 7000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 868
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.84,
+        "bonus2": 0.1,
+        "bonus3": 0.45,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
+    },
+    {
+      "level": 11,
+      "build_time": 7500,
+      "increased_power": 105,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 35
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 6800
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 983
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.97,
+        "bonus2": 0.11,
+        "bonus3": 0.51,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
+    },
+    {
+      "level": 12,
+      "build_time": 13800,
+      "increased_power": 125,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 35
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 9350
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 1041
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 1.11,
+        "bonus2": 0.12,
+        "bonus3": 0.58,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
+    },
+    {
+      "level": 13,
+      "build_time": 19500,
+      "increased_power": 150,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 36
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 13600
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 1157
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 1.26,
+        "bonus2": 0.13,
+        "bonus3": 0.65,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
+    },
+    {
+      "level": 14,
+      "build_time": 25920,
+      "increased_power": 175,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 36
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 18700
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 1273
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 1.43,
+        "bonus2": 0.14,
+        "bonus3": 0.73,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
+    },
+    {
+      "level": 15,
+      "build_time": 34560,
+      "increased_power": 200,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 37
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 25500
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 1388
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 1.61,
+        "bonus2": 0.15,
+        "bonus3": 0.81,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
+    },
+    {
+      "level": 16,
+      "build_time": 41760,
+      "increased_power": 225,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 37
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 34000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 1446
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 1.8,
+        "bonus2": 0.16,
+        "bonus3": 0.9,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
+    },
+    {
+      "level": 17,
+      "build_time": 43200,
+      "increased_power": 300,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 38
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 47600
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 1562
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 2.0,
+        "bonus2": 0.17,
+        "bonus3": 1.0,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
+    },
+    {
+      "level": 18,
+      "build_time": 64800,
+      "increased_power": 300,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 38
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 68000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 1620
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 2.22,
+        "bonus2": 0.18,
+        "bonus3": 1.1,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
+    },
+    {
+      "level": 19,
+      "build_time": 93600,
+      "increased_power": 300,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 39
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 102000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 1736
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 2.46,
+        "bonus2": 0.19,
+        "bonus3": 1.21,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
+    },
+    {
+      "level": 20,
+      "build_time": 134640,
+      "increased_power": 400,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 39
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 144500
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 1851
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 2.7,
+        "bonus2": 0.2,
+        "bonus3": 1.32,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
+    },
+    {
+      "level": 21,
+      "build_time": 117360,
+      "increased_power": 400,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 40
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 243270
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 1967
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 2.96,
+        "bonus2": 0.21,
+        "bonus3": 1.44,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
+    },
+    {
+      "level": 22,
+      "build_time": 177840,
+      "increased_power": 500,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 41
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 378420
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 2025
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 3.24,
+        "bonus2": 0.22,
+        "bonus3": 1.57,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
+    },
+    {
+      "level": 23,
+      "build_time": 216000,
+      "increased_power": 500,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 41
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 622710
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 2140
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 3.52,
+        "bonus2": 0.23,
+        "bonus3": 1.7,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
+    },
+    {
+      "level": 24,
+      "build_time": 264960,
+      "increased_power": 600,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 41
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 981240
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 2256
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 3.82,
+        "bonus2": 0.24,
+        "bonus3": 1.84,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
+    },
+    {
+      "level": 25,
+      "build_time": 237600,
+      "increased_power": 550,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 42
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 1591200
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 2314
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 4.14,
+        "bonus2": 0.25,
+        "bonus3": 1.99,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
+    },
+    {
+      "level": 26,
+      "build_time": 334080,
+      "increased_power": 750,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 42
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 2486250
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 2430
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 4.46,
+        "bonus2": 0.26,
+        "bonus3": 2.14,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
+    },
+    {
+      "level": 27,
+      "build_time": 381600,
+      "increased_power": 750,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 43
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 3794400
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 2488
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 4.8,
+        "bonus2": 0.27,
+        "bonus3": 2.3,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
+    },
+    {
+      "level": 28,
+      "build_time": 427680,
+      "increased_power": 750,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 43
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 5691600
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 2661
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 5.15,
+        "bonus2": 0.28,
+        "bonus3": 2.47,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
+    },
+    {
+      "level": 29,
+      "build_time": 491040,
+      "increased_power": 1000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 44
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 9061000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 2661
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 5.52,
+        "bonus2": 0.29,
+        "bonus3": 2.64,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
+    },
+    {
+      "level": 30,
+      "build_time": 531360,
+      "increased_power": 1000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 44
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 13260000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 2835
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 5.9,
+        "bonus2": 0.3,
+        "bonus3": 2.81,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
+    },
+    {
+      "level": 31,
+      "build_time": 669600,
+      "increased_power": 1000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 45
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 20961000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 2893
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 6.29,
+        "bonus2": 0.31,
+        "bonus3": 3.0,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
+    },
+    {
+      "level": 32,
+      "build_time": 685440,
+      "increased_power": 1250,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 45
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 30277000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 3008
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 6.7,
+        "bonus2": 0.32,
+        "bonus3": 3.19,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
+    },
+    {
+      "level": 33,
+      "build_time": 996480,
+      "increased_power": 1250,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 46
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 46835000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 3066
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 7.12,
+        "bonus2": 0.33,
+        "bonus3": 3.38,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
+    },
+    {
+      "level": 34,
+      "build_time": 1260000,
+      "increased_power": 1250,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 46
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 73950000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 3182
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 7.55,
+        "bonus2": 0.34,
+        "bonus3": 3.59,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
+    },
+    {
+      "level": 35,
+      "build_time": 1752480,
+      "increased_power": 1250,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 47
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 114444000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 3297
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 8.0,
+        "bonus2": 0.35,
+        "bonus3": 3.79,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
+    },
+    {
+      "level": 36,
+      "build_time": 2239200,
+      "increased_power": 1500,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 47
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 161262000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 3355
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 8.46,
+        "bonus2": 0.36,
+        "bonus3": 4.01,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
+    },
+    {
+      "level": 37,
+      "build_time": 2193120,
+      "increased_power": 1750,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 48
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 247860000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 3471
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 8.93,
+        "bonus2": 0.37,
+        "bonus3": 4.23,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
+    },
+    {
+      "level": 38,
+      "build_time": 3801600,
+      "increased_power": 1750,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 48
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 385560000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 3587
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 9.42,
+        "bonus2": 0.38,
+        "bonus3": 4.46,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
+    },
+    {
+      "level": 39,
+      "build_time": 5045760,
+      "increased_power": 1500,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 49
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 657900000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 3645
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 9.91,
+        "bonus2": 0.39,
+        "bonus3": 4.69,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
+    },
+    {
+      "level": 40,
+      "build_time": 8377920,
+      "increased_power": 2000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 49
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 2865520000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 3760
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 10.43,
+        "bonus2": 0.4,
+        "bonus3": 4.93,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
+    },
+    {
+      "level": 41,
+      "build_time": 7850880,
+      "increased_power": 2000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 50
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 2924000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 3818
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 10.95,
+        "bonus2": 0.41,
+        "bonus3": 5.17,
+        "bonus4": 170100.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 170100
+        }
+      ]
+    },
+    {
+      "level": 42,
+      "build_time": 12068640,
+      "increased_power": 2000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 50
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 4355400000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 3934
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 11.49,
+        "bonus2": 0.42,
+        "bonus3": 5.43,
+        "bonus4": 170100.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 170100
+        }
+      ]
+    },
+    {
+      "level": 43,
+      "build_time": 15945120,
+      "increased_power": 2500,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 51
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 6222000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 4050
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 12.05,
+        "bonus2": 0.43,
+        "bonus3": 5.68,
+        "bonus4": 170100.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 170100
+        }
+      ]
+    },
+    {
+      "level": 44,
+      "build_time": 20812320,
+      "increased_power": 2500,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 51
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 9333000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 4107
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 12.61,
+        "bonus2": 0.44,
+        "bonus3": 5.95,
+        "bonus4": 170100.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 170100
+        }
+      ]
+    },
+    {
+      "level": 45,
+      "build_time": 26867520,
+      "increased_power": 2500,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 52
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 13260000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 4223
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 13.19,
+        "bonus2": 0.45,
+        "bonus3": 6.22,
+        "bonus4": 170100.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 170100
+        }
+      ]
+    },
+    {
+      "level": 46,
+      "build_time": 34344000,
+      "increased_power": 2500,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 52
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 18232500000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 4339
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 13.78,
+        "bonus2": 0.46,
+        "bonus3": 6.49,
+        "bonus4": 170100.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 170100
+        }
+      ]
+    },
+    {
+      "level": 47,
+      "build_time": 43506720,
+      "increased_power": 3000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 53
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 26520000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 4397
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 14.39,
+        "bonus2": 0.47,
+        "bonus3": 6.78,
+        "bonus4": 170100.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 170100
+        }
+      ]
+    },
+    {
+      "level": 48,
+      "build_time": 54660960,
+      "increased_power": 3000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 53
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 42840000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 4512
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 15.01,
+        "bonus2": 0.48,
+        "bonus3": 7.07,
+        "bonus4": 170100.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 170100
+        }
+      ]
+    },
+    {
+      "level": 49,
+      "build_time": 68152320,
+      "increased_power": 3000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 54
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 71400000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 4628
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 15.64,
+        "bonus2": 0.49,
+        "bonus3": 7.36,
+        "bonus4": 170100.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 170100
+        }
+      ]
+    },
+    {
+      "level": 50,
+      "build_time": 84376800,
+      "increased_power": 3000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 54
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 124950000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 4686
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 16.29,
+        "bonus2": 0.5,
+        "bonus3": 7.66,
+        "bonus4": 170100.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 170100
+        }
+      ]
+    },
+    {
+      "level": 51,
+      "build_time": 89439840,
+      "increased_power": 3500,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 55
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 623220000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 4744
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 16.95,
+        "bonus2": 0.51,
+        "bonus3": 7.97,
+        "bonus4": 170100.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 170100
+        }
+      ]
+    },
+    {
+      "level": 52,
+      "build_time": 94805280,
+      "increased_power": 3500,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 56
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 1127100000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 4917
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 17.62,
+        "bonus2": 0.52,
+        "bonus3": 8.29,
+        "bonus4": 170100.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 170100
+        }
+      ]
+    },
+    {
+      "level": 53,
+      "build_time": 100494720,
+      "increased_power": 4000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 57
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 1893120000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 4975
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 18.3,
+        "bonus2": 0.53,
+        "bonus3": 8.61,
+        "bonus4": 170100.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 170100
+        }
+      ]
+    },
+    {
+      "level": 54,
+      "build_time": 106524000,
+      "increased_power": 4000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 58
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 2839680000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 5033
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 19.0,
+        "bonus2": 0.54,
+        "bonus3": 8.93,
+        "bonus4": 170100.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 170100
+        }
+      ]
+    },
+    {
+      "level": 55,
+      "build_time": 112914720,
+      "increased_power": 4000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 59
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 4826640000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 5149
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 19.72,
+        "bonus2": 0.55,
+        "bonus3": 9.26,
+        "bonus4": 170100.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 170100
+        }
+      ]
+    },
+    {
+      "level": 56,
+      "build_time": 119689920,
+      "increased_power": 4000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 60
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 7584720000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 5264
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 20.44,
+        "bonus2": 0.56,
+        "bonus3": 9.6,
+        "bonus4": 170100.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 170100
+        }
+      ]
+    },
+    {
+      "level": 57,
+      "build_time": 126871200,
+      "increased_power": 4000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 61
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 11873888000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 5322
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 21.18,
+        "bonus2": 0.57,
+        "bonus3": 9.95,
+        "bonus4": 170100.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 170100
+        }
+      ]
+    },
+    {
+      "level": 58,
+      "build_time": 134484480,
+      "increased_power": 5000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 61
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 17155584000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 5438
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 21.93,
+        "bonus2": 0.58,
+        "bonus3": 10.3,
+        "bonus4": 170100.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 170100
+        }
+      ]
+    },
+    {
+      "level": 59,
+      "build_time": 142552800,
+      "increased_power": 5000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 62
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 25733376000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 5554
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 22.7,
+        "bonus2": 0.59,
+        "bonus3": 10.66,
+        "bonus4": 170100.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 170100
+        }
+      ]
+    },
+    {
+      "level": 60,
+      "build_time": 151106400,
+      "increased_power": 5000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 62
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 40188000000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 5611
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 23.48,
+        "bonus2": 0.6,
+        "bonus3": 11.02,
+        "bonus4": 170100.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 170100
+        }
+      ]
+    },
+    {
+      "level": 61,
+      "build_time": 3496320,
+      "increased_power": 6000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 63
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 290700
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 5727
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 24.27,
+        "bonus2": 0.61,
+        "bonus3": 11.39,
+        "bonus4": 170100.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 170100
+        }
+      ]
+    },
+    {
+      "level": 62,
+      "build_time": 4720320,
+      "increased_power": 6000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 63
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 443700
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 5785
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 25.08,
+        "bonus2": 0.62,
+        "bonus3": 11.77,
+        "bonus4": 170100.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 170100
+        }
+      ]
+    },
+    {
+      "level": 63,
+      "build_time": 6372000,
+      "increased_power": 7000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 64
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 1306620
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 5901
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 25.89,
+        "bonus2": 0.63,
+        "bonus3": 12.15,
+        "bonus4": 170100.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 170100
+        }
+      ]
+    },
+    {
+      "level": 64,
+      "build_time": 8602560,
+      "increased_power": 7000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 64
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 3055368
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 6016
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 26.73,
+        "bonus2": 0.64,
+        "bonus3": 12.54,
+        "bonus4": 170100.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 170100
+        }
+      ]
+    },
+    {
+      "level": 65,
+      "build_time": 11612160,
+      "increased_power": 8000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 65
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 6014813
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 6074
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 27.57,
+        "bonus2": 0.65,
+        "bonus3": 12.93,
+        "bonus4": 170100.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 170100
+        }
+      ]
+    },
+    {
+      "level": 66,
+      "build_time": 15677280,
+      "increased_power": 7000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 66
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 7507115
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 6190
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 28.43,
+        "bonus2": 0.67,
+        "bonus3": 13.33,
+        "bonus4": 170100.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 170100
+        }
+      ]
+    },
+    {
+      "level": 67,
+      "build_time": 21163680,
+      "increased_power": 9000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 67
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 9851500
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 6248
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 29.3,
+        "bonus2": 0.69,
+        "bonus3": 13.74,
+        "bonus4": 170100.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 170100
+        }
+      ]
+    },
+    {
+      "level": 68,
+      "build_time": 27512640,
+      "increased_power": 8000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 68
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 13727500
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 6364
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 30.19,
+        "bonus2": 0.71,
+        "bonus3": 14.15,
+        "bonus4": 170100.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 170100
+        }
+      ]
+    },
+    {
+      "level": 69,
+      "build_time": 35766720,
+      "increased_power": 9000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 69
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 19218500
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 6479
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 31.09,
+        "bonus2": 0.73,
+        "bonus3": 14.57,
+        "bonus4": 170100.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 170100
+        }
+      ]
+    },
+    {
+      "level": 70,
+      "build_time": 46497600,
+      "increased_power": 9000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 70
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 26970500
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "starfleet honors",
+            "value": 6537
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 32.0,
+        "bonus2": 0.75,
+        "bonus3": 15.0,
+        "bonus4": 170100.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 170100
+        }
+      ]
+    }
+  ],
+  "bonuses": {
+    "bonus1": {
+      "name": "Shield Health Bonus",
+      "percentage": true
+    },
+    "bonus2": {
+      "name": "Special Building Materials Cost Efficiency",
+      "percentage": true
+    },
+    "bonus3": {
+      "name": "Weapon Damage Bonus",
+      "percentage": true
+    },
+    "bonus4": {
+      "name": "Nova Squadron Research Nodes",
+      "percentage": false
+    }
+  }
+}

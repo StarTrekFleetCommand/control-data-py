@@ -1,0 +1,37 @@
+{
+  "name": "Borias Cluster",
+  "capture_nodes": 0,
+  "connected_systems": [
+    {
+      "$ref": "systems/trelka_v_39",
+      "distance": 40,
+      "warp": 40
+    },
+    {
+      "$ref": "systems/manora_39",
+      "distance": 40,
+      "warp": 40
+    },
+    {
+      "$ref": "systems/unefra_36",
+      "distance": 40,
+      "warp": 29
+    }
+  ],
+  "faction": "neutral",
+  "level": 39,
+  "mining": [],
+  "planets": [
+    "Boria I",
+    "Boria II",
+    "Boria III",
+    "Borias Research Station",
+    "Research Colony X-25",
+    "Subject I",
+    "Subject II"
+  ],
+  "scopely_id": 492395761,
+  "system_space": "normal",
+  "system_type": "route",
+  "warp": 40
+}

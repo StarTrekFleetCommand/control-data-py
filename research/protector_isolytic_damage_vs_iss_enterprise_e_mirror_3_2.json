@@ -1,0 +1,172 @@
+{
+  "research_name": "\u03a9 Protector Isolytic Damage vs ISS Enterprise-E",
+  "description": "Increases Isolytic damage dealt to the [HMP] ISS Enterprise-E while using the NSEA Protector",
+  "location": {
+    "column": 2,
+    "row": 3,
+    "tree": "mirror"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 240,
+      "increased_power": 24000,
+      "requirements": [
+        {
+          "name": "\u03a9 Critical Damage Floor",
+          "level": 1
+        },
+        {
+          "name": "R&D Department",
+          "level": 40
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "omega mirror dust",
+            "value": 260
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 1200.0
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 240,
+      "increased_power": 4000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 40
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "omega mirror dust",
+            "value": 300
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 1600.0
+      }
+    },
+    {
+      "level": 3,
+      "research_time": 240,
+      "increased_power": 5000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 50
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "omega mirror dust",
+            "value": 340
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 2000.0
+      }
+    },
+    {
+      "level": 4,
+      "research_time": 240,
+      "increased_power": 5000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 50
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "omega mirror dust",
+            "value": 380
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 2500.0
+      }
+    },
+    {
+      "level": 5,
+      "research_time": 240,
+      "increased_power": 6000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 60
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "omega mirror dust",
+            "value": 420
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 4000.0
+      }
+    },
+    {
+      "level": 6,
+      "research_time": 240,
+      "increased_power": 6000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 60
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "omega mirror dust",
+            "value": 500
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 5500.0
+      }
+    }
+  ],
+  "img_url": "./assets/protector_isolytic_damage_vs_iss_enterprise_e_mirror_3_2.png"
+}

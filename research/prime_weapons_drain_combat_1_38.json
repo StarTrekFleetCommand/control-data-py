@@ -1,0 +1,64 @@
+{
+  "research_name": "Prime Weapons Drain",
+  "description": "Decreases enemy player's base Weapon Damage (does not apply during Station defense).",
+  "location": {
+    "column": 38,
+    "row": 1,
+    "tree": "combat"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 240,
+      "increased_power": 141000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 42
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "prime weapons drain",
+            "value": 500
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 2.5
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 240,
+      "increased_power": 164000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 53
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "prime weapons drain",
+            "value": 1000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 8.0
+      }
+    }
+  ],
+  "img_url": "./assets/prime_weapons_drain_combat_1_38.png"
+}

@@ -1,6 +1,6 @@
 {
   "officer_name": "SNW Pelia",
-  "description": "",
+  "description": "When you\u2019ve lived for thousands and thousands of years, when you\u2019ve been there, seen it all, done it all, and maybe even invented the process to print the t-shirt you bought to commemorate all of that, perhaps it\u2019s no surprise that you might come across to others as somewhat... eccentric.\n\nPelia, a Commander and Chief Engineer aboard the USS Enterprise under Captain Pike, is a Lanthanite, a species that lives so long some might say it\u2019s almost forever. Pelia herself claims to have witnessed the entirety of human history, having lived on Earth for at least 3,000 years, and who\u2019s going to argue with her? It\u2019s not an argument she\u2019d let you win. As far as she\u2019s concerned, almost anyone she talks to is a baby in comparison.\n\nHowever, while Pelia\u2019s personality takes some getting used to, especially if you\u2019re accustomed to people respecting your authority, there\u2019s no denying her intelligence. You can\u2019t live that long without picking up a thing or two, and if she\u2019s willing to put that intelligence to good use for Starfleet, then perhaps the odd discomfiting wave of bemused condescension is a small price to pay.",
   "class": "engineering",
   "group": "strange new worlds",
   "faction": "federation",
@@ -10,23 +10,23 @@
       "name": "Chain of Command",
       "bonus": "This Officer does not have a Captain's Maneuver. Equipping this Officer as the captain of a ship provides no benefit.",
       "percentage": true,
-      "value": 0
+      "value": 0.0
     },
     "officer_ability": {
       "name": "Brain-Melting Secrets",
-      "bonus": "SNW Pelia reduces Isolytic Damage received from non-Armada hostiles by {value} ({1:#,#%} at rank {2:#,#})",
+      "bonus": "SNW Pelia reduces Isolytic Damage received from non-Armada hostiles by {value} ({value} at rank {value})",
       "percentage": true
     },
     "below_decks_ability": {
       "name": "Perpetually Bored",
-      "bonus": "SNW Pelia increases Isolytic Defense by {value} ({1:#,#%} at rank {2:#,#})",
+      "bonus": "SNW Pelia increases Isolytic Defense by {value} ({value} at rank {value})",
       "percentage": true
     }
   },
   "synergy": {
-    "command": 0,
-    "engineering": 0,
-    "science": 0
+    "command": 0.0,
+    "engineering": 0.0,
+    "science": 0.0
   },
   "traits": [
     {
@@ -82,9 +82,7 @@
         "shards": 38,
         "xp": 0
       },
-      "below_deck_ability_value": [
-        0.1
-      ]
+      "below_deck_ability_value": 0.1
     },
     {
       "rank_id": 2,
@@ -97,9 +95,7 @@
         "shards": 55,
         "xp": 10000
       },
-      "below_deck_ability_value": [
-        0.25
-      ]
+      "below_deck_ability_value": 0.25
     },
     {
       "rank_id": 3,
@@ -112,9 +108,7 @@
         "shards": 115,
         "xp": 100000
       },
-      "below_deck_ability_value": [
-        0.45
-      ]
+      "below_deck_ability_value": 0.45
     },
     {
       "rank_id": 4,
@@ -127,9 +121,7 @@
         "shards": 155,
         "xp": 250000
       },
-      "below_deck_ability_value": [
-        0.7
-      ]
+      "below_deck_ability_value": 0.7
     },
     {
       "rank_id": 5,
@@ -142,9 +134,7 @@
         "shards": 225,
         "xp": 500000
       },
-      "below_deck_ability_value": [
-        1
-      ]
+      "below_deck_ability_value": 1.0
     }
   ],
   "img_url": "./assets/snw_pelia.png"

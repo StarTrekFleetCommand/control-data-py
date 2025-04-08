@@ -1,6 +1,6 @@
 {
   "officer_name": "Mirror Kira",
-  "description": "",
+  "description": "One of the foremost identifying markers of the alternate dimension was that it was observed to be fundamentally populated by those who were morally antithetical to their Prime equivalents. Perhaps there existed no greater ethical divide than the one separating Kira Nerys from her otherworldly counterpart. While Major Kira Nerys of Deep Space Nine was regarded as a benevolent figurehead and trusted leader, Intendant Kira Nerys of Terok Nor was ultimately reviled by those who suffered under her supervision. With no United Federation of Planets to take charge of the station, the Terok Nor of the alternate dimension instead became a mining facility focused on the processing of uridium ore. Manned almost exclusively by Terran slaves, the Klingon-Cardassian Alliance would appoint some of their most feared officers to instill control over the station\u2019s workers. As Intendant of Terok Nor, Kira would rule through fear and make examples of those who would dare defy her.\n\nA sadistic hedonist, Intendant Kira spent much of her time aboard Terok Nor seeking to satiate her baser desires, often at the expense or suffering of others. Although a vocal proponent of peaceful coercion, Kira was prone to inflicting contradictory bouts of extreme violence, torture and even executions on the Terran slaves who were held on Terok Nor. These behaviors would reinforce Kira\u2019s reputation as one of the most feared Intendants of the Klingon-Cardassian Alliance. However, Kira\u2019s actions would eventually incite resistance among the Terran people. Following her failures to quash the burgeoning rebellion, Kira was forced to retreat into the shadows, hunted not only by those who suffered by her hand, but also by the Alliance to whom she once swore loyalty.\n\nFor a time, the name Kira Nerys was nothing more than a memory. However, some memories are not so easily forgotten. After re-emerging from the shadows armed with classified Alliance military intel, Kira was able to use her cunning and guile to shift the balance of power in the alternate dimension and kickstart a glorious resurgence of the Terran Empire. Bewitched by the very figurehead who ruled Terok Nor with an iron fist, the Terran people would instead come to worship and revere this Bajoran who single-handedly revitalized an Empire... All according to her meticulously crafted plans. If she could not be feared as an Intendant, then she would be adored as an Empress.",
   "class": "command",
   "group": "mirror universe",
   "faction": "klingon",
@@ -8,21 +8,21 @@
   "ability_info": {
     "captain_maneuver": {
       "name": "Intoxication",
-      "bonus": "On round start against players, Mirror Kira increases your Apex Barrier by {value} <b>each round</b> for 5 rounds (cumulative).\n\nMirror Kira receives full synergy bonuses from all Mirror officers regardless of class.\n\nThis ability does not trigger when Tal is assigned to the bridge of your ship.\n\nApex Barrier provides <b>true damage mitigation</b> from all sources after all other bonuses. Every 100 Apex Barrier increases the damage you can take by 1%.",
+      "bonus": "On round start against players, Mirror Kira increases your Apex Barrier by {value} <b>each round for 5 rounds (cumulative).\n\nMirror Kira receives full synergy bonuses from all Mirror officers regardless of class.\n\nThis ability does not trigger when Tal is assigned to the bridge of your ship.\n\nApex Barrier provides <b>true damage mitigation from all sources after all other bonuses. Every 100 Apex Barrier increases the damage you can take by 1%.",
       "percentage": false,
-      "value": 1500
+      "value": 1500.0
     },
     "officer_ability": {
       "name": "A Little Excitement",
-      "bonus": "On round start against players with Assimilate, Mirror Kira increases your shots by {value} ({1:#,#%} at rank {2:#,#}) <b>each round</b> for 5 rounds (cumulative).",
+      "bonus": "On round start against players with Assimilate, Mirror Kira increases your shots by {value} ({value} at rank {value}) <b>each round for 5 rounds (cumulative).",
       "percentage": true
     },
     "below_decks_ability": null
   },
   "synergy": {
-    "command": 1500,
-    "engineering": 1500,
-    "science": 1500
+    "command": 1500.0,
+    "engineering": 1500.0,
+    "science": 1500.0
   },
   "traits": [
     {
@@ -130,7 +130,7 @@
         "credits": 0,
         "others": [
           {
-            "name": "Liquid Trellium-D",
+            "name": "liquid trellium-d",
             "value": 4400
           }
         ],
@@ -147,7 +147,7 @@
         "credits": 0,
         "others": [
           {
-            "name": "Liquid Trellium-D",
+            "name": "liquid trellium-d",
             "value": 17100
           }
         ],
@@ -164,7 +164,7 @@
         "credits": 0,
         "others": [
           {
-            "name": "Liquid Trellium-D",
+            "name": "liquid trellium-d",
             "value": 43100
           }
         ],
@@ -181,7 +181,7 @@
         "credits": 0,
         "others": [
           {
-            "name": "Liquid Trellium-D",
+            "name": "liquid trellium-d",
             "value": 97800
           }
         ],

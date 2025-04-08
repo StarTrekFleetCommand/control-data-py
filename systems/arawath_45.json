@@ -1,0 +1,33 @@
+{
+  "name": "Arawath",
+  "capture_nodes": 0,
+  "connected_systems": [
+    {
+      "$ref": "systems/rudellia_50",
+      "distance": 170,
+      "warp": 170
+    },
+    {
+      "$ref": "systems/vanden_45",
+      "distance": 100,
+      "warp": 100
+    },
+    {
+      "$ref": "systems/mora_42",
+      "distance": 100,
+      "warp": 65
+    }
+  ],
+  "faction": "neutral",
+  "level": 45,
+  "mining": [],
+  "planets": [
+    "Arawath",
+    "Ender",
+    "Esmori"
+  ],
+  "scopely_id": 1455604393,
+  "system_space": "normal",
+  "system_type": "route",
+  "warp": 100
+}

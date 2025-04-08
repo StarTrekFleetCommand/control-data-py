@@ -3,14 +3,14 @@
   "capture_nodes": 0,
   "connected_systems": [
     {
-      "$ref": "systems/hulman_52",
-      "distance": 230,
-      "warp": 230
-    },
-    {
       "$ref": "systems/callicoat_51",
       "distance": 205,
       "warp": 205
+    },
+    {
+      "$ref": "systems/merius_53",
+      "distance": 255,
+      "warp": 255
     },
     {
       "$ref": "systems/dela_51",
@@ -18,9 +18,9 @@
       "warp": 185
     },
     {
-      "$ref": "systems/merius_53",
-      "distance": 255,
-      "warp": 255
+      "$ref": "systems/hulman_52",
+      "distance": 230,
+      "warp": 230
     }
   ],
   "faction": "neutral",
@@ -31,6 +31,9 @@
   "level": 51,
   "mining": [],
   "planets": [
+    "</b>",
+    "</b>",
+    "</b>",
     "Hacat",
     "Juzioer",
     "Nizai",

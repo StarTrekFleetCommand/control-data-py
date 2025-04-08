@@ -3,17 +3,17 @@
   "capture_nodes": 8,
   "connected_systems": [
     {
-      "$ref": "systems/mak_ala_alpha_40",
-      "distance": 5,
-      "warp": 20
-    },
-    {
       "$ref": "systems/hoobishan_beta_30",
       "distance": 5,
       "warp": 20
     },
     {
       "$ref": "systems/perim_beta_20",
+      "distance": 5,
+      "warp": 20
+    },
+    {
+      "$ref": "systems/makala_alpha_40",
       "distance": 5,
       "warp": 20
     }
@@ -26,11 +26,10 @@
   "level": 30,
   "mining": [
     {
-      "type": "3\u2605 Raw Gas",
-      "amount": 20,
-      "grade": 3,
-      "mining_per_hour": 450,
-      "size": 30000
+      "type": "4\u2605 raw gas",
+      "amount": 1,
+      "mining_per_hour": 600,
+      "size": 150000
     }
   ],
   "planets": [

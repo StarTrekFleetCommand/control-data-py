@@ -1,6 +1,6 @@
 {
   "officer_name": "Vemet",
-  "description": "",
+  "description": "Vemet worked on the Narada for years; a friend of Nero's and a constant voice of caution and reason, Vemet helped steer the crew through many a difficult situation. When Nero called for revenge, Vemet advised care and planning, but provided his service all the same.",
   "class": "science",
   "group": "nero's crew",
   "faction": "romulan",
@@ -8,7 +8,7 @@
   "ability_info": {
     "captain_maneuver": {
       "name": "Romulan Tenacity",
-      "bonus": "If the ship survives an attack that depletes its shields and is destroyed in one of the following attacks during the same battle, the battle is lost but Vemet heals {value} of the Hull Health and the ship survives.",
+      "bonus": "If the ship survives an attack that depletes its shields and is destroyed in one of the following attacks during the same battle, the battle is lost but Vemet heals {value} of the Hull Health and the ship survives. This takes precedence over the NSEA Protector\u2019s Omega-13 Ship Ability and does not stack.",
       "percentage": true,
       "value": 0.05
     },

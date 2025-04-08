@@ -277,7 +277,7 @@
         },
         {
           "ability_bonus": 0.19,
-          "additional_officer_slot": true,
+          "additional_officer_slot": false,
           "level": 5,
           "ship_xp": 29000,
           "scrap_details": {
@@ -312,14 +312,14 @@
         ],
         "materials": [
           {
-            "type": "gas",
-            "value": 5000,
+            "type": "ore",
+            "value": 3000,
             "grade": 4,
             "rarity": "common"
           },
           {
-            "type": "ore",
-            "value": 3000,
+            "type": "gas",
+            "value": 5000,
             "grade": 4,
             "rarity": "common"
           }
@@ -348,21 +348,21 @@
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 2345,
+                "type": "ore",
+                "value": 1265,
                 "grade": 4,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 1265,
+                "type": "gas",
+                "value": 2345,
                 "grade": 4,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "4\u2605 Common Explorer Parts",
+                "type": "4\u2605 common explorer parts",
                 "value": 5220
               }
             ]
@@ -418,21 +418,21 @@
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 3130,
+                "type": "ore",
+                "value": 1690,
                 "grade": 4,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 1690,
+                "type": "gas",
+                "value": 3130,
                 "grade": 4,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "4\u2605 Common Explorer Parts",
+                "type": "4\u2605 common explorer parts",
                 "value": 6960
               }
             ]
@@ -488,21 +488,21 @@
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 1800,
+                "type": "ore",
+                "value": 970,
                 "grade": 4,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 970,
+                "type": "gas",
+                "value": 1800,
                 "grade": 4,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "4\u2605 Common Explorer Parts",
+                "type": "4\u2605 common explorer parts",
                 "value": 4000
               }
             ]
@@ -537,21 +537,21 @@
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 780,
+                "type": "ore",
+                "value": 420,
                 "grade": 4,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 420,
+                "type": "gas",
+                "value": 780,
                 "grade": 4,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "4\u2605 Common Explorer Parts",
+                "type": "4\u2605 common explorer parts",
                 "value": 1740
               }
             ]
@@ -588,21 +588,21 @@
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 1800,
+                "type": "ore",
+                "value": 970,
                 "grade": 4,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 970,
+                "type": "gas",
+                "value": 1800,
                 "grade": 4,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "4\u2605 Common Explorer Parts",
+                "type": "4\u2605 common explorer parts",
                 "value": 4000
               }
             ]
@@ -637,21 +637,21 @@
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 1800,
+                "type": "ore",
+                "value": 970,
                 "grade": 4,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 970,
+                "type": "gas",
+                "value": 1800,
                 "grade": 4,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "4\u2605 Common Explorer Parts",
+                "type": "4\u2605 common explorer parts",
                 "value": 4000
               }
             ]
@@ -690,21 +690,21 @@
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 1645,
+                "type": "ore",
+                "value": 885,
                 "grade": 4,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 885,
+                "type": "gas",
+                "value": 1645,
                 "grade": 4,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "4\u2605 Common Explorer Parts",
+                "type": "4\u2605 common explorer parts",
                 "value": 3660
               }
             ]
@@ -739,27 +739,31 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 3512239
+                "value": 128591834
               },
               {
                 "type": "dilithium",
-                "value": 172918
+                "value": 3415130
+              },
+              {
+                "type": "ore",
+                "value": 882,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 1685,
+                "grade": 5,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
                 "value": 943
               },
               {
-                "type": "5\u2605 common refined gas",
-                "value": 1685
-              },
-              {
                 "type": "5\u2605 common explorer parts",
                 "value": 4919
-              },
-              {
-                "type": "5\u2605 common refined ore",
-                "value": 882
               }
             ]
           }
@@ -774,27 +778,31 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 3512239
+                "value": 128591834
               },
               {
                 "type": "dilithium",
-                "value": 172918
+                "value": 3415130
+              },
+              {
+                "type": "ore",
+                "value": 900,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 1731,
+                "grade": 5,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
                 "value": 1416
               },
               {
-                "type": "5\u2605 common refined gas",
-                "value": 1731
-              },
-              {
                 "type": "5\u2605 common explorer parts",
                 "value": 5071
-              },
-              {
-                "type": "5\u2605 common refined ore",
-                "value": 900
               }
             ]
           }
@@ -809,27 +817,31 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 3512239
+                "value": 128591834
               },
               {
                 "type": "dilithium",
-                "value": 172918
+                "value": 3415130
+              },
+              {
+                "type": "ore",
+                "value": 920,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 1779,
+                "grade": 5,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
                 "value": 1950
               },
               {
-                "type": "5\u2605 common refined gas",
-                "value": 1779
-              },
-              {
                 "type": "5\u2605 common explorer parts",
                 "value": 5227
-              },
-              {
-                "type": "5\u2605 common refined ore",
-                "value": 920
               }
             ]
           }
@@ -844,27 +856,31 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 3512239
+                "value": 128591834
               },
               {
                 "type": "dilithium",
-                "value": 172918
+                "value": 3415130
+              },
+              {
+                "type": "ore",
+                "value": 939,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 1829,
+                "grade": 5,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
                 "value": 2600
               },
               {
-                "type": "5\u2605 common refined gas",
-                "value": 1829
-              },
-              {
                 "type": "5\u2605 common explorer parts",
                 "value": 5388
-              },
-              {
-                "type": "5\u2605 common refined ore",
-                "value": 939
               }
             ]
           }
@@ -879,27 +895,31 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 3512239
+                "value": 128591834
               },
               {
                 "type": "dilithium",
-                "value": 172918
+                "value": 3415130
+              },
+              {
+                "type": "ore",
+                "value": 960,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 1879,
+                "grade": 5,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
                 "value": 3445
               },
               {
-                "type": "5\u2605 common refined gas",
-                "value": 1879
-              },
-              {
                 "type": "5\u2605 common explorer parts",
                 "value": 5554
-              },
-              {
-                "type": "5\u2605 common refined ore",
-                "value": 960
               }
             ]
           }
@@ -941,12 +961,12 @@
             ],
             "others": [
               {
-                "type": "4\u2605 Uncommon Explorer Parts",
-                "value": 2980
+                "type": "4\u2605 common explorer parts",
+                "value": 10560
               },
               {
-                "type": "4\u2605 Common Explorer Parts",
-                "value": 10560
+                "type": "4\u2605 uncommon explorer parts",
+                "value": 2980
               }
             ]
           },
@@ -1015,12 +1035,12 @@
             ],
             "others": [
               {
-                "type": "4\u2605 Uncommon Explorer Parts",
-                "value": 3960
+                "type": "4\u2605 common explorer parts",
+                "value": 14080
               },
               {
-                "type": "4\u2605 Common Explorer Parts",
-                "value": 14080
+                "type": "4\u2605 uncommon explorer parts",
+                "value": 3960
               }
             ]
           },
@@ -1089,12 +1109,12 @@
             ],
             "others": [
               {
-                "type": "4\u2605 Uncommon Explorer Parts",
-                "value": 2280
+                "type": "4\u2605 common explorer parts",
+                "value": 8100
               },
               {
-                "type": "4\u2605 Common Explorer Parts",
-                "value": 8100
+                "type": "4\u2605 uncommon explorer parts",
+                "value": 2280
               }
             ]
           },
@@ -1128,26 +1148,26 @@
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 1580,
+                "type": "ore",
+                "value": 860,
                 "grade": 4,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 860,
+                "type": "gas",
+                "value": 1580,
                 "grade": 4,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "4\u2605 Uncommon Explorer Parts",
-                "value": 1000
+                "type": "4\u2605 common explorer parts",
+                "value": 3520
               },
               {
-                "type": "4\u2605 Common Explorer Parts",
-                "value": 3520
+                "type": "4\u2605 uncommon explorer parts",
+                "value": 1000
               }
             ]
           },
@@ -1183,26 +1203,26 @@
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 3640,
+                "type": "ore",
+                "value": 1960,
                 "grade": 4,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 1960,
+                "type": "gas",
+                "value": 3640,
                 "grade": 4,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "4\u2605 Uncommon Explorer Parts",
-                "value": 2280
+                "type": "4\u2605 common explorer parts",
+                "value": 8100
               },
               {
-                "type": "4\u2605 Common Explorer Parts",
-                "value": 8100
+                "type": "4\u2605 uncommon explorer parts",
+                "value": 2280
               }
             ]
           },
@@ -1250,12 +1270,12 @@
             ],
             "others": [
               {
-                "type": "4\u2605 Uncommon Explorer Parts",
-                "value": 2280
+                "type": "4\u2605 common explorer parts",
+                "value": 8100
               },
               {
-                "type": "4\u2605 Common Explorer Parts",
-                "value": 8100
+                "type": "4\u2605 uncommon explorer parts",
+                "value": 2280
               }
             ]
           },
@@ -1307,12 +1327,12 @@
             ],
             "others": [
               {
-                "type": "4\u2605 Uncommon Explorer Parts",
-                "value": 2080
+                "type": "4\u2605 common explorer parts",
+                "value": 7400
               },
               {
-                "type": "4\u2605 Common Explorer Parts",
-                "value": 7400
+                "type": "4\u2605 uncommon explorer parts",
+                "value": 2080
               }
             ]
           },
@@ -1346,11 +1366,35 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 3512239
+                "value": 281164552
               },
               {
                 "type": "dilithium",
-                "value": 172918
+                "value": 7250965
+              },
+              {
+                "type": "ore",
+                "value": 106,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 193,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "ore",
+                "value": 1365,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 2689,
+                "grade": 5,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
@@ -1361,24 +1405,8 @@
                 "value": 653
               },
               {
-                "type": "5\u2605 common refined gas",
-                "value": 2689
-              },
-              {
-                "type": "4\u2605 uncommon refined ore",
-                "value": 106
-              },
-              {
                 "type": "5\u2605 common explorer parts",
                 "value": 17312
-              },
-              {
-                "type": "5\u2605 common refined ore",
-                "value": 1365
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 193
               }
             ]
           }
@@ -1393,11 +1421,35 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 3512239
+                "value": 281164552
               },
               {
                 "type": "dilithium",
-                "value": 172918
+                "value": 7250965
+              },
+              {
+                "type": "ore",
+                "value": 112,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 204,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "ore",
+                "value": 1395,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 2763,
+                "grade": 5,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
@@ -1408,24 +1460,8 @@
                 "value": 680
               },
               {
-                "type": "5\u2605 common refined gas",
-                "value": 2763
-              },
-              {
-                "type": "4\u2605 uncommon refined ore",
-                "value": 112
-              },
-              {
                 "type": "5\u2605 common explorer parts",
                 "value": 17845
-              },
-              {
-                "type": "5\u2605 common refined ore",
-                "value": 1395
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 204
               }
             ]
           }
@@ -1440,11 +1476,35 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 3512239
+                "value": 281164552
               },
               {
                 "type": "dilithium",
-                "value": 172918
+                "value": 7250965
+              },
+              {
+                "type": "ore",
+                "value": 119,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 216,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "ore",
+                "value": 1425,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 2839,
+                "grade": 5,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
@@ -1455,24 +1515,8 @@
                 "value": 708
               },
               {
-                "type": "5\u2605 common refined gas",
-                "value": 2839
-              },
-              {
-                "type": "4\u2605 uncommon refined ore",
-                "value": 119
-              },
-              {
                 "type": "5\u2605 common explorer parts",
                 "value": 18396
-              },
-              {
-                "type": "5\u2605 common refined ore",
-                "value": 1425
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 216
               }
             ]
           }
@@ -1487,11 +1531,35 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 3512239
+                "value": 281164552
               },
               {
                 "type": "dilithium",
-                "value": 172918
+                "value": 7250965
+              },
+              {
+                "type": "ore",
+                "value": 125,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 228,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "ore",
+                "value": 1455,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 2918,
+                "grade": 5,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
@@ -1502,31 +1570,15 @@
                 "value": 737
               },
               {
-                "type": "5\u2605 common refined gas",
-                "value": 2918
-              },
-              {
-                "type": "4\u2605 uncommon refined ore",
-                "value": 125
-              },
-              {
                 "type": "5\u2605 common explorer parts",
                 "value": 18963
-              },
-              {
-                "type": "5\u2605 common refined ore",
-                "value": 1455
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 228
               }
             ]
           }
         },
         {
           "ability_bonus": 0.29,
-          "additional_officer_slot": true,
+          "additional_officer_slot": false,
           "level": 15,
           "ship_xp": 318000,
           "scrap_details": {
@@ -1534,11 +1586,35 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 3512239
+                "value": 281164552
               },
               {
                 "type": "dilithium",
-                "value": 172918
+                "value": 7250965
+              },
+              {
+                "type": "ore",
+                "value": 132,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 241,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "ore",
+                "value": 1486,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 2999,
+                "grade": 5,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
@@ -1549,24 +1625,8 @@
                 "value": 768
               },
               {
-                "type": "5\u2605 common refined gas",
-                "value": 2999
-              },
-              {
-                "type": "4\u2605 uncommon refined ore",
-                "value": 132
-              },
-              {
                 "type": "5\u2605 common explorer parts",
                 "value": 19548
-              },
-              {
-                "type": "5\u2605 common refined ore",
-                "value": 1486
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 241
               }
             ]
           }
@@ -1608,12 +1668,12 @@
             ],
             "others": [
               {
-                "type": "4\u2605 Uncommon Explorer Parts",
-                "value": 5040
+                "type": "4\u2605 common explorer parts",
+                "value": 17860
               },
               {
-                "type": "4\u2605 Common Explorer Parts",
-                "value": 17860
+                "type": "4\u2605 uncommon explorer parts",
+                "value": 5040
               }
             ]
           },
@@ -1682,12 +1742,12 @@
             ],
             "others": [
               {
-                "type": "4\u2605 Uncommon Explorer Parts",
-                "value": 6700
+                "type": "4\u2605 common explorer parts",
+                "value": 23800
               },
               {
-                "type": "4\u2605 Common Explorer Parts",
-                "value": 23800
+                "type": "4\u2605 uncommon explorer parts",
+                "value": 6700
               }
             ]
           },
@@ -1756,12 +1816,12 @@
             ],
             "others": [
               {
-                "type": "4\u2605 Uncommon Explorer Parts",
-                "value": 3860
+                "type": "4\u2605 common explorer parts",
+                "value": 13680
               },
               {
-                "type": "4\u2605 Common Explorer Parts",
-                "value": 13680
+                "type": "4\u2605 uncommon explorer parts",
+                "value": 3860
               }
             ]
           },
@@ -1795,26 +1855,26 @@
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 2680,
+                "type": "ore",
+                "value": 1440,
                 "grade": 4,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 1440,
+                "type": "gas",
+                "value": 2680,
                 "grade": 4,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "4\u2605 Uncommon Explorer Parts",
-                "value": 1680
+                "type": "4\u2605 common explorer parts",
+                "value": 5960
               },
               {
-                "type": "4\u2605 Common Explorer Parts",
-                "value": 5960
+                "type": "4\u2605 uncommon explorer parts",
+                "value": 1680
               }
             ]
           },
@@ -1850,26 +1910,26 @@
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 6160,
+                "type": "ore",
+                "value": 3320,
                 "grade": 4,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 3320,
+                "type": "gas",
+                "value": 6160,
                 "grade": 4,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "4\u2605 Uncommon Explorer Parts",
-                "value": 3860
+                "type": "4\u2605 common explorer parts",
+                "value": 13680
               },
               {
-                "type": "4\u2605 Common Explorer Parts",
-                "value": 13680
+                "type": "4\u2605 uncommon explorer parts",
+                "value": 3860
               }
             ]
           },
@@ -1917,12 +1977,12 @@
             ],
             "others": [
               {
-                "type": "4\u2605 Uncommon Explorer Parts",
-                "value": 3860
+                "type": "4\u2605 common explorer parts",
+                "value": 13680
               },
               {
-                "type": "4\u2605 Common Explorer Parts",
-                "value": 13680
+                "type": "4\u2605 uncommon explorer parts",
+                "value": 3860
               }
             ]
           },
@@ -1974,12 +2034,12 @@
             ],
             "others": [
               {
-                "type": "4\u2605 Uncommon Explorer Parts",
-                "value": 3520
+                "type": "4\u2605 common explorer parts",
+                "value": 12500
               },
               {
-                "type": "4\u2605 Common Explorer Parts",
-                "value": 12500
+                "type": "4\u2605 uncommon explorer parts",
+                "value": 3520
               }
             ]
           },
@@ -2013,11 +2073,35 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 3512239
+                "value": 518805861
               },
               {
                 "type": "dilithium",
-                "value": 172918
+                "value": 13124072
+              },
+              {
+                "type": "ore",
+                "value": 371,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 684,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "ore",
+                "value": 2242,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 4552,
+                "grade": 5,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
@@ -2028,24 +2112,8 @@
                 "value": 2153
               },
               {
-                "type": "5\u2605 common refined gas",
-                "value": 4552
-              },
-              {
-                "type": "4\u2605 uncommon refined ore",
-                "value": 371
-              },
-              {
                 "type": "5\u2605 common explorer parts",
                 "value": 42941
-              },
-              {
-                "type": "5\u2605 common refined ore",
-                "value": 2242
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 684
               }
             ]
           }
@@ -2060,11 +2128,35 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 3512239
+                "value": 518805861
               },
               {
                 "type": "dilithium",
-                "value": 172918
+                "value": 13124072
+              },
+              {
+                "type": "ore",
+                "value": 392,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 723,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "ore",
+                "value": 2290,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 4678,
+                "grade": 5,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
@@ -2075,24 +2167,8 @@
                 "value": 2242
               },
               {
-                "type": "5\u2605 common refined gas",
-                "value": 4678
-              },
-              {
-                "type": "4\u2605 uncommon refined ore",
-                "value": 392
-              },
-              {
                 "type": "5\u2605 common explorer parts",
                 "value": 44265
-              },
-              {
-                "type": "5\u2605 common refined ore",
-                "value": 2290
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 723
               }
             ]
           }
@@ -2107,11 +2183,35 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 3512239
+                "value": 518805861
               },
               {
                 "type": "dilithium",
-                "value": 172918
+                "value": 13124072
+              },
+              {
+                "type": "ore",
+                "value": 414,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 763,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "ore",
+                "value": 2339,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 4807,
+                "grade": 5,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
@@ -2122,24 +2222,8 @@
                 "value": 2336
               },
               {
-                "type": "5\u2605 common refined gas",
-                "value": 4807
-              },
-              {
-                "type": "4\u2605 uncommon refined ore",
-                "value": 414
-              },
-              {
                 "type": "5\u2605 common explorer parts",
                 "value": 45629
-              },
-              {
-                "type": "5\u2605 common refined ore",
-                "value": 2339
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 763
               }
             ]
           }
@@ -2154,11 +2238,35 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 3512239
+                "value": 518805861
               },
               {
                 "type": "dilithium",
-                "value": 172918
+                "value": 13124072
+              },
+              {
+                "type": "ore",
+                "value": 437,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 806,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "ore",
+                "value": 2389,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 4940,
+                "grade": 5,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
@@ -2169,24 +2277,8 @@
                 "value": 2433
               },
               {
-                "type": "5\u2605 common refined gas",
-                "value": 4940
-              },
-              {
-                "type": "4\u2605 uncommon refined ore",
-                "value": 437
-              },
-              {
                 "type": "5\u2605 common explorer parts",
                 "value": 47036
-              },
-              {
-                "type": "5\u2605 common refined ore",
-                "value": 2389
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 806
               }
             ]
           }
@@ -2201,11 +2293,35 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 3512239
+                "value": 518805861
               },
               {
                 "type": "dilithium",
-                "value": 172918
+                "value": 13124072
+              },
+              {
+                "type": "ore",
+                "value": 461,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 851,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "ore",
+                "value": 2440,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 5077,
+                "grade": 5,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
@@ -2216,24 +2332,8 @@
                 "value": 2534
               },
               {
-                "type": "5\u2605 common refined gas",
-                "value": 5077
-              },
-              {
-                "type": "4\u2605 uncommon refined ore",
-                "value": 461
-              },
-              {
                 "type": "5\u2605 common explorer parts",
                 "value": 48487
-              },
-              {
-                "type": "5\u2605 common refined ore",
-                "value": 2440
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 851
               }
             ]
           }
@@ -2275,12 +2375,12 @@
             ],
             "others": [
               {
-                "type": "4\u2605 Uncommon Explorer Parts",
-                "value": 7840
+                "type": "4\u2605 common explorer parts",
+                "value": 27820
               },
               {
-                "type": "4\u2605 Common Explorer Parts",
-                "value": 27820
+                "type": "4\u2605 uncommon explorer parts",
+                "value": 7840
               }
             ]
           },
@@ -2349,12 +2449,12 @@
             ],
             "others": [
               {
-                "type": "4\u2605 Uncommon Explorer Parts",
-                "value": 10460
+                "type": "4\u2605 common explorer parts",
+                "value": 37080
               },
               {
-                "type": "4\u2605 Common Explorer Parts",
-                "value": 37080
+                "type": "4\u2605 uncommon explorer parts",
+                "value": 10460
               }
             ]
           },
@@ -2423,12 +2523,12 @@
             ],
             "others": [
               {
-                "type": "4\u2605 Uncommon Explorer Parts",
-                "value": 6000
+                "type": "4\u2605 common explorer parts",
+                "value": 21320
               },
               {
-                "type": "4\u2605 Common Explorer Parts",
-                "value": 21320
+                "type": "4\u2605 uncommon explorer parts",
+                "value": 6000
               }
             ]
           },
@@ -2462,26 +2562,26 @@
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 4160,
+                "type": "ore",
+                "value": 2260,
                 "grade": 4,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 2260,
+                "type": "gas",
+                "value": 4160,
                 "grade": 4,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "4\u2605 Uncommon Explorer Parts",
-                "value": 2620
+                "type": "4\u2605 common explorer parts",
+                "value": 9280
               },
               {
-                "type": "4\u2605 Common Explorer Parts",
-                "value": 9280
+                "type": "4\u2605 uncommon explorer parts",
+                "value": 2620
               }
             ]
           },
@@ -2517,26 +2617,26 @@
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 9580,
+                "type": "ore",
+                "value": 5180,
                 "grade": 4,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 5180,
+                "type": "gas",
+                "value": 9580,
                 "grade": 4,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "4\u2605 Uncommon Explorer Parts",
-                "value": 6000
+                "type": "4\u2605 common explorer parts",
+                "value": 21320
               },
               {
-                "type": "4\u2605 Common Explorer Parts",
-                "value": 21320
+                "type": "4\u2605 uncommon explorer parts",
+                "value": 6000
               }
             ]
           },
@@ -2584,12 +2684,12 @@
             ],
             "others": [
               {
-                "type": "4\u2605 Uncommon Explorer Parts",
-                "value": 6000
+                "type": "4\u2605 common explorer parts",
+                "value": 21320
               },
               {
-                "type": "4\u2605 Common Explorer Parts",
-                "value": 21320
+                "type": "4\u2605 uncommon explorer parts",
+                "value": 6000
               }
             ]
           },
@@ -2641,12 +2741,12 @@
             ],
             "others": [
               {
-                "type": "4\u2605 Uncommon Explorer Parts",
-                "value": 5480
+                "type": "4\u2605 common explorer parts",
+                "value": 19480
               },
               {
-                "type": "4\u2605 Common Explorer Parts",
-                "value": 19480
+                "type": "4\u2605 uncommon explorer parts",
+                "value": 5480
               }
             ]
           },
@@ -2680,11 +2780,35 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 3512239
+                "value": 884553669
               },
               {
                 "type": "dilithium",
-                "value": 172918
+                "value": 22027572
+              },
+              {
+                "type": "ore",
+                "value": 961,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 1782,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "ore",
+                "value": 3750,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 7837,
+                "grade": 5,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
@@ -2695,24 +2819,8 @@
                 "value": 5223
               },
               {
-                "type": "5\u2605 common refined gas",
-                "value": 7837
-              },
-              {
-                "type": "4\u2605 uncommon refined ore",
-                "value": 961
-              },
-              {
                 "type": "5\u2605 common explorer parts",
                 "value": 91315
-              },
-              {
-                "type": "5\u2605 common refined ore",
-                "value": 3750
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 1782
               }
             ]
           }
@@ -2727,11 +2835,35 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 3512239
+                "value": 884553669
               },
               {
                 "type": "dilithium",
-                "value": 172918
+                "value": 22027572
+              },
+              {
+                "type": "ore",
+                "value": 1015,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 1882,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "ore",
+                "value": 3830,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 8054,
+                "grade": 5,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
@@ -2742,24 +2874,8 @@
                 "value": 5440
               },
               {
-                "type": "5\u2605 common refined gas",
-                "value": 8054
-              },
-              {
-                "type": "4\u2605 uncommon refined ore",
-                "value": 1015
-              },
-              {
                 "type": "5\u2605 common explorer parts",
                 "value": 94130
-              },
-              {
-                "type": "5\u2605 common refined ore",
-                "value": 3830
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 1882
               }
             ]
           }
@@ -2774,11 +2890,35 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 3512239
+                "value": 884553669
               },
               {
                 "type": "dilithium",
-                "value": 172918
+                "value": 22027572
+              },
+              {
+                "type": "ore",
+                "value": 1072,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 1988,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "ore",
+                "value": 3912,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 8277,
+                "grade": 5,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
@@ -2789,24 +2929,8 @@
                 "value": 5667
               },
               {
-                "type": "5\u2605 common refined gas",
-                "value": 8277
-              },
-              {
-                "type": "4\u2605 uncommon refined ore",
-                "value": 1072
-              },
-              {
                 "type": "5\u2605 common explorer parts",
                 "value": 97033
-              },
-              {
-                "type": "5\u2605 common refined ore",
-                "value": 3912
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 1988
               }
             ]
           }
@@ -2821,11 +2945,35 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 3512239
+                "value": 884553669
               },
               {
                 "type": "dilithium",
-                "value": 172918
+                "value": 22027572
+              },
+              {
+                "type": "ore",
+                "value": 1132,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 2099,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "ore",
+                "value": 3996,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 8505,
+                "grade": 5,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
@@ -2836,24 +2984,8 @@
                 "value": 5903
               },
               {
-                "type": "5\u2605 common refined gas",
-                "value": 8505
-              },
-              {
-                "type": "4\u2605 uncommon refined ore",
-                "value": 1132
-              },
-              {
                 "type": "5\u2605 common explorer parts",
                 "value": 100025
-              },
-              {
-                "type": "5\u2605 common refined ore",
-                "value": 3996
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 2099
               }
             ]
           }
@@ -2868,11 +3000,35 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 3512239
+                "value": 884553669
               },
               {
                 "type": "dilithium",
-                "value": 172918
+                "value": 22027572
+              },
+              {
+                "type": "ore",
+                "value": 1196,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 2217,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "ore",
+                "value": 4082,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 8741,
+                "grade": 5,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
@@ -2883,24 +3039,8 @@
                 "value": 6149
               },
               {
-                "type": "5\u2605 common refined gas",
-                "value": 8741
-              },
-              {
-                "type": "4\u2605 uncommon refined ore",
-                "value": 1196
-              },
-              {
                 "type": "5\u2605 common explorer parts",
                 "value": 103109
-              },
-              {
-                "type": "5\u2605 common refined ore",
-                "value": 4082
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 2217
               }
             ]
           }
@@ -2942,12 +3082,12 @@
             ],
             "others": [
               {
-                "type": "4\u2605 Uncommon Explorer Parts",
-                "value": 11260
+                "type": "4\u2605 common explorer parts",
+                "value": 42225
               },
               {
-                "type": "4\u2605 Common Explorer Parts",
-                "value": 42225
+                "type": "4\u2605 uncommon explorer parts",
+                "value": 11260
               }
             ]
           },
@@ -3016,12 +3156,12 @@
             ],
             "others": [
               {
-                "type": "4\u2605 Uncommon Explorer Parts",
-                "value": 15015
+                "type": "4\u2605 common explorer parts",
+                "value": 56300
               },
               {
-                "type": "4\u2605 Common Explorer Parts",
-                "value": 56300
+                "type": "4\u2605 uncommon explorer parts",
+                "value": 15015
               }
             ]
           },
@@ -3090,12 +3230,12 @@
             ],
             "others": [
               {
-                "type": "4\u2605 Uncommon Explorer Parts",
-                "value": 8635
+                "type": "4\u2605 common explorer parts",
+                "value": 32375
               },
               {
-                "type": "4\u2605 Common Explorer Parts",
-                "value": 32375
+                "type": "4\u2605 uncommon explorer parts",
+                "value": 8635
               }
             ]
           },
@@ -3129,26 +3269,26 @@
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 6965,
+                "type": "ore",
+                "value": 2435,
                 "grade": 4,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 2435,
+                "type": "gas",
+                "value": 6965,
                 "grade": 4,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "4\u2605 Uncommon Explorer Parts",
-                "value": 3755
+                "type": "4\u2605 common explorer parts",
+                "value": 14075
               },
               {
-                "type": "4\u2605 Common Explorer Parts",
-                "value": 14075
+                "type": "4\u2605 uncommon explorer parts",
+                "value": 3755
               }
             ]
           },
@@ -3184,26 +3324,26 @@
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 16015,
+                "type": "ore",
+                "value": 9840,
                 "grade": 4,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 9840,
+                "type": "gas",
+                "value": 16015,
                 "grade": 4,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "4\u2605 Uncommon Explorer Parts",
-                "value": 8635
+                "type": "4\u2605 common explorer parts",
+                "value": 32375
               },
               {
-                "type": "4\u2605 Common Explorer Parts",
-                "value": 32375
+                "type": "4\u2605 uncommon explorer parts",
+                "value": 8635
               }
             ]
           },
@@ -3251,12 +3391,12 @@
             ],
             "others": [
               {
-                "type": "4\u2605 Uncommon Explorer Parts",
-                "value": 8635
+                "type": "4\u2605 common explorer parts",
+                "value": 32375
               },
               {
-                "type": "4\u2605 Common Explorer Parts",
-                "value": 32375
+                "type": "4\u2605 uncommon explorer parts",
+                "value": 8635
               }
             ]
           },
@@ -3308,12 +3448,12 @@
             ],
             "others": [
               {
-                "type": "4\u2605 Uncommon Explorer Parts",
-                "value": 7880
+                "type": "4\u2605 common explorer parts",
+                "value": 29560
               },
               {
-                "type": "4\u2605 Common Explorer Parts",
-                "value": 29560
+                "type": "4\u2605 uncommon explorer parts",
+                "value": 7880
               }
             ]
           },
@@ -3347,11 +3487,35 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 3512239
+                "value": 1436233262
               },
               {
                 "type": "dilithium",
-                "value": 172918
+                "value": 33979119
+              },
+              {
+                "type": "ore",
+                "value": 2048,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 3959,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "ore",
+                "value": 6476,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 14004,
+                "grade": 5,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
@@ -3362,24 +3526,8 @@
                 "value": 10957
               },
               {
-                "type": "5\u2605 common refined gas",
-                "value": 14004
-              },
-              {
-                "type": "4\u2605 uncommon refined ore",
-                "value": 2048
-              },
-              {
                 "type": "5\u2605 common explorer parts",
                 "value": 179326
-              },
-              {
-                "type": "5\u2605 common refined ore",
-                "value": 6476
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 3959
               }
             ]
           }
@@ -3394,11 +3542,35 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 3512239
+                "value": 1436233262
               },
               {
                 "type": "dilithium",
-                "value": 172918
+                "value": 33979119
+              },
+              {
+                "type": "ore",
+                "value": 2163,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 4181,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "ore",
+                "value": 6615,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 14392,
+                "grade": 5,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
@@ -3409,24 +3581,8 @@
                 "value": 11413
               },
               {
-                "type": "5\u2605 common refined gas",
-                "value": 14392
-              },
-              {
-                "type": "4\u2605 uncommon refined ore",
-                "value": 2163
-              },
-              {
                 "type": "5\u2605 common explorer parts",
                 "value": 184856
-              },
-              {
-                "type": "5\u2605 common refined ore",
-                "value": 6615
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 4181
               }
             ]
           }
@@ -3441,11 +3597,35 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 3512239
+                "value": 1436233262
               },
               {
                 "type": "dilithium",
-                "value": 172918
+                "value": 33979119
+              },
+              {
+                "type": "ore",
+                "value": 2284,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 4415,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "ore",
+                "value": 6757,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 14790,
+                "grade": 5,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
@@ -3456,24 +3636,8 @@
                 "value": 11888
               },
               {
-                "type": "5\u2605 common refined gas",
-                "value": 14790
-              },
-              {
-                "type": "4\u2605 uncommon refined ore",
-                "value": 2284
-              },
-              {
                 "type": "5\u2605 common explorer parts",
                 "value": 190556
-              },
-              {
-                "type": "5\u2605 common refined ore",
-                "value": 6757
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 4415
               }
             ]
           }
@@ -3488,11 +3652,35 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 3512239
+                "value": 1436233262
               },
               {
                 "type": "dilithium",
-                "value": 172918
+                "value": 33979119
+              },
+              {
+                "type": "ore",
+                "value": 2412,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 4663,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "ore",
+                "value": 6902,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 15199,
+                "grade": 5,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
@@ -3503,31 +3691,15 @@
                 "value": 12384
               },
               {
-                "type": "5\u2605 common refined gas",
-                "value": 15199
-              },
-              {
-                "type": "4\u2605 uncommon refined ore",
-                "value": 2412
-              },
-              {
                 "type": "5\u2605 common explorer parts",
                 "value": 196431
-              },
-              {
-                "type": "5\u2605 common refined ore",
-                "value": 6902
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 4663
               }
             ]
           }
         },
         {
           "ability_bonus": 0.44,
-          "additional_officer_slot": true,
+          "additional_officer_slot": false,
           "level": 30,
           "ship_xp": 1640000,
           "scrap_details": {
@@ -3535,11 +3707,35 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 3512239
+                "value": 1436233262
               },
               {
                 "type": "dilithium",
-                "value": 172918
+                "value": 33979119
+              },
+              {
+                "type": "ore",
+                "value": 2548,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 4924,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "ore",
+                "value": 7050,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 15619,
+                "grade": 5,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
@@ -3550,24 +3746,8 @@
                 "value": 12900
               },
               {
-                "type": "5\u2605 common refined gas",
-                "value": 15619
-              },
-              {
-                "type": "4\u2605 uncommon refined ore",
-                "value": 2548
-              },
-              {
                 "type": "5\u2605 common explorer parts",
                 "value": 202488
-              },
-              {
-                "type": "5\u2605 common refined ore",
-                "value": 7050
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 4924
               }
             ]
           }
@@ -3609,12 +3789,12 @@
             ],
             "others": [
               {
-                "type": "4\u2605 Uncommon Explorer Parts",
-                "value": 16665
+                "type": "4\u2605 common explorer parts",
+                "value": 62105
               },
               {
-                "type": "4\u2605 Common Explorer Parts",
-                "value": 62105
+                "type": "4\u2605 uncommon explorer parts",
+                "value": 16665
               }
             ]
           },
@@ -3683,12 +3863,12 @@
             ],
             "others": [
               {
-                "type": "4\u2605 Uncommon Explorer Parts",
-                "value": 22220
+                "type": "4\u2605 common explorer parts",
+                "value": 82810
               },
               {
-                "type": "4\u2605 Common Explorer Parts",
-                "value": 82810
+                "type": "4\u2605 uncommon explorer parts",
+                "value": 22220
               }
             ]
           },
@@ -3757,12 +3937,12 @@
             ],
             "others": [
               {
-                "type": "4\u2605 Uncommon Explorer Parts",
-                "value": 12780
+                "type": "4\u2605 common explorer parts",
+                "value": 47615
               },
               {
-                "type": "4\u2605 Common Explorer Parts",
-                "value": 47615
+                "type": "4\u2605 uncommon explorer parts",
+                "value": 12780
               }
             ]
           },
@@ -3796,26 +3976,26 @@
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 14340,
+                "type": "ore",
+                "value": 5020,
                 "grade": 4,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 5020,
+                "type": "gas",
+                "value": 14340,
                 "grade": 4,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "4\u2605 Uncommon Explorer Parts",
-                "value": 5555
+                "type": "4\u2605 common explorer parts",
+                "value": 20700
               },
               {
-                "type": "4\u2605 Common Explorer Parts",
-                "value": 20700
+                "type": "4\u2605 uncommon explorer parts",
+                "value": 5555
               }
             ]
           },
@@ -3851,26 +4031,26 @@
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 32980,
+                "type": "ore",
+                "value": 16565,
                 "grade": 4,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 16565,
+                "type": "gas",
+                "value": 32980,
                 "grade": 4,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "4\u2605 Uncommon Explorer Parts",
-                "value": 12780
+                "type": "4\u2605 common explorer parts",
+                "value": 47615
               },
               {
-                "type": "4\u2605 Common Explorer Parts",
-                "value": 47615
+                "type": "4\u2605 uncommon explorer parts",
+                "value": 12780
               }
             ]
           },
@@ -3918,12 +4098,12 @@
             ],
             "others": [
               {
-                "type": "4\u2605 Uncommon Explorer Parts",
-                "value": 12780
+                "type": "4\u2605 common explorer parts",
+                "value": 47615
               },
               {
-                "type": "4\u2605 Common Explorer Parts",
-                "value": 47615
+                "type": "4\u2605 uncommon explorer parts",
+                "value": 12780
               }
             ]
           },
@@ -3975,12 +4155,12 @@
             ],
             "others": [
               {
-                "type": "4\u2605 Uncommon Explorer Parts",
-                "value": 11665
+                "type": "4\u2605 common explorer parts",
+                "value": 43475
               },
               {
-                "type": "4\u2605 Common Explorer Parts",
-                "value": 43475
+                "type": "4\u2605 uncommon explorer parts",
+                "value": 11665
               }
             ]
           },
@@ -4014,11 +4194,35 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 3512239
+                "value": 2347079616
               },
               {
                 "type": "dilithium",
-                "value": 172918
+                "value": 54651731
+              },
+              {
+                "type": "ore",
+                "value": 4206,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 8359,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "ore",
+                "value": 11711,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 27903,
+                "grade": 5,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
@@ -4029,24 +4233,8 @@
                 "value": 21699
               },
               {
-                "type": "5\u2605 common refined gas",
-                "value": 27903
-              },
-              {
-                "type": "4\u2605 uncommon refined ore",
-                "value": 4206
-              },
-              {
                 "type": "5\u2605 common explorer parts",
                 "value": 333769
-              },
-              {
-                "type": "5\u2605 common refined ore",
-                "value": 11711
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 8359
               }
             ]
           }
@@ -4061,11 +4249,35 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 3512239
+                "value": 2347079616
               },
               {
                 "type": "dilithium",
-                "value": 172918
+                "value": 54651731
+              },
+              {
+                "type": "ore",
+                "value": 4442,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 8827,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "ore",
+                "value": 11962,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 28675,
+                "grade": 5,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
@@ -4076,24 +4288,8 @@
                 "value": 22603
               },
               {
-                "type": "5\u2605 common refined gas",
-                "value": 28675
-              },
-              {
-                "type": "4\u2605 uncommon refined ore",
-                "value": 4442
-              },
-              {
                 "type": "5\u2605 common explorer parts",
                 "value": 344061
-              },
-              {
-                "type": "5\u2605 common refined ore",
-                "value": 11962
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 8827
               }
             ]
           }
@@ -4108,11 +4304,35 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 3512239
+                "value": 2347079616
               },
               {
                 "type": "dilithium",
-                "value": 172918
+                "value": 54651731
+              },
+              {
+                "type": "ore",
+                "value": 4691,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 9322,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "ore",
+                "value": 12219,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 29468,
+                "grade": 5,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
@@ -4123,24 +4343,8 @@
                 "value": 23544
               },
               {
-                "type": "5\u2605 common refined gas",
-                "value": 29468
-              },
-              {
-                "type": "4\u2605 uncommon refined ore",
-                "value": 4691
-              },
-              {
                 "type": "5\u2605 common explorer parts",
                 "value": 354670
-              },
-              {
-                "type": "5\u2605 common refined ore",
-                "value": 12219
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 9322
               }
             ]
           }
@@ -4155,11 +4359,35 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 3512239
+                "value": 2347079616
               },
               {
                 "type": "dilithium",
-                "value": 172918
+                "value": 54651731
+              },
+              {
+                "type": "ore",
+                "value": 4954,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 9845,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "ore",
+                "value": 12481,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 30283,
+                "grade": 5,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
@@ -4170,24 +4398,8 @@
                 "value": 24525
               },
               {
-                "type": "5\u2605 common refined gas",
-                "value": 30283
-              },
-              {
-                "type": "4\u2605 uncommon refined ore",
-                "value": 4954
-              },
-              {
                 "type": "5\u2605 common explorer parts",
                 "value": 365606
-              },
-              {
-                "type": "5\u2605 common refined ore",
-                "value": 12481
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 9845
               }
             ]
           }
@@ -4202,11 +4414,35 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 3512239
+                "value": 2347079616
               },
               {
                 "type": "dilithium",
-                "value": 172918
+                "value": 54651731
+              },
+              {
+                "type": "ore",
+                "value": 5231,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 10397,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "ore",
+                "value": 12749,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 31120,
+                "grade": 5,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
@@ -4217,24 +4453,8 @@
                 "value": 25547
               },
               {
-                "type": "5\u2605 common refined gas",
-                "value": 31120
-              },
-              {
-                "type": "4\u2605 uncommon refined ore",
-                "value": 5231
-              },
-              {
                 "type": "5\u2605 common explorer parts",
                 "value": 376880
-              },
-              {
-                "type": "5\u2605 common refined ore",
-                "value": 12749
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 10397
               }
             ]
           }
@@ -4276,12 +4496,12 @@
             ],
             "others": [
               {
-                "type": "4\u2605 Uncommon Explorer Parts",
-                "value": 23725
+                "type": "4\u2605 common explorer parts",
+                "value": 88405
               },
               {
-                "type": "4\u2605 Common Explorer Parts",
-                "value": 88405
+                "type": "4\u2605 uncommon explorer parts",
+                "value": 23725
               }
             ]
           },
@@ -4350,12 +4570,12 @@
             ],
             "others": [
               {
-                "type": "4\u2605 Uncommon Explorer Parts",
-                "value": 31630
+                "type": "4\u2605 common explorer parts",
+                "value": 117870
               },
               {
-                "type": "4\u2605 Common Explorer Parts",
-                "value": 117870
+                "type": "4\u2605 uncommon explorer parts",
+                "value": 31630
               }
             ]
           },
@@ -4424,12 +4644,12 @@
             ],
             "others": [
               {
-                "type": "4\u2605 Uncommon Explorer Parts",
-                "value": 18190
+                "type": "4\u2605 common explorer parts",
+                "value": 67775
               },
               {
-                "type": "4\u2605 Common Explorer Parts",
-                "value": 67775
+                "type": "4\u2605 uncommon explorer parts",
+                "value": 18190
               }
             ]
           },
@@ -4463,26 +4683,26 @@
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 25515,
+                "type": "ore",
+                "value": 8930,
                 "grade": 4,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 8930,
+                "type": "gas",
+                "value": 25515,
                 "grade": 4,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "4\u2605 Uncommon Explorer Parts",
-                "value": 7910
+                "type": "4\u2605 common explorer parts",
+                "value": 29470
               },
               {
-                "type": "4\u2605 Common Explorer Parts",
-                "value": 29470
+                "type": "4\u2605 uncommon explorer parts",
+                "value": 7910
               }
             ]
           },
@@ -4518,26 +4738,26 @@
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 58680,
+                "type": "ore",
+                "value": 26330,
                 "grade": 4,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 26330,
+                "type": "gas",
+                "value": 58680,
                 "grade": 4,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "4\u2605 Uncommon Explorer Parts",
-                "value": 18190
+                "type": "4\u2605 common explorer parts",
+                "value": 67775
               },
               {
-                "type": "4\u2605 Common Explorer Parts",
-                "value": 67775
+                "type": "4\u2605 uncommon explorer parts",
+                "value": 18190
               }
             ]
           },
@@ -4585,12 +4805,12 @@
             ],
             "others": [
               {
-                "type": "4\u2605 Uncommon Explorer Parts",
-                "value": 18190
+                "type": "4\u2605 common explorer parts",
+                "value": 67775
               },
               {
-                "type": "4\u2605 Common Explorer Parts",
-                "value": 67775
+                "type": "4\u2605 uncommon explorer parts",
+                "value": 18190
               }
             ]
           },
@@ -4642,12 +4862,12 @@
             ],
             "others": [
               {
-                "type": "4\u2605 Uncommon Explorer Parts",
-                "value": 16605
+                "type": "4\u2605 common explorer parts",
+                "value": 61885
               },
               {
-                "type": "4\u2605 Common Explorer Parts",
-                "value": 61885
+                "type": "4\u2605 uncommon explorer parts",
+                "value": 16605
               }
             ]
           },
@@ -4681,11 +4901,35 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 3512239
+                "value": 4923679928
               },
               {
                 "type": "dilithium",
-                "value": 172918
+                "value": 153686516
+              },
+              {
+                "type": "ore",
+                "value": 8358,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 17036,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "ore",
+                "value": 21214,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 56151,
+                "grade": 5,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
@@ -4696,24 +4940,8 @@
                 "value": 41034
               },
               {
-                "type": "5\u2605 common refined gas",
-                "value": 56151
-              },
-              {
-                "type": "4\u2605 uncommon refined ore",
-                "value": 8358
-              },
-              {
                 "type": "5\u2605 common explorer parts",
                 "value": 595668
-              },
-              {
-                "type": "5\u2605 common refined ore",
-                "value": 21214
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 17036
               }
             ]
           }
@@ -4728,11 +4956,35 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 3512239
+                "value": 4923679928
               },
               {
                 "type": "dilithium",
-                "value": 172918
+                "value": 153686516
+              },
+              {
+                "type": "ore",
+                "value": 8827,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 17992,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "ore",
+                "value": 21670,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 57703,
+                "grade": 5,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
@@ -4743,24 +4995,8 @@
                 "value": 42743
               },
               {
-                "type": "5\u2605 common refined gas",
-                "value": 57703
-              },
-              {
-                "type": "4\u2605 uncommon refined ore",
-                "value": 8827
-              },
-              {
                 "type": "5\u2605 common explorer parts",
                 "value": 614036
-              },
-              {
-                "type": "5\u2605 common refined ore",
-                "value": 21670
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 17992
               }
             ]
           }
@@ -4775,11 +5011,35 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 3512239
+                "value": 4923679928
               },
               {
                 "type": "dilithium",
-                "value": 172918
+                "value": 153686516
+              },
+              {
+                "type": "ore",
+                "value": 9322,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 19001,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "ore",
+                "value": 22135,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 59299,
+                "grade": 5,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
@@ -4790,24 +5050,8 @@
                 "value": 44523
               },
               {
-                "type": "5\u2605 common refined gas",
-                "value": 59299
-              },
-              {
-                "type": "4\u2605 uncommon refined ore",
-                "value": 9322
-              },
-              {
                 "type": "5\u2605 common explorer parts",
                 "value": 632969
-              },
-              {
-                "type": "5\u2605 common refined ore",
-                "value": 22135
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 19001
               }
             ]
           }
@@ -4822,11 +5066,35 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 3512239
+                "value": 4923679928
               },
               {
                 "type": "dilithium",
-                "value": 172918
+                "value": 153686516
+              },
+              {
+                "type": "ore",
+                "value": 9844,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 20066,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "ore",
+                "value": 22610,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 60939,
+                "grade": 5,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
@@ -4837,24 +5105,8 @@
                 "value": 46378
               },
               {
-                "type": "5\u2605 common refined gas",
-                "value": 60939
-              },
-              {
-                "type": "4\u2605 uncommon refined ore",
-                "value": 9844
-              },
-              {
                 "type": "5\u2605 common explorer parts",
                 "value": 652487
-              },
-              {
-                "type": "5\u2605 common refined ore",
-                "value": 22610
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 20066
               }
             ]
           }
@@ -4869,11 +5121,35 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 3512239
+                "value": 4923679928
               },
               {
                 "type": "dilithium",
-                "value": 172918
+                "value": 153686516
+              },
+              {
+                "type": "ore",
+                "value": 10396,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 21191,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "ore",
+                "value": 23095,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 62624,
+                "grade": 5,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
@@ -4884,24 +5160,8 @@
                 "value": 48310
               },
               {
-                "type": "5\u2605 common refined gas",
-                "value": 62624
-              },
-              {
-                "type": "4\u2605 uncommon refined ore",
-                "value": 10396
-              },
-              {
                 "type": "5\u2605 common explorer parts",
                 "value": 672606
-              },
-              {
-                "type": "5\u2605 common refined ore",
-                "value": 23095
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 21191
               }
             ]
           }
@@ -4943,12 +5203,12 @@
             ],
             "others": [
               {
-                "type": "4\u2605 Uncommon Explorer Parts",
-                "value": 33830
+                "type": "4\u2605 common explorer parts",
+                "value": 126160
               },
               {
-                "type": "4\u2605 Common Explorer Parts",
-                "value": 126160
+                "type": "4\u2605 uncommon explorer parts",
+                "value": 33830
               }
             ]
           },
@@ -5017,12 +5277,12 @@
             ],
             "others": [
               {
-                "type": "4\u2605 Uncommon Explorer Parts",
-                "value": 45105
+                "type": "4\u2605 common explorer parts",
+                "value": 168215
               },
               {
-                "type": "4\u2605 Common Explorer Parts",
-                "value": 168215
+                "type": "4\u2605 uncommon explorer parts",
+                "value": 45105
               }
             ]
           },
@@ -5091,12 +5351,12 @@
             ],
             "others": [
               {
-                "type": "4\u2605 Uncommon Explorer Parts",
-                "value": 25935
+                "type": "4\u2605 common explorer parts",
+                "value": 96725
               },
               {
-                "type": "4\u2605 Common Explorer Parts",
-                "value": 96725
+                "type": "4\u2605 uncommon explorer parts",
+                "value": 25935
               }
             ]
           },
@@ -5130,26 +5390,26 @@
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 48545,
+                "type": "ore",
+                "value": 16990,
                 "grade": 4,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 16990,
+                "type": "gas",
+                "value": 48545,
                 "grade": 4,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "4\u2605 Uncommon Explorer Parts",
-                "value": 11275
+                "type": "4\u2605 common explorer parts",
+                "value": 42055
               },
               {
-                "type": "4\u2605 Common Explorer Parts",
-                "value": 42055
+                "type": "4\u2605 uncommon explorer parts",
+                "value": 11275
               }
             ]
           },
@@ -5185,26 +5445,26 @@
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 111660,
+                "type": "ore",
+                "value": 39240,
                 "grade": 4,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 39240,
+                "type": "gas",
+                "value": 111660,
                 "grade": 4,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "4\u2605 Uncommon Explorer Parts",
-                "value": 25935
+                "type": "4\u2605 common explorer parts",
+                "value": 96725
               },
               {
-                "type": "4\u2605 Common Explorer Parts",
-                "value": 96725
+                "type": "4\u2605 uncommon explorer parts",
+                "value": 25935
               }
             ]
           },
@@ -5252,12 +5512,12 @@
             ],
             "others": [
               {
-                "type": "4\u2605 Uncommon Explorer Parts",
-                "value": 25935
+                "type": "4\u2605 common explorer parts",
+                "value": 96725
               },
               {
-                "type": "4\u2605 Common Explorer Parts",
-                "value": 96725
+                "type": "4\u2605 uncommon explorer parts",
+                "value": 25935
               }
             ]
           },
@@ -5309,12 +5569,12 @@
             ],
             "others": [
               {
-                "type": "4\u2605 Uncommon Explorer Parts",
-                "value": 23680
+                "type": "4\u2605 common explorer parts",
+                "value": 88315
               },
               {
-                "type": "4\u2605 Common Explorer Parts",
-                "value": 88315
+                "type": "4\u2605 uncommon explorer parts",
+                "value": 23680
               }
             ]
           },
@@ -5348,11 +5608,35 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 3512239
+                "value": 7690235789
               },
               {
                 "type": "dilithium",
-                "value": 172918
+                "value": 236374453
+              },
+              {
+                "type": "ore",
+                "value": 16287,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 33706,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "ore",
+                "value": 38117,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 117067,
+                "grade": 5,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
@@ -5363,24 +5647,8 @@
                 "value": 75543
               },
               {
-                "type": "5\u2605 common refined gas",
-                "value": 117067
-              },
-              {
-                "type": "4\u2605 uncommon refined ore",
-                "value": 16287
-              },
-              {
                 "type": "5\u2605 common explorer parts",
                 "value": 1037479
-              },
-              {
-                "type": "5\u2605 common refined ore",
-                "value": 38117
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 33706
               }
             ]
           }
@@ -5395,11 +5663,35 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 3512239
+                "value": 7690235789
               },
               {
                 "type": "dilithium",
-                "value": 172918
+                "value": 236374453
+              },
+              {
+                "type": "ore",
+                "value": 17200,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 35596,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "ore",
+                "value": 38935,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 120305,
+                "grade": 5,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
@@ -5410,24 +5702,8 @@
                 "value": 78690
               },
               {
-                "type": "5\u2605 common refined gas",
-                "value": 120305
-              },
-              {
-                "type": "4\u2605 uncommon refined ore",
-                "value": 17200
-              },
-              {
                 "type": "5\u2605 common explorer parts",
                 "value": 1069469
-              },
-              {
-                "type": "5\u2605 common refined ore",
-                "value": 38935
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 35596
               }
             ]
           }
@@ -5442,11 +5718,35 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 3512239
+                "value": 7690235789
               },
               {
                 "type": "dilithium",
-                "value": 172918
+                "value": 236374453
+              },
+              {
+                "type": "ore",
+                "value": 18164,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 37593,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "ore",
+                "value": 39771,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 123632,
+                "grade": 5,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
@@ -5457,24 +5757,8 @@
                 "value": 81968
               },
               {
-                "type": "5\u2605 common refined gas",
-                "value": 123632
-              },
-              {
-                "type": "4\u2605 uncommon refined ore",
-                "value": 18164
-              },
-              {
                 "type": "5\u2605 common explorer parts",
                 "value": 1102446
-              },
-              {
-                "type": "5\u2605 common refined ore",
-                "value": 39771
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 37593
               }
             ]
           }
@@ -5489,11 +5773,35 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 3512239
+                "value": 7690235789
               },
               {
                 "type": "dilithium",
-                "value": 172918
+                "value": 236374453
+              },
+              {
+                "type": "ore",
+                "value": 19183,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 39700,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "ore",
+                "value": 40624,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 127051,
+                "grade": 5,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
@@ -5504,31 +5812,15 @@
                 "value": 85382
               },
               {
-                "type": "5\u2605 common refined gas",
-                "value": 127051
-              },
-              {
-                "type": "4\u2605 uncommon refined ore",
-                "value": 19183
-              },
-              {
                 "type": "5\u2605 common explorer parts",
                 "value": 1136440
-              },
-              {
-                "type": "5\u2605 common refined ore",
-                "value": 40624
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 39700
               }
             ]
           }
         },
         {
           "ability_bonus": 0.59,
-          "additional_officer_slot": true,
+          "additional_officer_slot": false,
           "level": 45,
           "ship_xp": 4543000,
           "scrap_details": {
@@ -5536,11 +5828,35 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 3512239
+                "value": 7690235789
               },
               {
                 "type": "dilithium",
-                "value": 172918
+                "value": 236374453
+              },
+              {
+                "type": "ore",
+                "value": 20258,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 41927,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "ore",
+                "value": 41496,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 130564,
+                "grade": 5,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
@@ -5551,24 +5867,8 @@
                 "value": 88939
               },
               {
-                "type": "5\u2605 common refined gas",
-                "value": 130564
-              },
-              {
-                "type": "4\u2605 uncommon refined ore",
-                "value": 20258
-              },
-              {
                 "type": "5\u2605 common explorer parts",
                 "value": 1171482
-              },
-              {
-                "type": "5\u2605 common refined ore",
-                "value": 41496
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 41927
               }
             ]
           }
@@ -5596,25 +5896,25 @@
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 9590,
+                "type": "ore",
+                "value": 3355,
                 "grade": 4,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 3355,
+                "type": "gas",
+                "value": 9590,
                 "grade": 4,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "4\u2605 Common Explorer Parts",
+                "type": "4\u2605 common explorer parts",
                 "value": 176015
               },
               {
-                "type": "4\u2605 Rare Explorer Parts",
+                "type": "4\u2605 rare explorer parts",
                 "value": 6610
               }
             ]
@@ -5670,25 +5970,25 @@
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 12785,
+                "type": "ore",
+                "value": 4475,
                 "grade": 4,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 4475,
+                "type": "gas",
+                "value": 12785,
                 "grade": 4,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "4\u2605 Common Explorer Parts",
+                "type": "4\u2605 common explorer parts",
                 "value": 234685
               },
               {
-                "type": "4\u2605 Rare Explorer Parts",
+                "type": "4\u2605 rare explorer parts",
                 "value": 8810
               }
             ]
@@ -5744,25 +6044,25 @@
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 7350,
+                "type": "ore",
+                "value": 2575,
                 "grade": 4,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 2575,
+                "type": "gas",
+                "value": 7350,
                 "grade": 4,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "4\u2605 Common Explorer Parts",
+                "type": "4\u2605 common explorer parts",
                 "value": 134945
               },
               {
-                "type": "4\u2605 Rare Explorer Parts",
+                "type": "4\u2605 rare explorer parts",
                 "value": 5065
               }
             ]
@@ -5811,11 +6111,11 @@
             ],
             "others": [
               {
-                "type": "4\u2605 Common Explorer Parts",
+                "type": "4\u2605 common explorer parts",
                 "value": 58670
               },
               {
-                "type": "4\u2605 Rare Explorer Parts",
+                "type": "4\u2605 rare explorer parts",
                 "value": 2205
               }
             ]
@@ -5866,11 +6166,11 @@
             ],
             "others": [
               {
-                "type": "4\u2605 Common Explorer Parts",
+                "type": "4\u2605 common explorer parts",
                 "value": 134945
               },
               {
-                "type": "4\u2605 Rare Explorer Parts",
+                "type": "4\u2605 rare explorer parts",
                 "value": 5065
               }
             ]
@@ -5905,25 +6205,25 @@
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 7350,
+                "type": "ore",
+                "value": 2575,
                 "grade": 4,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 2575,
+                "type": "gas",
+                "value": 7350,
                 "grade": 4,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "4\u2605 Common Explorer Parts",
+                "type": "4\u2605 common explorer parts",
                 "value": 134945
               },
               {
-                "type": "4\u2605 Rare Explorer Parts",
+                "type": "4\u2605 rare explorer parts",
                 "value": 5065
               }
             ]
@@ -5962,25 +6262,25 @@
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 6715,
+                "type": "ore",
+                "value": 2350,
                 "grade": 4,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 2350,
+                "type": "gas",
+                "value": 6715,
                 "grade": 4,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "4\u2605 Common Explorer Parts",
+                "type": "4\u2605 common explorer parts",
                 "value": 123210
               },
               {
-                "type": "4\u2605 Rare Explorer Parts",
+                "type": "4\u2605 rare explorer parts",
                 "value": 4625
               }
             ]
@@ -6015,59 +6315,75 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 3512239
+                "value": 16182853232
               },
               {
                 "type": "dilithium",
-                "value": 172918
+                "value": 452264736
               },
               {
-                "type": "4\u2605 rare refined gas",
-                "value": 4203
+                "type": "ore",
+                "value": 33250,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "ore",
+                "value": 1472,
+                "grade": 4,
+                "rarity": "rare"
+              },
+              {
+                "type": "ore",
+                "value": 276,
+                "grade": 4,
+                "rarity": "epic"
+              },
+              {
+                "type": "gas",
+                "value": 78149,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 4203,
+                "grade": 4,
+                "rarity": "rare"
+              },
+              {
+                "type": "gas",
+                "value": 171,
+                "grade": 4,
+                "rarity": "epic"
+              },
+              {
+                "type": "ore",
+                "value": 42387,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 134175,
+                "grade": 5,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
                 "value": 185105
               },
               {
-                "type": "4\u2605 rare refined ore",
-                "value": 1472
-              },
-              {
                 "type": "4\u2605 uncommon explorer parts",
                 "value": 92644
-              },
-              {
-                "type": "5\u2605 common refined gas",
-                "value": 134175
-              },
-              {
-                "type": "4\u2605 uncommon refined ore",
-                "value": 33250
-              },
-              {
-                "type": "5\u2605 common explorer parts",
-                "value": 1766448
-              },
-              {
-                "type": "4\u2605 epic refined gas",
-                "value": 171
               },
               {
                 "type": "4\u2605 rare explorer parts",
                 "value": 6042
               },
               {
-                "type": "5\u2605 common refined ore",
-                "value": 42387
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 78149
-              },
-              {
-                "type": "4\u2605 epic refined ore",
-                "value": 276
+                "type": "5\u2605 common explorer parts",
+                "value": 1766448
               }
             ]
           }
@@ -6082,59 +6398,75 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 3512239
+                "value": 16182853232
               },
               {
                 "type": "dilithium",
-                "value": 172918
+                "value": 452264736
               },
               {
-                "type": "4\u2605 rare refined gas",
-                "value": 4371
+                "type": "ore",
+                "value": 35114,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "ore",
+                "value": 1530,
+                "grade": 4,
+                "rarity": "rare"
+              },
+              {
+                "type": "ore",
+                "value": 281,
+                "grade": 4,
+                "rarity": "epic"
+              },
+              {
+                "type": "gas",
+                "value": 82531,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 4371,
+                "grade": 4,
+                "rarity": "rare"
+              },
+              {
+                "type": "gas",
+                "value": 174,
+                "grade": 4,
+                "rarity": "epic"
+              },
+              {
+                "type": "ore",
+                "value": 43296,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 137885,
+                "grade": 5,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
                 "value": 195434
               },
               {
-                "type": "4\u2605 rare refined ore",
-                "value": 1530
-              },
-              {
                 "type": "4\u2605 uncommon explorer parts",
                 "value": 96503
-              },
-              {
-                "type": "5\u2605 common refined gas",
-                "value": 137885
-              },
-              {
-                "type": "4\u2605 uncommon refined ore",
-                "value": 35114
-              },
-              {
-                "type": "5\u2605 common explorer parts",
-                "value": 1820916
-              },
-              {
-                "type": "4\u2605 epic refined gas",
-                "value": 174
               },
               {
                 "type": "4\u2605 rare explorer parts",
                 "value": 6294
               },
               {
-                "type": "5\u2605 common refined ore",
-                "value": 43296
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 82531
-              },
-              {
-                "type": "4\u2605 epic refined ore",
-                "value": 281
+                "type": "5\u2605 common explorer parts",
+                "value": 1820916
               }
             ]
           }
@@ -6149,59 +6481,75 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 3512239
+                "value": 16182853232
               },
               {
                 "type": "dilithium",
-                "value": 172918
+                "value": 452264736
               },
               {
-                "type": "4\u2605 rare refined gas",
-                "value": 4545
+                "type": "ore",
+                "value": 37083,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "ore",
+                "value": 1591,
+                "grade": 4,
+                "rarity": "rare"
+              },
+              {
+                "type": "ore",
+                "value": 287,
+                "grade": 4,
+                "rarity": "epic"
+              },
+              {
+                "type": "gas",
+                "value": 87159,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 4545,
+                "grade": 4,
+                "rarity": "rare"
+              },
+              {
+                "type": "gas",
+                "value": 177,
+                "grade": 4,
+                "rarity": "epic"
+              },
+              {
+                "type": "ore",
+                "value": 44225,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 141698,
+                "grade": 5,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
                 "value": 206208
               },
               {
-                "type": "4\u2605 rare refined ore",
-                "value": 1591
-              },
-              {
                 "type": "4\u2605 uncommon explorer parts",
                 "value": 100523
-              },
-              {
-                "type": "5\u2605 common refined gas",
-                "value": 141698
-              },
-              {
-                "type": "4\u2605 uncommon refined ore",
-                "value": 37083
-              },
-              {
-                "type": "5\u2605 common explorer parts",
-                "value": 1877064
-              },
-              {
-                "type": "4\u2605 epic refined gas",
-                "value": 177
               },
               {
                 "type": "4\u2605 rare explorer parts",
                 "value": 6556
               },
               {
-                "type": "5\u2605 common refined ore",
-                "value": 44225
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 87159
-              },
-              {
-                "type": "4\u2605 epic refined ore",
-                "value": 287
+                "type": "5\u2605 common explorer parts",
+                "value": 1877064
               }
             ]
           }
@@ -6216,59 +6564,75 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 3512239
+                "value": 16182853232
               },
               {
                 "type": "dilithium",
-                "value": 172918
+                "value": 452264736
               },
               {
-                "type": "4\u2605 rare refined gas",
-                "value": 4726
+                "type": "ore",
+                "value": 39162,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "ore",
+                "value": 1655,
+                "grade": 4,
+                "rarity": "rare"
+              },
+              {
+                "type": "ore",
+                "value": 292,
+                "grade": 4,
+                "rarity": "epic"
+              },
+              {
+                "type": "gas",
+                "value": 92046,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 4726,
+                "grade": 4,
+                "rarity": "rare"
+              },
+              {
+                "type": "gas",
+                "value": 180,
+                "grade": 4,
+                "rarity": "epic"
+              },
+              {
+                "type": "ore",
+                "value": 45174,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 145617,
+                "grade": 5,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
                 "value": 224963
               },
               {
-                "type": "4\u2605 rare refined ore",
-                "value": 1655
-              },
-              {
                 "type": "4\u2605 uncommon explorer parts",
                 "value": 104710
-              },
-              {
-                "type": "5\u2605 common refined gas",
-                "value": 145617
-              },
-              {
-                "type": "4\u2605 uncommon refined ore",
-                "value": 39162
-              },
-              {
-                "type": "5\u2605 common explorer parts",
-                "value": 1934944
-              },
-              {
-                "type": "4\u2605 epic refined gas",
-                "value": 180
               },
               {
                 "type": "4\u2605 rare explorer parts",
                 "value": 6829
               },
               {
-                "type": "5\u2605 common refined ore",
-                "value": 45174
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 92046
-              },
-              {
-                "type": "4\u2605 epic refined ore",
-                "value": 292
+                "type": "5\u2605 common explorer parts",
+                "value": 1934944
               }
             ]
           }
@@ -6283,59 +6647,75 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 3512239
+                "value": 16182853232
               },
               {
                 "type": "dilithium",
-                "value": 172918
+                "value": 452264736
               },
               {
-                "type": "4\u2605 rare refined gas",
-                "value": 4914
+                "type": "ore",
+                "value": 41358,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "ore",
+                "value": 1720,
+                "grade": 4,
+                "rarity": "rare"
+              },
+              {
+                "type": "ore",
+                "value": 297,
+                "grade": 4,
+                "rarity": "epic"
+              },
+              {
+                "type": "gas",
+                "value": 97207,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 4914,
+                "grade": 4,
+                "rarity": "rare"
+              },
+              {
+                "type": "gas",
+                "value": 182,
+                "grade": 4,
+                "rarity": "epic"
+              },
+              {
+                "type": "ore",
+                "value": 46144,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 149643,
+                "grade": 5,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
                 "value": 236768
               },
               {
-                "type": "4\u2605 rare refined ore",
-                "value": 1720
-              },
-              {
                 "type": "4\u2605 uncommon explorer parts",
                 "value": 109072
-              },
-              {
-                "type": "5\u2605 common refined gas",
-                "value": 149643
-              },
-              {
-                "type": "4\u2605 uncommon refined ore",
-                "value": 41358
-              },
-              {
-                "type": "5\u2605 common explorer parts",
-                "value": 1994608
-              },
-              {
-                "type": "4\u2605 epic refined gas",
-                "value": 182
               },
               {
                 "type": "4\u2605 rare explorer parts",
                 "value": 7114
               },
               {
-                "type": "5\u2605 common refined ore",
-                "value": 46144
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 97207
-              },
-              {
-                "type": "4\u2605 epic refined ore",
-                "value": 297
+                "type": "5\u2605 common explorer parts",
+                "value": 1994608
               }
             ]
           }
@@ -6363,25 +6743,25 @@
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 13485,
+                "type": "ore",
+                "value": 4720,
                 "grade": 4,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 4720,
+                "type": "gas",
+                "value": 13485,
                 "grade": 4,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "4\u2605 Common Explorer Parts",
+                "type": "4\u2605 common explorer parts",
                 "value": 247590
               },
               {
-                "type": "4\u2605 Rare Explorer Parts",
+                "type": "4\u2605 rare explorer parts",
                 "value": 9250
               }
             ]
@@ -6437,25 +6817,25 @@
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 17980,
+                "type": "ore",
+                "value": 6295,
                 "grade": 4,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 6295,
+                "type": "gas",
+                "value": 17980,
                 "grade": 4,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "4\u2605 Common Explorer Parts",
+                "type": "4\u2605 common explorer parts",
                 "value": 330120
               },
               {
-                "type": "4\u2605 Rare Explorer Parts",
+                "type": "4\u2605 rare explorer parts",
                 "value": 12335
               }
             ]
@@ -6511,25 +6891,25 @@
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 10340,
+                "type": "ore",
+                "value": 3620,
                 "grade": 4,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 3620,
+                "type": "gas",
+                "value": 10340,
                 "grade": 4,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "4\u2605 Common Explorer Parts",
+                "type": "4\u2605 common explorer parts",
                 "value": 189820
               },
               {
-                "type": "4\u2605 Rare Explorer Parts",
+                "type": "4\u2605 rare explorer parts",
                 "value": 7095
               }
             ]
@@ -6578,11 +6958,11 @@
             ],
             "others": [
               {
-                "type": "4\u2605 Common Explorer Parts",
+                "type": "4\u2605 common explorer parts",
                 "value": 82530
               },
               {
-                "type": "4\u2605 Rare Explorer Parts",
+                "type": "4\u2605 rare explorer parts",
                 "value": 3085
               }
             ]
@@ -6633,11 +7013,11 @@
             ],
             "others": [
               {
-                "type": "4\u2605 Common Explorer Parts",
+                "type": "4\u2605 common explorer parts",
                 "value": 189820
               },
               {
-                "type": "4\u2605 Rare Explorer Parts",
+                "type": "4\u2605 rare explorer parts",
                 "value": 7095
               }
             ]
@@ -6672,25 +7052,25 @@
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 10340,
+                "type": "ore",
+                "value": 3620,
                 "grade": 4,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 3620,
+                "type": "gas",
+                "value": 10340,
                 "grade": 4,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "4\u2605 Common Explorer Parts",
+                "type": "4\u2605 common explorer parts",
                 "value": 189820
               },
               {
-                "type": "4\u2605 Rare Explorer Parts",
+                "type": "4\u2605 rare explorer parts",
                 "value": 7095
               }
             ]
@@ -6729,25 +7109,25 @@
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 9440,
+                "type": "ore",
+                "value": 3305,
                 "grade": 4,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 3305,
+                "type": "gas",
+                "value": 9440,
                 "grade": 4,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "4\u2605 Common Explorer Parts",
+                "type": "4\u2605 common explorer parts",
                 "value": 173310
               },
               {
-                "type": "4\u2605 Rare Explorer Parts",
+                "type": "4\u2605 rare explorer parts",
                 "value": 6475
               }
             ]
@@ -6782,59 +7162,75 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 3512239
+                "value": 24778546902
               },
               {
                 "type": "dilithium",
-                "value": 172918
+                "value": 681742888
               },
               {
-                "type": "4\u2605 rare refined gas",
-                "value": 12294
+                "type": "ore",
+                "value": 65561,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "ore",
+                "value": 4304,
+                "grade": 4,
+                "rarity": "rare"
+              },
+              {
+                "type": "ore",
+                "value": 728,
+                "grade": 4,
+                "rarity": "epic"
+              },
+              {
+                "type": "gas",
+                "value": 165186,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 12294,
+                "grade": 4,
+                "rarity": "rare"
+              },
+              {
+                "type": "gas",
+                "value": 445,
+                "grade": 4,
+                "rarity": "epic"
+              },
+              {
+                "type": "ore",
+                "value": 47134,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 153782,
+                "grade": 5,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
                 "value": 249084
               },
               {
-                "type": "4\u2605 rare refined ore",
-                "value": 4304
-              },
-              {
                 "type": "4\u2605 uncommon explorer parts",
                 "value": 113615
-              },
-              {
-                "type": "5\u2605 common refined gas",
-                "value": 153782
-              },
-              {
-                "type": "4\u2605 uncommon refined ore",
-                "value": 65561
-              },
-              {
-                "type": "5\u2605 common explorer parts",
-                "value": 2971110
-              },
-              {
-                "type": "4\u2605 epic refined gas",
-                "value": 445
               },
               {
                 "type": "4\u2605 rare explorer parts",
                 "value": 17784
               },
               {
-                "type": "5\u2605 common refined ore",
-                "value": 47134
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 165186
-              },
-              {
-                "type": "4\u2605 epic refined ore",
-                "value": 728
+                "type": "5\u2605 common explorer parts",
+                "value": 2971110
               }
             ]
           }
@@ -6849,59 +7245,75 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 3512239
+                "value": 24778546902
               },
               {
                 "type": "dilithium",
-                "value": 172918
+                "value": 681742888
               },
               {
-                "type": "4\u2605 rare refined gas",
-                "value": 12783
+                "type": "ore",
+                "value": 69237,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "ore",
+                "value": 4475,
+                "grade": 4,
+                "rarity": "rare"
+              },
+              {
+                "type": "ore",
+                "value": 742,
+                "grade": 4,
+                "rarity": "epic"
+              },
+              {
+                "type": "gas",
+                "value": 174449,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 12783,
+                "grade": 4,
+                "rarity": "rare"
+              },
+              {
+                "type": "gas",
+                "value": 452,
+                "grade": 4,
+                "rarity": "epic"
+              },
+              {
+                "type": "ore",
+                "value": 48145,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 158034,
+                "grade": 5,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
                 "value": 270800
               },
               {
-                "type": "4\u2605 rare refined ore",
-                "value": 4475
-              },
-              {
                 "type": "4\u2605 uncommon explorer parts",
                 "value": 118348
-              },
-              {
-                "type": "5\u2605 common refined gas",
-                "value": 158034
-              },
-              {
-                "type": "4\u2605 uncommon refined ore",
-                "value": 69237
-              },
-              {
-                "type": "5\u2605 common explorer parts",
-                "value": 3062724
-              },
-              {
-                "type": "4\u2605 epic refined gas",
-                "value": 452
               },
               {
                 "type": "4\u2605 rare explorer parts",
                 "value": 18525
               },
               {
-                "type": "5\u2605 common refined ore",
-                "value": 48145
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 174449
-              },
-              {
-                "type": "4\u2605 epic refined ore",
-                "value": 742
+                "type": "5\u2605 common explorer parts",
+                "value": 3062724
               }
             ]
           }
@@ -6916,59 +7328,75 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 3512239
+                "value": 24778546902
               },
               {
                 "type": "dilithium",
-                "value": 172918
+                "value": 681742888
               },
               {
-                "type": "4\u2605 rare refined gas",
-                "value": 13292
+                "type": "ore",
+                "value": 73120,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "ore",
+                "value": 4654,
+                "grade": 4,
+                "rarity": "rare"
+              },
+              {
+                "type": "ore",
+                "value": 756,
+                "grade": 4,
+                "rarity": "epic"
+              },
+              {
+                "type": "gas",
+                "value": 184231,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 13292,
+                "grade": 4,
+                "rarity": "rare"
+              },
+              {
+                "type": "gas",
+                "value": 459,
+                "grade": 4,
+                "rarity": "epic"
+              },
+              {
+                "type": "ore",
+                "value": 49179,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 162405,
+                "grade": 5,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
                 "value": 285039
               },
               {
-                "type": "4\u2605 rare refined ore",
-                "value": 4654
-              },
-              {
                 "type": "4\u2605 uncommon explorer parts",
                 "value": 123278
-              },
-              {
-                "type": "5\u2605 common refined gas",
-                "value": 162405
-              },
-              {
-                "type": "4\u2605 uncommon refined ore",
-                "value": 73120
-              },
-              {
-                "type": "5\u2605 common explorer parts",
-                "value": 3157163
-              },
-              {
-                "type": "4\u2605 epic refined gas",
-                "value": 459
               },
               {
                 "type": "4\u2605 rare explorer parts",
                 "value": 19297
               },
               {
-                "type": "5\u2605 common refined ore",
-                "value": 49179
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 184231
-              },
-              {
-                "type": "4\u2605 epic refined ore",
-                "value": 756
+                "type": "5\u2605 common explorer parts",
+                "value": 3157163
               }
             ]
           }
@@ -6983,59 +7411,75 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 3512239
+                "value": 24778546902
               },
               {
                 "type": "dilithium",
-                "value": 172918
+                "value": 681742888
               },
               {
-                "type": "4\u2605 rare refined gas",
-                "value": 13821
+                "type": "ore",
+                "value": 77220,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "ore",
+                "value": 4839,
+                "grade": 4,
+                "rarity": "rare"
+              },
+              {
+                "type": "ore",
+                "value": 770,
+                "grade": 4,
+                "rarity": "epic"
+              },
+              {
+                "type": "gas",
+                "value": 194561,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 13821,
+                "grade": 4,
+                "rarity": "rare"
+              },
+              {
+                "type": "gas",
+                "value": 466,
+                "grade": 4,
+                "rarity": "epic"
+              },
+              {
+                "type": "ore",
+                "value": 50234,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 166896,
+                "grade": 5,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
                 "value": 299710
               },
               {
-                "type": "4\u2605 rare refined ore",
-                "value": 4839
-              },
-              {
                 "type": "4\u2605 uncommon explorer parts",
                 "value": 128413
-              },
-              {
-                "type": "5\u2605 common refined gas",
-                "value": 166896
-              },
-              {
-                "type": "4\u2605 uncommon refined ore",
-                "value": 77220
-              },
-              {
-                "type": "5\u2605 common explorer parts",
-                "value": 3254515
-              },
-              {
-                "type": "4\u2605 epic refined gas",
-                "value": 466
               },
               {
                 "type": "4\u2605 rare explorer parts",
                 "value": 20101
               },
               {
-                "type": "5\u2605 common refined ore",
-                "value": 50234
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 194561
-              },
-              {
-                "type": "4\u2605 epic refined ore",
-                "value": 770
+                "type": "5\u2605 common explorer parts",
+                "value": 3254515
               }
             ]
           }
@@ -7050,59 +7494,75 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 3512239
+                "value": 24778546902
               },
               {
                 "type": "dilithium",
-                "value": 172918
+                "value": 681742888
               },
               {
-                "type": "4\u2605 rare refined gas",
-                "value": 14371
+                "type": "ore",
+                "value": 81550,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "ore",
+                "value": 5031,
+                "grade": 4,
+                "rarity": "rare"
+              },
+              {
+                "type": "ore",
+                "value": 785,
+                "grade": 4,
+                "rarity": "epic"
+              },
+              {
+                "type": "gas",
+                "value": 205471,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 14371,
+                "grade": 4,
+                "rarity": "rare"
+              },
+              {
+                "type": "gas",
+                "value": 473,
+                "grade": 4,
+                "rarity": "epic"
+              },
+              {
+                "type": "ore",
+                "value": 51312,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 171511,
+                "grade": 5,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
                 "value": 325692
               },
               {
-                "type": "4\u2605 rare refined ore",
-                "value": 5031
-              },
-              {
                 "type": "4\u2605 uncommon explorer parts",
                 "value": 133762
-              },
-              {
-                "type": "5\u2605 common refined gas",
-                "value": 171511
-              },
-              {
-                "type": "4\u2605 uncommon refined ore",
-                "value": 81550
-              },
-              {
-                "type": "5\u2605 common explorer parts",
-                "value": 3354867
-              },
-              {
-                "type": "4\u2605 epic refined gas",
-                "value": 473
               },
               {
                 "type": "4\u2605 rare explorer parts",
                 "value": 20938
               },
               {
-                "type": "5\u2605 common refined ore",
-                "value": 51312
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 205471
-              },
-              {
-                "type": "4\u2605 epic refined ore",
-                "value": 785
+                "type": "5\u2605 common explorer parts",
+                "value": 3354867
               }
             ]
           }
@@ -7130,25 +7590,25 @@
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 18145,
+                "type": "ore",
+                "value": 6350,
                 "grade": 4,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 6350,
+                "type": "gas",
+                "value": 18145,
                 "grade": 4,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "4\u2605 Common Explorer Parts",
+                "type": "4\u2605 common explorer parts",
                 "value": 333190
               },
               {
-                "type": "4\u2605 Rare Explorer Parts",
+                "type": "4\u2605 rare explorer parts",
                 "value": 12450
               }
             ]
@@ -7204,25 +7664,25 @@
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 24195,
+                "type": "ore",
+                "value": 8470,
                 "grade": 4,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 8470,
+                "type": "gas",
+                "value": 24195,
                 "grade": 4,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "4\u2605 Common Explorer Parts",
+                "type": "4\u2605 common explorer parts",
                 "value": 444255
               },
               {
-                "type": "4\u2605 Rare Explorer Parts",
+                "type": "4\u2605 rare explorer parts",
                 "value": 16600
               }
             ]
@@ -7278,25 +7738,25 @@
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 13915,
+                "type": "ore",
+                "value": 4870,
                 "grade": 4,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 4870,
+                "type": "gas",
+                "value": 13915,
                 "grade": 4,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "4\u2605 Common Explorer Parts",
+                "type": "4\u2605 common explorer parts",
                 "value": 255445
               },
               {
-                "type": "4\u2605 Rare Explorer Parts",
+                "type": "4\u2605 rare explorer parts",
                 "value": 9545
               }
             ]
@@ -7345,11 +7805,11 @@
             ],
             "others": [
               {
-                "type": "4\u2605 Common Explorer Parts",
+                "type": "4\u2605 common explorer parts",
                 "value": 111065
               },
               {
-                "type": "4\u2605 Rare Explorer Parts",
+                "type": "4\u2605 rare explorer parts",
                 "value": 4150
               }
             ]
@@ -7400,11 +7860,11 @@
             ],
             "others": [
               {
-                "type": "4\u2605 Common Explorer Parts",
+                "type": "4\u2605 common explorer parts",
                 "value": 255445
               },
               {
-                "type": "4\u2605 Rare Explorer Parts",
+                "type": "4\u2605 rare explorer parts",
                 "value": 9545
               }
             ]
@@ -7439,25 +7899,25 @@
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 13915,
+                "type": "ore",
+                "value": 4870,
                 "grade": 4,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 4870,
+                "type": "gas",
+                "value": 13915,
                 "grade": 4,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "4\u2605 Common Explorer Parts",
+                "type": "4\u2605 common explorer parts",
                 "value": 255445
               },
               {
-                "type": "4\u2605 Rare Explorer Parts",
+                "type": "4\u2605 rare explorer parts",
                 "value": 9545
               }
             ]
@@ -7496,25 +7956,25 @@
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 12705,
+                "type": "ore",
+                "value": 4445,
                 "grade": 4,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 4445,
+                "type": "gas",
+                "value": 12705,
                 "grade": 4,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "4\u2605 Common Explorer Parts",
+                "type": "4\u2605 common explorer parts",
                 "value": 233235
               },
               {
-                "type": "4\u2605 Rare Explorer Parts",
+                "type": "4\u2605 rare explorer parts",
                 "value": 8715
               }
             ]
@@ -7549,59 +8009,75 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 3512239
+                "value": 59487143826
               },
               {
                 "type": "dilithium",
-                "value": 172918
+                "value": 1291855598
               },
               {
-                "type": "4\u2605 rare refined gas",
-                "value": 26695
+                "type": "ore",
+                "value": 124810,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "ore",
+                "value": 9345,
+                "grade": 4,
+                "rarity": "rare"
+              },
+              {
+                "type": "ore",
+                "value": 1428,
+                "grade": 4,
+                "rarity": "epic"
+              },
+              {
+                "type": "gas",
+                "value": 327529,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 26695,
+                "grade": 4,
+                "rarity": "rare"
+              },
+              {
+                "type": "gas",
+                "value": 859,
+                "grade": 4,
+                "rarity": "epic"
+              },
+              {
+                "type": "ore",
+                "value": 52413,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 176254,
+                "grade": 5,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
                 "value": 342006
               },
               {
-                "type": "4\u2605 rare refined ore",
-                "value": 9345
-              },
-              {
                 "type": "4\u2605 uncommon explorer parts",
                 "value": 139334
-              },
-              {
-                "type": "5\u2605 common refined gas",
-                "value": 176254
-              },
-              {
-                "type": "4\u2605 uncommon refined ore",
-                "value": 124810
-              },
-              {
-                "type": "5\u2605 common explorer parts",
-                "value": 4891578
-              },
-              {
-                "type": "4\u2605 epic refined gas",
-                "value": 859
               },
               {
                 "type": "4\u2605 rare explorer parts",
                 "value": 38930
               },
               {
-                "type": "5\u2605 common refined ore",
-                "value": 52413
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 327529
-              },
-              {
-                "type": "4\u2605 epic refined ore",
-                "value": 1428
+                "type": "5\u2605 common explorer parts",
+                "value": 4891578
               }
             ]
           }
@@ -7616,59 +8092,75 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 3512239
+                "value": 59487143826
               },
               {
                 "type": "dilithium",
-                "value": 172918
+                "value": 1291855598
               },
               {
-                "type": "4\u2605 rare refined gas",
-                "value": 27757
+                "type": "ore",
+                "value": 131809,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "ore",
+                "value": 9716,
+                "grade": 4,
+                "rarity": "rare"
+              },
+              {
+                "type": "ore",
+                "value": 1455,
+                "grade": 4,
+                "rarity": "epic"
+              },
+              {
+                "type": "gas",
+                "value": 345895,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 27757,
+                "grade": 4,
+                "rarity": "rare"
+              },
+              {
+                "type": "gas",
+                "value": 872,
+                "grade": 4,
+                "rarity": "epic"
+              },
+              {
+                "type": "ore",
+                "value": 53538,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 181128,
+                "grade": 5,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
                 "value": 358700
               },
               {
-                "type": "4\u2605 rare refined ore",
-                "value": 9716
-              },
-              {
                 "type": "4\u2605 uncommon explorer parts",
                 "value": 145138
-              },
-              {
-                "type": "5\u2605 common refined gas",
-                "value": 181128
-              },
-              {
-                "type": "4\u2605 uncommon refined ore",
-                "value": 131809
-              },
-              {
-                "type": "5\u2605 common explorer parts",
-                "value": 5042410
-              },
-              {
-                "type": "4\u2605 epic refined gas",
-                "value": 872
               },
               {
                 "type": "4\u2605 rare explorer parts",
                 "value": 40552
               },
               {
-                "type": "5\u2605 common refined ore",
-                "value": 53538
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 345895
-              },
-              {
-                "type": "4\u2605 epic refined ore",
-                "value": 1455
+                "type": "5\u2605 common explorer parts",
+                "value": 5042410
               }
             ]
           }
@@ -7683,59 +8175,75 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 3512239
+                "value": 59487143826
               },
               {
                 "type": "dilithium",
-                "value": 172918
+                "value": 1291855598
               },
               {
-                "type": "4\u2605 rare refined gas",
-                "value": 28862
+                "type": "ore",
+                "value": 139200,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "ore",
+                "value": 10103,
+                "grade": 4,
+                "rarity": "rare"
+              },
+              {
+                "type": "ore",
+                "value": 1482,
+                "grade": 4,
+                "rarity": "epic"
+              },
+              {
+                "type": "gas",
+                "value": 365290,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 28862,
+                "grade": 4,
+                "rarity": "rare"
+              },
+              {
+                "type": "gas",
+                "value": 886,
+                "grade": 4,
+                "rarity": "epic"
+              },
+              {
+                "type": "ore",
+                "value": 54687,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 186137,
+                "grade": 5,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
                 "value": 388634
               },
               {
-                "type": "4\u2605 rare refined ore",
-                "value": 10103
-              },
-              {
                 "type": "4\u2605 uncommon explorer parts",
                 "value": 151184
-              },
-              {
-                "type": "5\u2605 common refined gas",
-                "value": 186137
-              },
-              {
-                "type": "4\u2605 uncommon refined ore",
-                "value": 139200
-              },
-              {
-                "type": "5\u2605 common explorer parts",
-                "value": 5197892
-              },
-              {
-                "type": "4\u2605 epic refined gas",
-                "value": 886
               },
               {
                 "type": "4\u2605 rare explorer parts",
                 "value": 42241
               },
               {
-                "type": "5\u2605 common refined ore",
-                "value": 54687
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 365290
-              },
-              {
-                "type": "4\u2605 epic refined ore",
-                "value": 1482
+                "type": "5\u2605 common explorer parts",
+                "value": 5197892
               }
             ]
           }
@@ -7750,66 +8258,82 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 3512239
+                "value": 59487143826
               },
               {
                 "type": "dilithium",
-                "value": 172918
+                "value": 1291855598
               },
               {
-                "type": "4\u2605 rare refined gas",
-                "value": 30011
+                "type": "ore",
+                "value": 147005,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "ore",
+                "value": 10505,
+                "grade": 4,
+                "rarity": "rare"
+              },
+              {
+                "type": "ore",
+                "value": 1510,
+                "grade": 4,
+                "rarity": "epic"
+              },
+              {
+                "type": "gas",
+                "value": 385774,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 30011,
+                "grade": 4,
+                "rarity": "rare"
+              },
+              {
+                "type": "gas",
+                "value": 900,
+                "grade": 4,
+                "rarity": "epic"
+              },
+              {
+                "type": "ore",
+                "value": 55860,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 191284,
+                "grade": 5,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
                 "value": 406943
               },
               {
-                "type": "4\u2605 rare refined ore",
-                "value": 10505
-              },
-              {
                 "type": "4\u2605 uncommon explorer parts",
                 "value": 157482
-              },
-              {
-                "type": "5\u2605 common refined gas",
-                "value": 191284
-              },
-              {
-                "type": "4\u2605 uncommon refined ore",
-                "value": 147005
-              },
-              {
-                "type": "5\u2605 common explorer parts",
-                "value": 5358169
-              },
-              {
-                "type": "4\u2605 epic refined gas",
-                "value": 900
               },
               {
                 "type": "4\u2605 rare explorer parts",
                 "value": 44001
               },
               {
-                "type": "5\u2605 common refined ore",
-                "value": 55860
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 385774
-              },
-              {
-                "type": "4\u2605 epic refined ore",
-                "value": 1510
+                "type": "5\u2605 common explorer parts",
+                "value": 5358169
               }
             ]
           }
         },
         {
           "ability_bonus": 0.74,
-          "additional_officer_slot": true,
+          "additional_officer_slot": false,
           "level": 60,
           "ship_xp": 10000000,
           "scrap_details": {
@@ -7817,59 +8341,75 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 3512239
+                "value": 59487143826
               },
               {
                 "type": "dilithium",
-                "value": 172918
+                "value": 1291855598
               },
               {
-                "type": "4\u2605 rare refined gas",
-                "value": 31205
+                "type": "ore",
+                "value": 155248,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "ore",
+                "value": 10923,
+                "grade": 4,
+                "rarity": "rare"
+              },
+              {
+                "type": "ore",
+                "value": 1538,
+                "grade": 4,
+                "rarity": "epic"
+              },
+              {
+                "type": "gas",
+                "value": 407405,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 31205,
+                "grade": 4,
+                "rarity": "rare"
+              },
+              {
+                "type": "gas",
+                "value": 914,
+                "grade": 4,
+                "rarity": "epic"
+              },
+              {
+                "type": "ore",
+                "value": 57059,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 196574,
+                "grade": 5,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
                 "value": 440000
               },
               {
-                "type": "4\u2605 rare refined ore",
-                "value": 10923
-              },
-              {
                 "type": "4\u2605 uncommon explorer parts",
                 "value": 164042
-              },
-              {
-                "type": "5\u2605 common refined gas",
-                "value": 196574
-              },
-              {
-                "type": "4\u2605 uncommon refined ore",
-                "value": 155248
-              },
-              {
-                "type": "5\u2605 common explorer parts",
-                "value": 5523388
-              },
-              {
-                "type": "4\u2605 epic refined gas",
-                "value": 914
               },
               {
                 "type": "4\u2605 rare explorer parts",
                 "value": 45834
               },
               {
-                "type": "5\u2605 common refined ore",
-                "value": 57059
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 407405
-              },
-              {
-                "type": "4\u2605 epic refined ore",
-                "value": 1538
+                "type": "5\u2605 common explorer parts",
+                "value": 5523388
               }
             ]
           }

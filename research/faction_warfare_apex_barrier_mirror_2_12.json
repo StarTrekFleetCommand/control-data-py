@@ -1,0 +1,300 @@
+{
+  "research_name": "\u03a9 Faction Warfare Apex Barrier",
+  "description": "Increases base Apex Barrier for Federation, Klingon, and Romulan ships when fighting Player targets (does not apply to Armadas or while defending station).",
+  "location": {
+    "column": 12,
+    "row": 2,
+    "tree": "mirror"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 240,
+      "increased_power": 23500,
+      "requirements": [
+        {
+          "name": "\u03a9 Energy Weaponry",
+          "level": 1
+        },
+        {
+          "name": "\u03a9 Kinetic Weaponry",
+          "level": 1
+        },
+        {
+          "name": "R&D Department",
+          "level": 40
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "omega mirror dust",
+            "value": 450
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 200.0
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 240,
+      "increased_power": 500,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 40
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "omega mirror dust",
+            "value": 500
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 250.0
+      }
+    },
+    {
+      "level": 3,
+      "research_time": 240,
+      "increased_power": 500,
+      "requirements": [
+        {
+          "name": "\u03a9 Faction Warfare Isolytic Damage",
+          "level": 3
+        },
+        {
+          "name": "\u03a9 Faction Warfare Isolytic Defense",
+          "level": 3
+        },
+        {
+          "name": "R&D Department",
+          "level": 40
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "omega mirror dust",
+            "value": 550
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 300.0
+      }
+    },
+    {
+      "level": 4,
+      "research_time": 240,
+      "increased_power": 10000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 45
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "omega mirror dust",
+            "value": 660
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 400.0
+      }
+    },
+    {
+      "level": 5,
+      "research_time": 240,
+      "increased_power": 1000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 45
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "omega mirror dust",
+            "value": 710
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 600.0
+      }
+    },
+    {
+      "level": 6,
+      "research_time": 240,
+      "increased_power": 500,
+      "requirements": [
+        {
+          "name": "\u03a9 Advanced Warfare",
+          "level": 6
+        },
+        {
+          "name": "R&D Department",
+          "level": 45
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "omega mirror dust",
+            "value": 820
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 800.0
+      }
+    },
+    {
+      "level": 7,
+      "research_time": 240,
+      "increased_power": 16500,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 51
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "omega mirror dust",
+            "value": 1010
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 1000.0
+      }
+    },
+    {
+      "level": 8,
+      "research_time": 240,
+      "increased_power": 2000,
+      "requirements": [
+        {
+          "name": "\u03a9 Critical Damage Reduction",
+          "level": 8
+        },
+        {
+          "name": "R&D Department",
+          "level": 51
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "omega mirror dust",
+            "value": 1130
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 1300.0
+      }
+    },
+    {
+      "level": 9,
+      "research_time": 240,
+      "increased_power": 41500,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 61
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "omega mirror dust",
+            "value": 1430
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 1600.0
+      }
+    },
+    {
+      "level": 10,
+      "research_time": 240,
+      "increased_power": 4000,
+      "requirements": [
+        {
+          "name": "\u03a9 Faction Warfare Isolytic Defense",
+          "level": 10
+        },
+        {
+          "name": "R&D Department",
+          "level": 61
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "omega mirror dust",
+            "value": 1630
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 2000.0
+      }
+    }
+  ],
+  "img_url": "./assets/faction_warfare_apex_barrier_mirror_2_12.png"
+}

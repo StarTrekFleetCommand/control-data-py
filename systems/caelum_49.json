@@ -3,14 +3,14 @@
   "capture_nodes": 0,
   "connected_systems": [
     {
-      "$ref": "systems/miers_49",
-      "distance": 160,
-      "warp": 160
-    },
-    {
       "$ref": "systems/rylan_50",
       "distance": 185,
       "warp": 185
+    },
+    {
+      "$ref": "systems/miers_49",
+      "distance": 160,
+      "warp": 160
     },
     {
       "$ref": "systems/new_reykjavik_48",
@@ -26,8 +26,8 @@
   "level": 49,
   "mining": [
     {
-      "type": "Tritanium",
-      "amount": 3,
+      "type": "tritanium",
+      "amount": 1,
       "mining_per_hour": 320,
       "size": 2500000
     }
@@ -45,5 +45,5 @@
   "scopely_id": 669645006,
   "system_space": "deep",
   "system_type": "hub",
-  "warp": 160
+  "warp": 170
 }

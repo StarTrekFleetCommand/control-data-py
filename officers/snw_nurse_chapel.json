@@ -1,6 +1,6 @@
 {
   "officer_name": "SNW Nurse Chapel",
-  "description": "",
+  "description": "Underestimate Lieutenant Commander Christine Chapel at your peril. Assigned to the USS Enterprise under Captain Christopher Pike, she serves as Nurse to Chief Medical Officer Joseph M\u2019Benga. She is smart, highly skilled, and very resourceful. She\u2019s exactly the kind of Starfleet officer you want in a tight spot.\n\nAnd Nurse Chapel has been in some very tight spots. She served in the Klingon War, as head nurse in a Mobile Combat Surgical Unit, where she witnessed suffering and pain on a scale she had never seen before, facing the kinds of hard decisions the field of battle forces upon idealists. She has even experienced firsthand the savage brutality of the Gorn. Yet, despite all that, she remains positive and good-humored. \n\nWhile on the Enterprise, Chapel meets and develops feelings for the half-human, half-Vulcan Spock. Their relationship is difficult to navigate, but while Chapel's feelings are complicated, she refuses to be defined by that relationship. Indeed, she is always ready to grasp new opportunities wherever they appear and refuses to be held back by anything or anyone. For Nurse Chapel, the only direction is forward.",
   "class": "science",
   "group": "strange new worlds",
   "faction": "federation",
@@ -10,23 +10,23 @@
       "name": "Chain of Command",
       "bonus": "This Officer does not have a Captain's Maneuver. Equipping this Officer as the captain of a ship provides no benefit.",
       "percentage": true,
-      "value": 0
+      "value": 0.0
     },
     "officer_ability": {
       "name": "Archaeological Medicine",
-      "bonus": "Increases the amount of Volatile Isomatter you get from destroying Gorn Hunters by {value} ({1:#,#%} at rank {2:#,#})",
+      "bonus": "Increases the amount of Volatile Isomatter you get from destroying Gorn Hunters by {value} ({value} at rank {value})",
       "percentage": true
     },
     "below_decks_ability": {
       "name": "Protocol 12",
-      "bonus": "At the start of combat, SNW Chapel increases Isolytic Cascade damage by {value} ({1:#,#%} at rank {2:#,#}) vs non-Armada Hostiles.\n\nIsolytic Cascade multiplies your total damage, including Isolytic Damage, and all research and other bonuses.",
+      "bonus": "At the start of combat, SNW Chapel increases Isolytic Cascade damage by {value} ({value} at rank {value}) vs non-Armada Hostiles.\n\nIsolytic Cascade multiplies your total damage, including Isolytic Damage, and all research and other bonuses.",
       "percentage": true
     }
   },
   "synergy": {
-    "command": 0,
-    "engineering": 0,
-    "science": 0
+    "command": 0.0,
+    "engineering": 0.0,
+    "science": 0.0
   },
   "traits": [
     {
@@ -82,9 +82,7 @@
         "shards": 38,
         "xp": 0
       },
-      "below_deck_ability_value": [
-        0.05
-      ]
+      "below_deck_ability_value": 0.05
     },
     {
       "rank_id": 2,
@@ -97,9 +95,7 @@
         "shards": 55,
         "xp": 10000
       },
-      "below_deck_ability_value": [
-        0.1
-      ]
+      "below_deck_ability_value": 0.1
     },
     {
       "rank_id": 3,
@@ -112,9 +108,7 @@
         "shards": 115,
         "xp": 100000
       },
-      "below_deck_ability_value": [
-        0.15
-      ]
+      "below_deck_ability_value": 0.15
     },
     {
       "rank_id": 4,
@@ -127,14 +121,12 @@
         "shards": 155,
         "xp": 250000
       },
-      "below_deck_ability_value": [
-        0.25
-      ]
+      "below_deck_ability_value": 0.25
     },
     {
       "rank_id": 5,
       "name": "COMMANDER V",
-      "officer_ability_value": 2,
+      "officer_ability_value": 2.0,
       "requirements": {
         "badges": 2,
         "credits": 11500,
@@ -142,9 +134,7 @@
         "shards": 225,
         "xp": 500000
       },
-      "below_deck_ability_value": [
-        0.4
-      ]
+      "below_deck_ability_value": 0.4
     }
   ],
   "img_url": "./assets/snw_nurse_chapel.png"

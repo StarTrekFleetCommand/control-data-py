@@ -1,0 +1,38 @@
+{
+  "research_name": "Prime Shearing Boost",
+  "description": "Increases the Borg Cube Cutting Beam's charge by one, allowing it to hold an additional charge and increases base Cost Efficiency for the Borg Cube's Cutting Beam by 75%.",
+  "location": {
+    "column": 14,
+    "row": 3,
+    "tree": "ex-borg"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 240,
+      "increased_power": 38000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 28
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "prime shearing boost",
+            "value": 1000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 1.0
+      }
+    }
+  ],
+  "img_url": "./assets/prime_shearing_boost_ex_borg_3_14.png"
+}

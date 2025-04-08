@@ -1,0 +1,38 @@
+{
+  "research_name": "Prime \u03a9 Liquid Omega-Trellium Refinery",
+  "description": "Increases Liquid Omega-Trellium in the NSEA Refinery by 100% and reduces the amount of Raw Omega-Trellium needed by 60%",
+  "location": {
+    "column": 3,
+    "row": 1,
+    "tree": "mirror"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 240,
+      "increased_power": 96000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 40
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "prime q sigil",
+            "value": 1000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 1.0
+      }
+    }
+  ],
+  "img_url": "./assets/prime_liquid_omega_trellium_refinery_mirror_1_3.png"
+}
