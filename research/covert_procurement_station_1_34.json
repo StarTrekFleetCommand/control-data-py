@@ -1,0 +1,38 @@
+{
+  "research_name": "Covert Procurement",
+  "description": "Increases Cost Efficiency of G4-G6 materials when upgrading buildings.",
+  "location": {
+    "column": 34,
+    "row": 1,
+    "tree": "station"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 0,
+      "increased_power": 141500,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 40
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "covert procurement particle",
+            "value": 1000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 1.0
+      }
+    }
+  ],
+  "img_url": "./assets/covert_procurement_station_1_34.png"
+}

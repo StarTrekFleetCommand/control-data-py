@@ -1,0 +1,202 @@
+{
+  "research_name": "Mara's Vault",
+  "description": "Increases base protected cargo size for all Klingon ships.",
+  "location": {
+    "column": 58,
+    "row": 1,
+    "tree": "galaxy"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 207172740,
+      "increased_power": 122000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 53
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 35882000000
+          }
+        ],
+        "materials": [
+          {
+            "type": "crystal",
+            "value": 13900,
+            "grade": 5,
+            "rarity": "common"
+          }
+        ],
+        "others": [
+          {
+            "type": "rodinium particle",
+            "value": 665
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.16
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 213047880,
+      "increased_power": 7000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 54
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 53824000000
+          }
+        ],
+        "materials": [
+          {
+            "type": "crystal",
+            "value": 19200,
+            "grade": 5,
+            "rarity": "common"
+          }
+        ],
+        "others": [
+          {
+            "type": "rodinium particle",
+            "value": 690
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.32
+      }
+    },
+    {
+      "level": 3,
+      "research_time": 219576840,
+      "increased_power": 8000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 55
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 80735000000
+          }
+        ],
+        "materials": [
+          {
+            "type": "crystal",
+            "value": 24000,
+            "grade": 5,
+            "rarity": "common"
+          }
+        ],
+        "others": [
+          {
+            "type": "rodinium particle",
+            "value": 770
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.48
+      }
+    },
+    {
+      "level": 4,
+      "research_time": 226122360,
+      "increased_power": 9000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 56
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 121103000000
+          }
+        ],
+        "materials": [
+          {
+            "type": "crystal",
+            "value": 8600,
+            "grade": 5,
+            "rarity": "uncommon"
+          }
+        ],
+        "others": [
+          {
+            "type": "rodinium particle",
+            "value": 810
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.64
+      }
+    },
+    {
+      "level": 5,
+      "research_time": 233443800,
+      "increased_power": 9000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 57
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 181655000000
+          }
+        ],
+        "materials": [
+          {
+            "type": "crystal",
+            "value": 3000,
+            "grade": 5,
+            "rarity": "rare"
+          }
+        ],
+        "others": [
+          {
+            "type": "rodinium particle",
+            "value": 905
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.8
+      }
+    }
+  ],
+  "img_url": "./assets/maras_vault_galaxy_1_58.png"
+}

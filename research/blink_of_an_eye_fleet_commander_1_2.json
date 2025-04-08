@@ -1,0 +1,371 @@
+{
+  "research_name": "Blink of an Eye",
+  "description": "Increases base Mining Rate. <color=#FFEF40>(On Duty)</color>",
+  "location": {
+    "column": 2,
+    "row": 1,
+    "tree": "fleet commander"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 0,
+      "increased_power": 850,
+      "requirements": [
+        {
+          "name": "Learning Curve",
+          "level": 1
+        },
+        {
+          "name": "Command Center",
+          "level": 10
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "janeway skill points",
+            "value": 50
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.24
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 0,
+      "increased_power": 350,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "janeway skill points",
+            "value": 60
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.33
+      }
+    },
+    {
+      "level": 3,
+      "research_time": 0,
+      "increased_power": 400,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "janeway skill points",
+            "value": 70
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.42
+      }
+    },
+    {
+      "level": 4,
+      "research_time": 0,
+      "increased_power": 600,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "janeway skill points",
+            "value": 85
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.51
+      }
+    },
+    {
+      "level": 5,
+      "research_time": 0,
+      "increased_power": 1200,
+      "requirements": [
+        {
+          "name": "Command Center",
+          "level": 25
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "janeway skill points",
+            "value": 95
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.66
+      }
+    },
+    {
+      "level": 6,
+      "research_time": 0,
+      "increased_power": 800,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "janeway skill points",
+            "value": 110
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.81
+      }
+    },
+    {
+      "level": 7,
+      "research_time": 0,
+      "increased_power": 1800,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "janeway skill points",
+            "value": 130
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.96
+      }
+    },
+    {
+      "level": 8,
+      "research_time": 0,
+      "increased_power": 3000,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "janeway skill points",
+            "value": 145
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 1.11
+      }
+    },
+    {
+      "level": 9,
+      "research_time": 0,
+      "increased_power": 3250,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "janeway skill points",
+            "value": 170
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 1.26
+      }
+    },
+    {
+      "level": 10,
+      "research_time": 0,
+      "increased_power": 6250,
+      "requirements": [
+        {
+          "name": "Command Center",
+          "level": 35
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "janeway skill points",
+            "value": 190
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 1.47
+      }
+    },
+    {
+      "level": 11,
+      "research_time": 0,
+      "increased_power": 7000,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "rare commander skill points",
+            "value": 1
+          },
+          {
+            "type": "janeway skill points",
+            "value": 215
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 1.68
+      }
+    },
+    {
+      "level": 12,
+      "research_time": 0,
+      "increased_power": 11500,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "rare commander skill points",
+            "value": 1
+          },
+          {
+            "type": "janeway skill points",
+            "value": 245
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 1.89
+      }
+    },
+    {
+      "level": 13,
+      "research_time": 0,
+      "increased_power": 15500,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "rare commander skill points",
+            "value": 1
+          },
+          {
+            "type": "janeway skill points",
+            "value": 275
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 2.1
+      }
+    },
+    {
+      "level": 14,
+      "research_time": 0,
+      "increased_power": 26500,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "rare commander skill points",
+            "value": 1
+          },
+          {
+            "type": "janeway skill points",
+            "value": 305
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 2.4
+      }
+    },
+    {
+      "level": 15,
+      "research_time": 0,
+      "increased_power": 30000,
+      "requirements": [
+        {
+          "name": "Command Center",
+          "level": 50
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "rare commander skill points",
+            "value": 2
+          },
+          {
+            "type": "janeway skill points",
+            "value": 345
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 3.0
+      }
+    }
+  ],
+  "img_url": "./assets/blink_of_an_eye_fleet_commander_1_2.png"
+}

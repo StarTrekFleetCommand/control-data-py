@@ -43,13 +43,13 @@
         ],
         "materials": [
           {
-            "type": "gas",
+            "type": "ore",
             "value": 8100,
             "grade": 4,
             "rarity": "common"
           },
           {
-            "type": "ore",
+            "type": "gas",
             "value": 8100,
             "grade": 4,
             "rarity": "common"
@@ -441,16 +441,16 @@
         ],
         "materials": [
           {
-            "type": "crystal",
-            "value": 3500,
-            "grade": 5,
-            "rarity": "uncommon"
-          },
-          {
             "type": "ore",
             "value": 3200,
             "grade": 5,
             "rarity": "rare"
+          },
+          {
+            "type": "crystal",
+            "value": 3500,
+            "grade": 5,
+            "rarity": "uncommon"
           }
         ],
         "others": [
@@ -462,7 +462,7 @@
       },
       "bonus": {
         "percentage": true,
-        "value": 2
+        "value": 2.0
       }
     }
   ],

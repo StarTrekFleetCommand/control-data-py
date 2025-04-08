@@ -19,10 +19,6 @@
         {
           "name": "R&D Department",
           "level": 30
-        },
-        {
-          "name": "Romulan Points",
-          "level": 750000
         }
       ],
       "required_by": [],
@@ -72,10 +68,6 @@
         {
           "name": "R&D Department",
           "level": 32
-        },
-        {
-          "name": "Romulan Points",
-          "level": 2400000
         }
       ],
       "required_by": [],
@@ -125,10 +117,6 @@
         {
           "name": "R&D Department",
           "level": 34
-        },
-        {
-          "name": "Romulan Points",
-          "level": 5000000
         }
       ],
       "required_by": [],
@@ -159,10 +147,6 @@
         {
           "name": "R&D Department",
           "level": 36
-        },
-        {
-          "name": "Romulan Points",
-          "level": 9000000
         }
       ],
       "required_by": [],
@@ -212,10 +196,6 @@
         {
           "name": "R&D Department",
           "level": 38
-        },
-        {
-          "name": "Romulan Points",
-          "level": 16000000
         }
       ],
       "required_by": [],
@@ -265,10 +245,6 @@
         {
           "name": "R&D Department",
           "level": 40
-        },
-        {
-          "name": "Romulan Points",
-          "level": 25000000
         }
       ],
       "required_by": [],
@@ -306,10 +282,6 @@
         {
           "name": "R&D Department",
           "level": 42
-        },
-        {
-          "name": "Romulan Points",
-          "level": 36000000
         }
       ],
       "required_by": [],
@@ -327,9 +299,9 @@
         "materials": [
           {
             "type": "ore",
-            "value": 650,
+            "value": 7200,
             "grade": 4,
-            "rarity": "rare"
+            "rarity": "common"
           },
           {
             "type": "ore",
@@ -339,9 +311,9 @@
           },
           {
             "type": "ore",
-            "value": 7200,
+            "value": 650,
             "grade": 4,
-            "rarity": "common"
+            "rarity": "rare"
           }
         ],
         "others": []
@@ -359,10 +331,6 @@
         {
           "name": "R&D Department",
           "level": 44
-        },
-        {
-          "name": "Romulan Points",
-          "level": 50000000
         }
       ],
       "required_by": [],
@@ -380,9 +348,9 @@
         "materials": [
           {
             "type": "ore",
-            "value": 900,
+            "value": 11000,
             "grade": 4,
-            "rarity": "rare"
+            "rarity": "common"
           },
           {
             "type": "ore",
@@ -392,9 +360,9 @@
           },
           {
             "type": "ore",
-            "value": 11000,
+            "value": 900,
             "grade": 4,
-            "rarity": "common"
+            "rarity": "rare"
           }
         ],
         "others": []
@@ -412,10 +380,6 @@
         {
           "name": "R&D Department",
           "level": 46
-        },
-        {
-          "name": "Romulan Points",
-          "level": 50000000
         }
       ],
       "required_by": [],
@@ -433,9 +397,9 @@
         "materials": [
           {
             "type": "ore",
-            "value": 1000,
+            "value": 15000,
             "grade": 4,
-            "rarity": "rare"
+            "rarity": "common"
           },
           {
             "type": "ore",
@@ -445,9 +409,9 @@
           },
           {
             "type": "ore",
-            "value": 15000,
+            "value": 1000,
             "grade": 4,
-            "rarity": "common"
+            "rarity": "rare"
           }
         ],
         "others": []
@@ -465,10 +429,6 @@
         {
           "name": "R&D Department",
           "level": 48
-        },
-        {
-          "name": "Romulan Points",
-          "level": 70000000
         }
       ],
       "required_by": [],
@@ -486,9 +446,9 @@
         "materials": [
           {
             "type": "ore",
-            "value": 1150,
+            "value": 20000,
             "grade": 4,
-            "rarity": "rare"
+            "rarity": "common"
           },
           {
             "type": "ore",
@@ -498,16 +458,16 @@
           },
           {
             "type": "ore",
-            "value": 20000,
+            "value": 1150,
             "grade": 4,
-            "rarity": "common"
+            "rarity": "rare"
           }
         ],
         "others": []
       },
       "bonus": {
         "percentage": true,
-        "value": 1
+        "value": 1.0
       }
     }
   ],

@@ -1,0 +1,222 @@
+{
+  "research_name": "B'Etor's Haul",
+  "description": "Increases base max cargo size for all Klingon ships.",
+  "location": {
+    "column": 52,
+    "row": 1,
+    "tree": "galaxy"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 170571120,
+      "increased_power": 100000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 50
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "tritanium",
+            "value": 2835000000
+          },
+          {
+            "type": "dilithium",
+            "value": 6379000000
+          }
+        ],
+        "materials": [
+          {
+            "type": "crystal",
+            "value": 12800,
+            "grade": 5,
+            "rarity": "common"
+          }
+        ],
+        "others": [
+          {
+            "type": "rodinium particle",
+            "value": 540
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.12
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 181152240,
+      "increased_power": 14000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 52
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "tritanium",
+            "value": 5460000000
+          },
+          {
+            "type": "dilithium",
+            "value": 23921000000
+          }
+        ],
+        "materials": [
+          {
+            "type": "crystal",
+            "value": 19200,
+            "grade": 5,
+            "rarity": "common"
+          }
+        ],
+        "others": [
+          {
+            "type": "rodinium particle",
+            "value": 605
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.24
+      }
+    },
+    {
+      "level": 3,
+      "research_time": 191743080,
+      "increased_power": 15000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 54
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "tritanium",
+            "value": 8700000000
+          },
+          {
+            "type": "dilithium",
+            "value": 53824000000
+          }
+        ],
+        "materials": [
+          {
+            "type": "crystal",
+            "value": 9600,
+            "grade": 5,
+            "rarity": "uncommon"
+          }
+        ],
+        "others": [
+          {
+            "type": "rodinium particle",
+            "value": 690
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.36
+      }
+    },
+    {
+      "level": 4,
+      "research_time": 203510160,
+      "increased_power": 17000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 56
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "tritanium",
+            "value": 19500000000
+          },
+          {
+            "type": "dilithium",
+            "value": 121103000000
+          }
+        ],
+        "materials": [
+          {
+            "type": "crystal",
+            "value": 4300,
+            "grade": 5,
+            "rarity": "rare"
+          }
+        ],
+        "others": [
+          {
+            "type": "rodinium particle",
+            "value": 810
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.48
+      }
+    },
+    {
+      "level": 5,
+      "research_time": 216001800,
+      "increased_power": 18000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 58
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "tritanium",
+            "value": 43800000000
+          },
+          {
+            "type": "dilithium",
+            "value": 272483000000
+          }
+        ],
+        "materials": [
+          {
+            "type": "crystal",
+            "value": 5400,
+            "grade": 5,
+            "rarity": "rare"
+          }
+        ],
+        "others": [
+          {
+            "type": "rodinium particle",
+            "value": 965
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.6
+      }
+    }
+  ],
+  "img_url": "./assets/betors_haul_galaxy_1_52.png"
+}

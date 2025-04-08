@@ -71,10 +71,6 @@
         {
           "name": "R&D Department",
           "level": 32
-        },
-        {
-          "name": "Rogue Reputation",
-          "level": 40000
         }
       ],
       "required_by": [],
@@ -127,10 +123,6 @@
         {
           "name": "R&D Department",
           "level": 33
-        },
-        {
-          "name": "Rogue Reputation",
-          "level": 90000
         }
       ],
       "required_by": [],
@@ -183,10 +175,6 @@
         {
           "name": "R&D Department",
           "level": 34
-        },
-        {
-          "name": "Rogue Reputation",
-          "level": 180000
         }
       ],
       "required_by": [],
@@ -239,10 +227,6 @@
         {
           "name": "R&D Department",
           "level": 35
-        },
-        {
-          "name": "Rogue Reputation",
-          "level": 400000
         }
       ],
       "required_by": [],
@@ -295,10 +279,6 @@
         {
           "name": "R&D Department",
           "level": 36
-        },
-        {
-          "name": "Rogue Reputation",
-          "level": 830000
         }
       ],
       "required_by": [],
@@ -351,10 +331,6 @@
         {
           "name": "R&D Department",
           "level": 37
-        },
-        {
-          "name": "Rogue Reputation",
-          "level": 1750000
         }
       ],
       "required_by": [],
@@ -407,10 +383,6 @@
         {
           "name": "R&D Department",
           "level": 38
-        },
-        {
-          "name": "Rogue Reputation",
-          "level": 3300000
         }
       ],
       "required_by": [],
@@ -459,10 +431,6 @@
         {
           "name": "R&D Department",
           "level": 39
-        },
-        {
-          "name": "Rogue Reputation",
-          "level": 5500000
         }
       ],
       "required_by": [],
@@ -515,10 +483,6 @@
         {
           "name": "R&D Department",
           "level": 40
-        },
-        {
-          "name": "Rogue Reputation",
-          "level": 8800000
         }
       ],
       "required_by": [],
@@ -536,15 +500,15 @@
         "materials": [
           {
             "type": "ore",
-            "value": 3120,
-            "grade": 4,
-            "rarity": "uncommon"
-          },
-          {
-            "type": "ore",
             "value": 3340,
             "grade": 4,
             "rarity": "common"
+          },
+          {
+            "type": "ore",
+            "value": 3120,
+            "grade": 4,
+            "rarity": "uncommon"
           }
         ],
         "others": [
@@ -556,7 +520,7 @@
       },
       "bonus": {
         "percentage": true,
-        "value": 1
+        "value": 1.0
       }
     }
   ],

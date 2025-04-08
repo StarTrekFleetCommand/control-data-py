@@ -1,0 +1,38 @@
+{
+  "research_name": "\u03a9 Mirror Space Warp Unlock",
+  "description": "Grants a mission in the Gifts section to unlock a warp path in Mirror Space between Mirror Nausicaa and Mirror Romii.",
+  "location": {
+    "column": 3,
+    "row": 2,
+    "tree": "mirror"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 240,
+      "increased_power": 24000,
+      "requirements": [
+        {
+          "name": "\u03a9 Mirror Space Warp Path Efficiency",
+          "level": 1
+        },
+        {
+          "name": "R&D Department",
+          "level": 40
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "omega mirror dust",
+            "value": 810
+          }
+        ]
+      }
+    }
+  ],
+  "img_url": "./assets/mirror_space_warp_unlock_mirror_2_3.png"
+}

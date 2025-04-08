@@ -1,0 +1,122 @@
+{
+  "research_name": "\u03a9 Omega-13 Device",
+  "description": "Increases the amount of maximum Hull Health own ships survive battle with while protected by the NSEA Protector Omega-13 ability.",
+  "location": {
+    "column": 2,
+    "row": 1,
+    "tree": "mirror"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 240,
+      "increased_power": 38000,
+      "requirements": [
+        {
+          "name": "\u03a9 Critical Damage Floor",
+          "level": 1
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "omega mirror dust",
+            "value": 400
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.1
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 240,
+      "increased_power": 15500,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "omega mirror dust",
+            "value": 600
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.15
+      }
+    },
+    {
+      "level": 3,
+      "research_time": 240,
+      "increased_power": 19500,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "omega mirror dust",
+            "value": 820
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.2
+      }
+    },
+    {
+      "level": 4,
+      "research_time": 240,
+      "increased_power": 19000,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "omega mirror dust",
+            "value": 1060
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.3
+      }
+    },
+    {
+      "level": 5,
+      "research_time": 240,
+      "increased_power": 34000,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "omega mirror dust",
+            "value": 1330
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.4
+      }
+    }
+  ],
+  "img_url": "./assets/omega_13_device_mirror_1_2.png"
+}

@@ -1,0 +1,45 @@
+{
+  "research_name": "Prime Station Damage",
+  "description": "Increases base Damage against enemy Defense Platforms.",
+  "location": {
+    "column": 53,
+    "row": 1,
+    "tree": "combat"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 284235600,
+      "increased_power": 330000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 48
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 11790000000
+          }
+        ],
+        "materials": [
+          {
+            "type": "crystal",
+            "value": 3000,
+            "grade": 5,
+            "rarity": "uncommon"
+          }
+        ],
+        "others": []
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 1.0
+      }
+    }
+  ],
+  "img_url": "./assets/prime_station_damage_combat_1_53.png"
+}

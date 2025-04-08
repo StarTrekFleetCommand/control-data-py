@@ -1,0 +1,38 @@
+{
+  "research_name": "Prime Terran Arena Claim",
+  "description": "Increases Common Terran Credits and Uncommon Terran Credits in the Terran Arena Daily Claim",
+  "location": {
+    "column": 1,
+    "row": 3,
+    "tree": "galaxy"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 2898900,
+      "increased_power": 96000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 40
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "prime q sigil",
+            "value": 1000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.5
+      }
+    }
+  ],
+  "img_url": "./assets/prime_terran_arena_claim_galaxy_3_1.png"
+}

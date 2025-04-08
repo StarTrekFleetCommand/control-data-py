@@ -1,0 +1,38 @@
+{
+  "research_name": "Prime NX01 Rare Opportunities",
+  "description": "Reduce the cost of <i>Rare Choice Opportunity Chips</i> spent to claim <color=#FFC926>Special Opportunity Chests</color> in the Enterprise <i>NX-01 Refinery</i>.",
+  "location": {
+    "column": 12,
+    "row": 2,
+    "tree": "ex-borg"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 2898900,
+      "increased_power": 96000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 40
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "prime q sigil",
+            "value": 1000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 3.0
+      }
+    }
+  ],
+  "img_url": "./assets/prime_nx01_rare_opportunities_ex_borg_2_12.png"
+}

@@ -1,0 +1,38 @@
+{
+  "research_name": "Encrypted Section 31 Credits",
+  "description": "Unlocks a daily free claim of Section 31 Credits and Mirror Credits in the Section 31 Faction store.",
+  "location": {
+    "column": 26,
+    "row": 3,
+    "tree": "mirror"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 0,
+      "increased_power": 124000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 40
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "encrypted s31 particle",
+            "value": 1000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.25
+      }
+    }
+  ],
+  "img_url": "./assets/encrypted_section_31_credits_mirror_3_26.png"
+}

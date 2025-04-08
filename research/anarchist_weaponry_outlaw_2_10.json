@@ -43,25 +43,25 @@
         ],
         "others": [
           {
-            "type": "lackey token",
-            "value": 1
-          },
-          {
             "type": "outlaw research credits",
             "value": 200
+          },
+          {
+            "type": "lackey token",
+            "value": 1
           }
         ]
-      },
-      "bonus": {
-        "percentage": true,
-        "value": 0.5
       },
       "rewards": [
         {
           "type": "Alpha Particle",
           "value": 1
         }
-      ]
+      ],
+      "bonus": {
+        "percentage": true,
+        "value": 0.5
+      }
     },
     {
       "level": 2,
@@ -95,7 +95,7 @@
       },
       "bonus": {
         "percentage": true,
-        "value": 1
+        "value": 1.0
       }
     },
     {
@@ -340,7 +340,7 @@
       },
       "bonus": {
         "percentage": true,
-        "value": 6
+        "value": 6.0
       }
     },
     {
@@ -375,7 +375,7 @@
       },
       "bonus": {
         "percentage": true,
-        "value": 7
+        "value": 7.0
       }
     }
   ],

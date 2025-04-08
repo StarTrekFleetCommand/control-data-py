@@ -27,13 +27,13 @@
         ],
         "materials": [
           {
-            "type": "gas",
+            "type": "ore",
             "value": 20000,
             "grade": 4,
             "rarity": "common"
           },
           {
-            "type": "ore",
+            "type": "gas",
             "value": 20000,
             "grade": 4,
             "rarity": "common"
@@ -360,13 +360,13 @@
         ],
         "materials": [
           {
-            "type": "gas",
+            "type": "ore",
             "value": 14000,
             "grade": 5,
             "rarity": "common"
           },
           {
-            "type": "ore",
+            "type": "gas",
             "value": 14000,
             "grade": 5,
             "rarity": "common"
@@ -387,7 +387,7 @@
       },
       "bonus": {
         "percentage": true,
-        "value": 1
+        "value": 1.0
       }
     },
     {
@@ -410,13 +410,13 @@
         ],
         "materials": [
           {
-            "type": "gas",
+            "type": "ore",
             "value": 20000,
             "grade": 5,
             "rarity": "common"
           },
           {
-            "type": "ore",
+            "type": "gas",
             "value": 20000,
             "grade": 5,
             "rarity": "common"

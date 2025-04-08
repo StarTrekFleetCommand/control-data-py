@@ -1,0 +1,146 @@
+{
+  "research_name": "Black Market Favors",
+  "description": "Increases base Forbidden Tech Protomatter cost efficiency for leveling up Forbidden Tech.",
+  "location": {
+    "column": 64,
+    "row": 1,
+    "tree": "starships"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 240,
+      "increased_power": 56520,
+      "requirements": [
+        {
+          "name": "Revised Colloquium",
+          "level": 1
+        },
+        {
+          "name": "R&D Department",
+          "level": 42
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "ionized nexus particle",
+            "value": 100
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.02
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 1652400,
+      "increased_power": 14340,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 45
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "nexus particle",
+            "value": 68000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.04
+      }
+    },
+    {
+      "level": 3,
+      "research_time": 5504400,
+      "increased_power": 36240,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 51
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "nexus particle",
+            "value": 119000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.07
+      }
+    },
+    {
+      "level": 4,
+      "research_time": 6948000,
+      "increased_power": 30360,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 55
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "nexus particle",
+            "value": 136000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.1
+      }
+    },
+    {
+      "level": 5,
+      "research_time": 240,
+      "increased_power": 46020,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 60
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "ionized nexus particle",
+            "value": 700
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.14
+      }
+    }
+  ],
+  "img_url": "./assets/black_market_favors_starships_1_64.png"
+}

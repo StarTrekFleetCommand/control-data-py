@@ -110,15 +110,15 @@
         "materials": [
           {
             "type": "gas",
-            "value": 4800,
-            "grade": 5,
-            "rarity": "rare"
-          },
-          {
-            "type": "gas",
             "value": 24000,
             "grade": 5,
             "rarity": "uncommon"
+          },
+          {
+            "type": "gas",
+            "value": 4800,
+            "grade": 5,
+            "rarity": "rare"
           }
         ],
         "others": []
@@ -203,7 +203,7 @@
       },
       "bonus": {
         "percentage": true,
-        "value": 1
+        "value": 1.0
       }
     }
   ],

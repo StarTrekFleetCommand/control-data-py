@@ -1,0 +1,342 @@
+{
+  "research_name": "Survival Instinct",
+  "description": "Increases base Mitigation Stats in Q's Trials. <color=#FFEF40>(On Duty)</color>",
+  "location": {
+    "column": 1,
+    "row": 2,
+    "tree": "fleet commander"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 0,
+      "increased_power": 250,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "janeway skill points",
+            "value": 20
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.4
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 0,
+      "increased_power": 90,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "janeway skill points",
+            "value": 25
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.55
+      }
+    },
+    {
+      "level": 3,
+      "research_time": 0,
+      "increased_power": 185,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "janeway skill points",
+            "value": 30
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.7
+      }
+    },
+    {
+      "level": 4,
+      "research_time": 0,
+      "increased_power": 175,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "janeway skill points",
+            "value": 35
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.85
+      }
+    },
+    {
+      "level": 5,
+      "research_time": 0,
+      "increased_power": 275,
+      "requirements": [
+        {
+          "name": "Command Center",
+          "level": 10
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "janeway skill points",
+            "value": 40
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 1.1
+      }
+    },
+    {
+      "level": 6,
+      "research_time": 0,
+      "increased_power": 325,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "janeway skill points",
+            "value": 50
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 1.35
+      }
+    },
+    {
+      "level": 7,
+      "research_time": 0,
+      "increased_power": 700,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "janeway skill points",
+            "value": 55
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 1.6
+      }
+    },
+    {
+      "level": 8,
+      "research_time": 0,
+      "increased_power": 1400,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "janeway skill points",
+            "value": 65
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 1.85
+      }
+    },
+    {
+      "level": 9,
+      "research_time": 0,
+      "increased_power": 1300,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "janeway skill points",
+            "value": 70
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 2.1
+      }
+    },
+    {
+      "level": 10,
+      "research_time": 0,
+      "increased_power": 3050,
+      "requirements": [
+        {
+          "name": "Command Center",
+          "level": 30
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "janeway skill points",
+            "value": 80
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 2.45
+      }
+    },
+    {
+      "level": 11,
+      "research_time": 0,
+      "increased_power": 2750,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "janeway skill points",
+            "value": 90
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 2.8
+      }
+    },
+    {
+      "level": 12,
+      "research_time": 0,
+      "increased_power": 5250,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "janeway skill points",
+            "value": 105
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 3.15
+      }
+    },
+    {
+      "level": 13,
+      "research_time": 0,
+      "increased_power": 5750,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "janeway skill points",
+            "value": 115
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 3.5
+      }
+    },
+    {
+      "level": 14,
+      "research_time": 0,
+      "increased_power": 9500,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "janeway skill points",
+            "value": 130
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 4.0
+      }
+    },
+    {
+      "level": 15,
+      "research_time": 0,
+      "increased_power": 21000,
+      "requirements": [
+        {
+          "name": "Command Center",
+          "level": 45
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "janeway skill points",
+            "value": 145
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 5.0
+      }
+    }
+  ],
+  "img_url": "./assets/survival_instinct_fleet_commander_2_1.png"
+}

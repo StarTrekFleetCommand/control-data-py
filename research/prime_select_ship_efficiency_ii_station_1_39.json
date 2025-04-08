@@ -1,0 +1,90 @@
+{
+  "research_name": "Prime Select Ship Efficiency II",
+  "description": "Increases base Cost Efficiency of Monaveen, Gorn Eviscerator, NX-01, Vindicator & NSEA Protector Special Ship Components",
+  "location": {
+    "column": 39,
+    "row": 1,
+    "tree": "station"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 250980,
+      "increased_power": 50000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 41
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "temporal particle",
+            "value": 1000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.3
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 250980,
+      "increased_power": 150000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 41
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "temporal particle",
+            "value": 1000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.4
+      }
+    },
+    {
+      "level": 3,
+      "research_time": 250980,
+      "increased_power": 200000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 41
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "temporal particle",
+            "value": 1000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.5
+      }
+    }
+  ],
+  "img_url": "./assets/prime_select_ship_efficiency_ii_station_1_39.png"
+}

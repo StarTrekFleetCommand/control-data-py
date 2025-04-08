@@ -1,0 +1,324 @@
+{
+  "research_name": "Uncommon Ship Parts Efficiency",
+  "description": "Increases base Cost Efficiency on Ship Parts when upgrading ships.",
+  "location": {
+    "column": 24,
+    "row": 2,
+    "tree": "mirror"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 240,
+      "increased_power": 52000,
+      "requirements": [
+        {
+          "name": "Uncommon Ship Materials Efficiency",
+          "level": 1
+        },
+        {
+          "name": "Operations",
+          "level": 40
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "common mirror dust",
+            "value": 935
+          },
+          {
+            "type": "uncommon mirror dust",
+            "value": 930
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.05
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 240,
+      "increased_power": 14000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 40
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "common mirror dust",
+            "value": 1255
+          },
+          {
+            "type": "uncommon mirror dust",
+            "value": 1135
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.08
+      }
+    },
+    {
+      "level": 3,
+      "research_time": 240,
+      "increased_power": 10000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 40
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "common mirror dust",
+            "value": 1570
+          },
+          {
+            "type": "uncommon mirror dust",
+            "value": 1320
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.11
+      }
+    },
+    {
+      "level": 4,
+      "research_time": 240,
+      "increased_power": 31000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 45
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "common mirror dust",
+            "value": 2085
+          },
+          {
+            "type": "uncommon mirror dust",
+            "value": 1640
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.15
+      }
+    },
+    {
+      "level": 5,
+      "research_time": 240,
+      "increased_power": 14500,
+      "requirements": [
+        {
+          "name": "Uncommon Ship Materials Efficiency",
+          "level": 5
+        },
+        {
+          "name": "Operations",
+          "level": 51
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "common mirror dust",
+            "value": 2480
+          },
+          {
+            "type": "uncommon mirror dust",
+            "value": 1865
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.2
+      }
+    },
+    {
+      "level": 6,
+      "research_time": 240,
+      "increased_power": 16000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 51
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "common mirror dust",
+            "value": 2900
+          },
+          {
+            "type": "uncommon mirror dust",
+            "value": 2250
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.25
+      }
+    },
+    {
+      "level": 7,
+      "research_time": 240,
+      "increased_power": 58500,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 51
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "common mirror dust",
+            "value": 3675
+          },
+          {
+            "type": "uncommon mirror dust",
+            "value": 2890
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.3
+      }
+    },
+    {
+      "level": 8,
+      "research_time": 240,
+      "increased_power": 26500,
+      "requirements": [
+        {
+          "name": "Uncommon Ship Materials Efficiency",
+          "level": 8
+        },
+        {
+          "name": "Operations",
+          "level": 51
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "common mirror dust",
+            "value": 4530
+          },
+          {
+            "type": "uncommon mirror dust",
+            "value": 3535
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.35
+      }
+    },
+    {
+      "level": 9,
+      "research_time": 240,
+      "increased_power": 44500,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 61
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "common mirror dust",
+            "value": 5560
+          },
+          {
+            "type": "uncommon mirror dust",
+            "value": 4295
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.4
+      }
+    },
+    {
+      "level": 10,
+      "research_time": 240,
+      "increased_power": 33000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 61
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "common mirror dust",
+            "value": 6935
+          },
+          {
+            "type": "uncommon mirror dust",
+            "value": 5220
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.5
+      }
+    }
+  ],
+  "img_url": "./assets/uncommon_ship_parts_efficiency_mirror_2_24.png"
+}

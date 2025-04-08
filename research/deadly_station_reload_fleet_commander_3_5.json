@@ -1,0 +1,63 @@
+{
+  "research_name": "Deadly Station Reload",
+  "description": "Lowers your Weapons\u2019 Warmup Time during Station Defense if they have been increased by another effect (Cannot go below original value)  <color=#FFEF40>(On Duty)</color>",
+  "location": {
+    "column": 5,
+    "row": 3,
+    "tree": "fleet commander"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 0,
+      "increased_power": 26350,
+      "requirements": [
+        {
+          "name": "Lorca's Isolytic Shield",
+          "level": 1
+        },
+        {
+          "name": "Command Center",
+          "level": 25
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "lorca skill points",
+            "value": 1442
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 1.0
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 0,
+      "increased_power": 7925,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "lorca skill points",
+            "value": 2677
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 2.0
+      }
+    }
+  ],
+  "img_url": "./assets/deadly_station_reload_fleet_commander_3_5.png"
+}

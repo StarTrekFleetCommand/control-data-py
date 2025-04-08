@@ -1,0 +1,56 @@
+{
+  "research_name": "Mudd's Mudd",
+  "description": "Unlock a special Mudd mission in the Rogue Faction Store",
+  "location": {
+    "column": 27,
+    "row": 3,
+    "tree": "outlaw"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 35313540,
+      "increased_power": 120000,
+      "requirements": [
+        {
+          "name": "Immovable Object",
+          "level": 1
+        },
+        {
+          "name": "Operations",
+          "level": 40
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 259900000
+          }
+        ],
+        "materials": [
+          {
+            "type": "ore",
+            "value": 3000,
+            "grade": 4,
+            "rarity": "uncommon"
+          }
+        ],
+        "others": [
+          {
+            "type": "outlaw research credits",
+            "value": 5400
+          }
+        ]
+      },
+      "rewards": [
+        {
+          "type": "Gamma Particle",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "img_url": "./assets/mudds_mudd_outlaw_3_27.png"
+}

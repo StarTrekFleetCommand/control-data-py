@@ -1,0 +1,296 @@
+{
+  "research_name": "\u03a9 Critical Damage Reduction",
+  "description": "Reduces the Critical Hit Damage of enemy Players (does not apply while defending station).",
+  "location": {
+    "column": 6,
+    "row": 2,
+    "tree": "mirror"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 240,
+      "increased_power": 23500,
+      "requirements": [
+        {
+          "name": "\u03a9 District 56 Efficiency",
+          "level": 1
+        },
+        {
+          "name": "\u03a9 Artifact Gallery Efficiency",
+          "level": 1
+        },
+        {
+          "name": "\u03a9 War Room Efficiency",
+          "level": 1
+        },
+        {
+          "name": "R&D Department",
+          "level": 40
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "omega mirror dust",
+            "value": 410
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.1
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 240,
+      "increased_power": 500,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 40
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "omega mirror dust",
+            "value": 450
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.15
+      }
+    },
+    {
+      "level": 3,
+      "research_time": 240,
+      "increased_power": 500,
+      "requirements": [
+        {
+          "name": "\u03a9 Critical Damage Floor",
+          "level": 2
+        },
+        {
+          "name": "R&D Department",
+          "level": 40
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "omega mirror dust",
+            "value": 500
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.2
+      }
+    },
+    {
+      "level": 4,
+      "research_time": 240,
+      "increased_power": 10000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 45
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "omega mirror dust",
+            "value": 590
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.3
+      }
+    },
+    {
+      "level": 5,
+      "research_time": 240,
+      "increased_power": 1000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 45
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "omega mirror dust",
+            "value": 630
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.4
+      }
+    },
+    {
+      "level": 6,
+      "research_time": 240,
+      "increased_power": 500,
+      "requirements": [
+        {
+          "name": "\u03a9 Faction Warfare Apex Barrier",
+          "level": 6
+        },
+        {
+          "name": "R&D Department",
+          "level": 45
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "omega mirror dust",
+            "value": 730
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.5
+      }
+    },
+    {
+      "level": 7,
+      "research_time": 240,
+      "increased_power": 16500,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 51
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "omega mirror dust",
+            "value": 910
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.7
+      }
+    },
+    {
+      "level": 8,
+      "research_time": 240,
+      "increased_power": 2000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 51
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "omega mirror dust",
+            "value": 1010
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.9
+      }
+    },
+    {
+      "level": 9,
+      "research_time": 240,
+      "increased_power": 41500,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 61
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "omega mirror dust",
+            "value": 1280
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 1.1
+      }
+    },
+    {
+      "level": 10,
+      "research_time": 240,
+      "increased_power": 4000,
+      "requirements": [
+        {
+          "name": "\u03a9 Critical Damage Floor",
+          "level": 5
+        },
+        {
+          "name": "R&D Department",
+          "level": 61
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "omega mirror dust",
+            "value": 1460
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 1.5
+      }
+    }
+  ],
+  "img_url": "./assets/critical_damage_reduction_mirror_2_6.png"
+}

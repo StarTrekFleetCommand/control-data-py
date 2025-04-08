@@ -1,0 +1,45 @@
+{
+  "research_name": "Prime Vi'Dar Cargo",
+  "description": "Increases base max cargo size for the Vi'Dar ship.",
+  "location": {
+    "column": 7,
+    "row": 2,
+    "tree": "starships"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 489240,
+      "increased_power": 29000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 32
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 5990000
+          }
+        ],
+        "materials": [
+          {
+            "type": "ore",
+            "value": 400,
+            "grade": 5,
+            "rarity": "rare"
+          }
+        ],
+        "others": []
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 1.0
+      }
+    }
+  ],
+  "img_url": "./assets/prime_vidar_cargo_starships_2_7.png"
+}

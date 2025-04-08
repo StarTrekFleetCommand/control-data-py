@@ -47,7 +47,7 @@
       },
       "bonus": {
         "percentage": true,
-        "value": 1
+        "value": 1.0
       }
     },
     {
@@ -285,22 +285,22 @@
           },
           {
             "type": "crystal",
-            "value": 12,
-            "grade": 3,
-            "rarity": "rare"
-          },
-          {
-            "type": "crystal",
             "value": 130,
             "grade": 3,
             "rarity": "uncommon"
+          },
+          {
+            "type": "crystal",
+            "value": 12,
+            "grade": 3,
+            "rarity": "rare"
           }
         ],
         "others": []
       },
       "bonus": {
         "percentage": true,
-        "value": 2
+        "value": 2.0
       }
     }
   ],
