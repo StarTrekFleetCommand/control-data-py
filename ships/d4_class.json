@@ -6,7 +6,7 @@
   "faction": "klingon",
   "rarity": "epic",
   "blueprints": {
-    "cost": 0,
+    "cost": 1200,
     "quantity": 150
   },
   "ship_ability": {
@@ -243,7 +243,7 @@
         },
         {
           "ability_bonus": 0.03,
-          "additional_officer_slot": true,
+          "additional_officer_slot": false,
           "level": 5,
           "ship_xp": 1700,
           "scrap_details": {
@@ -278,14 +278,14 @@
         ],
         "materials": [
           {
-            "type": "crystal",
-            "value": 8250,
+            "type": "gas",
+            "value": 1375,
             "grade": 3,
             "rarity": "common"
           },
           {
-            "type": "gas",
-            "value": 1375,
+            "type": "crystal",
+            "value": 8250,
             "grade": 3,
             "rarity": "common"
           }
@@ -314,21 +314,21 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 2800,
+                "type": "gas",
+                "value": 650,
                 "grade": 3,
                 "rarity": "common"
               },
               {
-                "type": "gas",
-                "value": 650,
+                "type": "crystal",
+                "value": 2800,
                 "grade": 3,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 425
               }
             ]
@@ -384,21 +384,21 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 2800,
+                "type": "gas",
+                "value": 650,
                 "grade": 3,
                 "rarity": "common"
               },
               {
-                "type": "gas",
-                "value": 650,
+                "type": "crystal",
+                "value": 2800,
                 "grade": 3,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 425
               }
             ]
@@ -458,7 +458,7 @@
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 70
               }
             ]
@@ -499,7 +499,7 @@
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 220
               }
             ]
@@ -530,21 +530,21 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 2200,
+                "type": "gas",
+                "value": 325,
                 "grade": 3,
                 "rarity": "common"
               },
               {
-                "type": "gas",
-                "value": 325,
+                "type": "crystal",
+                "value": 2200,
                 "grade": 3,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 300
               }
             ]
@@ -579,23 +579,27 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 1125000
+                "value": 16290625
               },
               {
                 "type": "dilithium",
-                "value": 50000
+                "value": 188145
               },
               {
-                "type": "4\u2605 common refined gas",
-                "value": 816
+                "type": "gas",
+                "value": 816,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 1515,
+                "grade": 4,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
                 "value": 274
-              },
-              {
-                "type": "4\u2605 common refined crystal",
-                "value": 1515
               },
               {
                 "type": "4\u2605 common interceptor parts",
@@ -614,23 +618,27 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 1125000
+                "value": 16290625
               },
               {
                 "type": "dilithium",
-                "value": 50000
+                "value": 188145
               },
               {
-                "type": "4\u2605 common refined gas",
-                "value": 977
+                "type": "gas",
+                "value": 977,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 1814,
+                "grade": 4,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
                 "value": 383
-              },
-              {
-                "type": "4\u2605 common refined crystal",
-                "value": 1814
               },
               {
                 "type": "4\u2605 common interceptor parts",
@@ -649,23 +657,27 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 1125000
+                "value": 16290625
               },
               {
                 "type": "dilithium",
-                "value": 50000
+                "value": 188145
               },
               {
-                "type": "4\u2605 common refined gas",
-                "value": 1219
+                "type": "gas",
+                "value": 1219,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 2263,
+                "grade": 4,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
                 "value": 529
-              },
-              {
-                "type": "4\u2605 common refined crystal",
-                "value": 2263
               },
               {
                 "type": "4\u2605 common interceptor parts",
@@ -684,23 +696,27 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 1125000
+                "value": 16290625
               },
               {
                 "type": "dilithium",
-                "value": 50000
+                "value": 188145
               },
               {
-                "type": "4\u2605 common refined gas",
-                "value": 1460
+                "type": "gas",
+                "value": 1460,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 2711,
+                "grade": 4,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
                 "value": 701
-              },
-              {
-                "type": "4\u2605 common refined crystal",
-                "value": 2711
               },
               {
                 "type": "4\u2605 common interceptor parts",
@@ -711,7 +727,7 @@
         },
         {
           "ability_bonus": 0.05,
-          "additional_officer_slot": true,
+          "additional_officer_slot": false,
           "level": 10,
           "ship_xp": 6000,
           "scrap_details": {
@@ -719,23 +735,27 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 1125000
+                "value": 16290625
               },
               {
                 "type": "dilithium",
-                "value": 50000
+                "value": 188145
               },
               {
-                "type": "4\u2605 common refined gas",
-                "value": 1782
+                "type": "gas",
+                "value": 1782,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 3309,
+                "grade": 4,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
                 "value": 926
-              },
-              {
-                "type": "4\u2605 common refined crystal",
-                "value": 3309
               },
               {
                 "type": "4\u2605 common interceptor parts",
@@ -767,21 +787,21 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 425,
+                "type": "gas",
+                "value": 100,
                 "grade": 3,
                 "rarity": "uncommon"
               },
               {
-                "type": "gas",
-                "value": 100,
+                "type": "crystal",
+                "value": 425,
                 "grade": 3,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 875
               }
             ]
@@ -837,21 +857,21 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 425,
+                "type": "gas",
+                "value": 100,
                 "grade": 3,
                 "rarity": "uncommon"
               },
               {
-                "type": "gas",
-                "value": 100,
+                "type": "crystal",
+                "value": 425,
                 "grade": 3,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 875
               }
             ]
@@ -911,7 +931,7 @@
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 140
               }
             ]
@@ -952,7 +972,7 @@
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 425
               }
             ]
@@ -983,21 +1003,21 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 6500,
+                "type": "gas",
+                "value": 1000,
                 "grade": 3,
                 "rarity": "common"
               },
               {
-                "type": "gas",
-                "value": 1000,
+                "type": "crystal",
+                "value": 6500,
                 "grade": 3,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 575
               }
             ]
@@ -1032,23 +1052,27 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 1125000
+                "value": 44698750
               },
               {
                 "type": "dilithium",
-                "value": 50000
+                "value": 500563
               },
               {
-                "type": "4\u2605 common refined gas",
-                "value": 1764
+                "type": "gas",
+                "value": 1764,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 3276,
+                "grade": 4,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
                 "value": 1110
-              },
-              {
-                "type": "4\u2605 common refined crystal",
-                "value": 3276
               },
               {
                 "type": "4\u2605 common interceptor parts",
@@ -1067,23 +1091,27 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 1125000
+                "value": 44698750
               },
               {
                 "type": "dilithium",
-                "value": 50000
+                "value": 500563
               },
               {
-                "type": "4\u2605 common refined gas",
-                "value": 1998
+                "type": "gas",
+                "value": 1998,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 3711,
+                "grade": 4,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
                 "value": 1407
-              },
-              {
-                "type": "4\u2605 common refined crystal",
-                "value": 3711
               },
               {
                 "type": "4\u2605 common interceptor parts",
@@ -1102,23 +1130,27 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 1125000
+                "value": 44698750
               },
               {
                 "type": "dilithium",
-                "value": 50000
+                "value": 500563
               },
               {
-                "type": "4\u2605 common refined gas",
-                "value": 2467
+                "type": "gas",
+                "value": 2467,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 4580,
+                "grade": 4,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
                 "value": 1740
-              },
-              {
-                "type": "4\u2605 common refined crystal",
-                "value": 4580
               },
               {
                 "type": "4\u2605 common interceptor parts",
@@ -1137,23 +1169,27 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 1125000
+                "value": 44698750
               },
               {
                 "type": "dilithium",
-                "value": 50000
+                "value": 500563
               },
               {
-                "type": "4\u2605 common refined gas",
-                "value": 3052
+                "type": "gas",
+                "value": 3052,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 5668,
+                "grade": 4,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
                 "value": 2125
-              },
-              {
-                "type": "4\u2605 common refined crystal",
-                "value": 5668
               },
               {
                 "type": "4\u2605 common interceptor parts",
@@ -1172,23 +1208,27 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 1125000
+                "value": 44698750
               },
               {
                 "type": "dilithium",
-                "value": 50000
+                "value": 500563
               },
               {
-                "type": "4\u2605 common refined gas",
-                "value": 3872
+                "type": "gas",
+                "value": 3872,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 7190,
+                "grade": 4,
+                "rarity": "common"
               },
               {
                 "type": "ship xp",
                 "value": 2597
-              },
-              {
-                "type": "4\u2605 common refined crystal",
-                "value": 7190
               },
               {
                 "type": "4\u2605 common interceptor parts",
@@ -1220,21 +1260,21 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 1375,
+                "type": "gas",
+                "value": 325,
                 "grade": 3,
                 "rarity": "uncommon"
               },
               {
-                "type": "gas",
-                "value": 325,
+                "type": "crystal",
+                "value": 1375,
                 "grade": 3,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 1500
               }
             ]
@@ -1290,21 +1330,21 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 1375,
+                "type": "gas",
+                "value": 325,
                 "grade": 3,
                 "rarity": "uncommon"
               },
               {
-                "type": "gas",
-                "value": 325,
+                "type": "crystal",
+                "value": 1375,
                 "grade": 3,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 1500
               }
             ]
@@ -1364,7 +1404,7 @@
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 250
               }
             ]
@@ -1405,7 +1445,7 @@
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 750
               }
             ]
@@ -1436,21 +1476,21 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 17500,
+                "type": "gas",
+                "value": 2600,
                 "grade": 3,
                 "rarity": "common"
               },
               {
-                "type": "gas",
-                "value": 2600,
+                "type": "crystal",
+                "value": 17500,
                 "grade": 3,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 1000
               }
             ]
@@ -1485,39 +1525,47 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 1125000
+                "value": 89101875
               },
               {
                 "type": "dilithium",
-                "value": 50000
+                "value": 1127169
               },
               {
-                "type": "4\u2605 common refined gas",
-                "value": 4024
+                "type": "gas",
+                "value": 4024,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 53,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 7473,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 99,
+                "grade": 4,
+                "rarity": "uncommon"
               },
               {
                 "type": "ship xp",
                 "value": 2899
               },
               {
-                "type": "4\u2605 uncommon interceptor parts",
-                "value": 206
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 53
-              },
-              {
-                "type": "4\u2605 uncommon refined crystal",
-                "value": 99
-              },
-              {
-                "type": "4\u2605 common refined crystal",
-                "value": 7473
-              },
-              {
                 "type": "4\u2605 common interceptor parts",
                 "value": 12988
+              },
+              {
+                "type": "4\u2605 uncommon interceptor parts",
+                "value": 206
               }
             ]
           }
@@ -1532,39 +1580,47 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 1125000
+                "value": 89101875
               },
               {
                 "type": "dilithium",
-                "value": 50000
+                "value": 1127169
               },
               {
-                "type": "4\u2605 common refined gas",
-                "value": 4564
+                "type": "gas",
+                "value": 4564,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 61,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 8475,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 112,
+                "grade": 4,
+                "rarity": "uncommon"
               },
               {
                 "type": "ship xp",
                 "value": 3468
               },
               {
-                "type": "4\u2605 uncommon interceptor parts",
-                "value": 229
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 61
-              },
-              {
-                "type": "4\u2605 uncommon refined crystal",
-                "value": 112
-              },
-              {
-                "type": "4\u2605 common refined crystal",
-                "value": 8475
-              },
-              {
                 "type": "4\u2605 common interceptor parts",
                 "value": 14479
+              },
+              {
+                "type": "4\u2605 uncommon interceptor parts",
+                "value": 229
               }
             ]
           }
@@ -1579,39 +1635,47 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 1125000
+                "value": 89101875
               },
               {
                 "type": "dilithium",
-                "value": 50000
+                "value": 1127169
               },
               {
-                "type": "4\u2605 common refined gas",
-                "value": 5642
+                "type": "gas",
+                "value": 5642,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 75,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 10478,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 138,
+                "grade": 4,
+                "rarity": "uncommon"
               },
               {
                 "type": "ship xp",
                 "value": 4102
               },
               {
-                "type": "4\u2605 uncommon interceptor parts",
-                "value": 276
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 75
-              },
-              {
-                "type": "4\u2605 uncommon refined crystal",
-                "value": 138
-              },
-              {
-                "type": "4\u2605 common refined crystal",
-                "value": 10478
-              },
-              {
                 "type": "4\u2605 common interceptor parts",
                 "value": 17460
+              },
+              {
+                "type": "4\u2605 uncommon interceptor parts",
+                "value": 276
               }
             ]
           }
@@ -1626,46 +1690,54 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 1125000
+                "value": 89101875
               },
               {
                 "type": "dilithium",
-                "value": 50000
+                "value": 1127169
               },
               {
-                "type": "4\u2605 common refined gas",
-                "value": 6990
+                "type": "gas",
+                "value": 6990,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 92,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 12981,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 171,
+                "grade": 4,
+                "rarity": "uncommon"
               },
               {
                 "type": "ship xp",
                 "value": 4849
               },
               {
-                "type": "4\u2605 uncommon interceptor parts",
-                "value": 335
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 92
-              },
-              {
-                "type": "4\u2605 uncommon refined crystal",
-                "value": 171
-              },
-              {
-                "type": "4\u2605 common refined crystal",
-                "value": 12981
-              },
-              {
                 "type": "4\u2605 common interceptor parts",
                 "value": 21186
+              },
+              {
+                "type": "4\u2605 uncommon interceptor parts",
+                "value": 335
               }
             ]
           }
         },
         {
           "ability_bonus": 0.1,
-          "additional_officer_slot": true,
+          "additional_officer_slot": false,
           "level": 20,
           "ship_xp": 25000,
           "scrap_details": {
@@ -1673,39 +1745,47 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 1125000
+                "value": 89101875
               },
               {
                 "type": "dilithium",
-                "value": 50000
+                "value": 1127169
               },
               {
-                "type": "4\u2605 common refined gas",
-                "value": 8877
+                "type": "gas",
+                "value": 8877,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 117,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 16486,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 217,
+                "grade": 4,
+                "rarity": "uncommon"
               },
               {
                 "type": "ship xp",
                 "value": 5662
               },
               {
-                "type": "4\u2605 uncommon interceptor parts",
-                "value": 417
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 117
-              },
-              {
-                "type": "4\u2605 uncommon refined crystal",
-                "value": 217
-              },
-              {
-                "type": "4\u2605 common refined crystal",
-                "value": 16486
-              },
-              {
                 "type": "4\u2605 common interceptor parts",
                 "value": 26403
+              },
+              {
+                "type": "4\u2605 uncommon interceptor parts",
+                "value": 417
               }
             ]
           }
@@ -1733,21 +1813,21 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 2800,
+                "type": "gas",
+                "value": 650,
                 "grade": 3,
                 "rarity": "uncommon"
               },
               {
-                "type": "gas",
-                "value": 650,
+                "type": "crystal",
+                "value": 2800,
                 "grade": 3,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 2600
               }
             ]
@@ -1803,21 +1883,21 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 2800,
+                "type": "gas",
+                "value": 650,
                 "grade": 3,
                 "rarity": "uncommon"
               },
               {
-                "type": "gas",
-                "value": 650,
+                "type": "crystal",
+                "value": 2800,
                 "grade": 3,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 2600
               }
             ]
@@ -1877,7 +1957,7 @@
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 425
               }
             ]
@@ -1918,7 +1998,7 @@
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 1300
               }
             ]
@@ -1949,21 +2029,21 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 2200,
+                "type": "gas",
+                "value": 325,
                 "grade": 3,
                 "rarity": "uncommon"
               },
               {
-                "type": "gas",
-                "value": 325,
+                "type": "crystal",
+                "value": 2200,
                 "grade": 3,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 1700
               }
             ]
@@ -1998,39 +2078,47 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 1125000
+                "value": 167862500
               },
               {
                 "type": "dilithium",
-                "value": 50000
+                "value": 2341275
               },
               {
-                "type": "4\u2605 common refined gas",
-                "value": 8880
+                "type": "gas",
+                "value": 8880,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 168,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 16491,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 311,
+                "grade": 4,
+                "rarity": "uncommon"
               },
               {
                 "type": "ship xp",
                 "value": 6096
               },
               {
-                "type": "4\u2605 uncommon interceptor parts",
-                "value": 600
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 168
-              },
-              {
-                "type": "4\u2605 uncommon refined crystal",
-                "value": 311
-              },
-              {
-                "type": "4\u2605 common refined crystal",
-                "value": 16491
-              },
-              {
                 "type": "4\u2605 common interceptor parts",
                 "value": 26567
+              },
+              {
+                "type": "4\u2605 uncommon interceptor parts",
+                "value": 600
               }
             ]
           }
@@ -2045,39 +2133,47 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 1125000
+                "value": 167862500
               },
               {
                 "type": "dilithium",
-                "value": 50000
+                "value": 2341275
               },
               {
-                "type": "4\u2605 common refined gas",
-                "value": 9550
+                "type": "gas",
+                "value": 9550,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 180,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 17736,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 334,
+                "grade": 4,
+                "rarity": "uncommon"
               },
               {
                 "type": "ship xp",
                 "value": 7041
               },
               {
-                "type": "4\u2605 uncommon interceptor parts",
-                "value": 649
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 180
-              },
-              {
-                "type": "4\u2605 uncommon refined crystal",
-                "value": 334
-              },
-              {
-                "type": "4\u2605 common refined crystal",
-                "value": 17736
-              },
-              {
                 "type": "4\u2605 common interceptor parts",
                 "value": 28719
+              },
+              {
+                "type": "4\u2605 uncommon interceptor parts",
+                "value": 649
               }
             ]
           }
@@ -2092,39 +2188,47 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 1125000
+                "value": 167862500
               },
               {
                 "type": "dilithium",
-                "value": 50000
+                "value": 2341275
               },
               {
-                "type": "4\u2605 common refined gas",
-                "value": 10892
+                "type": "gas",
+                "value": 10892,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 205,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 20227,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 381,
+                "grade": 4,
+                "rarity": "uncommon"
               },
               {
                 "type": "ship xp",
                 "value": 8121
               },
               {
-                "type": "4\u2605 uncommon interceptor parts",
-                "value": 746
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 205
-              },
-              {
-                "type": "4\u2605 uncommon refined crystal",
-                "value": 381
-              },
-              {
-                "type": "4\u2605 common refined crystal",
-                "value": 20227
-              },
-              {
                 "type": "4\u2605 common interceptor parts",
                 "value": 33023
+              },
+              {
+                "type": "4\u2605 uncommon interceptor parts",
+                "value": 746
               }
             ]
           }
@@ -2139,39 +2243,47 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 1125000
+                "value": 167862500
               },
               {
                 "type": "dilithium",
-                "value": 50000
+                "value": 2341275
               },
               {
-                "type": "4\u2605 common refined gas",
-                "value": 12568
+                "type": "gas",
+                "value": 12568,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 237,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 23340,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 440,
+                "grade": 4,
+                "rarity": "uncommon"
               },
               {
                 "type": "ship xp",
                 "value": 9291
               },
               {
-                "type": "4\u2605 uncommon interceptor parts",
-                "value": 868
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 237
-              },
-              {
-                "type": "4\u2605 uncommon refined crystal",
-                "value": 440
-              },
-              {
-                "type": "4\u2605 common refined crystal",
-                "value": 23340
-              },
-              {
                 "type": "4\u2605 common interceptor parts",
                 "value": 38402
+              },
+              {
+                "type": "4\u2605 uncommon interceptor parts",
+                "value": 868
               }
             ]
           }
@@ -2186,39 +2298,47 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 1125000
+                "value": 167862500
               },
               {
                 "type": "dilithium",
-                "value": 50000
+                "value": 2341275
               },
               {
-                "type": "4\u2605 common refined gas",
-                "value": 14915
+                "type": "gas",
+                "value": 14915,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 281,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 27699,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 522,
+                "grade": 4,
+                "rarity": "uncommon"
               },
               {
                 "type": "ship xp",
                 "value": 10551
               },
               {
-                "type": "4\u2605 uncommon interceptor parts",
-                "value": 1038
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 281
-              },
-              {
-                "type": "4\u2605 uncommon refined crystal",
-                "value": 522
-              },
-              {
-                "type": "4\u2605 common refined crystal",
-                "value": 27699
-              },
-              {
                 "type": "4\u2605 common interceptor parts",
                 "value": 45934
+              },
+              {
+                "type": "4\u2605 uncommon interceptor parts",
+                "value": 1038
               }
             ]
           }
@@ -2246,21 +2366,21 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 100,
+                "type": "gas",
+                "value": 24,
                 "grade": 3,
                 "rarity": "rare"
               },
               {
-                "type": "gas",
-                "value": 24,
+                "type": "crystal",
+                "value": 100,
                 "grade": 3,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 5250
               }
             ]
@@ -2316,21 +2436,21 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 100,
+                "type": "gas",
+                "value": 24,
                 "grade": 3,
                 "rarity": "rare"
               },
               {
-                "type": "gas",
-                "value": 24,
+                "type": "crystal",
+                "value": 100,
                 "grade": 3,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 5250
               }
             ]
@@ -2390,7 +2510,7 @@
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 875
               }
             ]
@@ -2431,7 +2551,7 @@
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 2600
               }
             ]
@@ -2462,21 +2582,21 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 5250,
+                "type": "gas",
+                "value": 800,
                 "grade": 3,
                 "rarity": "uncommon"
               },
               {
-                "type": "gas",
-                "value": 800,
+                "type": "crystal",
+                "value": 5250,
                 "grade": 3,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 3500
               }
             ]
@@ -2511,39 +2631,47 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 1125000
+                "value": 301075625
               },
               {
                 "type": "dilithium",
-                "value": 50000
+                "value": 4672570
               },
               {
-                "type": "4\u2605 common refined gas",
-                "value": 14617
+                "type": "gas",
+                "value": 14617,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 407,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 27146,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 755,
+                "grade": 4,
+                "rarity": "uncommon"
               },
               {
                 "type": "ship xp",
                 "value": 10964
               },
               {
-                "type": "4\u2605 uncommon interceptor parts",
-                "value": 1671
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 407
-              },
-              {
-                "type": "4\u2605 uncommon refined crystal",
-                "value": 755
-              },
-              {
-                "type": "4\u2605 common refined crystal",
-                "value": 27146
-              },
-              {
                 "type": "4\u2605 common interceptor parts",
                 "value": 45063
+              },
+              {
+                "type": "4\u2605 uncommon interceptor parts",
+                "value": 1671
               }
             ]
           }
@@ -2558,39 +2686,47 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 1125000
+                "value": 301075625
               },
               {
                 "type": "dilithium",
-                "value": 50000
+                "value": 4672570
               },
               {
-                "type": "4\u2605 common refined gas",
-                "value": 15647
+                "type": "gas",
+                "value": 15647,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 435,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 29058,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 808,
+                "grade": 4,
+                "rarity": "uncommon"
               },
               {
                 "type": "ship xp",
                 "value": 12367
               },
               {
-                "type": "4\u2605 uncommon interceptor parts",
-                "value": 1808
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 435
-              },
-              {
-                "type": "4\u2605 uncommon refined crystal",
-                "value": 808
-              },
-              {
-                "type": "4\u2605 common refined crystal",
-                "value": 29058
-              },
-              {
                 "type": "4\u2605 common interceptor parts",
                 "value": 48746
+              },
+              {
+                "type": "4\u2605 uncommon interceptor parts",
+                "value": 1808
               }
             ]
           }
@@ -2605,39 +2741,47 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 1125000
+                "value": 301075625
               },
               {
                 "type": "dilithium",
-                "value": 50000
+                "value": 4672570
               },
               {
-                "type": "4\u2605 common refined gas",
-                "value": 17706
+                "type": "gas",
+                "value": 17706,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 492,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 32882,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 914,
+                "grade": 4,
+                "rarity": "uncommon"
               },
               {
                 "type": "ship xp",
                 "value": 13934
               },
               {
-                "type": "4\u2605 uncommon interceptor parts",
-                "value": 2081
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 492
-              },
-              {
-                "type": "4\u2605 uncommon refined crystal",
-                "value": 914
-              },
-              {
-                "type": "4\u2605 common refined crystal",
-                "value": 32882
-              },
-              {
                 "type": "4\u2605 common interceptor parts",
                 "value": 56111
+              },
+              {
+                "type": "4\u2605 uncommon interceptor parts",
+                "value": 2081
               }
             ]
           }
@@ -2652,46 +2796,54 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 1125000
+                "value": 301075625
               },
               {
                 "type": "dilithium",
-                "value": 50000
+                "value": 4672570
               },
               {
-                "type": "4\u2605 common refined gas",
-                "value": 20280
+                "type": "gas",
+                "value": 20280,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 564,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 37662,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 1047,
+                "grade": 4,
+                "rarity": "uncommon"
               },
               {
                 "type": "ship xp",
                 "value": 15612
               },
               {
-                "type": "4\u2605 uncommon interceptor parts",
-                "value": 2422
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 564
-              },
-              {
-                "type": "4\u2605 uncommon refined crystal",
-                "value": 1047
-              },
-              {
-                "type": "4\u2605 common refined crystal",
-                "value": 37662
-              },
-              {
                 "type": "4\u2605 common interceptor parts",
                 "value": 65318
+              },
+              {
+                "type": "4\u2605 uncommon interceptor parts",
+                "value": 2422
               }
             ]
           }
         },
         {
           "ability_bonus": 0.15,
-          "additional_officer_slot": true,
+          "additional_officer_slot": false,
           "level": 30,
           "ship_xp": 69000,
           "scrap_details": {
@@ -2699,39 +2851,47 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 1125000
+                "value": 301075625
               },
               {
                 "type": "dilithium",
-                "value": 50000
+                "value": 4672570
               },
               {
-                "type": "4\u2605 common refined gas",
-                "value": 23883
+                "type": "gas",
+                "value": 23883,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 664,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 44354,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 1233,
+                "grade": 4,
+                "rarity": "uncommon"
               },
               {
                 "type": "ship xp",
                 "value": 17509
               },
               {
-                "type": "4\u2605 uncommon interceptor parts",
-                "value": 2900
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 664
-              },
-              {
-                "type": "4\u2605 uncommon refined crystal",
-                "value": 1233
-              },
-              {
-                "type": "4\u2605 common refined crystal",
-                "value": 44354
-              },
-              {
                 "type": "4\u2605 common interceptor parts",
                 "value": 78207
+              },
+              {
+                "type": "4\u2605 uncommon interceptor parts",
+                "value": 2900
               }
             ]
           }
@@ -2759,21 +2919,21 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 375,
+                "type": "gas",
+                "value": 90,
                 "grade": 3,
                 "rarity": "rare"
               },
               {
-                "type": "gas",
-                "value": 90,
+                "type": "crystal",
+                "value": 375,
                 "grade": 3,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 11750
               }
             ]
@@ -2829,21 +2989,21 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 375,
+                "type": "gas",
+                "value": 90,
                 "grade": 3,
                 "rarity": "rare"
               },
               {
-                "type": "gas",
-                "value": 90,
+                "type": "crystal",
+                "value": 375,
                 "grade": 3,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 11750
               }
             ]
@@ -2903,7 +3063,7 @@
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 1900
               }
             ]
@@ -2944,7 +3104,7 @@
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 5750
               }
             ]
@@ -2975,21 +3135,21 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 12250,
+                "type": "gas",
+                "value": 1800,
                 "grade": 3,
                 "rarity": "uncommon"
               },
               {
-                "type": "gas",
-                "value": 1800,
+                "type": "crystal",
+                "value": 12250,
                 "grade": 3,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 7750
               }
             ]
@@ -3024,47 +3184,59 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 1125000
+                "value": 583526250
               },
               {
                 "type": "dilithium",
-                "value": 50000
+                "value": 9945113
               },
               {
-                "type": "4\u2605 common refined gas",
-                "value": 23700
+                "type": "gas",
+                "value": 23700,
+                "grade": 4,
+                "rarity": "common"
               },
               {
-                "type": "4\u2605 rare refined gas",
-                "value": 47
+                "type": "gas",
+                "value": 907,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 47,
+                "grade": 4,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 44014,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 1683,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 87,
+                "grade": 4,
+                "rarity": "rare"
               },
               {
                 "type": "ship xp",
                 "value": 17718
               },
               {
-                "type": "4\u2605 uncommon interceptor parts",
-                "value": 3855
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 907
-              },
-              {
-                "type": "4\u2605 uncommon refined crystal",
-                "value": 1683
-              },
-              {
-                "type": "4\u2605 common refined crystal",
-                "value": 44014
-              },
-              {
-                "type": "4\u2605 rare refined crystal",
-                "value": 87
-              },
-              {
                 "type": "4\u2605 common interceptor parts",
                 "value": 78917
+              },
+              {
+                "type": "4\u2605 uncommon interceptor parts",
+                "value": 3855
               }
             ]
           }
@@ -3079,47 +3251,59 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 1125000
+                "value": 583526250
               },
               {
                 "type": "dilithium",
-                "value": 50000
+                "value": 9945113
               },
               {
-                "type": "4\u2605 common refined gas",
-                "value": 26249
+                "type": "gas",
+                "value": 26249,
+                "grade": 4,
+                "rarity": "common"
               },
               {
-                "type": "4\u2605 rare refined gas",
-                "value": 52
+                "type": "gas",
+                "value": 1004,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 52,
+                "grade": 4,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 48747,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 1864,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 96,
+                "grade": 4,
+                "rarity": "rare"
               },
               {
                 "type": "ship xp",
                 "value": 19743
               },
               {
-                "type": "4\u2605 uncommon interceptor parts",
-                "value": 4248
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 1004
-              },
-              {
-                "type": "4\u2605 uncommon refined crystal",
-                "value": 1864
-              },
-              {
-                "type": "4\u2605 common refined crystal",
-                "value": 48747
-              },
-              {
-                "type": "4\u2605 rare refined crystal",
-                "value": 96
-              },
-              {
                 "type": "4\u2605 common interceptor parts",
                 "value": 86970
+              },
+              {
+                "type": "4\u2605 uncommon interceptor parts",
+                "value": 4248
               }
             ]
           }
@@ -3134,47 +3318,59 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 1125000
+                "value": 583526250
               },
               {
                 "type": "dilithium",
-                "value": 50000
+                "value": 9945113
               },
               {
-                "type": "4\u2605 common refined gas",
-                "value": 31346
+                "type": "gas",
+                "value": 31346,
+                "grade": 4,
+                "rarity": "common"
               },
               {
-                "type": "4\u2605 rare refined gas",
-                "value": 62
+                "type": "gas",
+                "value": 1199,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 62,
+                "grade": 4,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 58214,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 2226,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 115,
+                "grade": 4,
+                "rarity": "rare"
               },
               {
                 "type": "ship xp",
                 "value": 21893
               },
               {
-                "type": "4\u2605 uncommon interceptor parts",
-                "value": 5034
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 1199
-              },
-              {
-                "type": "4\u2605 uncommon refined crystal",
-                "value": 2226
-              },
-              {
-                "type": "4\u2605 common refined crystal",
-                "value": 58214
-              },
-              {
-                "type": "4\u2605 rare refined crystal",
-                "value": 115
-              },
-              {
                 "type": "4\u2605 common interceptor parts",
                 "value": 103076
+              },
+              {
+                "type": "4\u2605 uncommon interceptor parts",
+                "value": 5034
               }
             ]
           }
@@ -3189,54 +3385,66 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 1125000
+                "value": 583526250
               },
               {
                 "type": "dilithium",
-                "value": 50000
+                "value": 9945113
               },
               {
-                "type": "4\u2605 common refined gas",
-                "value": 37719
+                "type": "gas",
+                "value": 37719,
+                "grade": 4,
+                "rarity": "common"
               },
               {
-                "type": "4\u2605 rare refined gas",
-                "value": 74
+                "type": "gas",
+                "value": 1443,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 74,
+                "grade": 4,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 70048,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 2679,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 138,
+                "grade": 4,
+                "rarity": "rare"
               },
               {
                 "type": "ship xp",
                 "value": 24268
               },
               {
-                "type": "4\u2605 uncommon interceptor parts",
-                "value": 6018
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 1443
-              },
-              {
-                "type": "4\u2605 uncommon refined crystal",
-                "value": 2679
-              },
-              {
-                "type": "4\u2605 common refined crystal",
-                "value": 70048
-              },
-              {
-                "type": "4\u2605 rare refined crystal",
-                "value": 138
-              },
-              {
                 "type": "4\u2605 common interceptor parts",
                 "value": 123210
+              },
+              {
+                "type": "4\u2605 uncommon interceptor parts",
+                "value": 6018
               }
             ]
           }
         },
         {
           "ability_bonus": 0.18,
-          "additional_officer_slot": true,
+          "additional_officer_slot": false,
           "level": 35,
           "ship_xp": 100000,
           "scrap_details": {
@@ -3244,47 +3452,59 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 1125000
+                "value": 583526250
               },
               {
                 "type": "dilithium",
-                "value": 50000
+                "value": 9945113
               },
               {
-                "type": "4\u2605 common refined gas",
-                "value": 46639
+                "type": "gas",
+                "value": 46639,
+                "grade": 4,
+                "rarity": "common"
               },
               {
-                "type": "4\u2605 rare refined gas",
-                "value": 92
+                "type": "gas",
+                "value": 1784,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 92,
+                "grade": 4,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 86616,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 3312,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 170,
+                "grade": 4,
+                "rarity": "rare"
               },
               {
                 "type": "ship xp",
                 "value": 26768
               },
               {
-                "type": "4\u2605 uncommon interceptor parts",
-                "value": 7394
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 1784
-              },
-              {
-                "type": "4\u2605 uncommon refined crystal",
-                "value": 3312
-              },
-              {
-                "type": "4\u2605 common refined crystal",
-                "value": 86616
-              },
-              {
-                "type": "4\u2605 rare refined crystal",
-                "value": 170
-              },
-              {
                 "type": "4\u2605 common interceptor parts",
                 "value": 151396
+              },
+              {
+                "type": "4\u2605 uncommon interceptor parts",
+                "value": 7394
               }
             ]
           }
@@ -3312,21 +3532,21 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 875,
+                "type": "gas",
+                "value": 210,
                 "grade": 3,
                 "rarity": "rare"
               },
               {
-                "type": "gas",
-                "value": 210,
+                "type": "crystal",
+                "value": 875,
                 "grade": 3,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 21500
               }
             ]
@@ -3382,21 +3602,21 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 875,
+                "type": "gas",
+                "value": 210,
                 "grade": 3,
                 "rarity": "rare"
               },
               {
-                "type": "gas",
-                "value": 210,
+                "type": "crystal",
+                "value": 875,
                 "grade": 3,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 21500
               }
             ]
@@ -3456,7 +3676,7 @@
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 3600
               }
             ]
@@ -3497,7 +3717,7 @@
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 10750
               }
             ]
@@ -3528,21 +3748,21 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 700,
+                "type": "gas",
+                "value": 110,
                 "grade": 3,
                 "rarity": "rare"
               },
               {
-                "type": "gas",
-                "value": 110,
+                "type": "crystal",
+                "value": 700,
                 "grade": 3,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 14500
               }
             ]
@@ -3577,47 +3797,59 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 1125000
+                "value": 1044170625
               },
               {
                 "type": "dilithium",
-                "value": 50000
+                "value": 19002031
               },
               {
-                "type": "4\u2605 common refined gas",
-                "value": 45511
+                "type": "gas",
+                "value": 45511,
+                "grade": 4,
+                "rarity": "common"
               },
               {
-                "type": "4\u2605 rare refined gas",
-                "value": 238
+                "type": "gas",
+                "value": 2134,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 238,
+                "grade": 4,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 84521,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 3962,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 441,
+                "grade": 4,
+                "rarity": "rare"
               },
               {
                 "type": "ship xp",
                 "value": 26453
               },
               {
-                "type": "4\u2605 uncommon interceptor parts",
-                "value": 9236
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 2134
-              },
-              {
-                "type": "4\u2605 uncommon refined crystal",
-                "value": 3962
-              },
-              {
-                "type": "4\u2605 common refined crystal",
-                "value": 84521
-              },
-              {
-                "type": "4\u2605 rare refined crystal",
-                "value": 441
-              },
-              {
                 "type": "4\u2605 common interceptor parts",
                 "value": 150298
+              },
+              {
+                "type": "4\u2605 uncommon interceptor parts",
+                "value": 9236
               }
             ]
           }
@@ -3632,47 +3864,59 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 1125000
+                "value": 1044170625
               },
               {
                 "type": "dilithium",
-                "value": 50000
+                "value": 19002031
               },
               {
-                "type": "4\u2605 common refined gas",
-                "value": 50043
+                "type": "gas",
+                "value": 50043,
+                "grade": 4,
+                "rarity": "common"
               },
               {
-                "type": "4\u2605 rare refined gas",
-                "value": 261
+                "type": "gas",
+                "value": 2346,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 261,
+                "grade": 4,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 92936,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 4357,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 485,
+                "grade": 4,
+                "rarity": "rare"
               },
               {
                 "type": "ship xp",
                 "value": 29063
               },
               {
-                "type": "4\u2605 uncommon interceptor parts",
-                "value": 10089
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 2346
-              },
-              {
-                "type": "4\u2605 uncommon refined crystal",
-                "value": 4357
-              },
-              {
-                "type": "4\u2605 common refined crystal",
-                "value": 92936
-              },
-              {
-                "type": "4\u2605 rare refined crystal",
-                "value": 485
-              },
-              {
                 "type": "4\u2605 common interceptor parts",
                 "value": 164188
+              },
+              {
+                "type": "4\u2605 uncommon interceptor parts",
+                "value": 10089
               }
             ]
           }
@@ -3687,47 +3931,59 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 1125000
+                "value": 1044170625
               },
               {
                 "type": "dilithium",
-                "value": 50000
+                "value": 19002031
               },
               {
-                "type": "4\u2605 common refined gas",
-                "value": 59106
+                "type": "gas",
+                "value": 59106,
+                "grade": 4,
+                "rarity": "common"
               },
               {
-                "type": "4\u2605 rare refined gas",
-                "value": 308
+                "type": "gas",
+                "value": 2771,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 308,
+                "grade": 4,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 109768,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 5146,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 572,
+                "grade": 4,
+                "rarity": "rare"
               },
               {
                 "type": "ship xp",
                 "value": 31808
               },
               {
-                "type": "4\u2605 uncommon interceptor parts",
-                "value": 11796
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 2771
-              },
-              {
-                "type": "4\u2605 uncommon refined crystal",
-                "value": 5146
-              },
-              {
-                "type": "4\u2605 common refined crystal",
-                "value": 109768
-              },
-              {
-                "type": "4\u2605 rare refined crystal",
-                "value": 572
-              },
-              {
                 "type": "4\u2605 common interceptor parts",
                 "value": 191968
+              },
+              {
+                "type": "4\u2605 uncommon interceptor parts",
+                "value": 11796
               }
             ]
           }
@@ -3742,54 +3998,66 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 1125000
+                "value": 1044170625
               },
               {
                 "type": "dilithium",
-                "value": 50000
+                "value": 19002031
               },
               {
-                "type": "4\u2605 common refined gas",
-                "value": 70435
+                "type": "gas",
+                "value": 70435,
+                "grade": 4,
+                "rarity": "common"
               },
               {
-                "type": "4\u2605 rare refined gas",
-                "value": 367
+                "type": "gas",
+                "value": 3302,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 367,
+                "grade": 4,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 130807,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 6132,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 682,
+                "grade": 4,
+                "rarity": "rare"
               },
               {
                 "type": "ship xp",
                 "value": 34823
               },
               {
-                "type": "4\u2605 uncommon interceptor parts",
-                "value": 13930
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 3302
-              },
-              {
-                "type": "4\u2605 uncommon refined crystal",
-                "value": 6132
-              },
-              {
-                "type": "4\u2605 common refined crystal",
-                "value": 130807
-              },
-              {
-                "type": "4\u2605 rare refined crystal",
-                "value": 682
-              },
-              {
                 "type": "4\u2605 common interceptor parts",
                 "value": 226693
+              },
+              {
+                "type": "4\u2605 uncommon interceptor parts",
+                "value": 13930
               }
             ]
           }
         },
         {
           "ability_bonus": 0.2,
-          "additional_officer_slot": true,
+          "additional_officer_slot": false,
           "level": 40,
           "ship_xp": 140000,
           "scrap_details": {
@@ -3797,47 +4065,59 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 1125000
+                "value": 1044170625
               },
               {
                 "type": "dilithium",
-                "value": 50000
+                "value": 19002031
               },
               {
-                "type": "4\u2605 common refined gas",
-                "value": 86295
+                "type": "gas",
+                "value": 86295,
+                "grade": 4,
+                "rarity": "common"
               },
               {
-                "type": "4\u2605 rare refined gas",
-                "value": 450
+                "type": "gas",
+                "value": 4046,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 450,
+                "grade": 4,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 160262,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 7513,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 835,
+                "grade": 4,
+                "rarity": "rare"
               },
               {
                 "type": "ship xp",
                 "value": 37973
               },
               {
-                "type": "4\u2605 uncommon interceptor parts",
-                "value": 16917
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 4046
-              },
-              {
-                "type": "4\u2605 uncommon refined crystal",
-                "value": 7513
-              },
-              {
-                "type": "4\u2605 common refined crystal",
-                "value": 160262
-              },
-              {
-                "type": "4\u2605 rare refined crystal",
-                "value": 835
-              },
-              {
                 "type": "4\u2605 common interceptor parts",
                 "value": 275308
+              },
+              {
+                "type": "4\u2605 uncommon interceptor parts",
+                "value": 16917
               }
             ]
           }
@@ -3865,21 +4145,21 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 1500,
+                "type": "gas",
+                "value": 350,
                 "grade": 3,
                 "rarity": "rare"
               },
               {
-                "type": "gas",
-                "value": 350,
+                "type": "crystal",
+                "value": 1500,
                 "grade": 3,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 32500
               }
             ]
@@ -3935,21 +4215,21 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 1500,
+                "type": "gas",
+                "value": 350,
                 "grade": 3,
                 "rarity": "rare"
               },
               {
-                "type": "gas",
-                "value": 350,
+                "type": "crystal",
+                "value": 1500,
                 "grade": 3,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 32500
               }
             ]
@@ -4009,7 +4289,7 @@
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 5500
               }
             ]
@@ -4050,7 +4330,7 @@
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 16250
               }
             ]
@@ -4081,21 +4361,21 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 1200,
+                "type": "gas",
+                "value": 180,
                 "grade": 3,
                 "rarity": "rare"
               },
               {
-                "type": "gas",
-                "value": 180,
+                "type": "crystal",
+                "value": 1200,
                 "grade": 3,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 21500
               }
             ]
@@ -4130,47 +4410,59 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 1125000
+                "value": 1646415000
               },
               {
                 "type": "dilithium",
-                "value": 50000
+                "value": 31653950
               },
               {
-                "type": "4\u2605 common refined gas",
-                "value": 81743
+                "type": "gas",
+                "value": 81743,
+                "grade": 4,
+                "rarity": "common"
               },
               {
-                "type": "4\u2605 rare refined gas",
-                "value": 727
+                "type": "gas",
+                "value": 4633,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 727,
+                "grade": 4,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 151809,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 8603,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 1350,
+                "grade": 4,
+                "rarity": "rare"
               },
               {
                 "type": "ship xp",
                 "value": 36834
               },
               {
-                "type": "4\u2605 uncommon interceptor parts",
-                "value": 19953
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 4633
-              },
-              {
-                "type": "4\u2605 uncommon refined crystal",
-                "value": 8603
-              },
-              {
-                "type": "4\u2605 common refined crystal",
-                "value": 151809
-              },
-              {
-                "type": "4\u2605 rare refined crystal",
-                "value": 1350
-              },
-              {
                 "type": "4\u2605 common interceptor parts",
                 "value": 266039
+              },
+              {
+                "type": "4\u2605 uncommon interceptor parts",
+                "value": 19953
               }
             ]
           }
@@ -4185,47 +4477,59 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 1125000
+                "value": 1646415000
               },
               {
                 "type": "dilithium",
-                "value": 50000
+                "value": 31653950
               },
               {
-                "type": "4\u2605 common refined gas",
-                "value": 88342
+                "type": "gas",
+                "value": 88342,
+                "grade": 4,
+                "rarity": "common"
               },
               {
-                "type": "4\u2605 rare refined gas",
-                "value": 786
+                "type": "gas",
+                "value": 5007,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 786,
+                "grade": 4,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 164064,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 9297,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 1459,
+                "grade": 4,
+                "rarity": "rare"
               },
               {
                 "type": "ship xp",
                 "value": 40054
               },
               {
-                "type": "4\u2605 uncommon interceptor parts",
-                "value": 21421
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 5007
-              },
-              {
-                "type": "4\u2605 uncommon refined crystal",
-                "value": 9297
-              },
-              {
-                "type": "4\u2605 common refined crystal",
-                "value": 164064
-              },
-              {
-                "type": "4\u2605 rare refined crystal",
-                "value": 1459
-              },
-              {
                 "type": "4\u2605 common interceptor parts",
                 "value": 285605
+              },
+              {
+                "type": "4\u2605 uncommon interceptor parts",
+                "value": 21421
               }
             ]
           }
@@ -4240,47 +4544,59 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 1125000
+                "value": 1646415000
               },
               {
                 "type": "dilithium",
-                "value": 50000
+                "value": 31653950
               },
               {
-                "type": "4\u2605 common refined gas",
-                "value": 101540
+                "type": "gas",
+                "value": 101540,
+                "grade": 4,
+                "rarity": "common"
               },
               {
-                "type": "4\u2605 rare refined gas",
-                "value": 903
+                "type": "gas",
+                "value": 5754,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 903,
+                "grade": 4,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 188573,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 10686,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 1677,
+                "grade": 4,
+                "rarity": "rare"
               },
               {
                 "type": "ship xp",
                 "value": 43574
               },
               {
-                "type": "4\u2605 uncommon interceptor parts",
-                "value": 24356
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 5754
-              },
-              {
-                "type": "4\u2605 uncommon refined crystal",
-                "value": 10686
-              },
-              {
-                "type": "4\u2605 common refined crystal",
-                "value": 188573
-              },
-              {
-                "type": "4\u2605 rare refined crystal",
-                "value": 1677
-              },
-              {
                 "type": "4\u2605 common interceptor parts",
                 "value": 324735
+              },
+              {
+                "type": "4\u2605 uncommon interceptor parts",
+                "value": 24356
               }
             ]
           }
@@ -4295,54 +4611,66 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 1125000
+                "value": 1646415000
               },
               {
                 "type": "dilithium",
-                "value": 50000
+                "value": 31653950
               },
               {
-                "type": "4\u2605 common refined gas",
-                "value": 118037
+                "type": "gas",
+                "value": 118037,
+                "grade": 4,
+                "rarity": "common"
               },
               {
-                "type": "4\u2605 rare refined gas",
-                "value": 1050
+                "type": "gas",
+                "value": 6689,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 1050,
+                "grade": 4,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 219211,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 12422,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 1949,
+                "grade": 4,
+                "rarity": "rare"
               },
               {
                 "type": "ship xp",
                 "value": 47234
               },
               {
-                "type": "4\u2605 uncommon interceptor parts",
-                "value": 28024
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 6689
-              },
-              {
-                "type": "4\u2605 uncommon refined crystal",
-                "value": 12422
-              },
-              {
-                "type": "4\u2605 common refined crystal",
-                "value": 219211
-              },
-              {
-                "type": "4\u2605 rare refined crystal",
-                "value": 1949
-              },
-              {
                 "type": "4\u2605 common interceptor parts",
                 "value": 373648
+              },
+              {
+                "type": "4\u2605 uncommon interceptor parts",
+                "value": 28024
               }
             ]
           }
         },
         {
           "ability_bonus": 0.25,
-          "additional_officer_slot": true,
+          "additional_officer_slot": false,
           "level": 45,
           "ship_xp": 200000,
           "scrap_details": {
@@ -4350,47 +4678,59 @@
             "rewards": [
               {
                 "type": "tritanium",
-                "value": 1125000
+                "value": 1646415000
               },
               {
                 "type": "dilithium",
-                "value": 50000
+                "value": 31653950
               },
               {
-                "type": "4\u2605 common refined gas",
-                "value": 141133
+                "type": "gas",
+                "value": 141133,
+                "grade": 4,
+                "rarity": "common"
               },
               {
-                "type": "4\u2605 rare refined gas",
-                "value": 1255
+                "type": "gas",
+                "value": 7998,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 1255,
+                "grade": 4,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 262103,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 14853,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 2330,
+                "grade": 4,
+                "rarity": "rare"
               },
               {
                 "type": "ship xp",
                 "value": 51234
               },
               {
-                "type": "4\u2605 uncommon interceptor parts",
-                "value": 33160
-              },
-              {
-                "type": "4\u2605 uncommon refined gas",
-                "value": 7998
-              },
-              {
-                "type": "4\u2605 uncommon refined crystal",
-                "value": 14853
-              },
-              {
-                "type": "4\u2605 common refined crystal",
-                "value": 262103
-              },
-              {
-                "type": "4\u2605 rare refined crystal",
-                "value": 2330
-              },
-              {
                 "type": "4\u2605 common interceptor parts",
                 "value": 442127
+              },
+              {
+                "type": "4\u2605 uncommon interceptor parts",
+                "value": 33160
               }
             ]
           }

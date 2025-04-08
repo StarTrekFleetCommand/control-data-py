@@ -6,7 +6,7 @@
   "faction": "klingon",
   "rarity": "uncommon",
   "blueprints": {
-    "cost": 0,
+    "cost": 12000,
     "quantity": 150
   },
   "ship_ability": {
@@ -246,7 +246,7 @@
         },
         {
           "ability_bonus": 0.2,
-          "additional_officer_slot": true,
+          "additional_officer_slot": false,
           "level": 5,
           "ship_xp": 653402
         }
@@ -254,12 +254,12 @@
       "initial_build_cost": {
         "resources": [
           {
-            "type": "\u03c3-dilithium",
-            "value": 364
-          },
-          {
             "type": "\u03c3-tritanium",
             "value": 43400
+          },
+          {
+            "type": "\u03c3-dilithium",
+            "value": 364
           }
         ],
         "materials": [
@@ -284,18 +284,18 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 3200
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 431100
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 3200
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 11100,
+                "type": "ore",
+                "value": 33000,
                 "grade": 6,
                 "rarity": "common"
               },
@@ -306,27 +306,27 @@
                 "rarity": "uncommon"
               },
               {
-                "type": "ore",
-                "value": 33000,
+                "type": "crystal",
+                "value": 11100,
                 "grade": 6,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Common Battleship Parts",
+                "type": "6\u2605 common battleship parts",
                 "value": 103100
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 3
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 241
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 3
             }
           ],
           "additional_info": {
@@ -360,20 +360,20 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 3800
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 512000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 3800
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 6200,
+                "type": "ore",
+                "value": 39600,
                 "grade": 6,
-                "rarity": "uncommon"
+                "rarity": "common"
               },
               {
                 "type": "ore",
@@ -382,27 +382,27 @@
                 "rarity": "uncommon"
               },
               {
-                "type": "ore",
-                "value": 39600,
+                "type": "crystal",
+                "value": 6200,
                 "grade": 6,
-                "rarity": "common"
+                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
+                "type": "6\u2605 uncommon battleship parts",
                 "value": 64100
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 4
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 344
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 4
             }
           ],
           "additional_info": {
@@ -436,18 +436,18 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 3000
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 404200
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 3000
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 11100,
+                "type": "ore",
+                "value": 33000,
                 "grade": 6,
                 "rarity": "common"
               },
@@ -458,27 +458,27 @@
                 "rarity": "uncommon"
               },
               {
-                "type": "ore",
-                "value": 33000,
+                "type": "crystal",
+                "value": 11100,
                 "grade": 6,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Common Battleship Parts",
+                "type": "6\u2605 common battleship parts",
                 "value": 103100
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 4
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 279
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 4
             }
           ],
           "additional_info": {
@@ -495,20 +495,20 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 3800
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 512000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 3800
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 6200,
+                "type": "ore",
+                "value": 39600,
                 "grade": 6,
-                "rarity": "uncommon"
+                "rarity": "common"
               },
               {
                 "type": "ore",
@@ -517,27 +517,27 @@
                 "rarity": "uncommon"
               },
               {
-                "type": "ore",
-                "value": 39600,
+                "type": "crystal",
+                "value": 6200,
                 "grade": 6,
-                "rarity": "common"
+                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
+                "type": "6\u2605 uncommon battleship parts",
                 "value": 64100
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 4
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 344
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 4
             }
           ],
           "additional_info": {
@@ -571,43 +571,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 600
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 80800
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 600
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 2800,
+                "type": "ore",
+                "value": 6600,
                 "grade": 6,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 6600,
+                "type": "crystal",
+                "value": 2800,
                 "grade": 6,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Common Battleship Parts",
+                "type": "6\u2605 common battleship parts",
                 "value": 25800
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 1
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 56
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 1
             }
           ],
           "additional_info": {
@@ -626,43 +626,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 1600
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 215600
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 1600
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 6900,
+                "type": "ore",
+                "value": 16500,
                 "grade": 6,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 16500,
+                "type": "crystal",
+                "value": 6900,
                 "grade": 6,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Common Battleship Parts",
+                "type": "6\u2605 common battleship parts",
                 "value": 64400
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 2
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 130
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 2
             }
           ],
           "additional_info": {
@@ -679,43 +679,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 2000
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 269500
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 2000
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 9700,
+                "type": "ore",
+                "value": 23100,
                 "grade": 6,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 23100,
+                "type": "crystal",
+                "value": 9700,
                 "grade": 6,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Common Battleship Parts",
+                "type": "6\u2605 common battleship parts",
                 "value": 77300
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 2
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 186
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 2
             }
           ],
           "additional_info": {
@@ -732,18 +732,18 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 2000
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 269500
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 2000
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 8300,
+                "type": "ore",
+                "value": 23100,
                 "grade": 6,
                 "rarity": "common"
               },
@@ -754,27 +754,27 @@
                 "rarity": "uncommon"
               },
               {
-                "type": "ore",
-                "value": 23100,
+                "type": "crystal",
+                "value": 8300,
                 "grade": 6,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Common Battleship Parts",
+                "type": "6\u2605 common battleship parts",
                 "value": 77300
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 2
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 186
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 2
             }
           ],
           "additional_info": {
@@ -813,7 +813,7 @@
         },
         {
           "ability_bonus": 0.25,
-          "additional_officer_slot": true,
+          "additional_officer_slot": false,
           "level": 10,
           "ship_xp": 1932774
         }
@@ -830,18 +830,18 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 6100
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 827800
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 6100
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 17000,
+                "type": "ore",
+                "value": 144700,
                 "grade": 6,
                 "rarity": "common"
               },
@@ -852,27 +852,27 @@
                 "rarity": "uncommon"
               },
               {
-                "type": "ore",
-                "value": 144700,
+                "type": "crystal",
+                "value": 17000,
                 "grade": 6,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Common Battleship Parts",
+                "type": "6\u2605 common battleship parts",
                 "value": 217000
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 25
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 2005
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 25
             }
           ],
           "additional_info": {
@@ -906,43 +906,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 7300
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 983000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 7300
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 7200,
+                "type": "ore",
+                "value": 23800,
                 "grade": 6,
                 "rarity": "uncommon"
               },
               {
-                "type": "ore",
-                "value": 23800,
+                "type": "crystal",
+                "value": 7200,
                 "grade": 6,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
+                "type": "6\u2605 uncommon battleship parts",
                 "value": 74100
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 36
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 2854
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 36
             }
           ],
           "additional_info": {
@@ -976,18 +976,18 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 5700
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 776000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 5700
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 5800,
+                "type": "ore",
+                "value": 19900,
                 "grade": 6,
                 "rarity": "uncommon"
               },
@@ -998,27 +998,27 @@
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 19900,
+                "type": "crystal",
+                "value": 5800,
                 "grade": 6,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
+                "type": "6\u2605 uncommon battleship parts",
                 "value": 59300
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 29
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 2314
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 29
             }
           ],
           "additional_info": {
@@ -1035,43 +1035,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 7300
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 983000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 7300
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 7200,
+                "type": "ore",
+                "value": 23800,
                 "grade": 6,
                 "rarity": "uncommon"
               },
               {
-                "type": "ore",
-                "value": 23800,
+                "type": "crystal",
+                "value": 7200,
                 "grade": 6,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
+                "type": "6\u2605 uncommon battleship parts",
                 "value": 74100
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 36
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 2854
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 36
             }
           ],
           "additional_info": {
@@ -1105,43 +1105,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 1100
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 155200
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 1100
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 4200,
+                "type": "ore",
+                "value": 28900,
                 "grade": 6,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 28900,
+                "type": "crystal",
+                "value": 4200,
                 "grade": 6,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Common Battleship Parts",
+                "type": "6\u2605 common battleship parts",
                 "value": 54200
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 6
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 463
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 6
             }
           ],
           "additional_info": {
@@ -1160,43 +1160,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 3100
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 413900
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 3100
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 10600,
+                "type": "ore",
+                "value": 72400,
                 "grade": 6,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 72400,
+                "type": "crystal",
+                "value": 10600,
                 "grade": 6,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Common Battleship Parts",
+                "type": "6\u2605 common battleship parts",
                 "value": 135600
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 14
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 1080
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 14
             }
           ],
           "additional_info": {
@@ -1213,43 +1213,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 3800
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 517400
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 3800
               }
             ],
             "materials": [
-              {
-                "type": "crystal",
-                "value": 14900,
-                "grade": 6,
-                "rarity": "common"
-              },
               {
                 "type": "ore",
                 "value": 13900,
                 "grade": 6,
                 "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 14900,
+                "grade": 6,
+                "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Common Battleship Parts",
+                "type": "6\u2605 common battleship parts",
                 "value": 162700
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 20
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 1542
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 20
             }
           ],
           "additional_info": {
@@ -1266,43 +1266,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 3800
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 517400
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 3800
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 14900,
+                "type": "ore",
+                "value": 101300,
                 "grade": 6,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 101300,
+                "type": "crystal",
+                "value": 14900,
                 "grade": 6,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Common Battleship Parts",
+                "type": "6\u2605 common battleship parts",
                 "value": 162700
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 20
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 1542
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 20
             }
           ],
           "additional_info": {
@@ -1358,43 +1358,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 8400
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 1138200
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 8400
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 4500,
+                "type": "ore",
+                "value": 23600,
                 "grade": 6,
                 "rarity": "uncommon"
               },
               {
-                "type": "ore",
-                "value": 23600,
+                "type": "crystal",
+                "value": 4500,
                 "grade": 6,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Common Battleship Parts",
+                "type": "6\u2605 common battleship parts",
                 "value": 298300
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 29
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 2318
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 29
             }
           ],
           "additional_info": {
@@ -1428,18 +1428,18 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 10000
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 1351600
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 10000
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 5700,
+                "type": "ore",
+                "value": 28300,
                 "grade": 6,
                 "rarity": "uncommon"
               },
@@ -1450,27 +1450,27 @@
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 28300,
+                "type": "crystal",
+                "value": 5700,
                 "grade": 6,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
+                "type": "6\u2605 uncommon battleship parts",
                 "value": 101900
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 42
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 3298
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 42
             }
           ],
           "additional_info": {
@@ -1504,43 +1504,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 7900
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 1067100
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 7900
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 5100,
+                "type": "ore",
+                "value": 23600,
                 "grade": 6,
                 "rarity": "uncommon"
               },
               {
-                "type": "ore",
-                "value": 23600,
+                "type": "crystal",
+                "value": 5100,
                 "grade": 6,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
+                "type": "6\u2605 uncommon battleship parts",
                 "value": 81500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 34
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 2674
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 34
             }
           ],
           "additional_info": {
@@ -1557,18 +1557,18 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 10000
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 1351600
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 10000
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 5700,
+                "type": "ore",
+                "value": 28300,
                 "grade": 6,
                 "rarity": "uncommon"
               },
@@ -1579,27 +1579,27 @@
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 28300,
+                "type": "crystal",
+                "value": 5700,
                 "grade": 6,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
+                "type": "6\u2605 uncommon battleship parts",
                 "value": 101900
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 42
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 3298
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 42
             }
           ],
           "additional_info": {
@@ -1633,43 +1633,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 1600
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 213400
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 1600
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 10600,
+                "type": "ore",
+                "value": 136500,
                 "grade": 6,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 136500,
+                "type": "crystal",
+                "value": 10600,
                 "grade": 6,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Common Battleship Parts",
+                "type": "6\u2605 common battleship parts",
                 "value": 74600
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 7
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 535
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 7
             }
           ],
           "additional_info": {
@@ -1688,43 +1688,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 4200
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 569100
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 4200
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 26400,
+                "type": "ore",
+                "value": 341100,
                 "grade": 6,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 341100,
+                "type": "crystal",
+                "value": 26400,
                 "grade": 6,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Common Battleship Parts",
+                "type": "6\u2605 common battleship parts",
                 "value": 186500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 16
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 1248
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 16
             }
           ],
           "additional_info": {
@@ -1741,18 +1741,18 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 5300
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 711400
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 5300
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 3400,
+                "type": "ore",
+                "value": 16500,
                 "grade": 6,
                 "rarity": "uncommon"
               },
@@ -1763,27 +1763,27 @@
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 16500,
+                "type": "crystal",
+                "value": 3400,
                 "grade": 6,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Common Battleship Parts",
+                "type": "6\u2605 common battleship parts",
                 "value": 223700
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 23
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 1783
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 23
             }
           ],
           "additional_info": {
@@ -1800,18 +1800,18 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 5300
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 711400
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 5300
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 3400,
+                "type": "ore",
+                "value": 16500,
                 "grade": 6,
                 "rarity": "uncommon"
               },
@@ -1822,27 +1822,27 @@
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 16500,
+                "type": "crystal",
+                "value": 3400,
                 "grade": 6,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Common Battleship Parts",
+                "type": "6\u2605 common battleship parts",
                 "value": 223700
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 23
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 1783
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 23
             }
           ],
           "additional_info": {
@@ -1881,7 +1881,7 @@
         },
         {
           "ability_bonus": 0.36,
-          "additional_officer_slot": true,
+          "additional_officer_slot": false,
           "level": 20,
           "ship_xp": 6631549
         }
@@ -1898,43 +1898,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 13700
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 1847700
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 13700
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 6300,
+                "type": "ore",
+                "value": 39400,
                 "grade": 6,
                 "rarity": "uncommon"
               },
               {
-                "type": "ore",
-                "value": 39400,
+                "type": "crystal",
+                "value": 6300,
                 "grade": 6,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
+                "type": "6\u2605 uncommon battleship parts",
                 "value": 112700
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 58
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 4509
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 58
             }
           ],
           "additional_info": {
@@ -1968,43 +1968,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 16200
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 2194200
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 16200
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 7800,
+                "type": "ore",
+                "value": 47300,
                 "grade": 6,
                 "rarity": "uncommon"
               },
               {
-                "type": "ore",
-                "value": 47300,
+                "type": "crystal",
+                "value": 7800,
                 "grade": 6,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Battleship Parts",
+                "type": "6\u2605 rare battleship parts",
                 "value": 11000
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 83
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 6416
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 83
             }
           ],
           "additional_info": {
@@ -2038,43 +2038,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 12800
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 1732200
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 12800
               }
             ],
             "materials": [
-              {
-                "type": "crystal",
-                "value": 7000,
-                "grade": 6,
-                "rarity": "uncommon"
-              },
               {
                 "type": "ore",
                 "value": 46000,
                 "grade": 6,
                 "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 7000,
+                "grade": 6,
+                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
+                "type": "6\u2605 uncommon battleship parts",
                 "value": 112700
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 67
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 5202
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 67
             }
           ],
           "additional_info": {
@@ -2091,43 +2091,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 16200
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 2194200
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 16200
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 7800,
+                "type": "ore",
+                "value": 47300,
                 "grade": 6,
                 "rarity": "uncommon"
               },
               {
-                "type": "ore",
-                "value": 47300,
+                "type": "crystal",
+                "value": 7800,
                 "grade": 6,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Battleship Parts",
+                "type": "6\u2605 rare battleship parts",
                 "value": 11000
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 83
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 6416
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 83
             }
           ],
           "additional_info": {
@@ -2161,43 +2161,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 2600
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 346400
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 2600
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 14600,
+                "type": "ore",
+                "value": 188600,
                 "grade": 6,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 188600,
+                "type": "crystal",
+                "value": 14600,
                 "grade": 6,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Common Battleship Parts",
+                "type": "6\u2605 common battleship parts",
                 "value": 398000
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 13
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 1040
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 13
             }
           ],
           "additional_info": {
@@ -2216,43 +2216,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 6800
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 923900
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 6800
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 36500,
+                "type": "ore",
+                "value": 471400,
                 "grade": 6,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 471400,
+                "type": "crystal",
+                "value": 36500,
                 "grade": 6,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Common Battleship Parts",
+                "type": "6\u2605 common battleship parts",
                 "value": 995100
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 31
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 2428
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 31
             }
           ],
           "additional_info": {
@@ -2269,18 +2269,18 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 8500
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 1154800
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 8500
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 4700,
+                "type": "ore",
+                "value": 27600,
                 "grade": 6,
                 "rarity": "uncommon"
               },
@@ -2291,27 +2291,27 @@
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 27600,
+                "type": "crystal",
+                "value": 4700,
                 "grade": 6,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
+                "type": "6\u2605 uncommon battleship parts",
                 "value": 84500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 45
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 3468
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 45
             }
           ],
           "additional_info": {
@@ -2328,18 +2328,18 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 8500
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 1154800
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 8500
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 4700,
+                "type": "ore",
+                "value": 27600,
                 "grade": 6,
                 "rarity": "uncommon"
               },
@@ -2350,27 +2350,27 @@
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 27600,
+                "type": "crystal",
+                "value": 4700,
                 "grade": 6,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
+                "type": "6\u2605 uncommon battleship parts",
                 "value": 84500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 45
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 3468
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 45
             }
           ],
           "additional_info": {
@@ -2426,43 +2426,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 20600
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 2808500
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 20600
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 10400,
+                "type": "ore",
+                "value": 52700,
                 "grade": 6,
                 "rarity": "uncommon"
               },
               {
-                "type": "ore",
-                "value": 52700,
+                "type": "crystal",
+                "value": 10400,
                 "grade": 6,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
+                "type": "6\u2605 uncommon battleship parts",
                 "value": 202600
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 93
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 7337
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 93
             }
           ],
           "additional_info": {
@@ -2496,20 +2496,20 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 24500
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 3335100
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 24500
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 2800,
+                "type": "ore",
+                "value": 57900,
                 "grade": 6,
-                "rarity": "rare"
+                "rarity": "uncommon"
               },
               {
                 "type": "ore",
@@ -2518,27 +2518,27 @@
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 57900,
+                "type": "crystal",
+                "value": 2800,
                 "grade": 6,
-                "rarity": "uncommon"
+                "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Battleship Parts",
+                "type": "6\u2605 rare battleship parts",
                 "value": 10100
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 132
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 10441
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 132
             }
           ],
           "additional_info": {
@@ -2572,15 +2572,21 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 19300
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 2633000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 19300
               }
             ],
             "materials": [
+              {
+                "type": "ore",
+                "value": 17300,
+                "grade": 6,
+                "rarity": "rare"
+              },
               {
                 "type": "crystal",
                 "value": 11700,
@@ -2592,29 +2598,23 @@
                 "value": 2300,
                 "grade": 6,
                 "rarity": "rare"
-              },
-              {
-                "type": "ore",
-                "value": 17300,
-                "grade": 6,
-                "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Battleship Parts",
+                "type": "6\u2605 rare battleship parts",
                 "value": 8100
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 107
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 8466
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 107
             }
           ],
           "additional_info": {
@@ -2631,20 +2631,20 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 24500
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 3335100
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 24500
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 2800,
+                "type": "ore",
+                "value": 57900,
                 "grade": 6,
-                "rarity": "rare"
+                "rarity": "uncommon"
               },
               {
                 "type": "ore",
@@ -2653,27 +2653,27 @@
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 57900,
+                "type": "crystal",
+                "value": 2800,
                 "grade": 6,
-                "rarity": "uncommon"
+                "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Battleship Parts",
+                "type": "6\u2605 rare battleship parts",
                 "value": 10100
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 132
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 10441
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 132
             }
           ],
           "additional_info": {
@@ -2707,20 +2707,20 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 3900
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 526600
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 3900
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 2600,
+                "type": "ore",
+                "value": 241800,
                 "grade": 6,
-                "rarity": "uncommon"
+                "rarity": "common"
               },
               {
                 "type": "crystal",
@@ -2729,27 +2729,27 @@
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 241800,
+                "type": "crystal",
+                "value": 2600,
                 "grade": 6,
-                "rarity": "common"
+                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Common Battleship Parts",
+                "type": "6\u2605 common battleship parts",
                 "value": 511400
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 21
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 1693
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 21
             }
           ],
           "additional_info": {
@@ -2768,20 +2768,20 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 10300
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 1404300
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 10300
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 6500,
+                "type": "ore",
+                "value": 604600,
                 "grade": 6,
-                "rarity": "uncommon"
+                "rarity": "common"
               },
               {
                 "type": "crystal",
@@ -2790,27 +2790,27 @@
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 604600,
+                "type": "crystal",
+                "value": 6500,
                 "grade": 6,
-                "rarity": "common"
+                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Common Battleship Parts",
+                "type": "6\u2605 common battleship parts",
                 "value": 1278600
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 50
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 3951
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 50
             }
           ],
           "additional_info": {
@@ -2827,15 +2827,21 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 12900
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 1755300
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 12900
               }
             ],
             "materials": [
+              {
+                "type": "ore",
+                "value": 36900,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
               {
                 "type": "crystal",
                 "value": 9100,
@@ -2847,29 +2853,23 @@
                 "value": 1700,
                 "grade": 6,
                 "rarity": "rare"
-              },
-              {
-                "type": "ore",
-                "value": 36900,
-                "grade": 6,
-                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
+                "type": "6\u2605 uncommon battleship parts",
                 "value": 151900
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 72
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 5644
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 72
             }
           ],
           "additional_info": {
@@ -2886,15 +2886,21 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 12900
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 1755300
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 12900
               }
             ],
             "materials": [
+              {
+                "type": "ore",
+                "value": 36900,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
               {
                 "type": "crystal",
                 "value": 9100,
@@ -2906,29 +2912,23 @@
                 "value": 1700,
                 "grade": 6,
                 "rarity": "rare"
-              },
-              {
-                "type": "ore",
-                "value": 36900,
-                "grade": 6,
-                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
+                "type": "6\u2605 uncommon battleship parts",
                 "value": 151900
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 72
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 5644
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 72
             }
           ],
           "additional_info": {
@@ -2984,12 +2984,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 24900
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 3399800
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 24900
               }
             ],
             "materials": [
@@ -3002,23 +3002,23 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
-                "value": 122600
+                "type": "6\u2605 common battleship parts",
+                "value": 1155700
               },
               {
-                "type": "6\u2605 Common Battleship Parts",
-                "value": 1155700
+                "type": "6\u2605 uncommon battleship parts",
+                "value": 122600
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 99
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 7838
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 99
             }
           ],
           "additional_info": {
@@ -3052,20 +3052,20 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 29600
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 4037200
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 29600
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 3400,
+                "type": "ore",
+                "value": 60700,
                 "grade": 6,
-                "rarity": "rare"
+                "rarity": "uncommon"
               },
               {
                 "type": "ore",
@@ -3074,27 +3074,27 @@
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 60700,
+                "type": "crystal",
+                "value": 3400,
                 "grade": 6,
-                "rarity": "uncommon"
+                "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
+                "type": "6\u2605 uncommon battleship parts",
                 "value": 153300
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 142
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 11155
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 142
             }
           ],
           "additional_info": {
@@ -3128,15 +3128,21 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 23400
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 3187300
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 23400
               }
             ],
             "materials": [
+              {
+                "type": "ore",
+                "value": 50600,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
               {
                 "type": "crystal",
                 "value": 17900,
@@ -3148,29 +3154,23 @@
                 "value": 2800,
                 "grade": 6,
                 "rarity": "rare"
-              },
-              {
-                "type": "ore",
-                "value": 50600,
-                "grade": 6,
-                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Battleship Parts",
+                "type": "6\u2605 rare battleship parts",
                 "value": 34200
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 115
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 9044
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 115
             }
           ],
           "additional_info": {
@@ -3187,20 +3187,20 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 29600
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 4037200
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 29600
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 3400,
+                "type": "ore",
+                "value": 60700,
                 "grade": 6,
-                "rarity": "rare"
+                "rarity": "uncommon"
               },
               {
                 "type": "ore",
@@ -3209,27 +3209,27 @@
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 60700,
+                "type": "crystal",
+                "value": 3400,
                 "grade": 6,
-                "rarity": "uncommon"
+                "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
+                "type": "6\u2605 uncommon battleship parts",
                 "value": 153300
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 142
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 11155
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 142
             }
           ],
           "additional_info": {
@@ -3263,20 +3263,20 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 4700
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 637500
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 4700
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 4000,
+                "type": "ore",
+                "value": 292700,
                 "grade": 6,
-                "rarity": "uncommon"
+                "rarity": "common"
               },
               {
                 "type": "crystal",
@@ -3285,27 +3285,27 @@
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 292700,
+                "type": "crystal",
+                "value": 4000,
                 "grade": 6,
-                "rarity": "common"
+                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Common Battleship Parts",
+                "type": "6\u2605 common battleship parts",
                 "value": 288900
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 23
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 1809
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 23
             }
           ],
           "additional_info": {
@@ -3324,20 +3324,20 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 12500
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 1699900
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 12500
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 10000,
+                "type": "ore",
+                "value": 731900,
                 "grade": 6,
-                "rarity": "uncommon"
+                "rarity": "common"
               },
               {
                 "type": "crystal",
@@ -3346,27 +3346,27 @@
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 731900,
+                "type": "crystal",
+                "value": 10000,
                 "grade": 6,
-                "rarity": "common"
+                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Common Battleship Parts",
+                "type": "6\u2605 common battleship parts",
                 "value": 722300
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 54
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 4221
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 54
             }
           ],
           "additional_info": {
@@ -3383,15 +3383,21 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 15600
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 2124900
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 15600
               }
             ],
             "materials": [
+              {
+                "type": "ore",
+                "value": 35400,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
               {
                 "type": "crystal",
                 "value": 13900,
@@ -3403,29 +3409,23 @@
                 "value": 2100,
                 "grade": 6,
                 "rarity": "rare"
-              },
-              {
-                "type": "ore",
-                "value": 35400,
-                "grade": 6,
-                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
+                "type": "6\u2605 uncommon battleship parts",
                 "value": 92000
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 77
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 6029
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 77
             }
           ],
           "additional_info": {
@@ -3442,15 +3442,21 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 15600
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 2124900
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 15600
               }
             ],
             "materials": [
+              {
+                "type": "ore",
+                "value": 35400,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
               {
                 "type": "crystal",
                 "value": 13900,
@@ -3462,29 +3468,23 @@
                 "value": 2100,
                 "grade": 6,
                 "rarity": "rare"
-              },
-              {
-                "type": "ore",
-                "value": 35400,
-                "grade": 6,
-                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
+                "type": "6\u2605 uncommon battleship parts",
                 "value": 92000
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 77
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 6029
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 77
             }
           ],
           "additional_info": {
@@ -3523,7 +3523,7 @@
         },
         {
           "ability_bonus": 0.6,
-          "additional_officer_slot": true,
+          "additional_officer_slot": false,
           "level": 35,
           "ship_xp": 15163333
         }
@@ -3540,47 +3540,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 36600
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 4828700
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 36600
               }
             ],
             "materials": [
               {
                 "type": "ore",
-                "value": 18300,
-                "grade": 6,
-                "rarity": "rare"
-              },
-              {
-                "type": "ore",
                 "value": 150900,
                 "grade": 6,
                 "rarity": "uncommon"
+              },
+              {
+                "type": "ore",
+                "value": 18300,
+                "grade": 6,
+                "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
-                "value": 126100
+                "type": "6\u2605 common battleship parts",
+                "value": 611500
               },
               {
-                "type": "6\u2605 Common Battleship Parts",
-                "value": 611500
+                "type": "6\u2605 uncommon battleship parts",
+                "value": 126100
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 148
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 11055
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 148
             }
           ],
           "additional_info": {
@@ -3614,12 +3614,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 43400
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 5734100
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 43400
               }
             ],
             "materials": [
@@ -3632,23 +3632,23 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
-                "value": 157600
+                "type": "6\u2605 common battleship parts",
+                "value": 764400
               },
               {
-                "type": "6\u2605 Common Battleship Parts",
-                "value": 764400
+                "type": "6\u2605 uncommon battleship parts",
+                "value": 157600
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 211
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 15733
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 211
             }
           ],
           "additional_info": {
@@ -3682,43 +3682,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 34300
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 4526900
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 34300
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 6800,
+                "type": "ore",
+                "value": 20400,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 20400,
+                "type": "crystal",
+                "value": 6800,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
+                "type": "6\u2605 uncommon battleship parts",
                 "value": 126100
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 171
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 12756
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 171
             }
           ],
           "additional_info": {
@@ -3735,12 +3735,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 43400
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 5734100
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 43400
               }
             ],
             "materials": [
@@ -3753,23 +3753,23 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
-                "value": 157600
+                "type": "6\u2605 common battleship parts",
+                "value": 764400
               },
               {
-                "type": "6\u2605 Common Battleship Parts",
-                "value": 764400
+                "type": "6\u2605 uncommon battleship parts",
+                "value": 157600
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 211
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 15733
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 211
             }
           ],
           "additional_info": {
@@ -3803,20 +3803,20 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 6900
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 905400
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 6900
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 7000,
+                "type": "ore",
+                "value": 361000,
                 "grade": 6,
-                "rarity": "uncommon"
+                "rarity": "common"
               },
               {
                 "type": "crystal",
@@ -3825,27 +3825,27 @@
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 361000,
+                "type": "crystal",
+                "value": 7000,
                 "grade": 6,
-                "rarity": "common"
+                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Common Battleship Parts",
+                "type": "6\u2605 common battleship parts",
                 "value": 152900
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 34
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 2551
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 34
             }
           ],
           "additional_info": {
@@ -3864,20 +3864,20 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 18300
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 2414300
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 18300
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 17500,
+                "type": "ore",
+                "value": 902600,
                 "grade": 6,
-                "rarity": "uncommon"
+                "rarity": "common"
               },
               {
                 "type": "crystal",
@@ -3886,27 +3886,27 @@
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 902600,
+                "type": "crystal",
+                "value": 17500,
                 "grade": 6,
-                "rarity": "common"
+                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Common Battleship Parts",
+                "type": "6\u2605 common battleship parts",
                 "value": 382200
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 80
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 5953
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 80
             }
           ],
           "additional_info": {
@@ -3923,15 +3923,21 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 22800
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 3017900
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 22800
               }
             ],
             "materials": [
+              {
+                "type": "ore",
+                "value": 105600,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
               {
                 "type": "crystal",
                 "value": 24500,
@@ -3943,29 +3949,23 @@
                 "value": 5100,
                 "grade": 6,
                 "rarity": "rare"
-              },
-              {
-                "type": "ore",
-                "value": 105600,
-                "grade": 6,
-                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
+                "type": "6\u2605 uncommon battleship parts",
                 "value": 94500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 114
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 8504
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 114
             }
           ],
           "additional_info": {
@@ -3982,15 +3982,21 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 22800
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 3017900
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 22800
               }
             ],
             "materials": [
+              {
+                "type": "ore",
+                "value": 105600,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
               {
                 "type": "crystal",
                 "value": 24500,
@@ -4002,29 +4008,23 @@
                 "value": 5100,
                 "grade": 6,
                 "rarity": "rare"
-              },
-              {
-                "type": "ore",
-                "value": 105600,
-                "grade": 6,
-                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
+                "type": "6\u2605 uncommon battleship parts",
                 "value": 94500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 114
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 8504
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 114
             }
           ],
           "additional_info": {
@@ -4080,47 +4080,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 56100
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 7415500
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 56100
               }
             ],
             "materials": [
               {
                 "type": "ore",
-                "value": 24200,
-                "grade": 6,
-                "rarity": "rare"
-              },
-              {
-                "type": "ore",
                 "value": 327100,
                 "grade": 6,
                 "rarity": "uncommon"
+              },
+              {
+                "type": "ore",
+                "value": 24200,
+                "grade": 6,
+                "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
-                "value": 331900
+                "type": "6\u2605 common battleship parts",
+                "value": 764400
               },
               {
-                "type": "6\u2605 Common Battleship Parts",
-                "value": 764400
+                "type": "6\u2605 uncommon battleship parts",
+                "value": 331900
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 157
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 11688
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 157
             }
           ],
           "additional_info": {
@@ -4154,12 +4154,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 66700
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 8805900
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 66700
               }
             ],
             "materials": [
@@ -4172,23 +4172,23 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Battleship Parts",
-                "value": 32400
+                "type": "6\u2605 common battleship parts",
+                "value": 955500
               },
               {
-                "type": "6\u2605 Common Battleship Parts",
-                "value": 955500
+                "type": "6\u2605 rare battleship parts",
+                "value": 32400
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 223
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 16633
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 223
             }
           ],
           "additional_info": {
@@ -4222,12 +4222,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 52600
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 6952000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 52600
               }
             ],
             "materials": [
@@ -4240,23 +4240,23 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
-                "value": 331900
+                "type": "6\u2605 common battleship parts",
+                "value": 764400
               },
               {
-                "type": "6\u2605 Common Battleship Parts",
-                "value": 764400
+                "type": "6\u2605 uncommon battleship parts",
+                "value": 331900
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 181
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 13486
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 181
             }
           ],
           "additional_info": {
@@ -4273,12 +4273,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 66700
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 8805900
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 66700
               }
             ],
             "materials": [
@@ -4291,23 +4291,23 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Battleship Parts",
-                "value": 32400
+                "type": "6\u2605 common battleship parts",
+                "value": 955500
               },
               {
-                "type": "6\u2605 Common Battleship Parts",
-                "value": 955500
+                "type": "6\u2605 rare battleship parts",
+                "value": 32400
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 223
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 16633
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 223
             }
           ],
           "additional_info": {
@@ -4341,20 +4341,20 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 10500
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 1390400
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 10500
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 10800,
+                "type": "ore",
+                "value": 554500,
                 "grade": 6,
-                "rarity": "uncommon"
+                "rarity": "common"
               },
               {
                 "type": "crystal",
@@ -4363,27 +4363,27 @@
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 554500,
+                "type": "crystal",
+                "value": 10800,
                 "grade": 6,
-                "rarity": "common"
+                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Common Battleship Parts",
+                "type": "6\u2605 common battleship parts",
                 "value": 191100
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 36
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 2697
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 36
             }
           ],
           "additional_info": {
@@ -4402,20 +4402,20 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 28100
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 3707700
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 28100
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 26900,
+                "type": "ore",
+                "value": 1386200,
                 "grade": 6,
-                "rarity": "uncommon"
+                "rarity": "common"
               },
               {
                 "type": "crystal",
@@ -4424,27 +4424,27 @@
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 1386200,
+                "type": "crystal",
+                "value": 26900,
                 "grade": 6,
-                "rarity": "common"
+                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Common Battleship Parts",
+                "type": "6\u2605 common battleship parts",
                 "value": 477800
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 84
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 6294
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 84
             }
           ],
           "additional_info": {
@@ -4461,15 +4461,21 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 35100
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 4634700
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 35100
               }
             ],
             "materials": [
+              {
+                "type": "ore",
+                "value": 18800,
+                "grade": 6,
+                "rarity": "rare"
+              },
               {
                 "type": "crystal",
                 "value": 37700,
@@ -4481,29 +4487,23 @@
                 "value": 13000,
                 "grade": 6,
                 "rarity": "rare"
-              },
-              {
-                "type": "ore",
-                "value": 18800,
-                "grade": 6,
-                "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
+                "type": "6\u2605 uncommon battleship parts",
                 "value": 248900
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 120
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 8991
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 120
             }
           ],
           "additional_info": {
@@ -4520,15 +4520,21 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 35100
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 4634700
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 35100
               }
             ],
             "materials": [
+              {
+                "type": "ore",
+                "value": 229000,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
               {
                 "type": "crystal",
                 "value": 37700,
@@ -4540,29 +4546,23 @@
                 "value": 13000,
                 "grade": 6,
                 "rarity": "rare"
-              },
-              {
-                "type": "ore",
-                "value": 229000,
-                "grade": 6,
-                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
+                "type": "6\u2605 uncommon battleship parts",
                 "value": 248900
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 120
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 8991
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 120
             }
           ],
           "additional_info": {
@@ -4618,12 +4618,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 94600
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 12564400
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 94600
               }
             ],
             "materials": [
@@ -4636,23 +4636,23 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Battleship Parts",
-                "value": 20400
+                "type": "6\u2605 common battleship parts",
+                "value": 1722500
               },
               {
-                "type": "6\u2605 Common Battleship Parts",
-                "value": 1722500
+                "type": "6\u2605 rare battleship parts",
+                "value": 20400
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 221
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 16669
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 221
             }
           ],
           "additional_info": {
@@ -4686,12 +4686,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 112300
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 14920300
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 112300
               }
             ],
             "materials": [
@@ -4704,23 +4704,23 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Battleship Parts",
-                "value": 25500
+                "type": "6\u2605 uncommon battleship parts",
+                "value": 410600
               },
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
-                "value": 410600
+                "type": "6\u2605 rare battleship parts",
+                "value": 25500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 314
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 23722
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 314
             }
           ],
           "additional_info": {
@@ -4754,12 +4754,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 88700
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 11779100
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 88700
               }
             ],
             "materials": [
@@ -4772,23 +4772,23 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Battleship Parts",
-                "value": 20400
+                "type": "6\u2605 uncommon battleship parts",
+                "value": 328400
               },
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
-                "value": 328400
+                "type": "6\u2605 rare battleship parts",
+                "value": 20400
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 255
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 19234
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 255
             }
           ],
           "additional_info": {
@@ -4805,12 +4805,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 112300
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 14920300
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 112300
               }
             ],
             "materials": [
@@ -4823,23 +4823,23 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Battleship Parts",
-                "value": 25500
+                "type": "6\u2605 uncommon battleship parts",
+                "value": 410600
               },
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
-                "value": 410600
+                "type": "6\u2605 rare battleship parts",
+                "value": 25500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 314
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 23722
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 314
             }
           ],
           "additional_info": {
@@ -4873,43 +4873,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 17700
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 2355800
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 17700
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 181900,
+                "type": "ore",
+                "value": 783700,
                 "grade": 6,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 783700,
+                "type": "crystal",
+                "value": 181900,
                 "grade": 6,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Common Battleship Parts",
+                "type": "6\u2605 common battleship parts",
                 "value": 430600
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 51
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 3847
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 51
             }
           ],
           "additional_info": {
@@ -4928,43 +4928,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 47300
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 6282200
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 47300
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 454800,
+                "type": "ore",
+                "value": 1959100,
                 "grade": 6,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 1959100,
+                "type": "crystal",
+                "value": 454800,
                 "grade": 6,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Common Battleship Parts",
+                "type": "6\u2605 common battleship parts",
                 "value": 1076600
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 119
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 8976
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 119
             }
           ],
           "additional_info": {
@@ -4981,47 +4981,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 59100
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 7852800
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 59100
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 18300,
+                "type": "ore",
+                "value": 22900,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 22900,
+                "type": "crystal",
+                "value": 18300,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
-                "value": 246300
+                "type": "6\u2605 common battleship parts",
+                "value": 1291900
               },
               {
-                "type": "6\u2605 Common Battleship Parts",
-                "value": 1291900
+                "type": "6\u2605 uncommon battleship parts",
+                "value": 246300
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 170
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 12823
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 170
             }
           ],
           "additional_info": {
@@ -5038,47 +5038,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 59100
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 7852800
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 59100
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 18300,
+                "type": "ore",
+                "value": 22900,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 22900,
+                "type": "crystal",
+                "value": 18300,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
-                "value": 246300
+                "type": "6\u2605 common battleship parts",
+                "value": 1291900
               },
               {
-                "type": "6\u2605 Common Battleship Parts",
-                "value": 1291900
+                "type": "6\u2605 uncommon battleship parts",
+                "value": 246300
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 170
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 12823
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 170
             }
           ],
           "additional_info": {
@@ -5134,12 +5134,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 134000
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 17799600
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 134000
               }
             ],
             "materials": [
@@ -5152,23 +5152,23 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Battleship Parts",
-                "value": 28800
+                "type": "6\u2605 uncommon battleship parts",
+                "value": 338400
               },
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
-                "value": 338400
+                "type": "6\u2605 rare battleship parts",
+                "value": 28800
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 301
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 22060
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 301
             }
           ],
           "additional_info": {
@@ -5202,47 +5202,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 159100
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 21137000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 159100
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 15900,
+                "type": "ore",
+                "value": 55600,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 55600,
+                "type": "crystal",
+                "value": 15900,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Battleship Parts",
-                "value": 36100
+                "type": "6\u2605 uncommon battleship parts",
+                "value": 423000
               },
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
-                "value": 423000
+                "type": "6\u2605 rare battleship parts",
+                "value": 36100
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 428
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 31393
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 428
             }
           ],
           "additional_info": {
@@ -5276,12 +5276,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 125600
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 16687100
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 125600
               }
             ],
             "materials": [
@@ -5294,23 +5294,23 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Battleship Parts",
-                "value": 28800
+                "type": "6\u2605 uncommon battleship parts",
+                "value": 338400
               },
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
-                "value": 338400
+                "type": "6\u2605 rare battleship parts",
+                "value": 28800
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 347
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 25454
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 347
             }
           ],
           "additional_info": {
@@ -5327,47 +5327,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 159100
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 21137000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 159100
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 15900,
+                "type": "ore",
+                "value": 55600,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 55600,
+                "type": "crystal",
+                "value": 15900,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Battleship Parts",
-                "value": 36100
+                "type": "6\u2605 uncommon battleship parts",
+                "value": 423000
               },
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
-                "value": 423000
+                "type": "6\u2605 rare battleship parts",
+                "value": 36100
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 428
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 31393
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 428
             }
           ],
           "additional_info": {
@@ -5401,47 +5401,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 25100
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 3337400
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 25100
               }
             ],
             "materials": [
-              {
-                "type": "crystal",
-                "value": 257700,
-                "grade": 6,
-                "rarity": "common"
-              },
               {
                 "type": "ore",
                 "value": 317600,
                 "grade": 6,
                 "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 257700,
+                "grade": 6,
+                "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
-                "value": 84600
+                "type": "6\u2605 common battleship parts",
+                "value": 2353100
               },
               {
-                "type": "6\u2605 Common Battleship Parts",
-                "value": 2353100
+                "type": "6\u2605 uncommon battleship parts",
+                "value": 84600
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 69
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 5091
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 69
             }
           ],
           "additional_info": {
@@ -5460,47 +5460,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 67000
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 8899800
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 67000
               }
             ],
             "materials": [
-              {
-                "type": "crystal",
-                "value": 644300,
-                "grade": 6,
-                "rarity": "common"
-              },
               {
                 "type": "ore",
                 "value": 793900,
                 "grade": 6,
                 "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 644300,
+                "grade": 6,
+                "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
-                "value": 211500
+                "type": "6\u2605 common battleship parts",
+                "value": 5882600
               },
               {
-                "type": "6\u2605 Common Battleship Parts",
-                "value": 5882600
+                "type": "6\u2605 uncommon battleship parts",
+                "value": 211500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 162
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 11878
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 162
             }
           ],
           "additional_info": {
@@ -5517,43 +5517,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 83800
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 11124700
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 83800
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 10100,
+                "type": "ore",
+                "value": 32500,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 32500,
+                "type": "crystal",
+                "value": 10100,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
+                "type": "6\u2605 uncommon battleship parts",
                 "value": 253800
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 231
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 16969
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 231
             }
           ],
           "additional_info": {
@@ -5570,43 +5570,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 83800
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 11124700
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 83800
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 10100,
+                "type": "ore",
+                "value": 32500,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 32500,
+                "type": "crystal",
+                "value": 10100,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
+                "type": "6\u2605 uncommon battleship parts",
                 "value": 253800
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 231
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 16969
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 231
             }
           ],
           "additional_info": {
@@ -5644,8 +5644,8 @@
           "ship_xp": 37357851
         },
         {
-          "ability_bonus": 1,
-          "additional_officer_slot": true,
+          "ability_bonus": 1.0,
+          "additional_officer_slot": false,
           "level": 55,
           "ship_xp": 39173442
         }
@@ -5662,43 +5662,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 221900
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 28824300
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 221900
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 12000,
+                "type": "ore",
+                "value": 64500,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 64500,
+                "type": "crystal",
+                "value": 12000,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Battleship Parts",
+                "type": "6\u2605 rare battleship parts",
                 "value": 30200
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 397
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 29394
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 397
             }
           ],
           "additional_info": {
@@ -5732,43 +5732,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 263600
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 34228800
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 263600
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 14700,
+                "type": "ore",
+                "value": 77400,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 77400,
+                "type": "crystal",
+                "value": 14700,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Battleship Parts",
+                "type": "6\u2605 rare battleship parts",
                 "value": 37700
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 565
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 41830
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 565
             }
           ],
           "additional_info": {
@@ -5802,43 +5802,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 208100
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 27022700
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 208100
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 12000,
+                "type": "ore",
+                "value": 64500,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 64500,
+                "type": "crystal",
+                "value": 12000,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Battleship Parts",
+                "type": "6\u2605 rare battleship parts",
                 "value": 30200
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 458
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 33916
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 458
             }
           ],
           "additional_info": {
@@ -5855,43 +5855,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 263600
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 34228800
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 263600
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 14700,
+                "type": "ore",
+                "value": 77400,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 77400,
+                "type": "crystal",
+                "value": 14700,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Battleship Parts",
+                "type": "6\u2605 rare battleship parts",
                 "value": 37700
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 565
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 41830
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 565
             }
           ],
           "additional_info": {
@@ -5925,47 +5925,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 41600
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 5404500
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 41600
               }
             ],
             "materials": [
-              {
-                "type": "crystal",
-                "value": 359500,
-                "grade": 6,
-                "rarity": "common"
-              },
               {
                 "type": "ore",
                 "value": 443200,
                 "grade": 6,
                 "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 359500,
+                "grade": 6,
+                "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
-                "value": 926900
+                "type": "6\u2605 common battleship parts",
+                "value": 3283700
               },
               {
-                "type": "6\u2605 Common Battleship Parts",
-                "value": 3283700
+                "type": "6\u2605 uncommon battleship parts",
+                "value": 926900
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 92
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 6783
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 92
             }
           ],
           "additional_info": {
@@ -5984,47 +5984,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 111000
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 14412100
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 111000
               }
             ],
             "materials": [
-              {
-                "type": "crystal",
-                "value": 898700,
-                "grade": 6,
-                "rarity": "common"
-              },
               {
                 "type": "ore",
                 "value": 1108000,
                 "grade": 6,
                 "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 898700,
+                "grade": 6,
+                "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
-                "value": 2317200
+                "type": "6\u2605 common battleship parts",
+                "value": 8209200
               },
               {
-                "type": "6\u2605 Common Battleship Parts",
-                "value": 8209200
+                "type": "6\u2605 uncommon battleship parts",
+                "value": 2317200
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 214
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 15828
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 214
             }
           ],
           "additional_info": {
@@ -6041,43 +6041,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 138700
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 18015200
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 138700
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 9400,
+                "type": "ore",
+                "value": 45100,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 45100,
+                "type": "crystal",
+                "value": 9400,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Battleship Parts",
+                "type": "6\u2605 rare battleship parts",
                 "value": 22600
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 306
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 22611
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 306
             }
           ],
           "additional_info": {
@@ -6094,43 +6094,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 138700
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 18015200
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 138700
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 9400,
+                "type": "ore",
+                "value": 45100,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 45100,
+                "type": "crystal",
+                "value": 9400,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Battleship Parts",
+                "type": "6\u2605 rare battleship parts",
                 "value": 22600
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 306
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 22611
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 306
             }
           ],
           "additional_info": {
@@ -6186,43 +6186,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 346800
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 45231900
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 346800
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 15900,
+                "type": "ore",
+                "value": 85200,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 85200,
+                "type": "crystal",
+                "value": 15900,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Battleship Parts",
+                "type": "6\u2605 rare battleship parts",
                 "value": 40000
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 414
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 30676
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 414
             }
           ],
           "additional_info": {
@@ -6256,43 +6256,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 411800
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 53712900
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 411800
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 19400,
+                "type": "ore",
+                "value": 102200,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 102200,
+                "type": "crystal",
+                "value": 19400,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Battleship Parts",
+                "type": "6\u2605 rare battleship parts",
                 "value": 50000
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 590
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 43655
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 590
             }
           ],
           "additional_info": {
@@ -6326,43 +6326,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 325100
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 42404900
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 325100
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 15900,
+                "type": "ore",
+                "value": 85200,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 85200,
+                "type": "crystal",
+                "value": 15900,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Battleship Parts",
+                "type": "6\u2605 rare battleship parts",
                 "value": 40000
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 478
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 35396
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 478
             }
           ],
           "additional_info": {
@@ -6379,43 +6379,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 411800
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 53712900
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 411800
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 19400,
+                "type": "ore",
+                "value": 102200,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 102200,
+                "type": "crystal",
+                "value": 19400,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Battleship Parts",
+                "type": "6\u2605 rare battleship parts",
                 "value": 50000
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 590
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 43655
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 590
             }
           ],
           "additional_info": {
@@ -6449,47 +6449,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 65000
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 8481000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 65000
               }
             ],
             "materials": [
-              {
-                "type": "crystal",
-                "value": 476000,
-                "grade": 6,
-                "rarity": "common"
-              },
               {
                 "type": "ore",
                 "value": 587600,
                 "grade": 6,
                 "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 476000,
+                "grade": 6,
+                "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
-                "value": 1227700
+                "type": "6\u2605 common battleship parts",
+                "value": 4352600
               },
               {
-                "type": "6\u2605 Common Battleship Parts",
-                "value": 4352600
+                "type": "6\u2605 uncommon battleship parts",
+                "value": 1227700
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 96
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 7079
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 96
             }
           ],
           "additional_info": {
@@ -6508,47 +6508,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 173400
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 22616000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 173400
               }
             ],
             "materials": [
-              {
-                "type": "crystal",
-                "value": 1189900,
-                "grade": 6,
-                "rarity": "common"
-              },
               {
                 "type": "ore",
                 "value": 1468900,
                 "grade": 6,
                 "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 1189900,
+                "grade": 6,
+                "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
-                "value": 3069300
+                "type": "6\u2605 common battleship parts",
+                "value": 10881500
               },
               {
-                "type": "6\u2605 Common Battleship Parts",
-                "value": 10881500
+                "type": "6\u2605 uncommon battleship parts",
+                "value": 3069300
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 223
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 16518
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 223
             }
           ],
           "additional_info": {
@@ -6565,43 +6565,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 216700
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 28269900
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 216700
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 12300,
+                "type": "ore",
+                "value": 59600,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 59600,
+                "type": "crystal",
+                "value": 12300,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Battleship Parts",
+                "type": "6\u2605 rare battleship parts",
                 "value": 30000
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 319
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 23597
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 319
             }
           ],
           "additional_info": {
@@ -6618,43 +6618,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 216700
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 28269900
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 216700
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 12300,
+                "type": "ore",
+                "value": 59600,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 59600,
+                "type": "crystal",
+                "value": 12300,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Battleship Parts",
+                "type": "6\u2605 rare battleship parts",
                 "value": 30000
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 319
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 23597
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 319
             }
           ],
           "additional_info": {
@@ -6693,7 +6693,7 @@
         },
         {
           "ability_bonus": 1.2,
-          "additional_officer_slot": true,
+          "additional_officer_slot": false,
           "level": 65,
           "ship_xp": 57114419
         }
@@ -6710,43 +6710,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 439700
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 57352900
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 439700
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 20100,
+                "type": "ore",
+                "value": 96400,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 96400,
+                "type": "crystal",
+                "value": 20100,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Battleship Parts",
+                "type": "6\u2605 rare battleship parts",
                 "value": 50700
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 432
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 32004
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 432
             }
           ],
           "additional_info": {
@@ -6780,43 +6780,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 522100
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 68106600
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 522100
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 24600,
+                "type": "ore",
+                "value": 115700,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 115700,
+                "type": "crystal",
+                "value": 24600,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Battleship Parts",
+                "type": "6\u2605 rare battleship parts",
                 "value": 63300
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 615
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 45544
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 615
             }
           ],
           "additional_info": {
@@ -6850,43 +6850,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 412200
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 53768300
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 412200
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 20100,
+                "type": "ore",
+                "value": 96400,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 96400,
+                "type": "crystal",
+                "value": 20100,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Battleship Parts",
+                "type": "6\u2605 rare battleship parts",
                 "value": 50700
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 499
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 36927
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 499
             }
           ],
           "additional_info": {
@@ -6903,43 +6903,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 522100
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 68106600
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 522100
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 24600,
+                "type": "ore",
+                "value": 115700,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 115700,
+                "type": "crystal",
+                "value": 24600,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Battleship Parts",
+                "type": "6\u2605 rare battleship parts",
                 "value": 63300
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 615
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 45544
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 615
             }
           ],
           "additional_info": {
@@ -6973,43 +6973,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 82400
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 10753700
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 82400
               }
             ],
             "materials": [
-              {
-                "type": "crystal",
-                "value": 151100,
-                "grade": 6,
-                "rarity": "uncommon"
-              },
               {
                 "type": "ore",
                 "value": 19300,
                 "grade": 6,
                 "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 151100,
+                "grade": 6,
+                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
+                "type": "6\u2605 uncommon battleship parts",
                 "value": 1556700
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 100
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 7385
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 100
             }
           ],
           "additional_info": {
@@ -7028,43 +7028,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 219800
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 28676400
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 219800
               }
             ],
             "materials": [
-              {
-                "type": "crystal",
-                "value": 377800,
-                "grade": 6,
-                "rarity": "uncommon"
-              },
               {
                 "type": "ore",
                 "value": 48200,
                 "grade": 6,
                 "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 377800,
+                "grade": 6,
+                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
+                "type": "6\u2605 uncommon battleship parts",
                 "value": 3891800
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 233
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 17233
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 233
             }
           ],
           "additional_info": {
@@ -7081,43 +7081,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 274800
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 35845600
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 274800
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 15600,
+                "type": "ore",
+                "value": 67500,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 67500,
+                "type": "crystal",
+                "value": 15600,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Battleship Parts",
+                "type": "6\u2605 rare battleship parts",
                 "value": 38000
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 332
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 24618
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 332
             }
           ],
           "additional_info": {
@@ -7134,43 +7134,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 274800
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 35845600
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 274800
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 15600,
+                "type": "ore",
+                "value": 67500,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 67500,
+                "type": "crystal",
+                "value": 15600,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Battleship Parts",
+                "type": "6\u2605 rare battleship parts",
                 "value": 38000
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 332
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 24618
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 332
             }
           ],
           "additional_info": {
@@ -7209,7 +7209,7 @@
         },
         {
           "ability_bonus": 1.3,
-          "additional_officer_slot": true,
+          "additional_officer_slot": false,
           "level": 70,
           "ship_xp": 65682629
         }
@@ -7226,43 +7226,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 541700
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 70656400
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 541700
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 21900,
+                "type": "ore",
+                "value": 118700,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 118700,
+                "type": "crystal",
+                "value": 21900,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Battleship Parts",
+                "type": "6\u2605 rare battleship parts",
                 "value": 62400
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 451
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 33378
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 451
             }
           ],
           "additional_info": {
@@ -7296,43 +7296,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 643300
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 83904500
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 643300
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 26800,
+                "type": "ore",
+                "value": 142500,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 142500,
+                "type": "crystal",
+                "value": 26800,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Battleship Parts",
+                "type": "6\u2605 rare battleship parts",
                 "value": 78000
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 641
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 47500
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 641
             }
           ],
           "additional_info": {
@@ -7366,43 +7366,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 507800
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 66240400
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 507800
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 21900,
+                "type": "ore",
+                "value": 118700,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 118700,
+                "type": "crystal",
+                "value": 21900,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Battleship Parts",
+                "type": "6\u2605 rare battleship parts",
                 "value": 62400
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 520
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 38513
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 520
             }
           ],
           "additional_info": {
@@ -7419,43 +7419,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 643300
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 83904500
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 643300
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 26800,
+                "type": "ore",
+                "value": 142500,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 142500,
+                "type": "crystal",
+                "value": 26800,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Battleship Parts",
+                "type": "6\u2605 rare battleship parts",
                 "value": 78000
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 641
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 47500
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 641
             }
           ],
           "additional_info": {
@@ -7489,43 +7489,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 101600
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 13248100
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 101600
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 4900,
+                "type": "ore",
+                "value": 23700,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 23700,
+                "type": "crystal",
+                "value": 4900,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
+                "type": "6\u2605 uncommon battleship parts",
                 "value": 1917800
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 104
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 7703
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 104
             }
           ],
           "additional_info": {
@@ -7544,43 +7544,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 270800
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 35328200
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 270800
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 12200,
+                "type": "ore",
+                "value": 59400,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 59400,
+                "type": "crystal",
+                "value": 12200,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
+                "type": "6\u2605 uncommon battleship parts",
                 "value": 4794500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 243
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 17973
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 243
             }
           ],
           "additional_info": {
@@ -7597,43 +7597,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 338600
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 44160200
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 338600
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 17100,
+                "type": "ore",
+                "value": 83100,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 83100,
+                "type": "crystal",
+                "value": 17100,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Battleship Parts",
+                "type": "6\u2605 rare battleship parts",
                 "value": 46800
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 347
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 25676
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 347
             }
           ],
           "additional_info": {
@@ -7650,43 +7650,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 338600
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 44160200
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 338600
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 17100,
+                "type": "ore",
+                "value": 83100,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 83100,
+                "type": "crystal",
+                "value": 17100,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Battleship Parts",
+                "type": "6\u2605 rare battleship parts",
                 "value": 46800
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 347
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 25676
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 347
             }
           ],
           "additional_info": {
@@ -7732,5 +7732,5 @@
       ]
     }
   ],
-  "img_url": "./assets/negh_var.png"
+  "img_url": "./assets/neghvar.png"
 }

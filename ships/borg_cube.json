@@ -11,7 +11,7 @@
   },
   "ship_ability": {
     "title": "Phase Discriminating Amplifier",
-    "description": "Base HHP Damage increases with Borg Cube tier. \n\nWhen targeting a ship above your player level, HHP Damage dealt is decreased by 10% per level.",
+    "description": "The Borg Cutting Beam deals {value} base HHP Damage to non-Armada Hostiles outside of battle. This value is reduced against player targets. \n\nBase HHP Damage increases with Borg Cube tier. \n\nWhen targeting a ship above your player level, HHP Damage dealt is decreased by 10% per level.",
     "percentage": false
   },
   "scrap_info": {
@@ -255,32 +255,32 @@
       ],
       "levels": [
         {
-          "ability_bonus": 23000,
+          "ability_bonus": 23000.0,
           "additional_officer_slot": false,
           "level": 1,
           "ship_xp": 0
         },
         {
-          "ability_bonus": 23000,
+          "ability_bonus": 23000.0,
           "additional_officer_slot": false,
           "level": 2,
           "ship_xp": 8000
         },
         {
-          "ability_bonus": 23000,
+          "ability_bonus": 23000.0,
           "additional_officer_slot": false,
           "level": 3,
           "ship_xp": 12000
         },
         {
-          "ability_bonus": 23000,
+          "ability_bonus": 23000.0,
           "additional_officer_slot": false,
           "level": 4,
           "ship_xp": 20000
         },
         {
-          "ability_bonus": 23000,
-          "additional_officer_slot": true,
+          "ability_bonus": 23000.0,
+          "additional_officer_slot": false,
           "level": 5,
           "ship_xp": 29000
         }
@@ -321,26 +321,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 95,
+                "type": "ore",
+                "value": 85,
                 "grade": 3,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 85,
+                "type": "crystal",
+                "value": 95,
                 "grade": 3,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 262500
+                "type": "3\u2605 battleship parts",
+                "value": 10
               },
               {
-                "type": "3\u2605 Battleship Parts",
-                "value": 10
+                "type": "shape memory alloy",
+                "value": 262500
               }
             ]
           },
@@ -395,26 +395,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 95,
+                "type": "ore",
+                "value": 85,
                 "grade": 3,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 85,
+                "type": "crystal",
+                "value": 95,
                 "grade": 3,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 262500
+                "type": "3\u2605 battleship parts",
+                "value": 10
               },
               {
-                "type": "3\u2605 Battleship Parts",
-                "value": 10
+                "type": "shape memory alloy",
+                "value": 262500
               }
             ]
           },
@@ -469,26 +469,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 95,
+                "type": "ore",
+                "value": 85,
                 "grade": 3,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 85,
+                "type": "crystal",
+                "value": 95,
                 "grade": 3,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 262500
+                "type": "3\u2605 battleship parts",
+                "value": 10
               },
               {
-                "type": "3\u2605 Battleship Parts",
-                "value": 10
+                "type": "shape memory alloy",
+                "value": 262500
               }
             ]
           },
@@ -543,26 +543,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 95,
+                "type": "ore",
+                "value": 85,
                 "grade": 3,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 85,
+                "type": "crystal",
+                "value": 95,
                 "grade": 3,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 262500
+                "type": "3\u2605 battleship parts",
+                "value": 10
               },
               {
-                "type": "3\u2605 Battleship Parts",
-                "value": 10
+                "type": "shape memory alloy",
+                "value": 262500
               }
             ]
           },
@@ -617,26 +617,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 55,
+                "type": "ore",
+                "value": 50,
                 "grade": 3,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 50,
+                "type": "crystal",
+                "value": 55,
                 "grade": 3,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 150000
+                "type": "3\u2605 battleship parts",
+                "value": 5
               },
               {
-                "type": "3\u2605 Battleship Parts",
-                "value": 5
+                "type": "shape memory alloy",
+                "value": 150000
               }
             ]
           },
@@ -676,26 +676,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 55,
+                "type": "ore",
+                "value": 50,
                 "grade": 3,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 50,
+                "type": "crystal",
+                "value": 55,
                 "grade": 3,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Borg Data Node Tier 2",
-                "value": 1
+                "type": "shape memory alloy",
+                "value": 150000
               },
               {
-                "type": "Shape Memory Alloy",
-                "value": 150000
+                "type": "borg data node tier 2",
+                "value": 1
               }
             ]
           },
@@ -733,26 +733,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 65,
+                "type": "ore",
+                "value": 60,
                 "grade": 3,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 60,
+                "type": "crystal",
+                "value": 65,
                 "grade": 3,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 187500
+                "type": "3\u2605 battleship parts",
+                "value": 10
               },
               {
-                "type": "3\u2605 Battleship Parts",
-                "value": 10
+                "type": "shape memory alloy",
+                "value": 187500
               }
             ]
           },
@@ -790,26 +790,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 65,
+                "type": "ore",
+                "value": 60,
                 "grade": 3,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 60,
+                "type": "crystal",
+                "value": 65,
                 "grade": 3,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 187500
+                "type": "3\u2605 battleship parts",
+                "value": 10
               },
               {
-                "type": "3\u2605 Battleship Parts",
-                "value": 10
+                "type": "shape memory alloy",
+                "value": 187500
               }
             ]
           },
@@ -847,26 +847,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 55,
+                "type": "ore",
+                "value": 50,
                 "grade": 3,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 50,
+                "type": "crystal",
+                "value": 55,
                 "grade": 3,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 150000
+                "type": "3\u2605 battleship parts",
+                "value": 5
               },
               {
-                "type": "3\u2605 Battleship Parts",
-                "value": 5
+                "type": "shape memory alloy",
+                "value": 150000
               }
             ]
           },
@@ -891,32 +891,32 @@
       ],
       "levels": [
         {
-          "ability_bonus": 36000,
+          "ability_bonus": 36000.0,
           "additional_officer_slot": false,
           "level": 6,
           "ship_xp": 41000
         },
         {
-          "ability_bonus": 36000,
+          "ability_bonus": 36000.0,
           "additional_officer_slot": false,
           "level": 7,
           "ship_xp": 59000
         },
         {
-          "ability_bonus": 36000,
+          "ability_bonus": 36000.0,
           "additional_officer_slot": false,
           "level": 8,
           "ship_xp": 78000
         },
         {
-          "ability_bonus": 36000,
+          "ability_bonus": 36000.0,
           "additional_officer_slot": false,
           "level": 9,
           "ship_xp": 100000
         },
         {
-          "ability_bonus": 36000,
-          "additional_officer_slot": true,
+          "ability_bonus": 36000.0,
+          "additional_officer_slot": false,
           "level": 10,
           "ship_xp": 130000
         }
@@ -943,26 +943,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 410,
+                "type": "ore",
+                "value": 370,
                 "grade": 3,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 370,
+                "type": "crystal",
+                "value": 410,
                 "grade": 3,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 353000
+                "type": "3\u2605 battleship parts",
+                "value": 20
               },
               {
-                "type": "3\u2605 Battleship Parts",
-                "value": 20
+                "type": "shape memory alloy",
+                "value": 353000
               }
             ]
           },
@@ -1017,26 +1017,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 410,
+                "type": "ore",
+                "value": 370,
                 "grade": 3,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 370,
+                "type": "crystal",
+                "value": 410,
                 "grade": 3,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 353000
+                "type": "3\u2605 battleship parts",
+                "value": 20
               },
               {
-                "type": "3\u2605 Battleship Parts",
-                "value": 20
+                "type": "shape memory alloy",
+                "value": 353000
               }
             ]
           },
@@ -1091,26 +1091,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 410,
+                "type": "ore",
+                "value": 370,
                 "grade": 3,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 370,
+                "type": "crystal",
+                "value": 410,
                 "grade": 3,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 353000
+                "type": "3\u2605 battleship parts",
+                "value": 20
               },
               {
-                "type": "3\u2605 Battleship Parts",
-                "value": 20
+                "type": "shape memory alloy",
+                "value": 353000
               }
             ]
           },
@@ -1165,26 +1165,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 410,
+                "type": "ore",
+                "value": 370,
                 "grade": 3,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 370,
+                "type": "crystal",
+                "value": 410,
                 "grade": 3,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 353000
+                "type": "3\u2605 battleship parts",
+                "value": 20
               },
               {
-                "type": "3\u2605 Battleship Parts",
-                "value": 20
+                "type": "shape memory alloy",
+                "value": 353000
               }
             ]
           },
@@ -1239,26 +1239,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 235,
+                "type": "ore",
+                "value": 210,
                 "grade": 3,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 210,
+                "type": "crystal",
+                "value": 235,
                 "grade": 3,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 201500
+                "type": "3\u2605 battleship parts",
+                "value": 10
               },
               {
-                "type": "3\u2605 Battleship Parts",
-                "value": 10
+                "type": "shape memory alloy",
+                "value": 201500
               }
             ]
           },
@@ -1298,26 +1298,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 235,
+                "type": "ore",
+                "value": 210,
                 "grade": 3,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 210,
+                "type": "crystal",
+                "value": 235,
                 "grade": 3,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Borg Data Node Tier 3",
-                "value": 1
+                "type": "shape memory alloy",
+                "value": 201500
               },
               {
-                "type": "Shape Memory Alloy",
-                "value": 201500
+                "type": "borg data node tier 3",
+                "value": 1
               }
             ]
           },
@@ -1355,26 +1355,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 295,
+                "type": "ore",
+                "value": 265,
                 "grade": 3,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 265,
+                "type": "crystal",
+                "value": 295,
                 "grade": 3,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 252000
+                "type": "3\u2605 battleship parts",
+                "value": 15
               },
               {
-                "type": "3\u2605 Battleship Parts",
-                "value": 15
+                "type": "shape memory alloy",
+                "value": 252000
               }
             ]
           },
@@ -1412,26 +1412,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 295,
+                "type": "ore",
+                "value": 265,
                 "grade": 3,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 265,
+                "type": "crystal",
+                "value": 295,
                 "grade": 3,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 252000
+                "type": "3\u2605 battleship parts",
+                "value": 15
               },
               {
-                "type": "3\u2605 Battleship Parts",
-                "value": 15
+                "type": "shape memory alloy",
+                "value": 252000
               }
             ]
           },
@@ -1469,26 +1469,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 235,
+                "type": "ore",
+                "value": 210,
                 "grade": 3,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 210,
+                "type": "crystal",
+                "value": 235,
                 "grade": 3,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 201500
+                "type": "3\u2605 battleship parts",
+                "value": 10
               },
               {
-                "type": "3\u2605 Battleship Parts",
-                "value": 10
+                "type": "shape memory alloy",
+                "value": 201500
               }
             ]
           },
@@ -1513,31 +1513,31 @@
       ],
       "levels": [
         {
-          "ability_bonus": 50000,
+          "ability_bonus": 50000.0,
           "additional_officer_slot": false,
           "level": 11,
           "ship_xp": 158000
         },
         {
-          "ability_bonus": 50000,
+          "ability_bonus": 50000.0,
           "additional_officer_slot": false,
           "level": 12,
           "ship_xp": 190000
         },
         {
-          "ability_bonus": 50000,
+          "ability_bonus": 50000.0,
           "additional_officer_slot": false,
           "level": 13,
           "ship_xp": 235000
         },
         {
-          "ability_bonus": 50000,
+          "ability_bonus": 50000.0,
           "additional_officer_slot": false,
           "level": 14,
           "ship_xp": 275000
         },
         {
-          "ability_bonus": 50000,
+          "ability_bonus": 50000.0,
           "additional_officer_slot": false,
           "level": 15,
           "ship_xp": 318000
@@ -1565,26 +1565,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 1085,
+                "type": "ore",
+                "value": 1010,
                 "grade": 3,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 1010,
+                "type": "crystal",
+                "value": 1085,
                 "grade": 3,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 527000
+                "type": "3\u2605 battleship parts",
+                "value": 35
               },
               {
-                "type": "3\u2605 Battleship Parts",
-                "value": 35
+                "type": "shape memory alloy",
+                "value": 527000
               }
             ]
           },
@@ -1639,26 +1639,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 1085,
+                "type": "ore",
+                "value": 1010,
                 "grade": 3,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 1010,
+                "type": "crystal",
+                "value": 1085,
                 "grade": 3,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 527000
+                "type": "3\u2605 battleship parts",
+                "value": 35
               },
               {
-                "type": "3\u2605 Battleship Parts",
-                "value": 35
+                "type": "shape memory alloy",
+                "value": 527000
               }
             ]
           },
@@ -1713,26 +1713,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 1085,
+                "type": "ore",
+                "value": 1010,
                 "grade": 3,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 1010,
+                "type": "crystal",
+                "value": 1085,
                 "grade": 3,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 527000
+                "type": "3\u2605 battleship parts",
+                "value": 35
               },
               {
-                "type": "3\u2605 Battleship Parts",
-                "value": 35
+                "type": "shape memory alloy",
+                "value": 527000
               }
             ]
           },
@@ -1787,26 +1787,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 1085,
+                "type": "ore",
+                "value": 1010,
                 "grade": 3,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 1010,
+                "type": "crystal",
+                "value": 1085,
                 "grade": 3,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 527000
+                "type": "3\u2605 battleship parts",
+                "value": 35
               },
               {
-                "type": "3\u2605 Battleship Parts",
-                "value": 35
+                "type": "shape memory alloy",
+                "value": 527000
               }
             ]
           },
@@ -1861,26 +1861,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 620,
+                "type": "ore",
+                "value": 575,
                 "grade": 3,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 575,
+                "type": "crystal",
+                "value": 620,
                 "grade": 3,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 301000
+                "type": "3\u2605 battleship parts",
+                "value": 20
               },
               {
-                "type": "3\u2605 Battleship Parts",
-                "value": 20
+                "type": "shape memory alloy",
+                "value": 301000
               }
             ]
           },
@@ -1920,26 +1920,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 620,
+                "type": "ore",
+                "value": 575,
                 "grade": 3,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 575,
+                "type": "crystal",
+                "value": 620,
                 "grade": 3,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Borg Data Node Tier 4",
-                "value": 1
+                "type": "shape memory alloy",
+                "value": 301000
               },
               {
-                "type": "Shape Memory Alloy",
-                "value": 301000
+                "type": "borg data node tier 4",
+                "value": 1
               }
             ]
           },
@@ -1977,26 +1977,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 775,
+                "type": "ore",
+                "value": 720,
                 "grade": 3,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 720,
+                "type": "crystal",
+                "value": 775,
                 "grade": 3,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 376500
+                "type": "3\u2605 battleship parts",
+                "value": 25
               },
               {
-                "type": "3\u2605 Battleship Parts",
-                "value": 25
+                "type": "shape memory alloy",
+                "value": 376500
               }
             ]
           },
@@ -2034,26 +2034,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 775,
+                "type": "ore",
+                "value": 720,
                 "grade": 3,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 720,
+                "type": "crystal",
+                "value": 775,
                 "grade": 3,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 376500
+                "type": "3\u2605 battleship parts",
+                "value": 25
               },
               {
-                "type": "3\u2605 Battleship Parts",
-                "value": 25
+                "type": "shape memory alloy",
+                "value": 376500
               }
             ]
           },
@@ -2091,26 +2091,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 620,
+                "type": "ore",
+                "value": 575,
                 "grade": 3,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 575,
+                "type": "crystal",
+                "value": 620,
                 "grade": 3,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 301000
+                "type": "3\u2605 battleship parts",
+                "value": 20
               },
               {
-                "type": "3\u2605 Battleship Parts",
-                "value": 20
+                "type": "shape memory alloy",
+                "value": 301000
               }
             ]
           },
@@ -2135,32 +2135,32 @@
       ],
       "levels": [
         {
-          "ability_bonus": 93000,
+          "ability_bonus": 93000.0,
           "additional_officer_slot": false,
           "level": 16,
           "ship_xp": 378000
         },
         {
-          "ability_bonus": 93000,
+          "ability_bonus": 93000.0,
           "additional_officer_slot": false,
           "level": 17,
           "ship_xp": 430000
         },
         {
-          "ability_bonus": 93000,
+          "ability_bonus": 93000.0,
           "additional_officer_slot": false,
           "level": 18,
           "ship_xp": 483000
         },
         {
-          "ability_bonus": 93000,
+          "ability_bonus": 93000.0,
           "additional_officer_slot": false,
           "level": 19,
           "ship_xp": 565000
         },
         {
-          "ability_bonus": 93000,
-          "additional_officer_slot": true,
+          "ability_bonus": 93000.0,
+          "additional_officer_slot": false,
           "level": 20,
           "ship_xp": 628000
         }
@@ -2187,26 +2187,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 270,
+                "type": "ore",
+                "value": 305,
                 "grade": 3,
                 "rarity": "uncommon"
               },
               {
-                "type": "ore",
-                "value": 305,
+                "type": "crystal",
+                "value": 270,
                 "grade": 3,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 664000
+                "type": "3\u2605 battleship parts",
+                "value": 50
               },
               {
-                "type": "3\u2605 Battleship Parts",
-                "value": 50
+                "type": "shape memory alloy",
+                "value": 664000
               }
             ]
           },
@@ -2261,26 +2261,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 270,
+                "type": "ore",
+                "value": 305,
                 "grade": 3,
                 "rarity": "uncommon"
               },
               {
-                "type": "ore",
-                "value": 305,
+                "type": "crystal",
+                "value": 270,
                 "grade": 3,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 664000
+                "type": "3\u2605 battleship parts",
+                "value": 50
               },
               {
-                "type": "3\u2605 Battleship Parts",
-                "value": 50
+                "type": "shape memory alloy",
+                "value": 664000
               }
             ]
           },
@@ -2335,26 +2335,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 270,
+                "type": "ore",
+                "value": 305,
                 "grade": 3,
                 "rarity": "uncommon"
               },
               {
-                "type": "ore",
-                "value": 305,
+                "type": "crystal",
+                "value": 270,
                 "grade": 3,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 664000
+                "type": "3\u2605 battleship parts",
+                "value": 50
               },
               {
-                "type": "3\u2605 Battleship Parts",
-                "value": 50
+                "type": "shape memory alloy",
+                "value": 664000
               }
             ]
           },
@@ -2409,26 +2409,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 270,
+                "type": "ore",
+                "value": 305,
                 "grade": 3,
                 "rarity": "uncommon"
               },
               {
-                "type": "ore",
-                "value": 305,
+                "type": "crystal",
+                "value": 270,
                 "grade": 3,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 664000
+                "type": "3\u2605 battleship parts",
+                "value": 50
               },
               {
-                "type": "3\u2605 Battleship Parts",
-                "value": 50
+                "type": "shape memory alloy",
+                "value": 664000
               }
             ]
           },
@@ -2483,26 +2483,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 1980,
+                "type": "ore",
+                "value": 1575,
                 "grade": 3,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 1575,
+                "type": "crystal",
+                "value": 1980,
                 "grade": 3,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 379500
+                "type": "3\u2605 battleship parts",
+                "value": 30
               },
               {
-                "type": "3\u2605 Battleship Parts",
-                "value": 30
+                "type": "shape memory alloy",
+                "value": 379500
               }
             ]
           },
@@ -2542,25 +2542,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 1980,
+                "type": "ore",
+                "value": 1575,
                 "grade": 3,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 1575,
+                "type": "crystal",
+                "value": 1980,
                 "grade": 3,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
+                "type": "shape memory alloy",
                 "value": 379500
               },
               {
-                "type": "Borg Data Node Tier 5",
+                "type": "borg data node tier 5",
                 "value": 1
               }
             ]
@@ -2599,26 +2599,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 2470,
+                "type": "ore",
+                "value": 1970,
                 "grade": 3,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 1970,
+                "type": "crystal",
+                "value": 2470,
                 "grade": 3,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 474000
+                "type": "3\u2605 battleship parts",
+                "value": 35
               },
               {
-                "type": "3\u2605 Battleship Parts",
-                "value": 35
+                "type": "shape memory alloy",
+                "value": 474000
               }
             ]
           },
@@ -2656,26 +2656,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 2470,
+                "type": "ore",
+                "value": 1970,
                 "grade": 3,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 1970,
+                "type": "crystal",
+                "value": 2470,
                 "grade": 3,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 474000
+                "type": "3\u2605 battleship parts",
+                "value": 35
               },
               {
-                "type": "3\u2605 Battleship Parts",
-                "value": 35
+                "type": "shape memory alloy",
+                "value": 474000
               }
             ]
           },
@@ -2713,26 +2713,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 1980,
+                "type": "ore",
+                "value": 1575,
                 "grade": 3,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 1575,
+                "type": "crystal",
+                "value": 1980,
                 "grade": 3,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 379500
+                "type": "3\u2605 battleship parts",
+                "value": 30
               },
               {
-                "type": "3\u2605 Battleship Parts",
-                "value": 30
+                "type": "shape memory alloy",
+                "value": 379500
               }
             ]
           },
@@ -2757,31 +2757,31 @@
       ],
       "levels": [
         {
-          "ability_bonus": 164000,
+          "ability_bonus": 164000.0,
           "additional_officer_slot": false,
           "level": 21,
           "ship_xp": 695000
         },
         {
-          "ability_bonus": 164000,
+          "ability_bonus": 164000.0,
           "additional_officer_slot": false,
           "level": 22,
           "ship_xp": 798000
         },
         {
-          "ability_bonus": 164000,
+          "ability_bonus": 164000.0,
           "additional_officer_slot": false,
           "level": 23,
           "ship_xp": 875000
         },
         {
-          "ability_bonus": 164000,
+          "ability_bonus": 164000.0,
           "additional_officer_slot": false,
           "level": 24,
           "ship_xp": 955000
         },
         {
-          "ability_bonus": 164000,
+          "ability_bonus": 164000.0,
           "additional_officer_slot": false,
           "level": 25,
           "ship_xp": 1083000
@@ -2823,12 +2823,12 @@
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 1156500
+                "type": "4\u2605 common battleship parts",
+                "value": 2575
               },
               {
-                "type": "4\u2605 Common Battleship Parts",
-                "value": 2575
+                "type": "shape memory alloy",
+                "value": 1156500
               }
             ]
           },
@@ -2897,12 +2897,12 @@
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 1156500
+                "type": "4\u2605 common battleship parts",
+                "value": 2575
               },
               {
-                "type": "4\u2605 Common Battleship Parts",
-                "value": 2575
+                "type": "shape memory alloy",
+                "value": 1156500
               }
             ]
           },
@@ -2971,12 +2971,12 @@
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 1156500
+                "type": "4\u2605 common battleship parts",
+                "value": 2575
               },
               {
-                "type": "4\u2605 Common Battleship Parts",
-                "value": 2575
+                "type": "shape memory alloy",
+                "value": 1156500
               }
             ]
           },
@@ -3045,12 +3045,12 @@
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 1156500
+                "type": "4\u2605 common battleship parts",
+                "value": 2575
               },
               {
-                "type": "4\u2605 Common Battleship Parts",
-                "value": 2575
+                "type": "shape memory alloy",
+                "value": 1156500
               }
             ]
           },
@@ -3119,12 +3119,12 @@
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 661000
+                "type": "4\u2605 common battleship parts",
+                "value": 1475
               },
               {
-                "type": "4\u2605 Common Battleship Parts",
-                "value": 1475
+                "type": "shape memory alloy",
+                "value": 661000
               }
             ]
           },
@@ -3178,11 +3178,11 @@
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
+                "type": "shape memory alloy",
                 "value": 661000
               },
               {
-                "type": "Borg Data Node Tier 6",
+                "type": "borg data node tier 6",
                 "value": 1
               }
             ]
@@ -3199,7 +3199,7 @@
           ],
           "additional_info": {
             "warp_info": {
-              "warp_distance": 80,
+              "warp_distance": 90,
               "warp_speed": 3.8
             }
           },
@@ -3235,12 +3235,12 @@
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 826000
+                "type": "4\u2605 common battleship parts",
+                "value": 1840
               },
               {
-                "type": "4\u2605 Common Battleship Parts",
-                "value": 1840
+                "type": "shape memory alloy",
+                "value": 826000
               }
             ]
           },
@@ -3292,12 +3292,12 @@
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 826000
+                "type": "4\u2605 common battleship parts",
+                "value": 1840
               },
               {
-                "type": "4\u2605 Common Battleship Parts",
-                "value": 1840
+                "type": "shape memory alloy",
+                "value": 826000
               }
             ]
           },
@@ -3349,12 +3349,12 @@
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 661000
+                "type": "4\u2605 common battleship parts",
+                "value": 1475
               },
               {
-                "type": "4\u2605 Common Battleship Parts",
-                "value": 1475
+                "type": "shape memory alloy",
+                "value": 661000
               }
             ]
           },
@@ -3379,31 +3379,31 @@
       ],
       "levels": [
         {
-          "ability_bonus": 2400000,
+          "ability_bonus": 2400000.0,
           "additional_officer_slot": false,
           "level": 26,
           "ship_xp": 1175000
         },
         {
-          "ability_bonus": 2400000,
+          "ability_bonus": 2400000.0,
           "additional_officer_slot": false,
           "level": 27,
           "ship_xp": 1270000
         },
         {
-          "ability_bonus": 2400000,
+          "ability_bonus": 2400000.0,
           "additional_officer_slot": false,
           "level": 28,
           "ship_xp": 1423000
         },
         {
-          "ability_bonus": 2400000,
+          "ability_bonus": 2400000.0,
           "additional_officer_slot": false,
           "level": 29,
           "ship_xp": 1530000
         },
         {
-          "ability_bonus": 2400000,
+          "ability_bonus": 2400000.0,
           "additional_officer_slot": false,
           "level": 30,
           "ship_xp": 1640000
@@ -3445,12 +3445,12 @@
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 1665500
+                "type": "4\u2605 uncommon battleship parts",
+                "value": 5360
               },
               {
-                "type": "4\u2605 Uncommon Battleship Parts",
-                "value": 5360
+                "type": "shape memory alloy",
+                "value": 1665500
               }
             ]
           },
@@ -3519,12 +3519,12 @@
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 1665500
+                "type": "4\u2605 uncommon battleship parts",
+                "value": 5360
               },
               {
-                "type": "4\u2605 Uncommon Battleship Parts",
-                "value": 5360
+                "type": "shape memory alloy",
+                "value": 1665500
               }
             ]
           },
@@ -3593,12 +3593,12 @@
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 1665500
+                "type": "4\u2605 common battleship parts",
+                "value": 8650
               },
               {
-                "type": "4\u2605 Common Battleship Parts",
-                "value": 8650
+                "type": "shape memory alloy",
+                "value": 1665500
               }
             ]
           },
@@ -3667,12 +3667,12 @@
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 1665500
+                "type": "4\u2605 common battleship parts",
+                "value": 8650
               },
               {
-                "type": "4\u2605 Common Battleship Parts",
-                "value": 8650
+                "type": "shape memory alloy",
+                "value": 1665500
               }
             ]
           },
@@ -3741,12 +3741,12 @@
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 951500
+                "type": "4\u2605 common battleship parts",
+                "value": 4945
               },
               {
-                "type": "4\u2605 Common Battleship Parts",
-                "value": 4945
+                "type": "shape memory alloy",
+                "value": 951500
               }
             ]
           },
@@ -3800,12 +3800,12 @@
             ],
             "others": [
               {
-                "type": "Borg Data Node Tier 7",
-                "value": 1
+                "type": "shape memory alloy",
+                "value": 951500
               },
               {
-                "type": "Shape Memory Alloy",
-                "value": 951500
+                "type": "borg data node tier 7",
+                "value": 1
               }
             ]
           },
@@ -3821,7 +3821,7 @@
           ],
           "additional_info": {
             "warp_info": {
-              "warp_distance": 100,
+              "warp_distance": 130,
               "warp_speed": 4
             }
           },
@@ -3857,12 +3857,12 @@
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 1189500
+                "type": "4\u2605 common battleship parts",
+                "value": 6180
               },
               {
-                "type": "4\u2605 Common Battleship Parts",
-                "value": 6180
+                "type": "shape memory alloy",
+                "value": 1189500
               }
             ]
           },
@@ -3914,12 +3914,12 @@
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 1189500
+                "type": "4\u2605 common battleship parts",
+                "value": 6180
               },
               {
-                "type": "4\u2605 Common Battleship Parts",
-                "value": 6180
+                "type": "shape memory alloy",
+                "value": 1189500
               }
             ]
           },
@@ -3971,12 +3971,12 @@
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 951500
+                "type": "4\u2605 common battleship parts",
+                "value": 4945
               },
               {
-                "type": "4\u2605 Common Battleship Parts",
-                "value": 4945
+                "type": "shape memory alloy",
+                "value": 951500
               }
             ]
           },
@@ -4001,32 +4001,32 @@
       ],
       "levels": [
         {
-          "ability_bonus": 3600000,
+          "ability_bonus": 3600000.0,
           "additional_officer_slot": false,
           "level": 31,
           "ship_xp": 1825000
         },
         {
-          "ability_bonus": 3600000,
+          "ability_bonus": 3600000.0,
           "additional_officer_slot": false,
           "level": 32,
           "ship_xp": 1948000
         },
         {
-          "ability_bonus": 3600000,
+          "ability_bonus": 3600000.0,
           "additional_officer_slot": false,
           "level": 33,
           "ship_xp": 2075000
         },
         {
-          "ability_bonus": 3600000,
+          "ability_bonus": 3600000.0,
           "additional_officer_slot": false,
           "level": 34,
           "ship_xp": 2293000
         },
         {
-          "ability_bonus": 3600000,
-          "additional_officer_slot": true,
+          "ability_bonus": 3600000.0,
+          "additional_officer_slot": false,
           "level": 35,
           "ship_xp": 2433000
         }
@@ -4067,12 +4067,12 @@
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 2383500
+                "type": "4\u2605 uncommon battleship parts",
+                "value": 6785
               },
               {
-                "type": "4\u2605 Uncommon Battleship Parts",
-                "value": 6785
+                "type": "shape memory alloy",
+                "value": 2383500
               }
             ]
           },
@@ -4141,12 +4141,12 @@
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 2383500
+                "type": "4\u2605 uncommon battleship parts",
+                "value": 6785
               },
               {
-                "type": "4\u2605 Uncommon Battleship Parts",
-                "value": 6785
+                "type": "shape memory alloy",
+                "value": 2383500
               }
             ]
           },
@@ -4215,12 +4215,12 @@
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 2383500
+                "type": "4\u2605 uncommon battleship parts",
+                "value": 6785
               },
               {
-                "type": "4\u2605 Uncommon Battleship Parts",
-                "value": 6785
+                "type": "shape memory alloy",
+                "value": 2383500
               }
             ]
           },
@@ -4289,12 +4289,12 @@
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 2383500
+                "type": "4\u2605 uncommon battleship parts",
+                "value": 6785
               },
               {
-                "type": "4\u2605 Uncommon Battleship Parts",
-                "value": 6785
+                "type": "shape memory alloy",
+                "value": 2383500
               }
             ]
           },
@@ -4363,12 +4363,12 @@
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 1362000
+                "type": "4\u2605 common battleship parts",
+                "value": 22165
               },
               {
-                "type": "4\u2605 Common Battleship Parts",
-                "value": 22165
+                "type": "shape memory alloy",
+                "value": 1362000
               }
             ]
           },
@@ -4422,11 +4422,11 @@
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
+                "type": "shape memory alloy",
                 "value": 1362000
               },
               {
-                "type": "Borg Data Node Tier 8",
+                "type": "borg data node tier 8",
                 "value": 1
               }
             ]
@@ -4443,7 +4443,7 @@
           ],
           "additional_info": {
             "warp_info": {
-              "warp_distance": 135,
+              "warp_distance": 140,
               "warp_speed": 4.2
             }
           },
@@ -4479,12 +4479,12 @@
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 1702500
+                "type": "4\u2605 common battleship parts",
+                "value": 27710
               },
               {
-                "type": "4\u2605 Common Battleship Parts",
-                "value": 27710
+                "type": "shape memory alloy",
+                "value": 1702500
               }
             ]
           },
@@ -4536,12 +4536,12 @@
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 1702500
+                "type": "4\u2605 common battleship parts",
+                "value": 27710
               },
               {
-                "type": "4\u2605 Common Battleship Parts",
-                "value": 27710
+                "type": "shape memory alloy",
+                "value": 1702500
               }
             ]
           },
@@ -4593,12 +4593,12 @@
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 1362000
+                "type": "4\u2605 common battleship parts",
+                "value": 22165
               },
               {
-                "type": "4\u2605 Common Battleship Parts",
-                "value": 22165
+                "type": "shape memory alloy",
+                "value": 1362000
               }
             ]
           },
@@ -4623,31 +4623,31 @@
       ],
       "levels": [
         {
-          "ability_bonus": 5100000,
+          "ability_bonus": 5100000.0,
           "additional_officer_slot": false,
           "level": 36,
           "ship_xp": 2578000
         },
         {
-          "ability_bonus": 5100000,
+          "ability_bonus": 5100000.0,
           "additional_officer_slot": false,
           "level": 37,
           "ship_xp": 2830000
         },
         {
-          "ability_bonus": 5100000,
+          "ability_bonus": 5100000.0,
           "additional_officer_slot": false,
           "level": 38,
           "ship_xp": 2990000
         },
         {
-          "ability_bonus": 5100000,
+          "ability_bonus": 5100000.0,
           "additional_officer_slot": false,
           "level": 39,
           "ship_xp": 3153000
         },
         {
-          "ability_bonus": 5100000,
+          "ability_bonus": 5100000.0,
           "additional_officer_slot": false,
           "level": 40,
           "ship_xp": 3445000
@@ -4689,12 +4689,12 @@
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 3365500
+                "type": "4\u2605 rare battleship parts",
+                "value": 2080
               },
               {
-                "type": "4\u2605 Rare Battleship Parts",
-                "value": 2080
+                "type": "shape memory alloy",
+                "value": 3365500
               }
             ]
           },
@@ -4763,12 +4763,12 @@
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 3365500
+                "type": "4\u2605 rare battleship parts",
+                "value": 2080
               },
               {
-                "type": "4\u2605 Rare Battleship Parts",
-                "value": 2080
+                "type": "shape memory alloy",
+                "value": 3365500
               }
             ]
           },
@@ -4837,12 +4837,12 @@
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 3365500
+                "type": "4\u2605 rare battleship parts",
+                "value": 2080
               },
               {
-                "type": "4\u2605 Rare Battleship Parts",
-                "value": 2080
+                "type": "shape memory alloy",
+                "value": 3365500
               }
             ]
           },
@@ -4911,12 +4911,12 @@
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 3365500
+                "type": "4\u2605 rare battleship parts",
+                "value": 2080
               },
               {
-                "type": "4\u2605 Rare Battleship Parts",
-                "value": 2080
+                "type": "shape memory alloy",
+                "value": 3365500
               }
             ]
           },
@@ -4985,12 +4985,12 @@
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 1923500
+                "type": "4\u2605 common battleship parts",
+                "value": 110145
               },
               {
-                "type": "4\u2605 Common Battleship Parts",
-                "value": 110145
+                "type": "shape memory alloy",
+                "value": 1923500
               }
             ]
           },
@@ -5044,12 +5044,12 @@
             ],
             "others": [
               {
-                "type": "Borg Data Node Tier 9",
-                "value": 1
+                "type": "shape memory alloy",
+                "value": 1923500
               },
               {
-                "type": "Shape Memory Alloy",
-                "value": 1923500
+                "type": "borg data node tier 9",
+                "value": 1
               }
             ]
           },
@@ -5065,7 +5065,7 @@
           ],
           "additional_info": {
             "warp_info": {
-              "warp_distance": 170,
+              "warp_distance": 180,
               "warp_speed": 4.4
             }
           },
@@ -5101,12 +5101,12 @@
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 2404000
+                "type": "4\u2605 uncommon battleship parts",
+                "value": 30205
               },
               {
-                "type": "4\u2605 Uncommon Battleship Parts",
-                "value": 30205
+                "type": "shape memory alloy",
+                "value": 2404000
               }
             ]
           },
@@ -5158,12 +5158,12 @@
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 2404000
+                "type": "4\u2605 uncommon battleship parts",
+                "value": 30205
               },
               {
-                "type": "4\u2605 Uncommon Battleship Parts",
-                "value": 30205
+                "type": "shape memory alloy",
+                "value": 2404000
               }
             ]
           },
@@ -5215,12 +5215,12 @@
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 1923500
+                "type": "4\u2605 common battleship parts",
+                "value": 110145
               },
               {
-                "type": "4\u2605 Common Battleship Parts",
-                "value": 110145
+                "type": "shape memory alloy",
+                "value": 1923500
               }
             ]
           },
@@ -5245,31 +5245,31 @@
       ],
       "levels": [
         {
-          "ability_bonus": 8000000,
+          "ability_bonus": 8000000.0,
           "additional_officer_slot": false,
           "level": 41,
           "ship_xp": 3623000
         },
         {
-          "ability_bonus": 8000000,
+          "ability_bonus": 8000000.0,
           "additional_officer_slot": false,
           "level": 42,
           "ship_xp": 3805000
         },
         {
-          "ability_bonus": 8000000,
+          "ability_bonus": 8000000.0,
           "additional_officer_slot": false,
           "level": 43,
           "ship_xp": 4140000
         },
         {
-          "ability_bonus": 8000000,
+          "ability_bonus": 8000000.0,
           "additional_officer_slot": false,
           "level": 44,
           "ship_xp": 4340000
         },
         {
-          "ability_bonus": 8000000,
+          "ability_bonus": 8000000.0,
           "additional_officer_slot": false,
           "level": 45,
           "ship_xp": 4543000
@@ -5311,12 +5311,12 @@
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 4679500
+                "type": "5\u2605 common battleship parts",
+                "value": 17300
               },
               {
-                "type": "5\u2605 Common Battleship Parts",
-                "value": 17300
+                "type": "shape memory alloy",
+                "value": 4679500
               }
             ]
           },
@@ -5385,12 +5385,12 @@
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 4679500
+                "type": "5\u2605 common battleship parts",
+                "value": 17300
               },
               {
-                "type": "5\u2605 Common Battleship Parts",
-                "value": 17300
+                "type": "shape memory alloy",
+                "value": 4679500
               }
             ]
           },
@@ -5459,12 +5459,12 @@
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 4679500
+                "type": "5\u2605 common battleship parts",
+                "value": 17300
               },
               {
-                "type": "5\u2605 Common Battleship Parts",
-                "value": 17300
+                "type": "shape memory alloy",
+                "value": 4679500
               }
             ]
           },
@@ -5533,12 +5533,12 @@
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 4679500
+                "type": "5\u2605 common battleship parts",
+                "value": 17300
               },
               {
-                "type": "5\u2605 Common Battleship Parts",
-                "value": 17300
+                "type": "shape memory alloy",
+                "value": 4679500
               }
             ]
           },
@@ -5607,12 +5607,12 @@
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 2674000
+                "type": "5\u2605 common battleship parts",
+                "value": 9885
               },
               {
-                "type": "5\u2605 Common Battleship Parts",
-                "value": 9885
+                "type": "shape memory alloy",
+                "value": 2674000
               }
             ]
           },
@@ -5666,11 +5666,11 @@
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
+                "type": "shape memory alloy",
                 "value": 2674000
               },
               {
-                "type": "Borg Data Node Tier 10",
+                "type": "borg data node tier 10",
                 "value": 1
               }
             ]
@@ -5687,7 +5687,7 @@
           ],
           "additional_info": {
             "warp_info": {
-              "warp_distance": 210,
+              "warp_distance": 300,
               "warp_speed": 4.6
             }
           },
@@ -5723,12 +5723,12 @@
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 3342500
+                "type": "5\u2605 common battleship parts",
+                "value": 12355
               },
               {
-                "type": "5\u2605 Common Battleship Parts",
-                "value": 12355
+                "type": "shape memory alloy",
+                "value": 3342500
               }
             ]
           },
@@ -5780,12 +5780,12 @@
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 3342500
+                "type": "5\u2605 common battleship parts",
+                "value": 12355
               },
               {
-                "type": "5\u2605 Common Battleship Parts",
-                "value": 12355
+                "type": "shape memory alloy",
+                "value": 3342500
               }
             ]
           },
@@ -5837,12 +5837,12 @@
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 2674000
+                "type": "5\u2605 common battleship parts",
+                "value": 9885
               },
               {
-                "type": "5\u2605 Common Battleship Parts",
-                "value": 9885
+                "type": "shape memory alloy",
+                "value": 2674000
               }
             ]
           },
@@ -5867,32 +5867,32 @@
       ],
       "levels": [
         {
-          "ability_bonus": 17000000,
+          "ability_bonus": 17000000.0,
           "additional_officer_slot": false,
           "level": 46,
           "ship_xp": 4923000
         },
         {
-          "ability_bonus": 17000000,
+          "ability_bonus": 17000000.0,
           "additional_officer_slot": false,
           "level": 47,
           "ship_xp": 5143000
         },
         {
-          "ability_bonus": 17000000,
+          "ability_bonus": 17000000.0,
           "additional_officer_slot": false,
           "level": 48,
           "ship_xp": 5370000
         },
         {
-          "ability_bonus": 17000000,
+          "ability_bonus": 17000000.0,
           "additional_officer_slot": false,
           "level": 49,
           "ship_xp": 5798000
         },
         {
-          "ability_bonus": 17000000,
-          "additional_officer_slot": true,
+          "ability_bonus": 17000000.0,
+          "additional_officer_slot": false,
           "level": 50,
           "ship_xp": 6040000
         }
@@ -5933,11 +5933,11 @@
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Battleship Parts",
+                "type": "5\u2605 uncommon battleship parts",
                 "value": 17220
               },
               {
-                "type": "Shape Memory Alloy",
+                "type": "shape memory alloy",
                 "value": 6260000
               }
             ]
@@ -6007,11 +6007,11 @@
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Battleship Parts",
+                "type": "5\u2605 uncommon battleship parts",
                 "value": 17220
               },
               {
-                "type": "Shape Memory Alloy",
+                "type": "shape memory alloy",
                 "value": 6260000
               }
             ]
@@ -6081,11 +6081,11 @@
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Battleship Parts",
+                "type": "5\u2605 uncommon battleship parts",
                 "value": 17220
               },
               {
-                "type": "Shape Memory Alloy",
+                "type": "shape memory alloy",
                 "value": 6260000
               }
             ]
@@ -6155,11 +6155,11 @@
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Battleship Parts",
+                "type": "5\u2605 uncommon battleship parts",
                 "value": 17220
               },
               {
-                "type": "Shape Memory Alloy",
+                "type": "shape memory alloy",
                 "value": 6260000
               }
             ]
@@ -6229,12 +6229,12 @@
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 3577500
+                "type": "5\u2605 common battleship parts",
+                "value": 53805
               },
               {
-                "type": "5\u2605 Common Battleship Parts",
-                "value": 53805
+                "type": "shape memory alloy",
+                "value": 3577500
               }
             ]
           },
@@ -6288,11 +6288,11 @@
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
+                "type": "shape memory alloy",
                 "value": 3577500
               },
               {
-                "type": "Borg Data Node Tier 11",
+                "type": "borg data node tier 11",
                 "value": 1
               }
             ]
@@ -6309,7 +6309,7 @@
           ],
           "additional_info": {
             "warp_info": {
-              "warp_distance": 285,
+              "warp_distance": 400,
               "warp_speed": 5
             }
           },
@@ -6345,12 +6345,12 @@
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 4471500
+                "type": "5\u2605 common battleship parts",
+                "value": 67255
               },
               {
-                "type": "5\u2605 Common Battleship Parts",
-                "value": 67255
+                "type": "shape memory alloy",
+                "value": 4471500
               }
             ]
           },
@@ -6402,12 +6402,12 @@
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 4471500
+                "type": "5\u2605 common battleship parts",
+                "value": 67255
               },
               {
-                "type": "5\u2605 Common Battleship Parts",
-                "value": 67255
+                "type": "shape memory alloy",
+                "value": 4471500
               }
             ]
           },
@@ -6459,12 +6459,12 @@
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 3577500
+                "type": "5\u2605 common battleship parts",
+                "value": 53805
               },
               {
-                "type": "5\u2605 Common Battleship Parts",
-                "value": 53805
+                "type": "shape memory alloy",
+                "value": 3577500
               }
             ]
           },
@@ -6489,31 +6489,31 @@
       ],
       "levels": [
         {
-          "ability_bonus": 70000000,
+          "ability_bonus": 70000000.0,
           "additional_officer_slot": false,
           "level": 51,
           "ship_xp": 6290000
         },
         {
-          "ability_bonus": 70000000,
+          "ability_bonus": 70000000.0,
           "additional_officer_slot": false,
           "level": 52,
           "ship_xp": 6770000
         },
         {
-          "ability_bonus": 70000000,
+          "ability_bonus": 70000000.0,
           "additional_officer_slot": false,
           "level": 53,
           "ship_xp": 7038000
         },
         {
-          "ability_bonus": 70000000,
+          "ability_bonus": 70000000.0,
           "additional_officer_slot": false,
           "level": 54,
           "ship_xp": 7310000
         },
         {
-          "ability_bonus": 70000000,
+          "ability_bonus": 70000000.0,
           "additional_officer_slot": false,
           "level": 55,
           "ship_xp": 7848000
@@ -6541,25 +6541,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 20950,
-                "grade": 5,
-                "rarity": "uncommon"
-              },
-              {
                 "type": "ore",
                 "value": 19850,
                 "grade": 5,
                 "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 20950,
+                "grade": 5,
+                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Battleship Parts",
+                "type": "5\u2605 uncommon battleship parts",
                 "value": 18255
               },
               {
-                "type": "Shape Memory Alloy",
+                "type": "shape memory alloy",
                 "value": 7827000
               }
             ]
@@ -6615,25 +6615,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 20950,
-                "grade": 5,
-                "rarity": "uncommon"
-              },
-              {
                 "type": "ore",
                 "value": 19850,
                 "grade": 5,
                 "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 20950,
+                "grade": 5,
+                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Battleship Parts",
+                "type": "5\u2605 uncommon battleship parts",
                 "value": 18255
               },
               {
-                "type": "Shape Memory Alloy",
+                "type": "shape memory alloy",
                 "value": 7827000
               }
             ]
@@ -6689,25 +6689,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 20950,
-                "grade": 5,
-                "rarity": "uncommon"
-              },
-              {
                 "type": "ore",
                 "value": 19850,
                 "grade": 5,
                 "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 20950,
+                "grade": 5,
+                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Battleship Parts",
+                "type": "5\u2605 uncommon battleship parts",
                 "value": 18255
               },
               {
-                "type": "Shape Memory Alloy",
+                "type": "shape memory alloy",
                 "value": 7827000
               }
             ]
@@ -6763,25 +6763,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 20950,
-                "grade": 5,
-                "rarity": "uncommon"
-              },
-              {
                 "type": "ore",
                 "value": 19850,
                 "grade": 5,
                 "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 20950,
+                "grade": 5,
+                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Battleship Parts",
+                "type": "5\u2605 uncommon battleship parts",
                 "value": 18255
               },
               {
-                "type": "Shape Memory Alloy",
+                "type": "shape memory alloy",
                 "value": 7827000
               }
             ]
@@ -6851,12 +6851,12 @@
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 4472500
+                "type": "5\u2605 common battleship parts",
+                "value": 173900
               },
               {
-                "type": "5\u2605 Common Battleship Parts",
-                "value": 173900
+                "type": "shape memory alloy",
+                "value": 4472500
               }
             ]
           },
@@ -6910,11 +6910,11 @@
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
+                "type": "shape memory alloy",
                 "value": 4472500
               },
               {
-                "type": "Borg Data Node Tier 12",
+                "type": "borg data node tier 12",
                 "value": 1
               }
             ]
@@ -6931,7 +6931,7 @@
           ],
           "additional_info": {
             "warp_info": {
-              "warp_distance": 400,
+              "warp_distance": 600,
               "warp_speed": 5.6
             }
           },
@@ -6967,11 +6967,11 @@
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Battleship Parts",
+                "type": "5\u2605 uncommon battleship parts",
                 "value": 13040
               },
               {
-                "type": "Shape Memory Alloy",
+                "type": "shape memory alloy",
                 "value": 5590500
               }
             ]
@@ -7024,11 +7024,11 @@
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Battleship Parts",
+                "type": "5\u2605 uncommon battleship parts",
                 "value": 13040
               },
               {
-                "type": "Shape Memory Alloy",
+                "type": "shape memory alloy",
                 "value": 5590500
               }
             ]
@@ -7081,12 +7081,12 @@
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 4472500
+                "type": "5\u2605 common battleship parts",
+                "value": 173900
               },
               {
-                "type": "5\u2605 Common Battleship Parts",
-                "value": 173900
+                "type": "shape memory alloy",
+                "value": 4472500
               }
             ]
           },
@@ -7111,31 +7111,31 @@
       ],
       "levels": [
         {
-          "ability_bonus": 130000000,
+          "ability_bonus": 130000000.0,
           "additional_officer_slot": false,
           "level": 56,
           "ship_xp": 8143000
         },
         {
-          "ability_bonus": 130000000,
+          "ability_bonus": 130000000.0,
           "additional_officer_slot": false,
           "level": 57,
           "ship_xp": 8440000
         },
         {
-          "ability_bonus": 130000000,
+          "ability_bonus": 130000000.0,
           "additional_officer_slot": false,
           "level": 58,
           "ship_xp": 9038000
         },
         {
-          "ability_bonus": 130000000,
+          "ability_bonus": 130000000.0,
           "additional_officer_slot": false,
           "level": 59,
           "ship_xp": 9355000
         },
         {
-          "ability_bonus": 130000000,
+          "ability_bonus": 130000000.0,
           "additional_officer_slot": false,
           "level": 60,
           "ship_xp": 10000000
@@ -7163,25 +7163,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 17430,
+                "type": "ore",
+                "value": 30975,
                 "grade": 5,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 30975,
+                "type": "crystal",
+                "value": 17430,
                 "grade": 5,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Battleship Parts",
+                "type": "5\u2605 uncommon battleship parts",
                 "value": 29795
               },
               {
-                "type": "Shape Memory Alloy",
+                "type": "shape memory alloy",
                 "value": 11505500
               }
             ]
@@ -7237,25 +7237,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 37930,
-                "grade": 5,
-                "rarity": "uncommon"
-              },
-              {
                 "type": "ore",
                 "value": 30975,
                 "grade": 5,
                 "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 37930,
+                "grade": 5,
+                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Battleship Parts",
+                "type": "5\u2605 uncommon battleship parts",
                 "value": 29795
               },
               {
-                "type": "Shape Memory Alloy",
+                "type": "shape memory alloy",
                 "value": 11505500
               }
             ]
@@ -7311,25 +7311,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 17430,
+                "type": "ore",
+                "value": 30975,
                 "grade": 5,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 30975,
+                "type": "crystal",
+                "value": 17430,
                 "grade": 5,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Battleship Parts",
+                "type": "5\u2605 uncommon battleship parts",
                 "value": 29795
               },
               {
-                "type": "Shape Memory Alloy",
+                "type": "shape memory alloy",
                 "value": 11505500
               }
             ]
@@ -7385,25 +7385,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 37930,
-                "grade": 5,
-                "rarity": "uncommon"
-              },
-              {
                 "type": "ore",
                 "value": 30975,
                 "grade": 5,
                 "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 37930,
+                "grade": 5,
+                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Battleship Parts",
+                "type": "5\u2605 uncommon battleship parts",
                 "value": 29795
               },
               {
-                "type": "Shape Memory Alloy",
+                "type": "shape memory alloy",
                 "value": 11505500
               }
             ]
@@ -7473,12 +7473,12 @@
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 6574500
+                "type": "5\u2605 common battleship parts",
+                "value": 284620
               },
               {
-                "type": "5\u2605 Common Battleship Parts",
-                "value": 284620
+                "type": "shape memory alloy",
+                "value": 6574500
               }
             ]
           },
@@ -7532,12 +7532,12 @@
             ],
             "others": [
               {
-                "type": "Borg Data Node Tier 13",
-                "value": 1
+                "type": "shape memory alloy",
+                "value": 6574500
               },
               {
-                "type": "Shape Memory Alloy",
-                "value": 6574500
+                "type": "borg data node tier 13",
+                "value": 1
               }
             ]
           },
@@ -7553,7 +7553,7 @@
           ],
           "additional_info": {
             "warp_info": {
-              "warp_distance": 650,
+              "warp_distance": 875,
               "warp_speed": 6.2
             }
           },
@@ -7575,25 +7575,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 27095,
+                "type": "ore",
+                "value": 231200,
                 "grade": 5,
                 "rarity": "uncommon"
               },
               {
-                "type": "ore",
-                "value": 231200,
+                "type": "crystal",
+                "value": 27095,
                 "grade": 5,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Battleship Parts",
+                "type": "5\u2605 uncommon battleship parts",
                 "value": 21285
               },
               {
-                "type": "Shape Memory Alloy",
+                "type": "shape memory alloy",
                 "value": 8218000
               }
             ]
@@ -7632,25 +7632,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 27095,
+                "type": "ore",
+                "value": 231200,
                 "grade": 5,
                 "rarity": "uncommon"
               },
               {
-                "type": "ore",
-                "value": 231200,
+                "type": "crystal",
+                "value": 27095,
                 "grade": 5,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "5\u2605 Uncommon Battleship Parts",
+                "type": "5\u2605 uncommon battleship parts",
                 "value": 21285
               },
               {
-                "type": "Shape Memory Alloy",
+                "type": "shape memory alloy",
                 "value": 8218000
               }
             ]
@@ -7703,12 +7703,12 @@
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 6574500
+                "type": "5\u2605 common battleship parts",
+                "value": 284620
               },
               {
-                "type": "5\u2605 Common Battleship Parts",
-                "value": 284620
+                "type": "shape memory alloy",
+                "value": 6574500
               }
             ]
           },
@@ -7733,32 +7733,32 @@
       ],
       "levels": [
         {
-          "ability_bonus": 210000000,
+          "ability_bonus": 210000000.0,
           "additional_officer_slot": false,
           "level": 61,
           "ship_xp": 10100000
         },
         {
-          "ability_bonus": 210000000,
+          "ability_bonus": 210000000.0,
           "additional_officer_slot": false,
           "level": 62,
           "ship_xp": 10201000
         },
         {
-          "ability_bonus": 210000000,
+          "ability_bonus": 210000000.0,
           "additional_officer_slot": false,
           "level": 63,
           "ship_xp": 10303010
         },
         {
-          "ability_bonus": 210000000,
+          "ability_bonus": 210000000.0,
           "additional_officer_slot": false,
           "level": 64,
           "ship_xp": 10406040
         },
         {
-          "ability_bonus": 210000000,
-          "additional_officer_slot": true,
+          "ability_bonus": 210000000.0,
+          "additional_officer_slot": false,
           "level": 65,
           "ship_xp": 10510101
         }
@@ -7775,47 +7775,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 9495
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 133620
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 9495
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 27940,
+                "type": "ore",
+                "value": 98750,
                 "grade": 6,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 98750,
+                "type": "crystal",
+                "value": 27940,
                 "grade": 6,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 17181500
+                "type": "6\u2605 common battleship parts",
+                "value": 75360
               },
               {
-                "type": "6\u2605 Common Battleship Parts",
-                "value": 75360
+                "type": "shape memory alloy",
+                "value": 17181500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 105
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 2800
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 105
             }
           ],
           "additional_info": {
@@ -7849,47 +7849,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 9495
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 133620
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 9495
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 27940,
+                "type": "ore",
+                "value": 98750,
                 "grade": 6,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 98750,
+                "type": "crystal",
+                "value": 27940,
                 "grade": 6,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 17181500
+                "type": "6\u2605 common battleship parts",
+                "value": 75360
               },
               {
-                "type": "6\u2605 Common Battleship Parts",
-                "value": 75360
+                "type": "shape memory alloy",
+                "value": 17181500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 105
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 2800
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 105
             }
           ],
           "additional_info": {
@@ -7923,47 +7923,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 9495
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 133620
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 9495
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 27940,
+                "type": "ore",
+                "value": 98750,
                 "grade": 6,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 98750,
+                "type": "crystal",
+                "value": 27940,
                 "grade": 6,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 17181500
+                "type": "6\u2605 common battleship parts",
+                "value": 75360
               },
               {
-                "type": "6\u2605 Common Battleship Parts",
-                "value": 75360
+                "type": "shape memory alloy",
+                "value": 17181500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 105
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 2800
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 105
             }
           ],
           "additional_info": {
@@ -7997,47 +7997,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 9495
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 133620
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 9495
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 27940,
+                "type": "ore",
+                "value": 98750,
                 "grade": 6,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 98750,
+                "type": "crystal",
+                "value": 27940,
                 "grade": 6,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 17181500
+                "type": "6\u2605 common battleship parts",
+                "value": 75360
               },
               {
-                "type": "6\u2605 Common Battleship Parts",
-                "value": 75360
+                "type": "shape memory alloy",
+                "value": 17181500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 105
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 2800
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 105
             }
           ],
           "additional_info": {
@@ -8071,47 +8071,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 5425
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 76355
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 5425
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 15965,
+                "type": "ore",
+                "value": 56425,
                 "grade": 6,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 56425,
+                "type": "crystal",
+                "value": 15965,
                 "grade": 6,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 9818000
+                "type": "6\u2605 common battleship parts",
+                "value": 43060
               },
               {
-                "type": "6\u2605 Common Battleship Parts",
-                "value": 43060
+                "type": "shape memory alloy",
+                "value": 9818000
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 60
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 1600
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 60
             }
           ],
           "additional_info": {
@@ -8130,52 +8130,52 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 5425
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 76355
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 5425
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 15965,
+                "type": "ore",
+                "value": 56425,
                 "grade": 6,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 56425,
+                "type": "crystal",
+                "value": 15965,
                 "grade": 6,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
+                "type": "shape memory alloy",
                 "value": 9818000
               },
               {
-                "type": "Borg Data Node Tier 14",
+                "type": "borg data node tier 14",
                 "value": 1
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 60
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 1600
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 60
             }
           ],
           "additional_info": {
             "warp_info": {
-              "warp_distance": 900,
+              "warp_distance": 1150,
               "warp_speed": 6.8
             }
           },
@@ -8187,47 +8187,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 6780
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 95440
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 6780
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 19955,
+                "type": "ore",
+                "value": 70535,
                 "grade": 6,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 70535,
+                "type": "crystal",
+                "value": 19955,
                 "grade": 6,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 12272500
+                "type": "6\u2605 common battleship parts",
+                "value": 53825
               },
               {
-                "type": "6\u2605 Common Battleship Parts",
-                "value": 53825
+                "type": "shape memory alloy",
+                "value": 12272500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 75
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 2000
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 75
             }
           ],
           "additional_info": {
@@ -8244,47 +8244,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 6780
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 95440
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 6780
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 19955,
+                "type": "ore",
+                "value": 70535,
                 "grade": 6,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 70535,
+                "type": "crystal",
+                "value": 19955,
                 "grade": 6,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 12272500
+                "type": "6\u2605 common battleship parts",
+                "value": 53825
               },
               {
-                "type": "6\u2605 Common Battleship Parts",
-                "value": 53825
+                "type": "shape memory alloy",
+                "value": 12272500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 75
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 2000
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 75
             }
           ],
           "additional_info": {
@@ -8301,47 +8301,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 5425
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 76355
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 5425
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 15965,
+                "type": "ore",
+                "value": 56425,
                 "grade": 6,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 56425,
+                "type": "crystal",
+                "value": 15965,
                 "grade": 6,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 9818000
+                "type": "6\u2605 common battleship parts",
+                "value": 43060
               },
               {
-                "type": "6\u2605 Common Battleship Parts",
-                "value": 43060
+                "type": "shape memory alloy",
+                "value": 9818000
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 60
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 1600
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 60
             }
           ],
           "additional_info": {
@@ -8355,31 +8355,31 @@
       ],
       "levels": [
         {
-          "ability_bonus": 2900000000,
+          "ability_bonus": 2900000000.0,
           "additional_officer_slot": false,
           "level": 66,
           "ship_xp": 10615202
         },
         {
-          "ability_bonus": 2900000000,
+          "ability_bonus": 2900000000.0,
           "additional_officer_slot": false,
           "level": 67,
           "ship_xp": 10721354
         },
         {
-          "ability_bonus": 2900000000,
+          "ability_bonus": 2900000000.0,
           "additional_officer_slot": false,
           "level": 68,
           "ship_xp": 10828567
         },
         {
-          "ability_bonus": 2900000000,
+          "ability_bonus": 2900000000.0,
           "additional_officer_slot": false,
           "level": 69,
           "ship_xp": 10936853
         },
         {
-          "ability_bonus": 2900000000,
+          "ability_bonus": 2900000000.0,
           "additional_officer_slot": false,
           "level": 70,
           "ship_xp": 11046221
@@ -8397,47 +8397,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 16725
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 241320
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 16725
               }
             ],
             "materials": [
-              {
-                "type": "crystal",
-                "value": 39115,
-                "grade": 6,
-                "rarity": "common"
-              },
               {
                 "type": "ore",
                 "value": 70625,
                 "grade": 6,
                 "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 39115,
+                "grade": 6,
+                "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 24054000
+                "type": "6\u2605 uncommon battleship parts",
+                "value": 45180
               },
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
-                "value": 45180
+                "type": "shape memory alloy",
+                "value": 24054000
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 215
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 5600
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 215
             }
           ],
           "additional_info": {
@@ -8471,47 +8471,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 16725
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 241320
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 16725
               }
             ],
             "materials": [
-              {
-                "type": "crystal",
-                "value": 39115,
-                "grade": 6,
-                "rarity": "common"
-              },
               {
                 "type": "ore",
                 "value": 70625,
                 "grade": 6,
                 "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 39115,
+                "grade": 6,
+                "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 24054000
+                "type": "6\u2605 uncommon battleship parts",
+                "value": 45180
               },
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
-                "value": 45180
+                "type": "shape memory alloy",
+                "value": 24054000
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 215
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 5600
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 215
             }
           ],
           "additional_info": {
@@ -8545,47 +8545,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 16725
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 241320
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 16725
               }
             ],
             "materials": [
-              {
-                "type": "crystal",
-                "value": 39115,
-                "grade": 6,
-                "rarity": "common"
-              },
               {
                 "type": "ore",
                 "value": 70625,
                 "grade": 6,
                 "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 39115,
+                "grade": 6,
+                "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 24054000
+                "type": "6\u2605 uncommon battleship parts",
+                "value": 45180
               },
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
-                "value": 45180
+                "type": "shape memory alloy",
+                "value": 24054000
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 215
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 5600
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 215
             }
           ],
           "additional_info": {
@@ -8619,47 +8619,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 16725
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 241320
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 16725
               }
             ],
             "materials": [
-              {
-                "type": "crystal",
-                "value": 39115,
-                "grade": 6,
-                "rarity": "common"
-              },
               {
                 "type": "ore",
                 "value": 70625,
                 "grade": 6,
                 "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 39115,
+                "grade": 6,
+                "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 24054000
+                "type": "6\u2605 uncommon battleship parts",
+                "value": 45180
               },
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
-                "value": 45180
+                "type": "shape memory alloy",
+                "value": 24054000
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 215
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 5600
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 215
             }
           ],
           "additional_info": {
@@ -8693,47 +8693,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 9555
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 137900
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 9555
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 22350,
+                "type": "ore",
+                "value": 179550,
                 "grade": 6,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 179550,
+                "type": "crystal",
+                "value": 22350,
                 "grade": 6,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 13745000
+                "type": "6\u2605 common battleship parts",
+                "value": 141705
               },
               {
-                "type": "6\u2605 Common Battleship Parts",
-                "value": 141705
+                "type": "shape memory alloy",
+                "value": 13745000
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 120
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 3200
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 120
             }
           ],
           "additional_info": {
@@ -8752,52 +8752,52 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 9555
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 137900
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 9555
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 22350,
+                "type": "ore",
+                "value": 179550,
                 "grade": 6,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 179550,
+                "type": "crystal",
+                "value": 22350,
                 "grade": 6,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
+                "type": "shape memory alloy",
                 "value": 13745000
               },
               {
-                "type": "Borg Data Node Tier 15",
+                "type": "borg data node tier 15",
                 "value": 1
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 120
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 3200
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 120
             }
           ],
           "additional_info": {
             "warp_info": {
-              "warp_distance": 1150,
+              "warp_distance": 1230,
               "warp_speed": 7.4
             }
           },
@@ -8809,47 +8809,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 11945
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 172370
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 11945
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 27940,
+                "type": "ore",
+                "value": 224435,
                 "grade": 6,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 224435,
+                "type": "crystal",
+                "value": 27940,
                 "grade": 6,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 17181500
+                "type": "6\u2605 common battleship parts",
+                "value": 177135
               },
               {
-                "type": "6\u2605 Common Battleship Parts",
-                "value": 177135
+                "type": "shape memory alloy",
+                "value": 17181500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 155
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 4000
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 155
             }
           ],
           "additional_info": {
@@ -8866,47 +8866,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 11945
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 172370
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 11945
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 27940,
+                "type": "ore",
+                "value": 224435,
                 "grade": 6,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 224435,
+                "type": "crystal",
+                "value": 27940,
                 "grade": 6,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 17181500
+                "type": "6\u2605 common battleship parts",
+                "value": 177135
               },
               {
-                "type": "6\u2605 Common Battleship Parts",
-                "value": 177135
+                "type": "shape memory alloy",
+                "value": 17181500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 155
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 4000
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 155
             }
           ],
           "additional_info": {
@@ -8923,47 +8923,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 9555
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 137900
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 9555
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 22350,
+                "type": "ore",
+                "value": 179550,
                 "grade": 6,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 179550,
+                "type": "crystal",
+                "value": 22350,
                 "grade": 6,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 13745000
+                "type": "6\u2605 common battleship parts",
+                "value": 141705
               },
               {
-                "type": "6\u2605 Common Battleship Parts",
-                "value": 141705
+                "type": "shape memory alloy",
+                "value": 13745000
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 120
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 3200
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 120
             }
           ],
           "additional_info": {
@@ -8977,31 +8977,31 @@
       ],
       "levels": [
         {
-          "ability_bonus": 4900000000,
+          "ability_bonus": 4900000000.0,
           "additional_officer_slot": false,
           "level": 71,
           "ship_xp": 11155590
         },
         {
-          "ability_bonus": 4900000000,
+          "ability_bonus": 4900000000.0,
           "additional_officer_slot": false,
           "level": 72,
           "ship_xp": 11264958
         },
         {
-          "ability_bonus": 4900000000,
+          "ability_bonus": 4900000000.0,
           "additional_officer_slot": false,
           "level": 73,
           "ship_xp": 11374327
         },
         {
-          "ability_bonus": 4900000000,
+          "ability_bonus": 4900000000.0,
           "additional_officer_slot": false,
           "level": 74,
           "ship_xp": 11483695
         },
         {
-          "ability_bonus": 4900000000,
+          "ability_bonus": 4900000000.0,
           "additional_officer_slot": false,
           "level": 75,
           "ship_xp": 11593064
@@ -9019,47 +9019,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 29145
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 427715
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 29145
               }
             ],
             "materials": [
-              {
-                "type": "crystal",
-                "value": 24665,
-                "grade": 6,
-                "rarity": "uncommon"
-              },
               {
                 "type": "ore",
                 "value": 22795,
                 "grade": 6,
                 "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 24665,
+                "grade": 6,
+                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 32328500
+                "type": "6\u2605 uncommon battleship parts",
+                "value": 55710
               },
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
-                "value": 55710
+                "type": "shape memory alloy",
+                "value": 32328500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 440
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 14000
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 440
             }
           ],
           "additional_info": {
@@ -9093,47 +9093,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 29145
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 427715
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 29145
               }
             ],
             "materials": [
-              {
-                "type": "crystal",
-                "value": 24665,
-                "grade": 6,
-                "rarity": "uncommon"
-              },
               {
                 "type": "ore",
                 "value": 22795,
                 "grade": 6,
                 "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 24665,
+                "grade": 6,
+                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 32328500
+                "type": "6\u2605 uncommon battleship parts",
+                "value": 55710
               },
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
-                "value": 55710
+                "type": "shape memory alloy",
+                "value": 32328500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 440
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 14000
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 440
             }
           ],
           "additional_info": {
@@ -9167,47 +9167,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 29145
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 427715
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 29145
               }
             ],
             "materials": [
-              {
-                "type": "crystal",
-                "value": 24665,
-                "grade": 6,
-                "rarity": "uncommon"
-              },
               {
                 "type": "ore",
                 "value": 22795,
                 "grade": 6,
                 "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 24665,
+                "grade": 6,
+                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 32328500
+                "type": "6\u2605 uncommon battleship parts",
+                "value": 55710
               },
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
-                "value": 55710
+                "type": "shape memory alloy",
+                "value": 32328500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 440
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 14000
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 440
             }
           ],
           "additional_info": {
@@ -9241,47 +9241,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 29145
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 427715
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 29145
               }
             ],
             "materials": [
-              {
-                "type": "crystal",
-                "value": 24665,
-                "grade": 6,
-                "rarity": "uncommon"
-              },
               {
                 "type": "ore",
                 "value": 22795,
                 "grade": 6,
                 "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 24665,
+                "grade": 6,
+                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 32328500
+                "type": "6\u2605 uncommon battleship parts",
+                "value": 55710
               },
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
-                "value": 55710
+                "type": "shape memory alloy",
+                "value": 32328500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 440
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 14000
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 440
             }
           ],
           "additional_info": {
@@ -9315,47 +9315,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 16655
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 244410
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 16655
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 62540,
+                "type": "ore",
+                "value": 393375,
                 "grade": 6,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 393375,
+                "type": "crystal",
+                "value": 62540,
                 "grade": 6,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 18473500
+                "type": "6\u2605 common battleship parts",
+                "value": 175025
               },
               {
-                "type": "6\u2605 Common Battleship Parts",
-                "value": 175025
+                "type": "shape memory alloy",
+                "value": 18473500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 250
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 8000
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 250
             }
           ],
           "additional_info": {
@@ -9374,52 +9374,52 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 16655
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 244410
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 16655
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 62540,
+                "type": "ore",
+                "value": 393375,
                 "grade": 6,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 393375,
+                "type": "crystal",
+                "value": 62540,
                 "grade": 6,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
+                "type": "shape memory alloy",
                 "value": 18473500
               },
               {
-                "type": "Borg Data Node Tier 16",
+                "type": "borg data node tier 16",
                 "value": 1
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 250
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 8000
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 250
             }
           ],
           "additional_info": {
             "warp_info": {
-              "warp_distance": 1250,
+              "warp_distance": 1425,
               "warp_speed": 8
             }
           },
@@ -9431,47 +9431,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 20820
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 305510
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 20820
               }
             ],
             "materials": [
-              {
-                "type": "crystal",
-                "value": 78175,
-                "grade": 6,
-                "rarity": "common"
-              },
               {
                 "type": "ore",
                 "value": 168865,
                 "grade": 6,
                 "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 78175,
+                "grade": 6,
+                "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 23091500
+                "type": "6\u2605 common battleship parts",
+                "value": 218780
               },
               {
-                "type": "6\u2605 Common Battleship Parts",
-                "value": 218780
+                "type": "shape memory alloy",
+                "value": 23091500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 315
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 10000
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 315
             }
           ],
           "additional_info": {
@@ -9488,47 +9488,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 20820
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 305510
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 20820
               }
             ],
             "materials": [
-              {
-                "type": "crystal",
-                "value": 78175,
-                "grade": 6,
-                "rarity": "common"
-              },
               {
                 "type": "ore",
                 "value": 168865,
                 "grade": 6,
                 "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 78175,
+                "grade": 6,
+                "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 23091500
+                "type": "6\u2605 common battleship parts",
+                "value": 218780
               },
               {
-                "type": "6\u2605 Common Battleship Parts",
-                "value": 218780
+                "type": "shape memory alloy",
+                "value": 23091500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 315
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 10000
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 315
             }
           ],
           "additional_info": {
@@ -9545,47 +9545,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 16655
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 244410
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 16655
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 62540,
+                "type": "ore",
+                "value": 393375,
                 "grade": 6,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 393375,
+                "type": "crystal",
+                "value": 62540,
                 "grade": 6,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 18473500
+                "type": "6\u2605 common battleship parts",
+                "value": 175025
               },
               {
-                "type": "6\u2605 Common Battleship Parts",
-                "value": 175025
+                "type": "shape memory alloy",
+                "value": 18473500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 250
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 8000
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 250
             }
           ],
           "additional_info": {
@@ -9599,31 +9599,31 @@
       ],
       "levels": [
         {
-          "ability_bonus": 11000000000,
+          "ability_bonus": 11000000000.0,
           "additional_officer_slot": false,
           "level": 76,
           "ship_xp": 11702432
         },
         {
-          "ability_bonus": 11000000000,
+          "ability_bonus": 11000000000.0,
           "additional_officer_slot": false,
           "level": 77,
           "ship_xp": 11811801
         },
         {
-          "ability_bonus": 11000000000,
+          "ability_bonus": 11000000000.0,
           "additional_officer_slot": false,
           "level": 78,
           "ship_xp": 11921169
         },
         {
-          "ability_bonus": 11000000000,
+          "ability_bonus": 11000000000.0,
           "additional_officer_slot": false,
           "level": 79,
           "ship_xp": 12030538
         },
         {
-          "ability_bonus": 11000000000,
+          "ability_bonus": 11000000000.0,
           "additional_officer_slot": false,
           "level": 80,
           "ship_xp": 12139907
@@ -9641,47 +9641,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 85610
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 1227040
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 85610
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 19455,
+                "type": "ore",
+                "value": 34530,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 34530,
+                "type": "crystal",
+                "value": 19455,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Battleship Parts",
+                "type": "6\u2605 rare battleship parts",
                 "value": 5895
               },
               {
-                "type": "Shape Memory Alloy",
+                "type": "shape memory alloy",
                 "value": 50288500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 490
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 35000
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 490
             }
           ],
           "additional_info": {
@@ -9715,47 +9715,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 85610
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 1227040
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 85610
               }
             ],
             "materials": [
-              {
-                "type": "crystal",
-                "value": 42635,
-                "grade": 6,
-                "rarity": "uncommon"
-              },
               {
                 "type": "ore",
                 "value": 34530,
                 "grade": 6,
                 "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 42635,
+                "grade": 6,
+                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Battleship Parts",
+                "type": "6\u2605 rare battleship parts",
                 "value": 5895
               },
               {
-                "type": "Shape Memory Alloy",
+                "type": "shape memory alloy",
                 "value": 50288500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 490
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 35000
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 490
             }
           ],
           "additional_info": {
@@ -9789,47 +9789,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 85610
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 1227040
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 85610
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 19455,
+                "type": "ore",
+                "value": 34530,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 34530,
+                "type": "crystal",
+                "value": 19455,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Battleship Parts",
+                "type": "6\u2605 rare battleship parts",
                 "value": 5895
               },
               {
-                "type": "Shape Memory Alloy",
+                "type": "shape memory alloy",
                 "value": 50288500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 490
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 35000
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 490
             }
           ],
           "additional_info": {
@@ -9863,47 +9863,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 85610
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 1227040
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 85610
               }
             ],
             "materials": [
-              {
-                "type": "crystal",
-                "value": 42635,
-                "grade": 6,
-                "rarity": "uncommon"
-              },
               {
                 "type": "ore",
                 "value": 34530,
                 "grade": 6,
                 "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 42635,
+                "grade": 6,
+                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Battleship Parts",
+                "type": "6\u2605 rare battleship parts",
                 "value": 5895
               },
               {
-                "type": "Shape Memory Alloy",
+                "type": "shape memory alloy",
                 "value": 50288500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 490
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 35000
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 490
             }
           ],
           "additional_info": {
@@ -9937,47 +9937,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 48920
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 701165
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 48920
               }
             ],
             "materials": [
-              {
-                "type": "crystal",
-                "value": 170255,
-                "grade": 6,
-                "rarity": "common"
-              },
               {
                 "type": "ore",
                 "value": 94080,
                 "grade": 6,
                 "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 170255,
+                "grade": 6,
+                "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 28736500
+                "type": "6\u2605 common battleship parts",
+                "value": 674400
               },
               {
-                "type": "6\u2605 Common Battleship Parts",
-                "value": 674400
+                "type": "shape memory alloy",
+                "value": 28736500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 280
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 20000
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 280
             }
           ],
           "additional_info": {
@@ -9996,52 +9996,52 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 48920
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 701165
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 48920
               }
             ],
             "materials": [
-              {
-                "type": "crystal",
-                "value": 170255,
-                "grade": 6,
-                "rarity": "common"
-              },
               {
                 "type": "ore",
                 "value": 94080,
                 "grade": 6,
                 "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 170255,
+                "grade": 6,
+                "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
+                "type": "shape memory alloy",
                 "value": 28736500
               },
               {
-                "type": "Borg Data Node Tier 17",
+                "type": "borg data node tier 17",
                 "value": 1
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 280
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 20000
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 280
             }
           ],
           "additional_info": {
             "warp_info": {
-              "warp_distance": 1525,
+              "warp_distance": 1600,
               "warp_speed": 8.7
             }
           },
@@ -10053,47 +10053,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 61150
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 876455
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 61150
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 30455,
+                "type": "ore",
+                "value": 117600,
                 "grade": 6,
                 "rarity": "uncommon"
               },
               {
-                "type": "ore",
-                "value": 117600,
+                "type": "crystal",
+                "value": 30455,
                 "grade": 6,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 35920500
+                "type": "6\u2605 uncommon battleship parts",
+                "value": 190225
               },
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
-                "value": 190225
+                "type": "shape memory alloy",
+                "value": 35920500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 350
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 25000
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 350
             }
           ],
           "additional_info": {
@@ -10110,47 +10110,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 61150
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 876455
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 61150
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 30455,
+                "type": "ore",
+                "value": 117600,
                 "grade": 6,
                 "rarity": "uncommon"
               },
               {
-                "type": "ore",
-                "value": 117600,
+                "type": "crystal",
+                "value": 30455,
                 "grade": 6,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 35920500
+                "type": "6\u2605 uncommon battleship parts",
+                "value": 190225
               },
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
-                "value": 190225
+                "type": "shape memory alloy",
+                "value": 35920500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 350
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 25000
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 350
             }
           ],
           "additional_info": {
@@ -10167,47 +10167,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 48920
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 701165
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 48920
               }
             ],
             "materials": [
-              {
-                "type": "crystal",
-                "value": 170255,
-                "grade": 6,
-                "rarity": "common"
-              },
               {
                 "type": "ore",
                 "value": 94080,
                 "grade": 6,
                 "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 170255,
+                "grade": 6,
+                "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 28736500
+                "type": "6\u2605 common battleship parts",
+                "value": 674400
               },
               {
-                "type": "6\u2605 Common Battleship Parts",
-                "value": 674400
+                "type": "shape memory alloy",
+                "value": 28736500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 280
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 20000
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 280
             }
           ],
           "additional_info": {
@@ -10221,32 +10221,32 @@
       ],
       "levels": [
         {
-          "ability_bonus": 27000000000,
+          "ability_bonus": 27000000000.0,
           "additional_officer_slot": false,
           "level": 81,
           "ship_xp": 12249275
         },
         {
-          "ability_bonus": 27000000000,
+          "ability_bonus": 27000000000.0,
           "additional_officer_slot": false,
           "level": 82,
           "ship_xp": 12358644
         },
         {
-          "ability_bonus": 27000000000,
+          "ability_bonus": 27000000000.0,
           "additional_officer_slot": false,
           "level": 83,
           "ship_xp": 12468012
         },
         {
-          "ability_bonus": 27000000000,
+          "ability_bonus": 27000000000.0,
           "additional_officer_slot": false,
           "level": 84,
           "ship_xp": 12577381
         },
         {
-          "ability_bonus": 27000000000,
-          "additional_officer_slot": true,
+          "ability_bonus": 27000000000.0,
+          "additional_officer_slot": false,
           "level": 85,
           "ship_xp": 12686749
         }
@@ -10263,47 +10263,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 103895
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 1519180
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 103895
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 12190,
+                "type": "ore",
+                "value": 24230,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 24230,
+                "type": "crystal",
+                "value": 12190,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Battleship Parts",
+                "type": "6\u2605 rare battleship parts",
                 "value": 7075
               },
               {
-                "type": "Shape Memory Alloy",
+                "type": "shape memory alloy",
                 "value": 67587500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 695
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 52500
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 695
             }
           ],
           "additional_info": {
@@ -10337,47 +10337,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 103895
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 1519180
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 103895
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 12190,
+                "type": "ore",
+                "value": 24230,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 24230,
+                "type": "crystal",
+                "value": 12190,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Battleship Parts",
+                "type": "6\u2605 rare battleship parts",
                 "value": 7075
               },
               {
-                "type": "Shape Memory Alloy",
+                "type": "shape memory alloy",
                 "value": 67587500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 695
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 52500
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 695
             }
           ],
           "additional_info": {
@@ -10411,47 +10411,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 103895
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 1519180
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 103895
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 12190,
+                "type": "ore",
+                "value": 24230,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 24230,
+                "type": "crystal",
+                "value": 12190,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Battleship Parts",
+                "type": "6\u2605 rare battleship parts",
                 "value": 7075
               },
               {
-                "type": "Shape Memory Alloy",
+                "type": "shape memory alloy",
                 "value": 67587500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 695
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 52500
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 695
             }
           ],
           "additional_info": {
@@ -10485,47 +10485,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 103895
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 1519180
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 103895
               }
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 12190,
+                "type": "ore",
+                "value": 24230,
                 "grade": 6,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 24230,
+                "type": "crystal",
+                "value": 12190,
                 "grade": 6,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Battleship Parts",
+                "type": "6\u2605 rare battleship parts",
                 "value": 7075
               },
               {
-                "type": "Shape Memory Alloy",
+                "type": "shape memory alloy",
                 "value": 67587500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 695
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 52500
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 695
             }
           ],
           "additional_info": {
@@ -10559,12 +10559,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 59370
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 868105
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 59370
               }
             ],
             "materials": [
@@ -10583,23 +10583,23 @@
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 38621500
+                "type": "6\u2605 common battleship parts",
+                "value": 809280
               },
               {
-                "type": "6\u2605 Common Battleship Parts",
-                "value": 809280
+                "type": "shape memory alloy",
+                "value": 38621500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 395
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 30000
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 395
             }
           ],
           "additional_info": {
@@ -10618,12 +10618,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 59370
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 868105
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 59370
               }
             ],
             "materials": [
@@ -10642,19 +10642,19 @@
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
+                "type": "shape memory alloy",
                 "value": 38621500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 395
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 30000
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 395
             }
           ],
           "additional_info": {
@@ -10671,47 +10671,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 74210
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 1085130
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 74210
               }
             ],
             "materials": [
-              {
-                "type": "crystal",
-                "value": 91590,
-                "grade": 6,
-                "rarity": "uncommon"
-              },
               {
                 "type": "ore",
                 "value": 17310,
                 "grade": 6,
                 "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 91590,
+                "grade": 6,
+                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 48277000
+                "type": "6\u2605 uncommon battleship parts",
+                "value": 228270
               },
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
-                "value": 228270
+                "type": "shape memory alloy",
+                "value": 48277000
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 495
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 37500
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 495
             }
           ],
           "additional_info": {
@@ -10728,47 +10728,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 74210
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 1085130
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 74210
               }
             ],
             "materials": [
-              {
-                "type": "crystal",
-                "value": 91590,
-                "grade": 6,
-                "rarity": "uncommon"
-              },
               {
                 "type": "ore",
                 "value": 17310,
                 "grade": 6,
                 "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 91590,
+                "grade": 6,
+                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 48277000
+                "type": "6\u2605 uncommon battleship parts",
+                "value": 228270
               },
               {
-                "type": "6\u2605 Uncommon Battleship Parts",
-                "value": 228270
+                "type": "shape memory alloy",
+                "value": 48277000
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 495
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 37500
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 495
             }
           ],
           "additional_info": {
@@ -10785,12 +10785,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 59370
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 868105
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 59370
               }
             ],
             "materials": [
@@ -10809,23 +10809,23 @@
             ],
             "others": [
               {
-                "type": "Shape Memory Alloy",
-                "value": 38621500
+                "type": "6\u2605 common battleship parts",
+                "value": 809280
               },
               {
-                "type": "6\u2605 Common Battleship Parts",
-                "value": 809280
+                "type": "shape memory alloy",
+                "value": 38621500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 395
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 30000
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 395
             }
           ],
           "additional_info": {
@@ -10839,31 +10839,31 @@
       ],
       "levels": [
         {
-          "ability_bonus": 35000000000,
+          "ability_bonus": 35000000000.0,
           "additional_officer_slot": false,
           "level": 86,
           "ship_xp": 12796118
         },
         {
-          "ability_bonus": 35000000000,
+          "ability_bonus": 35000000000.0,
           "additional_officer_slot": false,
           "level": 87,
           "ship_xp": 12905486
         },
         {
-          "ability_bonus": 35000000000,
+          "ability_bonus": 35000000000.0,
           "additional_officer_slot": false,
           "level": 88,
           "ship_xp": 13014855
         },
         {
-          "ability_bonus": 35000000000,
+          "ability_bonus": 35000000000.0,
           "additional_officer_slot": false,
           "level": 89,
           "ship_xp": 13124223
         },
         {
-          "ability_bonus": 35000000000,
+          "ability_bonus": 35000000000.0,
           "additional_officer_slot": false,
           "level": 90,
           "ship_xp": 13233592

@@ -11,7 +11,7 @@
   },
   "ship_ability": {
     "title": "Cybernetic Augmentation",
-    "description": "Ship Abilities are always active.",
+    "description": "",
     "percentage": true
   },
   "scrap_info": {
@@ -187,7 +187,7 @@
       ],
       "levels": [
         {
-          "ability_bonus": 240,
+          "ability_bonus": 240.0,
           "additional_officer_slot": false,
           "level": 1,
           "ship_xp": 0
@@ -199,7 +199,7 @@
           "ship_xp": 800
         },
         {
-          "ability_bonus": 245,
+          "ability_bonus": 245.0,
           "additional_officer_slot": false,
           "level": 3,
           "ship_xp": 1000
@@ -211,8 +211,8 @@
           "ship_xp": 1400
         },
         {
-          "ability_bonus": 250,
-          "additional_officer_slot": true,
+          "ability_bonus": 250.0,
+          "additional_officer_slot": false,
           "level": 5,
           "ship_xp": 1700
         }
@@ -253,25 +253,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 48,
+                "type": "gas",
+                "value": 11,
                 "grade": 3,
                 "rarity": "common"
               },
               {
-                "type": "gas",
-                "value": 11,
+                "type": "crystal",
+                "value": 48,
                 "grade": 3,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 69
               },
               {
-                "type": "Charged Nanoprobe",
+                "type": "charged nanoprobe",
                 "value": 40
               }
             ]
@@ -327,25 +327,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 109,
+                "type": "gas",
+                "value": 25,
                 "grade": 3,
                 "rarity": "common"
               },
               {
-                "type": "gas",
-                "value": 25,
+                "type": "crystal",
+                "value": 109,
                 "grade": 3,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 158
               },
               {
-                "type": "Charged Nanoprobe",
+                "type": "charged nanoprobe",
                 "value": 90
               }
             ]
@@ -401,25 +401,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 150,
+                "type": "gas",
+                "value": 34,
                 "grade": 3,
                 "rarity": "common"
               },
               {
-                "type": "gas",
-                "value": 34,
+                "type": "crystal",
+                "value": 150,
                 "grade": 3,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 217
               },
               {
-                "type": "Charged Nanoprobe",
+                "type": "charged nanoprobe",
                 "value": 125
               }
             ]
@@ -475,25 +475,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 41,
+                "type": "gas",
+                "value": 9,
                 "grade": 3,
                 "rarity": "common"
               },
               {
-                "type": "gas",
-                "value": 9,
+                "type": "crystal",
+                "value": 41,
                 "grade": 3,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 59
               },
               {
-                "type": "Charged Nanoprobe",
+                "type": "charged nanoprobe",
                 "value": 35
               }
             ]
@@ -534,25 +534,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 20,
+                "type": "gas",
+                "value": 5,
                 "grade": 3,
                 "rarity": "common"
               },
               {
-                "type": "gas",
-                "value": 5,
+                "type": "crystal",
+                "value": 20,
                 "grade": 3,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 30
               },
               {
-                "type": "Charged Nanoprobe",
+                "type": "charged nanoprobe",
                 "value": 15
               }
             ]
@@ -591,25 +591,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 41,
+                "type": "gas",
+                "value": 9,
                 "grade": 3,
                 "rarity": "common"
               },
               {
-                "type": "gas",
-                "value": 9,
+                "type": "crystal",
+                "value": 41,
                 "grade": 3,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 59
               },
               {
-                "type": "Charged Nanoprobe",
+                "type": "charged nanoprobe",
                 "value": 35
               }
             ]
@@ -641,7 +641,7 @@
           "ship_xp": 2400
         },
         {
-          "ability_bonus": 255,
+          "ability_bonus": 255.0,
           "additional_officer_slot": false,
           "level": 7,
           "ship_xp": 2900
@@ -653,14 +653,14 @@
           "ship_xp": 3900
         },
         {
-          "ability_bonus": 260,
+          "ability_bonus": 260.0,
           "additional_officer_slot": false,
           "level": 9,
           "ship_xp": 4600
         },
         {
           "ability_bonus": 262.5,
-          "additional_officer_slot": true,
+          "additional_officer_slot": false,
           "level": 10,
           "ship_xp": 6000
         }
@@ -687,25 +687,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 185,
+                "type": "gas",
+                "value": 42,
                 "grade": 3,
                 "rarity": "common"
               },
               {
-                "type": "gas",
-                "value": 42,
+                "type": "crystal",
+                "value": 185,
                 "grade": 3,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 98
               },
               {
-                "type": "Charged Nanoprobe",
+                "type": "charged nanoprobe",
                 "value": 195
               }
             ]
@@ -761,25 +761,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 57,
+                "type": "gas",
+                "value": 13,
                 "grade": 3,
                 "rarity": "uncommon"
               },
               {
-                "type": "gas",
-                "value": 13,
+                "type": "crystal",
+                "value": 57,
                 "grade": 3,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 225
               },
               {
-                "type": "Charged Nanoprobe",
+                "type": "charged nanoprobe",
                 "value": 450
               }
             ]
@@ -835,25 +835,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 79,
+                "type": "gas",
+                "value": 18,
                 "grade": 3,
                 "rarity": "uncommon"
               },
               {
-                "type": "gas",
-                "value": 18,
+                "type": "crystal",
+                "value": 79,
                 "grade": 3,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 309
               },
               {
-                "type": "Charged Nanoprobe",
+                "type": "charged nanoprobe",
                 "value": 620
               }
             ]
@@ -909,25 +909,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 159,
+                "type": "gas",
+                "value": 36,
                 "grade": 3,
                 "rarity": "common"
               },
               {
-                "type": "gas",
-                "value": 36,
+                "type": "crystal",
+                "value": 159,
                 "grade": 3,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 84
               },
               {
-                "type": "Charged Nanoprobe",
+                "type": "charged nanoprobe",
                 "value": 170
               }
             ]
@@ -968,25 +968,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 79,
+                "type": "gas",
+                "value": 18,
                 "grade": 3,
                 "rarity": "common"
               },
               {
-                "type": "gas",
-                "value": 18,
+                "type": "crystal",
+                "value": 79,
                 "grade": 3,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 42
               },
               {
-                "type": "Charged Nanoprobe",
+                "type": "charged nanoprobe",
                 "value": 85
               }
             ]
@@ -1025,25 +1025,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 159,
+                "type": "gas",
+                "value": 36,
                 "grade": 3,
                 "rarity": "common"
               },
               {
-                "type": "gas",
-                "value": 36,
+                "type": "crystal",
+                "value": 159,
                 "grade": 3,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 84
               },
               {
-                "type": "Charged Nanoprobe",
+                "type": "charged nanoprobe",
                 "value": 170
               }
             ]
@@ -1069,7 +1069,7 @@
       ],
       "levels": [
         {
-          "ability_bonus": 265,
+          "ability_bonus": 265.0,
           "additional_officer_slot": false,
           "level": 11,
           "ship_xp": 7000
@@ -1081,7 +1081,7 @@
           "ship_xp": 8500
         },
         {
-          "ability_bonus": 270,
+          "ability_bonus": 270.0,
           "additional_officer_slot": false,
           "level": 13,
           "ship_xp": 9500
@@ -1093,7 +1093,7 @@
           "ship_xp": 11000
         },
         {
-          "ability_bonus": 275,
+          "ability_bonus": 275.0,
           "additional_officer_slot": false,
           "level": 15,
           "ship_xp": 13500
@@ -1121,25 +1121,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 30,
+                "type": "gas",
+                "value": 7,
                 "grade": 3,
                 "rarity": "uncommon"
               },
               {
-                "type": "gas",
-                "value": 7,
+                "type": "crystal",
+                "value": 30,
                 "grade": 3,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 138
               },
               {
-                "type": "Charged Nanoprobe",
+                "type": "charged nanoprobe",
                 "value": 885
               }
             ]
@@ -1195,25 +1195,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 68,
+                "type": "gas",
+                "value": 16,
                 "grade": 3,
                 "rarity": "uncommon"
               },
               {
-                "type": "gas",
-                "value": 16,
+                "type": "crystal",
+                "value": 68,
                 "grade": 3,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 317
               },
               {
-                "type": "Charged Nanoprobe",
+                "type": "charged nanoprobe",
                 "value": 2025
               }
             ]
@@ -1269,25 +1269,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 94,
+                "type": "gas",
+                "value": 22,
                 "grade": 3,
                 "rarity": "uncommon"
               },
               {
-                "type": "gas",
-                "value": 22,
+                "type": "crystal",
+                "value": 94,
                 "grade": 3,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 436
               },
               {
-                "type": "Charged Nanoprobe",
+                "type": "charged nanoprobe",
                 "value": 2790
               }
             ]
@@ -1343,25 +1343,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 328,
+                "type": "gas",
+                "value": 74,
                 "grade": 3,
                 "rarity": "common"
               },
               {
-                "type": "gas",
-                "value": 74,
+                "type": "crystal",
+                "value": 328,
                 "grade": 3,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 119
               },
               {
-                "type": "Charged Nanoprobe",
+                "type": "charged nanoprobe",
                 "value": 760
               }
             ]
@@ -1402,25 +1402,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 164,
+                "type": "gas",
+                "value": 37,
                 "grade": 3,
                 "rarity": "common"
               },
               {
-                "type": "gas",
-                "value": 37,
+                "type": "crystal",
+                "value": 164,
                 "grade": 3,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 59
               },
               {
-                "type": "Charged Nanoprobe",
+                "type": "charged nanoprobe",
                 "value": 380
               }
             ]
@@ -1459,25 +1459,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 328,
+                "type": "gas",
+                "value": 74,
                 "grade": 3,
                 "rarity": "common"
               },
               {
-                "type": "gas",
-                "value": 74,
+                "type": "crystal",
+                "value": 328,
                 "grade": 3,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 119
               },
               {
-                "type": "Charged Nanoprobe",
+                "type": "charged nanoprobe",
                 "value": 760
               }
             ]
@@ -1509,7 +1509,7 @@
           "ship_xp": 15000
         },
         {
-          "ability_bonus": 280,
+          "ability_bonus": 280.0,
           "additional_officer_slot": false,
           "level": 17,
           "ship_xp": 17500
@@ -1521,14 +1521,14 @@
           "ship_xp": 19500
         },
         {
-          "ability_bonus": 285,
+          "ability_bonus": 285.0,
           "additional_officer_slot": false,
           "level": 19,
           "ship_xp": 23000
         },
         {
           "ability_bonus": 287.5,
-          "additional_officer_slot": true,
+          "additional_officer_slot": false,
           "level": 20,
           "ship_xp": 25000
         }
@@ -1555,25 +1555,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 37,
+                "type": "gas",
+                "value": 9,
                 "grade": 3,
                 "rarity": "uncommon"
               },
               {
-                "type": "gas",
-                "value": 9,
+                "type": "crystal",
+                "value": 37,
                 "grade": 3,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 193
               },
               {
-                "type": "Charged Nanoprobe",
+                "type": "charged nanoprobe",
                 "value": 2805
               }
             ]
@@ -1629,25 +1629,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 84,
+                "type": "gas",
+                "value": 19,
                 "grade": 3,
                 "rarity": "uncommon"
               },
               {
-                "type": "gas",
-                "value": 19,
+                "type": "crystal",
+                "value": 84,
                 "grade": 3,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 442
               },
               {
-                "type": "Charged Nanoprobe",
+                "type": "charged nanoprobe",
                 "value": 6410
               }
             ]
@@ -1703,25 +1703,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 116,
+                "type": "gas",
+                "value": 27,
                 "grade": 3,
                 "rarity": "uncommon"
               },
               {
-                "type": "gas",
-                "value": 27,
+                "type": "crystal",
+                "value": 116,
                 "grade": 3,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 608
               },
               {
-                "type": "Charged Nanoprobe",
+                "type": "charged nanoprobe",
                 "value": 8815
               }
             ]
@@ -1777,25 +1777,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 763,
+                "type": "gas",
+                "value": 172,
                 "grade": 3,
                 "rarity": "common"
               },
               {
-                "type": "gas",
-                "value": 172,
+                "type": "crystal",
+                "value": 763,
                 "grade": 3,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 166
               },
               {
-                "type": "Charged Nanoprobe",
+                "type": "charged nanoprobe",
                 "value": 2405
               }
             ]
@@ -1836,25 +1836,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 381,
+                "type": "gas",
+                "value": 86,
                 "grade": 3,
                 "rarity": "common"
               },
               {
-                "type": "gas",
-                "value": 86,
+                "type": "crystal",
+                "value": 381,
                 "grade": 3,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 83
               },
               {
-                "type": "Charged Nanoprobe",
+                "type": "charged nanoprobe",
                 "value": 1200
               }
             ]
@@ -1893,25 +1893,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 31,
+                "type": "gas",
+                "value": 7,
                 "grade": 3,
                 "rarity": "uncommon"
               },
               {
-                "type": "gas",
-                "value": 7,
+                "type": "crystal",
+                "value": 31,
                 "grade": 3,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 166
               },
               {
-                "type": "Charged Nanoprobe",
+                "type": "charged nanoprobe",
                 "value": 2405
               }
             ]
@@ -1937,7 +1937,7 @@
       ],
       "levels": [
         {
-          "ability_bonus": 290,
+          "ability_bonus": 290.0,
           "additional_officer_slot": false,
           "level": 21,
           "ship_xp": 29000
@@ -1949,7 +1949,7 @@
           "ship_xp": 31500
         },
         {
-          "ability_bonus": 295,
+          "ability_bonus": 295.0,
           "additional_officer_slot": false,
           "level": 23,
           "ship_xp": 36000
@@ -1961,7 +1961,7 @@
           "ship_xp": 39000
         },
         {
-          "ability_bonus": 300,
+          "ability_bonus": 300.0,
           "additional_officer_slot": false,
           "level": 25,
           "ship_xp": 42000
@@ -1989,25 +1989,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 162,
+                "type": "gas",
+                "value": 38,
                 "grade": 3,
                 "rarity": "uncommon"
               },
               {
-                "type": "gas",
-                "value": 38,
+                "type": "crystal",
+                "value": 162,
                 "grade": 3,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 268
               },
               {
-                "type": "Charged Nanoprobe",
+                "type": "charged nanoprobe",
                 "value": 8315
               }
             ]
@@ -2063,25 +2063,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 18,
+                "type": "gas",
+                "value": 4,
                 "grade": 3,
                 "rarity": "rare"
               },
               {
-                "type": "gas",
-                "value": 4,
+                "type": "crystal",
+                "value": 18,
                 "grade": 3,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 613
               },
               {
-                "type": "Charged Nanoprobe",
+                "type": "charged nanoprobe",
                 "value": 19015
               }
             ]
@@ -2137,25 +2137,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 24,
+                "type": "gas",
+                "value": 6,
                 "grade": 3,
                 "rarity": "rare"
               },
               {
-                "type": "gas",
-                "value": 6,
+                "type": "crystal",
+                "value": 24,
                 "grade": 3,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 843
               },
               {
-                "type": "Charged Nanoprobe",
+                "type": "charged nanoprobe",
                 "value": 26145
               }
             ]
@@ -2211,25 +2211,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 1587,
+                "type": "gas",
+                "value": 358,
                 "grade": 3,
                 "rarity": "common"
               },
               {
-                "type": "gas",
-                "value": 358,
+                "type": "crystal",
+                "value": 1587,
                 "grade": 3,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 230
               },
               {
-                "type": "Charged Nanoprobe",
+                "type": "charged nanoprobe",
                 "value": 7130
               }
             ]
@@ -2270,25 +2270,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 70,
+                "type": "gas",
+                "value": 16,
                 "grade": 3,
                 "rarity": "uncommon"
               },
               {
-                "type": "gas",
-                "value": 16,
+                "type": "crystal",
+                "value": 70,
                 "grade": 3,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 115
               },
               {
-                "type": "Charged Nanoprobe",
+                "type": "charged nanoprobe",
                 "value": 3565
               }
             ]
@@ -2327,25 +2327,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 139,
+                "type": "gas",
+                "value": 32,
                 "grade": 3,
                 "rarity": "uncommon"
               },
               {
-                "type": "gas",
-                "value": 32,
+                "type": "crystal",
+                "value": 139,
                 "grade": 3,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 230
               },
               {
-                "type": "Charged Nanoprobe",
+                "type": "charged nanoprobe",
                 "value": 7130
               }
             ]
@@ -2377,7 +2377,7 @@
           "ship_xp": 47000
         },
         {
-          "ability_bonus": 305,
+          "ability_bonus": 305.0,
           "additional_officer_slot": false,
           "level": 27,
           "ship_xp": 51000
@@ -2389,14 +2389,14 @@
           "ship_xp": 57000
         },
         {
-          "ability_bonus": 310,
+          "ability_bonus": 310.0,
           "additional_officer_slot": false,
           "level": 29,
           "ship_xp": 61000
         },
         {
           "ability_bonus": 312.5,
-          "additional_officer_slot": true,
+          "additional_officer_slot": false,
           "level": 30,
           "ship_xp": 69000
         }
@@ -2423,25 +2423,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 8,
+                "type": "gas",
+                "value": 2,
                 "grade": 3,
                 "rarity": "rare"
               },
               {
-                "type": "gas",
-                "value": 2,
+                "type": "crystal",
+                "value": 8,
                 "grade": 3,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 371
               },
               {
-                "type": "Charged Nanoprobe",
+                "type": "charged nanoprobe",
                 "value": 17785
               }
             ]
@@ -2497,25 +2497,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 20,
+                "type": "gas",
+                "value": 4,
                 "grade": 3,
                 "rarity": "rare"
               },
               {
-                "type": "gas",
-                "value": 4,
+                "type": "crystal",
+                "value": 20,
                 "grade": 3,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 848
               },
               {
-                "type": "Charged Nanoprobe",
+                "type": "charged nanoprobe",
                 "value": 40680
               }
             ]
@@ -2571,25 +2571,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 28,
+                "type": "gas",
+                "value": 6,
                 "grade": 3,
                 "rarity": "rare"
               },
               {
-                "type": "gas",
-                "value": 6,
+                "type": "crystal",
+                "value": 28,
                 "grade": 3,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 1165
               },
               {
-                "type": "Charged Nanoprobe",
+                "type": "charged nanoprobe",
                 "value": 55935
               }
             ]
@@ -2645,25 +2645,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 2193,
+                "type": "gas",
+                "value": 495,
                 "grade": 3,
                 "rarity": "common"
               },
               {
-                "type": "gas",
-                "value": 495,
+                "type": "crystal",
+                "value": 2193,
                 "grade": 3,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 318
               },
               {
-                "type": "Charged Nanoprobe",
+                "type": "charged nanoprobe",
                 "value": 15255
               }
             ]
@@ -2704,25 +2704,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 171,
+                "type": "gas",
+                "value": 40,
                 "grade": 3,
                 "rarity": "uncommon"
               },
               {
-                "type": "gas",
-                "value": 40,
+                "type": "crystal",
+                "value": 171,
                 "grade": 3,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 159
               },
               {
-                "type": "Charged Nanoprobe",
+                "type": "charged nanoprobe",
                 "value": 7625
               }
             ]
@@ -2761,25 +2761,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 342,
+                "type": "gas",
+                "value": 79,
                 "grade": 3,
                 "rarity": "uncommon"
               },
               {
-                "type": "gas",
-                "value": 79,
+                "type": "crystal",
+                "value": 342,
                 "grade": 3,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 318
               },
               {
-                "type": "Charged Nanoprobe",
+                "type": "charged nanoprobe",
                 "value": 15255
               }
             ]
@@ -2805,7 +2805,7 @@
       ],
       "levels": [
         {
-          "ability_bonus": 315,
+          "ability_bonus": 315.0,
           "additional_officer_slot": false,
           "level": 31,
           "ship_xp": 72000
@@ -2817,7 +2817,7 @@
           "ship_xp": 81000
         },
         {
-          "ability_bonus": 320,
+          "ability_bonus": 320.0,
           "additional_officer_slot": false,
           "level": 33,
           "ship_xp": 86000
@@ -2829,8 +2829,8 @@
           "ship_xp": 95000
         },
         {
-          "ability_bonus": 325,
-          "additional_officer_slot": true,
+          "ability_bonus": 325.0,
+          "additional_officer_slot": false,
           "level": 35,
           "ship_xp": 100000
         }
@@ -2857,25 +2857,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 10,
+                "type": "gas",
+                "value": 2,
                 "grade": 3,
                 "rarity": "rare"
               },
               {
-                "type": "gas",
-                "value": 2,
+                "type": "crystal",
+                "value": 10,
                 "grade": 3,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 510
               },
               {
-                "type": "Charged Nanoprobe",
+                "type": "charged nanoprobe",
                 "value": 33165
               }
             ]
@@ -2931,25 +2931,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 24,
+                "type": "gas",
+                "value": 6,
                 "grade": 3,
                 "rarity": "rare"
               },
               {
-                "type": "gas",
-                "value": 6,
+                "type": "crystal",
+                "value": 24,
                 "grade": 3,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 1167
               },
               {
-                "type": "Charged Nanoprobe",
+                "type": "charged nanoprobe",
                 "value": 75855
               }
             ]
@@ -3005,25 +3005,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 34,
+                "type": "gas",
+                "value": 8,
                 "grade": 3,
                 "rarity": "rare"
               },
               {
-                "type": "gas",
-                "value": 8,
+                "type": "crystal",
+                "value": 34,
                 "grade": 3,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 1605
               },
               {
-                "type": "Charged Nanoprobe",
+                "type": "charged nanoprobe",
                 "value": 104300
               }
             ]
@@ -3079,25 +3079,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 471,
+                "type": "gas",
+                "value": 109,
                 "grade": 3,
                 "rarity": "uncommon"
               },
               {
-                "type": "gas",
-                "value": 109,
+                "type": "crystal",
+                "value": 471,
                 "grade": 3,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 438
               },
               {
-                "type": "Charged Nanoprobe",
+                "type": "charged nanoprobe",
                 "value": 28440
               }
             ]
@@ -3138,25 +3138,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 236,
+                "type": "gas",
+                "value": 55,
                 "grade": 3,
                 "rarity": "uncommon"
               },
               {
-                "type": "gas",
-                "value": 55,
+                "type": "crystal",
+                "value": 236,
                 "grade": 3,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 219
               },
               {
-                "type": "Charged Nanoprobe",
+                "type": "charged nanoprobe",
                 "value": 14220
               }
             ]
@@ -3195,25 +3195,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 10,
+                "type": "gas",
+                "value": 2,
                 "grade": 3,
                 "rarity": "rare"
               },
               {
-                "type": "gas",
-                "value": 2,
+                "type": "crystal",
+                "value": 10,
                 "grade": 3,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 438
               },
               {
-                "type": "Charged Nanoprobe",
+                "type": "charged nanoprobe",
                 "value": 28440
               }
             ]
@@ -3245,7 +3245,7 @@
           "ship_xp": 105000
         },
         {
-          "ability_bonus": 330,
+          "ability_bonus": 330.0,
           "additional_officer_slot": false,
           "level": 37,
           "ship_xp": 116000
@@ -3257,14 +3257,14 @@
           "ship_xp": 122000
         },
         {
-          "ability_bonus": 335,
+          "ability_bonus": 335.0,
           "additional_officer_slot": false,
           "level": 39,
           "ship_xp": 134000
         },
         {
           "ability_bonus": 337.5,
-          "additional_officer_slot": true,
+          "additional_officer_slot": false,
           "level": 40,
           "ship_xp": 140000
         }
@@ -3291,25 +3291,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 14,
+                "type": "gas",
+                "value": 2,
                 "grade": 3,
                 "rarity": "rare"
               },
               {
-                "type": "gas",
-                "value": 2,
+                "type": "crystal",
+                "value": 14,
                 "grade": 3,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 684
               },
               {
-                "type": "Charged Nanoprobe",
+                "type": "charged nanoprobe",
                 "value": 77285
               }
             ]
@@ -3365,25 +3365,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 32,
+                "type": "gas",
+                "value": 6,
                 "grade": 3,
                 "rarity": "rare"
               },
               {
-                "type": "gas",
-                "value": 6,
+                "type": "crystal",
+                "value": 32,
                 "grade": 3,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 1564
               },
               {
-                "type": "Charged Nanoprobe",
+                "type": "charged nanoprobe",
                 "value": 176775
               }
             ]
@@ -3439,25 +3439,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 44,
+                "type": "gas",
+                "value": 10,
                 "grade": 3,
                 "rarity": "rare"
               },
               {
-                "type": "gas",
-                "value": 10,
+                "type": "crystal",
+                "value": 44,
                 "grade": 3,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 2151
               },
               {
-                "type": "Charged Nanoprobe",
+                "type": "charged nanoprobe",
                 "value": 243060
               }
             ]
@@ -3513,25 +3513,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 947,
+                "type": "gas",
+                "value": 220,
                 "grade": 3,
                 "rarity": "uncommon"
               },
               {
-                "type": "gas",
-                "value": 220,
+                "type": "crystal",
+                "value": 947,
                 "grade": 3,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 587
               },
               {
-                "type": "Charged Nanoprobe",
+                "type": "charged nanoprobe",
                 "value": 66285
               }
             ]
@@ -3572,25 +3572,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 3,
+                "type": "gas",
+                "value": 1,
                 "grade": 3,
                 "rarity": "rare"
               },
               {
-                "type": "gas",
-                "value": 1,
+                "type": "crystal",
+                "value": 3,
                 "grade": 3,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 293
               },
               {
-                "type": "Charged Nanoprobe",
+                "type": "charged nanoprobe",
                 "value": 33140
               }
             ]
@@ -3629,25 +3629,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 12,
+                "type": "gas",
+                "value": 2,
                 "grade": 3,
                 "rarity": "rare"
               },
               {
-                "type": "gas",
-                "value": 2,
+                "type": "crystal",
+                "value": 12,
                 "grade": 3,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Interceptor Parts",
+                "type": "3\u2605 interceptor parts",
                 "value": 587
               },
               {
-                "type": "Charged Nanoprobe",
+                "type": "charged nanoprobe",
                 "value": 66285
               }
             ]
@@ -3673,7 +3673,7 @@
       ],
       "levels": [
         {
-          "ability_bonus": 340,
+          "ability_bonus": 340.0,
           "additional_officer_slot": false,
           "level": 41,
           "ship_xp": 154000
@@ -3685,7 +3685,7 @@
           "ship_xp": 161000
         },
         {
-          "ability_bonus": 345,
+          "ability_bonus": 345.0,
           "additional_officer_slot": false,
           "level": 43,
           "ship_xp": 176000
@@ -3697,13 +3697,13 @@
           "ship_xp": 183000
         },
         {
-          "ability_bonus": 350,
-          "additional_officer_slot": true,
+          "ability_bonus": 350.0,
+          "additional_officer_slot": false,
           "level": 45,
           "ship_xp": 200000
         }
       ]
     }
   ],
-  "img_url": "./assets/vi_dar.png"
+  "img_url": "./assets/vidar.png"
 }

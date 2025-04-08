@@ -6,7 +6,7 @@
   "faction": "romulan",
   "rarity": "uncommon",
   "blueprints": {
-    "cost": 0,
+    "cost": 12000,
     "quantity": 150
   },
   "ship_ability": {
@@ -212,7 +212,7 @@
         },
         {
           "ability_bonus": 0.2,
-          "additional_officer_slot": true,
+          "additional_officer_slot": false,
           "level": 5,
           "ship_xp": 653402
         }
@@ -220,12 +220,12 @@
       "initial_build_cost": {
         "resources": [
           {
-            "type": "\u03c3-dilithium",
-            "value": 364
-          },
-          {
             "type": "\u03c3-tritanium",
             "value": 43400
+          },
+          {
+            "type": "\u03c3-dilithium",
+            "value": 364
           }
         ],
         "materials": [
@@ -250,20 +250,20 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 3400
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 458100
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 3400
               }
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 14500,
+                "type": "ore",
+                "value": 9300,
                 "grade": 6,
-                "rarity": "uncommon"
+                "rarity": "common"
               },
               {
                 "type": "gas",
@@ -272,27 +272,27 @@
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 9300,
+                "type": "gas",
+                "value": 14500,
                 "grade": 6,
-                "rarity": "common"
+                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Common Explorer Parts",
+                "type": "6\u2605 common explorer parts",
                 "value": 92200
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 4
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 279
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 4
             }
           ],
           "additional_info": {
@@ -326,43 +326,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 2000
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 269500
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 2000
               }
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 27400,
+                "type": "ore",
+                "value": 7300,
                 "grade": 6,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 7300,
+                "type": "gas",
+                "value": 27400,
                 "grade": 6,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Common Explorer Parts",
+                "type": "6\u2605 common explorer parts",
                 "value": 61500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 2
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 186
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 2
             }
           ],
           "additional_info": {
@@ -379,43 +379,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 4000
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 538900
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 4000
               }
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 17400,
+                "type": "ore",
+                "value": 12500,
                 "grade": 6,
                 "rarity": "uncommon"
               },
               {
-                "type": "ore",
-                "value": 12500,
+                "type": "gas",
+                "value": 17400,
                 "grade": 6,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Explorer Parts",
+                "type": "6\u2605 uncommon explorer parts",
                 "value": 128100
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 5
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 371
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 5
             }
           ],
           "additional_info": {
@@ -449,43 +449,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 600
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 80800
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 600
               }
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 7800,
+                "type": "ore",
+                "value": 2100,
                 "grade": 6,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 2100,
+                "type": "gas",
+                "value": 7800,
                 "grade": 6,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Common Explorer Parts",
+                "type": "6\u2605 common explorer parts",
                 "value": 20500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 1
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 56
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 1
             }
           ],
           "additional_info": {
@@ -504,43 +504,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 1600
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 215600
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 1600
               }
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 19600,
+                "type": "ore",
+                "value": 5200,
                 "grade": 6,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 5200,
+                "type": "gas",
+                "value": 19600,
                 "grade": 6,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Common Explorer Parts",
+                "type": "6\u2605 common explorer parts",
                 "value": 41000
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 2
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 130
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 2
             }
           ],
           "additional_info": {
@@ -557,20 +557,20 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 3000
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 404200
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 3000
               }
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 13000,
+                "type": "ore",
+                "value": 9300,
                 "grade": 6,
-                "rarity": "uncommon"
+                "rarity": "common"
               },
               {
                 "type": "gas",
@@ -579,27 +579,27 @@
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 9300,
+                "type": "gas",
+                "value": 13000,
                 "grade": 6,
-                "rarity": "common"
+                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Common Explorer Parts",
+                "type": "6\u2605 common explorer parts",
                 "value": 82000
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 4
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 279
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 4
             }
           ],
           "additional_info": {
@@ -616,43 +616,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 2000
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 269500
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 2000
               }
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 27400,
+                "type": "ore",
+                "value": 7300,
                 "grade": 6,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 7300,
+                "type": "gas",
+                "value": 27400,
                 "grade": 6,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Common Explorer Parts",
+                "type": "6\u2605 common explorer parts",
                 "value": 61500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 2
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 186
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 2
             }
           ],
           "additional_info": {
@@ -691,7 +691,7 @@
         },
         {
           "ability_bonus": 0.25,
-          "additional_officer_slot": true,
+          "additional_officer_slot": false,
           "level": 10,
           "ship_xp": 1932774
         }
@@ -708,20 +708,20 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 6500
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 879500
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 6500
               }
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 22900,
+                "type": "ore",
+                "value": 18600,
                 "grade": 6,
-                "rarity": "uncommon"
+                "rarity": "common"
               },
               {
                 "type": "gas",
@@ -730,27 +730,27 @@
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 18600,
+                "type": "gas",
+                "value": 22900,
                 "grade": 6,
-                "rarity": "common"
+                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Common Explorer Parts",
+                "type": "6\u2605 common explorer parts",
                 "value": 274600
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 29
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 2314
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 29
             }
           ],
           "additional_info": {
@@ -784,18 +784,18 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 3800
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 517400
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 3800
               }
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 54700,
+                "type": "ore",
+                "value": 14500,
                 "grade": 6,
                 "rarity": "common"
               },
@@ -806,27 +806,27 @@
                 "rarity": "uncommon"
               },
               {
-                "type": "ore",
-                "value": 14500,
+                "type": "gas",
+                "value": 54700,
                 "grade": 6,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Explorer Parts",
+                "type": "6\u2605 uncommon explorer parts",
                 "value": 40200
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 20
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 1542
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 20
             }
           ],
           "additional_info": {
@@ -843,43 +843,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 7600
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 1034700
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 7600
               }
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 27500,
+                "type": "ore",
+                "value": 6500,
                 "grade": 6,
                 "rarity": "uncommon"
               },
               {
-                "type": "ore",
-                "value": 6500,
+                "type": "gas",
+                "value": 27500,
                 "grade": 6,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Explorer Parts",
+                "type": "6\u2605 uncommon explorer parts",
                 "value": 73600
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 39
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 3085
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 39
             }
           ],
           "additional_info": {
@@ -913,43 +913,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 1100
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 155200
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 1100
               }
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 15600,
+                "type": "ore",
+                "value": 4100,
                 "grade": 6,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 4100,
+                "type": "gas",
+                "value": 15600,
                 "grade": 6,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Common Explorer Parts",
+                "type": "6\u2605 common explorer parts",
                 "value": 61000
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 6
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 463
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 6
             }
           ],
           "additional_info": {
@@ -968,43 +968,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 3100
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 413900
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 3100
               }
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 39100,
+                "type": "ore",
+                "value": 10300,
                 "grade": 6,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 10300,
+                "type": "gas",
+                "value": 39100,
                 "grade": 6,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Common Explorer Parts",
+                "type": "6\u2605 common explorer parts",
                 "value": 122000
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 14
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 1080
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 14
             }
           ],
           "additional_info": {
@@ -1021,43 +1021,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 5700
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 776000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 5700
               }
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 22900,
+                "type": "ore",
+                "value": 5900,
                 "grade": 6,
                 "rarity": "uncommon"
               },
               {
-                "type": "ore",
-                "value": 5900,
+                "type": "gas",
+                "value": 22900,
                 "grade": 6,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Explorer Parts",
+                "type": "6\u2605 uncommon explorer parts",
                 "value": 53600
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 29
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 2314
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 29
             }
           ],
           "additional_info": {
@@ -1074,18 +1074,18 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 3800
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 517400
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 3800
               }
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 54700,
+                "type": "ore",
+                "value": 14500,
                 "grade": 6,
                 "rarity": "common"
               },
@@ -1096,27 +1096,27 @@
                 "rarity": "uncommon"
               },
               {
-                "type": "ore",
-                "value": 14500,
+                "type": "gas",
+                "value": 54700,
                 "grade": 6,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Explorer Parts",
+                "type": "6\u2605 uncommon explorer parts",
                 "value": 40200
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 20
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 1542
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 20
             }
           ],
           "additional_info": {
@@ -1172,43 +1172,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 8900
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 1209300
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 8900
               }
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 25100,
+                "type": "ore",
+                "value": 5100,
                 "grade": 6,
                 "rarity": "uncommon"
               },
               {
-                "type": "ore",
-                "value": 5100,
+                "type": "gas",
+                "value": 25100,
                 "grade": 6,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Common Explorer Parts",
+                "type": "6\u2605 common explorer parts",
                 "value": 377600
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 34
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 2674
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 34
             }
           ],
           "additional_info": {
@@ -1242,20 +1242,20 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 5300
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 711400
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 5300
               }
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 16000,
+                "type": "ore",
+                "value": 37000,
                 "grade": 6,
-                "rarity": "uncommon"
+                "rarity": "common"
               },
               {
                 "type": "ore",
@@ -1264,27 +1264,27 @@
                 "rarity": "uncommon"
               },
               {
-                "type": "ore",
-                "value": 37000,
+                "type": "gas",
+                "value": 16000,
                 "grade": 6,
-                "rarity": "common"
+                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Explorer Parts",
+                "type": "6\u2605 uncommon explorer parts",
                 "value": 55200
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 23
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 1783
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 23
             }
           ],
           "additional_info": {
@@ -1301,15 +1301,21 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 10500
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 1422700
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 10500
               }
             ],
             "materials": [
+              {
+                "type": "ore",
+                "value": 5700,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
               {
                 "type": "gas",
                 "value": 27400,
@@ -1321,29 +1327,23 @@
                 "value": 32500,
                 "grade": 6,
                 "rarity": "rare"
-              },
-              {
-                "type": "ore",
-                "value": 5700,
-                "grade": 6,
-                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Explorer Parts",
+                "type": "6\u2605 uncommon explorer parts",
                 "value": 101300
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 45
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 3566
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 45
             }
           ],
           "additional_info": {
@@ -1377,43 +1377,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 1600
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 213400
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 1600
               }
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 132100,
+                "type": "ore",
+                "value": 10600,
                 "grade": 6,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 10600,
+                "type": "gas",
+                "value": 132100,
                 "grade": 6,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Common Explorer Parts",
+                "type": "6\u2605 common explorer parts",
                 "value": 83900
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 7
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 535
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 7
             }
           ],
           "additional_info": {
@@ -1432,43 +1432,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 4200
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 569100
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 4200
               }
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 330100,
+                "type": "ore",
+                "value": 26400,
                 "grade": 6,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 26400,
+                "type": "gas",
+                "value": 330100,
                 "grade": 6,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Common Explorer Parts",
+                "type": "6\u2605 common explorer parts",
                 "value": 167800
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 16
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 1248
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 16
             }
           ],
           "additional_info": {
@@ -1485,43 +1485,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 7900
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 1067100
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 7900
               }
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 22800,
+                "type": "ore",
+                "value": 5100,
                 "grade": 6,
                 "rarity": "uncommon"
               },
               {
-                "type": "ore",
-                "value": 5100,
+                "type": "gas",
+                "value": 22800,
                 "grade": 6,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Explorer Parts",
+                "type": "6\u2605 uncommon explorer parts",
                 "value": 73600
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 34
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 2674
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 34
             }
           ],
           "additional_info": {
@@ -1538,20 +1538,20 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 5300
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 711400
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 5300
               }
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 16000,
+                "type": "ore",
+                "value": 37000,
                 "grade": 6,
-                "rarity": "uncommon"
+                "rarity": "common"
               },
               {
                 "type": "ore",
@@ -1560,27 +1560,27 @@
                 "rarity": "uncommon"
               },
               {
-                "type": "ore",
-                "value": 37000,
+                "type": "gas",
+                "value": 16000,
                 "grade": 6,
-                "rarity": "common"
+                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Explorer Parts",
+                "type": "6\u2605 uncommon explorer parts",
                 "value": 55200
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 23
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 1783
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 23
             }
           ],
           "additional_info": {
@@ -1619,7 +1619,7 @@
         },
         {
           "ability_bonus": 0.36,
-          "additional_officer_slot": true,
+          "additional_officer_slot": false,
           "level": 20,
           "ship_xp": 6631549
         }
@@ -1636,43 +1636,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 14500
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 1963200
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 14500
               }
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 41900,
+                "type": "ore",
+                "value": 7000,
                 "grade": 6,
                 "rarity": "uncommon"
               },
               {
-                "type": "ore",
-                "value": 7000,
+                "type": "gas",
+                "value": 41900,
                 "grade": 6,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Explorer Parts",
+                "type": "6\u2605 uncommon explorer parts",
                 "value": 118300
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 67
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 5202
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 67
             }
           ],
           "additional_info": {
@@ -1706,20 +1706,20 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 8500
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 1154800
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 8500
               }
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 26700,
+                "type": "ore",
+                "value": 51100,
                 "grade": 6,
-                "rarity": "uncommon"
+                "rarity": "common"
               },
               {
                 "type": "ore",
@@ -1728,27 +1728,27 @@
                 "rarity": "uncommon"
               },
               {
-                "type": "ore",
-                "value": 51100,
+                "type": "gas",
+                "value": 26700,
                 "grade": 6,
-                "rarity": "common"
+                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Explorer Parts",
+                "type": "6\u2605 uncommon explorer parts",
                 "value": 78900
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 45
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 3468
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 45
             }
           ],
           "additional_info": {
@@ -1765,43 +1765,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 17100
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 2309600
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 17100
               }
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 45700,
+                "type": "ore",
+                "value": 7800,
                 "grade": 6,
                 "rarity": "uncommon"
               },
               {
-                "type": "ore",
-                "value": 7800,
+                "type": "gas",
+                "value": 45700,
                 "grade": 6,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Explorer Parts",
+                "type": "6\u2605 rare explorer parts",
                 "value": 12700
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 89
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 6937
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 89
             }
           ],
           "additional_info": {
@@ -1835,43 +1835,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 2600
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 346400
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 2600
               }
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 182500,
+                "type": "ore",
+                "value": 14600,
                 "grade": 6,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 14600,
+                "type": "gas",
+                "value": 182500,
                 "grade": 6,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Common Explorer Parts",
+                "type": "6\u2605 common explorer parts",
                 "value": 464400
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 13
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 1040
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 13
             }
           ],
           "additional_info": {
@@ -1890,43 +1890,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 6800
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 923900
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 6800
               }
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 456200,
+                "type": "ore",
+                "value": 36500,
                 "grade": 6,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 36500,
+                "type": "gas",
+                "value": 456200,
                 "grade": 6,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Common Explorer Parts",
+                "type": "6\u2605 common explorer parts",
                 "value": 928700
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 31
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 2428
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 31
             }
           ],
           "additional_info": {
@@ -1943,43 +1943,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 12800
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 1732200
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 12800
               }
             ],
             "materials": [
-              {
-                "type": "gas",
-                "value": 44500,
-                "grade": 6,
-                "rarity": "rare"
-              },
               {
                 "type": "ore",
                 "value": 7000,
                 "grade": 6,
                 "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 44500,
+                "grade": 6,
+                "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Explorer Parts",
+                "type": "6\u2605 rare explorer parts",
                 "value": 9300
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 67
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 5202
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 67
             }
           ],
           "additional_info": {
@@ -1996,20 +1996,20 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 8500
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 1154800
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 8500
               }
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 26700,
+                "type": "ore",
+                "value": 51100,
                 "grade": 6,
-                "rarity": "uncommon"
+                "rarity": "common"
               },
               {
                 "type": "ore",
@@ -2018,27 +2018,27 @@
                 "rarity": "uncommon"
               },
               {
-                "type": "ore",
-                "value": 51100,
+                "type": "gas",
+                "value": 26700,
                 "grade": 6,
-                "rarity": "common"
+                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Explorer Parts",
+                "type": "6\u2605 uncommon explorer parts",
                 "value": 78900
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 45
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 3468
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 45
             }
           ],
           "additional_info": {
@@ -2094,43 +2094,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 21900
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 2984100
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 21900
               }
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 53700,
+                "type": "ore",
+                "value": 8700,
                 "grade": 6,
                 "rarity": "uncommon"
               },
               {
-                "type": "ore",
-                "value": 8700,
+                "type": "gas",
+                "value": 53700,
                 "grade": 6,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Explorer Parts",
+                "type": "6\u2605 uncommon explorer parts",
                 "value": 151900
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 107
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 8466
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 107
             }
           ],
           "additional_info": {
@@ -2164,18 +2164,18 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 12900
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 1755300
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 12900
               }
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 34200,
+                "type": "ore",
+                "value": 6800,
                 "grade": 6,
                 "rarity": "uncommon"
               },
@@ -2186,27 +2186,27 @@
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 6800,
+                "type": "gas",
+                "value": 34200,
                 "grade": 6,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Explorer Parts",
+                "type": "6\u2605 uncommon explorer parts",
                 "value": 101300
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 72
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 5644
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 72
             }
           ],
           "additional_info": {
@@ -2223,43 +2223,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 25700
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 3510600
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 25700
               }
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 58600,
+                "type": "ore",
+                "value": 9700,
                 "grade": 6,
                 "rarity": "uncommon"
               },
               {
-                "type": "ore",
-                "value": 9700,
+                "type": "gas",
+                "value": 58600,
                 "grade": 6,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Explorer Parts",
+                "type": "6\u2605 rare explorer parts",
                 "value": 16400
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 143
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 11288
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 143
             }
           ],
           "additional_info": {
@@ -2293,43 +2293,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 3900
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 526600
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 3900
               }
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 234000,
+                "type": "ore",
+                "value": 56100,
                 "grade": 6,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 56100,
+                "type": "gas",
+                "value": 234000,
                 "grade": 6,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Common Explorer Parts",
+                "type": "6\u2605 common explorer parts",
                 "value": 596700
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 21
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 1693
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 21
             }
           ],
           "additional_info": {
@@ -2348,43 +2348,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 10300
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 1404300
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 10300
               }
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 585100,
+                "type": "ore",
+                "value": 140400,
                 "grade": 6,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 140400,
+                "type": "gas",
+                "value": 585100,
                 "grade": 6,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Common Explorer Parts",
+                "type": "6\u2605 common explorer parts",
                 "value": 1193300
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 50
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 3951
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 50
             }
           ],
           "additional_info": {
@@ -2401,15 +2401,21 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 19300
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 2633000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 19300
               }
             ],
             "materials": [
+              {
+                "type": "ore",
+                "value": 8700,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
               {
                 "type": "ore",
                 "value": 4900,
@@ -2421,29 +2427,23 @@
                 "value": 57000,
                 "grade": 6,
                 "rarity": "rare"
-              },
-              {
-                "type": "ore",
-                "value": 8700,
-                "grade": 6,
-                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Explorer Parts",
+                "type": "6\u2605 rare explorer parts",
                 "value": 11900
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 107
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 8466
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 107
             }
           ],
           "additional_info": {
@@ -2460,18 +2460,18 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 12900
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 1755300
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 12900
               }
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 34200,
+                "type": "ore",
+                "value": 6800,
                 "grade": 6,
                 "rarity": "uncommon"
               },
@@ -2482,27 +2482,27 @@
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 6800,
+                "type": "gas",
+                "value": 34200,
                 "grade": 6,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Explorer Parts",
+                "type": "6\u2605 uncommon explorer parts",
                 "value": 101300
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 72
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 5644
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 72
             }
           ],
           "additional_info": {
@@ -2558,43 +2558,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 26500
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 3612300
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 26500
               }
             ],
             "materials": [
-              {
-                "type": "gas",
-                "value": 65000,
-                "grade": 6,
-                "rarity": "uncommon"
-              },
               {
                 "type": "ore",
                 "value": 2500,
                 "grade": 6,
                 "rarity": "rare"
+              },
+              {
+                "type": "gas",
+                "value": 65000,
+                "grade": 6,
+                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Explorer Parts",
+                "type": "6\u2605 uncommon explorer parts",
                 "value": 100300
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 115
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 9044
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 115
             }
           ],
           "additional_info": {
@@ -2628,18 +2628,18 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 15600
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 2124900
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 15600
               }
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 41400,
+                "type": "ore",
+                "value": 14400,
                 "grade": 6,
                 "rarity": "uncommon"
               },
@@ -2650,27 +2650,27 @@
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 14400,
+                "type": "gas",
+                "value": 41400,
                 "grade": 6,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Explorer Parts",
+                "type": "6\u2605 uncommon explorer parts",
                 "value": 66900
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 77
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 6029
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 77
             }
           ],
           "additional_info": {
@@ -2687,26 +2687,26 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 31200
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 4249700
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 31200
               }
             ],
             "materials": [
-              {
-                "type": "gas",
-                "value": 70900,
-                "grade": 6,
-                "rarity": "uncommon"
-              },
               {
                 "type": "ore",
                 "value": 2800,
                 "grade": 6,
                 "rarity": "rare"
+              },
+              {
+                "type": "gas",
+                "value": 70900,
+                "grade": 6,
+                "rarity": "uncommon"
               },
               {
                 "type": "gas",
@@ -2717,19 +2717,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Explorer Parts",
+                "type": "6\u2605 uncommon explorer parts",
                 "value": 122600
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 153
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 12059
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 153
             }
           ],
           "additional_info": {
@@ -2763,18 +2763,18 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 4700
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 637500
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 4700
               }
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 283300,
+                "type": "ore",
+                "value": 68000,
                 "grade": 6,
                 "rarity": "common"
               },
@@ -2785,27 +2785,27 @@
                 "rarity": "uncommon"
               },
               {
-                "type": "ore",
-                "value": 68000,
+                "type": "gas",
+                "value": 283300,
                 "grade": 6,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Explorer Parts",
+                "type": "6\u2605 uncommon explorer parts",
                 "value": 22300
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 23
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 1809
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 23
             }
           ],
           "additional_info": {
@@ -2824,18 +2824,18 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 12500
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 1699900
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 12500
               }
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 708200,
+                "type": "ore",
+                "value": 169900,
                 "grade": 6,
                 "rarity": "common"
               },
@@ -2846,27 +2846,27 @@
                 "rarity": "uncommon"
               },
               {
-                "type": "ore",
-                "value": 169900,
+                "type": "gas",
+                "value": 708200,
                 "grade": 6,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Explorer Parts",
+                "type": "6\u2605 uncommon explorer parts",
                 "value": 44600
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 54
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 4221
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 54
             }
           ],
           "additional_info": {
@@ -2883,15 +2883,21 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 23400
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 3187300
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 23400
               }
             ],
             "materials": [
+              {
+                "type": "ore",
+                "value": 18500,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
               {
                 "type": "ore",
                 "value": 2500,
@@ -2903,29 +2909,23 @@
                 "value": 32800,
                 "grade": 6,
                 "rarity": "rare"
-              },
-              {
-                "type": "ore",
-                "value": 18500,
-                "grade": 6,
-                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Explorer Parts",
+                "type": "6\u2605 uncommon explorer parts",
                 "value": 89200
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 115
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 9044
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 115
             }
           ],
           "additional_info": {
@@ -2942,18 +2942,18 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 15600
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 2124900
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 15600
               }
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 41400,
+                "type": "ore",
+                "value": 14400,
                 "grade": 6,
                 "rarity": "uncommon"
               },
@@ -2964,27 +2964,27 @@
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 14400,
+                "type": "gas",
+                "value": 41400,
                 "grade": 6,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Explorer Parts",
+                "type": "6\u2605 uncommon explorer parts",
                 "value": 66900
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 77
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 6029
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 77
             }
           ],
           "additional_info": {
@@ -3023,7 +3023,7 @@
         },
         {
           "ability_bonus": 0.6,
-          "additional_officer_slot": true,
+          "additional_officer_slot": false,
           "level": 35,
           "ship_xp": 15163333
         }
@@ -3040,12 +3040,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 38800
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 5130500
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 38800
               }
             ],
             "materials": [
@@ -3064,23 +3064,23 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Common Explorer Parts",
+                "type": "6\u2605 common explorer parts",
                 "value": 1337700
               },
               {
-                "type": "6\u2605 Uncommon Explorer Parts",
+                "type": "6\u2605 uncommon explorer parts",
                 "value": 123800
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 171
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 12756
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 171
             }
           ],
           "additional_info": {
@@ -3114,18 +3114,18 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 22800
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 3017900
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 22800
               }
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 68100,
+                "type": "ore",
+                "value": 17800,
                 "grade": 6,
                 "rarity": "uncommon"
               },
@@ -3136,27 +3136,27 @@
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 17800,
+                "type": "gas",
+                "value": 68100,
                 "grade": 6,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Explorer Parts",
+                "type": "6\u2605 uncommon explorer parts",
                 "value": 82500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 114
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 8504
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 114
             }
           ],
           "additional_info": {
@@ -3173,12 +3173,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 45700
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 6035800
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 45700
               }
             ],
             "materials": [
@@ -3197,19 +3197,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Explorer Parts",
+                "type": "6\u2605 uncommon explorer parts",
                 "value": 151300
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 228
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 17008
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 228
             }
           ],
           "additional_info": {
@@ -3243,18 +3243,18 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 6900
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 905400
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 6900
               }
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 349400,
+                "type": "ore",
+                "value": 83800,
                 "grade": 6,
                 "rarity": "common"
               },
@@ -3265,27 +3265,27 @@
                 "rarity": "uncommon"
               },
               {
-                "type": "ore",
-                "value": 83800,
+                "type": "gas",
+                "value": 349400,
                 "grade": 6,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Explorer Parts",
+                "type": "6\u2605 uncommon explorer parts",
                 "value": 27500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 34
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 2551
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 34
             }
           ],
           "additional_info": {
@@ -3304,18 +3304,18 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 18300
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 2414300
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 18300
               }
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 873500,
+                "type": "ore",
+                "value": 209500,
                 "grade": 6,
                 "rarity": "common"
               },
@@ -3326,27 +3326,27 @@
                 "rarity": "uncommon"
               },
               {
-                "type": "ore",
-                "value": 209500,
+                "type": "gas",
+                "value": 873500,
                 "grade": 6,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Explorer Parts",
+                "type": "6\u2605 uncommon explorer parts",
                 "value": 55000
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 80
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 5953
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 80
             }
           ],
           "additional_info": {
@@ -3363,15 +3363,21 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 34300
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 4526900
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 34300
               }
             ],
             "materials": [
+              {
+                "type": "ore",
+                "value": 22800,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
               {
                 "type": "ore",
                 "value": 4900,
@@ -3383,29 +3389,23 @@
                 "value": 20200,
                 "grade": 6,
                 "rarity": "rare"
-              },
-              {
-                "type": "ore",
-                "value": 22800,
-                "grade": 6,
-                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Explorer Parts",
+                "type": "6\u2605 uncommon explorer parts",
                 "value": 110000
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 171
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 12756
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 171
             }
           ],
           "additional_info": {
@@ -3422,18 +3422,18 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 22800
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 3017900
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 22800
               }
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 68100,
+                "type": "ore",
+                "value": 17800,
                 "grade": 6,
                 "rarity": "uncommon"
               },
@@ -3444,27 +3444,27 @@
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 17800,
+                "type": "gas",
+                "value": 68100,
                 "grade": 6,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Explorer Parts",
+                "type": "6\u2605 uncommon explorer parts",
                 "value": 82500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 114
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 8504
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 114
             }
           ],
           "additional_info": {
@@ -3520,12 +3520,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 59700
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 7878900
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 59700
               }
             ],
             "materials": [
@@ -3538,23 +3538,23 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Common Explorer Parts",
+                "type": "6\u2605 common explorer parts",
                 "value": 2054300
               },
               {
-                "type": "6\u2605 Uncommon Explorer Parts",
+                "type": "6\u2605 uncommon explorer parts",
                 "value": 232300
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 181
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 13486
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 181
             }
           ],
           "additional_info": {
@@ -3588,15 +3588,21 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 35100
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 4634700
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 35100
               }
             ],
             "materials": [
+              {
+                "type": "ore",
+                "value": 39600,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
               {
                 "type": "ore",
                 "value": 7100,
@@ -3608,29 +3614,23 @@
                 "value": 17900,
                 "grade": 6,
                 "rarity": "rare"
-              },
-              {
-                "type": "ore",
-                "value": 39600,
-                "grade": 6,
-                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Explorer Parts",
+                "type": "6\u2605 uncommon explorer parts",
                 "value": 154900
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 120
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 8991
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 120
             }
           ],
           "additional_info": {
@@ -3647,12 +3647,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 70200
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 9269300
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 70200
               }
             ],
             "materials": [
@@ -3671,19 +3671,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Explorer Parts",
+                "type": "6\u2605 rare explorer parts",
                 "value": 37500
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 241
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 17982
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 241
             }
           ],
           "additional_info": {
@@ -3717,18 +3717,18 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 10500
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 1390400
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 10500
               }
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 536600,
+                "type": "ore",
+                "value": 128700,
                 "grade": 6,
                 "rarity": "common"
               },
@@ -3739,27 +3739,27 @@
                 "rarity": "uncommon"
               },
               {
-                "type": "ore",
-                "value": 128700,
+                "type": "gas",
+                "value": 536600,
                 "grade": 6,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Explorer Parts",
+                "type": "6\u2605 uncommon explorer parts",
                 "value": 51600
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 36
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 2697
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 36
             }
           ],
           "additional_info": {
@@ -3778,18 +3778,18 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 28100
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 3707700
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 28100
               }
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 1341400,
+                "type": "ore",
+                "value": 321800,
                 "grade": 6,
                 "rarity": "common"
               },
@@ -3800,27 +3800,27 @@
                 "rarity": "uncommon"
               },
               {
-                "type": "ore",
-                "value": 321800,
+                "type": "gas",
+                "value": 1341400,
                 "grade": 6,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Explorer Parts",
+                "type": "6\u2605 uncommon explorer parts",
                 "value": 103300
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 84
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 6294
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 84
             }
           ],
           "additional_info": {
@@ -3837,12 +3837,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 52600
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 6952000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 52600
               }
             ],
             "materials": [
@@ -3855,23 +3855,23 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Explorer Parts",
-                "value": 27300
+                "type": "6\u2605 uncommon explorer parts",
+                "value": 232300
               },
               {
-                "type": "6\u2605 Uncommon Explorer Parts",
-                "value": 232300
+                "type": "6\u2605 rare explorer parts",
+                "value": 27300
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 181
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 13486
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 181
             }
           ],
           "additional_info": {
@@ -3888,18 +3888,18 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 35100
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 4634700
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 35100
               }
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 538100,
+                "type": "ore",
+                "value": 39600,
                 "grade": 6,
                 "rarity": "uncommon"
               },
@@ -3910,27 +3910,27 @@
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 39600,
+                "type": "gas",
+                "value": 538100,
                 "grade": 6,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Explorer Parts",
+                "type": "6\u2605 uncommon explorer parts",
                 "value": 154900
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 120
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 8991
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 120
             }
           ],
           "additional_info": {
@@ -3986,12 +3986,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 100500
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 13349700
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 100500
               }
             ],
             "materials": [
@@ -4004,23 +4004,23 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Common Explorer Parts",
+                "type": "6\u2605 common explorer parts",
                 "value": 2180000
               },
               {
-                "type": "6\u2605 Uncommon Explorer Parts",
+                "type": "6\u2605 uncommon explorer parts",
                 "value": 321300
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 255
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 19234
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 255
             }
           ],
           "additional_info": {
@@ -4054,12 +4054,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 100500
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 13349700
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 100500
               }
             ],
             "materials": [
@@ -4072,23 +4072,23 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Explorer Parts",
-                "value": 29400
+                "type": "6\u2605 common explorer parts",
+                "value": 2180000
               },
               {
-                "type": "6\u2605 Common Explorer Parts",
-                "value": 2180000
+                "type": "6\u2605 rare explorer parts",
+                "value": 29400
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 255
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 19234
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 255
             }
           ],
           "additional_info": {
@@ -4122,12 +4122,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 59100
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 7852800
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 59100
               }
             ],
             "materials": [
@@ -4146,19 +4146,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Explorer Parts",
+                "type": "6\u2605 uncommon explorer parts",
                 "value": 214200
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 170
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 12823
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 170
             }
           ],
           "additional_info": {
@@ -4175,12 +4175,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 118300
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 15705500
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 118300
               }
             ],
             "materials": [
@@ -4193,23 +4193,23 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Explorer Parts",
-                "value": 36000
+                "type": "6\u2605 uncommon explorer parts",
+                "value": 357000
               },
               {
-                "type": "6\u2605 Uncommon Explorer Parts",
-                "value": 357000
+                "type": "6\u2605 rare explorer parts",
+                "value": 36000
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 340
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 25645
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 340
             }
           ],
           "additional_info": {
@@ -4243,47 +4243,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 17700
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 2355800
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 17700
               }
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 758400,
+                "type": "ore",
+                "value": 181900,
                 "grade": 6,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 181900,
+                "type": "gas",
+                "value": 758400,
                 "grade": 6,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Common Explorer Parts",
+                "type": "6\u2605 common explorer parts",
                 "value": 484500
               },
               {
-                "type": "6\u2605 Uncommon Explorer Parts",
+                "type": "6\u2605 uncommon explorer parts",
                 "value": 71400
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 51
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 3847
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 51
             }
           ],
           "additional_info": {
@@ -4302,47 +4302,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 47300
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 6282200
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 47300
               }
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 1895900,
+                "type": "ore",
+                "value": 454800,
                 "grade": 6,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 454800,
+                "type": "gas",
+                "value": 1895900,
                 "grade": 6,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Common Explorer Parts",
+                "type": "6\u2605 common explorer parts",
                 "value": 968900
               },
               {
-                "type": "6\u2605 Uncommon Explorer Parts",
+                "type": "6\u2605 uncommon explorer parts",
                 "value": 142800
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 119
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 8976
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 119
             }
           ],
           "additional_info": {
@@ -4359,12 +4359,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 88700
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 11779100
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 88700
               }
             ],
             "materials": [
@@ -4377,23 +4377,23 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Explorer Parts",
-                "value": 26200
+                "type": "6\u2605 uncommon explorer parts",
+                "value": 321300
               },
               {
-                "type": "6\u2605 Uncommon Explorer Parts",
-                "value": 321300
+                "type": "6\u2605 rare explorer parts",
+                "value": 26200
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 255
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 19234
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 255
             }
           ],
           "additional_info": {
@@ -4410,43 +4410,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 59100
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 7852800
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 59100
               }
             ],
             "materials": [
-              {
-                "type": "gas",
-                "value": 759300,
-                "grade": 6,
-                "rarity": "uncommon"
-              },
               {
                 "type": "ore",
                 "value": 18300,
                 "grade": 6,
                 "rarity": "rare"
+              },
+              {
+                "type": "gas",
+                "value": 759300,
+                "grade": 6,
+                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Explorer Parts",
+                "type": "6\u2605 uncommon explorer parts",
                 "value": 214200
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 170
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 12823
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 170
             }
           ],
           "additional_info": {
@@ -4502,12 +4502,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 142400
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 18912100
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 142400
               }
             ],
             "materials": [
@@ -4520,23 +4520,23 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Explorer Parts",
-                "value": 31600
+                "type": "6\u2605 uncommon explorer parts",
+                "value": 380700
               },
               {
-                "type": "6\u2605 Uncommon Explorer Parts",
-                "value": 380700
+                "type": "6\u2605 rare explorer parts",
+                "value": 31600
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 347
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 25454
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 347
             }
           ],
           "additional_info": {
@@ -4570,12 +4570,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 83800
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 11124700
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 83800
               }
             ],
             "materials": [
@@ -4594,19 +4594,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Explorer Parts",
+                "type": "6\u2605 uncommon explorer parts",
                 "value": 253800
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 231
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 16969
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 231
             }
           ],
           "additional_info": {
@@ -4623,12 +4623,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 167500
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 22249500
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 167500
               }
             ],
             "materials": [
@@ -4647,23 +4647,23 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Explorer Parts",
-                "value": 38600
+                "type": "6\u2605 uncommon explorer parts",
+                "value": 423000
               },
               {
-                "type": "6\u2605 Uncommon Explorer Parts",
-                "value": 423000
+                "type": "6\u2605 rare explorer parts",
+                "value": 38600
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 462
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 33938
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 462
             }
           ],
           "additional_info": {
@@ -4697,47 +4697,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 25100
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 3337400
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 25100
               }
             ],
             "materials": [
-              {
-                "type": "gas",
-                "value": 153700,
-                "grade": 6,
-                "rarity": "uncommon"
-              },
               {
                 "type": "ore",
                 "value": 257700,
                 "grade": 6,
                 "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 153700,
+                "grade": 6,
+                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Common Explorer Parts",
+                "type": "6\u2605 common explorer parts",
                 "value": 2745200
               },
               {
-                "type": "6\u2605 Uncommon Explorer Parts",
+                "type": "6\u2605 uncommon explorer parts",
                 "value": 84600
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 69
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 5091
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 69
             }
           ],
           "additional_info": {
@@ -4756,47 +4756,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 67000
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 8899800
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 67000
               }
             ],
             "materials": [
-              {
-                "type": "gas",
-                "value": 384200,
-                "grade": 6,
-                "rarity": "uncommon"
-              },
               {
                 "type": "ore",
                 "value": 644300,
                 "grade": 6,
                 "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 384200,
+                "grade": 6,
+                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Common Explorer Parts",
+                "type": "6\u2605 common explorer parts",
                 "value": 5490500
               },
               {
-                "type": "6\u2605 Uncommon Explorer Parts",
+                "type": "6\u2605 uncommon explorer parts",
                 "value": 169200
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 162
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 11878
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 162
             }
           ],
           "additional_info": {
@@ -4813,12 +4813,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 125600
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 16687100
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 125600
               }
             ],
             "materials": [
@@ -4837,23 +4837,23 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Explorer Parts",
-                "value": 28100
+                "type": "6\u2605 uncommon explorer parts",
+                "value": 380700
               },
               {
-                "type": "6\u2605 Uncommon Explorer Parts",
-                "value": 380700
+                "type": "6\u2605 rare explorer parts",
+                "value": 28100
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 347
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 25454
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 347
             }
           ],
           "additional_info": {
@@ -4870,43 +4870,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 83800
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 11124700
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 83800
               }
             ],
             "materials": [
-              {
-                "type": "gas",
-                "value": 537800,
-                "grade": 6,
-                "rarity": "uncommon"
-              },
               {
                 "type": "ore",
                 "value": 10700,
                 "grade": 6,
                 "rarity": "rare"
+              },
+              {
+                "type": "gas",
+                "value": 537800,
+                "grade": 6,
+                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Explorer Parts",
+                "type": "6\u2605 uncommon explorer parts",
                 "value": 253800
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 231
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 16969
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 231
             }
           ],
           "additional_info": {
@@ -4944,8 +4944,8 @@
           "ship_xp": 37357851
         },
         {
-          "ability_bonus": 1,
-          "additional_officer_slot": true,
+          "ability_bonus": 1.0,
+          "additional_officer_slot": false,
           "level": 55,
           "ship_xp": 39173442
         }
@@ -4962,12 +4962,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 235800
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 30625800
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 235800
               }
             ],
             "materials": [
@@ -4986,19 +4986,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Explorer Parts",
+                "type": "6\u2605 rare explorer parts",
                 "value": 33200
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 458
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 33916
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 458
             }
           ],
           "additional_info": {
@@ -5032,12 +5032,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 138700
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 18015200
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 138700
               }
             ],
             "materials": [
@@ -5056,19 +5056,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Explorer Parts",
+                "type": "6\u2605 rare explorer parts",
                 "value": 22200
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 306
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 22611
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 306
             }
           ],
           "additional_info": {
@@ -5085,12 +5085,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 277400
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 36030300
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 277400
               }
             ],
             "materials": [
@@ -5109,19 +5109,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Explorer Parts",
+                "type": "6\u2605 rare explorer parts",
                 "value": 36900
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 611
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 45222
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 611
             }
           ],
           "additional_info": {
@@ -5155,47 +5155,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 41600
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 5404500
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 41600
               }
             ],
             "materials": [
-              {
-                "type": "gas",
-                "value": 428900,
-                "grade": 6,
-                "rarity": "uncommon"
-              },
               {
                 "type": "ore",
                 "value": 359500,
                 "grade": 6,
                 "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 428900,
+                "grade": 6,
+                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Common Explorer Parts",
+                "type": "6\u2605 common explorer parts",
                 "value": 3831000
               },
               {
-                "type": "6\u2605 Uncommon Explorer Parts",
+                "type": "6\u2605 uncommon explorer parts",
                 "value": 1081400
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 92
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 6783
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 92
             }
           ],
           "additional_info": {
@@ -5214,47 +5214,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 111000
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 14412100
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 111000
               }
             ],
             "materials": [
-              {
-                "type": "gas",
-                "value": 1072300,
-                "grade": 6,
-                "rarity": "uncommon"
-              },
               {
                 "type": "ore",
                 "value": 898700,
                 "grade": 6,
                 "rarity": "common"
+              },
+              {
+                "type": "gas",
+                "value": 1072300,
+                "grade": 6,
+                "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Common Explorer Parts",
+                "type": "6\u2605 common explorer parts",
                 "value": 7661900
               },
               {
-                "type": "6\u2605 Uncommon Explorer Parts",
+                "type": "6\u2605 uncommon explorer parts",
                 "value": 2162800
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 214
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 15828
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 214
             }
           ],
           "additional_info": {
@@ -5271,12 +5271,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 208100
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 27022700
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 208100
               }
             ],
             "materials": [
@@ -5295,19 +5295,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Explorer Parts",
+                "type": "6\u2605 rare explorer parts",
                 "value": 33200
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 458
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 33916
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 458
             }
           ],
           "additional_info": {
@@ -5324,12 +5324,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 138700
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 18015200
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 138700
               }
             ],
             "materials": [
@@ -5348,19 +5348,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Explorer Parts",
+                "type": "6\u2605 rare explorer parts",
                 "value": 22200
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 306
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 22611
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 306
             }
           ],
           "additional_info": {
@@ -5416,12 +5416,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 368400
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 48058900
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 368400
               }
             ],
             "materials": [
@@ -5440,19 +5440,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Explorer Parts",
+                "type": "6\u2605 rare explorer parts",
                 "value": 44000
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 478
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 35396
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 478
             }
           ],
           "additional_info": {
@@ -5486,12 +5486,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 216700
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 28269900
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 216700
               }
             ],
             "materials": [
@@ -5510,19 +5510,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Explorer Parts",
+                "type": "6\u2605 rare explorer parts",
                 "value": 29400
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 319
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 23597
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 319
             }
           ],
           "additional_info": {
@@ -5539,12 +5539,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 433500
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 56539900
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 433500
               }
             ],
             "materials": [
@@ -5563,19 +5563,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Explorer Parts",
+                "type": "6\u2605 rare explorer parts",
                 "value": 48900
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 638
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 47194
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 638
             }
           ],
           "additional_info": {
@@ -5609,47 +5609,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 65000
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 8481000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 65000
               }
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 568600,
+                "type": "ore",
+                "value": 119200,
                 "grade": 6,
                 "rarity": "uncommon"
               },
               {
-                "type": "ore",
-                "value": 119200,
+                "type": "gas",
+                "value": 568600,
                 "grade": 6,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Common Explorer Parts",
+                "type": "6\u2605 common explorer parts",
                 "value": 5078000
               },
               {
-                "type": "6\u2605 Uncommon Explorer Parts",
+                "type": "6\u2605 uncommon explorer parts",
                 "value": 1432300
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 96
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 7079
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 96
             }
           ],
           "additional_info": {
@@ -5668,47 +5668,47 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 173400
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 22616000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 173400
               }
             ],
             "materials": [
               {
-                "type": "gas",
-                "value": 1421500,
+                "type": "ore",
+                "value": 298000,
                 "grade": 6,
                 "rarity": "uncommon"
               },
               {
-                "type": "ore",
-                "value": 298000,
+                "type": "gas",
+                "value": 1421500,
                 "grade": 6,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Common Explorer Parts",
+                "type": "6\u2605 common explorer parts",
                 "value": 10156100
               },
               {
-                "type": "6\u2605 Uncommon Explorer Parts",
+                "type": "6\u2605 uncommon explorer parts",
                 "value": 2864700
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 223
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 16518
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 223
             }
           ],
           "additional_info": {
@@ -5725,12 +5725,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 325100
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 42404900
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 325100
               }
             ],
             "materials": [
@@ -5749,19 +5749,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Explorer Parts",
+                "type": "6\u2605 rare explorer parts",
                 "value": 44000
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 478
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 35396
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 478
             }
           ],
           "additional_info": {
@@ -5778,12 +5778,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 216700
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 28269900
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 216700
               }
             ],
             "materials": [
@@ -5802,19 +5802,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Explorer Parts",
+                "type": "6\u2605 rare explorer parts",
                 "value": 29400
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 319
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 23597
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 319
             }
           ],
           "additional_info": {
@@ -5853,7 +5853,7 @@
         },
         {
           "ability_bonus": 1.2,
-          "additional_officer_slot": true,
+          "additional_officer_slot": false,
           "level": 65,
           "ship_xp": 57114419
         }
@@ -5870,12 +5870,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 467200
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 60937400
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 467200
               }
             ],
             "materials": [
@@ -5894,19 +5894,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Explorer Parts",
+                "type": "6\u2605 rare explorer parts",
                 "value": 55800
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 499
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 36927
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 499
             }
           ],
           "additional_info": {
@@ -5940,12 +5940,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 274800
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 35845600
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 274800
               }
             ],
             "materials": [
@@ -5964,19 +5964,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Explorer Parts",
+                "type": "6\u2605 rare explorer parts",
                 "value": 37200
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 332
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 24618
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 332
             }
           ],
           "additional_info": {
@@ -5993,12 +5993,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 549600
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 71691100
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 549600
               }
             ],
             "materials": [
@@ -6017,19 +6017,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Explorer Parts",
+                "type": "6\u2605 rare explorer parts",
                 "value": 62000
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 665
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 49236
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 665
             }
           ],
           "additional_info": {
@@ -6063,43 +6063,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 82400
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 10753700
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 82400
               }
             ],
             "materials": [
-              {
-                "type": "gas",
-                "value": 18700,
-                "grade": 6,
-                "rarity": "rare"
-              },
               {
                 "type": "ore",
                 "value": 151100,
                 "grade": 6,
                 "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 18700,
+                "grade": 6,
+                "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Explorer Parts",
+                "type": "6\u2605 uncommon explorer parts",
                 "value": 1816200
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 100
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 7385
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 100
             }
           ],
           "additional_info": {
@@ -6118,43 +6118,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 219800
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 28676400
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 219800
               }
             ],
             "materials": [
-              {
-                "type": "gas",
-                "value": 46600,
-                "grade": 6,
-                "rarity": "rare"
-              },
               {
                 "type": "ore",
                 "value": 377800,
                 "grade": 6,
                 "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 46600,
+                "grade": 6,
+                "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Explorer Parts",
+                "type": "6\u2605 uncommon explorer parts",
                 "value": 3632300
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 233
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 17233
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 233
             }
           ],
           "additional_info": {
@@ -6171,12 +6171,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 412200
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 53768300
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 412200
               }
             ],
             "materials": [
@@ -6195,19 +6195,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Explorer Parts",
+                "type": "6\u2605 rare explorer parts",
                 "value": 55800
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 499
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 36927
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 499
             }
           ],
           "additional_info": {
@@ -6224,12 +6224,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 274800
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 35845600
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 274800
               }
             ],
             "materials": [
@@ -6248,19 +6248,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Explorer Parts",
+                "type": "6\u2605 rare explorer parts",
                 "value": 37200
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 332
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 24618
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 332
             }
           ],
           "additional_info": {
@@ -6299,7 +6299,7 @@
         },
         {
           "ability_bonus": 1.3,
-          "additional_officer_slot": true,
+          "additional_officer_slot": false,
           "level": 70,
           "ship_xp": 65682629
         }
@@ -6316,12 +6316,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 575500
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 75072400
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 575500
               }
             ],
             "materials": [
@@ -6340,19 +6340,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Explorer Parts",
+                "type": "6\u2605 rare explorer parts",
                 "value": 68800
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 520
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 38513
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 520
             }
           ],
           "additional_info": {
@@ -6386,12 +6386,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 338600
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 44160200
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 338600
               }
             ],
             "materials": [
@@ -6410,19 +6410,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Explorer Parts",
+                "type": "6\u2605 rare explorer parts",
                 "value": 45900
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 347
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 25676
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 347
             }
           ],
           "additional_info": {
@@ -6439,12 +6439,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 677100
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 88320500
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 677100
               }
             ],
             "materials": [
@@ -6463,19 +6463,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Explorer Parts",
+                "type": "6\u2605 rare explorer parts",
                 "value": 76400
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 693
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 51351
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 693
             }
           ],
           "additional_info": {
@@ -6509,43 +6509,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 101600
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 13248100
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 101600
               }
             ],
             "materials": [
-              {
-                "type": "gas",
-                "value": 23000,
-                "grade": 6,
-                "rarity": "rare"
-              },
               {
                 "type": "ore",
                 "value": 186200,
                 "grade": 6,
                 "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 23000,
+                "grade": 6,
+                "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Explorer Parts",
+                "type": "6\u2605 uncommon explorer parts",
                 "value": 2237400
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 104
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 7703
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 104
             }
           ],
           "additional_info": {
@@ -6564,43 +6564,43 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 270800
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 35328200
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 270800
               }
             ],
             "materials": [
-              {
-                "type": "gas",
-                "value": 57500,
-                "grade": 6,
-                "rarity": "rare"
-              },
               {
                 "type": "ore",
                 "value": 465500,
                 "grade": 6,
                 "rarity": "uncommon"
+              },
+              {
+                "type": "gas",
+                "value": 57500,
+                "grade": 6,
+                "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "6\u2605 Uncommon Explorer Parts",
+                "type": "6\u2605 uncommon explorer parts",
                 "value": 4474900
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 243
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 17973
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 243
             }
           ],
           "additional_info": {
@@ -6617,12 +6617,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 507800
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 66240400
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 507800
               }
             ],
             "materials": [
@@ -6641,19 +6641,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Explorer Parts",
+                "type": "6\u2605 rare explorer parts",
                 "value": 68800
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 520
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 38513
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 520
             }
           ],
           "additional_info": {
@@ -6670,12 +6670,12 @@
           "build_cost": {
             "resources": [
               {
-                "type": "\u03c3-dilithium",
-                "value": 338600
-              },
-              {
                 "type": "\u03c3-tritanium",
                 "value": 44160200
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 338600
               }
             ],
             "materials": [
@@ -6694,19 +6694,19 @@
             ],
             "others": [
               {
-                "type": "6\u2605 Rare Explorer Parts",
+                "type": "6\u2605 rare explorer parts",
                 "value": 45900
               }
             ]
           },
           "repair_cost": [
             {
-              "type": "\u03c3-dilithium",
-              "value": 347
-            },
-            {
               "type": "\u03c3-tritanium",
               "value": 25676
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 347
             }
           ],
           "additional_info": {

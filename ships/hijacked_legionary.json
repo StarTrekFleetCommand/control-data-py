@@ -64,7 +64,7 @@
           "quantity": 2
         },
         {
-          "name": "Kinetic Weapon",
+          "name": "Weapon",
           "img_url": "./assets/component_weapon_kinetic.png",
           "build_cost": {
             "resources": [],
@@ -135,7 +135,7 @@
           "quantity": 1
         },
         {
-          "name": "Armor Plating",
+          "name": "Armor",
           "img_url": "./assets/component_armor.png",
           "build_cost": {
             "resources": [],
@@ -179,7 +179,7 @@
         },
         {
           "ability_bonus": 0.38,
-          "additional_officer_slot": true,
+          "additional_officer_slot": false,
           "level": 5,
           "ship_xp": 1700
         }
@@ -205,7 +205,7 @@
         ],
         "others": [
           {
-            "type": "Common Plutonium",
+            "type": "common plutonium",
             "value": 200
           }
         ]
@@ -232,25 +232,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 70,
+                "type": "ore",
+                "value": 275,
                 "grade": 3,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 275,
+                "type": "crystal",
+                "value": 70,
                 "grade": 3,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Common Plutonium",
+                "type": "common plutonium",
                 "value": 90
               },
               {
-                "type": "3\u2605 Battleship Parts",
+                "type": "3\u2605 battleship parts",
                 "value": 65
               }
             ]
@@ -291,7 +291,7 @@
           "quantity": 2
         },
         {
-          "name": "Kinetic Weapon",
+          "name": "Weapon",
           "img_url": "./assets/component_weapon_kinetic.png",
           "build_cost": {
             "resources": [
@@ -306,25 +306,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 50,
+                "type": "ore",
+                "value": 220,
                 "grade": 3,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 220,
+                "type": "crystal",
+                "value": 50,
                 "grade": 3,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Common Plutonium",
+                "type": "common plutonium",
                 "value": 60
               },
               {
-                "type": "3\u2605 Battleship Parts",
+                "type": "3\u2605 battleship parts",
                 "value": 54
               }
             ]
@@ -384,11 +384,11 @@
             ],
             "others": [
               {
-                "type": "Common Plutonium",
+                "type": "common plutonium",
                 "value": 15
               },
               {
-                "type": "3\u2605 Battleship Parts",
+                "type": "3\u2605 battleship parts",
                 "value": 11
               }
             ]
@@ -429,11 +429,11 @@
             ],
             "others": [
               {
-                "type": "Common Plutonium",
+                "type": "common plutonium",
                 "value": 35
               },
               {
-                "type": "3\u2605 Battleship Parts",
+                "type": "3\u2605 battleship parts",
                 "value": 32
               }
             ]
@@ -454,7 +454,7 @@
           "quantity": 1
         },
         {
-          "name": "Armor Plating",
+          "name": "Armor",
           "img_url": "./assets/component_armor.png",
           "build_cost": {
             "resources": [
@@ -465,25 +465,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 33,
+                "type": "ore",
+                "value": 220,
                 "grade": 3,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 220,
+                "type": "crystal",
+                "value": 33,
                 "grade": 3,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Common Plutonium",
+                "type": "common plutonium",
                 "value": 50
               },
               {
-                "type": "3\u2605 Battleship Parts",
+                "type": "3\u2605 battleship parts",
                 "value": 43
               }
             ]
@@ -530,7 +530,7 @@
         },
         {
           "ability_bonus": 0.48,
-          "additional_officer_slot": true,
+          "additional_officer_slot": false,
           "level": 10,
           "ship_xp": 6000
         }
@@ -557,25 +557,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 10,
+                "type": "ore",
+                "value": 41,
                 "grade": 3,
                 "rarity": "uncommon"
               },
               {
-                "type": "ore",
-                "value": 41,
+                "type": "crystal",
+                "value": 10,
                 "grade": 3,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "Uncommon Plutonium",
+                "type": "uncommon plutonium",
                 "value": 90
               },
               {
-                "type": "3\u2605 Battleship Parts",
+                "type": "3\u2605 battleship parts",
                 "value": 130
               }
             ]
@@ -616,7 +616,7 @@
           "quantity": 2
         },
         {
-          "name": "Kinetic Weapon",
+          "name": "Weapon",
           "img_url": "./assets/component_weapon_kinetic.png",
           "build_cost": {
             "resources": [
@@ -631,25 +631,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 150,
+                "type": "ore",
+                "value": 650,
                 "grade": 3,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 650,
+                "type": "crystal",
+                "value": 150,
                 "grade": 3,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Uncommon Plutonium",
+                "type": "uncommon plutonium",
                 "value": 60
               },
               {
-                "type": "3\u2605 Battleship Parts",
+                "type": "3\u2605 battleship parts",
                 "value": 110
               }
             ]
@@ -709,11 +709,11 @@
             ],
             "others": [
               {
-                "type": "Common Plutonium",
+                "type": "common plutonium",
                 "value": 30
               },
               {
-                "type": "3\u2605 Battleship Parts",
+                "type": "3\u2605 battleship parts",
                 "value": 22
               }
             ]
@@ -754,11 +754,11 @@
             ],
             "others": [
               {
-                "type": "Common Plutonium",
+                "type": "common plutonium",
                 "value": 70
               },
               {
-                "type": "3\u2605 Battleship Parts",
+                "type": "3\u2605 battleship parts",
                 "value": 65
               }
             ]
@@ -779,7 +779,7 @@
           "quantity": 1
         },
         {
-          "name": "Armor Plating",
+          "name": "Armor",
           "img_url": "./assets/component_armor.png",
           "build_cost": {
             "resources": [
@@ -790,25 +790,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 100,
+                "type": "ore",
+                "value": 650,
                 "grade": 3,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 650,
+                "type": "crystal",
+                "value": 100,
                 "grade": 3,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Common Plutonium",
+                "type": "common plutonium",
                 "value": 100
               },
               {
-                "type": "3\u2605 Battleship Parts",
+                "type": "3\u2605 battleship parts",
                 "value": 90
               }
             ]
@@ -882,25 +882,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 33,
+                "type": "ore",
+                "value": 140,
                 "grade": 3,
                 "rarity": "uncommon"
               },
               {
-                "type": "ore",
-                "value": 140,
+                "type": "crystal",
+                "value": 33,
                 "grade": 3,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "Uncommon Plutonium",
+                "type": "uncommon plutonium",
                 "value": 180
               },
               {
-                "type": "3\u2605 Battleship Parts",
+                "type": "3\u2605 battleship parts",
                 "value": 230
               }
             ]
@@ -941,7 +941,7 @@
           "quantity": 2
         },
         {
-          "name": "Kinetic Weapon",
+          "name": "Weapon",
           "img_url": "./assets/component_weapon_kinetic.png",
           "build_cost": {
             "resources": [
@@ -956,25 +956,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 25,
+                "type": "ore",
+                "value": 110,
                 "grade": 3,
                 "rarity": "uncommon"
               },
               {
-                "type": "ore",
-                "value": 110,
+                "type": "crystal",
+                "value": 25,
                 "grade": 3,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "Uncommon Plutonium",
+                "type": "uncommon plutonium",
                 "value": 120
               },
               {
-                "type": "3\u2605 Battleship Parts",
+                "type": "3\u2605 battleship parts",
                 "value": 190
               }
             ]
@@ -1034,11 +1034,11 @@
             ],
             "others": [
               {
-                "type": "Common Plutonium",
+                "type": "common plutonium",
                 "value": 75
               },
               {
-                "type": "3\u2605 Battleship Parts",
+                "type": "3\u2605 battleship parts",
                 "value": 38
               }
             ]
@@ -1079,11 +1079,11 @@
             ],
             "others": [
               {
-                "type": "Common Plutonium",
+                "type": "common plutonium",
                 "value": 175
               },
               {
-                "type": "3\u2605 Battleship Parts",
+                "type": "3\u2605 battleship parts",
                 "value": 110
               }
             ]
@@ -1104,7 +1104,7 @@
           "quantity": 1
         },
         {
-          "name": "Armor Plating",
+          "name": "Armor",
           "img_url": "./assets/component_armor.png",
           "build_cost": {
             "resources": [
@@ -1115,25 +1115,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 275,
+                "type": "ore",
+                "value": 1800,
                 "grade": 3,
                 "rarity": "common"
               },
               {
-                "type": "ore",
-                "value": 1800,
+                "type": "crystal",
+                "value": 275,
                 "grade": 3,
                 "rarity": "common"
               }
             ],
             "others": [
               {
-                "type": "Common Plutonium",
+                "type": "common plutonium",
                 "value": 250
               },
               {
-                "type": "3\u2605 Battleship Parts",
+                "type": "3\u2605 battleship parts",
                 "value": 150
               }
             ]
@@ -1180,7 +1180,7 @@
         },
         {
           "ability_bonus": 0.68,
-          "additional_officer_slot": true,
+          "additional_officer_slot": false,
           "level": 20,
           "ship_xp": 25000
         }
@@ -1207,25 +1207,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 70,
+                "type": "ore",
+                "value": 275,
                 "grade": 3,
                 "rarity": "uncommon"
               },
               {
-                "type": "ore",
-                "value": 275,
+                "type": "crystal",
+                "value": 70,
                 "grade": 3,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "Uncommon Plutonium",
+                "type": "uncommon plutonium",
                 "value": 450
               },
               {
-                "type": "3\u2605 Battleship Parts",
+                "type": "3\u2605 battleship parts",
                 "value": 400
               }
             ]
@@ -1266,7 +1266,7 @@
           "quantity": 2
         },
         {
-          "name": "Kinetic Weapon",
+          "name": "Weapon",
           "img_url": "./assets/component_weapon_kinetic.png",
           "build_cost": {
             "resources": [
@@ -1281,25 +1281,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 50,
+                "type": "ore",
+                "value": 220,
                 "grade": 3,
                 "rarity": "uncommon"
               },
               {
-                "type": "ore",
-                "value": 220,
+                "type": "crystal",
+                "value": 50,
                 "grade": 3,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "Uncommon Plutonium",
+                "type": "uncommon plutonium",
                 "value": 300
               },
               {
-                "type": "3\u2605 Battleship Parts",
+                "type": "3\u2605 battleship parts",
                 "value": 325
               }
             ]
@@ -1359,11 +1359,11 @@
             ],
             "others": [
               {
-                "type": "Common Plutonium",
+                "type": "common plutonium",
                 "value": 150
               },
               {
-                "type": "3\u2605 Battleship Parts",
+                "type": "3\u2605 battleship parts",
                 "value": 65
               }
             ]
@@ -1404,11 +1404,11 @@
             ],
             "others": [
               {
-                "type": "Common Plutonium",
+                "type": "common plutonium",
                 "value": 350
               },
               {
-                "type": "3\u2605 Battleship Parts",
+                "type": "3\u2605 battleship parts",
                 "value": 190
               }
             ]
@@ -1429,7 +1429,7 @@
           "quantity": 1
         },
         {
-          "name": "Armor Plating",
+          "name": "Armor",
           "img_url": "./assets/component_armor.png",
           "build_cost": {
             "resources": [
@@ -1440,25 +1440,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 33,
+                "type": "ore",
+                "value": 220,
                 "grade": 3,
                 "rarity": "uncommon"
               },
               {
-                "type": "ore",
-                "value": 220,
+                "type": "crystal",
+                "value": 33,
                 "grade": 3,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "Uncommon Plutonium",
+                "type": "uncommon plutonium",
                 "value": 250
               },
               {
-                "type": "3\u2605 Battleship Parts",
+                "type": "3\u2605 battleship parts",
                 "value": 250
               }
             ]
@@ -1532,26 +1532,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 2,
+                "type": "ore",
+                "value": 10,
                 "grade": 3,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 10,
+                "type": "crystal",
+                "value": 2,
                 "grade": 3,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Battleship Parts",
-                "value": 775
+                "type": "rare plutonium",
+                "value": 90
               },
               {
-                "type": "Rare Plutonium",
-                "value": 90
+                "type": "3\u2605 battleship parts",
+                "value": 775
               }
             ]
           },
@@ -1591,7 +1591,7 @@
           "quantity": 2
         },
         {
-          "name": "Kinetic Weapon",
+          "name": "Weapon",
           "img_url": "./assets/component_weapon_kinetic.png",
           "build_cost": {
             "resources": [
@@ -1606,26 +1606,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 120,
+                "type": "ore",
+                "value": 525,
                 "grade": 3,
                 "rarity": "uncommon"
               },
               {
-                "type": "ore",
-                "value": 525,
+                "type": "crystal",
+                "value": 120,
                 "grade": 3,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Battleship Parts",
-                "value": 650
+                "type": "rare plutonium",
+                "value": 60
               },
               {
-                "type": "Rare Plutonium",
-                "value": 60
+                "type": "3\u2605 battleship parts",
+                "value": 650
               }
             ]
           },
@@ -1684,11 +1684,11 @@
             ],
             "others": [
               {
-                "type": "Common Plutonium",
+                "type": "common plutonium",
                 "value": 300
               },
               {
-                "type": "3\u2605 Battleship Parts",
+                "type": "3\u2605 battleship parts",
                 "value": 130
               }
             ]
@@ -1729,11 +1729,11 @@
             ],
             "others": [
               {
-                "type": "Uncommon Plutonium",
+                "type": "uncommon plutonium",
                 "value": 245
               },
               {
-                "type": "3\u2605 Battleship Parts",
+                "type": "3\u2605 battleship parts",
                 "value": 400
               }
             ]
@@ -1754,7 +1754,7 @@
           "quantity": 1
         },
         {
-          "name": "Armor Plating",
+          "name": "Armor",
           "img_url": "./assets/component_armor.png",
           "build_cost": {
             "resources": [
@@ -1765,25 +1765,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 80,
+                "type": "ore",
+                "value": 525,
                 "grade": 3,
                 "rarity": "uncommon"
               },
               {
-                "type": "ore",
-                "value": 525,
+                "type": "crystal",
+                "value": 80,
                 "grade": 3,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "Uncommon Plutonium",
+                "type": "uncommon plutonium",
                 "value": 350
               },
               {
-                "type": "3\u2605 Battleship Parts",
+                "type": "3\u2605 battleship parts",
                 "value": 525
               }
             ]
@@ -1830,7 +1830,7 @@
         },
         {
           "ability_bonus": 0.88,
-          "additional_officer_slot": true,
+          "additional_officer_slot": false,
           "level": 30,
           "ship_xp": 69000
         }
@@ -1857,26 +1857,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 9,
+                "type": "ore",
+                "value": 38,
                 "grade": 3,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 38,
+                "type": "crystal",
+                "value": 9,
                 "grade": 3,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Battleship Parts",
-                "value": 1700
+                "type": "rare plutonium",
+                "value": 270
               },
               {
-                "type": "Rare Plutonium",
-                "value": 270
+                "type": "3\u2605 battleship parts",
+                "value": 1700
               }
             ]
           },
@@ -1916,7 +1916,7 @@
           "quantity": 2
         },
         {
-          "name": "Kinetic Weapon",
+          "name": "Weapon",
           "img_url": "./assets/component_weapon_kinetic.png",
           "build_cost": {
             "resources": [
@@ -1931,26 +1931,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 7,
+                "type": "ore",
+                "value": 30,
                 "grade": 3,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 30,
+                "type": "crystal",
+                "value": 7,
                 "grade": 3,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Battleship Parts",
-                "value": 1500
+                "type": "rare plutonium",
+                "value": 180
               },
               {
-                "type": "Rare Plutonium",
-                "value": 180
+                "type": "3\u2605 battleship parts",
+                "value": 1500
               }
             ]
           },
@@ -2009,11 +2009,11 @@
             ],
             "others": [
               {
-                "type": "Common Plutonium",
+                "type": "common plutonium",
                 "value": 750
               },
               {
-                "type": "3\u2605 Battleship Parts",
+                "type": "3\u2605 battleship parts",
                 "value": 300
               }
             ]
@@ -2054,11 +2054,11 @@
             ],
             "others": [
               {
-                "type": "Uncommon Plutonium",
+                "type": "uncommon plutonium",
                 "value": 350
               },
               {
-                "type": "3\u2605 Battleship Parts",
+                "type": "3\u2605 battleship parts",
                 "value": 875
               }
             ]
@@ -2079,7 +2079,7 @@
           "quantity": 1
         },
         {
-          "name": "Armor Plating",
+          "name": "Armor",
           "img_url": "./assets/component_armor.png",
           "build_cost": {
             "resources": [
@@ -2090,25 +2090,25 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 180,
+                "type": "ore",
+                "value": 1225,
                 "grade": 3,
                 "rarity": "uncommon"
               },
               {
-                "type": "ore",
-                "value": 1225,
+                "type": "crystal",
+                "value": 180,
                 "grade": 3,
                 "rarity": "uncommon"
               }
             ],
             "others": [
               {
-                "type": "Uncommon Plutonium",
+                "type": "uncommon plutonium",
                 "value": 500
               },
               {
-                "type": "3\u2605 Battleship Parts",
+                "type": "3\u2605 battleship parts",
                 "value": 1175
               }
             ]
@@ -2182,26 +2182,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 21,
+                "type": "ore",
+                "value": 90,
                 "grade": 3,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 90,
+                "type": "crystal",
+                "value": 21,
                 "grade": 3,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Battleship Parts",
-                "value": 3200
+                "type": "rare plutonium",
+                "value": 450
               },
               {
-                "type": "Rare Plutonium",
-                "value": 450
+                "type": "3\u2605 battleship parts",
+                "value": 3200
               }
             ]
           },
@@ -2241,7 +2241,7 @@
           "quantity": 2
         },
         {
-          "name": "Kinetic Weapon",
+          "name": "Weapon",
           "img_url": "./assets/component_weapon_kinetic.png",
           "build_cost": {
             "resources": [
@@ -2256,26 +2256,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 16,
+                "type": "ore",
+                "value": 70,
                 "grade": 3,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 70,
+                "type": "crystal",
+                "value": 16,
                 "grade": 3,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Battleship Parts",
-                "value": 2700
+                "type": "rare plutonium",
+                "value": 300
               },
               {
-                "type": "Rare Plutonium",
-                "value": 300
+                "type": "3\u2605 battleship parts",
+                "value": 2700
               }
             ]
           },
@@ -2334,11 +2334,11 @@
             ],
             "others": [
               {
-                "type": "Uncommon Plutonium",
+                "type": "uncommon plutonium",
                 "value": 225
               },
               {
-                "type": "3\u2605 Battleship Parts",
+                "type": "3\u2605 battleship parts",
                 "value": 550
               }
             ]
@@ -2379,11 +2379,11 @@
             ],
             "others": [
               {
-                "type": "Uncommon Plutonium",
+                "type": "uncommon plutonium",
                 "value": 525
               },
               {
-                "type": "3\u2605 Battleship Parts",
+                "type": "3\u2605 battleship parts",
                 "value": 1600
               }
             ]
@@ -2404,7 +2404,7 @@
           "quantity": 1
         },
         {
-          "name": "Armor Plating",
+          "name": "Armor",
           "img_url": "./assets/component_armor.png",
           "build_cost": {
             "resources": [
@@ -2415,26 +2415,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 11,
+                "type": "ore",
+                "value": 70,
                 "grade": 3,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 70,
+                "type": "crystal",
+                "value": 11,
                 "grade": 3,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Battleship Parts",
-                "value": 2200
+                "type": "rare plutonium",
+                "value": 250
               },
               {
-                "type": "Rare Plutonium",
-                "value": 250
+                "type": "3\u2605 battleship parts",
+                "value": 2200
               }
             ]
           },
@@ -2455,7 +2455,7 @@
       ],
       "levels": [
         {
-          "ability_bonus": 1,
+          "ability_bonus": 1.0,
           "additional_officer_slot": false,
           "level": 36,
           "ship_xp": 105000
@@ -2480,7 +2480,7 @@
         },
         {
           "ability_bonus": 1.08,
-          "additional_officer_slot": true,
+          "additional_officer_slot": false,
           "level": 40,
           "ship_xp": 140000
         }
@@ -2507,26 +2507,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 36,
+                "type": "ore",
+                "value": 150,
                 "grade": 3,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 150,
+                "type": "crystal",
+                "value": 36,
                 "grade": 3,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Battleship Parts",
-                "value": 4900
+                "type": "rare plutonium",
+                "value": 720
               },
               {
-                "type": "Rare Plutonium",
-                "value": 720
+                "type": "3\u2605 battleship parts",
+                "value": 4900
               }
             ]
           },
@@ -2566,7 +2566,7 @@
           "quantity": 2
         },
         {
-          "name": "Kinetic Weapon",
+          "name": "Weapon",
           "img_url": "./assets/component_weapon_kinetic.png",
           "build_cost": {
             "resources": [
@@ -2581,26 +2581,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 27,
+                "type": "ore",
+                "value": 120,
                 "grade": 3,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 120,
+                "type": "crystal",
+                "value": 27,
                 "grade": 3,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Battleship Parts",
-                "value": 4100
+                "type": "rare plutonium",
+                "value": 480
               },
               {
-                "type": "Rare Plutonium",
-                "value": 480
+                "type": "3\u2605 battleship parts",
+                "value": 4100
               }
             ]
           },
@@ -2659,11 +2659,11 @@
             ],
             "others": [
               {
-                "type": "Uncommon Plutonium",
+                "type": "uncommon plutonium",
                 "value": 300
               },
               {
-                "type": "3\u2605 Battleship Parts",
+                "type": "3\u2605 battleship parts",
                 "value": 800
               }
             ]
@@ -2704,12 +2704,12 @@
             ],
             "others": [
               {
-                "type": "3\u2605 Battleship Parts",
-                "value": 2400
+                "type": "rare plutonium",
+                "value": 280
               },
               {
-                "type": "Rare Plutonium",
-                "value": 280
+                "type": "3\u2605 battleship parts",
+                "value": 2400
               }
             ]
           },
@@ -2729,7 +2729,7 @@
           "quantity": 1
         },
         {
-          "name": "Armor Plating",
+          "name": "Armor",
           "img_url": "./assets/component_armor.png",
           "build_cost": {
             "resources": [
@@ -2740,26 +2740,26 @@
             ],
             "materials": [
               {
-                "type": "crystal",
-                "value": 18,
+                "type": "ore",
+                "value": 120,
                 "grade": 3,
                 "rarity": "rare"
               },
               {
-                "type": "ore",
-                "value": 120,
+                "type": "crystal",
+                "value": 18,
                 "grade": 3,
                 "rarity": "rare"
               }
             ],
             "others": [
               {
-                "type": "3\u2605 Battleship Parts",
-                "value": 3200
+                "type": "rare plutonium",
+                "value": 400
               },
               {
-                "type": "Rare Plutonium",
-                "value": 400
+                "type": "3\u2605 battleship parts",
+                "value": 3200
               }
             ]
           },
