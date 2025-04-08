@@ -3,14 +3,14 @@
   "capture_nodes": 0,
   "connected_systems": [
     {
-      "$ref": "systems/ril_korvas_44",
-      "distance": 100,
-      "warp": 95
-    },
-    {
       "$ref": "systems/naalur_44",
       "distance": 110,
       "warp": 110
+    },
+    {
+      "$ref": "systems/ril_korvas_44",
+      "distance": 100,
+      "warp": 95
     },
     {
       "$ref": "systems/stelama_44",
@@ -22,8 +22,8 @@
   "level": 44,
   "mining": [
     {
-      "type": "Parsteel",
-      "amount": 6,
+      "type": "parsteel",
+      "amount": 1,
       "mining_per_hour": 1200,
       "size": 2000000
     }
@@ -33,6 +33,6 @@
   ],
   "scopely_id": 539331249,
   "system_space": "deep",
-  "system_type": "hub",
+  "system_type": "route",
   "warp": 100
 }

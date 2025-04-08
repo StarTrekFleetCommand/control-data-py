@@ -3,9 +3,9 @@
   "capture_nodes": 0,
   "connected_systems": [
     {
-      "$ref": "systems/sae_28",
-      "distance": 25,
-      "warp": 25
+      "$ref": "systems/dalogn_35",
+      "distance": 27,
+      "warp": 27
     },
     {
       "$ref": "systems/gradientes_30",
@@ -13,9 +13,9 @@
       "warp": 24
     },
     {
-      "$ref": "systems/dalogn_35",
-      "distance": 27,
-      "warp": 27
+      "$ref": "systems/sae_28",
+      "distance": 25,
+      "warp": 25
     }
   ],
   "faction": "neutral",
@@ -26,8 +26,8 @@
   "level": 29,
   "mining": [
     {
-      "type": "Tritanium",
-      "amount": 25,
+      "type": "tritanium",
+      "amount": 1,
       "mining_per_hour": 320,
       "size": 25000
     }
@@ -35,9 +35,9 @@
   "planets": [
     "Cauemil",
     "Eieewet",
-    "Herugaq",
+    "Huckster",
+    "Istio",
     "Joyar",
-    "Leyunaf",
     "Nokex",
     "Pehebat",
     "Tamudii",

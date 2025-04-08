@@ -1,0 +1,35 @@
+{
+  "name": "B'Moth",
+  "capture_nodes": 0,
+  "connected_systems": [
+    {
+      "$ref": "systems/katovug_39",
+      "distance": 50,
+      "warp": 48
+    },
+    {
+      "$ref": "systems/tygokor_39",
+      "distance": 53,
+      "warp": 53
+    }
+  ],
+  "faction": "klingon",
+  "level": 39,
+  "mining": [
+    {
+      "type": "3\u2605 raw crystal",
+      "amount": 1,
+      "mining_per_hour": 300,
+      "size": 40000
+    }
+  ],
+  "planets": [
+    "Mo'mlp",
+    "SiS'lw",
+    "Wov SuS"
+  ],
+  "scopely_id": 1790682461,
+  "system_space": "normal",
+  "system_type": "route",
+  "warp": 50
+}

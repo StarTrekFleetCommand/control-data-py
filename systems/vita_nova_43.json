@@ -3,14 +3,24 @@
   "capture_nodes": 0,
   "connected_systems": [
     {
+      "$ref": "systems/efros_46",
+      "distance": 80,
+      "warp": 80
+    },
+    {
+      "$ref": "systems/svona_41",
+      "distance": 80,
+      "warp": 70
+    },
+    {
       "$ref": "systems/ash_tor_43",
       "distance": 80,
       "warp": 80
     },
     {
-      "$ref": "systems/s_vona_41",
+      "$ref": "systems/efros_46",
       "distance": 80,
-      "warp": 70
+      "warp": 80
     }
   ],
   "faction": "neutral",
@@ -21,8 +31,8 @@
   "level": 43,
   "mining": [
     {
-      "type": "Parsteel",
-      "amount": 12,
+      "type": "parsteel",
+      "amount": 1,
       "mining_per_hour": 1200,
       "size": 500000
     }
@@ -42,6 +52,6 @@
   ],
   "scopely_id": 495025747,
   "system_space": "deep",
-  "system_type": "route",
+  "system_type": "hub",
   "warp": 80
 }

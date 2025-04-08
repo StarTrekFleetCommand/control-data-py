@@ -9,11 +9,15 @@
     }
   ],
   "faction": "neutral",
+  "hub_details": {
+    "hub_number": 1,
+    "hub_size": 16
+  },
   "level": 16,
   "mining": [
     {
-      "type": "Dilithium",
-      "amount": 8,
+      "type": "dilithium",
+      "amount": 1,
       "mining_per_hour": 80,
       "size": 2500
     }
@@ -21,11 +25,10 @@
   "planets": [
     "Coridan I",
     "Coridan II",
-    "Coridan III",
-    "Coridan IV"
+    "Derelict Vessel"
   ],
   "scopely_id": 218039082,
   "system_space": "normal",
-  "system_type": "terminal",
+  "system_type": "hub",
   "warp": 13
 }

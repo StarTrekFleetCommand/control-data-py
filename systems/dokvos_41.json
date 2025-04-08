@@ -1,0 +1,43 @@
+{
+  "name": "Dok'Vos",
+  "capture_nodes": 0,
+  "connected_systems": [
+    {
+      "$ref": "systems/garyb_40",
+      "distance": 70,
+      "warp": 65
+    },
+    {
+      "$ref": "systems/boh_42",
+      "distance": 70,
+      "warp": 70
+    },
+    {
+      "$ref": "systems/rataj_41",
+      "distance": 60,
+      "warp": 70
+    }
+  ],
+  "faction": "klingon",
+  "level": 41,
+  "mining": [
+    {
+      "type": "concentrated latinum",
+      "amount": 8,
+      "mining_per_hour": 55,
+      "size": 168000
+    }
+  ],
+  "planets": [
+    "Dok'Vos",
+    "Eva",
+    "Fejif",
+    "Sevot",
+    "Sevot I",
+    "Sevot II"
+  ],
+  "scopely_id": 347602915,
+  "system_space": "deep",
+  "system_type": "route",
+  "warp": 70
+}

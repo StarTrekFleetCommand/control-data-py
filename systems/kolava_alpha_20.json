@@ -3,17 +3,17 @@
   "capture_nodes": 6,
   "connected_systems": [
     {
+      "$ref": "systems/bolari_alpha_30",
+      "distance": 5,
+      "warp": 20
+    },
+    {
       "$ref": "systems/kolava_beta_20",
       "distance": 5,
       "warp": 20
     },
     {
       "$ref": "systems/qeyma_beta_20",
-      "distance": 5,
-      "warp": 20
-    },
-    {
-      "$ref": "systems/bolari_alpha_30",
       "distance": 5,
       "warp": 20
     }
@@ -26,10 +26,10 @@
   "level": 20,
   "mining": [
     {
-      "type": "Parsteel",
-      "amount": 20,
-      "mining_per_hour": 1800,
-      "size": 100000
+      "type": "3\u2605 raw ore",
+      "amount": 1,
+      "mining_per_hour": 450,
+      "size": 30000
     }
   ],
   "planets": [

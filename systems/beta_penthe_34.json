@@ -3,12 +3,12 @@
   "capture_nodes": 0,
   "connected_systems": [
     {
-      "$ref": "systems/quv_lw_36",
+      "$ref": "systems/quvlw_36",
       "distance": 37,
       "warp": 37
     },
     {
-      "$ref": "systems/jiwu_puh_36",
+      "$ref": "systems/jiwupuh_36",
       "distance": 37,
       "warp": 37
     },
@@ -27,15 +27,9 @@
   "level": 34,
   "mining": [
     {
-      "type": "Raw Latinum",
-      "amount": 16,
+      "type": "raw latinum",
+      "amount": 8,
       "mining_per_hour": 46,
-      "size": 350000
-    },
-    {
-      "type": "Raw Latinum",
-      "amount": 16,
-      "mining_per_hour": 85,
       "size": 350000
     }
   ],
@@ -49,6 +43,6 @@
   ],
   "scopely_id": 669580953,
   "system_space": "normal",
-  "system_type": "hub",
+  "system_type": "route",
   "warp": 33
 }

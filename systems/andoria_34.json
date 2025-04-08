@@ -23,7 +23,7 @@
       "warp": 25
     },
     {
-      "$ref": "systems/p_jem_29",
+      "$ref": "systems/pjem_29",
       "distance": 30,
       "warp": 20
     }
@@ -32,19 +32,15 @@
   "level": 34,
   "mining": [
     {
-      "type": "Raw Latinum",
-      "amount": 12,
+      "type": "raw latinum",
+      "amount": 8,
       "mining_per_hour": 46,
-      "size": 350000
-    },
-    {
-      "type": "Raw Latinum",
-      "amount": 12,
-      "mining_per_hour": 85,
       "size": 350000
     }
   ],
   "planets": [
+    "'",
+    "'",
     "Andor",
     "Andoria Prime",
     "Phandrax",
@@ -53,6 +49,6 @@
   ],
   "scopely_id": 31,
   "system_space": "normal",
-  "system_type": "hub",
+  "system_type": "route",
   "warp": 30
 }

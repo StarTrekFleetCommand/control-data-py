@@ -8,13 +8,13 @@
       "warp": 20
     },
     {
-      "$ref": "systems/tola_beta_17",
-      "distance": 5,
+      "$ref": "systems/ado_17",
+      "distance": 20,
       "warp": 20
     },
     {
-      "$ref": "systems/ado_17",
-      "distance": 20,
+      "$ref": "systems/tola_beta_17",
+      "distance": 5,
       "warp": 20
     }
   ],
@@ -22,9 +22,8 @@
   "level": 17,
   "mining": [
     {
-      "type": "1\u21f4 Raw Isogen",
-      "amount": 3,
-      "grade": 1,
+      "type": "1\u21f4 raw isogen",
+      "amount": 1,
       "mining_per_hour": 1000,
       "size": 1000
     }
@@ -32,6 +31,6 @@
   "planets": [],
   "scopely_id": 559211813,
   "system_space": "origin",
-  "system_type": "hub",
+  "system_type": "route",
   "warp": 20
 }

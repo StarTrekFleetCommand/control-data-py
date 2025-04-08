@@ -3,14 +3,14 @@
   "capture_nodes": 0,
   "connected_systems": [
     {
-      "$ref": "systems/ester_50",
-      "distance": 30,
-      "warp": 185
-    },
-    {
       "$ref": "systems/rua_8",
       "distance": 30,
       "warp": 5
+    },
+    {
+      "$ref": "systems/ester_50",
+      "distance": 30,
+      "warp": 185
     },
     {
       "$ref": "systems/brestant_39",
@@ -24,6 +24,6 @@
   "planets": [],
   "scopely_id": 590506893,
   "system_space": "normal",
-  "system_type": "hub",
+  "system_type": "route",
   "warp": 185
 }

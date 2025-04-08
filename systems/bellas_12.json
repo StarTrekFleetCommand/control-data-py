@@ -13,14 +13,14 @@
       "warp": 8
     },
     {
-      "$ref": "systems/nilkino_10",
-      "distance": 5,
-      "warp": 7
-    },
-    {
       "$ref": "systems/utoqa_10",
       "distance": 5,
-      "warp": 7
+      "warp": 8
+    },
+    {
+      "$ref": "systems/nilkino_10",
+      "distance": 5,
+      "warp": 8
     }
   ],
   "faction": "neutral",
@@ -31,9 +31,8 @@
   "level": 12,
   "mining": [
     {
-      "type": "2\u2605 Raw Crystal",
-      "amount": 57,
-      "grade": 2,
+      "type": "2\u2605 raw crystal",
+      "amount": 1,
       "mining_per_hour": 600,
       "size": 5500
     }
@@ -51,5 +50,5 @@
   "scopely_id": 81250,
   "system_space": "normal",
   "system_type": "hub",
-  "warp": 7
+  "warp": 8
 }

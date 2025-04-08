@@ -8,23 +8,22 @@
       "warp": 105
     },
     {
-      "$ref": "systems/naalur_44",
-      "distance": 110,
-      "warp": 110
-    },
-    {
       "$ref": "systems/ril_korvas_44",
       "distance": 105,
       "warp": 95
+    },
+    {
+      "$ref": "systems/naalur_44",
+      "distance": 110,
+      "warp": 110
     }
   ],
   "faction": "romulan",
   "level": 44,
   "mining": [
     {
-      "type": "4\u2605 Raw Ore",
-      "amount": 12,
-      "grade": 4,
+      "type": "4\u2605 raw ore",
+      "amount": 1,
       "mining_per_hour": 300,
       "size": 400000
     }
@@ -34,6 +33,6 @@
   ],
   "scopely_id": 1883651089,
   "system_space": "deep",
-  "system_type": "hub",
+  "system_type": "route",
   "warp": 105
 }

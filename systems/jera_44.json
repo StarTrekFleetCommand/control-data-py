@@ -8,22 +8,22 @@
       "warp": 105
     },
     {
-      "$ref": "systems/kor_ar_ka_44",
-      "distance": 100,
-      "warp": 100
-    },
-    {
       "$ref": "systems/kildare_43",
       "distance": 95,
       "warp": 75
+    },
+    {
+      "$ref": "systems/kor_arka_44",
+      "distance": 100,
+      "warp": 100
     }
   ],
   "faction": "federation",
   "level": 44,
   "mining": [
     {
-      "type": "Dilithium",
-      "amount": 6,
+      "type": "dilithium",
+      "amount": 1,
       "mining_per_hour": 80,
       "size": 500000
     }
@@ -34,6 +34,6 @@
   ],
   "scopely_id": 1042011878,
   "system_space": "deep",
-  "system_type": "hub",
+  "system_type": "route",
   "warp": 95
 }

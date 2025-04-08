@@ -1,0 +1,37 @@
+{
+  "name": "Manora",
+  "capture_nodes": 0,
+  "connected_systems": [
+    {
+      "$ref": "systems/andrita_36",
+      "distance": 40,
+      "warp": 29
+    },
+    {
+      "$ref": "systems/rudellia_50",
+      "distance": 170,
+      "warp": 170
+    },
+    {
+      "$ref": "systems/borias_cluster_39",
+      "distance": 40,
+      "warp": 40
+    },
+    {
+      "$ref": "systems/trelka_v_39",
+      "distance": 40,
+      "warp": 40
+    }
+  ],
+  "faction": "neutral",
+  "level": 39,
+  "mining": [],
+  "planets": [
+    "Manora Prime",
+    "Manora Shipyards"
+  ],
+  "scopely_id": 428633592,
+  "system_space": "normal",
+  "system_type": "route",
+  "warp": 40
+}

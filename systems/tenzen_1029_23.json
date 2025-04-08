@@ -3,22 +3,27 @@
   "capture_nodes": 0,
   "connected_systems": [
     {
-      "$ref": "systems/mila_25",
-      "distance": 20,
-      "warp": 20
+      "$ref": "systems/donscheel_33",
+      "distance": 40,
+      "warp": 40
     },
     {
       "$ref": "systems/maya_9",
       "distance": 20,
       "warp": 5
+    },
+    {
+      "$ref": "systems/mila_25",
+      "distance": 20,
+      "warp": 20
     }
   ],
   "faction": "neutral",
   "level": 23,
   "mining": [
     {
-      "type": "Mycelium Spore",
-      "amount": 40,
+      "type": "mycelium spore",
+      "amount": 1,
       "mining_per_hour": 1250,
       "size": 800
     }

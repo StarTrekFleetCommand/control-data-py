@@ -1,0 +1,40 @@
+{
+  "name": "No'Mat",
+  "capture_nodes": 0,
+  "connected_systems": [
+    {
+      "$ref": "systems/fafniri_39",
+      "distance": 50,
+      "warp": 50
+    },
+    {
+      "$ref": "systems/brestant_39",
+      "distance": 48,
+      "warp": 40
+    },
+    {
+      "$ref": "systems/ganalda_39",
+      "distance": 50,
+      "warp": 50
+    }
+  ],
+  "faction": "klingon",
+  "level": 38,
+  "mining": [
+    {
+      "type": "concentrated latinum",
+      "amount": 8,
+      "mining_per_hour": 53,
+      "size": 84000
+    }
+  ],
+  "planets": [
+    "No'Mat",
+    "Su'rot",
+    "Tuq'vel"
+  ],
+  "scopely_id": 593947383,
+  "system_space": "normal",
+  "system_type": "route",
+  "warp": 48
+}

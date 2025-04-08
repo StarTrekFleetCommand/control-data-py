@@ -1,0 +1,38 @@
+{
+  "name": "Lysis",
+  "capture_nodes": 0,
+  "connected_systems": [
+    {
+      "$ref": "systems/tediden_48",
+      "distance": 120,
+      "warp": 70
+    },
+    {
+      "$ref": "systems/altero_60",
+      "distance": 150,
+      "warp": 150
+    },
+    {
+      "$ref": "systems/dal_vor_59",
+      "distance": 120,
+      "warp": 100
+    }
+  ],
+  "faction": "dominion",
+  "level": 60,
+  "mining": [],
+  "planets": [
+    "Dominion Wayfarer 43",
+    "Fallen Hill Nebula",
+    "Hallena",
+    "Kiszpor",
+    "Lysis Lumin",
+    "Pisai",
+    "Twinburst Greater",
+    "Twinburst Lesser"
+  ],
+  "scopely_id": 1325762383,
+  "system_space": "deep",
+  "system_type": "route",
+  "warp": 120
+}

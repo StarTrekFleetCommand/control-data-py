@@ -3,14 +3,14 @@
   "capture_nodes": 0,
   "connected_systems": [
     {
-      "$ref": "systems/zaurak_13",
-      "distance": 12,
-      "warp": 11
-    },
-    {
       "$ref": "systems/labac_17",
       "distance": 12,
       "warp": 12
+    },
+    {
+      "$ref": "systems/zaurak_13",
+      "distance": 12,
+      "warp": 11
     }
   ],
   "faction": "neutral",
@@ -21,11 +21,10 @@
   "level": 14,
   "mining": [
     {
-      "type": "2\u2605 Raw Crystal",
-      "amount": 30,
-      "grade": 2,
+      "type": "2\u2605 raw crystal",
+      "amount": 2,
       "mining_per_hour": 600,
-      "size": 25000
+      "size": 15000
     }
   ],
   "planets": [
@@ -43,6 +42,6 @@
   ],
   "scopely_id": 1203174739,
   "system_space": "normal",
-  "system_type": "route",
+  "system_type": "hub",
   "warp": 12
 }

@@ -1,0 +1,38 @@
+{
+  "name": "Irryit",
+  "capture_nodes": 0,
+  "connected_systems": [
+    {
+      "$ref": "systems/cardassia_30",
+      "distance": 25,
+      "warp": 25
+    },
+    {
+      "$ref": "systems/cardassia_30",
+      "distance": 25,
+      "warp": 25
+    },
+    {
+      "$ref": "systems/bajor_20",
+      "distance": 25,
+      "warp": 25
+    },
+    {
+      "$ref": "systems/kabrel_29",
+      "distance": 25,
+      "warp": 25
+    }
+  ],
+  "faction": "neutral",
+  "level": 28,
+  "mining": [],
+  "planets": [
+    "Burning Tower",
+    "Fertile Fields",
+    "Prophet's Landing"
+  ],
+  "scopely_id": 1603883393,
+  "system_space": "normal",
+  "system_type": "route",
+  "warp": 25
+}

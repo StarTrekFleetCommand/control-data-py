@@ -8,14 +8,9 @@
       "warp": 80
     },
     {
-      "$ref": "systems/hannlaw_44",
-      "distance": 90,
-      "warp": 90
-    },
-    {
-      "$ref": "systems/asronal_44",
-      "distance": 85,
-      "warp": 85
+      "$ref": "systems/torovin_49",
+      "distance": 80,
+      "warp": 80
     },
     {
       "$ref": "systems/stradania_42",
@@ -23,17 +18,32 @@
       "warp": 70
     },
     {
+      "$ref": "systems/asronal_44",
+      "distance": 85,
+      "warp": 85
+    },
+    {
+      "$ref": "systems/torovin_49",
+      "distance": 80,
+      "warp": 80
+    },
+    {
       "$ref": "systems/fect_42",
       "distance": 80,
       "warp": 80
+    },
+    {
+      "$ref": "systems/hannlaw_44",
+      "distance": 90,
+      "warp": 90
     }
   ],
   "faction": "neutral",
   "level": 42,
   "mining": [
     {
-      "type": "Dilithium",
-      "amount": 12,
+      "type": "dilithium",
+      "amount": 1,
       "mining_per_hour": 80,
       "size": 100000
     }
@@ -43,6 +53,6 @@
   ],
   "scopely_id": 1508317945,
   "system_space": "deep",
-  "system_type": "hub",
+  "system_type": "route",
   "warp": 70
 }

@@ -1,0 +1,33 @@
+{
+  "name": "Yerra",
+  "capture_nodes": 0,
+  "connected_systems": [
+    {
+      "$ref": "systems/hyra_49",
+      "distance": 80,
+      "warp": 70
+    },
+    {
+      "$ref": "systems/hadmet_54",
+      "distance": 80,
+      "warp": 80
+    },
+    {
+      "$ref": "systems/tulonra_50",
+      "distance": 80,
+      "warp": 80
+    }
+  ],
+  "faction": "dominion",
+  "level": 52,
+  "mining": [],
+  "planets": [
+    "Yerra Alpha",
+    "Yerra Beta",
+    "Yerra Gamma"
+  ],
+  "scopely_id": 1191354636,
+  "system_space": "deep",
+  "system_type": "route",
+  "warp": 80
+}

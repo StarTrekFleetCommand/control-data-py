@@ -3,17 +3,17 @@
   "capture_nodes": 0,
   "connected_systems": [
     {
-      "$ref": "systems/tolain_40",
-      "distance": 65,
-      "warp": 65
-    },
-    {
       "$ref": "systems/mina_40",
       "distance": 64,
       "warp": 56
     },
     {
       "$ref": "systems/yvnys_40",
+      "distance": 65,
+      "warp": 65
+    },
+    {
+      "$ref": "systems/tolain_40",
       "distance": 65,
       "warp": 65
     },
@@ -31,8 +31,8 @@
   "level": 40,
   "mining": [
     {
-      "type": "Tritanium",
-      "amount": 9,
+      "type": "tritanium",
+      "amount": 1,
       "mining_per_hour": 320,
       "size": 200000
     }

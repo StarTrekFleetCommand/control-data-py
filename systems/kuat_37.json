@@ -3,14 +3,14 @@
   "capture_nodes": 0,
   "connected_systems": [
     {
-      "$ref": "systems/babel_38",
-      "distance": 27,
-      "warp": 40
-    },
-    {
       "$ref": "systems/nekosa_38",
       "distance": 40,
       "warp": 40
+    },
+    {
+      "$ref": "systems/babel_38",
+      "distance": 27,
+      "warp": 47
     }
   ],
   "faction": "neutral",
@@ -21,8 +21,8 @@
   "level": 37,
   "mining": [
     {
-      "type": "Tritanium",
-      "amount": 5,
+      "type": "tritanium",
+      "amount": 1,
       "mining_per_hour": 320,
       "size": 35000
     }
@@ -42,6 +42,6 @@
   ],
   "scopely_id": 152399226,
   "system_space": "normal",
-  "system_type": "route",
-  "warp": 40
+  "system_type": "hub",
+  "warp": 47
 }

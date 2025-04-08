@@ -1,0 +1,44 @@
+{
+  "name": "Loch'Grman",
+  "capture_nodes": 0,
+  "connected_systems": [
+    {
+      "$ref": "systems/aralen_50",
+      "distance": 185,
+      "warp": 185
+    },
+    {
+      "$ref": "systems/tivel_48",
+      "distance": 160,
+      "warp": 150
+    },
+    {
+      "$ref": "systems/jublu_48",
+      "distance": 160,
+      "warp": 160
+    },
+    {
+      "$ref": "systems/jorda_49",
+      "distance": 170,
+      "warp": 160
+    }
+  ],
+  "faction": "romulan",
+  "level": 49,
+  "mining": [
+    {
+      "type": "concentrated latinum",
+      "amount": 8,
+      "mining_per_hour": 57,
+      "size": 235200
+    }
+  ],
+  "planets": [
+    "Tamarillo",
+    "Torso'Ama"
+  ],
+  "scopely_id": 750762202,
+  "system_space": "deep",
+  "system_type": "route",
+  "warp": 160
+}

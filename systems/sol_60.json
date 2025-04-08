@@ -8,11 +8,6 @@
       "warp": 47
     },
     {
-      "$ref": "systems/wolf_39",
-      "distance": 8,
-      "warp": 40
-    },
-    {
       "$ref": "systems/alpha_centauri_39",
       "distance": 47,
       "warp": 47
@@ -23,8 +18,13 @@
       "warp": 40
     },
     {
-      "$ref": "systems/barnard_s_star_38",
+      "$ref": "systems/barnards_star_38",
       "distance": 6,
+      "warp": 40
+    },
+    {
+      "$ref": "systems/wolf_39",
+      "distance": 8,
       "warp": 40
     }
   ],
@@ -39,12 +39,13 @@
     "Neptune",
     "Pluto",
     "Saturn",
+    "Starbase 1",
     "The Moon",
     "Uranus",
     "Venus"
   ],
   "scopely_id": 1498683722,
   "system_space": "normal",
-  "system_type": "hub",
+  "system_type": "route",
   "warp": 40
 }

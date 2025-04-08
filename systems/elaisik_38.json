@@ -3,14 +3,14 @@
   "capture_nodes": 0,
   "connected_systems": [
     {
-      "$ref": "systems/bildari_44",
-      "distance": 95,
-      "warp": 95
-    },
-    {
       "$ref": "systems/rekar_28",
       "distance": 39,
       "warp": 24
+    },
+    {
+      "$ref": "systems/bildari_44",
+      "distance": 95,
+      "warp": 95
     },
     {
       "$ref": "systems/tulris_48",
@@ -34,6 +34,6 @@
   "planets": [],
   "scopely_id": 372982920,
   "system_space": "normal",
-  "system_type": "hub",
+  "system_type": "route",
   "warp": 39
 }

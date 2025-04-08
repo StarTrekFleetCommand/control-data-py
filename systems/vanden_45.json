@@ -1,0 +1,34 @@
+{
+  "name": "Vanden",
+  "capture_nodes": 0,
+  "connected_systems": [
+    {
+      "$ref": "systems/mora_42",
+      "distance": 100,
+      "warp": 65
+    },
+    {
+      "$ref": "systems/rudellia_50",
+      "distance": 170,
+      "warp": 170
+    },
+    {
+      "$ref": "systems/arawath_45",
+      "distance": 100,
+      "warp": 100
+    }
+  ],
+  "faction": "neutral",
+  "level": 45,
+  "mining": [],
+  "planets": [
+    "Vanden I",
+    "Vanden II",
+    "Vanden III",
+    "Vanden IV"
+  ],
+  "scopely_id": 647359475,
+  "system_space": "normal",
+  "system_type": "route",
+  "warp": 100
+}

@@ -8,27 +8,17 @@
       "warp": 5
     },
     {
-      "$ref": "systems/risa_7",
-      "distance": 5,
-      "warp": 5
-    },
-    {
-      "$ref": "systems/maluria_7",
-      "distance": 5,
-      "warp": 5
-    },
-    {
       "$ref": "systems/aodaan_8",
       "distance": 5,
       "warp": 5
     },
     {
-      "$ref": "systems/s_ilneimhe_8",
+      "$ref": "systems/silneimhe_8",
       "distance": 5,
       "warp": 5
     },
     {
-      "$ref": "systems/kibuka_6",
+      "$ref": "systems/risa_7",
       "distance": 5,
       "warp": 5
     },
@@ -48,6 +38,16 @@
       "warp": 5
     },
     {
+      "$ref": "systems/maluria_7",
+      "distance": 5,
+      "warp": 5
+    },
+    {
+      "$ref": "systems/kibuka_6",
+      "distance": 5,
+      "warp": 5
+    },
+    {
       "$ref": "systems/eshu_6",
       "distance": 5,
       "warp": 5
@@ -57,8 +57,8 @@
   "level": 7,
   "mining": [
     {
-      "type": "Tritanium",
-      "amount": 30,
+      "type": "tritanium",
+      "amount": 1,
       "mining_per_hour": 320,
       "size": 1500
     }
@@ -69,6 +69,6 @@
   ],
   "scopely_id": 1614747268,
   "system_space": "normal",
-  "system_type": "hub",
+  "system_type": "route",
   "warp": 5
 }

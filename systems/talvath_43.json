@@ -3,19 +3,14 @@
   "capture_nodes": 0,
   "connected_systems": [
     {
-      "$ref": "systems/ortexa_41",
-      "distance": 26,
-      "warp": 75
-    },
-    {
       "$ref": "systems/esto_43",
       "distance": 26,
       "warp": 75
     },
     {
-      "$ref": "systems/delmas_42",
-      "distance": 75,
-      "warp": 70
+      "$ref": "systems/ortexa_41",
+      "distance": 26,
+      "warp": 75
     },
     {
       "$ref": "systems/inaara_43",
@@ -33,6 +28,11 @@
       "warp": 75
     },
     {
+      "$ref": "systems/delmas_42",
+      "distance": 75,
+      "warp": 70
+    },
+    {
       "$ref": "systems/stelama_44",
       "distance": 95,
       "warp": 95
@@ -42,9 +42,8 @@
   "level": 43,
   "mining": [
     {
-      "type": "4\u2605 Raw Ore",
-      "amount": 18,
-      "grade": 4,
+      "type": "4\u2605 raw ore",
+      "amount": 1,
       "mining_per_hour": 300,
       "size": 100000
     }
@@ -55,6 +54,6 @@
   ],
   "scopely_id": 1753923484,
   "system_space": "deep",
-  "system_type": "hub",
+  "system_type": "route",
   "warp": 75
 }

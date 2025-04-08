@@ -1,0 +1,37 @@
+{
+  "name": "Burdow",
+  "capture_nodes": 0,
+  "connected_systems": [
+    {
+      "$ref": "systems/dijorjoh_50",
+      "distance": 200,
+      "warp": 110
+    },
+    {
+      "$ref": "systems/jaslyn_60",
+      "distance": 250,
+      "warp": 250
+    },
+    {
+      "$ref": "systems/jettas_55",
+      "distance": 10,
+      "warp": 200
+    },
+    {
+      "$ref": "systems/fsep_8794_60",
+      "distance": 250,
+      "warp": 250
+    }
+  ],
+  "faction": "neutral",
+  "level": 55,
+  "mining": [],
+  "planets": [
+    "Burdow Prime",
+    "Yiteloc"
+  ],
+  "scopely_id": 1755490924,
+  "system_space": "normal",
+  "system_type": "route",
+  "warp": 200
+}

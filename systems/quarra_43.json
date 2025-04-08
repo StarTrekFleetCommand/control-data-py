@@ -1,0 +1,31 @@
+{
+  "name": "Quarra",
+  "capture_nodes": 0,
+  "connected_systems": [
+    {
+      "$ref": "systems/fsep_2204_50",
+      "distance": 110,
+      "warp": 110
+    },
+    {
+      "$ref": "systems/kalak_30",
+      "distance": 75,
+      "warp": 25
+    },
+    {
+      "$ref": "systems/dawise_43",
+      "distance": 10,
+      "warp": 75
+    }
+  ],
+  "faction": "neutral",
+  "level": 43,
+  "mining": [],
+  "planets": [
+    "Quarra"
+  ],
+  "scopely_id": 2110087916,
+  "system_space": "normal",
+  "system_type": "route",
+  "warp": 75
+}

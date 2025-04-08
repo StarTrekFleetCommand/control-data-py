@@ -3,17 +3,17 @@
   "capture_nodes": 5,
   "connected_systems": [
     {
-      "$ref": "systems/framtid_beta_20",
-      "distance": 5,
-      "warp": 20
-    },
-    {
       "$ref": "systems/nujord_beta_20",
       "distance": 5,
       "warp": 20
     },
     {
       "$ref": "systems/hrojost_beta_30",
+      "distance": 5,
+      "warp": 20
+    },
+    {
+      "$ref": "systems/framtid_beta_20",
       "distance": 5,
       "warp": 20
     }
@@ -26,9 +26,9 @@
   "level": 20,
   "mining": [
     {
-      "type": "Tritanium",
-      "amount": 20,
-      "mining_per_hour": 480,
+      "type": "3\u2605 raw crystal",
+      "amount": 1,
+      "mining_per_hour": 450,
       "size": 30000
     }
   ],

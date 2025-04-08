@@ -1,0 +1,35 @@
+{
+  "name": "Mril",
+  "capture_nodes": 0,
+  "connected_systems": [
+    {
+      "$ref": "systems/alafoss_40",
+      "distance": 80,
+      "warp": 40
+    },
+    {
+      "$ref": "systems/alafoss_40",
+      "distance": 40,
+      "warp": 40
+    },
+    {
+      "$ref": "systems/rakan_36",
+      "distance": 40,
+      "warp": 35
+    }
+  ],
+  "faction": "dominion",
+  "level": 36,
+  "mining": [],
+  "planets": [
+    "Mril I",
+    "Mril II",
+    "Mril III",
+    "Mril IV",
+    "Mril Shipping Port"
+  ],
+  "scopely_id": 969433717,
+  "system_space": "normal",
+  "system_type": "route",
+  "warp": 40
+}

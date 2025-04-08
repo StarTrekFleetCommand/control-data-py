@@ -3,14 +3,14 @@
   "capture_nodes": 0,
   "connected_systems": [
     {
-      "$ref": "systems/stagnimea_38",
-      "distance": 45,
-      "warp": 45
-    },
-    {
       "$ref": "systems/devoras_39",
       "distance": 39,
       "warp": 38
+    },
+    {
+      "$ref": "systems/stagnimea_38",
+      "distance": 45,
+      "warp": 45
     },
     {
       "$ref": "systems/khazara_39",
@@ -22,7 +22,7 @@
   "level": 39,
   "mining": [
     {
-      "type": "Dilithium",
+      "type": "dilithium",
       "amount": 1,
       "mining_per_hour": 80,
       "size": 14000
@@ -34,6 +34,6 @@
   ],
   "scopely_id": 481139067,
   "system_space": "normal",
-  "system_type": "hub",
+  "system_type": "route",
   "warp": 39
 }

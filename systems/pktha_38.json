@@ -3,34 +3,34 @@
   "capture_nodes": 0,
   "connected_systems": [
     {
-      "$ref": "systems/ok_cet_38",
+      "$ref": "systems/okcet_38",
       "distance": 47,
-      "warp": 52
-    },
-    {
-      "$ref": "systems/kre_tak_38",
-      "distance": 47,
-      "warp": 52
+      "warp": 61
     },
     {
       "$ref": "systems/kuvrak_38",
       "distance": 47,
-      "warp": 52
+      "warp": 61
     },
     {
-      "$ref": "systems/pheben_39",
+      "$ref": "systems/kretak_38",
       "distance": 47,
-      "warp": 52
-    },
-    {
-      "$ref": "systems/ain_tok_38",
-      "distance": 47,
-      "warp": 52
+      "warp": 61
     },
     {
       "$ref": "systems/roxeoun_38",
       "distance": 47,
-      "warp": 52
+      "warp": 61
+    },
+    {
+      "$ref": "systems/pheben_39",
+      "distance": 47,
+      "warp": 61
+    },
+    {
+      "$ref": "systems/aintok_38",
+      "distance": 47,
+      "warp": 61
     }
   ],
   "faction": "neutral",
@@ -41,14 +41,14 @@
   "level": 38,
   "mining": [
     {
-      "type": "Parsteel",
-      "amount": 5,
+      "type": "parsteel",
+      "amount": 1,
       "mining_per_hour": 1200,
       "size": 125000
     },
     {
-      "type": "Tritanium",
-      "amount": 5,
+      "type": "tritanium",
+      "amount": 1,
       "mining_per_hour": 320,
       "size": 45000
     }
@@ -69,5 +69,5 @@
   "scopely_id": 1427881630,
   "system_space": "normal",
   "system_type": "hub",
-  "warp": 52
+  "warp": 61
 }

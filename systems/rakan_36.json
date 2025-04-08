@@ -1,0 +1,43 @@
+{
+  "name": "Rakan",
+  "capture_nodes": 0,
+  "connected_systems": [
+    {
+      "$ref": "systems/mril_36",
+      "distance": 40,
+      "warp": 40
+    },
+    {
+      "$ref": "systems/idran_20",
+      "distance": 35,
+      "warp": 25
+    },
+    {
+      "$ref": "systems/ammaga_36",
+      "distance": 35,
+      "warp": 35
+    },
+    {
+      "$ref": "systems/craelav_38",
+      "distance": 35,
+      "warp": 35
+    },
+    {
+      "$ref": "systems/ekimuk_36",
+      "distance": 35,
+      "warp": 35
+    }
+  ],
+  "faction": "dominion",
+  "level": 36,
+  "mining": [],
+  "planets": [
+    "Rakan I",
+    "Rakan II",
+    "Rakan III"
+  ],
+  "scopely_id": 2018375117,
+  "system_space": "normal",
+  "system_type": "route",
+  "warp": 35
+}

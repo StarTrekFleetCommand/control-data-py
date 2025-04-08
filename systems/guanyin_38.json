@@ -5,7 +5,7 @@
     {
       "$ref": "systems/xices_38",
       "distance": 47,
-      "warp": 51
+      "warp": 53
     }
   ],
   "faction": "neutral",
@@ -16,14 +16,14 @@
   "level": 38,
   "mining": [
     {
-      "type": "Parsteel",
-      "amount": 5,
+      "type": "parsteel",
+      "amount": 1,
       "mining_per_hour": 1200,
       "size": 125000
     },
     {
-      "type": "Tritanium",
-      "amount": 5,
+      "type": "tritanium",
+      "amount": 1,
       "mining_per_hour": 320,
       "size": 45000
     }
@@ -43,6 +43,6 @@
   ],
   "scopely_id": 143594630,
   "system_space": "normal",
-  "system_type": "terminal",
-  "warp": 51
+  "system_type": "hub",
+  "warp": 53
 }

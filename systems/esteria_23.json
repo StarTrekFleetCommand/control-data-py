@@ -3,13 +3,13 @@
   "capture_nodes": 0,
   "connected_systems": [
     {
-      "$ref": "systems/villo_27",
-      "distance": 20,
+      "$ref": "systems/krlakh_28",
+      "distance": 1,
       "warp": 20
     },
     {
-      "$ref": "systems/krlakh_28",
-      "distance": 1,
+      "$ref": "systems/villo_27",
+      "distance": 20,
       "warp": 20
     }
   ],
@@ -17,13 +17,15 @@
   "level": 23,
   "mining": [
     {
-      "type": "Mycelium Spore",
-      "amount": 40,
+      "type": "mycelium spore",
+      "amount": 1,
       "mining_per_hour": 1250,
       "size": 800
     }
   ],
-  "planets": [],
+  "planets": [
+    "Walt Prime"
+  ],
   "scopely_id": 1089341585,
   "system_space": "normal",
   "system_type": "route",

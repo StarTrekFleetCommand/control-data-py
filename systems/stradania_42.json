@@ -3,11 +3,6 @@
   "capture_nodes": 0,
   "connected_systems": [
     {
-      "$ref": "systems/new_berlin_42",
-      "distance": 70,
-      "warp": 70
-    },
-    {
       "$ref": "systems/nikola_41",
       "distance": 70,
       "warp": 56
@@ -16,14 +11,19 @@
       "$ref": "systems/siieqa_41",
       "distance": 85,
       "warp": 85
+    },
+    {
+      "$ref": "systems/new_berlin_42",
+      "distance": 70,
+      "warp": 70
     }
   ],
   "faction": "neutral",
   "level": 42,
   "mining": [
     {
-      "type": "Tritanium",
-      "amount": 9,
+      "type": "tritanium",
+      "amount": 1,
       "mining_per_hour": 320,
       "size": 200000
     }
@@ -37,6 +37,6 @@
   ],
   "scopely_id": 482905164,
   "system_space": "deep",
-  "system_type": "hub",
+  "system_type": "route",
   "warp": 70
 }

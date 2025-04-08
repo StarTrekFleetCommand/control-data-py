@@ -3,7 +3,7 @@
   "capture_nodes": 0,
   "connected_systems": [
     {
-      "$ref": "systems/gya_han_39",
+      "$ref": "systems/gyahan_39",
       "distance": 27,
       "warp": 40
     },
@@ -21,8 +21,8 @@
   "level": 37,
   "mining": [
     {
-      "type": "Tritanium",
-      "amount": 5,
+      "type": "tritanium",
+      "amount": 1,
       "mining_per_hour": 320,
       "size": 35000
     }
@@ -42,6 +42,6 @@
   ],
   "scopely_id": 1768514184,
   "system_space": "normal",
-  "system_type": "route",
+  "system_type": "hub",
   "warp": 40
 }

@@ -3,30 +3,29 @@
   "capture_nodes": 0,
   "connected_systems": [
     {
-      "$ref": "systems/b_moth_39",
-      "distance": 50,
-      "warp": 50
-    },
-    {
       "$ref": "systems/mempa_38",
       "distance": 48,
       "warp": 39
     },
     {
-      "$ref": "systems/qu_vat_38",
+      "$ref": "systems/quvat_38",
       "distance": 48,
       "warp": 48
+    },
+    {
+      "$ref": "systems/bmoth_39",
+      "distance": 50,
+      "warp": 50
     }
   ],
   "faction": "klingon",
   "level": 39,
   "mining": [
     {
-      "type": "3\u2605 Raw Crystal",
-      "amount": 10,
-      "grade": 3,
+      "type": "3\u2605 raw crystal",
+      "amount": 2,
       "mining_per_hour": 300,
-      "size": 40000
+      "size": 60000
     }
   ],
   "planets": [
@@ -36,6 +35,6 @@
   ],
   "scopely_id": 1025049269,
   "system_space": "normal",
-  "system_type": "hub",
+  "system_type": "route",
   "warp": 48
 }

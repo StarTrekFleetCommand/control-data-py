@@ -8,22 +8,22 @@
       "warp": 185
     },
     {
-      "$ref": "systems/no_mat_38",
-      "distance": 48,
-      "warp": 48
-    },
-    {
       "$ref": "systems/kronos_60",
       "distance": 40,
       "warp": 38
+    },
+    {
+      "$ref": "systems/nomat_38",
+      "distance": 48,
+      "warp": 48
     }
   ],
   "faction": "klingon",
   "level": 39,
   "mining": [
     {
-      "type": "Parsteel",
-      "amount": 5,
+      "type": "parsteel",
+      "amount": 1,
       "mining_per_hour": 1200,
       "size": 125000
     }
@@ -33,6 +33,6 @@
   ],
   "scopely_id": 18003294,
   "system_space": "normal",
-  "system_type": "hub",
+  "system_type": "route",
   "warp": 40
 }

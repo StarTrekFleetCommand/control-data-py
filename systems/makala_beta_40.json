@@ -1,0 +1,36 @@
+{
+  "name": "Mak'ala Beta",
+  "capture_nodes": 12,
+  "connected_systems": [
+    {
+      "$ref": "systems/zhian_alpha_30",
+      "distance": 5,
+      "warp": 20
+    },
+    {
+      "$ref": "systems/makala_alpha_40",
+      "distance": 5,
+      "warp": 20
+    },
+    {
+      "$ref": "systems/makala_gamma_40",
+      "distance": 5,
+      "warp": 20
+    }
+  ],
+  "faction": "neutral",
+  "level": 40,
+  "mining": [
+    {
+      "type": "4\u2605 raw gas",
+      "amount": 1,
+      "mining_per_hour": 600,
+      "size": 150000
+    }
+  ],
+  "planets": [],
+  "scopely_id": 1981891423,
+  "system_space": "origin",
+  "system_type": "route",
+  "warp": 20
+}

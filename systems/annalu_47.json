@@ -3,7 +3,7 @@
   "capture_nodes": 0,
   "connected_systems": [
     {
-      "$ref": "systems/wuk_vek_48",
+      "$ref": "systems/wukvek_48",
       "distance": 160,
       "warp": 160
     },
@@ -21,8 +21,8 @@
   "level": 47,
   "mining": [
     {
-      "type": "Parsteel",
-      "amount": 6,
+      "type": "parsteel",
+      "amount": 1,
       "mining_per_hour": 1200,
       "size": 2000000
     }
@@ -42,6 +42,6 @@
   ],
   "scopely_id": 1378207701,
   "system_space": "deep",
-  "system_type": "route",
+  "system_type": "hub",
   "warp": 120
 }

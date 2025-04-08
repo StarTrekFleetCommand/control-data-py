@@ -3,11 +3,6 @@
   "capture_nodes": 14,
   "connected_systems": [
     {
-      "$ref": "systems/burran_alpha_30",
-      "distance": 5,
-      "warp": 20
-    },
-    {
       "$ref": "systems/thaylen_alpha_20",
       "distance": 5,
       "warp": 20
@@ -16,22 +11,26 @@
       "$ref": "systems/stilhe_alpha_20",
       "distance": 5,
       "warp": 20
+    },
+    {
+      "$ref": "systems/burran_alpha_30",
+      "distance": 5,
+      "warp": 20
     }
   ],
   "faction": "neutral",
   "level": 30,
   "mining": [
     {
-      "type": "3\u21f4 Raw Isogen",
-      "amount": 20,
-      "grade": 3,
+      "type": "3\u21f4 raw isogen",
+      "amount": 1,
       "mining_per_hour": 2250,
-      "size": 400000
+      "size": 1000000
     }
   ],
   "planets": [],
   "scopely_id": 1187168479,
   "system_space": "origin",
-  "system_type": "hub",
+  "system_type": "route",
   "warp": 20
 }

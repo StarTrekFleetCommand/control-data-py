@@ -3,17 +3,12 @@
   "capture_nodes": 0,
   "connected_systems": [
     {
-      "$ref": "systems/beine_50",
+      "$ref": "systems/baelos_50",
       "distance": 185,
       "warp": 185
     },
     {
-      "$ref": "systems/fibona_39",
-      "distance": 30,
-      "warp": 56
-    },
-    {
-      "$ref": "systems/baelos_50",
+      "$ref": "systems/beine_50",
       "distance": 185,
       "warp": 185
     },
@@ -21,15 +16,19 @@
       "$ref": "systems/agataylor_52",
       "distance": 230,
       "warp": 230
+    },
+    {
+      "$ref": "systems/fibona_39",
+      "distance": 30,
+      "warp": 56
     }
   ],
   "faction": "federation",
   "level": 50,
   "mining": [
     {
-      "type": "5\u2605 Raw Gas",
-      "amount": 18,
-      "grade": 5,
+      "type": "5\u2605 raw gas",
+      "amount": 1,
       "mining_per_hour": 140,
       "size": 1200000
     }
@@ -43,6 +42,6 @@
   ],
   "scopely_id": 1903711022,
   "system_space": "deep",
-  "system_type": "hub",
+  "system_type": "route",
   "warp": 185
 }

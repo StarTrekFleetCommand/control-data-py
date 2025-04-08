@@ -3,12 +3,12 @@
   "capture_nodes": 4,
   "connected_systems": [
     {
-      "$ref": "systems/nyrheimur_beta_40",
+      "$ref": "systems/hrojost_beta_30",
       "distance": 5,
       "warp": 20
     },
     {
-      "$ref": "systems/hrojost_beta_30",
+      "$ref": "systems/nyrheimur_beta_40",
       "distance": 5,
       "warp": 20
     },
@@ -26,11 +26,10 @@
   "level": 30,
   "mining": [
     {
-      "type": "3\u2605 Raw Gas",
-      "amount": 20,
-      "grade": 3,
-      "mining_per_hour": 450,
-      "size": 30000
+      "type": "4\u2605 raw gas",
+      "amount": 1,
+      "mining_per_hour": 600,
+      "size": 150000
     }
   ],
   "planets": [

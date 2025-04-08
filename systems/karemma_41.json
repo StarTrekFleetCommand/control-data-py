@@ -1,0 +1,48 @@
+{
+  "name": "Karemma",
+  "capture_nodes": 0,
+  "connected_systems": [
+    {
+      "$ref": "systems/koteli_43",
+      "distance": 75,
+      "warp": 75
+    },
+    {
+      "$ref": "systems/sagra_45",
+      "distance": 50,
+      "warp": 50
+    },
+    {
+      "$ref": "systems/callinon_43",
+      "distance": 75,
+      "warp": 75
+    },
+    {
+      "$ref": "systems/parada_43",
+      "distance": 75,
+      "warp": 75
+    },
+    {
+      "$ref": "systems/alafoss_40",
+      "distance": 45,
+      "warp": 40
+    },
+    {
+      "$ref": "systems/kurill_44",
+      "distance": 45,
+      "warp": 45
+    }
+  ],
+  "faction": "dominion",
+  "level": 41,
+  "mining": [],
+  "planets": [
+    "Hekos",
+    "Karemma",
+    "Monzar"
+  ],
+  "scopely_id": 360543514,
+  "system_space": "deep",
+  "system_type": "route",
+  "warp": 45
+}

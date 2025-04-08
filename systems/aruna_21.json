@@ -3,14 +3,14 @@
   "capture_nodes": 0,
   "connected_systems": [
     {
-      "$ref": "systems/ajilon_25",
-      "distance": 17,
-      "warp": 17
-    },
-    {
       "$ref": "systems/opla_20",
       "distance": 8,
       "warp": 13
+    },
+    {
+      "$ref": "systems/ajilon_25",
+      "distance": 17,
+      "warp": 17
     },
     {
       "$ref": "systems/rada_ban_22",
@@ -32,9 +32,8 @@
   "level": 21,
   "mining": [
     {
-      "type": "3\u2605 Raw Gas",
-      "amount": 24,
-      "grade": 3,
+      "type": "3\u2605 raw gas",
+      "amount": 1,
       "mining_per_hour": 300,
       "size": 3600
     }
@@ -46,6 +45,6 @@
   ],
   "scopely_id": 37068128,
   "system_space": "normal",
-  "system_type": "hub",
+  "system_type": "route",
   "warp": 13
 }

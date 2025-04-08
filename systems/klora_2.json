@@ -13,6 +13,11 @@
       "warp": 5
     },
     {
+      "$ref": "systems/lyra_1",
+      "distance": 1,
+      "warp": 5
+    },
+    {
       "$ref": "systems/injerra_1",
       "distance": 1,
       "warp": 5
@@ -31,8 +36,8 @@
   "level": 2,
   "mining": [
     {
-      "type": "Parsteel",
-      "amount": 50,
+      "type": "parsteel",
+      "amount": 1,
       "mining_per_hour": 1200,
       "size": 1000
     }

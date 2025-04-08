@@ -1,0 +1,29 @@
+{
+  "name": "Koras-12",
+  "capture_nodes": 0,
+  "connected_systems": [
+    {
+      "$ref": "systems/kejal_10",
+      "distance": 25,
+      "warp": 5
+    },
+    {
+      "$ref": "systems/neethia_30",
+      "distance": 25,
+      "warp": 25
+    },
+    {
+      "$ref": "systems/bajor_20",
+      "distance": 25,
+      "warp": 25
+    }
+  ],
+  "faction": "neutral",
+  "level": 18,
+  "mining": [],
+  "planets": [],
+  "scopely_id": 763406588,
+  "system_space": "normal",
+  "system_type": "route",
+  "warp": 25
+}

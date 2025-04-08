@@ -3,22 +3,24 @@
   "capture_nodes": 0,
   "connected_systems": [
     {
-      "$ref": "systems/raxo_49",
-      "distance": 100,
-      "warp": 120
-    },
-    {
       "$ref": "systems/hedex_47",
       "distance": 100,
-      "warp": 120
+      "warp": 0
+    },
+    {
+      "$ref": "systems/raxo_49",
+      "distance": 100,
+      "warp": 0
     }
   ],
   "faction": "neutral",
   "level": 48,
   "mining": [],
-  "planets": [],
+  "planets": [
+    "</b>"
+  ],
   "scopely_id": 652531525,
-  "system_space": "dark",
+  "system_space": "normal",
   "system_type": "route",
-  "warp": 120
+  "warp": 0
 }

@@ -3,14 +3,14 @@
   "capture_nodes": 0,
   "connected_systems": [
     {
+      "$ref": "systems/tivel_48",
+      "distance": 150,
+      "warp": 150
+    },
+    {
       "$ref": "systems/veisa_46",
       "distance": 26,
       "warp": 120
-    },
-    {
-      "$ref": "systems/tiv_el_48",
-      "distance": 150,
-      "warp": 150
     }
   ],
   "faction": "romulan",
@@ -21,8 +21,8 @@
   "level": 47,
   "mining": [
     {
-      "type": "Parsteel",
-      "amount": 6,
+      "type": "parsteel",
+      "amount": 1,
       "mining_per_hour": 1200,
       "size": 2000000
     }
@@ -33,13 +33,13 @@
     "Grunaas",
     "Issuliv",
     "Lariaa",
-    "Mirdana",
     "Rewex",
     "Strinax",
+    "TR-8R",
     "Taalii"
   ],
   "scopely_id": 245752118,
   "system_space": "deep",
-  "system_type": "route",
+  "system_type": "hub",
   "warp": 120
 }

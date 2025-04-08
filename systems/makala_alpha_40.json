@@ -1,0 +1,45 @@
+{
+  "name": "Mak'ala Alpha",
+  "capture_nodes": 6,
+  "connected_systems": [
+    {
+      "$ref": "systems/hoobishan_alpha_30",
+      "distance": 5,
+      "warp": 20
+    },
+    {
+      "$ref": "systems/makala_beta_40",
+      "distance": 5,
+      "warp": 20
+    },
+    {
+      "$ref": "systems/makala_gamma_40",
+      "distance": 5,
+      "warp": 20
+    }
+  ],
+  "faction": "neutral",
+  "hub_details": {
+    "hub_number": 4,
+    "hub_size": 6
+  },
+  "level": 40,
+  "mining": [
+    {
+      "type": "5\u2605 raw gas",
+      "amount": 1,
+      "mining_per_hour": 775,
+      "size": 250000
+    }
+  ],
+  "planets": [
+    "Cuvar",
+    "Daxosa",
+    "Mak'ala Prime",
+    "Zili"
+  ],
+  "scopely_id": 1849580524,
+  "system_space": "origin",
+  "system_type": "hub",
+  "warp": 20
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Mora",
+  "capture_nodes": 0,
+  "connected_systems": [
+    {
+      "$ref": "systems/vetar_42",
+      "distance": 65,
+      "warp": 65
+    },
+    {
+      "$ref": "systems/arawath_45",
+      "distance": 100,
+      "warp": 100
+    },
+    {
+      "$ref": "systems/lazon_42",
+      "distance": 65,
+      "warp": 65
+    },
+    {
+      "$ref": "systems/vanden_45",
+      "distance": 100,
+      "warp": 100
+    },
+    {
+      "$ref": "systems/andrita_36",
+      "distance": 65,
+      "warp": 29
+    }
+  ],
+  "faction": "neutral",
+  "level": 42,
+  "mining": [],
+  "planets": [
+    "Calitz I",
+    "Calitz II",
+    "Mora Shipyard"
+  ],
+  "scopely_id": 2103399630,
+  "system_space": "normal",
+  "system_type": "route",
+  "warp": 65
+}

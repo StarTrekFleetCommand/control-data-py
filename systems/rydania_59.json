@@ -3,14 +3,14 @@
   "capture_nodes": 0,
   "connected_systems": [
     {
-      "$ref": "systems/st_19184_58",
-      "distance": 500,
-      "warp": 440
-    },
-    {
       "$ref": "systems/tera_nora_59",
       "distance": 500,
       "warp": 500
+    },
+    {
+      "$ref": "systems/st_19184_58",
+      "distance": 500,
+      "warp": 440
     }
   ],
   "faction": "neutral",
@@ -21,8 +21,8 @@
   "level": 59,
   "mining": [
     {
-      "type": "Dilithium",
-      "amount": 10,
+      "type": "dilithium",
+      "amount": 1,
       "mining_per_hour": 80,
       "size": 10000000
     }
@@ -42,6 +42,6 @@
   ],
   "scopely_id": 2009845344,
   "system_space": "deep",
-  "system_type": "route",
+  "system_type": "hub",
   "warp": 500
 }

@@ -3,11 +3,6 @@
   "capture_nodes": 0,
   "connected_systems": [
     {
-      "$ref": "systems/sol_60",
-      "distance": 47,
-      "warp": 40
-    },
-    {
       "$ref": "systems/denobula_triaxa_38",
       "distance": 53,
       "warp": 53
@@ -21,20 +16,25 @@
       "$ref": "systems/deneb_38",
       "distance": 47,
       "warp": 47
+    },
+    {
+      "$ref": "systems/sol_60",
+      "distance": 47,
+      "warp": 40
     }
   ],
   "faction": "federation",
   "level": 37,
   "mining": [
     {
-      "type": "Tritanium",
-      "amount": 5,
+      "type": "tritanium",
+      "amount": 1,
       "mining_per_hour": 320,
       "size": 45000
     },
     {
-      "type": "Parsteel",
-      "amount": 5,
+      "type": "parsteel",
+      "amount": 1,
       "mining_per_hour": 1200,
       "size": 125000
     }
@@ -46,6 +46,6 @@
   ],
   "scopely_id": 1045590996,
   "system_space": "normal",
-  "system_type": "hub",
+  "system_type": "route",
   "warp": 47
 }

@@ -3,27 +3,7 @@
   "capture_nodes": 0,
   "connected_systems": [
     {
-      "$ref": "systems/gelvin_19",
-      "distance": 8,
-      "warp": 13
-    },
-    {
-      "$ref": "systems/kosz_19",
-      "distance": 8,
-      "warp": 13
-    },
-    {
       "$ref": "systems/dalukerinborva_18",
-      "distance": 8,
-      "warp": 13
-    },
-    {
-      "$ref": "systems/voss_20",
-      "distance": 8,
-      "warp": 13
-    },
-    {
-      "$ref": "systems/skyedark_18",
       "distance": 8,
       "warp": 13
     },
@@ -38,17 +18,12 @@
       "warp": 17
     },
     {
-      "$ref": "systems/aruna_21",
-      "distance": 8,
-      "warp": 13
-    },
-    {
       "$ref": "systems/sorenle_21",
       "distance": 15,
       "warp": 15
     },
     {
-      "$ref": "systems/pune_16",
+      "$ref": "systems/voss_20",
       "distance": 8,
       "warp": 13
     },
@@ -58,7 +33,32 @@
       "warp": 13
     },
     {
+      "$ref": "systems/pune_16",
+      "distance": 8,
+      "warp": 13
+    },
+    {
+      "$ref": "systems/aruna_21",
+      "distance": 8,
+      "warp": 13
+    },
+    {
+      "$ref": "systems/skyedark_18",
+      "distance": 8,
+      "warp": 13
+    },
+    {
+      "$ref": "systems/kosz_19",
+      "distance": 8,
+      "warp": 13
+    },
+    {
       "$ref": "systems/oltomon_17",
+      "distance": 8,
+      "warp": 13
+    },
+    {
+      "$ref": "systems/gelvin_19",
       "distance": 8,
       "warp": 13
     },
@@ -76,9 +76,8 @@
   "level": 20,
   "mining": [
     {
-      "type": "2\u2605 Raw Gas",
-      "amount": 52,
-      "grade": 2,
+      "type": "2\u2605 raw gas",
+      "amount": 2,
       "mining_per_hour": 600,
       "size": 25000
     }

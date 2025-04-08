@@ -5,22 +5,22 @@
     {
       "$ref": "systems/slawlor_1",
       "distance": 1,
-      "warp": 3
+      "warp": 5
     },
     {
       "$ref": "systems/reelah_1",
       "distance": 1,
-      "warp": 3
+      "warp": 5
     },
     {
       "$ref": "systems/boorhi_1",
       "distance": 1,
-      "warp": 3
+      "warp": 5
     },
     {
       "$ref": "systems/zukerat_4",
       "distance": 2,
-      "warp": 3
+      "warp": 5
     }
   ],
   "faction": "neutral",
@@ -31,8 +31,8 @@
   "level": 2,
   "mining": [
     {
-      "type": "Parsteel",
-      "amount": 16,
+      "type": "parsteel",
+      "amount": 1,
       "mining_per_hour": 1200,
       "size": 1000
     }
@@ -55,5 +55,5 @@
   "scopely_id": 73854,
   "system_space": "normal",
   "system_type": "hub",
-  "warp": 3
+  "warp": 5
 }

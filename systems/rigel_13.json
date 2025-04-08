@@ -5,22 +5,12 @@
     {
       "$ref": "systems/bellas_12",
       "distance": 10,
-      "warp": 7
+      "warp": 8
     },
     {
       "$ref": "systems/nelve_12",
       "distance": 10,
-      "warp": 7
-    },
-    {
-      "$ref": "systems/zaurak_13",
-      "distance": 11,
-      "warp": 11
-    },
-    {
-      "$ref": "systems/valance_28",
-      "distance": 24,
-      "warp": 24
+      "warp": 8
     },
     {
       "$ref": "systems/elona_13",
@@ -28,7 +18,12 @@
       "warp": 11
     },
     {
-      "$ref": "systems/dhi_ban_14",
+      "$ref": "systems/dhiban_14",
+      "distance": 11,
+      "warp": 11
+    },
+    {
+      "$ref": "systems/zaurak_13",
       "distance": 11,
       "warp": 11
     },
@@ -36,9 +31,18 @@
       "$ref": "systems/rainsford_20",
       "distance": 13,
       "warp": 13
+    },
+    {
+      "$ref": "systems/valance_28",
+      "distance": 24,
+      "warp": 24
     }
   ],
   "faction": "neutral",
+  "hub_details": {
+    "hub_number": 1,
+    "hub_size": 16
+  },
   "level": 13,
   "mining": [],
   "planets": [
@@ -49,7 +53,7 @@
     "Rigel V",
     "Rigel VI",
     "Rigel VII",
-    "Rigel X"
+    "Rigel XI"
   ],
   "scopely_id": 54,
   "system_space": "normal",

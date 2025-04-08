@@ -1,0 +1,40 @@
+{
+  "name": "Shan Mhna'Tir",
+  "capture_nodes": 0,
+  "connected_systems": [
+    {
+      "$ref": "systems/maht_ha_44",
+      "distance": 110,
+      "warp": 105
+    },
+    {
+      "$ref": "systems/kostok_44",
+      "distance": 105,
+      "warp": 105
+    },
+    {
+      "$ref": "systems/tohkaht_43",
+      "distance": 95,
+      "warp": 75
+    }
+  ],
+  "faction": "klingon",
+  "level": 44,
+  "mining": [
+    {
+      "type": "dilithium",
+      "amount": 1,
+      "mining_per_hour": 80,
+      "size": 500000
+    }
+  ],
+  "planets": [
+    "Aedu",
+    "Oolen",
+    "Wadoi"
+  ],
+  "scopely_id": 1470734979,
+  "system_space": "deep",
+  "system_type": "route",
+  "warp": 95
+}

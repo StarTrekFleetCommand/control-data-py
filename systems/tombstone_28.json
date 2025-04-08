@@ -3,17 +3,17 @@
   "capture_nodes": 0,
   "connected_systems": [
     {
-      "$ref": "systems/kuzukoh_29",
-      "distance": 24,
-      "warp": 24
-    },
-    {
       "$ref": "systems/d0d_g_28",
       "distance": 24,
       "warp": 24
     },
     {
       "$ref": "systems/doniphon_29",
+      "distance": 24,
+      "warp": 24
+    },
+    {
+      "$ref": "systems/kuzukoh_29",
       "distance": 24,
       "warp": 24
     },
@@ -31,23 +31,22 @@
   "level": 28,
   "mining": [
     {
-      "type": "1\u21f4 Raw Isogen",
-      "amount": 6,
-      "grade": 1,
+      "type": "1\u21f4 raw isogen",
+      "amount": 1,
       "mining_per_hour": 750,
-      "size": 200000
+      "size": 500000
     }
   ],
   "planets": [
+    "BluePlague",
     "Bylen",
-    "Cessi",
-    "Fjord",
+    "CptAnderStevens",
     "Foster",
     "Hamish",
     "Hooroo",
     "Krykie",
-    "Seum",
-    "Yuie"
+    "Yuie",
+    "ZORCH"
   ],
   "scopely_id": 1198962565,
   "system_space": "normal",

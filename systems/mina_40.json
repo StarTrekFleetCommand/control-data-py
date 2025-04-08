@@ -3,16 +3,6 @@
   "capture_nodes": 0,
   "connected_systems": [
     {
-      "$ref": "systems/tovla_40",
-      "distance": 56,
-      "warp": 56
-    },
-    {
-      "$ref": "systems/garadius_39",
-      "distance": 56,
-      "warp": 56
-    },
-    {
       "$ref": "systems/nikola_41",
       "distance": 56,
       "warp": 56
@@ -23,22 +13,32 @@
       "warp": 56
     },
     {
-      "$ref": "systems/livi_40",
+      "$ref": "systems/rowla_40",
+      "distance": 64,
+      "warp": 64
+    },
+    {
+      "$ref": "systems/tovla_40",
+      "distance": 56,
+      "warp": 61
+    },
+    {
+      "$ref": "systems/garadius_39",
       "distance": 56,
       "warp": 56
     },
     {
-      "$ref": "systems/rowla_40",
-      "distance": 64,
-      "warp": 64
+      "$ref": "systems/livi_40",
+      "distance": 56,
+      "warp": 56
     }
   ],
   "faction": "neutral",
   "level": 40,
   "mining": [
     {
-      "type": "Parsteel",
-      "amount": 9,
+      "type": "parsteel",
+      "amount": 1,
       "mining_per_hour": 1200,
       "size": 500000
     }
@@ -51,6 +51,6 @@
   ],
   "scopely_id": 39723580,
   "system_space": "deep",
-  "system_type": "hub",
+  "system_type": "route",
   "warp": 56
 }

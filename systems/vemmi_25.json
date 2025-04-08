@@ -3,12 +3,12 @@
   "capture_nodes": 0,
   "connected_systems": [
     {
-      "$ref": "systems/klosi_25",
+      "$ref": "systems/marzer_25",
       "distance": 20,
       "warp": 20
     },
     {
-      "$ref": "systems/marzer_25",
+      "$ref": "systems/klosi_25",
       "distance": 20,
       "warp": 20
     }
@@ -17,11 +17,10 @@
   "level": 25,
   "mining": [
     {
-      "type": "1\u21f4 Raw Isogen",
-      "amount": 25,
-      "grade": 1,
+      "type": "1\u21f4 raw isogen",
+      "amount": 1,
       "mining_per_hour": 750,
-      "size": 200000
+      "size": 500000
     }
   ],
   "planets": [

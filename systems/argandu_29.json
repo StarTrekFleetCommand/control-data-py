@@ -3,9 +3,9 @@
   "capture_nodes": 0,
   "connected_systems": [
     {
-      "$ref": "systems/vendor_34",
+      "$ref": "systems/rator_29",
       "distance": 32,
-      "warp": 32
+      "warp": 20
     },
     {
       "$ref": "systems/arentar_30",
@@ -13,25 +13,37 @@
       "warp": 32
     },
     {
-      "$ref": "systems/rator_29",
+      "$ref": "systems/megnomis_35",
+      "distance": 35,
+      "warp": 35
+    },
+    {
+      "$ref": "systems/vendor_34",
       "distance": 32,
-      "warp": 20
+      "warp": 32
+    },
+    {
+      "$ref": "systems/atraxi_35",
+      "distance": 35,
+      "warp": 35
     }
   ],
   "faction": "romulan",
   "level": 29,
   "mining": [
     {
-      "type": "3\u2605 Raw Ore",
-      "amount": 24,
-      "grade": 3,
+      "type": "3\u2605 raw ore",
+      "amount": 1,
       "mining_per_hour": 300,
       "size": 18000
     }
   ],
-  "planets": [],
+  "planets": [
+    "Muxa",
+    "Vakonaf"
+  ],
   "scopely_id": 58793480,
   "system_space": "normal",
-  "system_type": "hub",
+  "system_type": "route",
   "warp": 32
 }

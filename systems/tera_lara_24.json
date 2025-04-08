@@ -5,7 +5,7 @@
     {
       "$ref": "systems/lydan_22",
       "distance": 17,
-      "warp": 16
+      "warp": 17
     },
     {
       "$ref": "systems/rona_tan_26",
@@ -20,26 +20,38 @@
     {
       "$ref": "systems/raddan_22",
       "distance": 17,
-      "warp": 16
+      "warp": 17
     }
   ],
   "faction": "augment",
   "level": 24,
   "mining": [
     {
-      "type": "Corrupted Data",
-      "amount": 36,
+      "type": "corrupted data",
+      "amount": 1,
       "mining_per_hour": 20,
       "size": 25
     }
   ],
   "planets": [
+    "Corrupted Data Accelerator",
+    "Corrupted Data Accelerator",
+    "Corrupted Data Accelerator",
+    "Corrupted Data Accelerator",
+    "Corrupted Data Accelerator",
+    "Corrupted Data Accelerator",
+    "Corrupted Data Accelerator",
+    "Corrupted Data Accelerator",
+    "Corrupted Data Accelerator",
+    "Corrupted Data Accelerator",
+    "Corrupted Data Accelerator",
+    "Corrupted Data Accelerator",
     "Fiwurek",
     "Hanrex",
     "Judejej"
   ],
   "scopely_id": 1775451055,
   "system_space": "normal",
-  "system_type": "hub",
+  "system_type": "route",
   "warp": 7
 }

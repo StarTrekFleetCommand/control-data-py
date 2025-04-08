@@ -8,7 +8,7 @@
       "warp": 48
     },
     {
-      "$ref": "systems/fellebia_38",
+      "$ref": "systems/bor_38",
       "distance": 47,
       "warp": 48
     },
@@ -18,7 +18,7 @@
       "warp": 48
     },
     {
-      "$ref": "systems/bor_38",
+      "$ref": "systems/nezha_38",
       "distance": 47,
       "warp": 48
     },
@@ -28,7 +28,7 @@
       "warp": 48
     },
     {
-      "$ref": "systems/nezha_38",
+      "$ref": "systems/fellebia_38",
       "distance": 47,
       "warp": 48
     }
@@ -41,14 +41,14 @@
   "level": 38,
   "mining": [
     {
-      "type": "Parsteel",
-      "amount": 5,
+      "type": "parsteel",
+      "amount": 1,
       "mining_per_hour": 1200,
       "size": 125000
     },
     {
-      "type": "Tritanium",
-      "amount": 5,
+      "type": "tritanium",
+      "amount": 1,
       "mining_per_hour": 320,
       "size": 45000
     }

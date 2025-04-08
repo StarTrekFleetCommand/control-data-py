@@ -8,22 +8,22 @@
       "warp": 20
     },
     {
-      "$ref": "systems/kepler_018_20",
-      "distance": 13,
-      "warp": 13
-    },
-    {
       "$ref": "systems/deneva_15",
       "distance": 13,
       "warp": 11
+    },
+    {
+      "$ref": "systems/kepler_018_20",
+      "distance": 13,
+      "warp": 13
     }
   ],
   "faction": "romulan",
   "level": 18,
   "mining": [
     {
-      "type": "Dilithium",
-      "amount": 20,
+      "type": "dilithium",
+      "amount": 1,
       "mining_per_hour": 80,
       "size": 4000
     }
@@ -34,6 +34,6 @@
   ],
   "scopely_id": 1855008555,
   "system_space": "normal",
-  "system_type": "hub",
+  "system_type": "route",
   "warp": 13
 }

@@ -3,9 +3,9 @@
   "capture_nodes": 0,
   "connected_systems": [
     {
-      "$ref": "systems/rai_trohk_49",
+      "$ref": "systems/endriz_50",
       "distance": 185,
-      "warp": 160
+      "warp": 185
     },
     {
       "$ref": "systems/adrisilver_50",
@@ -13,18 +13,17 @@
       "warp": 185
     },
     {
-      "$ref": "systems/endriz_50",
+      "$ref": "systems/raitrohk_49",
       "distance": 185,
-      "warp": 185
+      "warp": 160
     }
   ],
   "faction": "klingon",
   "level": 50,
   "mining": [
     {
-      "type": "4\u2605 Raw Crystal",
-      "amount": 10,
-      "grade": 4,
+      "type": "4\u2605 raw crystal",
+      "amount": 1,
       "mining_per_hour": 300,
       "size": 2400000
     }
@@ -36,6 +35,6 @@
   ],
   "scopely_id": 742843878,
   "system_space": "deep",
-  "system_type": "hub",
+  "system_type": "route",
   "warp": 185
 }

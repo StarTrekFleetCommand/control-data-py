@@ -13,7 +13,7 @@
       "warp": 22
     },
     {
-      "$ref": "systems/kus_rok_28",
+      "$ref": "systems/kusrok_28",
       "distance": 24,
       "warp": 24
     },
@@ -37,15 +37,9 @@
   "level": 28,
   "mining": [
     {
-      "type": "Raw Latinum",
-      "amount": 24,
+      "type": "raw latinum",
+      "amount": 8,
       "mining_per_hour": 34,
-      "size": 184000
-    },
-    {
-      "type": "Raw Latinum",
-      "amount": 24,
-      "mining_per_hour": 68,
       "size": 184000
     }
   ],
@@ -56,6 +50,6 @@
   ],
   "scopely_id": 369364082,
   "system_space": "normal",
-  "system_type": "hub",
+  "system_type": "route",
   "warp": 19
 }

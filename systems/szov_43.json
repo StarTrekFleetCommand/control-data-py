@@ -3,17 +3,12 @@
   "capture_nodes": 0,
   "connected_systems": [
     {
-      "$ref": "systems/t_ong_43",
+      "$ref": "systems/tong_43",
       "distance": 26,
       "warp": 75
     },
     {
-      "$ref": "systems/toh_kaht_43",
-      "distance": 26,
-      "warp": 75
-    },
-    {
-      "$ref": "systems/klopp_42",
+      "$ref": "systems/tohkaht_43",
       "distance": 26,
       "warp": 75
     },
@@ -33,18 +28,22 @@
       "warp": 75
     },
     {
-      "$ref": "systems/b_oh_42",
+      "$ref": "systems/boh_42",
       "distance": 75,
       "warp": 70
+    },
+    {
+      "$ref": "systems/klopp_42",
+      "distance": 26,
+      "warp": 75
     }
   ],
   "faction": "klingon",
   "level": 43,
   "mining": [
     {
-      "type": "4\u2605 Raw Crystal",
-      "amount": 18,
-      "grade": 4,
+      "type": "4\u2605 raw crystal",
+      "amount": 1,
       "mining_per_hour": 300,
       "size": 100000
     }
@@ -56,6 +55,6 @@
   ],
   "scopely_id": 2056731809,
   "system_space": "deep",
-  "system_type": "hub",
+  "system_type": "route",
   "warp": 75
 }

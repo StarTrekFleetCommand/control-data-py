@@ -13,12 +13,17 @@
       "warp": 26
     },
     {
-      "$ref": "systems/ascher_30",
+      "$ref": "systems/barklay_31",
       "distance": 16,
       "warp": 26
     },
     {
-      "$ref": "systems/sinisser_31",
+      "$ref": "systems/pjem_29",
+      "distance": 26,
+      "warp": 20
+    },
+    {
+      "$ref": "systems/doloran_30",
       "distance": 16,
       "warp": 26
     },
@@ -28,17 +33,12 @@
       "warp": 30
     },
     {
-      "$ref": "systems/barklay_31",
+      "$ref": "systems/ascher_30",
       "distance": 16,
       "warp": 26
     },
     {
-      "$ref": "systems/p_jem_29",
-      "distance": 26,
-      "warp": 20
-    },
-    {
-      "$ref": "systems/doloran_30",
+      "$ref": "systems/sinisser_31",
       "distance": 16,
       "warp": 26
     }
@@ -47,9 +47,8 @@
   "level": 33,
   "mining": [
     {
-      "type": "3\u2605 Raw Gas",
-      "amount": 24,
-      "grade": 3,
+      "type": "3\u2605 raw gas",
+      "amount": 1,
       "mining_per_hour": 300,
       "size": 18000
     }
@@ -59,6 +58,6 @@
   ],
   "scopely_id": 1089138051,
   "system_space": "normal",
-  "system_type": "hub",
+  "system_type": "route",
   "warp": 26
 }

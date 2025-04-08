@@ -1,0 +1,28 @@
+{
+  "name": "Barnard's Star",
+  "capture_nodes": 0,
+  "connected_systems": [
+    {
+      "$ref": "systems/sol_60",
+      "distance": 6,
+      "warp": 40
+    }
+  ],
+  "faction": "federation",
+  "level": 38,
+  "mining": [
+    {
+      "type": "raw latinum",
+      "amount": 8,
+      "mining_per_hour": 54,
+      "size": 470000
+    }
+  ],
+  "planets": [
+    "Snrub"
+  ],
+  "scopely_id": 306360997,
+  "system_space": "normal",
+  "system_type": "route",
+  "warp": 40
+}

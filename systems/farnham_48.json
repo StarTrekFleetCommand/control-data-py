@@ -3,9 +3,19 @@
   "capture_nodes": 0,
   "connected_systems": [
     {
+      "$ref": "systems/eabha_55",
+      "distance": 160,
+      "warp": 160
+    },
+    {
       "$ref": "systems/lsp_539_47",
       "distance": 160,
       "warp": 135
+    },
+    {
+      "$ref": "systems/thora_beta_6_53",
+      "distance": 160,
+      "warp": 160
     },
     {
       "$ref": "systems/toen_48",
@@ -22,16 +32,14 @@
   "level": 48,
   "mining": [
     {
-      "type": "4\u2605 Raw Ore",
-      "amount": 10,
-      "grade": 4,
+      "type": "4\u2605 raw ore",
+      "amount": 1,
       "mining_per_hour": 300,
       "size": 2400000
     },
     {
-      "type": "4\u2605 Raw Gas",
-      "amount": 10,
-      "grade": 4,
+      "type": "4\u2605 raw gas",
+      "amount": 2,
       "mining_per_hour": 300,
       "size": 2400000
     }
@@ -42,6 +50,6 @@
   ],
   "scopely_id": 980439160,
   "system_space": "deep",
-  "system_type": "hub",
+  "system_type": "route",
   "warp": 160
 }
