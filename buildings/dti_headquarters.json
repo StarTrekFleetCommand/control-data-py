@@ -1,6 +1,6 @@
 {
-  "building_name": "The Facade",
-  "description": "A mysterious building and a front for an even more mysterious organization. The Facade increases base Damage of ships in Wave Defense, base Hull Health for all ships and base Officer Stats. \n\nIf you have unlocked Armada Quick Start in the Section 31 Faction, the daily gift of Armada Countdown Speed Ups is increased.",
+  "building_name": "DTI Headquarters",
+  "description": "The DTI houses a powerful temporal matter converter that unlocks the power to transmute materials. The Material Converter applies high concentrations of tachyon energy to artificially refine the material, converting it into different types of the same grade and rarity For example, G4 Rare Ore -> G4 Rare Crystal. It also has the ability to convert materials into different rarities of the same type and grade! For example, G4 Uncommon Crystal -> G4 Rare Crystal.\n\nThis technology is unstable and requires additional investment before safeties can be lifted higher grades of materials can be refined. Grade 4 is available at level 30, Grade 5 is available at Level 40, Grade 6 is available at Level 50.\n\nA recurring claim of Bonus Converter Tokens is unlocked at level 40. These can be used with Bonus Converter Refineries which have no tax and no cooldown. A one time claim of 5 tokens is unlocked at levels 20, 30, 50, 60 and 70.",
   "levels": [
     {
       "level": 1,
@@ -9,7 +9,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 30
+          "level": 42
         }
       ],
       "build_costs": {
@@ -22,16 +22,18 @@
         "materials": [],
         "others": [
           {
-            "type": "section 31 transmitter",
-            "value": 10
+            "type": "dti security access card",
+            "value": 16
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.05,
-        "bonus2": 0.1,
-        "bonus3": 0.02,
-        "bonus4": 9000.0
+        "bonus1": 150.0,
+        "bonus2": 0.05,
+        "bonus3": 0.01,
+        "bonus4": 0.2,
+        "bonus5": 0.01,
+        "bonus6": 1.0
       }
     },
     {
@@ -41,7 +43,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 30
+          "level": 42
         }
       ],
       "build_costs": {
@@ -54,16 +56,18 @@
         "materials": [],
         "others": [
           {
-            "type": "section 31 transmitter",
-            "value": 24
+            "type": "dti security access card",
+            "value": 25
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.1,
-        "bonus2": 0.2,
-        "bonus3": 0.04,
-        "bonus4": 9000.0
+        "bonus1": 150.0,
+        "bonus2": 0.06,
+        "bonus3": 0.02,
+        "bonus4": 0.25,
+        "bonus5": 0.02,
+        "bonus6": 2.0
       }
     },
     {
@@ -73,7 +77,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 30
+          "level": 42
         }
       ],
       "build_costs": {
@@ -86,16 +90,18 @@
         "materials": [],
         "others": [
           {
-            "type": "section 31 transmitter",
-            "value": 26
+            "type": "dti security access card",
+            "value": 30
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.15,
-        "bonus2": 0.3,
-        "bonus3": 0.06,
-        "bonus4": 9000.0
+        "bonus1": 150.0,
+        "bonus2": 0.07,
+        "bonus3": 0.02,
+        "bonus4": 0.3,
+        "bonus5": 0.03,
+        "bonus6": 3.0
       }
     },
     {
@@ -105,7 +111,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 30
+          "level": 42
         }
       ],
       "build_costs": {
@@ -118,16 +124,18 @@
         "materials": [],
         "others": [
           {
-            "type": "section 31 transmitter",
-            "value": 29
+            "type": "dti security access card",
+            "value": 30
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.2,
-        "bonus2": 0.4,
-        "bonus3": 0.08,
-        "bonus4": 9000.0
+        "bonus1": 150.0,
+        "bonus2": 0.08,
+        "bonus3": 0.03,
+        "bonus4": 0.35,
+        "bonus5": 0.04,
+        "bonus6": 4.0
       }
     },
     {
@@ -137,7 +145,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 30
+          "level": 42
         }
       ],
       "build_costs": {
@@ -150,16 +158,18 @@
         "materials": [],
         "others": [
           {
-            "type": "section 31 transmitter",
-            "value": 31
+            "type": "dti security access card",
+            "value": 35
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.25,
-        "bonus2": 0.5,
-        "bonus3": 0.1,
-        "bonus4": 9000.0
+        "bonus1": 150.0,
+        "bonus2": 0.09,
+        "bonus3": 0.04,
+        "bonus4": 0.4,
+        "bonus5": 0.05,
+        "bonus6": 5.0
       }
     },
     {
@@ -169,7 +179,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 30
+          "level": 42
         }
       ],
       "build_costs": {
@@ -182,16 +192,18 @@
         "materials": [],
         "others": [
           {
-            "type": "section 31 transmitter",
-            "value": 34
+            "type": "dti security access card",
+            "value": 35
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.3,
-        "bonus2": 0.6,
-        "bonus3": 0.12,
-        "bonus4": 9000.0
+        "bonus1": 150.0,
+        "bonus2": 0.1,
+        "bonus3": 0.05,
+        "bonus4": 0.45,
+        "bonus5": 0.06,
+        "bonus6": 6.0
       }
     },
     {
@@ -201,7 +213,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 30
+          "level": 42
         }
       ],
       "build_costs": {
@@ -214,16 +226,18 @@
         "materials": [],
         "others": [
           {
-            "type": "section 31 transmitter",
-            "value": 36
+            "type": "dti security access card",
+            "value": 40
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.35,
-        "bonus2": 0.7,
-        "bonus3": 0.14,
-        "bonus4": 9000.0
+        "bonus1": 150.0,
+        "bonus2": 0.11,
+        "bonus3": 0.05,
+        "bonus4": 0.5,
+        "bonus5": 0.07,
+        "bonus6": 7.0
       }
     },
     {
@@ -233,7 +247,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 30
+          "level": 42
         }
       ],
       "build_costs": {
@@ -246,16 +260,18 @@
         "materials": [],
         "others": [
           {
-            "type": "section 31 transmitter",
-            "value": 38
+            "type": "dti security access card",
+            "value": 40
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.4,
-        "bonus2": 0.8,
-        "bonus3": 0.16,
-        "bonus4": 9000.0
+        "bonus1": 150.0,
+        "bonus2": 0.12,
+        "bonus3": 0.06,
+        "bonus4": 0.6,
+        "bonus5": 0.08,
+        "bonus6": 8.0
       }
     },
     {
@@ -265,7 +281,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 30
+          "level": 42
         }
       ],
       "build_costs": {
@@ -278,16 +294,18 @@
         "materials": [],
         "others": [
           {
-            "type": "section 31 transmitter",
-            "value": 42
+            "type": "dti security access card",
+            "value": 45
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.45,
-        "bonus2": 0.9,
-        "bonus3": 0.18,
-        "bonus4": 9000.0
+        "bonus1": 150.0,
+        "bonus2": 0.13,
+        "bonus3": 0.07,
+        "bonus4": 0.7,
+        "bonus5": 0.09,
+        "bonus6": 9.0
       }
     },
     {
@@ -297,7 +315,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 30
+          "level": 42
         }
       ],
       "build_costs": {
@@ -310,16 +328,18 @@
         "materials": [],
         "others": [
           {
-            "type": "section 31 transmitter",
+            "type": "dti security access card",
             "value": 45
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.5,
-        "bonus2": 1.0,
-        "bonus3": 0.2,
-        "bonus4": 9000.0
+        "bonus1": 375.0,
+        "bonus2": 0.14,
+        "bonus3": 0.08,
+        "bonus4": 0.8,
+        "bonus5": 0.1,
+        "bonus6": 10.0
       }
     },
     {
@@ -329,29 +349,31 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 30
+          "level": 42
         }
       ],
       "build_costs": {
         "resources": [
           {
             "type": "parsteel",
-            "value": 8000
+            "value": 6800
           }
         ],
         "materials": [],
         "others": [
           {
-            "type": "section 31 transmitter",
-            "value": 49
+            "type": "dti security access card",
+            "value": 50
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.55,
-        "bonus2": 1.1,
-        "bonus3": 0.22,
-        "bonus4": 9000.0
+        "bonus1": 375.0,
+        "bonus2": 0.15,
+        "bonus3": 0.08,
+        "bonus4": 0.9,
+        "bonus5": 0.11,
+        "bonus6": 11.0
       }
     },
     {
@@ -361,7 +383,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 30
+          "level": 42
         }
       ],
       "build_costs": {
@@ -374,16 +396,18 @@
         "materials": [],
         "others": [
           {
-            "type": "section 31 transmitter",
-            "value": 53
+            "type": "dti security access card",
+            "value": 55
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.6,
-        "bonus2": 1.2,
-        "bonus3": 0.24,
-        "bonus4": 9000.0
+        "bonus1": 375.0,
+        "bonus2": 0.16,
+        "bonus3": 0.09,
+        "bonus4": 1.0,
+        "bonus5": 0.12,
+        "bonus6": 12.0
       }
     },
     {
@@ -393,7 +417,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 30
+          "level": 42
         }
       ],
       "build_costs": {
@@ -406,16 +430,18 @@
         "materials": [],
         "others": [
           {
-            "type": "section 31 transmitter",
-            "value": 58
+            "type": "dti security access card",
+            "value": 60
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.65,
-        "bonus2": 1.3,
-        "bonus3": 0.26,
-        "bonus4": 9000.0
+        "bonus1": 375.0,
+        "bonus2": 0.17,
+        "bonus3": 0.1,
+        "bonus4": 1.15,
+        "bonus5": 0.13,
+        "bonus6": 13.0
       }
     },
     {
@@ -425,7 +451,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 30
+          "level": 42
         }
       ],
       "build_costs": {
@@ -438,16 +464,18 @@
         "materials": [],
         "others": [
           {
-            "type": "section 31 transmitter",
-            "value": 62
+            "type": "dti security access card",
+            "value": 60
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.7,
-        "bonus2": 1.4,
-        "bonus3": 0.28,
-        "bonus4": 9000.0
+        "bonus1": 375.0,
+        "bonus2": 0.18,
+        "bonus3": 0.11,
+        "bonus4": 1.25,
+        "bonus5": 0.14,
+        "bonus6": 14.0
       }
     },
     {
@@ -457,7 +485,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 30
+          "level": 42
         }
       ],
       "build_costs": {
@@ -470,16 +498,18 @@
         "materials": [],
         "others": [
           {
-            "type": "section 31 transmitter",
-            "value": 67
+            "type": "dti security access card",
+            "value": 65
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.75,
-        "bonus2": 1.5,
-        "bonus3": 0.3,
-        "bonus4": 9000.0
+        "bonus1": 375.0,
+        "bonus2": 0.19,
+        "bonus3": 0.11,
+        "bonus4": 1.4,
+        "bonus5": 0.15,
+        "bonus6": 15.0
       }
     },
     {
@@ -489,7 +519,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 30
+          "level": 42
         }
       ],
       "build_costs": {
@@ -502,16 +532,18 @@
         "materials": [],
         "others": [
           {
-            "type": "section 31 transmitter",
-            "value": 72
+            "type": "dti security access card",
+            "value": 70
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.8,
-        "bonus2": 1.6,
-        "bonus3": 0.32,
-        "bonus4": 9000.0
+        "bonus1": 375.0,
+        "bonus2": 0.2,
+        "bonus3": 0.12,
+        "bonus4": 1.5,
+        "bonus5": 0.16,
+        "bonus6": 16.0
       }
     },
     {
@@ -521,7 +553,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 30
+          "level": 42
         }
       ],
       "build_costs": {
@@ -534,16 +566,18 @@
         "materials": [],
         "others": [
           {
-            "type": "section 31 transmitter",
-            "value": 78
+            "type": "dti security access card",
+            "value": 75
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.85,
-        "bonus2": 1.7,
-        "bonus3": 0.36,
-        "bonus4": 9000.0
+        "bonus1": 375.0,
+        "bonus2": 0.21,
+        "bonus3": 0.13,
+        "bonus4": 1.65,
+        "bonus5": 0.17,
+        "bonus6": 17.0
       }
     },
     {
@@ -553,7 +587,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 30
+          "level": 42
         }
       ],
       "build_costs": {
@@ -566,16 +600,18 @@
         "materials": [],
         "others": [
           {
-            "type": "section 31 transmitter",
-            "value": 84
+            "type": "dti security access card",
+            "value": 85
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.9,
-        "bonus2": 1.8,
-        "bonus3": 0.4,
-        "bonus4": 9000.0
+        "bonus1": 375.0,
+        "bonus2": 0.22,
+        "bonus3": 0.14,
+        "bonus4": 1.75,
+        "bonus5": 0.18,
+        "bonus6": 18.0
       }
     },
     {
@@ -585,7 +621,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 30
+          "level": 42
         }
       ],
       "build_costs": {
@@ -598,16 +634,18 @@
         "materials": [],
         "others": [
           {
-            "type": "section 31 transmitter",
+            "type": "dti security access card",
             "value": 90
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.95,
-        "bonus2": 1.9,
-        "bonus3": 0.44,
-        "bonus4": 9000.0
+        "bonus1": 375.0,
+        "bonus2": 0.23,
+        "bonus3": 0.14,
+        "bonus4": 1.9,
+        "bonus5": 0.19,
+        "bonus6": 19.0
       }
     },
     {
@@ -617,7 +655,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 30
+          "level": 42
         }
       ],
       "build_costs": {
@@ -630,17 +668,25 @@
         "materials": [],
         "others": [
           {
-            "type": "section 31 transmitter",
-            "value": 96
+            "type": "dti security access card",
+            "value": 95
           }
         ]
       },
       "bonuses": {
-        "bonus1": 1.0,
-        "bonus2": 2.0,
-        "bonus3": 0.48,
-        "bonus4": 11250.0
-      }
+        "bonus1": 750.0,
+        "bonus2": 0.24,
+        "bonus3": 0.15,
+        "bonus4": 2.15,
+        "bonus5": 0.2,
+        "bonus6": 20.0
+      },
+      "rewards": [
+        {
+          "type": "DTI Threat Evaluation Level Alpha",
+          "value": 100
+        }
+      ]
     },
     {
       "level": 21,
@@ -649,7 +695,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 30
+          "level": 42
         }
       ],
       "build_costs": {
@@ -662,16 +708,18 @@
         "materials": [],
         "others": [
           {
-            "type": "section 31 transmitter",
-            "value": 108
+            "type": "dti security access card",
+            "value": 105
           }
         ]
       },
       "bonuses": {
-        "bonus1": 1.05,
-        "bonus2": 2.1,
-        "bonus3": 0.52,
-        "bonus4": 11250.0
+        "bonus1": 750.0,
+        "bonus2": 0.25,
+        "bonus3": 0.16,
+        "bonus4": 2.5,
+        "bonus5": 0.23,
+        "bonus6": 21.5
       }
     },
     {
@@ -681,7 +729,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 30
+          "level": 42
         }
       ],
       "build_costs": {
@@ -694,16 +742,18 @@
         "materials": [],
         "others": [
           {
-            "type": "section 31 transmitter",
-            "value": 120
+            "type": "dti security access card",
+            "value": 110
           }
         ]
       },
       "bonuses": {
-        "bonus1": 1.1,
-        "bonus2": 2.2,
-        "bonus3": 0.56,
-        "bonus4": 11250.0
+        "bonus1": 750.0,
+        "bonus2": 0.26,
+        "bonus3": 0.17,
+        "bonus4": 2.75,
+        "bonus5": 0.26,
+        "bonus6": 23.0
       }
     },
     {
@@ -713,7 +763,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 30
+          "level": 42
         }
       ],
       "build_costs": {
@@ -726,16 +776,18 @@
         "materials": [],
         "others": [
           {
-            "type": "section 31 transmitter",
-            "value": 132
+            "type": "dti security access card",
+            "value": 120
           }
         ]
       },
       "bonuses": {
-        "bonus1": 1.15,
-        "bonus2": 2.3,
-        "bonus3": 0.6,
-        "bonus4": 11250.0
+        "bonus1": 750.0,
+        "bonus2": 0.27,
+        "bonus3": 0.17,
+        "bonus4": 3.0,
+        "bonus5": 0.29,
+        "bonus6": 24.5
       }
     },
     {
@@ -745,7 +797,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 30
+          "level": 42
         }
       ],
       "build_costs": {
@@ -758,16 +810,18 @@
         "materials": [],
         "others": [
           {
-            "type": "section 31 transmitter",
-            "value": 144
+            "type": "dti security access card",
+            "value": 125
           }
         ]
       },
       "bonuses": {
-        "bonus1": 1.2,
-        "bonus2": 2.5,
-        "bonus3": 0.64,
-        "bonus4": 11250.0
+        "bonus1": 750.0,
+        "bonus2": 0.28,
+        "bonus3": 0.18,
+        "bonus4": 3.25,
+        "bonus5": 0.32,
+        "bonus6": 26.0
       }
     },
     {
@@ -777,7 +831,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 30
+          "level": 42
         }
       ],
       "build_costs": {
@@ -790,16 +844,18 @@
         "materials": [],
         "others": [
           {
-            "type": "section 31 transmitter",
-            "value": 156
+            "type": "dti security access card",
+            "value": 135
           }
         ]
       },
       "bonuses": {
-        "bonus1": 1.25,
-        "bonus2": 2.7,
-        "bonus3": 0.68,
-        "bonus4": 13500.0
+        "bonus1": 750.0,
+        "bonus2": 0.29,
+        "bonus3": 0.19,
+        "bonus4": 3.5,
+        "bonus5": 0.35,
+        "bonus6": 27.5
       }
     },
     {
@@ -809,7 +865,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 30
+          "level": 42
         }
       ],
       "build_costs": {
@@ -822,16 +878,18 @@
         "materials": [],
         "others": [
           {
-            "type": "section 31 transmitter",
-            "value": 168
+            "type": "dti security access card",
+            "value": 145
           }
         ]
       },
       "bonuses": {
-        "bonus1": 1.3,
-        "bonus2": 2.9,
-        "bonus3": 0.72,
-        "bonus4": 13500.0
+        "bonus1": 750.0,
+        "bonus2": 0.3,
+        "bonus3": 0.2,
+        "bonus4": 3.75,
+        "bonus5": 0.38,
+        "bonus6": 29.0
       }
     },
     {
@@ -841,7 +899,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 30
+          "level": 42
         }
       ],
       "build_costs": {
@@ -854,16 +912,18 @@
         "materials": [],
         "others": [
           {
-            "type": "section 31 transmitter",
-            "value": 192
+            "type": "dti security access card",
+            "value": 160
           }
         ]
       },
       "bonuses": {
-        "bonus1": 1.35,
-        "bonus2": 3.1,
-        "bonus3": 0.76,
-        "bonus4": 13500.0
+        "bonus1": 750.0,
+        "bonus2": 0.31,
+        "bonus3": 0.2,
+        "bonus4": 4.0,
+        "bonus5": 0.41,
+        "bonus6": 30.5
       }
     },
     {
@@ -873,7 +933,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 30
+          "level": 42
         }
       ],
       "build_costs": {
@@ -886,16 +946,18 @@
         "materials": [],
         "others": [
           {
-            "type": "section 31 transmitter",
-            "value": 216
+            "type": "dti security access card",
+            "value": 170
           }
         ]
       },
       "bonuses": {
-        "bonus1": 1.4,
-        "bonus2": 3.3,
-        "bonus3": 0.8,
-        "bonus4": 13500.0
+        "bonus1": 750.0,
+        "bonus2": 0.32,
+        "bonus3": 0.21,
+        "bonus4": 4.25,
+        "bonus5": 0.44,
+        "bonus6": 32.0
       }
     },
     {
@@ -905,7 +967,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 30
+          "level": 42
         }
       ],
       "build_costs": {
@@ -918,16 +980,18 @@
         "materials": [],
         "others": [
           {
-            "type": "section 31 transmitter",
-            "value": 240
+            "type": "dti security access card",
+            "value": 180
           }
         ]
       },
       "bonuses": {
-        "bonus1": 1.45,
-        "bonus2": 3.5,
-        "bonus3": 0.85,
-        "bonus4": 13500.0
+        "bonus1": 750.0,
+        "bonus2": 0.33,
+        "bonus3": 0.22,
+        "bonus4": 4.5,
+        "bonus5": 0.47,
+        "bonus6": 33.5
       }
     },
     {
@@ -937,7 +1001,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 30
+          "level": 42
         }
       ],
       "build_costs": {
@@ -950,16 +1014,18 @@
         "materials": [],
         "others": [
           {
-            "type": "section 31 transmitter",
-            "value": 264
+            "type": "dti security access card",
+            "value": 195
           }
         ]
       },
       "bonuses": {
-        "bonus1": 1.5,
-        "bonus2": 3.7,
-        "bonus3": 0.9,
-        "bonus4": 15750.0
+        "bonus1": 1125.0,
+        "bonus2": 0.35,
+        "bonus3": 0.23,
+        "bonus4": 5.0,
+        "bonus5": 0.5,
+        "bonus6": 35.0
       }
     },
     {
@@ -969,7 +1035,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 31
+          "level": 42
         }
       ],
       "build_costs": {
@@ -982,16 +1048,18 @@
         "materials": [],
         "others": [
           {
-            "type": "section 31 transmitter",
-            "value": 300
+            "type": "dti security access card",
+            "value": 210
           }
         ]
       },
       "bonuses": {
-        "bonus1": 1.55,
-        "bonus2": 3.9,
-        "bonus3": 1.0,
-        "bonus4": 15750.0
+        "bonus1": 1125.0,
+        "bonus2": 0.37,
+        "bonus3": 0.23,
+        "bonus4": 5.25,
+        "bonus5": 0.55,
+        "bonus6": 36.5
       }
     },
     {
@@ -1001,7 +1069,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 32
+          "level": 42
         }
       ],
       "build_costs": {
@@ -1014,16 +1082,18 @@
         "materials": [],
         "others": [
           {
-            "type": "section 31 transmitter",
-            "value": 336
+            "type": "dti security access card",
+            "value": 225
           }
         ]
       },
       "bonuses": {
-        "bonus1": 1.6,
-        "bonus2": 4.1,
-        "bonus3": 1.1,
-        "bonus4": 15750.0
+        "bonus1": 1125.0,
+        "bonus2": 0.39,
+        "bonus3": 0.24,
+        "bonus4": 5.5,
+        "bonus5": 0.6,
+        "bonus6": 38.0
       }
     },
     {
@@ -1033,7 +1103,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 33
+          "level": 42
         }
       ],
       "build_costs": {
@@ -1046,16 +1116,18 @@
         "materials": [],
         "others": [
           {
-            "type": "section 31 transmitter",
-            "value": 372
+            "type": "dti security access card",
+            "value": 245
           }
         ]
       },
       "bonuses": {
-        "bonus1": 1.7,
-        "bonus2": 4.3,
-        "bonus3": 1.2,
-        "bonus4": 15750.0
+        "bonus1": 1500.0,
+        "bonus2": 0.41,
+        "bonus3": 0.25,
+        "bonus4": 5.75,
+        "bonus5": 0.65,
+        "bonus6": 39.5
       }
     },
     {
@@ -1065,7 +1137,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 34
+          "level": 42
         }
       ],
       "build_costs": {
@@ -1078,16 +1150,18 @@
         "materials": [],
         "others": [
           {
-            "type": "section 31 transmitter",
-            "value": 420
+            "type": "dti security access card",
+            "value": 260
           }
         ]
       },
       "bonuses": {
-        "bonus1": 1.8,
-        "bonus2": 4.5,
-        "bonus3": 1.3,
-        "bonus4": 15750.0
+        "bonus1": 1500.0,
+        "bonus2": 0.43,
+        "bonus3": 0.26,
+        "bonus4": 6.0,
+        "bonus5": 0.7,
+        "bonus6": 41.0
       }
     },
     {
@@ -1097,7 +1171,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 35
+          "level": 42
         }
       ],
       "build_costs": {
@@ -1110,16 +1184,18 @@
         "materials": [],
         "others": [
           {
-            "type": "section 31 transmitter",
-            "value": 468
+            "type": "dti security access card",
+            "value": 280
           }
         ]
       },
       "bonuses": {
-        "bonus1": 1.9,
-        "bonus2": 4.7,
-        "bonus3": 1.4,
-        "bonus4": 18000.0
+        "bonus1": 1500.0,
+        "bonus2": 0.45,
+        "bonus3": 0.26,
+        "bonus4": 6.25,
+        "bonus5": 0.75,
+        "bonus6": 42.5
       }
     },
     {
@@ -1129,7 +1205,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 36
+          "level": 42
         }
       ],
       "build_costs": {
@@ -1142,16 +1218,18 @@
         "materials": [],
         "others": [
           {
-            "type": "section 31 transmitter",
-            "value": 528
+            "type": "dti security access card",
+            "value": 300
           }
         ]
       },
       "bonuses": {
-        "bonus1": 2.0,
-        "bonus2": 4.9,
-        "bonus3": 1.5,
-        "bonus4": 18000.0
+        "bonus1": 1650.0,
+        "bonus2": 0.47,
+        "bonus3": 0.27,
+        "bonus4": 6.5,
+        "bonus5": 0.8,
+        "bonus6": 44.0
       }
     },
     {
@@ -1161,7 +1239,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 37
+          "level": 42
         }
       ],
       "build_costs": {
@@ -1174,16 +1252,18 @@
         "materials": [],
         "others": [
           {
-            "type": "section 31 transmitter",
-            "value": 588
+            "type": "dti security access card",
+            "value": 325
           }
         ]
       },
       "bonuses": {
-        "bonus1": 2.1,
-        "bonus2": 5.1,
-        "bonus3": 1.6,
-        "bonus4": 18000.0
+        "bonus1": 1800.0,
+        "bonus2": 0.49,
+        "bonus3": 0.28,
+        "bonus4": 6.75,
+        "bonus5": 0.85,
+        "bonus6": 45.5
       }
     },
     {
@@ -1193,7 +1273,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 38
+          "level": 42
         }
       ],
       "build_costs": {
@@ -1206,16 +1286,18 @@
         "materials": [],
         "others": [
           {
-            "type": "section 31 transmitter",
-            "value": 660
+            "type": "dti security access card",
+            "value": 350
           }
         ]
       },
       "bonuses": {
-        "bonus1": 2.3,
-        "bonus2": 5.3,
-        "bonus3": 1.7,
-        "bonus4": 18000.0
+        "bonus1": 1950.0,
+        "bonus2": 0.51,
+        "bonus3": 0.29,
+        "bonus4": 7.0,
+        "bonus5": 0.9,
+        "bonus6": 47.0
       }
     },
     {
@@ -1225,7 +1307,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 39
+          "level": 42
         }
       ],
       "build_costs": {
@@ -1238,16 +1320,18 @@
         "materials": [],
         "others": [
           {
-            "type": "section 31 transmitter",
-            "value": 744
+            "type": "dti security access card",
+            "value": 375
           }
         ]
       },
       "bonuses": {
-        "bonus1": 2.5,
-        "bonus2": 5.5,
-        "bonus3": 1.8,
-        "bonus4": 18000.0
+        "bonus1": 2100.0,
+        "bonus2": 0.53,
+        "bonus3": 0.29,
+        "bonus4": 7.25,
+        "bonus5": 0.95,
+        "bonus6": 48.5
       }
     },
     {
@@ -1257,7 +1341,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 40
+          "level": 42
         }
       ],
       "build_costs": {
@@ -1270,16 +1354,18 @@
         "materials": [],
         "others": [
           {
-            "type": "section 31 transmitter",
-            "value": 840
+            "type": "dti security access card",
+            "value": 400
           }
         ]
       },
       "bonuses": {
-        "bonus1": 3.0,
-        "bonus2": 6.5,
-        "bonus3": 1.9,
-        "bonus4": 20250.0
+        "bonus1": 2250.0,
+        "bonus2": 0.55,
+        "bonus3": 0.3,
+        "bonus4": 7.5,
+        "bonus5": 1.0,
+        "bonus6": 50.0
       }
     },
     {
@@ -1289,7 +1375,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 41
+          "level": 42
         }
       ],
       "build_costs": {
@@ -1302,16 +1388,18 @@
         "materials": [],
         "others": [
           {
-            "type": "section 31 transmitter",
-            "value": 960
+            "type": "dti security access card",
+            "value": 435
           }
         ]
       },
       "bonuses": {
-        "bonus1": 3.2,
-        "bonus2": 7.0,
-        "bonus3": 2.0,
-        "bonus4": 20250.0
+        "bonus1": 2400.0,
+        "bonus2": 0.57,
+        "bonus3": 0.32,
+        "bonus4": 8.15,
+        "bonus5": 1.05,
+        "bonus6": 51.5
       }
     },
     {
@@ -1334,16 +1422,18 @@
         "materials": [],
         "others": [
           {
-            "type": "section 31 transmitter",
-            "value": 1080
+            "type": "dti security access card",
+            "value": 465
           }
         ]
       },
       "bonuses": {
-        "bonus1": 3.4,
-        "bonus2": 7.5,
-        "bonus3": 2.1,
-        "bonus4": 20250.0
+        "bonus1": 2550.0,
+        "bonus2": 0.59,
+        "bonus3": 0.33,
+        "bonus4": 8.65,
+        "bonus5": 1.1,
+        "bonus6": 53.0
       }
     },
     {
@@ -1366,16 +1456,18 @@
         "materials": [],
         "others": [
           {
-            "type": "section 31 transmitter",
-            "value": 1200
+            "type": "dti security access card",
+            "value": 500
           }
         ]
       },
       "bonuses": {
-        "bonus1": 3.6,
-        "bonus2": 8.0,
-        "bonus3": 2.2,
-        "bonus4": 20250.0
+        "bonus1": 2700.0,
+        "bonus2": 0.61,
+        "bonus3": 0.35,
+        "bonus4": 9.15,
+        "bonus5": 1.15,
+        "bonus6": 54.5
       }
     },
     {
@@ -1398,16 +1490,18 @@
         "materials": [],
         "others": [
           {
-            "type": "section 31 transmitter",
-            "value": 1320
+            "type": "dti security access card",
+            "value": 535
           }
         ]
       },
       "bonuses": {
-        "bonus1": 3.8,
-        "bonus2": 8.5,
-        "bonus3": 2.3,
-        "bonus4": 20250.0
+        "bonus1": 2850.0,
+        "bonus2": 0.63,
+        "bonus3": 0.36,
+        "bonus4": 9.65,
+        "bonus5": 1.2,
+        "bonus6": 56.0
       }
     },
     {
@@ -1430,17 +1524,25 @@
         "materials": [],
         "others": [
           {
-            "type": "section 31 transmitter",
-            "value": 1500
+            "type": "dti security access card",
+            "value": 575
           }
         ]
       },
       "bonuses": {
-        "bonus1": 4.0,
-        "bonus2": 9.0,
-        "bonus3": 2.4,
-        "bonus4": 22500.0
-      }
+        "bonus1": 3000.0,
+        "bonus2": 0.65,
+        "bonus3": 0.38,
+        "bonus4": 10.15,
+        "bonus5": 1.25,
+        "bonus6": 57.5
+      },
+      "rewards": [
+        {
+          "type": "DTI Threat Evaluation Level Beta",
+          "value": 100
+        }
+      ]
     },
     {
       "level": 46,
@@ -1462,16 +1564,18 @@
         "materials": [],
         "others": [
           {
-            "type": "section 31 transmitter",
-            "value": 1680
+            "type": "dti security access card",
+            "value": 620
           }
         ]
       },
       "bonuses": {
-        "bonus1": 4.5,
-        "bonus2": 9.5,
-        "bonus3": 2.5,
-        "bonus4": 22500.0
+        "bonus1": 3150.0,
+        "bonus2": 0.67,
+        "bonus3": 0.39,
+        "bonus4": 10.65,
+        "bonus5": 1.3,
+        "bonus6": 59.0
       }
     },
     {
@@ -1494,16 +1598,18 @@
         "materials": [],
         "others": [
           {
-            "type": "section 31 transmitter",
-            "value": 1920
+            "type": "dti security access card",
+            "value": 665
           }
         ]
       },
       "bonuses": {
-        "bonus1": 5.0,
-        "bonus2": 10.0,
-        "bonus3": 2.6,
-        "bonus4": 22500.0
+        "bonus1": 3300.0,
+        "bonus2": 0.69,
+        "bonus3": 0.41,
+        "bonus4": 11.15,
+        "bonus5": 1.35,
+        "bonus6": 60.5
       }
     },
     {
@@ -1526,16 +1632,18 @@
         "materials": [],
         "others": [
           {
-            "type": "section 31 transmitter",
-            "value": 2160
+            "type": "dti security access card",
+            "value": 715
           }
         ]
       },
       "bonuses": {
-        "bonus1": 5.5,
-        "bonus2": 10.5,
-        "bonus3": 2.7,
-        "bonus4": 22500.0
+        "bonus1": 3450.0,
+        "bonus2": 0.71,
+        "bonus3": 0.42,
+        "bonus4": 11.65,
+        "bonus5": 1.4,
+        "bonus6": 62.0
       }
     },
     {
@@ -1558,16 +1666,18 @@
         "materials": [],
         "others": [
           {
-            "type": "section 31 transmitter",
-            "value": 2400
+            "type": "dti security access card",
+            "value": 770
           }
         ]
       },
       "bonuses": {
-        "bonus1": 6.0,
-        "bonus2": 11.0,
-        "bonus3": 2.8,
-        "bonus4": 22500.0
+        "bonus1": 3600.0,
+        "bonus2": 0.73,
+        "bonus3": 0.44,
+        "bonus4": 12.15,
+        "bonus5": 1.45,
+        "bonus6": 63.5
       }
     },
     {
@@ -1590,16 +1700,18 @@
         "materials": [],
         "others": [
           {
-            "type": "section 31 transmitter",
-            "value": 2760
+            "type": "dti security access card",
+            "value": 830
           }
         ]
       },
       "bonuses": {
-        "bonus1": 6.5,
-        "bonus2": 12.0,
-        "bonus3": 2.9,
-        "bonus4": 24750.0
+        "bonus1": 3750.0,
+        "bonus2": 0.75,
+        "bonus3": 0.45,
+        "bonus4": 12.75,
+        "bonus5": 1.5,
+        "bonus6": 65.0
       }
     },
     {
@@ -1622,16 +1734,18 @@
         "materials": [],
         "others": [
           {
-            "type": "section 31 transmitter",
-            "value": 3120
+            "type": "dti security access card",
+            "value": 890
           }
         ]
       },
       "bonuses": {
-        "bonus1": 7.0,
-        "bonus2": 13.0,
-        "bonus3": 3.0,
-        "bonus4": 24750.0
+        "bonus1": 3900.0,
+        "bonus2": 0.77,
+        "bonus3": 0.47,
+        "bonus4": 13.75,
+        "bonus5": 1.55,
+        "bonus6": 67.0
       }
     },
     {
@@ -1654,16 +1768,18 @@
         "materials": [],
         "others": [
           {
-            "type": "section 31 transmitter",
-            "value": 3600
+            "type": "dti security access card",
+            "value": 955
           }
         ]
       },
       "bonuses": {
-        "bonus1": 8.0,
-        "bonus2": 14.0,
-        "bonus3": 3.2,
-        "bonus4": 24750.0
+        "bonus1": 4050.0,
+        "bonus2": 0.79,
+        "bonus3": 0.48,
+        "bonus4": 14.4,
+        "bonus5": 1.6,
+        "bonus6": 69.0
       }
     },
     {
@@ -1686,16 +1802,18 @@
         "materials": [],
         "others": [
           {
-            "type": "section 31 transmitter",
-            "value": 4080
+            "type": "dti security access card",
+            "value": 1030
           }
         ]
       },
       "bonuses": {
-        "bonus1": 9.0,
-        "bonus2": 15.0,
-        "bonus3": 3.4,
-        "bonus4": 24750.0
+        "bonus1": 4200.0,
+        "bonus2": 0.81,
+        "bonus3": 0.5,
+        "bonus4": 15.0,
+        "bonus5": 1.65,
+        "bonus6": 71.0
       }
     },
     {
@@ -1718,16 +1836,18 @@
         "materials": [],
         "others": [
           {
-            "type": "section 31 transmitter",
-            "value": 4680
+            "type": "dti security access card",
+            "value": 1105
           }
         ]
       },
       "bonuses": {
-        "bonus1": 10.0,
-        "bonus2": 16.0,
-        "bonus3": 3.6,
-        "bonus4": 24750.0
+        "bonus1": 4350.0,
+        "bonus2": 0.83,
+        "bonus3": 0.51,
+        "bonus4": 15.65,
+        "bonus5": 1.7,
+        "bonus6": 73.0
       }
     },
     {
@@ -1750,16 +1870,18 @@
         "materials": [],
         "others": [
           {
-            "type": "section 31 transmitter",
-            "value": 5400
+            "type": "dti security access card",
+            "value": 1190
           }
         ]
       },
       "bonuses": {
-        "bonus1": 11.5,
-        "bonus2": 17.0,
-        "bonus3": 3.8,
-        "bonus4": 27000.0
+        "bonus1": 4500.0,
+        "bonus2": 0.85,
+        "bonus3": 0.53,
+        "bonus4": 16.25,
+        "bonus5": 1.75,
+        "bonus6": 75.0
       }
     },
     {
@@ -1782,16 +1904,18 @@
         "materials": [],
         "others": [
           {
-            "type": "section 31 transmitter",
-            "value": 6240
+            "type": "dti security access card",
+            "value": 1275
           }
         ]
       },
       "bonuses": {
-        "bonus1": 13.0,
-        "bonus2": 18.0,
-        "bonus3": 4.0,
-        "bonus4": 27000.0
+        "bonus1": 4650.0,
+        "bonus2": 0.87,
+        "bonus3": 0.54,
+        "bonus4": 16.9,
+        "bonus5": 1.8,
+        "bonus6": 77.0
       }
     },
     {
@@ -1814,16 +1938,18 @@
         "materials": [],
         "others": [
           {
-            "type": "section 31 transmitter",
-            "value": 7080
+            "type": "dti security access card",
+            "value": 1375
           }
         ]
       },
       "bonuses": {
-        "bonus1": 14.5,
-        "bonus2": 19.0,
-        "bonus3": 4.2,
-        "bonus4": 27000.0
+        "bonus1": 4800.0,
+        "bonus2": 0.89,
+        "bonus3": 0.56,
+        "bonus4": 17.5,
+        "bonus5": 1.85,
+        "bonus6": 79.0
       }
     },
     {
@@ -1846,16 +1972,18 @@
         "materials": [],
         "others": [
           {
-            "type": "section 31 transmitter",
-            "value": 8040
+            "type": "dti security access card",
+            "value": 1475
           }
         ]
       },
       "bonuses": {
-        "bonus1": 16.0,
-        "bonus2": 20.0,
-        "bonus3": 4.5,
-        "bonus4": 27000.0
+        "bonus1": 4950.0,
+        "bonus2": 0.91,
+        "bonus3": 0.57,
+        "bonus4": 18.15,
+        "bonus5": 1.9,
+        "bonus6": 81.0
       }
     },
     {
@@ -1878,16 +2006,18 @@
         "materials": [],
         "others": [
           {
-            "type": "section 31 transmitter",
-            "value": 9120
+            "type": "dti security access card",
+            "value": 1585
           }
         ]
       },
       "bonuses": {
-        "bonus1": 17.5,
-        "bonus2": 21.0,
-        "bonus3": 4.7,
-        "bonus4": 27000.0
+        "bonus1": 5100.0,
+        "bonus2": 0.93,
+        "bonus3": 0.59,
+        "bonus4": 18.75,
+        "bonus5": 1.95,
+        "bonus6": 83.0
       }
     },
     {
@@ -1910,35 +2040,391 @@
         "materials": [],
         "others": [
           {
-            "type": "section 31 transmitter",
-            "value": 10800
+            "type": "dti security access card",
+            "value": 1705
           }
         ]
       },
       "bonuses": {
-        "bonus1": 20.0,
-        "bonus2": 22.5,
-        "bonus3": 5.0,
-        "bonus4": 31500.0
+        "bonus1": 5250.0,
+        "bonus2": 0.95,
+        "bonus3": 0.6,
+        "bonus4": 20.0,
+        "bonus5": 2.0,
+        "bonus6": 85.0
+      },
+      "rewards": [
+        {
+          "type": "DTI Threat Evaluation Level Omega",
+          "value": 100
+        }
+      ]
+    },
+    {
+      "level": 61,
+      "build_time": 3496320,
+      "increased_power": 6000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 61
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 290700
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 1835
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 5400.0,
+        "bonus2": 0.98,
+        "bonus3": 0.62,
+        "bonus4": 20.65,
+        "bonus5": 2.05,
+        "bonus6": 87.0
+      }
+    },
+    {
+      "level": 62,
+      "build_time": 4720320,
+      "increased_power": 6000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 62
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 443700
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 1970
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 5550.0,
+        "bonus2": 1.01,
+        "bonus3": 0.63,
+        "bonus4": 21.25,
+        "bonus5": 2.1,
+        "bonus6": 89.0
+      }
+    },
+    {
+      "level": 63,
+      "build_time": 6372000,
+      "increased_power": 7000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 63
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 1306620
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 2120
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 5700.0,
+        "bonus2": 1.04,
+        "bonus3": 0.65,
+        "bonus4": 21.9,
+        "bonus5": 2.15,
+        "bonus6": 91.0
+      }
+    },
+    {
+      "level": 64,
+      "build_time": 8602560,
+      "increased_power": 7000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 64
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 3055368
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 2275
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 5850.0,
+        "bonus2": 1.07,
+        "bonus3": 0.66,
+        "bonus4": 22.5,
+        "bonus5": 2.2,
+        "bonus6": 93.0
+      }
+    },
+    {
+      "level": 65,
+      "build_time": 11612160,
+      "increased_power": 8000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 65
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 6014813
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 2450
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 6000.0,
+        "bonus2": 1.1,
+        "bonus3": 0.68,
+        "bonus4": 23.15,
+        "bonus5": 2.25,
+        "bonus6": 95.0
+      }
+    },
+    {
+      "level": 66,
+      "build_time": 15677280,
+      "increased_power": 7000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 66
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 7507115
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 2630
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 6300.0,
+        "bonus2": 1.13,
+        "bonus3": 0.69,
+        "bonus4": 23.75,
+        "bonus5": 2.3,
+        "bonus6": 98.0
+      }
+    },
+    {
+      "level": 67,
+      "build_time": 21163680,
+      "increased_power": 9000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 67
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 9851500
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 2830
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 6600.0,
+        "bonus2": 1.16,
+        "bonus3": 0.71,
+        "bonus4": 24.4,
+        "bonus5": 2.35,
+        "bonus6": 101.0
+      }
+    },
+    {
+      "level": 68,
+      "build_time": 27512640,
+      "increased_power": 8000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 68
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 13727500
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 3040
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 6900.0,
+        "bonus2": 1.19,
+        "bonus3": 0.72,
+        "bonus4": 25.0,
+        "bonus5": 2.4,
+        "bonus6": 104.0
+      }
+    },
+    {
+      "level": 69,
+      "build_time": 35766720,
+      "increased_power": 9000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 69
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 19218500
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 3270
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 7200.0,
+        "bonus2": 1.22,
+        "bonus3": 0.74,
+        "bonus4": 26.55,
+        "bonus5": 2.45,
+        "bonus6": 107.0
+      }
+    },
+    {
+      "level": 70,
+      "build_time": 46497600,
+      "increased_power": 9000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 70
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 26970500
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "dti security access card",
+            "value": 3515
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 7500.0,
+        "bonus2": 1.25,
+        "bonus3": 0.75,
+        "bonus4": 28.15,
+        "bonus5": 2.5,
+        "bonus6": 110.0
       }
     }
   ],
   "bonuses": {
     "bonus1": {
-      "name": "<color=#ffffff>Wave Defense Damage Bonus</color>",
-      "percentage": true
+      "name": "PvP Apex Barrier",
+      "percentage": false
     },
     "bonus2": {
-      "name": "Hull Health Bonus",
-      "percentage": true
+      "name": "Isolytic Defense",
+      "percentage": false
     },
     "bonus3": {
-      "name": "Officer Stats Bonus",
-      "percentage": true
+      "name": "Isolytic Damage",
+      "percentage": false
     },
     "bonus4": {
-      "name": "Armada Countdown Speed Ups",
-      "percentage": false
+      "name": "Officer Stats",
+      "percentage": true
+    },
+    "bonus5": {
+      "name": "Broken Ship Parts",
+      "percentage": true
+    },
+    "bonus6": {
+      "name": "Damage vs Krenim",
+      "percentage": true
     }
   }
 }

@@ -1,6 +1,6 @@
 {
-  "building_name": "Artifact Gallery",
-  "description": "The Artifact Gallery houses a collection of valuable artifacts that have been acquired from across the quadrant and beyond. Visitors to the station are welcome to see these rare and fascinating objects on display.",
+  "building_name": "The Nova Squadron",
+  "description": "The Nova Squadron building is where the most promising cadets train to become the next generation of elite Starfleet officers. The skill within increases SHP, Cost Efficiency for Building Materials, and Weapon Damage.",
   "levels": [
     {
       "level": 1,
@@ -9,7 +9,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 26
+          "level": 30
         }
       ],
       "build_costs": {
@@ -22,16 +22,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery key",
-            "value": 100
+            "type": "starfleet distinctions",
+            "value": 1
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.01,
-        "bonus2": 0.07,
-        "bonus3": 0.07
-      }
+        "bonus1": 0.3,
+        "bonus2": 0.01,
+        "bonus3": 0.2,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
     },
     {
       "level": 2,
@@ -40,7 +47,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 26
+          "level": 30
         }
       ],
       "build_costs": {
@@ -53,16 +60,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 20
+            "type": "starfleet honors",
+            "value": 58
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.02,
-        "bonus2": 0.14,
-        "bonus3": 0.14
-      }
+        "bonus1": 0.31,
+        "bonus2": 0.02,
+        "bonus3": 0.21,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
     },
     {
       "level": 3,
@@ -71,7 +85,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 26
+          "level": 31
         }
       ],
       "build_costs": {
@@ -84,16 +98,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 22
+            "type": "starfleet honors",
+            "value": 174
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.03,
-        "bonus2": 0.21,
-        "bonus3": 0.21
-      }
+        "bonus1": 0.33,
+        "bonus2": 0.03,
+        "bonus3": 0.22,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
     },
     {
       "level": 4,
@@ -102,7 +123,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 26
+          "level": 31
         }
       ],
       "build_costs": {
@@ -115,16 +136,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 24
+            "type": "starfleet honors",
+            "value": 231
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.04,
-        "bonus2": 0.28,
-        "bonus3": 0.28
-      }
+        "bonus1": 0.36,
+        "bonus2": 0.04,
+        "bonus3": 0.23,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
     },
     {
       "level": 5,
@@ -133,7 +161,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 26
+          "level": 32
         }
       ],
       "build_costs": {
@@ -146,16 +174,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 26
+            "type": "starfleet honors",
+            "value": 405
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.05,
-        "bonus2": 0.35,
-        "bonus3": 0.35
-      }
+        "bonus1": 0.41,
+        "bonus2": 0.05,
+        "bonus3": 0.25,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
     },
     {
       "level": 6,
@@ -164,7 +199,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 26
+          "level": 32
         }
       ],
       "build_costs": {
@@ -177,16 +212,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 28
+            "type": "starfleet honors",
+            "value": 463
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.06,
-        "bonus2": 0.42,
-        "bonus3": 0.42
-      }
+        "bonus1": 0.47,
+        "bonus2": 0.06,
+        "bonus3": 0.28,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
     },
     {
       "level": 7,
@@ -195,7 +237,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 26
+          "level": 33
         }
       ],
       "build_costs": {
@@ -208,16 +250,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 30
+            "type": "starfleet honors",
+            "value": 579
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.07,
-        "bonus2": 0.49,
-        "bonus3": 0.49
-      }
+        "bonus1": 0.54,
+        "bonus2": 0.07,
+        "bonus3": 0.31,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
     },
     {
       "level": 8,
@@ -226,7 +275,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 26
+          "level": 33
         }
       ],
       "build_costs": {
@@ -239,16 +288,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 32
+            "type": "starfleet honors",
+            "value": 636
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.08,
-        "bonus2": 0.56,
-        "bonus3": 0.56
-      }
+        "bonus1": 0.63,
+        "bonus2": 0.08,
+        "bonus3": 0.35,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
     },
     {
       "level": 9,
@@ -257,7 +313,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 26
+          "level": 34
         }
       ],
       "build_costs": {
@@ -270,16 +326,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 35
+            "type": "starfleet honors",
+            "value": 810
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.09,
-        "bonus2": 0.63,
-        "bonus3": 0.63
-      }
+        "bonus1": 0.73,
+        "bonus2": 0.09,
+        "bonus3": 0.4,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
     },
     {
       "level": 10,
@@ -288,7 +351,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 26
+          "level": 34
         }
       ],
       "build_costs": {
@@ -301,16 +364,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 38
+            "type": "starfleet honors",
+            "value": 868
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.1,
-        "bonus2": 0.7,
-        "bonus3": 0.7
-      }
+        "bonus1": 0.84,
+        "bonus2": 0.1,
+        "bonus3": 0.45,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
     },
     {
       "level": 11,
@@ -319,7 +389,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 26
+          "level": 35
         }
       ],
       "build_costs": {
@@ -332,16 +402,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 41
+            "type": "starfleet honors",
+            "value": 983
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.11,
-        "bonus2": 0.77,
-        "bonus3": 0.77
-      }
+        "bonus1": 0.97,
+        "bonus2": 0.11,
+        "bonus3": 0.51,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
     },
     {
       "level": 12,
@@ -350,7 +427,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 26
+          "level": 35
         }
       ],
       "build_costs": {
@@ -363,16 +440,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 44
+            "type": "starfleet honors",
+            "value": 1041
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.12,
-        "bonus2": 0.84,
-        "bonus3": 0.84
-      }
+        "bonus1": 1.11,
+        "bonus2": 0.12,
+        "bonus3": 0.58,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
     },
     {
       "level": 13,
@@ -381,7 +465,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 26
+          "level": 36
         }
       ],
       "build_costs": {
@@ -394,16 +478,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 48
+            "type": "starfleet honors",
+            "value": 1157
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.13,
-        "bonus2": 0.91,
-        "bonus3": 0.91
-      }
+        "bonus1": 1.26,
+        "bonus2": 0.13,
+        "bonus3": 0.65,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
     },
     {
       "level": 14,
@@ -412,7 +503,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 26
+          "level": 36
         }
       ],
       "build_costs": {
@@ -425,16 +516,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 52
+            "type": "starfleet honors",
+            "value": 1273
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.14,
-        "bonus2": 0.98,
-        "bonus3": 0.98
-      }
+        "bonus1": 1.43,
+        "bonus2": 0.14,
+        "bonus3": 0.73,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
     },
     {
       "level": 15,
@@ -443,7 +541,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 26
+          "level": 37
         }
       ],
       "build_costs": {
@@ -456,16 +554,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 56
+            "type": "starfleet honors",
+            "value": 1388
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.15,
-        "bonus2": 1.05,
-        "bonus3": 1.05
-      }
+        "bonus1": 1.61,
+        "bonus2": 0.15,
+        "bonus3": 0.81,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
     },
     {
       "level": 16,
@@ -474,7 +579,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 26
+          "level": 37
         }
       ],
       "build_costs": {
@@ -487,16 +592,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 60
+            "type": "starfleet honors",
+            "value": 1446
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.16,
-        "bonus2": 1.12,
-        "bonus3": 1.12
-      }
+        "bonus1": 1.8,
+        "bonus2": 0.16,
+        "bonus3": 0.9,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
     },
     {
       "level": 17,
@@ -505,7 +617,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 26
+          "level": 38
         }
       ],
       "build_costs": {
@@ -518,16 +630,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 65
+            "type": "starfleet honors",
+            "value": 1562
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.17,
-        "bonus2": 1.21,
-        "bonus3": 1.21
-      }
+        "bonus1": 2.0,
+        "bonus2": 0.17,
+        "bonus3": 1.0,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
     },
     {
       "level": 18,
@@ -536,7 +655,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 26
+          "level": 38
         }
       ],
       "build_costs": {
@@ -549,16 +668,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 70
+            "type": "starfleet honors",
+            "value": 1620
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.18,
-        "bonus2": 1.3,
-        "bonus3": 1.3
-      }
+        "bonus1": 2.22,
+        "bonus2": 0.18,
+        "bonus3": 1.1,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
     },
     {
       "level": 19,
@@ -567,7 +693,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 26
+          "level": 39
         }
       ],
       "build_costs": {
@@ -580,16 +706,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 75
+            "type": "starfleet honors",
+            "value": 1736
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.19,
-        "bonus2": 1.39,
-        "bonus3": 1.39
-      }
+        "bonus1": 2.46,
+        "bonus2": 0.19,
+        "bonus3": 1.21,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
     },
     {
       "level": 20,
@@ -598,7 +731,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 26
+          "level": 39
         }
       ],
       "build_costs": {
@@ -611,16 +744,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 80
+            "type": "starfleet honors",
+            "value": 1851
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.2,
-        "bonus2": 1.48,
-        "bonus3": 1.48
-      }
+        "bonus1": 2.7,
+        "bonus2": 0.2,
+        "bonus3": 1.32,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
     },
     {
       "level": 21,
@@ -629,7 +769,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 26
+          "level": 40
         }
       ],
       "build_costs": {
@@ -642,16 +782,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 90
+            "type": "starfleet honors",
+            "value": 1967
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.23,
-        "bonus2": 1.59,
-        "bonus3": 1.59
-      }
+        "bonus1": 2.96,
+        "bonus2": 0.21,
+        "bonus3": 1.44,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
     },
     {
       "level": 22,
@@ -660,7 +807,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 26
+          "level": 41
         }
       ],
       "build_costs": {
@@ -673,16 +820,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 100
+            "type": "starfleet honors",
+            "value": 2025
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.26,
-        "bonus2": 1.7,
-        "bonus3": 1.7
-      }
+        "bonus1": 3.24,
+        "bonus2": 0.22,
+        "bonus3": 1.57,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
     },
     {
       "level": 23,
@@ -691,7 +845,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 26
+          "level": 41
         }
       ],
       "build_costs": {
@@ -704,16 +858,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 110
+            "type": "starfleet honors",
+            "value": 2140
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.29,
-        "bonus2": 1.81,
-        "bonus3": 1.81
-      }
+        "bonus1": 3.52,
+        "bonus2": 0.23,
+        "bonus3": 1.7,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
     },
     {
       "level": 24,
@@ -722,7 +883,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 26
+          "level": 41
         }
       ],
       "build_costs": {
@@ -735,16 +896,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 120
+            "type": "starfleet honors",
+            "value": 2256
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.32,
-        "bonus2": 1.92,
-        "bonus3": 1.92
-      }
+        "bonus1": 3.82,
+        "bonus2": 0.24,
+        "bonus3": 1.84,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
     },
     {
       "level": 25,
@@ -753,7 +921,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 26
+          "level": 42
         }
       ],
       "build_costs": {
@@ -766,16 +934,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 130
+            "type": "starfleet honors",
+            "value": 2314
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.35,
-        "bonus2": 2.03,
-        "bonus3": 2.03
-      }
+        "bonus1": 4.14,
+        "bonus2": 0.25,
+        "bonus3": 1.99,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
     },
     {
       "level": 26,
@@ -784,7 +959,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 26
+          "level": 42
         }
       ],
       "build_costs": {
@@ -797,16 +972,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 140
+            "type": "starfleet honors",
+            "value": 2430
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.38,
-        "bonus2": 2.17,
-        "bonus3": 2.17
-      }
+        "bonus1": 4.46,
+        "bonus2": 0.26,
+        "bonus3": 2.14,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
     },
     {
       "level": 27,
@@ -815,7 +997,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 27
+          "level": 43
         }
       ],
       "build_costs": {
@@ -828,16 +1010,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 160
+            "type": "starfleet honors",
+            "value": 2488
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.41,
-        "bonus2": 2.31,
-        "bonus3": 2.31
-      }
+        "bonus1": 4.8,
+        "bonus2": 0.27,
+        "bonus3": 2.3,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
     },
     {
       "level": 28,
@@ -846,7 +1035,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 28
+          "level": 43
         }
       ],
       "build_costs": {
@@ -859,16 +1048,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 180
+            "type": "starfleet honors",
+            "value": 2661
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.44,
-        "bonus2": 2.45,
-        "bonus3": 2.45
-      }
+        "bonus1": 5.15,
+        "bonus2": 0.28,
+        "bonus3": 2.47,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
     },
     {
       "level": 29,
@@ -877,7 +1073,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 29
+          "level": 44
         }
       ],
       "build_costs": {
@@ -890,16 +1086,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 200
+            "type": "starfleet honors",
+            "value": 2661
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.47,
-        "bonus2": 2.59,
-        "bonus3": 2.59
-      }
+        "bonus1": 5.52,
+        "bonus2": 0.29,
+        "bonus3": 2.64,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
     },
     {
       "level": 30,
@@ -908,7 +1111,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 30
+          "level": 44
         }
       ],
       "build_costs": {
@@ -921,16 +1124,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 220
+            "type": "starfleet honors",
+            "value": 2835
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.5,
-        "bonus2": 2.73,
-        "bonus3": 2.73
-      }
+        "bonus1": 5.9,
+        "bonus2": 0.3,
+        "bonus3": 2.81,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
     },
     {
       "level": 31,
@@ -939,7 +1149,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 31
+          "level": 45
         }
       ],
       "build_costs": {
@@ -952,16 +1162,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 250
+            "type": "starfleet honors",
+            "value": 2893
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.55,
-        "bonus2": 2.87,
-        "bonus3": 2.87
-      }
+        "bonus1": 6.29,
+        "bonus2": 0.31,
+        "bonus3": 3.0,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
     },
     {
       "level": 32,
@@ -970,7 +1187,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 32
+          "level": 45
         }
       ],
       "build_costs": {
@@ -983,16 +1200,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 280
+            "type": "starfleet honors",
+            "value": 3008
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.6,
-        "bonus2": 3.01,
-        "bonus3": 3.01
-      }
+        "bonus1": 6.7,
+        "bonus2": 0.32,
+        "bonus3": 3.19,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
     },
     {
       "level": 33,
@@ -1001,7 +1225,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 33
+          "level": 46
         }
       ],
       "build_costs": {
@@ -1014,16 +1238,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 310
+            "type": "starfleet honors",
+            "value": 3066
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.65,
-        "bonus2": 3.15,
-        "bonus3": 3.15
-      }
+        "bonus1": 7.12,
+        "bonus2": 0.33,
+        "bonus3": 3.38,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
     },
     {
       "level": 34,
@@ -1032,7 +1263,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 34
+          "level": 46
         }
       ],
       "build_costs": {
@@ -1045,16 +1276,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 350
+            "type": "starfleet honors",
+            "value": 3182
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.7,
-        "bonus2": 3.29,
-        "bonus3": 3.29
-      }
+        "bonus1": 7.55,
+        "bonus2": 0.34,
+        "bonus3": 3.59,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
     },
     {
       "level": 35,
@@ -1063,7 +1301,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 35
+          "level": 47
         }
       ],
       "build_costs": {
@@ -1076,16 +1314,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 390
+            "type": "starfleet honors",
+            "value": 3297
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.75,
-        "bonus2": 3.47,
-        "bonus3": 3.47
-      }
+        "bonus1": 8.0,
+        "bonus2": 0.35,
+        "bonus3": 3.79,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
     },
     {
       "level": 36,
@@ -1094,7 +1339,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 36
+          "level": 47
         }
       ],
       "build_costs": {
@@ -1107,16 +1352,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 440
+            "type": "starfleet honors",
+            "value": 3355
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.8,
-        "bonus2": 3.65,
-        "bonus3": 3.65
-      }
+        "bonus1": 8.46,
+        "bonus2": 0.36,
+        "bonus3": 4.01,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
     },
     {
       "level": 37,
@@ -1125,7 +1377,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 37
+          "level": 48
         }
       ],
       "build_costs": {
@@ -1138,16 +1390,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 490
+            "type": "starfleet honors",
+            "value": 3471
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.85,
-        "bonus2": 3.83,
-        "bonus3": 3.83
-      }
+        "bonus1": 8.93,
+        "bonus2": 0.37,
+        "bonus3": 4.23,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
     },
     {
       "level": 38,
@@ -1156,7 +1415,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 38
+          "level": 48
         }
       ],
       "build_costs": {
@@ -1169,16 +1428,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 550
+            "type": "starfleet honors",
+            "value": 3587
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.9,
-        "bonus2": 4.01,
-        "bonus3": 4.01
-      }
+        "bonus1": 9.42,
+        "bonus2": 0.38,
+        "bonus3": 4.46,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
     },
     {
       "level": 39,
@@ -1187,7 +1453,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 39
+          "level": 49
         }
       ],
       "build_costs": {
@@ -1200,16 +1466,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 620
+            "type": "starfleet honors",
+            "value": 3645
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.95,
-        "bonus2": 4.19,
-        "bonus3": 4.19
-      }
+        "bonus1": 9.91,
+        "bonus2": 0.39,
+        "bonus3": 4.69,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
     },
     {
       "level": 40,
@@ -1218,7 +1491,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 40
+          "level": 49
         }
       ],
       "build_costs": {
@@ -1231,16 +1504,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 700
+            "type": "starfleet honors",
+            "value": 3760
           }
         ]
       },
       "bonuses": {
-        "bonus1": 1.0,
-        "bonus2": 4.41,
-        "bonus3": 4.41
-      }
+        "bonus1": 10.43,
+        "bonus2": 0.4,
+        "bonus3": 4.93,
+        "bonus4": 42525.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 42525
+        }
+      ]
     },
     {
       "level": 41,
@@ -1249,7 +1529,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 41
+          "level": 50
         }
       ],
       "build_costs": {
@@ -1262,16 +1542,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 800
+            "type": "starfleet honors",
+            "value": 3818
           }
         ]
       },
       "bonuses": {
-        "bonus1": 1.05,
-        "bonus2": 4.63,
-        "bonus3": 4.63
-      }
+        "bonus1": 10.95,
+        "bonus2": 0.41,
+        "bonus3": 5.17,
+        "bonus4": 170100.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 170100
+        }
+      ]
     },
     {
       "level": 42,
@@ -1280,7 +1567,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 42
+          "level": 50
         }
       ],
       "build_costs": {
@@ -1293,16 +1580,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 900
+            "type": "starfleet honors",
+            "value": 3934
           }
         ]
       },
       "bonuses": {
-        "bonus1": 1.1,
-        "bonus2": 4.85,
-        "bonus3": 4.85
-      }
+        "bonus1": 11.49,
+        "bonus2": 0.42,
+        "bonus3": 5.43,
+        "bonus4": 170100.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 170100
+        }
+      ]
     },
     {
       "level": 43,
@@ -1311,7 +1605,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 43
+          "level": 51
         }
       ],
       "build_costs": {
@@ -1324,16 +1618,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 1000
+            "type": "starfleet honors",
+            "value": 4050
           }
         ]
       },
       "bonuses": {
-        "bonus1": 1.15,
-        "bonus2": 5.07,
-        "bonus3": 5.07
-      }
+        "bonus1": 12.05,
+        "bonus2": 0.43,
+        "bonus3": 5.68,
+        "bonus4": 170100.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 170100
+        }
+      ]
     },
     {
       "level": 44,
@@ -1342,7 +1643,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 44
+          "level": 51
         }
       ],
       "build_costs": {
@@ -1355,16 +1656,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 1100
+            "type": "starfleet honors",
+            "value": 4107
           }
         ]
       },
       "bonuses": {
-        "bonus1": 1.2,
-        "bonus2": 5.29,
-        "bonus3": 5.29
-      }
+        "bonus1": 12.61,
+        "bonus2": 0.44,
+        "bonus3": 5.95,
+        "bonus4": 170100.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 170100
+        }
+      ]
     },
     {
       "level": 45,
@@ -1373,7 +1681,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 45
+          "level": 52
         }
       ],
       "build_costs": {
@@ -1386,16 +1694,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 1250
+            "type": "starfleet honors",
+            "value": 4223
           }
         ]
       },
       "bonuses": {
-        "bonus1": 1.25,
-        "bonus2": 5.51,
-        "bonus3": 5.51
-      }
+        "bonus1": 13.19,
+        "bonus2": 0.45,
+        "bonus3": 6.22,
+        "bonus4": 170100.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 170100
+        }
+      ]
     },
     {
       "level": 46,
@@ -1404,7 +1719,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 46
+          "level": 52
         }
       ],
       "build_costs": {
@@ -1417,16 +1732,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 1400
+            "type": "starfleet honors",
+            "value": 4339
           }
         ]
       },
       "bonuses": {
-        "bonus1": 1.3,
-        "bonus2": 5.77,
-        "bonus3": 5.77
-      }
+        "bonus1": 13.78,
+        "bonus2": 0.46,
+        "bonus3": 6.49,
+        "bonus4": 170100.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 170100
+        }
+      ]
     },
     {
       "level": 47,
@@ -1435,7 +1757,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 47
+          "level": 53
         }
       ],
       "build_costs": {
@@ -1448,16 +1770,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 1600
+            "type": "starfleet honors",
+            "value": 4397
           }
         ]
       },
       "bonuses": {
-        "bonus1": 1.35,
-        "bonus2": 6.03,
-        "bonus3": 6.03
-      }
+        "bonus1": 14.39,
+        "bonus2": 0.47,
+        "bonus3": 6.78,
+        "bonus4": 170100.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 170100
+        }
+      ]
     },
     {
       "level": 48,
@@ -1466,7 +1795,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 48
+          "level": 53
         }
       ],
       "build_costs": {
@@ -1479,16 +1808,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 1800
+            "type": "starfleet honors",
+            "value": 4512
           }
         ]
       },
       "bonuses": {
-        "bonus1": 1.4,
-        "bonus2": 6.29,
-        "bonus3": 6.29
-      }
+        "bonus1": 15.01,
+        "bonus2": 0.48,
+        "bonus3": 7.07,
+        "bonus4": 170100.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 170100
+        }
+      ]
     },
     {
       "level": 49,
@@ -1497,7 +1833,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 49
+          "level": 54
         }
       ],
       "build_costs": {
@@ -1510,16 +1846,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 2000
+            "type": "starfleet honors",
+            "value": 4628
           }
         ]
       },
       "bonuses": {
-        "bonus1": 1.45,
-        "bonus2": 6.56,
-        "bonus3": 6.56
-      }
+        "bonus1": 15.64,
+        "bonus2": 0.49,
+        "bonus3": 7.36,
+        "bonus4": 170100.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 170100
+        }
+      ]
     },
     {
       "level": 50,
@@ -1528,7 +1871,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 50
+          "level": 54
         }
       ],
       "build_costs": {
@@ -1541,16 +1884,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 2300
+            "type": "starfleet honors",
+            "value": 4686
           }
         ]
       },
       "bonuses": {
-        "bonus1": 1.5,
-        "bonus2": 6.84,
-        "bonus3": 6.84
-      }
+        "bonus1": 16.29,
+        "bonus2": 0.5,
+        "bonus3": 7.66,
+        "bonus4": 170100.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 170100
+        }
+      ]
     },
     {
       "level": 51,
@@ -1559,7 +1909,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 51
+          "level": 55
         }
       ],
       "build_costs": {
@@ -1572,16 +1922,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 2600
+            "type": "starfleet honors",
+            "value": 4744
           }
         ]
       },
       "bonuses": {
-        "bonus1": 1.55,
-        "bonus2": 7.12,
-        "bonus3": 7.12
-      }
+        "bonus1": 16.95,
+        "bonus2": 0.51,
+        "bonus3": 7.97,
+        "bonus4": 170100.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 170100
+        }
+      ]
     },
     {
       "level": 52,
@@ -1590,7 +1947,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 52
+          "level": 56
         }
       ],
       "build_costs": {
@@ -1603,16 +1960,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 3000
+            "type": "starfleet honors",
+            "value": 4917
           }
         ]
       },
       "bonuses": {
-        "bonus1": 1.6,
-        "bonus2": 7.4,
-        "bonus3": 7.4
-      }
+        "bonus1": 17.62,
+        "bonus2": 0.52,
+        "bonus3": 8.29,
+        "bonus4": 170100.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 170100
+        }
+      ]
     },
     {
       "level": 53,
@@ -1621,7 +1985,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 53
+          "level": 57
         }
       ],
       "build_costs": {
@@ -1634,16 +1998,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 3400
+            "type": "starfleet honors",
+            "value": 4975
           }
         ]
       },
       "bonuses": {
-        "bonus1": 1.65,
-        "bonus2": 7.68,
-        "bonus3": 7.68
-      }
+        "bonus1": 18.3,
+        "bonus2": 0.53,
+        "bonus3": 8.61,
+        "bonus4": 170100.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 170100
+        }
+      ]
     },
     {
       "level": 54,
@@ -1652,7 +2023,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 54
+          "level": 58
         }
       ],
       "build_costs": {
@@ -1665,16 +2036,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 3900
+            "type": "starfleet honors",
+            "value": 5033
           }
         ]
       },
       "bonuses": {
-        "bonus1": 1.7,
-        "bonus2": 7.96,
-        "bonus3": 7.96
-      }
+        "bonus1": 19.0,
+        "bonus2": 0.54,
+        "bonus3": 8.93,
+        "bonus4": 170100.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 170100
+        }
+      ]
     },
     {
       "level": 55,
@@ -1683,7 +2061,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 55
+          "level": 59
         }
       ],
       "build_costs": {
@@ -1696,16 +2074,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 4500
+            "type": "starfleet honors",
+            "value": 5149
           }
         ]
       },
       "bonuses": {
-        "bonus1": 1.75,
-        "bonus2": 8.26,
-        "bonus3": 8.26
-      }
+        "bonus1": 19.72,
+        "bonus2": 0.55,
+        "bonus3": 9.26,
+        "bonus4": 170100.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 170100
+        }
+      ]
     },
     {
       "level": 56,
@@ -1714,7 +2099,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 56
+          "level": 60
         }
       ],
       "build_costs": {
@@ -1727,16 +2112,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 5200
+            "type": "starfleet honors",
+            "value": 5264
           }
         ]
       },
       "bonuses": {
-        "bonus1": 1.8,
-        "bonus2": 8.57,
-        "bonus3": 8.57
-      }
+        "bonus1": 20.44,
+        "bonus2": 0.56,
+        "bonus3": 9.6,
+        "bonus4": 170100.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 170100
+        }
+      ]
     },
     {
       "level": 57,
@@ -1745,7 +2137,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 57
+          "level": 61
         }
       ],
       "build_costs": {
@@ -1758,16 +2150,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 5900
+            "type": "starfleet honors",
+            "value": 5322
           }
         ]
       },
       "bonuses": {
-        "bonus1": 1.85,
-        "bonus2": 8.9,
-        "bonus3": 8.9
-      }
+        "bonus1": 21.18,
+        "bonus2": 0.57,
+        "bonus3": 9.95,
+        "bonus4": 170100.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 170100
+        }
+      ]
     },
     {
       "level": 58,
@@ -1776,7 +2175,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 58
+          "level": 61
         }
       ],
       "build_costs": {
@@ -1789,16 +2188,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 6700
+            "type": "starfleet honors",
+            "value": 5438
           }
         ]
       },
       "bonuses": {
-        "bonus1": 1.9,
-        "bonus2": 9.23,
-        "bonus3": 9.23
-      }
+        "bonus1": 21.93,
+        "bonus2": 0.58,
+        "bonus3": 10.3,
+        "bonus4": 170100.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 170100
+        }
+      ]
     },
     {
       "level": 59,
@@ -1807,7 +2213,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 59
+          "level": 62
         }
       ],
       "build_costs": {
@@ -1820,16 +2226,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 7600
+            "type": "starfleet honors",
+            "value": 5554
           }
         ]
       },
       "bonuses": {
-        "bonus1": 1.95,
-        "bonus2": 9.61,
-        "bonus3": 9.61
-      }
+        "bonus1": 22.7,
+        "bonus2": 0.59,
+        "bonus3": 10.66,
+        "bonus4": 170100.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 170100
+        }
+      ]
     },
     {
       "level": 60,
@@ -1838,7 +2251,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 60
+          "level": 62
         }
       ],
       "build_costs": {
@@ -1851,16 +2264,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 9000
+            "type": "starfleet honors",
+            "value": 5611
           }
         ]
       },
       "bonuses": {
-        "bonus1": 2.0,
-        "bonus2": 10.0,
-        "bonus3": 10.0
-      }
+        "bonus1": 23.48,
+        "bonus2": 0.6,
+        "bonus3": 11.02,
+        "bonus4": 170100.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 170100
+        }
+      ]
     },
     {
       "level": 61,
@@ -1869,7 +2289,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 61
+          "level": 63
         }
       ],
       "build_costs": {
@@ -1882,16 +2302,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 9100
+            "type": "starfleet honors",
+            "value": 5727
           }
         ]
       },
       "bonuses": {
-        "bonus1": 2.05,
-        "bonus2": 10.4,
-        "bonus3": 10.4
-      }
+        "bonus1": 24.27,
+        "bonus2": 0.61,
+        "bonus3": 11.39,
+        "bonus4": 170100.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 170100
+        }
+      ]
     },
     {
       "level": 62,
@@ -1900,7 +2327,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 62
+          "level": 63
         }
       ],
       "build_costs": {
@@ -1913,16 +2340,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 9300
+            "type": "starfleet honors",
+            "value": 5785
           }
         ]
       },
       "bonuses": {
-        "bonus1": 2.1,
-        "bonus2": 10.9,
-        "bonus3": 10.9
-      }
+        "bonus1": 25.08,
+        "bonus2": 0.62,
+        "bonus3": 11.77,
+        "bonus4": 170100.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 170100
+        }
+      ]
     },
     {
       "level": 63,
@@ -1931,7 +2365,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 63
+          "level": 64
         }
       ],
       "build_costs": {
@@ -1944,16 +2378,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 9500
+            "type": "starfleet honors",
+            "value": 5901
           }
         ]
       },
       "bonuses": {
-        "bonus1": 2.15,
-        "bonus2": 11.5,
-        "bonus3": 11.5
-      }
+        "bonus1": 25.89,
+        "bonus2": 0.63,
+        "bonus3": 12.15,
+        "bonus4": 170100.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 170100
+        }
+      ]
     },
     {
       "level": 64,
@@ -1975,16 +2416,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 9700
+            "type": "starfleet honors",
+            "value": 6016
           }
         ]
       },
       "bonuses": {
-        "bonus1": 2.2,
-        "bonus2": 12.2,
-        "bonus3": 12.2
-      }
+        "bonus1": 26.73,
+        "bonus2": 0.64,
+        "bonus3": 12.54,
+        "bonus4": 170100.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 170100
+        }
+      ]
     },
     {
       "level": 65,
@@ -2006,16 +2454,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 10000
+            "type": "starfleet honors",
+            "value": 6074
           }
         ]
       },
       "bonuses": {
-        "bonus1": 2.25,
-        "bonus2": 13.0,
-        "bonus3": 13.0
-      }
+        "bonus1": 27.57,
+        "bonus2": 0.65,
+        "bonus3": 12.93,
+        "bonus4": 170100.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 170100
+        }
+      ]
     },
     {
       "level": 66,
@@ -2037,16 +2492,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 10500
+            "type": "starfleet honors",
+            "value": 6190
           }
         ]
       },
       "bonuses": {
-        "bonus1": 2.3,
-        "bonus2": 14.0,
-        "bonus3": 14.0
-      }
+        "bonus1": 28.43,
+        "bonus2": 0.67,
+        "bonus3": 13.33,
+        "bonus4": 170100.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 170100
+        }
+      ]
     },
     {
       "level": 67,
@@ -2068,16 +2530,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 11000
+            "type": "starfleet honors",
+            "value": 6248
           }
         ]
       },
       "bonuses": {
-        "bonus1": 2.35,
-        "bonus2": 15.0,
-        "bonus3": 15.0
-      }
+        "bonus1": 29.3,
+        "bonus2": 0.69,
+        "bonus3": 13.74,
+        "bonus4": 170100.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 170100
+        }
+      ]
     },
     {
       "level": 68,
@@ -2099,16 +2568,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 11600
+            "type": "starfleet honors",
+            "value": 6364
           }
         ]
       },
       "bonuses": {
-        "bonus1": 2.4,
-        "bonus2": 16.25,
-        "bonus3": 16.25
-      }
+        "bonus1": 30.19,
+        "bonus2": 0.71,
+        "bonus3": 14.15,
+        "bonus4": 170100.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 170100
+        }
+      ]
     },
     {
       "level": 69,
@@ -2130,16 +2606,23 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 12200
+            "type": "starfleet honors",
+            "value": 6479
           }
         ]
       },
       "bonuses": {
-        "bonus1": 2.45,
-        "bonus2": 18.0,
-        "bonus3": 18.0
-      }
+        "bonus1": 31.09,
+        "bonus2": 0.73,
+        "bonus3": 14.57,
+        "bonus4": 170100.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 170100
+        }
+      ]
     },
     {
       "level": 70,
@@ -2161,30 +2644,41 @@
         "materials": [],
         "others": [
           {
-            "type": "artifact gallery schematics",
-            "value": 13000
+            "type": "starfleet honors",
+            "value": 6537
           }
         ]
       },
       "bonuses": {
-        "bonus1": 2.5,
-        "bonus2": 20.0,
-        "bonus3": 20.0
-      }
+        "bonus1": 32.0,
+        "bonus2": 0.75,
+        "bonus3": 15.0,
+        "bonus4": 170100.0
+      },
+      "rewards": [
+        {
+          "type": "Nova Squadron Particles",
+          "value": 170100
+        }
+      ]
     }
   ],
   "bonuses": {
     "bonus1": {
-      "name": "Artifact Token Bonus",
+      "name": "Shield Health Bonus",
       "percentage": true
     },
     "bonus2": {
-      "name": "Hull Health Bonus",
+      "name": "Special Building Materials Cost Efficiency",
       "percentage": true
     },
     "bonus3": {
-      "name": "Shield Health Bonus",
+      "name": "Weapon Damage Bonus",
       "percentage": true
+    },
+    "bonus4": {
+      "name": "Nova Squadron Research Nodes",
+      "percentage": false
     }
   }
 }
