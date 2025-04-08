@@ -1,0 +1,174 @@
+{
+  "officer_name": "Annorax",
+  "description": "If you could save your people from destruction while damning yourself in the process, would you do it?\nAnnorax of the Krenim Imperium was a brilliant man. Intelligent, cunning, and fiercely devoted to his people. He pledged to stop at nothing to restore the Krenim to their rightful place as a dominant power in the galaxy.\nDesperate to protect his people from their age-old enemies, the Rinar, Annorax discovered a method of pushing elements out of the space-time continuum, thereby creating an alternate timeline where that element never existed.\nThis science was weaponized immediately.\nIn the years that followed, the Krenim became an unstoppable force in the Delta Quadrant. That is, until they were ultimately defeated by Kathryn Janeway and the crew of the USS Voyager.\nDriven by naught but an unquenchable desire for revenge against Janeway, Annorax has launched a full-scale temporal invasion of the Alpha Quadrant. This time, we may not have Janeway to save us...",
+  "class": "command",
+  "group": "voyager 30th anniversary",
+  "faction": "neutral",
+  "rarity": "epic",
+  "ability_info": {
+    "captain_maneuver": {
+      "name": "Past, Present, and Future",
+      "bonus": "Increases select rewards from hostile chests (G3-G6 Parts & Refined Materials, FKR Messages & Credits, Hirogen Relics, Mycellium, Exotic Biotoxins, Xindi Scraps & Bounties, Trellium, Fatu-Kray Scraps) by {value} of base.",
+      "percentage": true,
+      "value": 0.3
+    },
+    "officer_ability": {
+      "name": "Time is Patient",
+      "bonus": "Increases Apex Barrier by {value} ({value} at rank {value}) for 2 rounds when hit by a hostile (Once per weapon)(Cumulative).\n\nApex Barrier provides <b>true damage mitigation from all sources after all other bonuses. Every 100 Apex Barrier increases the damage you can take by 1%.\n\nThis ability does not trigger when Tal is assigned to the bridge of your ship.",
+      "percentage": false
+    },
+    "below_decks_ability": null
+  },
+  "synergy": {
+    "command": 0.05,
+    "engineering": 0.1,
+    "science": 0.1
+  },
+  "traits": [
+    {
+      "name": "Scientist",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 1500
+        },
+        {
+          "level": 2,
+          "trait_xp": 2700
+        },
+        {
+          "level": 3,
+          "trait_xp": 3800
+        }
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Inventor",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 7650
+        },
+        {
+          "level": 2,
+          "trait_xp": 6000
+        },
+        {
+          "level": 3,
+          "trait_xp": 7000
+        },
+        {
+          "level": 4,
+          "trait_xp": 8850
+        }
+      ],
+      "tier": 2
+    },
+    {
+      "name": "Adaptable",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 10000
+        },
+        {
+          "level": 2,
+          "trait_xp": 4000
+        },
+        {
+          "level": 3,
+          "trait_xp": 7000
+        },
+        {
+          "level": 4,
+          "trait_xp": 10000
+        },
+        {
+          "level": 5,
+          "trait_xp": 15000
+        },
+        {
+          "level": 6,
+          "trait_xp": 23000
+        },
+        {
+          "level": 7,
+          "trait_xp": 42000
+        },
+        {
+          "level": 8,
+          "trait_xp": 68000
+        },
+        {
+          "level": 9,
+          "trait_xp": 107000
+        }
+      ],
+      "tier": 3
+    }
+  ],
+  "ranks": [
+    {
+      "rank_id": 1,
+      "name": "ENSIGN I",
+      "officer_ability_value": 2000.0,
+      "requirements": {
+        "badges": 0,
+        "credits": 0,
+        "others": [],
+        "shards": 120,
+        "xp": 0
+      }
+    },
+    {
+      "rank_id": 2,
+      "name": "LIEUTENANT JG II",
+      "officer_ability_value": 2300.0,
+      "requirements": {
+        "badges": 0,
+        "credits": 1100,
+        "others": [],
+        "shards": 120,
+        "xp": 50000
+      }
+    },
+    {
+      "rank_id": 3,
+      "name": "LIEUTENANT III",
+      "officer_ability_value": 2600.0,
+      "requirements": {
+        "badges": 1,
+        "credits": 4500,
+        "others": [],
+        "shards": 240,
+        "xp": 500000
+      }
+    },
+    {
+      "rank_id": 4,
+      "name": "LT. COMMANDER IV",
+      "officer_ability_value": 2900.0,
+      "requirements": {
+        "badges": 2,
+        "credits": 11500,
+        "others": [],
+        "shards": 360,
+        "xp": 1250000
+      }
+    },
+    {
+      "rank_id": 5,
+      "name": "COMMANDER V",
+      "officer_ability_value": 3200.0,
+      "requirements": {
+        "badges": 4,
+        "credits": 25000,
+        "others": [],
+        "shards": 960,
+        "xp": 2500000
+      }
+    }
+  ],
+  "img_url": "./assets/annorax.png"
+}

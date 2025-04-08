@@ -1,0 +1,141 @@
+{
+  "officer_name": "Rachel Garrett",
+  "description": "A true Starfleet officer, Lieutenant Rachel Garrett was the perfect choice for a daring Section 31 operation. Her unwavering principles and loyalty to the Federation ensured that the Alpha Team held together in the face of imminent danger. As they faced perilous challenges on their quest to find the Godsend and stop San from passing it to the Terran Empire, she was often the collected tactical mind that the team required.\nRachel Garrett used to be a science officer before taking an assignment from Section 31, and she aspired to take the conn and become a Starfleet captain one day. Little did she know that 40 years later, she would be the captain of the <i>Enterprise-C</i>, saving the Federation from a devastating war with the Klingon Empire. Regardless, her path to this coveted position would be forged through her adventures with Philippa Georgiou and the Alpha Team, where she managed to embrace her chaotic side while also learning to balance Starfleet's principles with the often complicated and juxtaposing assignments of Section 31.",
+  "class": "engineering",
+  "group": "enterprise-e",
+  "faction": "section 31",
+  "rarity": "rare",
+  "ability_info": {
+    "captain_maneuver": {
+      "name": "Chain of Command",
+      "bonus": "This Officer does not have a Captain's Maneuver. Equipping this Officer as the captain of a ship provides no benefit.",
+      "percentage": true,
+      "value": 0.0
+    },
+    "officer_ability": {
+      "name": "Bright Future",
+      "bonus": "Increases base Loot gained from non-Armada hostiles by {value} ({value} at rank {value}).",
+      "percentage": true
+    },
+    "below_decks_ability": {
+      "name": "Chaos Tamed",
+      "bonus": "Increases Apex Barrier against Battleship hostiles by {value} ({value} at rank {value}).\n\nThis ability does not trigger when Tal is assigned to the bridge of your ship.\n\nApex Barrier provides <b>true damage mitigation from all sources after all other bonuses. Every 100 Apex Barrier increases the damage you can take by 1%.\n\nBelow-Deck Abilities are only activated when assigned to a below-decks slot on a ship.",
+      "percentage": false
+    }
+  },
+  "synergy": {
+    "command": 0.0,
+    "engineering": 0.0,
+    "science": 0.0
+  },
+  "traits": [
+    {
+      "name": "Captain",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 1500
+        },
+        {
+          "level": 2,
+          "trait_xp": 2700
+        },
+        {
+          "level": 3,
+          "trait_xp": 3800
+        }
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Reliable",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 7650
+        },
+        {
+          "level": 2,
+          "trait_xp": 6000
+        },
+        {
+          "level": 3,
+          "trait_xp": 7000
+        },
+        {
+          "level": 4,
+          "trait_xp": 8850
+        }
+      ],
+      "tier": 2
+    }
+  ],
+  "ranks": [
+    {
+      "rank_id": 1,
+      "name": "ENSIGN I",
+      "officer_ability_value": 0.3,
+      "requirements": {
+        "badges": 0,
+        "credits": 0,
+        "others": [],
+        "shards": 38,
+        "xp": 0
+      },
+      "below_deck_ability_value": 1000.0
+    },
+    {
+      "rank_id": 2,
+      "name": "LIEUTENANT JG II",
+      "officer_ability_value": 0.5,
+      "requirements": {
+        "badges": 0,
+        "credits": 0,
+        "others": [],
+        "shards": 55,
+        "xp": 10000
+      },
+      "below_deck_ability_value": 1200.0
+    },
+    {
+      "rank_id": 3,
+      "name": "LIEUTENANT III",
+      "officer_ability_value": 0.8,
+      "requirements": {
+        "badges": 0,
+        "credits": 1100,
+        "others": [],
+        "shards": 115,
+        "xp": 100000
+      },
+      "below_deck_ability_value": 1500.0
+    },
+    {
+      "rank_id": 4,
+      "name": "LT. COMMANDER IV",
+      "officer_ability_value": 1.2,
+      "requirements": {
+        "badges": 1,
+        "credits": 4500,
+        "others": [],
+        "shards": 155,
+        "xp": 250000
+      },
+      "below_deck_ability_value": 2000.0
+    },
+    {
+      "rank_id": 5,
+      "name": "COMMANDER V",
+      "officer_ability_value": 2.0,
+      "requirements": {
+        "badges": 2,
+        "credits": 11500,
+        "others": [],
+        "shards": 225,
+        "xp": 500000
+      },
+      "below_deck_ability_value": 3000.0
+    }
+  ],
+  "img_url": "./assets/rachel_garrett.png"
+}

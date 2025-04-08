@@ -1,0 +1,141 @@
+{
+  "officer_name": "Infiltrator Tuvok",
+  "description": "After returning to Earth, Tuvok, along with the rest of the crew of Voyager, were given a hero\u2019s welcome.\nTuvok was promoted to Commander and rewarded with a comfortable posting at Starfleet Academy, utilizing his vast experience in the Delta Quadrant to raise the next generation of explorers.\nHowever, something scratched at the back of Tuvok\u2019s mind. Sentiment and emotion were, of course, human faults but even still, he felt... he <i>felt.</i>\nThis creeping growth of emotion began to disturb Tuvok. He was becoming anxious, irritable. He was having dreams, nightmares of his assimilation by the Borg.\nTuvok needed clarity. He needed Vulcan.\nTaking a temporary leave of absence, Tuvok bid a fond farewell to his friends and crewmates and set out once more to his home world of Vulcan.\nThere, he hoped he would once again find peace in the comforting embrace of Logic.",
+  "class": "science",
+  "group": "\u21e5 retaliation squad",
+  "faction": "neutral",
+  "rarity": "rare",
+  "ability_info": {
+    "captain_maneuver": {
+      "name": "Chain of Command",
+      "bonus": "This Officer does not have a Captain's Maneuver. Equipping this Officer as the captain of a ship provides no benefit.",
+      "percentage": true,
+      "value": 0.0
+    },
+    "officer_ability": {
+      "name": "Vulcan Security Procedures",
+      "bonus": "Against players with Hull Breach, Infiltrator Tuvok increases your Isolytic Cascade damage by {value} ({value} at rank {value}) for 3 rounds each time you score a hit (Once per weapon)(Cumulative).\n\nIsolytic Cascade multiplies your total damage, including Isolytic Damage, and all research and other bonuses.",
+      "percentage": true
+    },
+    "below_decks_ability": {
+      "name": "Logical Tactics",
+      "bonus": "On round start against players, if on a ship with no State applied Infiltrator Tuvok increases your Apex Barrier by {value} ({value} at rank {value}) for 3 rounds (Cumulative).\n\nApex Barrier provides <b>true damage mitigation from all sources after all other bonuses. Every 100 Apex Barrier increases the damage you can take by 1%.\n\nThis ability does not trigger when Tal is assigned to the bridge of your ship.",
+      "percentage": false
+    }
+  },
+  "synergy": {
+    "command": 0.0,
+    "engineering": 0.0,
+    "science": 0.0
+  },
+  "traits": [
+    {
+      "name": "Genius",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 1500
+        },
+        {
+          "level": 2,
+          "trait_xp": 2700
+        },
+        {
+          "level": 3,
+          "trait_xp": 3800
+        }
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Perceptive",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 7650
+        },
+        {
+          "level": 2,
+          "trait_xp": 6000
+        },
+        {
+          "level": 3,
+          "trait_xp": 7000
+        },
+        {
+          "level": 4,
+          "trait_xp": 8850
+        }
+      ],
+      "tier": 2
+    }
+  ],
+  "ranks": [
+    {
+      "rank_id": 1,
+      "name": "ENSIGN I",
+      "officer_ability_value": 0.28,
+      "requirements": {
+        "badges": 0,
+        "credits": 0,
+        "others": [],
+        "shards": 38,
+        "xp": 0
+      },
+      "below_deck_ability_value": 12000.0
+    },
+    {
+      "rank_id": 2,
+      "name": "LIEUTENANT JG II",
+      "officer_ability_value": 0.34,
+      "requirements": {
+        "badges": 0,
+        "credits": 0,
+        "others": [],
+        "shards": 55,
+        "xp": 10000
+      },
+      "below_deck_ability_value": 14500.0
+    },
+    {
+      "rank_id": 3,
+      "name": "LIEUTENANT III",
+      "officer_ability_value": 0.42,
+      "requirements": {
+        "badges": 0,
+        "credits": 1100,
+        "others": [],
+        "shards": 115,
+        "xp": 100000
+      },
+      "below_deck_ability_value": 17500.0
+    },
+    {
+      "rank_id": 4,
+      "name": "LT. COMMANDER IV",
+      "officer_ability_value": 0.52,
+      "requirements": {
+        "badges": 1,
+        "credits": 4500,
+        "others": [],
+        "shards": 155,
+        "xp": 250000
+      },
+      "below_deck_ability_value": 21000.0
+    },
+    {
+      "rank_id": 5,
+      "name": "COMMANDER V",
+      "officer_ability_value": 0.65,
+      "requirements": {
+        "badges": 2,
+        "credits": 11500,
+        "others": [],
+        "shards": 225,
+        "xp": 500000
+      },
+      "below_deck_ability_value": 25000.0
+    }
+  ],
+  "img_url": "./assets/infiltrator_tuvok.png"
+}

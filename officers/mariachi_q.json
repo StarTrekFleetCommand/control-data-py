@@ -1,0 +1,141 @@
+{
+  "officer_name": "Mariachi Q",
+  "description": "Throughout the years, Q has continued to test the patience of his peers in the Q Continuum by acting alone in service of his own interests. Frequently finding themselves frustrated with Q's actions, the clemency of the Continuum was withdrawn in the year 2366 when Q found himself stripped of his powers and, despite his protests, was ultimately excommunicated from his own species. With the Continuum granting him the small mercy of taking any mortal form he desired, Q chose to become human, insisting that Captain Jean-Luc Picard of the USS Enterprise-D was the closest thing to a friend and his only confidant in the galaxy. Following his exile from his home dimension, the Continuum saw fit to banish Q to the bridge of the Enterprise, where he would subsequently become Captain Picard's problem to be taken care of.\n\nIn the belief that this was nothing more than another one of Q's tests, Picard granted Q asylum aboard his ship. During his time as just another unremarkable humanoid, Q began to learn what it was to be human. He would go on to forge an unexpected friendship with Lt. Commander Data, believing that Data was his key to understanding the ways of humanity itself. Following an attack on the Enterprise from a species known as the Calamarain, Q believed that his presence on the ship would ultimately endanger the lives of its crew. In a moment of selfless concern, Q attempted to distance himself from the ship by commandeering a shuttlecraft in order to draw the attention of the Calamarain away from the Enterprise. This altruistic act was enough to convince the Continuum that Q should have his powers returned to him and be welcomed back into the fold.\n\nWhile elated with his readmission into the Continuum, Q could not contain his joy and attempted to treat the Enterprise crew to an impromptu performance from a conjured Mariachi band. While Captain Picard or his crew did not appreciate these celebrations, Q was nonetheless overjoyed to once again find himself omnipotent and immortal. As a parting gift, Q momentarily granted Lt. Commander Data with one of the purest human experiences - the joy of laughter.",
+  "class": "science",
+  "group": "interceptor retaliation squad",
+  "faction": "neutral",
+  "rarity": "rare",
+  "ability_info": {
+    "captain_maneuver": {
+      "name": "Chain of Command",
+      "bonus": "This Officer does not have a Captain's Maneuver. Equipping this Officer as the captain of a ship provides no benefit.",
+      "percentage": true,
+      "value": 0.0
+    },
+    "officer_ability": {
+      "name": "Our Good Fortune",
+      "bonus": "On round start, if placed on a ship with Morale against players, Mariachi Q increases your Isolytic Cascade damage by {value} ({value} at rank {value}) for 3 rounds.",
+      "percentage": true
+    },
+    "below_decks_ability": {
+      "name": "Immortal Again",
+      "bonus": "On round start against players afflicted by Burning, Mariachi Q increases your Apex Barrier by {value} ({value} at rank {value}) for 1 round.\n\nThis ability does not trigger when Tal is assigned to the bridge of your ship.\n\nApex Barrier provides <b>true damage mitigation from all sources after all other bonuses. Every 100 Apex Barrier increases the damage you can take by 1%.",
+      "percentage": false
+    }
+  },
+  "synergy": {
+    "command": 0.0,
+    "engineering": 0.0,
+    "science": 0.0
+  },
+  "traits": [
+    {
+      "name": "Inventor",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 1500
+        },
+        {
+          "level": 2,
+          "trait_xp": 2700
+        },
+        {
+          "level": 3,
+          "trait_xp": 3800
+        }
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Explorer",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 7650
+        },
+        {
+          "level": 2,
+          "trait_xp": 6000
+        },
+        {
+          "level": 3,
+          "trait_xp": 7000
+        },
+        {
+          "level": 4,
+          "trait_xp": 8850
+        }
+      ],
+      "tier": 2
+    }
+  ],
+  "ranks": [
+    {
+      "rank_id": 1,
+      "name": "ENSIGN I",
+      "officer_ability_value": 0.5,
+      "requirements": {
+        "badges": 0,
+        "credits": 0,
+        "others": [],
+        "shards": 38,
+        "xp": 0
+      },
+      "below_deck_ability_value": 7000.0
+    },
+    {
+      "rank_id": 2,
+      "name": "LIEUTENANT JG II",
+      "officer_ability_value": 0.6,
+      "requirements": {
+        "badges": 0,
+        "credits": 0,
+        "others": [],
+        "shards": 55,
+        "xp": 10000
+      },
+      "below_deck_ability_value": 8000.0
+    },
+    {
+      "rank_id": 3,
+      "name": "LIEUTENANT III",
+      "officer_ability_value": 0.75,
+      "requirements": {
+        "badges": 0,
+        "credits": 1100,
+        "others": [],
+        "shards": 115,
+        "xp": 100000
+      },
+      "below_deck_ability_value": 10000.0
+    },
+    {
+      "rank_id": 4,
+      "name": "LT. COMMANDER IV",
+      "officer_ability_value": 0.95,
+      "requirements": {
+        "badges": 1,
+        "credits": 4500,
+        "others": [],
+        "shards": 155,
+        "xp": 250000
+      },
+      "below_deck_ability_value": 12000.0
+    },
+    {
+      "rank_id": 5,
+      "name": "COMMANDER V",
+      "officer_ability_value": 1.2,
+      "requirements": {
+        "badges": 2,
+        "credits": 11500,
+        "others": [],
+        "shards": 225,
+        "xp": 500000
+      },
+      "below_deck_ability_value": 15000.0
+    }
+  ],
+  "img_url": "./assets/mariachi_q.png"
+}

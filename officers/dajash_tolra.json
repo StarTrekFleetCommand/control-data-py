@@ -1,0 +1,174 @@
+{
+  "officer_name": "Dajash Tolra",
+  "description": "When you are the daughter of one of Cardassia\u2019s most important households, certain things are expected of you. You are meant to behave in a certain way, hold yourself to a certain standard, be a credit to your family. Dajash Tolra\u2019s life was mapped out for her before she was born. She was raised to become a good, conscientious wife, and educated to enter the sciences should that path be closed.\n\nBut the life of a dutiful daughter of Cardassia was not the life Dajash wanted for herself, and so she rebelled, choosing instead a life of crime. Fiercely intelligent, she found she had a gift for safecracking, and she used it.\n\nNow she is a fugitive from the Cardassian Empire, on the run after breaking into the wrong Legate\u2019s vaults. Razor sharp, sardonic and sarcastic, she always found it hard to be anything more than a lone agent. Until she joined the crew of the Trill adventurer Masriad Vael, where she uses her unique skills to help her boss liberate some of the galaxy\u2019s rarest and most valuable items from the galaxy\u2019s most undeserving.",
+  "class": "command",
+  "group": "symbiosis",
+  "faction": "neutral",
+  "rarity": "epic",
+  "ability_info": {
+    "captain_maneuver": {
+      "name": "Safe Cracker",
+      "bonus": "Increases base Loot gained from Armadas and Hostiles by {value}",
+      "percentage": true,
+      "value": 0.6
+    },
+    "officer_ability": {
+      "name": "No Locked Doors",
+      "bonus": "{value} ({value} at rank {value}) chance to increase base Weapon Shots by 100% every round against Armadas and Invading Entities for 2 rounds (Cumulative)",
+      "percentage": true
+    },
+    "below_decks_ability": null
+  },
+  "synergy": {
+    "command": 0.2,
+    "engineering": 0.4,
+    "science": 0.4
+  },
+  "traits": [
+    {
+      "name": "Ambitious",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 1500
+        },
+        {
+          "level": 2,
+          "trait_xp": 2700
+        },
+        {
+          "level": 3,
+          "trait_xp": 3800
+        }
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Thief",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 7650
+        },
+        {
+          "level": 2,
+          "trait_xp": 6000
+        },
+        {
+          "level": 3,
+          "trait_xp": 7000
+        },
+        {
+          "level": 4,
+          "trait_xp": 8850
+        }
+      ],
+      "tier": 2
+    },
+    {
+      "name": "Calculated",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 10000
+        },
+        {
+          "level": 2,
+          "trait_xp": 4000
+        },
+        {
+          "level": 3,
+          "trait_xp": 7000
+        },
+        {
+          "level": 4,
+          "trait_xp": 10000
+        },
+        {
+          "level": 5,
+          "trait_xp": 15000
+        },
+        {
+          "level": 6,
+          "trait_xp": 23000
+        },
+        {
+          "level": 7,
+          "trait_xp": 42000
+        },
+        {
+          "level": 8,
+          "trait_xp": 68000
+        },
+        {
+          "level": 9,
+          "trait_xp": 107000
+        }
+      ],
+      "tier": 3
+    }
+  ],
+  "ranks": [
+    {
+      "rank_id": 1,
+      "name": "ENSIGN I",
+      "officer_ability_value": 0.3,
+      "requirements": {
+        "badges": 0,
+        "credits": 0,
+        "others": [],
+        "shards": 100,
+        "xp": 0
+      }
+    },
+    {
+      "rank_id": 2,
+      "name": "LIEUTENANT JG II",
+      "officer_ability_value": 0.4,
+      "requirements": {
+        "badges": 0,
+        "credits": 1100,
+        "others": [],
+        "shards": 100,
+        "xp": 50000
+      }
+    },
+    {
+      "rank_id": 3,
+      "name": "LIEUTENANT III",
+      "officer_ability_value": 0.55,
+      "requirements": {
+        "badges": 1,
+        "credits": 4500,
+        "others": [],
+        "shards": 200,
+        "xp": 500000
+      }
+    },
+    {
+      "rank_id": 4,
+      "name": "LT. COMMANDER IV",
+      "officer_ability_value": 0.75,
+      "requirements": {
+        "badges": 2,
+        "credits": 11500,
+        "others": [],
+        "shards": 300,
+        "xp": 1250000
+      }
+    },
+    {
+      "rank_id": 5,
+      "name": "COMMANDER V",
+      "officer_ability_value": 1.0,
+      "requirements": {
+        "badges": 4,
+        "credits": 25000,
+        "others": [],
+        "shards": 800,
+        "xp": 2500000
+      }
+    }
+  ],
+  "img_url": "./assets/dajash_tolra.png"
+}

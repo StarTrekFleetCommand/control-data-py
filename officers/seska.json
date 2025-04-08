@@ -1,0 +1,183 @@
+{
+  "officer_name": "Seska",
+  "description": "How far would you go to save your own life?\nTrapped thousands of light years from home and faced with a future of endless wandering of the stars, Seska made a decision. She would do what no one else aboard Voyager had the courage to do.\nShe would save her own life.\nSeska betrayed her fellow crew members, acting as a spy for the Cardassians under the promise of an imminent return to Earth. Of course, their promise of salvation was fictitious, but desperate people are willing to believe almost anything.\nSeska proved herself as a cunning, dedicated operative, successfully hiding her true intentions from her crew for some time before she was eventually exposed as a traitor.",
+  "class": "science",
+  "group": "voyager 30th anniversary",
+  "faction": "neutral",
+  "rarity": "epic",
+  "ability_info": {
+    "captain_maneuver": {
+      "name": "Chain of Command",
+      "bonus": "This Officer does not have a Captain's Maneuver. Equipping this Officer as the captain of a ship provides no benefit.",
+      "percentage": true,
+      "value": 0.0
+    },
+    "officer_ability": {
+      "name": "Lone Operative",
+      "bonus": "Restores the Shield Health of your ship every round by {value} ({value} at rank {value}) when fighting hostiles.",
+      "percentage": true
+    },
+    "below_decks_ability": {
+      "name": "Treacherous Ideals",
+      "bonus": "Increases Critical Hit Damage by {value} ({value} at rank {value}) for 4 rounds each time you score a hit (Once per weapon) when fighting hostiles.",
+      "percentage": true
+    }
+  },
+  "synergy": {
+    "command": 0.0,
+    "engineering": 0.0,
+    "science": 0.0
+  },
+  "traits": [
+    {
+      "name": "Charming",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 1500
+        },
+        {
+          "level": 2,
+          "trait_xp": 2700
+        },
+        {
+          "level": 3,
+          "trait_xp": 3800
+        }
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Manipulative",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 7650
+        },
+        {
+          "level": 2,
+          "trait_xp": 6000
+        },
+        {
+          "level": 3,
+          "trait_xp": 7000
+        },
+        {
+          "level": 4,
+          "trait_xp": 8850
+        }
+      ],
+      "tier": 2
+    },
+    {
+      "name": "Thief",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 10000
+        },
+        {
+          "level": 2,
+          "trait_xp": 4000
+        },
+        {
+          "level": 3,
+          "trait_xp": 7000
+        },
+        {
+          "level": 4,
+          "trait_xp": 10000
+        },
+        {
+          "level": 5,
+          "trait_xp": 15000
+        },
+        {
+          "level": 6,
+          "trait_xp": 23000
+        },
+        {
+          "level": 7,
+          "trait_xp": 42000
+        },
+        {
+          "level": 8,
+          "trait_xp": 68000
+        },
+        {
+          "level": 9,
+          "trait_xp": 107000
+        }
+      ],
+      "tier": 3
+    }
+  ],
+  "ranks": [
+    {
+      "rank_id": 1,
+      "name": "ENSIGN I",
+      "officer_ability_value": 0.12,
+      "requirements": {
+        "badges": 0,
+        "credits": 0,
+        "others": [],
+        "shards": 120,
+        "xp": 0
+      },
+      "below_deck_ability_value": 0.12
+    },
+    {
+      "rank_id": 2,
+      "name": "LIEUTENANT JG II",
+      "officer_ability_value": 0.16,
+      "requirements": {
+        "badges": 0,
+        "credits": 1100,
+        "others": [],
+        "shards": 120,
+        "xp": 50000
+      },
+      "below_deck_ability_value": 0.16
+    },
+    {
+      "rank_id": 3,
+      "name": "LIEUTENANT III",
+      "officer_ability_value": 0.2,
+      "requirements": {
+        "badges": 1,
+        "credits": 4500,
+        "others": [],
+        "shards": 240,
+        "xp": 500000
+      },
+      "below_deck_ability_value": 0.22
+    },
+    {
+      "rank_id": 4,
+      "name": "LT. COMMANDER IV",
+      "officer_ability_value": 0.25,
+      "requirements": {
+        "badges": 2,
+        "credits": 11500,
+        "others": [],
+        "shards": 360,
+        "xp": 1250000
+      },
+      "below_deck_ability_value": 0.3
+    },
+    {
+      "rank_id": 5,
+      "name": "COMMANDER V",
+      "officer_ability_value": 0.3,
+      "requirements": {
+        "badges": 4,
+        "credits": 25000,
+        "others": [],
+        "shards": 960,
+        "xp": 2500000
+      },
+      "below_deck_ability_value": 0.4
+    }
+  ],
+  "img_url": "./assets/seska.png"
+}

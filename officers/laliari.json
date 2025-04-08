@@ -1,0 +1,141 @@
+{
+  "officer_name": "Laliari",
+  "description": "Born to a life on the run, Laliari never knew stability, safety, or a home of her own.\nSarris had already came and gone by the time Laliari was old enough to recognize what he had done to her people. Thermia was destroyed, little more than dust on the cosmic winds. She despaired, yet she never lost hope.\nHope that, one day, they would see themselves free of Sarris\u2019 tyranny, that they would have a home once more.\nIn her youthful innocence, she looked upon the historical documents of the NSEA Protector and her crew. Brave men and women, each one a hero in their own right. She was fascinated by them, particularly by their chief engineer, whom she sought to imitate. Watching these documents, she became an astute, brilliantly creative engineer.\nLaliari was instrumental in the development of the NSEA Protector and its eventual deployment against Sarris. Without her knowledge of the ship\u2019s inner workings and her brilliant mind, the mission would surely have been doomed to failure.",
+  "class": "engineering",
+  "group": "galaxy quest",
+  "faction": "neutral",
+  "rarity": "rare",
+  "ability_info": {
+    "captain_maneuver": {
+      "name": "Chain of Command",
+      "bonus": "This Officer does not have a Captain's Maneuver. Equipping this Officer as the captain of a ship provides no benefit.",
+      "percentage": true,
+      "value": 0.0
+    },
+    "officer_ability": {
+      "name": "Omega Efficiency",
+      "bonus": "Laliari decreases the cooldown of the NSEA Protectors Omega-13 Ability by {value} ({value} (8 minutes) at rank {value})",
+      "percentage": true
+    },
+    "below_decks_ability": {
+      "name": "Yalalalala!",
+      "bonus": "Laliari increases the Apex Barrier by {value} ({value} at rank {value}) when in Wave Defense.\n\nApex Barrier provides <b>true damage mitigation from all sources after all other bonuses. Every 100 Apex Barrier increases the damage you can take by 1%.\n\nThis ability does not trigger when Tal is assigned to the bridge of your ship.",
+      "percentage": false
+    }
+  },
+  "synergy": {
+    "command": 0.0,
+    "engineering": 0.0,
+    "science": 0.0
+  },
+  "traits": [
+    {
+      "name": "Engineer",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 1500
+        },
+        {
+          "level": 2,
+          "trait_xp": 2700
+        },
+        {
+          "level": 3,
+          "trait_xp": 3800
+        }
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Resourceful",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 7650
+        },
+        {
+          "level": 2,
+          "trait_xp": 6000
+        },
+        {
+          "level": 3,
+          "trait_xp": 7000
+        },
+        {
+          "level": 4,
+          "trait_xp": 8850
+        }
+      ],
+      "tier": 2
+    }
+  ],
+  "ranks": [
+    {
+      "rank_id": 1,
+      "name": "ENSIGN I",
+      "officer_ability_value": 0.66,
+      "requirements": {
+        "badges": 0,
+        "credits": 0,
+        "others": [],
+        "shards": 38,
+        "xp": 0
+      },
+      "below_deck_ability_value": 1000.0
+    },
+    {
+      "rank_id": 2,
+      "name": "LIEUTENANT JG II",
+      "officer_ability_value": 1.0,
+      "requirements": {
+        "badges": 0,
+        "credits": 0,
+        "others": [],
+        "shards": 55,
+        "xp": 10000
+      },
+      "below_deck_ability_value": 1500.0
+    },
+    {
+      "rank_id": 3,
+      "name": "LIEUTENANT III",
+      "officer_ability_value": 1.5,
+      "requirements": {
+        "badges": 0,
+        "credits": 1100,
+        "others": [],
+        "shards": 115,
+        "xp": 100000
+      },
+      "below_deck_ability_value": 2000.0
+    },
+    {
+      "rank_id": 4,
+      "name": "LT. COMMANDER IV",
+      "officer_ability_value": 2.35,
+      "requirements": {
+        "badges": 1,
+        "credits": 4500,
+        "others": [],
+        "shards": 155,
+        "xp": 250000
+      },
+      "below_deck_ability_value": 2700.0
+    },
+    {
+      "rank_id": 5,
+      "name": "COMMANDER V",
+      "officer_ability_value": 4.0,
+      "requirements": {
+        "badges": 2,
+        "credits": 11500,
+        "others": [],
+        "shards": 225,
+        "xp": 500000
+      },
+      "below_deck_ability_value": 3500.0
+    }
+  ],
+  "img_url": "./assets/laliari.png"
+}

@@ -1,6 +1,6 @@
 {
   "officer_name": "Jonathan Archer",
-  "description": "",
+  "description": "Looking back through the annals of Starfleet history, it's clear to see that the name \"Archer\" has become synonymous with interstellar travel. In the early 22nd century, Dr. Henry Archer worked closely with the renowned Dr. Zefram Cochrane in order to develop the first warp five engine as part of Starfleet's NX Program. Dr. Archer's participation in this program would lead to the development of the Enterprise NX-01 - the first warp-capable starship to bear this distinguished moniker. Although succumbing to the symptoms of advanced Clarke's Disease in 2124, Dr. Archer's work would prove vital in forging humanity's path to the stars and beyond. By eventually stepping up and taking command of Starfleet's first interstellar starship, Jonathan Archer would later choose to navigate this path to the stars in reverence of his father's accomplishments.\n\nDuring his time as captain of the first Enterprise, Archer was responsible for making first-contact with a number of notable species in both the Alpha and Beta Quadrants. As a result of the diligent work of both Archer and his crew, United Earth's reputation among its interstellar neighbors would be lifted, eventually leading to the formation of the United Federation of Planets. With his unbendable faith of the heart and his unbreakable strength of the soul, Archer would inevitably become one of the most revered figures in Federation history.",
   "class": "command",
   "group": "enterprise nx-01",
   "faction": "federation",
@@ -10,19 +10,19 @@
       "name": "Delphic Salvor",
       "bonus": "Increases the amount of resources you get from destroying Xindi hostiles by {value}.",
       "percentage": true,
-      "value": 3
+      "value": 3.0
     },
     "officer_ability": {
       "name": "Faith of the Heart",
-      "bonus": "When you take damage from a hostile or another player, Jonathan Archer increases your Critical Hit damage by {value} ({1:#,#%} at rank {2:#,#}) for 2 rounds. (This ability can stack) (Does not trigger at Armadas or Assaults)\n(Weapons with multiple shots will only trigger this ability once per attack)",
+      "bonus": "When you take damage from a hostile or another player, Jonathan Archer increases your Critical Hit damage by {value} ({value} at rank {value}) for 2 rounds. (This ability can stack) (Does not trigger at Armadas or Assaults)\n(Weapons with multiple shots will only trigger this ability once per attack)",
       "percentage": true
     },
     "below_decks_ability": null
   },
   "synergy": {
     "command": 0.5,
-    "engineering": 1,
-    "science": 1
+    "engineering": 1.0,
+    "science": 1.0
   },
   "traits": [
     {

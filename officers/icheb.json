@@ -1,0 +1,141 @@
+{
+  "officer_name": "Icheb",
+  "description": "What is my purpose?\nMost will ask that question, some will spend their entire lives trying to find the answer. How would it feel, then, to discover that your purpose, your reason for existing at all, was one of destruction?\nIcheb was born to the Brunali homeworld, on the mouth of a Borg transwarp conduit. Their proximity to the Borg left their world in tatters, any and all technology acting as a beacon for the terrifying entities from beyond the conduit.\nDesperate for a way to stop the Borg, a skilled geneticist created a pathogen capable of rapidly spreading through a Borg Cube, destroying any and all Drones it came into contact with. However, the pathogen needed a delivery mechanism... It needed a patient zero.\nAnd so, Icheb was born. A mere child when he was sent to the Borg, Icheb had no idea as to his true origins.\nAfter the pathogen ravaged its way through the Borg cube, Icheb was rescued by the USS Voyager. The Doctor was able to successfully re-integrate the young man into the crew of the ship.\nIcheb quickly proved himself as an intelligent, skilled, and highly empathetic young officer and endeared himself to the rest of the crew. He formed a strong relationship with Seven of Nine especially, the two of them bonding over their shared experience with the Borg.\nUpon their return to Earth, Icheb followed in the footsteps of his rescuers and joined the Starfleet Academy. He rose through the ranks quickly, eventually being assigned to the USS Coleman as a Lieutenant.\nOne day, while taking his position at the bridge, Icheb took stock of where his life had taken him. His parents had created him as a weapon, a mere tool in their mad quest to destroy the Borg.\nHe smiled as he adjusted his Starfleet uniform.\n\u201cWhat is my purpose?\u201d he whispered.\n\u201cTo boldly go, where no-one has gone before.\u201d",
+  "class": "engineering",
+  "group": "\u21e5 retaliation squad",
+  "faction": "neutral",
+  "rarity": "rare",
+  "ability_info": {
+    "captain_maneuver": {
+      "name": "Chain of Command",
+      "bonus": "This Officer does not have a Captain's Maneuver. Equipping this Officer as the captain of a ship provides no benefit.",
+      "percentage": true,
+      "value": 0.0
+    },
+    "officer_ability": {
+      "name": "Protective Instinct",
+      "bonus": "Against players with Hull Breach, Icheb increases your Apex Barrier by {value} ({value} at rank {value}) for 4 rounds each time you score a hit (Once per weapon)(Cumulative).\n\nApex Barrier provides <b>true damage mitigation from all sources after all other bonuses. Every 100 Apex Barrier increases the damage you can take by 1%.\n\nThis ability does not trigger when Tal is assigned to the bridge of your ship.",
+      "percentage": false
+    },
+    "below_decks_ability": {
+      "name": "Purity of Will",
+      "bonus": "On round start against players, if on a ship with no State applied Icheb increases your Isolytic Cascade damage by {value} ({value} at rank {value}) for 3 rounds (Cumulative).\n\nIsolytic Cascade multiplies your total damage, including Isolytic Damage, and all research and other bonuses.",
+      "percentage": true
+    }
+  },
+  "synergy": {
+    "command": 0.0,
+    "engineering": 0.0,
+    "science": 0.0
+  },
+  "traits": [
+    {
+      "name": "Assimilated",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 1500
+        },
+        {
+          "level": 2,
+          "trait_xp": 2700
+        },
+        {
+          "level": 3,
+          "trait_xp": 3800
+        }
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Dedicated",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 7650
+        },
+        {
+          "level": 2,
+          "trait_xp": 6000
+        },
+        {
+          "level": 3,
+          "trait_xp": 7000
+        },
+        {
+          "level": 4,
+          "trait_xp": 8850
+        }
+      ],
+      "tier": 2
+    }
+  ],
+  "ranks": [
+    {
+      "rank_id": 1,
+      "name": "ENSIGN I",
+      "officer_ability_value": 5500.0,
+      "requirements": {
+        "badges": 0,
+        "credits": 0,
+        "others": [],
+        "shards": 38,
+        "xp": 0
+      },
+      "below_deck_ability_value": 0.7
+    },
+    {
+      "rank_id": 2,
+      "name": "LIEUTENANT JG II",
+      "officer_ability_value": 6500.0,
+      "requirements": {
+        "badges": 0,
+        "credits": 0,
+        "others": [],
+        "shards": 55,
+        "xp": 10000
+      },
+      "below_deck_ability_value": 0.8
+    },
+    {
+      "rank_id": 3,
+      "name": "LIEUTENANT III",
+      "officer_ability_value": 8000.0,
+      "requirements": {
+        "badges": 0,
+        "credits": 1100,
+        "others": [],
+        "shards": 115,
+        "xp": 100000
+      },
+      "below_deck_ability_value": 0.95
+    },
+    {
+      "rank_id": 4,
+      "name": "LT. COMMANDER IV",
+      "officer_ability_value": 10000.0,
+      "requirements": {
+        "badges": 1,
+        "credits": 4500,
+        "others": [],
+        "shards": 155,
+        "xp": 250000
+      },
+      "below_deck_ability_value": 1.15
+    },
+    {
+      "rank_id": 5,
+      "name": "COMMANDER V",
+      "officer_ability_value": 12500.0,
+      "requirements": {
+        "badges": 2,
+        "credits": 11500,
+        "others": [],
+        "shards": 225,
+        "xp": 500000
+      },
+      "below_deck_ability_value": 1.4
+    }
+  ],
+  "img_url": "./assets/icheb.png"
+}

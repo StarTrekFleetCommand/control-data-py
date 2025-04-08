@@ -1,6 +1,6 @@
 {
   "officer_name": "Lieutenant Picard",
-  "description": "",
+  "description": "Life is a great tapestry. One\u2019s actions and decisions can change the course of the future and define their present self, with all the successes and mistakes those decisions entail. In the year 2373, Jean-Luc Picard found himself in a fight with a Nausicaan thug, who stabbed him in the chest. This critical injury gifted Picard with an artificial heart, which accompanied the Captain on many adventures until it was compromised in a fight with the Lenarians. Picard suffered a heart attack, and when he regained his conscience, Q visited him in an apparent \u201cafterlife\u201d and offered a second chance: the option to return to the past and prevent the Nausicaan from taking that fateful strike.\nEager to fix this mistake, Picard sacrificed his friendships and self-respect to prevent the brawl with the Nausicaan, only to discover that by saving himself, he lost everything else in the process. As an aftermath, the alternate future held nothing but a mediocre and dreary life of a Lieutenant, an assistant astrophysics officer far from any action or achievements. All the challenges and adventures, hardships and victories were left behind with that brawl as if none of it had ever happened. In an attempt to reclaim the life he cherished, Jean-Luc convinced Q to return him to that exact moment when he sacrificed his heart for friends - and he sacrificed it again, only to regain a life worth living, even if it was to be a brief one. However, with luck on his side, Picard survived.\nIn his short time as a Lieutenant, Jean-Luc has come to respect the fragility of life and how his past injury was a consequence of his devotion to his loved ones. Picard\u2019s life is a tapestry of many things, and mistakes are part of it, no matter how grave or shameful.",
   "class": "science",
   "group": "next gen",
   "faction": "federation",
@@ -8,21 +8,21 @@
   "ability_info": {
     "captain_maneuver": {
       "name": "Test That Assumption",
-      "bonus": "Works against Hostiles of level 35 and under. \n\nThis ability does not trigger when Tal is assigned to the bridge of your ship.\n\nApex Barrier provides <b>true damage mitigation</b> from all sources after all other bonuses. Every 100 Apex Barrier increases the damage you can take by 1%.\n\nWith full <b>Synergy</b>, Lieutenant Picard provides 11,000 Apex Barrier which reduces the incoming damage by 55%.",
+      "bonus": "Lieutenant Picard increases your Apex Barrier by {value} vs non-Armada hostiles.Apex Barrier provides <b>true damage mitigation from all sources after all other bonuses. Every 100 Apex Barrier increases the damage you can take by 1%.\n\nWith full <b>Synergy, Lieutenant Picard provides 11,000 Apex Barrier which reduces the incoming damage by 55%.\n\nWorks against Hostiles of level 35 and under.\n\nThis ability does not trigger when Tal is assigned to the bridge of your ship.",
       "percentage": false,
-      "value": 4000
+      "value": 4000.0
     },
     "officer_ability": {
       "name": "Always a Light",
-      "bonus": "",
+      "bonus": "+{value} to the Shield Health",
       "percentage": true
     },
     "below_decks_ability": null
   },
   "synergy": {
-    "command": 3500,
-    "engineering": 3500,
-    "science": 1000
+    "command": 3500.0,
+    "engineering": 3500.0,
+    "science": 1000.0
   },
   "traits": [
     {
@@ -70,7 +70,7 @@
     {
       "rank_id": 1,
       "name": "ENSIGN I",
-      "officer_ability_value": 0.05,
+      "officer_ability_value": 0.1,
       "requirements": {
         "badges": 0,
         "credits": 0,
@@ -82,7 +82,7 @@
     {
       "rank_id": 2,
       "name": "LIEUTENANT JG II",
-      "officer_ability_value": 0.07,
+      "officer_ability_value": 0.14,
       "requirements": {
         "badges": 0,
         "credits": 0,
@@ -94,7 +94,7 @@
     {
       "rank_id": 3,
       "name": "LIEUTENANT III",
-      "officer_ability_value": 0.09,
+      "officer_ability_value": 0.18,
       "requirements": {
         "badges": 0,
         "credits": 5200,
@@ -106,7 +106,7 @@
     {
       "rank_id": 4,
       "name": "LT. COMMANDER IV",
-      "officer_ability_value": 0.11,
+      "officer_ability_value": 0.22,
       "requirements": {
         "badges": 1,
         "credits": 21400,
@@ -118,7 +118,7 @@
     {
       "rank_id": 5,
       "name": "COMMANDER V",
-      "officer_ability_value": 0.14,
+      "officer_ability_value": 0.28,
       "requirements": {
         "badges": 2,
         "credits": 54600,

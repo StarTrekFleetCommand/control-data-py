@@ -1,0 +1,141 @@
+{
+  "officer_name": "Sir Alexander Dane",
+  "description": "Is it better for a career to burn hot and die out fast? Is your legacy more secure if you bow out while the value of your name is high? Is it possible for a legend to become a laughing stock?\nIf you were to ask Sir Alexander Dane these questions, he would likely give you one answer: \u201cPiss off.\u201d\nEasily the most experienced cast member of the hit television series, Galaxy Quest, Sir Alexander is a stage actor by trade. Having played Richard the Third, Laertes, and King Duncan at various times on the West End, his name was synonymous with class, prestige, and quality.\nHowever, after having been convinced by his agent that a quick stint on a small, low-budget, science-fiction television series would be an easy paycheck, Dane quickly found that the luster of his career had dulled.\nHis portrayal of Dr. Lazarus was popular, far too popular. Dane\u2019s face became entangled with the character, so much so that it defined the remainder of his career as an actor. This \u201cdisgrace\u201d, in his eyes, led to Dane becoming embittered and cynical, especially toward his \u201cscene-stealing hack\u201d of a co-star, Jason Nesmith.\nHowever, during their fight against Sarris, Dane\u2019s cynical heart was warmed by the loyalty and ingenuity of the Thermians, and he finally accepted his role as the kind, brave Dr. Lazarus. When he and his newfound friends returned to Earth, he enthusiastically agreed to return with the rest of the cast in the sequel series, Galaxy Quest: The Journey Continues.",
+  "class": "science",
+  "group": "galaxy quest",
+  "faction": "neutral",
+  "rarity": "rare",
+  "ability_info": {
+    "captain_maneuver": {
+      "name": "Chain of Command",
+      "bonus": "This Officer does not have a Captain's Maneuver. Equipping this Officer as the captain of a ship provides no benefit.",
+      "percentage": true,
+      "value": 0.0
+    },
+    "officer_ability": {
+      "name": "By Grabthar's Hammer",
+      "bonus": "Alexander Dane increases the amount of loot gained from defeating Mirror Universe Hostiles by {value} ({value} at rank {value}) when assigned to the NSEA Protector",
+      "percentage": true
+    },
+    "below_decks_ability": {
+      "name": "By the Suns of Warvan",
+      "bonus": "Alexander Dane Increases your ship's base Impulse Speed by {value} ({value} at rank {value}).",
+      "percentage": false
+    }
+  },
+  "synergy": {
+    "command": 0.0,
+    "engineering": 0.0,
+    "science": 0.0
+  },
+  "traits": [
+    {
+      "name": "Cautious",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 1500
+        },
+        {
+          "level": 2,
+          "trait_xp": 2700
+        },
+        {
+          "level": 3,
+          "trait_xp": 3800
+        }
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Doctor",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 7650
+        },
+        {
+          "level": 2,
+          "trait_xp": 6000
+        },
+        {
+          "level": 3,
+          "trait_xp": 7000
+        },
+        {
+          "level": 4,
+          "trait_xp": 8850
+        }
+      ],
+      "tier": 2
+    }
+  ],
+  "ranks": [
+    {
+      "rank_id": 1,
+      "name": "ENSIGN I",
+      "officer_ability_value": 1.0,
+      "requirements": {
+        "badges": 0,
+        "credits": 0,
+        "others": [],
+        "shards": 38,
+        "xp": 0
+      },
+      "below_deck_ability_value": 20.0
+    },
+    {
+      "rank_id": 2,
+      "name": "LIEUTENANT JG II",
+      "officer_ability_value": 1.2,
+      "requirements": {
+        "badges": 0,
+        "credits": 0,
+        "others": [],
+        "shards": 55,
+        "xp": 10000
+      },
+      "below_deck_ability_value": 25.0
+    },
+    {
+      "rank_id": 3,
+      "name": "LIEUTENANT III",
+      "officer_ability_value": 1.4,
+      "requirements": {
+        "badges": 0,
+        "credits": 1100,
+        "others": [],
+        "shards": 115,
+        "xp": 100000
+      },
+      "below_deck_ability_value": 35.0
+    },
+    {
+      "rank_id": 4,
+      "name": "LT. COMMANDER IV",
+      "officer_ability_value": 1.6,
+      "requirements": {
+        "badges": 1,
+        "credits": 4500,
+        "others": [],
+        "shards": 155,
+        "xp": 250000
+      },
+      "below_deck_ability_value": 45.0
+    },
+    {
+      "rank_id": 5,
+      "name": "COMMANDER V",
+      "officer_ability_value": 2.0,
+      "requirements": {
+        "badges": 2,
+        "credits": 11500,
+        "others": [],
+        "shards": 225,
+        "xp": 500000
+      },
+      "below_deck_ability_value": 60.0
+    }
+  ],
+  "img_url": "./assets/sir_alexander_dane.png"
+}

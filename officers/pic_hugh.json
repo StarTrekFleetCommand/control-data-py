@@ -1,6 +1,6 @@
 {
   "officer_name": "PIC Hugh",
-  "description": "",
+  "description": "Life as a Borg drone is long gone for Hugh, but his scars will never heal. Losing a connection to the Collective is not an easy feat. While some manage to recover from this experience, for others, this process and the resulting struggles will hardly ever end. Knowing just how challenging reclaiming one's own life could be, it's no wonder that Hugh, one of the first drones to gain self-consciousness, received the executive director position of the Borg Reclamation Project. With his help, numerous Ex-Borgs gained hope and found support in a world where their kind is treated like hazardous waste or an inanimate workforce.\n\nIf there were one word to describe Hugh, it would be loyalty: loyalty to the cause and his friends. During his work at the Borg Reclamation Project, he stood by his fellow Ex-Borgs, protecting them from the opportunistic and ruthless Romulans, and by Captain Picard when he required help in saving the universe once again. Such selflessness doesn't always end well, but in Hugh's case, it means no Ex-Borg will be left behind, and as long as his kind has hopes of a better tomorrow, he will keep fighting for it.",
   "class": "engineering",
   "group": "ex-borg",
   "faction": "ex-borg",
@@ -10,23 +10,23 @@
       "name": "Chain of Command",
       "bonus": "This Officer does not have a Captain's Maneuver. Equipping this Officer as the captain of a ship provides no benefit.",
       "percentage": true,
-      "value": 0
+      "value": 0.0
     },
     "officer_ability": {
       "name": "Plan For The Future",
-      "bonus": "Increase the amount of raw Ore, Crystal and Gas collected while mining with any ship by an extra {value} ({1:#,#%} at rank {2:#,#}), without draining the mining node faster.",
+      "bonus": "Increase the amount of raw Ore, Crystal and Gas collected while mining with any ship by an extra {value} ({value} at rank {value}), without draining the mining node faster.",
       "percentage": true
     },
     "below_decks_ability": {
       "name": "Reclaiming Lives",
-      "bonus": "At the beginning of each round of combat Hugh repairs {value} ({1:#,#%} at rank {2:#,#}) of hull damage taken in the previous round of combat.",
+      "bonus": "At the beginning of each round of combat Hugh repairs {value} ({value} at rank {value}) of hull damage taken in the previous round of combat.",
       "percentage": true
     }
   },
   "synergy": {
-    "command": 0,
-    "engineering": 0,
-    "science": 0
+    "command": 0.0,
+    "engineering": 0.0,
+    "science": 0.0
   },
   "traits": [
     {
@@ -124,9 +124,7 @@
         "shards": 120,
         "xp": 0
       },
-      "below_deck_ability_value": [
-        0.05
-      ]
+      "below_deck_ability_value": 0.05
     },
     {
       "rank_id": 2,
@@ -137,16 +135,14 @@
         "credits": 0,
         "others": [
           {
-            "name": "Epic Ex-Borg Credits",
+            "name": "epic ex-borg credits",
             "value": 5000
           }
         ],
         "shards": 120,
         "xp": 50000
       },
-      "below_deck_ability_value": [
-        0.1
-      ]
+      "below_deck_ability_value": 0.1
     },
     {
       "rank_id": 3,
@@ -157,16 +153,14 @@
         "credits": 0,
         "others": [
           {
-            "name": "Epic Ex-Borg Credits",
+            "name": "epic ex-borg credits",
             "value": 10500
           }
         ],
         "shards": 240,
         "xp": 500000
       },
-      "below_deck_ability_value": [
-        0.15
-      ]
+      "below_deck_ability_value": 0.15
     },
     {
       "rank_id": 4,
@@ -177,16 +171,14 @@
         "credits": 0,
         "others": [
           {
-            "name": "Epic Ex-Borg Credits",
+            "name": "epic ex-borg credits",
             "value": 17000
           }
         ],
         "shards": 360,
         "xp": 1250000
       },
-      "below_deck_ability_value": [
-        0.2
-      ]
+      "below_deck_ability_value": 0.2
     },
     {
       "rank_id": 5,
@@ -197,16 +189,14 @@
         "credits": 0,
         "others": [
           {
-            "name": "Epic Ex-Borg Credits",
+            "name": "epic ex-borg credits",
             "value": 35000
           }
         ],
         "shards": 960,
         "xp": 2500000
       },
-      "below_deck_ability_value": [
-        0.35
-      ]
+      "below_deck_ability_value": 0.35
     }
   ],
   "img_url": "./assets/pic_hugh.png"

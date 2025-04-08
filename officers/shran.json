@@ -1,6 +1,6 @@
 {
   "officer_name": "Shran",
-  "description": "",
+  "description": "For as many allies that were encountered by the Enterprise NX-01 during its time in active service, there were just as many foes. None walked the line between the two quite like Commander Thy'lek Shran of the Andorian Imperial Guard. Although Shran would cross paths with Archer and the NX-01 crew on numerous occasions, they would often find the strength to overcome their differences in the face of shared adversities. Through these trials, Archer and Shran would frequently find themselves indebted to one another - a tenuous link that would ensure neither party would seek to betray the other. While unapproachable and standoffish on the surface, Shran was ultimately an advocate for peaceful relations between Andorians and Humans.\n\nAs Commander of the warship Kumari, Shran was eager to oppose any and all threats to the prosperity of the Andorian people. Following the destruction of the Kumari at the hands of the Romulans, Shran would take a leave of absence. During this time, he became a husband and father, turning his back on the Imperial Guard in the process. However, following a number of questionable dealings with unscrupulous business partners, Shran was forced to reconnect with the Imperial Guard in order to go into hiding and protect his family. Although its members may hide at times, the Andorian Mining Consortium runs from no one - Shran would eventually return to active service as a general of the Imperial Guard in the early 2160's.",
   "class": "engineering",
   "group": "enterprise nx-01",
   "faction": "federation",
@@ -10,23 +10,23 @@
       "name": "Chain of Command",
       "bonus": "This Officer does not have a Captain's Maneuver. Equipping this Officer as the captain of a ship provides no benefit.",
       "percentage": true,
-      "value": 0
+      "value": 0.0
     },
     "officer_ability": {
       "name": "Run From No One",
-      "bonus": "Shran increases base Warp Speed by {value} ({1:#,#%} at rank {2:#,#}).",
+      "bonus": "Shran increases base Warp Speed by {value} ({value} at rank {value}).",
       "percentage": true
     },
     "below_decks_ability": {
       "name": "Andorian Mining Consortium",
-      "bonus": "Shran increases Crystal mining speed by {value} ({1:#,#%} at rank {2:#,#}) of base.",
+      "bonus": "Shran increases Crystal mining speed by {value} ({value} at rank {value}) of base.",
       "percentage": true
     }
   },
   "synergy": {
-    "command": 0,
-    "engineering": 0,
-    "science": 0
+    "command": 0.0,
+    "engineering": 0.0,
+    "science": 0.0
   },
   "traits": [
     {
@@ -82,9 +82,7 @@
         "shards": 38,
         "xp": 0
       },
-      "below_deck_ability_value": [
-        0.5
-      ]
+      "below_deck_ability_value": 0.5
     },
     {
       "rank_id": 2,
@@ -97,9 +95,7 @@
         "shards": 55,
         "xp": 10000
       },
-      "below_deck_ability_value": [
-        1
-      ]
+      "below_deck_ability_value": 1.0
     },
     {
       "rank_id": 3,
@@ -112,9 +108,7 @@
         "shards": 115,
         "xp": 100000
       },
-      "below_deck_ability_value": [
-        2
-      ]
+      "below_deck_ability_value": 2.0
     },
     {
       "rank_id": 4,
@@ -127,14 +121,12 @@
         "shards": 155,
         "xp": 250000
       },
-      "below_deck_ability_value": [
-        3
-      ]
+      "below_deck_ability_value": 3.0
     },
     {
       "rank_id": 5,
       "name": "COMMANDER V",
-      "officer_ability_value": 2,
+      "officer_ability_value": 2.0,
       "requirements": {
         "badges": 2,
         "credits": 11500,
@@ -142,9 +134,7 @@
         "shards": 225,
         "xp": 500000
       },
-      "below_deck_ability_value": [
-        5
-      ]
+      "below_deck_ability_value": 5.0
     }
   ],
   "img_url": "./assets/shran.png"

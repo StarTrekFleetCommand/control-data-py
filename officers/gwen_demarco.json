@@ -1,0 +1,183 @@
+{
+  "officer_name": "Gwen DeMarco",
+  "description": "The term \u201cunsung hero\u201d is thrown around a lot in Hollywood. However, nobody is more deserving of that moniker than Gwen DeMarco.\nPossibly the most enthusiastic member of the original Galaxy Quest cast, Gwen had thrown everything behind the character of Lieutenant Tawny Madison. Despite her character being horribly mismanaged by the misogynistic writers of the time, Gwen never let it stop her from being the best version of herself she could be. She truly lived by the old saying, \u201cno role is too small.\u201d\nUnlike most of the other cast members, Gwen would go on to maintain a fantastic relationship with the fans of the show. Where her cast-mates mocked the enthusiastic, die-hard viewers, or otherwise viewed them as little more than cash-cows, Gwen went out of her way to treat the fans with kindness and gratitude, aware that her career was built on their devotion.\nDuring the Protector crew\u2019s ill-fated space adventure, DeMarco proved to be a sharp, quick-witted bridge officer, throwing herself into life-threatening situations to save her friends. Along with Nesmith, she was able to brave the Chompers and activate the Omega-13 device, bringing about Sarris\u2019 destruction.",
+  "class": "science",
+  "group": "galaxy quest",
+  "faction": "neutral",
+  "rarity": "epic",
+  "ability_info": {
+    "captain_maneuver": {
+      "name": "Chain of Command",
+      "bonus": "This Officer does not have a Captain's Maneuver. Equipping this Officer as the captain of a ship provides no benefit.",
+      "percentage": true,
+      "value": 0.0
+    },
+    "officer_ability": {
+      "name": "I Have One Job!",
+      "bonus": "Gwen DeMarco increases Isolytic Cascade damage against Armadas and Invading Entities by {value} ({value} at rank {value}) \n\nIsolytic Cascade multiplies your total damage, including Isolytic Damage, and all research and other bonuses.",
+      "percentage": true
+    },
+    "below_decks_ability": {
+      "name": "Hold, Please",
+      "bonus": "Gwen DeMarco Increases Isolytic Cascade Damage in PvP when the enemy player has any state by {value} ({value} at rank {value})\n\nIsolytic Cascade multiplies your total damage, including Isolytic Damage, and all research and other bonuses.",
+      "percentage": true
+    }
+  },
+  "synergy": {
+    "command": 0.0,
+    "engineering": 0.0,
+    "science": 0.0
+  },
+  "traits": [
+    {
+      "name": "Resourceful",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 1500
+        },
+        {
+          "level": 2,
+          "trait_xp": 2700
+        },
+        {
+          "level": 3,
+          "trait_xp": 3800
+        }
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Empathic",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 7650
+        },
+        {
+          "level": 2,
+          "trait_xp": 6000
+        },
+        {
+          "level": 3,
+          "trait_xp": 7000
+        },
+        {
+          "level": 4,
+          "trait_xp": 8850
+        }
+      ],
+      "tier": 2
+    },
+    {
+      "name": "Dedicated",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 10000
+        },
+        {
+          "level": 2,
+          "trait_xp": 4000
+        },
+        {
+          "level": 3,
+          "trait_xp": 7000
+        },
+        {
+          "level": 4,
+          "trait_xp": 10000
+        },
+        {
+          "level": 5,
+          "trait_xp": 15000
+        },
+        {
+          "level": 6,
+          "trait_xp": 23000
+        },
+        {
+          "level": 7,
+          "trait_xp": 42000
+        },
+        {
+          "level": 8,
+          "trait_xp": 68000
+        },
+        {
+          "level": 9,
+          "trait_xp": 107000
+        }
+      ],
+      "tier": 3
+    }
+  ],
+  "ranks": [
+    {
+      "rank_id": 1,
+      "name": "ENSIGN I",
+      "officer_ability_value": 0.7,
+      "requirements": {
+        "badges": 0,
+        "credits": 0,
+        "others": [],
+        "shards": 120,
+        "xp": 0
+      },
+      "below_deck_ability_value": 0.3
+    },
+    {
+      "rank_id": 2,
+      "name": "LIEUTENANT JG II",
+      "officer_ability_value": 0.9,
+      "requirements": {
+        "badges": 0,
+        "credits": 1100,
+        "others": [],
+        "shards": 120,
+        "xp": 50000
+      },
+      "below_deck_ability_value": 0.4
+    },
+    {
+      "rank_id": 3,
+      "name": "LIEUTENANT III",
+      "officer_ability_value": 1.1,
+      "requirements": {
+        "badges": 1,
+        "credits": 4500,
+        "others": [],
+        "shards": 240,
+        "xp": 500000
+      },
+      "below_deck_ability_value": 0.5
+    },
+    {
+      "rank_id": 4,
+      "name": "LT. COMMANDER IV",
+      "officer_ability_value": 1.3,
+      "requirements": {
+        "badges": 2,
+        "credits": 11500,
+        "others": [],
+        "shards": 320,
+        "xp": 1250000
+      },
+      "below_deck_ability_value": 0.65
+    },
+    {
+      "rank_id": 5,
+      "name": "COMMANDER V",
+      "officer_ability_value": 1.5,
+      "requirements": {
+        "badges": 4,
+        "credits": 25000,
+        "others": [],
+        "shards": 950,
+        "xp": 2500000
+      },
+      "below_deck_ability_value": 0.8
+    }
+  ],
+  "img_url": "./assets/gwen_demarco.png"
+}

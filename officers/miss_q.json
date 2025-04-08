@@ -1,0 +1,141 @@
+{
+  "officer_name": "Miss Q",
+  "description": "Although the Q were comprised of omnipotent and all-powerful, immortal beings, they were not immune to the trappings of love and relationships. For more than four billion years, Miss Q was involved in an intimate, \u201ceternal\u201d relationship with the Q that so infamously tormented Jean-Luc Picard and other Starfleet captains over the years. When civil war erupted among the Q Continuum in the year 2373, Q chose Captain Kathyrn Janeway of the USS Voyager as the intended mother of his child. His intentions were for Captain Janeway to give birth to a Q/human hybrid who would encompass the positive qualities of both species. This master plan hinged on the hope that the child would be regarded as a messiah among the Q, uniting the conflicting parties and putting an end to their civil war in the process. This elaborate scheme was the final straw for Miss Q, who would hunt down her adulterous partner in an attempt to avoid polluting the Q Continuum with human DNA.\n\nRefusing to mate with him, Captain Janeway rejected her role in Q\u2019s plan. Instead, Janeway chose a more direct approach, and attempted to personally broker a ceasefire with one Colonel Q. However, while this leader agreed that a ceasefire was necessary, he believed that the only way to achieve such peace was to execute Q and Janeway. Before this could come to pass, a rescue party composed of Voyager crew were able to liberate the soon-to-be executed prisoners, with Miss Q among the rescue party. Her participation in this operation reinvigorated Q\u2019s romantic feelings towards his old flame. Subsequently, Q would instead offer to father a child with his estranged partner in the hopes that the birth of the first new Q in over ten millenia would put an end to the civil war.\n\nWhile the birth of Q Junior indeed contributed to the ceasefire, both parents would find themselves responsible for the upbringing of a boisterous and difficult child. Parentage of Q Junior would prove to be too much for Miss Q, who would eventually disown the boy and entrust his father with sole guardianship. However, Q would, in theory, not be entirely alone in this endeavor following the appointment of Captain Janeway as the child\u2019s godmother. Perhaps knowing that her son was in good hands made the decision for Miss Q to leave all the easier...",
+  "class": "engineering",
+  "group": "explorer retaliation squad",
+  "faction": "neutral",
+  "rarity": "rare",
+  "ability_info": {
+    "captain_maneuver": {
+      "name": "Chain of Command",
+      "bonus": "This Officer does not have a Captain's Maneuver. Equipping this Officer as the captain of a ship provides no benefit.",
+      "percentage": true,
+      "value": 0.0
+    },
+    "officer_ability": {
+      "name": "An Old Flame",
+      "bonus": "On round start against players afflicted by Burning, Miss Q increases your Isolytic Cascade damage by {value} ({value} at rank {value}) for 3 rounds.",
+      "percentage": true
+    },
+    "below_decks_ability": {
+      "name": "Remodulate the Shields!",
+      "bonus": "On round start, if placed on a ship with Morale against players, Miss Q increases your Apex Barrier by {value} ({value} at rank {value}) for 1 round.\n\nThis ability does not trigger when Tal is assigned to the bridge of your ship.\n\nApex Barrier provides <b>true damage mitigation from all sources after all other bonuses. Every 100 Apex Barrier increases the damage you can take by 1%.",
+      "percentage": false
+    }
+  },
+  "synergy": {
+    "command": 0.0,
+    "engineering": 0.0,
+    "science": 0.0
+  },
+  "traits": [
+    {
+      "name": "Resourceful",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 1500
+        },
+        {
+          "level": 2,
+          "trait_xp": 2700
+        },
+        {
+          "level": 3,
+          "trait_xp": 3800
+        }
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Charismatic",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 7650
+        },
+        {
+          "level": 2,
+          "trait_xp": 6000
+        },
+        {
+          "level": 3,
+          "trait_xp": 7000
+        },
+        {
+          "level": 4,
+          "trait_xp": 8850
+        }
+      ],
+      "tier": 2
+    }
+  ],
+  "ranks": [
+    {
+      "rank_id": 1,
+      "name": "ENSIGN I",
+      "officer_ability_value": 0.5,
+      "requirements": {
+        "badges": 0,
+        "credits": 0,
+        "others": [],
+        "shards": 38,
+        "xp": 0
+      },
+      "below_deck_ability_value": 7000.0
+    },
+    {
+      "rank_id": 2,
+      "name": "LIEUTENANT JG II",
+      "officer_ability_value": 0.6,
+      "requirements": {
+        "badges": 0,
+        "credits": 0,
+        "others": [],
+        "shards": 55,
+        "xp": 10000
+      },
+      "below_deck_ability_value": 8000.0
+    },
+    {
+      "rank_id": 3,
+      "name": "LIEUTENANT III",
+      "officer_ability_value": 0.75,
+      "requirements": {
+        "badges": 0,
+        "credits": 1100,
+        "others": [],
+        "shards": 115,
+        "xp": 100000
+      },
+      "below_deck_ability_value": 10000.0
+    },
+    {
+      "rank_id": 4,
+      "name": "LT. COMMANDER IV",
+      "officer_ability_value": 0.95,
+      "requirements": {
+        "badges": 1,
+        "credits": 4500,
+        "others": [],
+        "shards": 155,
+        "xp": 250000
+      },
+      "below_deck_ability_value": 12000.0
+    },
+    {
+      "rank_id": 5,
+      "name": "COMMANDER V",
+      "officer_ability_value": 1.2,
+      "requirements": {
+        "badges": 2,
+        "credits": 11500,
+        "others": [],
+        "shards": 225,
+        "xp": 500000
+      },
+      "below_deck_ability_value": 15000.0
+    }
+  ],
+  "img_url": "./assets/miss_q.png"
+}
