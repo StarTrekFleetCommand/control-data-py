@@ -1,0 +1,141 @@
+{
+  "officer_name": "Alok Sahar",
+  "description": "Alok Sahar believes that the past always catches up with anyone running from it - and he has been trying to escape his own for centuries. His transformation into an Augment happened against his wishes: Giri the Marked, an Augment, slaughtered his family but spared Alok, only to later transform him into one of her own. Alok became an unwilling part of the Augment ranks and wreaked havoc on Earth during the Eugenics Wars. However, when the Augments lost the war, Alok was exiled into stasis along with his newfound Augment brethren. Centuries passed before he saw the light of day again, and it was Section 31 that brought him back. Yet, there is always a price to be paid for redemption of this magnitude. Alok\u2019s price was to atone for his sins by doing the Federation\u2019s dirty work.\nInhumanely strong, agile, and intelligent, Alok Sahar is the perfect secret agent material, capable of completing any assigned task, no matter the challenge it may present. Control assigned him to lead the Alpha Team to find Philippa Georgiou and seek her help in stopping a mysterious weapon from getting into the wrong hands. Their mission saved the Prime Universe from overwhelming destruction by the Godsend and the Terran Empire invasion, but it also liberated Alok from his past, as he found someone who could understand him like nobody else - Georgiou. He was ready to accompany her in the sacrifice to destroy the Crescent Nebula, which was concealing a portal to the Mirror Universe. However, Lieutenant Rachel Garrett and Quasi managed to save them at the last second, giving both a chance for a new life. The worries of their past had instead been replaced with hopes for their future.",
+  "class": "command",
+  "group": "section 31",
+  "faction": "section 31",
+  "rarity": "rare",
+  "ability_info": {
+    "captain_maneuver": {
+      "name": "Chain of Command",
+      "bonus": "This Officer does not have a Captain's Maneuver. Equipping this Officer as the captain of a ship provides no benefit.",
+      "percentage": true,
+      "value": 0.0
+    },
+    "officer_ability": {
+      "name": "Past Always Catches Up",
+      "bonus": "Increases Apex Shred against players by {value} ({value} at rank {value}) when assigned to the GS-31.\n\nApex Barrier remaining after Apex Shred is equal to:\nApex Barrier / (100% + Apex Shred).\n\n100% Apex Shred reduces Apex Barrier by 50%.",
+      "percentage": true
+    },
+    "below_decks_ability": {
+      "name": "Augment's Sagacity",
+      "bonus": "Increases Apex Barrier against Explorer hostiles by {value} ({value} at rank {value}).\n\nThis ability does not trigger when Tal is assigned to the bridge of your ship.\n\nApex Barrier provides <b>true damage mitigation from all sources after all other bonuses. Every 100 Apex Barrier increases the damage you can take by 1%.\n\nBelow-Deck Abilities are only activated when assigned to a below-decks slot on a ship.",
+      "percentage": false
+    }
+  },
+  "synergy": {
+    "command": 0.0,
+    "engineering": 0.0,
+    "science": 0.0
+  },
+  "traits": [
+    {
+      "name": "Augment",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 1500
+        },
+        {
+          "level": 2,
+          "trait_xp": 2700
+        },
+        {
+          "level": 3,
+          "trait_xp": 3800
+        }
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Tactical",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 7650
+        },
+        {
+          "level": 2,
+          "trait_xp": 6000
+        },
+        {
+          "level": 3,
+          "trait_xp": 7000
+        },
+        {
+          "level": 4,
+          "trait_xp": 8850
+        }
+      ],
+      "tier": 2
+    }
+  ],
+  "ranks": [
+    {
+      "rank_id": 1,
+      "name": "ENSIGN I",
+      "officer_ability_value": 0.15,
+      "requirements": {
+        "badges": 0,
+        "credits": 0,
+        "others": [],
+        "shards": 38,
+        "xp": 0
+      },
+      "below_deck_ability_value": 1000.0
+    },
+    {
+      "rank_id": 2,
+      "name": "LIEUTENANT JG II",
+      "officer_ability_value": 0.25,
+      "requirements": {
+        "badges": 0,
+        "credits": 0,
+        "others": [],
+        "shards": 55,
+        "xp": 10000
+      },
+      "below_deck_ability_value": 1200.0
+    },
+    {
+      "rank_id": 3,
+      "name": "LIEUTENANT III",
+      "officer_ability_value": 0.35,
+      "requirements": {
+        "badges": 0,
+        "credits": 1100,
+        "others": [],
+        "shards": 115,
+        "xp": 100000
+      },
+      "below_deck_ability_value": 1500.0
+    },
+    {
+      "rank_id": 4,
+      "name": "LT. COMMANDER IV",
+      "officer_ability_value": 0.5,
+      "requirements": {
+        "badges": 1,
+        "credits": 4500,
+        "others": [],
+        "shards": 155,
+        "xp": 250000
+      },
+      "below_deck_ability_value": 2000.0
+    },
+    {
+      "rank_id": 5,
+      "name": "COMMANDER V",
+      "officer_ability_value": 0.7,
+      "requirements": {
+        "badges": 2,
+        "credits": 11500,
+        "others": [],
+        "shards": 225,
+        "xp": 500000
+      },
+      "below_deck_ability_value": 3000.0
+    }
+  ],
+  "img_url": "./assets/alok_sahar.png"
+}

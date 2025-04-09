@@ -1,0 +1,6112 @@
+{
+  "ship_name": "GS-31",
+  "description": "There is great potential in every ship with a skilled pilot at the helm. There is even more potential when enemies underestimate the vessel\u2019s capabilities. GS-31 is living proof of this idea. After the events of the Alpha Team\u2019s mission to prevent the Godsend from reaching the Terran Empire, Section 31 took a special interest in repurposing mundane vessels into their undercover units, aimed at providing inconspicuous transportation capable of dealing massive damage to unsuspecting foes. \nWith the need to retrofit ships not intended to be used in the heat of the battle, the engineers of Section 31 decided to adapt the existing functionalities and enhance them to their maximum potential. Seeing how the Alpha team used the limited abilities of a garbage scow to overpower a fully functional battleship, GS-31 was equipped with an enhanced and improved tractor beam capable of a charged gravitational blast, damaging several hostile weapons at once. Thick and reinforced hull plates designed to protect the ship from stray rubble pieces provide the ultimate defense against incoming fire, and high-precision phasers can penetrate even the most intricate shields, tearing the foe\u2019s barriers to shreds.\nGS-31 is a great example of an unassuming appearance hiding endless potential. It is a perfect vessel for Section 31 agents attempting to hide in plain sight and strike the enemies of the Federation without attracting unwanted attention.",
+  "ship_class": "interceptor",
+  "grade": 4,
+  "faction": "neutral",
+  "rarity": "epic",
+  "blueprints": {
+    "cost": 0,
+    "quantity": 200
+  },
+  "ship_ability": {
+    "title": "Apex Shred",
+    "description": "Increases Apex Shred against Apex Raiders (Solo Wave Defense) hostiles by {value}.",
+    "percentage": true
+  },
+  "scrap_info": {
+    "scrappable": false
+  },
+  "requirements": [
+    {
+      "name": "Shipyard",
+      "level": 45
+    }
+  ],
+  "tiers": [
+    {
+      "tier": 1,
+      "build_time": 10756800,
+      "repair_time": 107400,
+      "components": [
+        {
+          "name": "Phaser Turrets",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": []
+          },
+          "repair_cost": [],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 1686,
+              "armor_pierce": 18342,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 19944,
+              "min_damage": 17338,
+              "shield_pierce": 1762,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": []
+          },
+          "repair_cost": [],
+          "additional_info": {
+            "armor_info": {
+              "armor": 10828,
+              "hull_health": 306522
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Railgun",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": []
+          },
+          "repair_cost": [],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 3216,
+              "armor_pierce": 33430,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 40674,
+              "min_damage": 34924,
+              "shield_pierce": 3298,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": []
+          },
+          "repair_cost": [],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 650000,
+              "increased_protected_cargo": 39000,
+              "ship_increased_cargo": 0,
+              "ship_increased_protected_cargo": 0
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": []
+          },
+          "repair_cost": [],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 150,
+              "warp_speed": 5
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": []
+          },
+          "repair_cost": [],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 10608,
+              "shield_health": 330170
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": []
+          },
+          "repair_cost": [],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 23904,
+              "impulse_speed": 120
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 0.25,
+          "additional_officer_slot": false,
+          "level": 1,
+          "ship_xp": 0
+        },
+        {
+          "ability_bonus": 0.29,
+          "additional_officer_slot": false,
+          "level": 2,
+          "ship_xp": 8000
+        },
+        {
+          "ability_bonus": 0.32,
+          "additional_officer_slot": false,
+          "level": 3,
+          "ship_xp": 12000
+        },
+        {
+          "ability_bonus": 0.36,
+          "additional_officer_slot": false,
+          "level": 4,
+          "ship_xp": 20000
+        },
+        {
+          "ability_bonus": 0.4,
+          "additional_officer_slot": false,
+          "level": 5,
+          "ship_xp": 29000
+        }
+      ],
+      "initial_build_cost": {
+        "resources": [
+          {
+            "type": "tritanium",
+            "value": 97506500000
+          },
+          {
+            "type": "dilithium",
+            "value": 33800000
+          }
+        ],
+        "materials": [
+          {
+            "type": "crystal",
+            "value": 76000,
+            "grade": 4,
+            "rarity": "common"
+          }
+        ],
+        "others": []
+      }
+    },
+    {
+      "tier": 2,
+      "build_time": 480000,
+      "repair_time": 125400,
+      "components": [
+        {
+          "name": "Phaser Turrets",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 38381900000
+              },
+              {
+                "type": "dilithium",
+                "value": 12888000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 3400,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 8400,
+                "grade": 4,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 300
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 119654304
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 2057,
+              "armor_pierce": 22382,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 24337,
+              "min_damage": 21157,
+              "shield_pierce": 2150,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 31984900000
+              },
+              {
+                "type": "dilithium",
+                "value": 10740000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 2800,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 7000,
+                "grade": 4,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 200
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 99711920
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 13213,
+              "hull_health": 374035
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Railgun",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 44778900000
+              },
+              {
+                "type": "dilithium",
+                "value": 15035000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 3900,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 9800,
+                "grade": 4,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 300
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 139596688
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 3924,
+              "armor_pierce": 40793,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 49633,
+              "min_damage": 42616,
+              "shield_pierce": 4024,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 25587900000
+              },
+              {
+                "type": "dilithium",
+                "value": 8592000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 2200,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 5600,
+                "grade": 4,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 200
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 79769536
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 130000,
+              "increased_protected_cargo": 8000,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 200
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 28786400000
+              },
+              {
+                "type": "dilithium",
+                "value": 9666000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 2500,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 6300,
+                "grade": 4,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 200
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 89740728
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 160,
+              "warp_speed": 5.5
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 35183400000
+              },
+              {
+                "type": "dilithium",
+                "value": 11814000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 3100,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 7700,
+                "grade": 4,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 300
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 109683112
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 12944,
+              "shield_health": 402892
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 31984900000
+              },
+              {
+                "type": "dilithium",
+                "value": 10740000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 2800,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 7000,
+                "grade": 4,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 200
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 99711920
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 29169,
+              "impulse_speed": 120
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 0.44,
+          "additional_officer_slot": false,
+          "level": 6,
+          "ship_xp": 41000
+        },
+        {
+          "ability_bonus": 0.47,
+          "additional_officer_slot": false,
+          "level": 7,
+          "ship_xp": 59000
+        },
+        {
+          "ability_bonus": 0.51,
+          "additional_officer_slot": false,
+          "level": 8,
+          "ship_xp": 78000
+        },
+        {
+          "ability_bonus": 0.55,
+          "additional_officer_slot": false,
+          "level": 9,
+          "ship_xp": 100000
+        },
+        {
+          "ability_bonus": 0.58,
+          "additional_officer_slot": false,
+          "level": 10,
+          "ship_xp": 130000
+        }
+      ]
+    },
+    {
+      "tier": 3,
+      "build_time": 960000,
+      "repair_time": 155940,
+      "components": [
+        {
+          "name": "Phaser Turrets",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 119640100000
+              },
+              {
+                "type": "dilithium",
+                "value": 45144000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 11300,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 28200,
+                "grade": 4,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 600
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 397315080
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 3242,
+              "armor_pierce": 35276,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 38357,
+              "min_damage": 33345,
+              "shield_pierce": 3389,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 99700100000
+              },
+              {
+                "type": "dilithium",
+                "value": 37620000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 9400,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 23500,
+                "grade": 4,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 500
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 331095900
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 20825,
+              "hull_health": 589511
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Railgun",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 139580100000
+              },
+              {
+                "type": "dilithium",
+                "value": 52668000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 5400,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 13900,
+                "grade": 4,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 700
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 463534260
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 6185,
+              "armor_pierce": 64293,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 78226,
+              "min_damage": 67166,
+              "shield_pierce": 6342,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 79760100000
+              },
+              {
+                "type": "dilithium",
+                "value": 30096000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 7600,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 18800,
+                "grade": 4,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 400
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 264876720
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 160000,
+              "increased_protected_cargo": 10000,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 200
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 89730100000
+              },
+              {
+                "type": "dilithium",
+                "value": 33858000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 8500,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 21200,
+                "grade": 4,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 400
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 297986310
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 165,
+              "warp_speed": 6
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 109670100000
+              },
+              {
+                "type": "dilithium",
+                "value": 41382000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 10400,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 25900,
+                "grade": 4,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 500
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 364205490
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 20401,
+              "shield_health": 634992
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 99700100000
+              },
+              {
+                "type": "dilithium",
+                "value": 37620000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 3900,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 9900,
+                "grade": 4,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 500
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 331095900
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 45973,
+              "impulse_speed": 120
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 0.62,
+          "additional_officer_slot": false,
+          "level": 11,
+          "ship_xp": 158000
+        },
+        {
+          "ability_bonus": 0.66,
+          "additional_officer_slot": false,
+          "level": 12,
+          "ship_xp": 190000
+        },
+        {
+          "ability_bonus": 0.7,
+          "additional_officer_slot": false,
+          "level": 13,
+          "ship_xp": 235000
+        },
+        {
+          "ability_bonus": 0.73,
+          "additional_officer_slot": false,
+          "level": 14,
+          "ship_xp": 275000
+        },
+        {
+          "ability_bonus": 0.77,
+          "additional_officer_slot": false,
+          "level": 15,
+          "ship_xp": 318000
+        }
+      ]
+    },
+    {
+      "tier": 4,
+      "build_time": 1600000,
+      "repair_time": 165600,
+      "components": [
+        {
+          "name": "Phaser Turrets",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 374876800000
+              },
+              {
+                "type": "dilithium",
+                "value": 171393000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 5300,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 13200,
+                "grade": 5,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 900
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 845815260
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 4424,
+              "armor_pierce": 48141,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 52345,
+              "min_damage": 45505,
+              "shield_pierce": 4625,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 312397400000
+              },
+              {
+                "type": "dilithium",
+                "value": 142827000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 4400,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 11000,
+                "grade": 5,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 700
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 704846050
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 28420,
+              "hull_health": 804497
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Railgun",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 437356300000
+              },
+              {
+                "type": "dilithium",
+                "value": 199958000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 6200,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 15400,
+                "grade": 5,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 1000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 986784470
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 8441,
+              "armor_pierce": 87740,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 106754,
+              "min_damage": 91660,
+              "shield_pierce": 8655,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 249917900000
+              },
+              {
+                "type": "dilithium",
+                "value": 114262000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 3500,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 8800,
+                "grade": 5,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 600
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 563876840
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 200000,
+              "increased_protected_cargo": 12000,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 200
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 281157600000
+              },
+              {
+                "type": "dilithium",
+                "value": 128544000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 4000,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 9900,
+                "grade": 5,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 700
+              },
+              {
+                "type": "warp core tier 4",
+                "value": 1
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 634361445
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 170,
+              "warp_speed": 6.5
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 343637100000
+              },
+              {
+                "type": "dilithium",
+                "value": 157110000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 4900,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 12100,
+                "grade": 5,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 800
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 775330655
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 27841,
+              "shield_health": 866564
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 312397400000
+              },
+              {
+                "type": "dilithium",
+                "value": 142827000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 4400,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 11000,
+                "grade": 5,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 700
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 704846050
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 62739,
+              "impulse_speed": 120
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 0.89,
+          "additional_officer_slot": false,
+          "level": 16,
+          "ship_xp": 378000
+        },
+        {
+          "ability_bonus": 0.93,
+          "additional_officer_slot": false,
+          "level": 17,
+          "ship_xp": 430000
+        },
+        {
+          "ability_bonus": 0.97,
+          "additional_officer_slot": false,
+          "level": 18,
+          "ship_xp": 483000
+        },
+        {
+          "ability_bonus": 1.01,
+          "additional_officer_slot": false,
+          "level": 19,
+          "ship_xp": 565000
+        },
+        {
+          "ability_bonus": 1.05,
+          "additional_officer_slot": false,
+          "level": 20,
+          "ship_xp": 628000
+        }
+      ]
+    },
+    {
+      "tier": 5,
+      "build_time": 2400000,
+      "repair_time": 174600,
+      "components": [
+        {
+          "name": "Phaser Turrets",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 848039700000
+              },
+              {
+                "type": "dilithium",
+                "value": 387453000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 11800,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 29400,
+                "grade": 5,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 1200
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 1372459776
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 6549,
+              "armor_pierce": 71269,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 77493,
+              "min_damage": 67367,
+              "shield_pierce": 6847,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 706699800000
+              },
+              {
+                "type": "dilithium",
+                "value": 322878000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 9800,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 24500,
+                "grade": 5,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 1000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 1143716480
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 42074,
+              "hull_health": 1190998
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Railgun",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 989379700000
+              },
+              {
+                "type": "dilithium",
+                "value": 452029000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 6100,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 15800,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 1400
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 1601203072
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 12496,
+              "armor_pierce": 129893,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 158041,
+              "min_damage": 135696,
+              "shield_pierce": 12813,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 565359800000
+              },
+              {
+                "type": "dilithium",
+                "value": 258302000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 7900,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 19600,
+                "grade": 5,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 800
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 914973184
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 220000,
+              "increased_protected_cargo": 14000,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 200
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 636029800000
+              },
+              {
+                "type": "dilithium",
+                "value": 290590000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 8900,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 22000,
+                "grade": 5,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 900
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 1029344832
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 175,
+              "warp_speed": 7
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 777369800000
+              },
+              {
+                "type": "dilithium",
+                "value": 355166000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 10800,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 26900,
+                "grade": 5,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 1100
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 1258088128
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 41217,
+              "shield_health": 1282884
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 706699800000
+              },
+              {
+                "type": "dilithium",
+                "value": 322878000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 4400,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 11300,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 1000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 1143716480
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 92880,
+              "impulse_speed": 120
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 1.09,
+          "additional_officer_slot": false,
+          "level": 21,
+          "ship_xp": 695000
+        },
+        {
+          "ability_bonus": 1.13,
+          "additional_officer_slot": false,
+          "level": 22,
+          "ship_xp": 798000
+        },
+        {
+          "ability_bonus": 1.17,
+          "additional_officer_slot": false,
+          "level": 23,
+          "ship_xp": 875000
+        },
+        {
+          "ability_bonus": 1.22,
+          "additional_officer_slot": false,
+          "level": 24,
+          "ship_xp": 955000
+        },
+        {
+          "ability_bonus": 1.26,
+          "additional_officer_slot": false,
+          "level": 25,
+          "ship_xp": 1083000
+        }
+      ]
+    },
+    {
+      "tier": 6,
+      "build_time": 3200000,
+      "repair_time": 186600,
+      "components": [
+        {
+          "name": "Phaser Turrets",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 1843122300000
+              },
+              {
+                "type": "dilithium",
+                "value": 911991000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 55700,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 9400,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 1500
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 2148189072
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 8645,
+              "armor_pierce": 94075,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 102291,
+              "min_damage": 88924,
+              "shield_pierce": 9038,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 1535935300000
+              },
+              {
+                "type": "dilithium",
+                "value": 759992000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 4000,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 7900,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 1200
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 1790157560
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 55538,
+              "hull_health": 1572117
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Railgun",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 2150309400000
+              },
+              {
+                "type": "dilithium",
+                "value": 1063989000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 5600,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 11000,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 1700
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 2506220584
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 16495,
+              "armor_pierce": 171459,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 208614,
+              "min_damage": 179119,
+              "shield_pierce": 16913,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 1228748200000
+              },
+              {
+                "type": "dilithium",
+                "value": 607994000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 3200,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 6300,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 1000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 1432126048
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 270000,
+              "increased_protected_cargo": 19000,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 200
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 1382341700000
+              },
+              {
+                "type": "dilithium",
+                "value": 683993000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 3600,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 7100,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 1100
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 1611141804
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 185,
+              "warp_speed": 7.25
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 1689528800000
+              },
+              {
+                "type": "dilithium",
+                "value": 835992000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 4400,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 8600,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 1400
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 1969173316
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 54406,
+              "shield_health": 1693407
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 1535935300000
+              },
+              {
+                "type": "dilithium",
+                "value": 759992000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 4000,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 7900,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 1200
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 1790157560
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 122602,
+              "impulse_speed": 120
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 1.47,
+          "additional_officer_slot": false,
+          "level": 26,
+          "ship_xp": 1175000
+        },
+        {
+          "ability_bonus": 1.52,
+          "additional_officer_slot": false,
+          "level": 27,
+          "ship_xp": 1270000
+        },
+        {
+          "ability_bonus": 1.57,
+          "additional_officer_slot": false,
+          "level": 28,
+          "ship_xp": 1423000
+        },
+        {
+          "ability_bonus": 1.61,
+          "additional_officer_slot": false,
+          "level": 29,
+          "ship_xp": 1530000
+        },
+        {
+          "ability_bonus": 1.66,
+          "additional_officer_slot": false,
+          "level": 30,
+          "ship_xp": 1640000
+        }
+      ]
+    },
+    {
+      "tier": 7,
+      "build_time": 4000000,
+      "repair_time": 217860,
+      "components": [
+        {
+          "name": "Phaser Turrets",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 2798452100000
+              },
+              {
+                "type": "dilithium",
+                "value": 1492649000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 5100,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 13200,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 1800
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 3543117756
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 11317,
+              "armor_pierce": 123153,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 133908,
+              "min_damage": 116410,
+              "shield_pierce": 11832,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 2332043400000
+              },
+              {
+                "type": "dilithium",
+                "value": 1243874000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 4300,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 11000,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 1500
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 2952598130
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 72704,
+              "hull_health": 2058043
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Railgun",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 3264860800000
+              },
+              {
+                "type": "dilithium",
+                "value": 1741423000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 6000,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 15400,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 2100
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 4133637382
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 21593,
+              "armor_pierce": 224455,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 273095,
+              "min_damage": 234483,
+              "shield_pierce": 22141,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 1865634700000
+              },
+              {
+                "type": "dilithium",
+                "value": 995099000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 3400,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 8800,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 1200
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 2362078504
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 330000,
+              "increased_protected_cargo": 24000,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 200
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 2098839100000
+              },
+              {
+                "type": "dilithium",
+                "value": 1119486000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 3900,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 9900,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 1300
+              },
+              {
+                "type": "warp core tier 7",
+                "value": 1
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 2657338317
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 195,
+              "warp_speed": 7.5
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 2565247800000
+              },
+              {
+                "type": "dilithium",
+                "value": 1368261000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 4700,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 12100,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 1600
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 3247857943
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 71222,
+              "shield_health": 2216823
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 2332043400000
+              },
+              {
+                "type": "dilithium",
+                "value": 1243874000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 4300,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 11000,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 1500
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 2952598130
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 160497,
+              "impulse_speed": 120
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 1.71,
+          "additional_officer_slot": false,
+          "level": 31,
+          "ship_xp": 1825000
+        },
+        {
+          "ability_bonus": 1.75,
+          "additional_officer_slot": false,
+          "level": 32,
+          "ship_xp": 1948000
+        },
+        {
+          "ability_bonus": 1.8,
+          "additional_officer_slot": false,
+          "level": 33,
+          "ship_xp": 2075000
+        },
+        {
+          "ability_bonus": 1.85,
+          "additional_officer_slot": false,
+          "level": 34,
+          "ship_xp": 2293000
+        },
+        {
+          "ability_bonus": 1.89,
+          "additional_officer_slot": false,
+          "level": 35,
+          "ship_xp": 2433000
+        }
+      ]
+    },
+    {
+      "tier": 8,
+      "build_time": 5200000,
+      "repair_time": 248940,
+      "components": [
+        {
+          "name": "Phaser Turrets",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 5211321900000
+              },
+              {
+                "type": "dilithium",
+                "value": 3006528000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 10400,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 6800,
+                "grade": 5,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 2100
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 7438044912
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 13580,
+              "armor_pierce": 147784,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 160690,
+              "min_damage": 139692,
+              "shield_pierce": 14198,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 4342768200000
+              },
+              {
+                "type": "dilithium",
+                "value": 2505440000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 8700,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 42300,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 1700
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 6198370760
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 87245,
+              "hull_health": 2469652
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Railgun",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 6079875500000
+              },
+              {
+                "type": "dilithium",
+                "value": 3507616000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 7200,
+                "grade": 5,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 7900,
+                "grade": 5,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 2400
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 8677719064
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 25912,
+              "armor_pierce": 269346,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 327714,
+              "min_damage": 281380,
+              "shield_pierce": 26569,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 3474214600000
+              },
+              {
+                "type": "dilithium",
+                "value": 2004352000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 7000,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 33800,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 1400
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 4958696608
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 390000,
+              "increased_protected_cargo": 29000,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 200
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 3908491400000
+              },
+              {
+                "type": "dilithium",
+                "value": 2254896000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 7800,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 38100,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 1600
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 5578533684
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 210,
+              "warp_speed": 7.75
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 4777045100000
+              },
+              {
+                "type": "dilithium",
+                "value": 2755984000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 9600,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 46500,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 1900
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 6818207836
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 85466,
+              "shield_health": 2660188
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 4342768200000
+              },
+              {
+                "type": "dilithium",
+                "value": 2505440000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 8700,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 5700,
+                "grade": 5,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 1700
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 6198370760
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 192596,
+              "impulse_speed": 120
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 1.94,
+          "additional_officer_slot": false,
+          "level": 36,
+          "ship_xp": 2578000
+        },
+        {
+          "ability_bonus": 1.98,
+          "additional_officer_slot": false,
+          "level": 37,
+          "ship_xp": 2830000
+        },
+        {
+          "ability_bonus": 2.03,
+          "additional_officer_slot": false,
+          "level": 38,
+          "ship_xp": 2990000
+        },
+        {
+          "ability_bonus": 2.08,
+          "additional_officer_slot": false,
+          "level": 39,
+          "ship_xp": 3153000
+        },
+        {
+          "ability_bonus": 2.12,
+          "additional_officer_slot": false,
+          "level": 40,
+          "ship_xp": 3445000
+        }
+      ]
+    },
+    {
+      "tier": 9,
+      "build_time": 6400000,
+      "repair_time": 272940,
+      "components": [
+        {
+          "name": "Phaser Turrets",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 12773297000000
+              },
+              {
+                "type": "dilithium",
+                "value": 8283317000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 6300,
+                "grade": 5,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 15300,
+                "grade": 5,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 2400
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 9732828096
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 17066,
+              "armor_pierce": 185715,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 201934,
+              "min_damage": 175546,
+              "shield_pierce": 17842,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 10644414200000
+              },
+              {
+                "type": "dilithium",
+                "value": 6902764000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 37300,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 95700,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 2000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 8110690080
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 109638,
+              "hull_health": 3103529
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Railgun",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 14902179900000
+              },
+              {
+                "type": "dilithium",
+                "value": 9663870000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 7300,
+                "grade": 5,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 17900,
+                "grade": 5,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 2800
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 11354966112
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 32563,
+              "armor_pierce": 338478,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 411827,
+              "min_damage": 353601,
+              "shield_pierce": 33388,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 8515531400000
+              },
+              {
+                "type": "dilithium",
+                "value": 5522212000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 29800,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 76600,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 1600
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 6488552064
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 470000,
+              "increased_protected_cargo": 35000,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 200
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 9579972800000
+              },
+              {
+                "type": "dilithium",
+                "value": 6212488000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 33600,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 86200,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 1800
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 7299621072
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 250,
+              "warp_speed": 8
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 11708855600000
+              },
+              {
+                "type": "dilithium",
+                "value": 7593041000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 41000,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 105300,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 2200
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 8921759088
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 107402,
+              "shield_health": 3342969
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 10644414200000
+              },
+              {
+                "type": "dilithium",
+                "value": 6902764000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 5200,
+                "grade": 5,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 12800,
+                "grade": 5,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 2000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 8110690080
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 242029,
+              "impulse_speed": 120
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 2.15,
+          "additional_officer_slot": false,
+          "level": 41,
+          "ship_xp": 3623000
+        },
+        {
+          "ability_bonus": 2.2,
+          "additional_officer_slot": false,
+          "level": 42,
+          "ship_xp": 3805000
+        },
+        {
+          "ability_bonus": 2.7,
+          "additional_officer_slot": false,
+          "level": 43,
+          "ship_xp": 4140000
+        },
+        {
+          "ability_bonus": 2.75,
+          "additional_officer_slot": false,
+          "level": 44,
+          "ship_xp": 4340000
+        },
+        {
+          "ability_bonus": 2.85,
+          "additional_officer_slot": false,
+          "level": 45,
+          "ship_xp": 4543000
+        }
+      ]
+    },
+    {
+      "tier": 10,
+      "build_time": 8000000,
+      "repair_time": 277200,
+      "components": [
+        {
+          "name": "Phaser Turrets",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 440100
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 1200
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 16200,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 40300,
+                "grade": 6,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 2700
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 372
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 23257,
+              "armor_pierce": 253085,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 275187,
+              "min_damage": 239227,
+              "shield_pierce": 24314,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 366800
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 1000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 13500,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 33600,
+                "grade": 6,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 2200
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 310
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 149410,
+              "hull_health": 4229361
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Railgun",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 513500
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 1400
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 18900,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 47000,
+                "grade": 6,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 3100
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 434
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 44376,
+              "armor_pierce": 461264,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 561221,
+              "min_damage": 481873,
+              "shield_pierce": 45500,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 293400
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 800
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 10800,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 26900,
+                "grade": 6,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 1800
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 248
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 570000,
+              "increased_protected_cargo": 40000,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 200
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 330100
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 900
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 12100,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 30200,
+                "grade": 6,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 2000
+              },
+              {
+                "type": "warp core tier 10",
+                "value": 1
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 279
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 300,
+              "warp_speed": 8.25
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 403400
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 1100
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 14800,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 37000,
+                "grade": 6,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 2400
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 341
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 146363,
+              "shield_health": 4555660
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 366800
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 1000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 13500,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 33600,
+                "grade": 6,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 2200
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 310
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 329827,
+              "impulse_speed": 120
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 2.9,
+          "additional_officer_slot": false,
+          "level": 46,
+          "ship_xp": 4923000
+        },
+        {
+          "ability_bonus": 2.95,
+          "additional_officer_slot": false,
+          "level": 47,
+          "ship_xp": 5143000
+        },
+        {
+          "ability_bonus": 3.5,
+          "additional_officer_slot": false,
+          "level": 48,
+          "ship_xp": 5370000
+        },
+        {
+          "ability_bonus": 3.55,
+          "additional_officer_slot": false,
+          "level": 49,
+          "ship_xp": 5798000
+        },
+        {
+          "ability_bonus": 3.6,
+          "additional_officer_slot": false,
+          "level": 50,
+          "ship_xp": 6040000
+        }
+      ]
+    },
+    {
+      "tier": 11,
+      "build_time": 10400000,
+      "repair_time": 319860,
+      "components": [
+        {
+          "name": "Phaser Turrets",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 656000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 2000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 29800,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 74300,
+                "grade": 6,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 3000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 516
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 31773,
+              "armor_pierce": 345761,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 375957,
+              "min_damage": 326829,
+              "shield_pierce": 33217,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 546600
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 1600
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 24900,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 61900,
+                "grade": 6,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 2500
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 430
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 204122,
+              "hull_health": 5778094
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Railgun",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 765300
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 2300
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 14300,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 36700,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 3500
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 602
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 60626,
+              "armor_pierce": 630172,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 766732,
+              "min_damage": 658328,
+              "shield_pierce": 62161,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 437300
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 1300
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 19900,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 49500,
+                "grade": 6,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 2000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 344
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 680000,
+              "increased_protected_cargo": 55000,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 200
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 492000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 1500
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 22400,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 55700,
+                "grade": 6,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 2200
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 387
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 400,
+              "warp_speed": 8.5
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 601300
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 1800
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 27400,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 68100,
+                "grade": 6,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 2700
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 473
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 199959,
+              "shield_health": 6223879
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 546600
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 1600
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 10200,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 26200,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 2500
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 430
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 450605,
+              "impulse_speed": 120
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 3.7,
+          "additional_officer_slot": false,
+          "level": 51,
+          "ship_xp": 6290000
+        },
+        {
+          "ability_bonus": 3.75,
+          "additional_officer_slot": false,
+          "level": 52,
+          "ship_xp": 6770000
+        },
+        {
+          "ability_bonus": 3.8,
+          "additional_officer_slot": false,
+          "level": 53,
+          "ship_xp": 7038000
+        },
+        {
+          "ability_bonus": 3.9,
+          "additional_officer_slot": false,
+          "level": 54,
+          "ship_xp": 7310000
+        },
+        {
+          "ability_bonus": 3.95,
+          "additional_officer_slot": false,
+          "level": 55,
+          "ship_xp": 7848000
+        }
+      ]
+    },
+    {
+      "tier": 12,
+      "build_time": 14400000,
+      "repair_time": 356940,
+      "components": [
+        {
+          "name": "Phaser Turrets",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 1085400
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 3200
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 5400,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 13800,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 3100
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 1140
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 41414,
+              "armor_pierce": 450671,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 490029,
+              "min_damage": 425995,
+              "shield_pierce": 43296,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 904500
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 2600
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 4500,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 11500,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 2600
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 950
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 266056,
+              "hull_health": 7531273
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Railgun",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 1266300
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 3700
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 6300,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 16100,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 3600
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 1330
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 79021,
+              "armor_pierce": 821378,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 999372,
+              "min_damage": 858077,
+              "shield_pierce": 81022,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 723600
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 2100
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 3600,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 9200,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 2100
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 760
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 810000,
+              "increased_protected_cargo": 60000,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 200
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 814100
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 2400
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 4000,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 10400,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 2300
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 855
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 500,
+              "warp_speed": 8.75
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 995000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 2900
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 4900,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 12700,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 2900
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 1045
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 260630,
+              "shield_health": 8112317
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 904500
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 2600
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 4500,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 11500,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 2600
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 950
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 587327,
+              "impulse_speed": 120
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 4.0,
+          "additional_officer_slot": false,
+          "level": 56,
+          "ship_xp": 8143000
+        },
+        {
+          "ability_bonus": 4.1,
+          "additional_officer_slot": false,
+          "level": 57,
+          "ship_xp": 8440000
+        },
+        {
+          "ability_bonus": 4.15,
+          "additional_officer_slot": false,
+          "level": 58,
+          "ship_xp": 9038000
+        },
+        {
+          "ability_bonus": 4.2,
+          "additional_officer_slot": false,
+          "level": 59,
+          "ship_xp": 9355000
+        },
+        {
+          "ability_bonus": 4.25,
+          "additional_officer_slot": false,
+          "level": 60,
+          "ship_xp": 10000000
+        }
+      ]
+    },
+    {
+      "tier": 13,
+      "build_time": 19200000,
+      "repair_time": 408600,
+      "components": [
+        {
+          "name": "Phaser Turrets",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 1611600
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 4800
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 6300,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 26000,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 3300
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 2004
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 50544,
+              "armor_pierce": 550027,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 598062,
+              "min_damage": 519911,
+              "shield_pierce": 52841,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 1343000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 4000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 5200,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 21700,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 2700
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 1670
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 324711,
+              "hull_health": 9191632
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Railgun",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 1880200
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 5600
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 7300,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 10300,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 3800
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 2338
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 96442,
+              "armor_pierce": 1002461,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 1219695,
+              "min_damage": 1047250,
+              "shield_pierce": 98884,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 1074400
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 3200
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 4200,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 17400,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 2200
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 1336
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 980000,
+              "increased_protected_cargo": 80000,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 200
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 1208700
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 3600
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 4700,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 19500,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 2400
+              },
+              {
+                "type": "warp core tier 13",
+                "value": 1
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 1503
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 600,
+              "warp_speed": 9
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 1477300
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 4400
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 5800,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 23900,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 3000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 1837
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 318089,
+              "shield_health": 9900774
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 1343000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 4000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 5200,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 7400,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 2700
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 1670
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 716810,
+              "impulse_speed": 120
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 6.2,
+          "additional_officer_slot": false,
+          "level": 61,
+          "ship_xp": 10100000
+        },
+        {
+          "ability_bonus": 6.3,
+          "additional_officer_slot": false,
+          "level": 62,
+          "ship_xp": 10201000
+        },
+        {
+          "ability_bonus": 6.4,
+          "additional_officer_slot": false,
+          "level": 63,
+          "ship_xp": 10303010
+        },
+        {
+          "ability_bonus": 6.5,
+          "additional_officer_slot": false,
+          "level": 64,
+          "ship_xp": 10406040
+        },
+        {
+          "ability_bonus": 6.55,
+          "additional_officer_slot": false,
+          "level": 65,
+          "ship_xp": 10510101
+        }
+      ]
+    },
+    {
+      "tier": 14,
+      "build_time": 22080000,
+      "repair_time": 403200,
+      "components": [
+        {
+          "name": "Phaser Turrets",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 2091100
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 6300
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 12000,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 6400,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 3400
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 2604
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 71966,
+              "armor_pierce": 783142,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 851535,
+              "min_damage": 740262,
+              "shield_pierce": 75236,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 1742600
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 5300
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 10000,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 41900,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 2800
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 2170
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 462331,
+              "hull_health": 13087265
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Railgun",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 2439700
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 7400
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 5500,
+                "grade": 6,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 7500,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 4000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 3038
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 137316,
+              "armor_pierce": 1427328,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 1736631,
+              "min_damage": 1491100,
+              "shield_pierce": 140793,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 1394100
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 4200
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 8000,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 33500,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 2300
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 1736
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 1170000,
+              "increased_protected_cargo": 135000,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 200
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 1568300
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 4700
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 9000,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 37700,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 2600
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 1953
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 700,
+              "warp_speed": 9.25
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 1916900
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 5800
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 11000,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 46000,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 3100
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 2387
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 452903,
+              "shield_health": 14096958
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 1742600
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 5300
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 3900,
+                "grade": 6,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 5300,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 2800
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 2170
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 1020611,
+              "impulse_speed": 120
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 8.0,
+          "additional_officer_slot": false,
+          "level": 66,
+          "ship_xp": 10615202
+        },
+        {
+          "ability_bonus": 8.1,
+          "additional_officer_slot": false,
+          "level": 67,
+          "ship_xp": 10721354
+        },
+        {
+          "ability_bonus": 8.2,
+          "additional_officer_slot": false,
+          "level": 68,
+          "ship_xp": 10828567
+        },
+        {
+          "ability_bonus": 8.35,
+          "additional_officer_slot": false,
+          "level": 69,
+          "ship_xp": 10936853
+        },
+        {
+          "ability_bonus": 9.15,
+          "additional_officer_slot": false,
+          "level": 70,
+          "ship_xp": 11046221
+        }
+      ]
+    },
+    {
+      "tier": 15,
+      "build_time": 25440000,
+      "repair_time": 426600,
+      "components": [
+        {
+          "name": "Phaser Turrets",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 3158800
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 9700
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 2100,
+                "grade": 6,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 4700,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 3600
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 3936
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 111115,
+              "armor_pierce": 1209170,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 1314768,
+              "min_damage": 1142963,
+              "shield_pierce": 116164,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 2632300
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 8100
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 1800,
+                "grade": 6,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 3900,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 3000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 3280
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 713838,
+              "hull_health": 20206711
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Railgun",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 3685300
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 11300
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 2500,
+                "grade": 6,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 5500,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 4100
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 4592
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 212016,
+              "armor_pierce": 2203792,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 2681355,
+              "min_damage": 2302255,
+              "shield_pierce": 217384,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 2105900
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 6500
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 1400,
+                "grade": 6,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 3200,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 2400
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 2624
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 1470000,
+              "increased_protected_cargo": 200000,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 200
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 2369100
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 7300
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 1600,
+                "grade": 6,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 3500,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 2700
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 2952
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 1000,
+              "warp_speed": 9.5
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 2895600
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 8900
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 2000,
+                "grade": 6,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 4300,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 3300
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 3608
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 699281,
+              "shield_health": 21765675
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 2632300
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 8100
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 1800,
+                "grade": 6,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 3900,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "gs-31 parts",
+                "value": 3000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 3280
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 1575821,
+              "impulse_speed": 120
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 9.25,
+          "additional_officer_slot": false,
+          "level": 71,
+          "ship_xp": 11155590
+        },
+        {
+          "ability_bonus": 9.4,
+          "additional_officer_slot": false,
+          "level": 72,
+          "ship_xp": 11264958
+        },
+        {
+          "ability_bonus": 9.65,
+          "additional_officer_slot": false,
+          "level": 73,
+          "ship_xp": 11374327
+        },
+        {
+          "ability_bonus": 9.8,
+          "additional_officer_slot": false,
+          "level": 74,
+          "ship_xp": 11483695
+        },
+        {
+          "ability_bonus": 10.0,
+          "additional_officer_slot": false,
+          "level": 75,
+          "ship_xp": 11593064
+        }
+      ]
+    }
+  ],
+  "img_url": "./assets/gs_31.png"
+}

@@ -1,0 +1,64 @@
+{
+  "research_name": "Multi-Target Gravitational Blast",
+  "description": "Increases the number of non-Armada hostiles the Gravitational Blast can hit when fired.",
+  "location": {
+    "column": 73,
+    "row": 1,
+    "tree": "starships"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 195177600,
+      "increased_power": 53500,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 51
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "covert modifications",
+            "value": 540
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 1.0
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 264435780,
+      "increased_power": 44500,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 61
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "covert modifications",
+            "value": 965
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 2.0
+      }
+    }
+  ],
+  "img_url": "./assets/multi_target_gravitational_blast_starships_1_73.png"
+}
