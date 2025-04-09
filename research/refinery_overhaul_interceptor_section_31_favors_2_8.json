@@ -1,6 +1,6 @@
 {
   "research_name": "Refinery Overhaul: Interceptor",
-  "description": "Increases base G4-G6 Interceptor Ship Parts refinery rewards when exchanging Broken Ship Parts by 100%.",
+  "description": "Increases base G4-G6 Interceptor Ship Parts refinery rewards when exchanging Broken Ship Parts.",
   "location": {
     "column": 8,
     "row": 2,
@@ -19,7 +19,7 @@
         "others": []
       },
       "bonus": {
-        "percentage": false,
+        "percentage": true,
         "value": 1.0
       }
     }
