@@ -1,0 +1,183 @@
+{
+  "officer_name": "Quasi",
+  "description": "Chameloids are so rare that their existence has been considered a myth, and that\u2019s no wonder: how does one adequately monitor and study a species that can look like anything? Regardless of their chosen forms, one thing is known for sure - Chameloids exist, and at least one of them can be found within the ranks of Section 31. A talented physicist, Quasi proved the existence of mythical glioclusters and subsequently earned his place on the Alpha Team, who were looking to contact Philippa Georgiou in order to stop a weapon of mass destruction from falling into the hands of the Terran Empire. \nQuasi\u2019s talent in calculating all possible outcomes of any situation is indispensable in his line of work. However, the number of choices to take would trick his mind into a paralysis state, even when the situation is critical. This flaw almost cost Georgiou and Alok's life, but with the help of Rachel Garrett, he took the situation under control and made the only right decision, giving those two a chance. A loyal friend and a lovely person, Quasi serves Section 31 and his friends in all of his shapes and forms and can apply his genius mind for a good cause.",
+  "class": "science",
+  "group": "mirror universe",
+  "faction": "section 31",
+  "rarity": "epic",
+  "ability_info": {
+    "captain_maneuver": {
+      "name": "Chain of Command",
+      "bonus": "This Officer does not have a Captain's Maneuver. Equipping this Officer as the captain of a ship provides no benefit.",
+      "percentage": true,
+      "value": 0.0
+    },
+    "officer_ability": {
+      "name": "Branching Possibilities",
+      "bonus": "Increases Apex Shred against players by {value} ({value} at rank {value}).\n\nApex Barrier remaining after Apex Shred is equal to:\nApex Barrier / (100% + Apex Shred)\n\n100% Apex Shred reduces Apex Barrier by 50%.",
+      "percentage": true
+    },
+    "below_decks_ability": {
+      "name": "Adaptive Transformation",
+      "bonus": "Increases Apex Shred against non-Armada hostiles by {value} ({value} at rank {value}).\n\nApex Barrier remaining after Apex Shred is equal to:\nApex Barrier / (100% + Apex Shred)\n\n100% Apex Shred reduces Apex Barrier by 50%.\n\nBelow-Deck Abilities are only activated when assigned to a below-decks slot on a ship.",
+      "percentage": true
+    }
+  },
+  "synergy": {
+    "command": 0.0,
+    "engineering": 0.0,
+    "science": 0.0
+  },
+  "traits": [
+    {
+      "name": "Escape Artist",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 1500
+        },
+        {
+          "level": 2,
+          "trait_xp": 2700
+        },
+        {
+          "level": 3,
+          "trait_xp": 3800
+        }
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Physicist",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 7650
+        },
+        {
+          "level": 2,
+          "trait_xp": 6000
+        },
+        {
+          "level": 3,
+          "trait_xp": 7000
+        },
+        {
+          "level": 4,
+          "trait_xp": 8850
+        }
+      ],
+      "tier": 2
+    },
+    {
+      "name": "Mastermind",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 10000
+        },
+        {
+          "level": 2,
+          "trait_xp": 4000
+        },
+        {
+          "level": 3,
+          "trait_xp": 7000
+        },
+        {
+          "level": 4,
+          "trait_xp": 10000
+        },
+        {
+          "level": 5,
+          "trait_xp": 15000
+        },
+        {
+          "level": 6,
+          "trait_xp": 23000
+        },
+        {
+          "level": 7,
+          "trait_xp": 42000
+        },
+        {
+          "level": 8,
+          "trait_xp": 68000
+        },
+        {
+          "level": 9,
+          "trait_xp": 107000
+        }
+      ],
+      "tier": 3
+    }
+  ],
+  "ranks": [
+    {
+      "rank_id": 1,
+      "name": "ENSIGN I",
+      "officer_ability_value": 0.5,
+      "requirements": {
+        "badges": 0,
+        "credits": 0,
+        "others": [],
+        "shards": 100,
+        "xp": 0
+      },
+      "below_deck_ability_value": 0.25
+    },
+    {
+      "rank_id": 2,
+      "name": "LIEUTENANT JG II",
+      "officer_ability_value": 0.6,
+      "requirements": {
+        "badges": 0,
+        "credits": 1100,
+        "others": [],
+        "shards": 100,
+        "xp": 50000
+      },
+      "below_deck_ability_value": 0.3
+    },
+    {
+      "rank_id": 3,
+      "name": "LIEUTENANT III",
+      "officer_ability_value": 0.8,
+      "requirements": {
+        "badges": 1,
+        "credits": 4500,
+        "others": [],
+        "shards": 200,
+        "xp": 500000
+      },
+      "below_deck_ability_value": 0.4
+    },
+    {
+      "rank_id": 4,
+      "name": "LT. COMMANDER IV",
+      "officer_ability_value": 1.1,
+      "requirements": {
+        "badges": 2,
+        "credits": 11500,
+        "others": [],
+        "shards": 300,
+        "xp": 1250000
+      },
+      "below_deck_ability_value": 0.55
+    },
+    {
+      "rank_id": 5,
+      "name": "COMMANDER V",
+      "officer_ability_value": 1.5,
+      "requirements": {
+        "badges": 4,
+        "credits": 25000,
+        "others": [],
+        "shards": 800,
+        "xp": 2500000
+      },
+      "below_deck_ability_value": 0.75
+    }
+  ],
+  "img_url": "./assets/quasi.png"
+}
