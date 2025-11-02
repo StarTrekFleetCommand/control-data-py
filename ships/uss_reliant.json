@@ -1,0 +1,6051 @@
+{
+  "ship_name": "USS RELIANT",
+  "description": "The USS Reliant (NCC-1864) was a Miranda-class starship commanded by Starfleet Captain Clark Terrell in the 23rd century. Launched in 2264, the Reliant remained in active service for two decades before being assigned to support the burgeoning Project Genesis. At the request of Doctor Carol Marcus, the Reliant was tasked with seeking out a lifeless planet that would serve as the testing ground for the latter stages of Project Genesis. It was during this mission that the Reliant would mistake its intended destination, Ceti Alpha VI, for its sister planet, Ceti Alpha V. There, among the barren sands of this desolate planet, Captain Terrell and Commander Chekov, his first officer, would encounter the exiled tyrant Khan Noonien Singh and his devoted Augment followers. This fateful encounter would set Khan on the path of vengeance by granting him the tools necessary to exact the revenge he long desired - the approximate location of Admiral James T. Kirk, and the means by which to reach him. The USS Reliant was no longer a ship under Starfleet's control - it was now a vessel of retribution, commanded by a madman who would stop at nothing to settle a score with an old nemesis.",
+  "ship_class": "explorer",
+  "grade": 4,
+  "faction": "neutral",
+  "rarity": "epic",
+  "blueprints": {
+    "cost": 0,
+    "quantity": 200
+  },
+  "ship_ability": {
+    "title": "Always Reliant",
+    "description": "The USS Reliant increases its Isolytic damage by {value} against Augment Exile [WOK] hostiles.\n\nReliant Barrier\nThe USS Reliant increases its Apex Barrier by 50,000 against Augment Exile [WOK] hostiles.\n\nM/ARA Insulation\nShields the Warp Core of the USS Reliant preventing it from being affected by the Hijacked D7 and DY-200-class \"Dilithium Destabilization\" ship abilities.",
+    "percentage": true
+  },
+  "scrap_info": {
+    "scrappable": false
+  },
+  "requirements": [
+    {
+      "name": "Shipyard",
+      "level": 26
+    }
+  ],
+  "tiers": [
+    {
+      "tier": 1,
+      "build_time": 570000,
+      "repair_time": 37200,
+      "components": [
+        {
+          "name": "Pulsed Phaser",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": []
+          },
+          "repair_cost": [],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 885,
+              "armor_pierce": 118,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 243,
+              "min_damage": 199,
+              "shield_pierce": 177,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Pulsed Phaser",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": []
+          },
+          "repair_cost": [],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 885,
+              "armor_pierce": 118,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 324,
+              "min_damage": 265,
+              "shield_pierce": 177,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": []
+          },
+          "repair_cost": [],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 30,
+              "warp_speed": 3
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Photonic Torpedoes",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": []
+          },
+          "repair_cost": [],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 2360,
+              "armor_pierce": 315,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 1298,
+              "min_damage": 1062,
+              "shield_pierce": 472,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": []
+          },
+          "repair_cost": [],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 400000,
+              "increased_protected_cargo": 32000,
+              "ship_increased_cargo": 0,
+              "ship_increased_protected_cargo": 0
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": []
+          },
+          "repair_cost": [],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 1416,
+              "impulse_speed": 110
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": []
+          },
+          "repair_cost": [],
+          "additional_info": {
+            "armor_info": {
+              "armor": 944,
+              "hull_health": 3907
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": []
+          },
+          "repair_cost": [],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 9439,
+              "shield_health": 2605
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 11.0,
+          "additional_officer_slot": false,
+          "level": 1,
+          "ship_xp": 0
+        },
+        {
+          "ability_bonus": 12.0,
+          "additional_officer_slot": false,
+          "level": 2,
+          "ship_xp": 8000
+        },
+        {
+          "ability_bonus": 13.0,
+          "additional_officer_slot": false,
+          "level": 3,
+          "ship_xp": 12000
+        },
+        {
+          "ability_bonus": 14.0,
+          "additional_officer_slot": false,
+          "level": 4,
+          "ship_xp": 20000
+        },
+        {
+          "ability_bonus": 15.0,
+          "additional_officer_slot": false,
+          "level": 5,
+          "ship_xp": 29000
+        }
+      ],
+      "initial_build_cost": {
+        "resources": [
+          {
+            "type": "tritanium",
+            "value": 513000
+          },
+          {
+            "type": "dilithium",
+            "value": 130000
+          }
+        ],
+        "materials": [],
+        "others": []
+      }
+    },
+    {
+      "tier": 2,
+      "build_time": 480000,
+      "repair_time": 53880,
+      "components": [
+        {
+          "name": "Pulsed Phaser",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "common uss reliant parts",
+                "value": 5600
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 1081232
+            },
+            {
+              "type": "dilithium",
+              "value": 320
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 1106,
+              "armor_pierce": 147,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 304,
+              "min_damage": 249,
+              "shield_pierce": 221,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Pulsed Phaser",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "common uss reliant parts",
+                "value": 5600
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 1081232
+            },
+            {
+              "type": "dilithium",
+              "value": 320
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 1106,
+              "armor_pierce": 147,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 406,
+              "min_damage": 332,
+              "shield_pierce": 221,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "common uss reliant parts",
+                "value": 7000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 1621848
+            },
+            {
+              "type": "dilithium",
+              "value": 480
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 50,
+              "warp_speed": 3.2
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Photonic Torpedoes",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "common uss reliant parts",
+                "value": 5600
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 1081232
+            },
+            {
+              "type": "dilithium",
+              "value": 320
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 2950,
+              "armor_pierce": 393,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 1622,
+              "min_damage": 1327,
+              "shield_pierce": 590,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "common uss reliant parts",
+                "value": 8400
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 2162464
+            },
+            {
+              "type": "dilithium",
+              "value": 639
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 140000,
+              "increased_protected_cargo": 11200,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 1000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "common uss reliant parts",
+                "value": 5600
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 1081232
+            },
+            {
+              "type": "dilithium",
+              "value": 320
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 1770,
+              "impulse_speed": 111
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "common uss reliant parts",
+                "value": 9800
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 1892156
+            },
+            {
+              "type": "dilithium",
+              "value": 559
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 1180,
+              "hull_health": 4701
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "common uss reliant parts",
+                "value": 11200
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 1351540
+            },
+            {
+              "type": "dilithium",
+              "value": 400
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 11799,
+              "shield_health": 3134
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 23.0,
+          "additional_officer_slot": false,
+          "level": 6,
+          "ship_xp": 41000
+        },
+        {
+          "ability_bonus": 31.0,
+          "additional_officer_slot": false,
+          "level": 7,
+          "ship_xp": 59000
+        },
+        {
+          "ability_bonus": 39.0,
+          "additional_officer_slot": false,
+          "level": 8,
+          "ship_xp": 78000
+        },
+        {
+          "ability_bonus": 47.0,
+          "additional_officer_slot": false,
+          "level": 9,
+          "ship_xp": 100000
+        },
+        {
+          "ability_bonus": 55.0,
+          "additional_officer_slot": false,
+          "level": 10,
+          "ship_xp": 130000
+        }
+      ]
+    },
+    {
+      "tier": 3,
+      "build_time": 960000,
+      "repair_time": 64860,
+      "components": [
+        {
+          "name": "Pulsed Phaser",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "common uss reliant parts",
+                "value": 16800
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 4027832
+            },
+            {
+              "type": "dilithium",
+              "value": 1031
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 1493,
+              "armor_pierce": 199,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 411,
+              "min_damage": 336,
+              "shield_pierce": 299,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Pulsed Phaser",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "common uss reliant parts",
+                "value": 16800
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 4027832
+            },
+            {
+              "type": "dilithium",
+              "value": 1031
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 1493,
+              "armor_pierce": 199,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 548,
+              "min_damage": 448,
+              "shield_pierce": 299,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "common uss reliant parts",
+                "value": 21000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 6041748
+            },
+            {
+              "type": "dilithium",
+              "value": 1546
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 60,
+              "warp_speed": 3.4
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Photonic Torpedoes",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "common uss reliant parts",
+                "value": 16800
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 4027832
+            },
+            {
+              "type": "dilithium",
+              "value": 1031
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 3982,
+              "armor_pierce": 531,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 2190,
+              "min_damage": 1792,
+              "shield_pierce": 796,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "common uss reliant parts",
+                "value": 25200
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 8055664
+            },
+            {
+              "type": "dilithium",
+              "value": 2061
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 120000,
+              "increased_protected_cargo": 9600,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 1000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "common uss reliant parts",
+                "value": 16800
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 4027832
+            },
+            {
+              "type": "dilithium",
+              "value": 1031
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 2389,
+              "impulse_speed": 112
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "common uss reliant parts",
+                "value": 29400
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 7048706
+            },
+            {
+              "type": "dilithium",
+              "value": 1804
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 1593,
+              "hull_health": 14020
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "common uss reliant parts",
+                "value": 33600
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 5034790
+            },
+            {
+              "type": "dilithium",
+              "value": 1288
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 15929,
+              "shield_health": 9347
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 57.0,
+          "additional_officer_slot": false,
+          "level": 11,
+          "ship_xp": 158000
+        },
+        {
+          "ability_bonus": 59.0,
+          "additional_officer_slot": false,
+          "level": 12,
+          "ship_xp": 190000
+        },
+        {
+          "ability_bonus": 61.0,
+          "additional_officer_slot": false,
+          "level": 13,
+          "ship_xp": 235000
+        },
+        {
+          "ability_bonus": 63.0,
+          "additional_officer_slot": false,
+          "level": 14,
+          "ship_xp": 275000
+        },
+        {
+          "ability_bonus": 65.0,
+          "additional_officer_slot": false,
+          "level": 15,
+          "ship_xp": 318000
+        }
+      ]
+    },
+    {
+      "tier": 4,
+      "build_time": 1600000,
+      "repair_time": 95880,
+      "components": [
+        {
+          "name": "Pulsed Phaser",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "common uss reliant parts",
+                "value": 28000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 22761976
+            },
+            {
+              "type": "dilithium",
+              "value": 6206
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 2165,
+              "armor_pierce": 289,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 595,
+              "min_damage": 487,
+              "shield_pierce": 433,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Pulsed Phaser",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "common uss reliant parts",
+                "value": 28000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 22761976
+            },
+            {
+              "type": "dilithium",
+              "value": 6206
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 2165,
+              "armor_pierce": 289,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 794,
+              "min_damage": 650,
+              "shield_pierce": 433,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "common uss reliant parts",
+                "value": 35000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 34142964
+            },
+            {
+              "type": "dilithium",
+              "value": 9310
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 90,
+              "warp_speed": 3.6
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Photonic Torpedoes",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "common uss reliant parts",
+                "value": 28000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 22761976
+            },
+            {
+              "type": "dilithium",
+              "value": 6206
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 5774,
+              "armor_pierce": 770,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 3176,
+              "min_damage": 2598,
+              "shield_pierce": 1155,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "common uss reliant parts",
+                "value": 42000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 45523952
+            },
+            {
+              "type": "dilithium",
+              "value": 12413
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 120000,
+              "increased_protected_cargo": 9600,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 1000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "common uss reliant parts",
+                "value": 28000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 22761976
+            },
+            {
+              "type": "dilithium",
+              "value": 6206
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 3464,
+              "impulse_speed": 113
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "common uss reliant parts",
+                "value": 49000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 39833458
+            },
+            {
+              "type": "dilithium",
+              "value": 10861
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 2310,
+              "hull_health": 38021
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "common uss reliant parts",
+                "value": 56000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 28452470
+            },
+            {
+              "type": "dilithium",
+              "value": 7758
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 23097,
+              "shield_health": 25347
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 72.0,
+          "additional_officer_slot": false,
+          "level": 16,
+          "ship_xp": 378000
+        },
+        {
+          "ability_bonus": 79.0,
+          "additional_officer_slot": false,
+          "level": 17,
+          "ship_xp": 430000
+        },
+        {
+          "ability_bonus": 86.0,
+          "additional_officer_slot": false,
+          "level": 18,
+          "ship_xp": 483000
+        },
+        {
+          "ability_bonus": 93.0,
+          "additional_officer_slot": false,
+          "level": 19,
+          "ship_xp": 565000
+        },
+        {
+          "ability_bonus": 100.0,
+          "additional_officer_slot": false,
+          "level": 20,
+          "ship_xp": 628000
+        }
+      ]
+    },
+    {
+      "tier": 5,
+      "build_time": 2400000,
+      "repair_time": 105540,
+      "components": [
+        {
+          "name": "Pulsed Phaser",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "uncommon uss reliant parts",
+                "value": 22000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 40675896
+            },
+            {
+              "type": "dilithium",
+              "value": 14290
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 3031,
+              "armor_pierce": 404,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 834,
+              "min_damage": 682,
+              "shield_pierce": 606,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Pulsed Phaser",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "uncommon uss reliant parts",
+                "value": 22000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 40675896
+            },
+            {
+              "type": "dilithium",
+              "value": 14290
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 3031,
+              "armor_pierce": 404,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 1112,
+              "min_damage": 909,
+              "shield_pierce": 606,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "uncommon uss reliant parts",
+                "value": 27500
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 61013844
+            },
+            {
+              "type": "dilithium",
+              "value": 21434
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 95,
+              "warp_speed": 3.8
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Photonic Torpedoes",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "uncommon uss reliant parts",
+                "value": 22000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 40675896
+            },
+            {
+              "type": "dilithium",
+              "value": 14290
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 8084,
+              "armor_pierce": 1078,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 4446,
+              "min_damage": 3638,
+              "shield_pierce": 1617,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "uncommon uss reliant parts",
+                "value": 33000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 81351792
+            },
+            {
+              "type": "dilithium",
+              "value": 28579
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 160000,
+              "increased_protected_cargo": 12800,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 1000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "uncommon uss reliant parts",
+                "value": 22000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 40675896
+            },
+            {
+              "type": "dilithium",
+              "value": 14290
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 4850,
+              "impulse_speed": 114
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "uncommon uss reliant parts",
+                "value": 38500
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 71182818
+            },
+            {
+              "type": "dilithium",
+              "value": 25007
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 3234,
+              "hull_health": 59827
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "uncommon uss reliant parts",
+                "value": 44000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 50844870
+            },
+            {
+              "type": "dilithium",
+              "value": 17862
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 32335,
+              "shield_health": 39885
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 107.0,
+          "additional_officer_slot": false,
+          "level": 21,
+          "ship_xp": 695000
+        },
+        {
+          "ability_bonus": 114.0,
+          "additional_officer_slot": false,
+          "level": 22,
+          "ship_xp": 798000
+        },
+        {
+          "ability_bonus": 121.0,
+          "additional_officer_slot": false,
+          "level": 23,
+          "ship_xp": 875000
+        },
+        {
+          "ability_bonus": 128.0,
+          "additional_officer_slot": false,
+          "level": 24,
+          "ship_xp": 955000
+        },
+        {
+          "ability_bonus": 135.0,
+          "additional_officer_slot": false,
+          "level": 25,
+          "ship_xp": 1083000
+        }
+      ]
+    },
+    {
+      "tier": 6,
+      "build_time": 3200000,
+      "repair_time": 107880,
+      "components": [
+        {
+          "name": "Pulsed Phaser",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "uncommon uss reliant parts",
+                "value": 30800
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 69531496
+            },
+            {
+              "type": "dilithium",
+              "value": 24746
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 3941,
+              "armor_pierce": 525,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 1084,
+              "min_damage": 887,
+              "shield_pierce": 788,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Pulsed Phaser",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "uncommon uss reliant parts",
+                "value": 30800
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 69531496
+            },
+            {
+              "type": "dilithium",
+              "value": 24746
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 3941,
+              "armor_pierce": 525,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 1445,
+              "min_damage": 1182,
+              "shield_pierce": 788,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "uncommon uss reliant parts",
+                "value": 38500
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 104297244
+            },
+            {
+              "type": "dilithium",
+              "value": 37120
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 100,
+              "warp_speed": 4
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Photonic Torpedoes",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "uncommon uss reliant parts",
+                "value": 30800
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 69531496
+            },
+            {
+              "type": "dilithium",
+              "value": 24746
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 10509,
+              "armor_pierce": 1401,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 5780,
+              "min_damage": 4729,
+              "shield_pierce": 2102,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "uncommon uss reliant parts",
+                "value": 46200
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 139062992
+            },
+            {
+              "type": "dilithium",
+              "value": 49493
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 200000,
+              "increased_protected_cargo": 16000,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 1000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "uncommon uss reliant parts",
+                "value": 30800
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 69531496
+            },
+            {
+              "type": "dilithium",
+              "value": 24746
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 6305,
+              "impulse_speed": 115
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "uncommon uss reliant parts",
+                "value": 53900
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 121680118
+            },
+            {
+              "type": "dilithium",
+              "value": 43306
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 4204,
+              "hull_health": 84654
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "uncommon uss reliant parts",
+                "value": 61600
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 86914370
+            },
+            {
+              "type": "dilithium",
+              "value": 30933
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 42036,
+              "shield_health": 56436
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 142.0,
+          "additional_officer_slot": false,
+          "level": 26,
+          "ship_xp": 1175000
+        },
+        {
+          "ability_bonus": 149.0,
+          "additional_officer_slot": false,
+          "level": 27,
+          "ship_xp": 1270000
+        },
+        {
+          "ability_bonus": 156.0,
+          "additional_officer_slot": false,
+          "level": 28,
+          "ship_xp": 1423000
+        },
+        {
+          "ability_bonus": 163.0,
+          "additional_officer_slot": false,
+          "level": 29,
+          "ship_xp": 1530000
+        },
+        {
+          "ability_bonus": 170.0,
+          "additional_officer_slot": false,
+          "level": 30,
+          "ship_xp": 1640000
+        }
+      ]
+    },
+    {
+      "tier": 7,
+      "build_time": 4000000,
+      "repair_time": 132540,
+      "components": [
+        {
+          "name": "Pulsed Phaser",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "uncommon uss reliant parts",
+                "value": 39600
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 165591432
+            },
+            {
+              "type": "dilithium",
+              "value": 54032
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 4729,
+              "armor_pierce": 631,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 1300,
+              "min_damage": 1064,
+              "shield_pierce": 946,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Pulsed Phaser",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "uncommon uss reliant parts",
+                "value": 39600
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 165591432
+            },
+            {
+              "type": "dilithium",
+              "value": 54032
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 4729,
+              "armor_pierce": 631,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 1734,
+              "min_damage": 1419,
+              "shield_pierce": 946,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "uncommon uss reliant parts",
+                "value": 49500
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 248387148
+            },
+            {
+              "type": "dilithium",
+              "value": 81048
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 110,
+              "warp_speed": 4.2
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Photonic Torpedoes",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "uncommon uss reliant parts",
+                "value": 39600
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 165591432
+            },
+            {
+              "type": "dilithium",
+              "value": 54032
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 12611,
+              "armor_pierce": 1681,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 6936,
+              "min_damage": 5675,
+              "shield_pierce": 2522,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "uncommon uss reliant parts",
+                "value": 59400
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 331182864
+            },
+            {
+              "type": "dilithium",
+              "value": 108064
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 220000,
+              "increased_protected_cargo": 17600,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 1000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "uncommon uss reliant parts",
+                "value": 39600
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 165591432
+            },
+            {
+              "type": "dilithium",
+              "value": 54032
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 7566,
+              "impulse_speed": 116
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "uncommon uss reliant parts",
+                "value": 69300
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 289785006
+            },
+            {
+              "type": "dilithium",
+              "value": 94556
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 5044,
+              "hull_health": 88830
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "uncommon uss reliant parts",
+                "value": 79200
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 206989290
+            },
+            {
+              "type": "dilithium",
+              "value": 67540
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 50443,
+              "shield_health": 59220
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 177.0,
+          "additional_officer_slot": false,
+          "level": 31,
+          "ship_xp": 1825000
+        },
+        {
+          "ability_bonus": 184.0,
+          "additional_officer_slot": false,
+          "level": 32,
+          "ship_xp": 1948000
+        },
+        {
+          "ability_bonus": 191.0,
+          "additional_officer_slot": false,
+          "level": 33,
+          "ship_xp": 2075000
+        },
+        {
+          "ability_bonus": 198.0,
+          "additional_officer_slot": false,
+          "level": 34,
+          "ship_xp": 2293000
+        },
+        {
+          "ability_bonus": 205.0,
+          "additional_officer_slot": false,
+          "level": 35,
+          "ship_xp": 2433000
+        }
+      ]
+    },
+    {
+      "tier": 8,
+      "build_time": 5200000,
+      "repair_time": 151200,
+      "components": [
+        {
+          "name": "Pulsed Phaser",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "uncommon uss reliant parts",
+                "value": 48400
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 371373504
+            },
+            {
+              "type": "dilithium",
+              "value": 164749
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 5911,
+              "armor_pierce": 788,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 1626,
+              "min_damage": 1330,
+              "shield_pierce": 1182,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Pulsed Phaser",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "uncommon uss reliant parts",
+                "value": 48400
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 371373504
+            },
+            {
+              "type": "dilithium",
+              "value": 164749
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 5911,
+              "armor_pierce": 788,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 2167,
+              "min_damage": 1773,
+              "shield_pierce": 1182,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "uncommon uss reliant parts",
+                "value": 60500
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 557060256
+            },
+            {
+              "type": "dilithium",
+              "value": 247123
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 120,
+              "warp_speed": 4.4
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Photonic Torpedoes",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "uncommon uss reliant parts",
+                "value": 48400
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 371373504
+            },
+            {
+              "type": "dilithium",
+              "value": 164749
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 15763,
+              "armor_pierce": 2102,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 8670,
+              "min_damage": 7094,
+              "shield_pierce": 3153,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "uncommon uss reliant parts",
+                "value": 72600
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 742747008
+            },
+            {
+              "type": "dilithium",
+              "value": 329498
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 270000,
+              "increased_protected_cargo": 21600,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 1000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "uncommon uss reliant parts",
+                "value": 48400
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 371373504
+            },
+            {
+              "type": "dilithium",
+              "value": 164749
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 9458,
+              "impulse_speed": 117
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "uncommon uss reliant parts",
+                "value": 84700
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 649903632
+            },
+            {
+              "type": "dilithium",
+              "value": 288310
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 6305,
+              "hull_health": 123687
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "uncommon uss reliant parts",
+                "value": 96800
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 464216880
+            },
+            {
+              "type": "dilithium",
+              "value": 205936
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 63054,
+              "shield_health": 82458
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 212.0,
+          "additional_officer_slot": false,
+          "level": 36,
+          "ship_xp": 2578000
+        },
+        {
+          "ability_bonus": 219.0,
+          "additional_officer_slot": false,
+          "level": 37,
+          "ship_xp": 2830000
+        },
+        {
+          "ability_bonus": 226.0,
+          "additional_officer_slot": false,
+          "level": 38,
+          "ship_xp": 2990000
+        },
+        {
+          "ability_bonus": 233.0,
+          "additional_officer_slot": false,
+          "level": 39,
+          "ship_xp": 3153000
+        },
+        {
+          "ability_bonus": 240.0,
+          "additional_officer_slot": false,
+          "level": 40,
+          "ship_xp": 3445000
+        }
+      ]
+    },
+    {
+      "tier": 9,
+      "build_time": 6400000,
+      "repair_time": 175860,
+      "components": [
+        {
+          "name": "Pulsed Phaser",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "uncommon uss reliant parts",
+                "value": 66000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 533734616
+            },
+            {
+              "type": "dilithium",
+              "value": 262956
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 7685,
+              "armor_pierce": 1025,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 2113,
+              "min_damage": 1729,
+              "shield_pierce": 1537,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Pulsed Phaser",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "uncommon uss reliant parts",
+                "value": 66000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 533734616
+            },
+            {
+              "type": "dilithium",
+              "value": 262956
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 7685,
+              "armor_pierce": 1025,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 2818,
+              "min_damage": 2305,
+              "shield_pierce": 1537,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "uncommon uss reliant parts",
+                "value": 82500
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 800601924
+            },
+            {
+              "type": "dilithium",
+              "value": 394433
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 140,
+              "warp_speed": 4.6
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Photonic Torpedoes",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "uncommon uss reliant parts",
+                "value": 66000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 533734616
+            },
+            {
+              "type": "dilithium",
+              "value": 262956
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 20492,
+              "armor_pierce": 2732,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 11271,
+              "min_damage": 9222,
+              "shield_pierce": 4098,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "uncommon uss reliant parts",
+                "value": 99000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 1067469232
+            },
+            {
+              "type": "dilithium",
+              "value": 525911
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 330000,
+              "increased_protected_cargo": 26400,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 1000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "uncommon uss reliant parts",
+                "value": 66000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 533734616
+            },
+            {
+              "type": "dilithium",
+              "value": 262956
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 12295,
+              "impulse_speed": 118
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "uncommon uss reliant parts",
+                "value": 115500
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 934035578
+            },
+            {
+              "type": "dilithium",
+              "value": 460172
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 8197,
+              "hull_health": 175982
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "uncommon uss reliant parts",
+                "value": 132000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 667168270
+            },
+            {
+              "type": "dilithium",
+              "value": 328694
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 81970,
+              "shield_health": 117321
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 247.0,
+          "additional_officer_slot": false,
+          "level": 41,
+          "ship_xp": 3623000
+        },
+        {
+          "ability_bonus": 254.0,
+          "additional_officer_slot": false,
+          "level": 42,
+          "ship_xp": 3805000
+        },
+        {
+          "ability_bonus": 261.0,
+          "additional_officer_slot": false,
+          "level": 43,
+          "ship_xp": 4140000
+        },
+        {
+          "ability_bonus": 268.0,
+          "additional_officer_slot": false,
+          "level": 44,
+          "ship_xp": 4340000
+        },
+        {
+          "ability_bonus": 275.0,
+          "additional_officer_slot": false,
+          "level": 45,
+          "ship_xp": 4543000
+        }
+      ]
+    },
+    {
+      "tier": 10,
+      "build_time": 8000000,
+      "repair_time": 185520,
+      "components": [
+        {
+          "name": "Pulsed Phaser",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "rare uss reliant parts",
+                "value": 48000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 1660294840
+            },
+            {
+              "type": "dilithium",
+              "value": 989592
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 11527,
+              "armor_pierce": 1537,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 3170,
+              "min_damage": 2594,
+              "shield_pierce": 2305,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Pulsed Phaser",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "rare uss reliant parts",
+                "value": 48000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 1660294840
+            },
+            {
+              "type": "dilithium",
+              "value": 989592
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 11527,
+              "armor_pierce": 1537,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 4227,
+              "min_damage": 3458,
+              "shield_pierce": 2305,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "rare uss reliant parts",
+                "value": 60000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 2490442260
+            },
+            {
+              "type": "dilithium",
+              "value": 1484388
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 160,
+              "warp_speed": 5
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Photonic Torpedoes",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "rare uss reliant parts",
+                "value": 48000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 1660294840
+            },
+            {
+              "type": "dilithium",
+              "value": 989592
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 30739,
+              "armor_pierce": 4098,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 16906,
+              "min_damage": 13832,
+              "shield_pierce": 6148,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "rare uss reliant parts",
+                "value": 72000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 3320589680
+            },
+            {
+              "type": "dilithium",
+              "value": 1979183
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 390000,
+              "increased_protected_cargo": 31200,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 1000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "rare uss reliant parts",
+                "value": 48000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 1660294840
+            },
+            {
+              "type": "dilithium",
+              "value": 989592
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 18443,
+              "impulse_speed": 119
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "rare uss reliant parts",
+                "value": 84000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 2905515970
+            },
+            {
+              "type": "dilithium",
+              "value": 1731785
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 12295,
+              "hull_health": 323457
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "rare uss reliant parts",
+                "value": 96000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 2075368550
+            },
+            {
+              "type": "dilithium",
+              "value": 1236990
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 122954,
+              "shield_health": 215638
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 282.0,
+          "additional_officer_slot": false,
+          "level": 46,
+          "ship_xp": 4923000
+        },
+        {
+          "ability_bonus": 289.0,
+          "additional_officer_slot": false,
+          "level": 47,
+          "ship_xp": 5143000
+        },
+        {
+          "ability_bonus": 296.0,
+          "additional_officer_slot": false,
+          "level": 48,
+          "ship_xp": 5370000
+        },
+        {
+          "ability_bonus": 303.0,
+          "additional_officer_slot": false,
+          "level": 49,
+          "ship_xp": 5798000
+        },
+        {
+          "ability_bonus": 310.0,
+          "additional_officer_slot": false,
+          "level": 50,
+          "ship_xp": 6040000
+        }
+      ]
+    },
+    {
+      "tier": 11,
+      "build_time": 10400000,
+      "repair_time": 196200,
+      "components": [
+        {
+          "name": "Pulsed Phaser",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "rare uss reliant parts",
+                "value": 60000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 2617155528
+            },
+            {
+              "type": "dilithium",
+              "value": 1509336
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 16138,
+              "armor_pierce": 2152,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 4438,
+              "min_damage": 3631,
+              "shield_pierce": 3228,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Pulsed Phaser",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "rare uss reliant parts",
+                "value": 60000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 2617155528
+            },
+            {
+              "type": "dilithium",
+              "value": 1509336
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 16138,
+              "armor_pierce": 2152,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 5917,
+              "min_damage": 4841,
+              "shield_pierce": 3228,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "rare uss reliant parts",
+                "value": 75000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 3925733292
+            },
+            {
+              "type": "dilithium",
+              "value": 2264003
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 200,
+              "warp_speed": 5.6
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Photonic Torpedoes",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "rare uss reliant parts",
+                "value": 60000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 2617155528
+            },
+            {
+              "type": "dilithium",
+              "value": 1509336
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 43034,
+              "armor_pierce": 5738,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 23669,
+              "min_damage": 19365,
+              "shield_pierce": 8607,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "rare uss reliant parts",
+                "value": 90000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 5234311056
+            },
+            {
+              "type": "dilithium",
+              "value": 3018671
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 470000,
+              "increased_protected_cargo": 37600,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 1000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "rare uss reliant parts",
+                "value": 60000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 2617155528
+            },
+            {
+              "type": "dilithium",
+              "value": 1509336
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 25820,
+              "impulse_speed": 120
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "rare uss reliant parts",
+                "value": 105000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 4580022174
+            },
+            {
+              "type": "dilithium",
+              "value": 2641337
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 17214,
+              "hull_health": 391397
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "rare uss reliant parts",
+                "value": 120000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 3271444410
+            },
+            {
+              "type": "dilithium",
+              "value": 1886669
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 172136,
+              "shield_health": 260931
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 317.0,
+          "additional_officer_slot": false,
+          "level": 51,
+          "ship_xp": 6290000
+        },
+        {
+          "ability_bonus": 324.0,
+          "additional_officer_slot": false,
+          "level": 52,
+          "ship_xp": 6770000
+        },
+        {
+          "ability_bonus": 331.0,
+          "additional_officer_slot": false,
+          "level": 53,
+          "ship_xp": 7038000
+        },
+        {
+          "ability_bonus": 338.0,
+          "additional_officer_slot": false,
+          "level": 54,
+          "ship_xp": 7310000
+        },
+        {
+          "ability_bonus": 345.0,
+          "additional_officer_slot": false,
+          "level": 55,
+          "ship_xp": 7848000
+        }
+      ]
+    },
+    {
+      "tier": 12,
+      "build_time": 14400000,
+      "repair_time": 230520,
+      "components": [
+        {
+          "name": "Pulsed Phaser",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "rare uss reliant parts",
+                "value": 72000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 5280266944
+            },
+            {
+              "type": "dilithium",
+              "value": 3292068
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 25820,
+              "armor_pierce": 3443,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 7101,
+              "min_damage": 5810,
+              "shield_pierce": 5164,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Pulsed Phaser",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "rare uss reliant parts",
+                "value": 72000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 5280266944
+            },
+            {
+              "type": "dilithium",
+              "value": 3292068
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 25820,
+              "armor_pierce": 3443,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 9467,
+              "min_damage": 7746,
+              "shield_pierce": 5164,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "rare uss reliant parts",
+                "value": 90000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 7920400416
+            },
+            {
+              "type": "dilithium",
+              "value": 4938102
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 320,
+              "warp_speed": 6.2
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Photonic Torpedoes",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "rare uss reliant parts",
+                "value": 72000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 5280266944
+            },
+            {
+              "type": "dilithium",
+              "value": 3292068
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 68854,
+              "armor_pierce": 9181,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 37870,
+              "min_damage": 30985,
+              "shield_pierce": 13771,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "rare uss reliant parts",
+                "value": 108000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 10560533888
+            },
+            {
+              "type": "dilithium",
+              "value": 6584136
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 570000,
+              "increased_protected_cargo": 45600,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 1000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "rare uss reliant parts",
+                "value": 72000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 5280266944
+            },
+            {
+              "type": "dilithium",
+              "value": 3292068
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 41313,
+              "impulse_speed": 121
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "rare uss reliant parts",
+                "value": 126000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 9240467152
+            },
+            {
+              "type": "dilithium",
+              "value": 5761119
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 27542,
+              "hull_health": 643984
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "rare uss reliant parts",
+                "value": 144000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 6600333680
+            },
+            {
+              "type": "dilithium",
+              "value": 4115085
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 275418,
+              "shield_health": 429323
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 352.0,
+          "additional_officer_slot": false,
+          "level": 56,
+          "ship_xp": 8143000
+        },
+        {
+          "ability_bonus": 359.0,
+          "additional_officer_slot": false,
+          "level": 57,
+          "ship_xp": 8440000
+        },
+        {
+          "ability_bonus": 366.0,
+          "additional_officer_slot": false,
+          "level": 58,
+          "ship_xp": 9038000
+        },
+        {
+          "ability_bonus": 373.0,
+          "additional_officer_slot": false,
+          "level": 59,
+          "ship_xp": 9355000
+        },
+        {
+          "ability_bonus": 380.0,
+          "additional_officer_slot": false,
+          "level": 60,
+          "ship_xp": 10000000
+        }
+      ]
+    },
+    {
+      "tier": 13,
+      "build_time": 19200000,
+      "repair_time": 275880,
+      "components": [
+        {
+          "name": "Pulsed Phaser",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "rare uss reliant parts",
+                "value": 90000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 8982610416
+            },
+            {
+              "type": "dilithium",
+              "value": 5995267
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 38731,
+              "armor_pierce": 5164,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 10651,
+              "min_damage": 8714,
+              "shield_pierce": 7746,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Pulsed Phaser",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "rare uss reliant parts",
+                "value": 90000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 8982610416
+            },
+            {
+              "type": "dilithium",
+              "value": 5995267
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 38731,
+              "armor_pierce": 5164,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 14201,
+              "min_damage": 11619,
+              "shield_pierce": 7746,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "rare uss reliant parts",
+                "value": 112500
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 13473915624
+            },
+            {
+              "type": "dilithium",
+              "value": 8992901
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 500,
+              "warp_speed": 6.8
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Photonic Torpedoes",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "rare uss reliant parts",
+                "value": 90000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 8982610416
+            },
+            {
+              "type": "dilithium",
+              "value": 5995267
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 103282,
+              "armor_pierce": 13771,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 56805,
+              "min_damage": 46477,
+              "shield_pierce": 20656,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "rare uss reliant parts",
+                "value": 135000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 17965220832
+            },
+            {
+              "type": "dilithium",
+              "value": 11990534
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 680000,
+              "increased_protected_cargo": 88800,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 1000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "rare uss reliant parts",
+                "value": 90000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 8982610416
+            },
+            {
+              "type": "dilithium",
+              "value": 5995267
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 61969,
+              "impulse_speed": 122
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "rare uss reliant parts",
+                "value": 157500
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 15719568228
+            },
+            {
+              "type": "dilithium",
+              "value": 10491718
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 41313,
+              "hull_health": 989931
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "rare uss reliant parts",
+                "value": 180000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 11228263020
+            },
+            {
+              "type": "dilithium",
+              "value": 7494084
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 413127,
+              "shield_health": 659954
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 387.0,
+          "additional_officer_slot": false,
+          "level": 61,
+          "ship_xp": 10100000
+        },
+        {
+          "ability_bonus": 394.0,
+          "additional_officer_slot": false,
+          "level": 62,
+          "ship_xp": 10201000
+        },
+        {
+          "ability_bonus": 401.0,
+          "additional_officer_slot": false,
+          "level": 63,
+          "ship_xp": 10303010
+        },
+        {
+          "ability_bonus": 408.0,
+          "additional_officer_slot": false,
+          "level": 64,
+          "ship_xp": 10406040
+        },
+        {
+          "ability_bonus": 415.0,
+          "additional_officer_slot": false,
+          "level": 65,
+          "ship_xp": 10510101
+        }
+      ]
+    },
+    {
+      "tier": 14,
+      "build_time": 22080000,
+      "repair_time": 313200,
+      "components": [
+        {
+          "name": "Pulsed Phaser",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "rare uss reliant parts",
+                "value": 120000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 12315923088
+            },
+            {
+              "type": "dilithium",
+              "value": 8849194
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 52286,
+              "armor_pierce": 6972,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 14379,
+              "min_damage": 11764,
+              "shield_pierce": 10457,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Pulsed Phaser",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "rare uss reliant parts",
+                "value": 120000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 12315923088
+            },
+            {
+              "type": "dilithium",
+              "value": 8849194
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 52286,
+              "armor_pierce": 6972,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 19172,
+              "min_damage": 15686,
+              "shield_pierce": 10457,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "rare uss reliant parts",
+                "value": 150000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 18473884632
+            },
+            {
+              "type": "dilithium",
+              "value": 13273790
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 720,
+              "warp_speed": 7.4
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Photonic Torpedoes",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "rare uss reliant parts",
+                "value": 120000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 12315923088
+            },
+            {
+              "type": "dilithium",
+              "value": 8849194
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 139430,
+              "armor_pierce": 18591,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 76687,
+              "min_damage": 62744,
+              "shield_pierce": 27886,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "rare uss reliant parts",
+                "value": 180000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 24631846176
+            },
+            {
+              "type": "dilithium",
+              "value": 17698387
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 810000,
+              "increased_protected_cargo": 120000,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 1000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "rare uss reliant parts",
+                "value": 120000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 12315923088
+            },
+            {
+              "type": "dilithium",
+              "value": 8849194
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 83658,
+              "impulse_speed": 123
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "rare uss reliant parts",
+                "value": 210000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 21552865404
+            },
+            {
+              "type": "dilithium",
+              "value": 15486089
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 55772,
+              "hull_health": 1239011
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "rare uss reliant parts",
+                "value": 240000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 15394903860
+            },
+            {
+              "type": "dilithium",
+              "value": 11061492
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 557721,
+              "shield_health": 826007
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 422.0,
+          "additional_officer_slot": false,
+          "level": 66,
+          "ship_xp": 10615202
+        },
+        {
+          "ability_bonus": 429.0,
+          "additional_officer_slot": false,
+          "level": 67,
+          "ship_xp": 10721354
+        },
+        {
+          "ability_bonus": 436.0,
+          "additional_officer_slot": false,
+          "level": 68,
+          "ship_xp": 10828567
+        },
+        {
+          "ability_bonus": 443.0,
+          "additional_officer_slot": false,
+          "level": 69,
+          "ship_xp": 10936853
+        },
+        {
+          "ability_bonus": 450.0,
+          "additional_officer_slot": false,
+          "level": 70,
+          "ship_xp": 11046221
+        }
+      ]
+    },
+    {
+      "tier": 15,
+      "build_time": 25440000,
+      "repair_time": 375540,
+      "components": [
+        {
+          "name": "Pulsed Phaser",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "epic uss reliant parts",
+                "value": 114000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 408
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 1
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 65358,
+              "armor_pierce": 8714,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 17973,
+              "min_damage": 14706,
+              "shield_pierce": 13072,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Pulsed Phaser",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "epic uss reliant parts",
+                "value": 114000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 408
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 1
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 65358,
+              "armor_pierce": 8714,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 23965,
+              "min_damage": 19607,
+              "shield_pierce": 13072,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "epic uss reliant parts",
+                "value": 142500
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 612
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 2
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 750,
+              "warp_speed": 8
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Photonic Torpedoes",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "epic uss reliant parts",
+                "value": 114000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 408
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 1
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 174288,
+              "armor_pierce": 23238,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 95858,
+              "min_damage": 78430,
+              "shield_pierce": 34858,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "epic uss reliant parts",
+                "value": 171000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 816
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 3
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 980000,
+              "increased_protected_cargo": 220000,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 1000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "epic uss reliant parts",
+                "value": 114000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 408
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 1
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 104573,
+              "impulse_speed": 124
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "epic uss reliant parts",
+                "value": 199500
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 714
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 2
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 69715,
+              "hull_health": 2069395
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "epic uss reliant parts",
+                "value": 228000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 510
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 2
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 697152,
+              "shield_health": 1379597
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 457.0,
+          "additional_officer_slot": false,
+          "level": 71,
+          "ship_xp": 11155590
+        },
+        {
+          "ability_bonus": 464.0,
+          "additional_officer_slot": false,
+          "level": 72,
+          "ship_xp": 11264958
+        },
+        {
+          "ability_bonus": 471.0,
+          "additional_officer_slot": false,
+          "level": 73,
+          "ship_xp": 11374327
+        },
+        {
+          "ability_bonus": 478.0,
+          "additional_officer_slot": false,
+          "level": 74,
+          "ship_xp": 11483695
+        },
+        {
+          "ability_bonus": 485.0,
+          "additional_officer_slot": false,
+          "level": 75,
+          "ship_xp": 11593064
+        }
+      ]
+    },
+    {
+      "tier": 16,
+      "build_time": 33120000,
+      "repair_time": 445200,
+      "components": [
+        {
+          "name": "Pulsed Phaser",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "epic uss reliant parts",
+                "value": 152000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 696
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 2
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 98037,
+              "armor_pierce": 13072,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 26960,
+              "min_damage": 22058,
+              "shield_pierce": 19607,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Pulsed Phaser",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "epic uss reliant parts",
+                "value": 152000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 696
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 2
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 98037,
+              "armor_pierce": 13072,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 35947,
+              "min_damage": 29411,
+              "shield_pierce": 19607,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "epic uss reliant parts",
+                "value": 190000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 1044
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 3
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 800,
+              "warp_speed": 8.6
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Photonic Torpedoes",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "epic uss reliant parts",
+                "value": 152000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 696
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 2
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 261432,
+              "armor_pierce": 34858,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 143788,
+              "min_damage": 117644,
+              "shield_pierce": 52286,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "epic uss reliant parts",
+                "value": 228000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 1392
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 5
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 1170000,
+              "increased_protected_cargo": 300000,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 1000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "epic uss reliant parts",
+                "value": 152000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 696
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 2
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 156859,
+              "impulse_speed": 126
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "epic uss reliant parts",
+                "value": 266000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 1218
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 4
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 104573,
+              "hull_health": 3877208
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "epic uss reliant parts",
+                "value": 304000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 870
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 3
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 1045728,
+              "shield_health": 2584805
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 492.0,
+          "additional_officer_slot": false,
+          "level": 76,
+          "ship_xp": 11702432
+        },
+        {
+          "ability_bonus": 499.0,
+          "additional_officer_slot": false,
+          "level": 77,
+          "ship_xp": 11811801
+        },
+        {
+          "ability_bonus": 506.0,
+          "additional_officer_slot": false,
+          "level": 78,
+          "ship_xp": 11921169
+        },
+        {
+          "ability_bonus": 513.0,
+          "additional_officer_slot": false,
+          "level": 79,
+          "ship_xp": 12030538
+        },
+        {
+          "ability_bonus": 520.0,
+          "additional_officer_slot": false,
+          "level": 80,
+          "ship_xp": 12139907
+        }
+      ]
+    },
+    {
+      "tier": 17,
+      "build_time": 43040000,
+      "repair_time": 559200,
+      "components": [
+        {
+          "name": "Pulsed Phaser",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "epic uss reliant parts",
+                "value": 190000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 2040
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 7
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 156859,
+              "armor_pierce": 20915,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 43136,
+              "min_damage": 35293,
+              "shield_pierce": 31372,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Pulsed Phaser",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "epic uss reliant parts",
+                "value": 190000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 2040
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 7
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 156859,
+              "armor_pierce": 20915,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 57515,
+              "min_damage": 47058,
+              "shield_pierce": 31372,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "epic uss reliant parts",
+                "value": 237500
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 3060
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 10
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 850,
+              "warp_speed": 9.2
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Photonic Torpedoes",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "epic uss reliant parts",
+                "value": 190000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 2040
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 7
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 418291,
+              "armor_pierce": 55772,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 230060,
+              "min_damage": 188231,
+              "shield_pierce": 83658,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "epic uss reliant parts",
+                "value": 285000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 4080
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 14
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 1410000,
+              "increased_protected_cargo": 400000,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 1000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "epic uss reliant parts",
+                "value": 190000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 2040
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 7
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 250975,
+              "impulse_speed": 128
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "epic uss reliant parts",
+                "value": 332500
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 3570
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 12
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 167316,
+              "hull_health": 6162431
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "epic uss reliant parts",
+                "value": 380000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 2550
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 9
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 1673164,
+              "shield_health": 4108287
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 527.0,
+          "additional_officer_slot": false,
+          "level": 81,
+          "ship_xp": 12249275
+        },
+        {
+          "ability_bonus": 534.0,
+          "additional_officer_slot": false,
+          "level": 82,
+          "ship_xp": 12358644
+        },
+        {
+          "ability_bonus": 541.0,
+          "additional_officer_slot": false,
+          "level": 83,
+          "ship_xp": 12468012
+        },
+        {
+          "ability_bonus": 548.0,
+          "additional_officer_slot": false,
+          "level": 84,
+          "ship_xp": 12577381
+        },
+        {
+          "ability_bonus": 555.0,
+          "additional_officer_slot": false,
+          "level": 85,
+          "ship_xp": 12686749
+        }
+      ]
+    },
+    {
+      "tier": 18,
+      "build_time": 56000000,
+      "repair_time": 637860,
+      "components": [
+        {
+          "name": "Pulsed Phaser",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "epic uss reliant parts",
+                "value": 228000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 3608
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 12
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 261432,
+              "armor_pierce": 34858,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 47929,
+              "min_damage": 39215,
+              "shield_pierce": 52286,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Pulsed Phaser",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "epic uss reliant parts",
+                "value": 228000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 3608
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 12
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 392148,
+              "armor_pierce": 52286,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 143788,
+              "min_damage": 117644,
+              "shield_pierce": 78430,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "epic uss reliant parts",
+                "value": 285000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 5412
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 19
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 1050,
+              "warp_speed": 10
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Photonic Torpedoes",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "epic uss reliant parts",
+                "value": 228000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 3608
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 12
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 1568591,
+              "armor_pierce": 209146,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 575150,
+              "min_damage": 470577,
+              "shield_pierce": 313718,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "epic uss reliant parts",
+                "value": 342000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 7216
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 25
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 2560000,
+              "increased_protected_cargo": 600000,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 1000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "epic uss reliant parts",
+                "value": 228000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 3608
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 12
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 627437,
+              "impulse_speed": 130
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "epic uss reliant parts",
+                "value": 399000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 6314
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 22
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 418291,
+              "hull_health": 68912422
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": [
+              {
+                "type": "epic uss reliant parts",
+                "value": 456000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 4510
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 16
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 4182910,
+              "shield_health": 45941615
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 594.0,
+          "additional_officer_slot": false,
+          "level": 86,
+          "ship_xp": 12796118
+        },
+        {
+          "ability_bonus": 633.0,
+          "additional_officer_slot": false,
+          "level": 87,
+          "ship_xp": 12905486
+        },
+        {
+          "ability_bonus": 672.0,
+          "additional_officer_slot": false,
+          "level": 88,
+          "ship_xp": 13014855
+        },
+        {
+          "ability_bonus": 711.0,
+          "additional_officer_slot": false,
+          "level": 89,
+          "ship_xp": 13124223
+        },
+        {
+          "ability_bonus": 750.0,
+          "additional_officer_slot": false,
+          "level": 90,
+          "ship_xp": 13233592
+        }
+      ]
+    }
+  ],
+  "img_url": "./assets/uss_reliant.png"
+}
