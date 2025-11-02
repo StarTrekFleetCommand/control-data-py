@@ -1,15 +1,15 @@
 {
-  "building_name": "Armory",
-  "description": "The Armory allows access to ship refits that unlock new active abilities, as well as increasing the Hull Health, Shield Health, and Mitigation stats of all ships. \n\nUpgrading the Armory to certain levels will also grant enough refit shards to fully unlock the refits for specific ships. \n\nLevel 26: Mayflower, D3, Legionary\nLevel 28: Saladin, Bortas, Centurion\nLevel 42: Kelvin, K'T'inga, Valdore\nLevel 53: Northcutt, Vor'cha, Corvus",
+  "building_name": "Recon Locus",
+  "description": "Recon Locus vigilantly monitors novel intel, clandestine technologies, and secret projects to keep the Station up to the highest standards. Use Recon Locus to improve Building and Research Speed and safeguard your fleet from Hyperthermic Decay.\n\nReach level 51 of Recon Locus to unlock the Orion Syndicate Bomb Prototype Tech for free!",
   "levels": [
     {
       "level": 1,
       "build_time": 35,
-      "increased_power": 25,
+      "increased_power": 20,
       "requirements": [
         {
           "name": "Operations",
-          "level": 25
+          "level": 45
         }
       ],
       "build_costs": {
@@ -22,25 +22,27 @@
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 150
+            "type": "recon locus key",
+            "value": 1
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.05,
-        "bonus2": 0.05,
-        "bonus3": 0.05
+        "bonus1": 0.01,
+        "bonus2": 0.01,
+        "bonus3": 0.01,
+        "bonus4": 0.01,
+        "bonus5": 0.0
       }
     },
     {
       "level": 2,
       "build_time": 150,
-      "increased_power": 25,
+      "increased_power": 20,
       "requirements": [
         {
           "name": "Operations",
-          "level": 25
+          "level": 45
         }
       ],
       "build_costs": {
@@ -53,25 +55,27 @@
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 175
+            "type": "recon locus schematics",
+            "value": 14
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.1,
-        "bonus2": 0.1,
-        "bonus3": 0.1
+        "bonus1": 0.01,
+        "bonus2": 0.02,
+        "bonus3": 0.02,
+        "bonus4": 0.02,
+        "bonus5": 0.0
       }
     },
     {
       "level": 3,
       "build_time": 330,
-      "increased_power": 30,
+      "increased_power": 25,
       "requirements": [
         {
           "name": "Operations",
-          "level": 25
+          "level": 45
         }
       ],
       "build_costs": {
@@ -84,25 +88,27 @@
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 200
+            "type": "recon locus schematics",
+            "value": 15
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.15,
-        "bonus2": 0.15,
-        "bonus3": 0.15
+        "bonus1": 0.01,
+        "bonus2": 0.03,
+        "bonus3": 0.03,
+        "bonus4": 0.03,
+        "bonus5": 0.0
       }
     },
     {
       "level": 4,
       "build_time": 480,
-      "increased_power": 35,
+      "increased_power": 25,
       "requirements": [
         {
           "name": "Operations",
-          "level": 25
+          "level": 45
         }
       ],
       "build_costs": {
@@ -115,25 +121,27 @@
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 225
+            "type": "recon locus schematics",
+            "value": 17
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.2,
-        "bonus2": 0.2,
-        "bonus3": 0.2
+        "bonus1": 0.01,
+        "bonus2": 0.04,
+        "bonus3": 0.04,
+        "bonus4": 0.04,
+        "bonus5": 0.0
       }
     },
     {
       "level": 5,
       "build_time": 780,
-      "increased_power": 35,
+      "increased_power": 30,
       "requirements": [
         {
           "name": "Operations",
-          "level": 25
+          "level": 45
         }
       ],
       "build_costs": {
@@ -146,25 +154,27 @@
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 225
+            "type": "recon locus schematics",
+            "value": 18
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.25,
-        "bonus2": 0.25,
-        "bonus3": 0.25
+        "bonus1": 0.01,
+        "bonus2": 0.05,
+        "bonus3": 0.05,
+        "bonus4": 0.05,
+        "bonus5": 0.0
       }
     },
     {
       "level": 6,
       "build_time": 1380,
-      "increased_power": 50,
+      "increased_power": 40,
       "requirements": [
         {
           "name": "Operations",
-          "level": 25
+          "level": 45
         }
       ],
       "build_costs": {
@@ -177,15 +187,17 @@
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 250
+            "type": "recon locus schematics",
+            "value": 20
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.3,
-        "bonus2": 0.3,
-        "bonus3": 0.3
+        "bonus1": 0.03,
+        "bonus2": 0.06,
+        "bonus3": 0.06,
+        "bonus4": 0.06,
+        "bonus5": 0.0
       }
     },
     {
@@ -195,7 +207,7 @@
       "requirements": [
         {
           "name": "Operations",
-          "level": 25
+          "level": 45
         }
       ],
       "build_costs": {
@@ -208,25 +220,27 @@
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 275
+            "type": "recon locus schematics",
+            "value": 21
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.35,
-        "bonus2": 0.35,
-        "bonus3": 0.35
+        "bonus1": 0.03,
+        "bonus2": 0.07,
+        "bonus3": 0.07,
+        "bonus4": 0.07,
+        "bonus5": 0.0
       }
     },
     {
       "level": 8,
       "build_time": 3600,
-      "increased_power": 100,
+      "increased_power": 60,
       "requirements": [
         {
           "name": "Operations",
-          "level": 25
+          "level": 45
         }
       ],
       "build_costs": {
@@ -239,25 +253,27 @@
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 300
+            "type": "recon locus schematics",
+            "value": 23
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.4,
-        "bonus2": 0.4,
-        "bonus3": 0.4
+        "bonus1": 0.03,
+        "bonus2": 0.08,
+        "bonus3": 0.08,
+        "bonus4": 0.08,
+        "bonus5": 0.0
       }
     },
     {
       "level": 9,
       "build_time": 5400,
-      "increased_power": 75,
+      "increased_power": 70,
       "requirements": [
         {
           "name": "Operations",
-          "level": 25
+          "level": 45
         }
       ],
       "build_costs": {
@@ -270,25 +286,27 @@
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 325
+            "type": "recon locus schematics",
+            "value": 24
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.45,
-        "bonus2": 0.45,
-        "bonus3": 0.45
+        "bonus1": 0.03,
+        "bonus2": 0.09,
+        "bonus3": 0.09,
+        "bonus4": 0.09,
+        "bonus5": 0.0
       }
     },
     {
       "level": 10,
       "build_time": 6600,
-      "increased_power": 100,
+      "increased_power": 80,
       "requirements": [
         {
           "name": "Operations",
-          "level": 25
+          "level": 45
         }
       ],
       "build_costs": {
@@ -301,25 +319,27 @@
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 375
+            "type": "recon locus schematics",
+            "value": 26
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.5,
-        "bonus2": 0.5,
-        "bonus3": 0.5
+        "bonus1": 0.03,
+        "bonus2": 0.1,
+        "bonus3": 0.1,
+        "bonus4": 0.1,
+        "bonus5": 0.0
       }
     },
     {
       "level": 11,
       "build_time": 7500,
-      "increased_power": 125,
+      "increased_power": 105,
       "requirements": [
         {
           "name": "Operations",
-          "level": 25
+          "level": 45
         }
       ],
       "build_costs": {
@@ -332,25 +352,27 @@
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 400
+            "type": "recon locus schematics",
+            "value": 27
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.55,
-        "bonus2": 0.55,
-        "bonus3": 0.55
+        "bonus1": 0.05,
+        "bonus2": 0.12,
+        "bonus3": 0.11,
+        "bonus4": 0.12,
+        "bonus5": 0.0
       }
     },
     {
       "level": 12,
       "build_time": 13800,
-      "increased_power": 150,
+      "increased_power": 125,
       "requirements": [
         {
           "name": "Operations",
-          "level": 25
+          "level": 45
         }
       ],
       "build_costs": {
@@ -363,25 +385,27 @@
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 450
+            "type": "recon locus schematics",
+            "value": 29
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.6,
-        "bonus2": 0.6,
-        "bonus3": 0.6
+        "bonus1": 0.05,
+        "bonus2": 0.14,
+        "bonus3": 0.12,
+        "bonus4": 0.14,
+        "bonus5": 0.0
       }
     },
     {
       "level": 13,
       "build_time": 19500,
-      "increased_power": 200,
+      "increased_power": 150,
       "requirements": [
         {
           "name": "Operations",
-          "level": 25
+          "level": 45
         }
       ],
       "build_costs": {
@@ -394,25 +418,27 @@
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 475
+            "type": "recon locus schematics",
+            "value": 30
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.65,
-        "bonus2": 0.65,
-        "bonus3": 0.65
+        "bonus1": 0.05,
+        "bonus2": 0.16,
+        "bonus3": 0.13,
+        "bonus4": 0.16,
+        "bonus5": 0.0
       }
     },
     {
       "level": 14,
       "build_time": 25920,
-      "increased_power": 200,
+      "increased_power": 175,
       "requirements": [
         {
           "name": "Operations",
-          "level": 25
+          "level": 45
         }
       ],
       "build_costs": {
@@ -425,25 +451,27 @@
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 525
+            "type": "recon locus schematics",
+            "value": 32
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.7,
-        "bonus2": 0.7,
-        "bonus3": 0.7
+        "bonus1": 0.05,
+        "bonus2": 0.18,
+        "bonus3": 0.14,
+        "bonus4": 0.18,
+        "bonus5": 0.0
       }
     },
     {
       "level": 15,
       "build_time": 34560,
-      "increased_power": 250,
+      "increased_power": 200,
       "requirements": [
         {
           "name": "Operations",
-          "level": 25
+          "level": 45
         }
       ],
       "build_costs": {
@@ -456,25 +484,27 @@
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 550
+            "type": "recon locus schematics",
+            "value": 33
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.75,
-        "bonus2": 0.75,
-        "bonus3": 0.75
+        "bonus1": 0.05,
+        "bonus2": 0.2,
+        "bonus3": 0.15,
+        "bonus4": 0.2,
+        "bonus5": 0.0
       }
     },
     {
       "level": 16,
       "build_time": 41760,
-      "increased_power": 300,
+      "increased_power": 225,
       "requirements": [
         {
           "name": "Operations",
-          "level": 25
+          "level": 45
         }
       ],
       "build_costs": {
@@ -487,25 +517,27 @@
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 600
+            "type": "recon locus schematics",
+            "value": 35
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.81,
-        "bonus2": 0.81,
-        "bonus3": 0.81
+        "bonus1": 0.07,
+        "bonus2": 0.22,
+        "bonus3": 0.16,
+        "bonus4": 0.23,
+        "bonus5": 0.0
       }
     },
     {
       "level": 17,
       "build_time": 43200,
-      "increased_power": 375,
+      "increased_power": 300,
       "requirements": [
         {
           "name": "Operations",
-          "level": 25
+          "level": 45
         }
       ],
       "build_costs": {
@@ -518,25 +550,27 @@
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 650
+            "type": "recon locus schematics",
+            "value": 36
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.87,
-        "bonus2": 0.87,
-        "bonus3": 0.87
+        "bonus1": 0.07,
+        "bonus2": 0.24,
+        "bonus3": 0.17,
+        "bonus4": 0.26,
+        "bonus5": 0.0
       }
     },
     {
       "level": 18,
       "build_time": 64800,
-      "increased_power": 375,
+      "increased_power": 300,
       "requirements": [
         {
           "name": "Operations",
-          "level": 25
+          "level": 45
         }
       ],
       "build_costs": {
@@ -549,25 +583,27 @@
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 700
+            "type": "recon locus schematics",
+            "value": 38
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.93,
-        "bonus2": 0.93,
-        "bonus3": 0.93
+        "bonus1": 0.07,
+        "bonus2": 0.26,
+        "bonus3": 0.18,
+        "bonus4": 0.29,
+        "bonus5": 0.0
       }
     },
     {
       "level": 19,
       "build_time": 93600,
-      "increased_power": 375,
+      "increased_power": 300,
       "requirements": [
         {
           "name": "Operations",
-          "level": 25
+          "level": 45
         }
       ],
       "build_costs": {
@@ -580,25 +616,27 @@
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 750
+            "type": "recon locus schematics",
+            "value": 39
           }
         ]
       },
       "bonuses": {
-        "bonus1": 0.99,
-        "bonus2": 0.99,
-        "bonus3": 0.99
+        "bonus1": 0.07,
+        "bonus2": 0.28,
+        "bonus3": 0.19,
+        "bonus4": 0.32,
+        "bonus5": 0.0
       }
     },
     {
       "level": 20,
       "build_time": 134640,
-      "increased_power": 500,
+      "increased_power": 400,
       "requirements": [
         {
           "name": "Operations",
-          "level": 25
+          "level": 45
         }
       ],
       "build_costs": {
@@ -611,25 +649,27 @@
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 900
+            "type": "recon locus schematics",
+            "value": 41
           }
         ]
       },
       "bonuses": {
-        "bonus1": 1.05,
-        "bonus2": 1.05,
-        "bonus3": 1.05
+        "bonus1": 0.07,
+        "bonus2": 0.3,
+        "bonus3": 0.2,
+        "bonus4": 0.35,
+        "bonus5": 0.0
       }
     },
     {
       "level": 21,
       "build_time": 117360,
-      "increased_power": 500,
+      "increased_power": 400,
       "requirements": [
         {
           "name": "Operations",
-          "level": 25
+          "level": 45
         }
       ],
       "build_costs": {
@@ -642,25 +682,27 @@
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 1000
+            "type": "recon locus schematics",
+            "value": 42
           }
         ]
       },
       "bonuses": {
-        "bonus1": 1.12,
-        "bonus2": 1.12,
-        "bonus3": 1.12
+        "bonus1": 0.1,
+        "bonus2": 0.33,
+        "bonus3": 0.21,
+        "bonus4": 0.38,
+        "bonus5": 0.0
       }
     },
     {
       "level": 22,
       "build_time": 177840,
-      "increased_power": 625,
+      "increased_power": 500,
       "requirements": [
         {
           "name": "Operations",
-          "level": 25
+          "level": 45
         }
       ],
       "build_costs": {
@@ -673,25 +715,27 @@
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 1075
+            "type": "recon locus schematics",
+            "value": 44
           }
         ]
       },
       "bonuses": {
-        "bonus1": 1.19,
-        "bonus2": 1.19,
-        "bonus3": 1.19
+        "bonus1": 0.1,
+        "bonus2": 0.36,
+        "bonus3": 0.22,
+        "bonus4": 0.41,
+        "bonus5": 0.0
       }
     },
     {
       "level": 23,
       "build_time": 216000,
-      "increased_power": 625,
+      "increased_power": 500,
       "requirements": [
         {
           "name": "Operations",
-          "level": 25
+          "level": 45
         }
       ],
       "build_costs": {
@@ -704,25 +748,27 @@
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 1175
+            "type": "recon locus schematics",
+            "value": 45
           }
         ]
       },
       "bonuses": {
-        "bonus1": 1.26,
-        "bonus2": 1.26,
-        "bonus3": 1.26
+        "bonus1": 0.1,
+        "bonus2": 0.39,
+        "bonus3": 0.23,
+        "bonus4": 0.44,
+        "bonus5": 0.0
       }
     },
     {
       "level": 24,
       "build_time": 264960,
-      "increased_power": 750,
+      "increased_power": 600,
       "requirements": [
         {
           "name": "Operations",
-          "level": 25
+          "level": 45
         }
       ],
       "build_costs": {
@@ -735,25 +781,27 @@
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 1250
+            "type": "recon locus schematics",
+            "value": 47
           }
         ]
       },
       "bonuses": {
-        "bonus1": 1.33,
-        "bonus2": 1.33,
-        "bonus3": 1.33
+        "bonus1": 0.1,
+        "bonus2": 0.42,
+        "bonus3": 0.24,
+        "bonus4": 0.47,
+        "bonus5": 0.0
       }
     },
     {
       "level": 25,
       "build_time": 237600,
-      "increased_power": 625,
+      "increased_power": 550,
       "requirements": [
         {
           "name": "Operations",
-          "level": 25
+          "level": 45
         }
       ],
       "build_costs": {
@@ -766,25 +814,27 @@
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 1350
+            "type": "recon locus schematics",
+            "value": 48
           }
         ]
       },
       "bonuses": {
-        "bonus1": 1.4,
-        "bonus2": 1.4,
-        "bonus3": 1.4
+        "bonus1": 0.1,
+        "bonus2": 0.45,
+        "bonus3": 0.25,
+        "bonus4": 0.5,
+        "bonus5": 0.0
       }
     },
     {
       "level": 26,
       "build_time": 334080,
-      "increased_power": 1000,
+      "increased_power": 750,
       "requirements": [
         {
           "name": "Operations",
-          "level": 26
+          "level": 45
         }
       ],
       "build_costs": {
@@ -797,39 +847,27 @@
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 1450
+            "type": "recon locus schematics",
+            "value": 51
           }
         ]
       },
       "bonuses": {
-        "bonus1": 1.47,
-        "bonus2": 1.47,
-        "bonus3": 1.47
-      },
-      "rewards": [
-        {
-          "type": "Mayflower Relentless Assault Shard",
-          "value": 60
-        },
-        {
-          "type": "D3 Relentless Assault Shard",
-          "value": 60
-        },
-        {
-          "type": "Legionary Relentless Assault Shard",
-          "value": 60
-        }
-      ]
+        "bonus1": 0.15,
+        "bonus2": 0.48,
+        "bonus3": 0.26,
+        "bonus4": 0.55,
+        "bonus5": 0.0
+      }
     },
     {
       "level": 27,
       "build_time": 381600,
-      "increased_power": 950,
+      "increased_power": 750,
       "requirements": [
         {
           "name": "Operations",
-          "level": 27
+          "level": 45
         }
       ],
       "build_costs": {
@@ -842,25 +880,27 @@
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 1525
+            "type": "recon locus schematics",
+            "value": 54
           }
         ]
       },
       "bonuses": {
-        "bonus1": 1.54,
-        "bonus2": 1.54,
-        "bonus3": 1.54
+        "bonus1": 0.15,
+        "bonus2": 0.51,
+        "bonus3": 0.27,
+        "bonus4": 0.6,
+        "bonus5": 0.0
       }
     },
     {
       "level": 28,
       "build_time": 427680,
-      "increased_power": 925,
+      "increased_power": 750,
       "requirements": [
         {
           "name": "Operations",
-          "level": 28
+          "level": 45
         }
       ],
       "build_costs": {
@@ -873,39 +913,27 @@
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 1625
+            "type": "recon locus schematics",
+            "value": 57
           }
         ]
       },
       "bonuses": {
-        "bonus1": 1.61,
-        "bonus2": 1.61,
-        "bonus3": 1.61
-      },
-      "rewards": [
-        {
-          "type": "Saladin Relentless Assault Shard",
-          "value": 60
-        },
-        {
-          "type": "Bortas Relentless Assault Shard",
-          "value": 60
-        },
-        {
-          "type": "Centurion Relentless Assault Shard",
-          "value": 60
-        }
-      ]
+        "bonus1": 0.15,
+        "bonus2": 0.54,
+        "bonus3": 0.28,
+        "bonus4": 0.65,
+        "bonus5": 0.0
+      }
     },
     {
       "level": 29,
       "build_time": 491040,
-      "increased_power": 1250,
+      "increased_power": 1000,
       "requirements": [
         {
           "name": "Operations",
-          "level": 29
+          "level": 45
         }
       ],
       "build_costs": {
@@ -918,25 +946,27 @@
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 1700
+            "type": "recon locus schematics",
+            "value": 60
           }
         ]
       },
       "bonuses": {
-        "bonus1": 1.68,
-        "bonus2": 1.68,
-        "bonus3": 1.68
+        "bonus1": 0.15,
+        "bonus2": 0.57,
+        "bonus3": 0.29,
+        "bonus4": 0.7,
+        "bonus5": 0.0
       }
     },
     {
       "level": 30,
       "build_time": 531360,
-      "increased_power": 1250,
+      "increased_power": 1000,
       "requirements": [
         {
           "name": "Operations",
-          "level": 30
+          "level": 45
         }
       ],
       "build_costs": {
@@ -949,25 +979,27 @@
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 2075
+            "type": "recon locus schematics",
+            "value": 63
           }
         ]
       },
       "bonuses": {
-        "bonus1": 1.75,
-        "bonus2": 1.75,
-        "bonus3": 1.75
+        "bonus1": 0.15,
+        "bonus2": 0.6,
+        "bonus3": 0.3,
+        "bonus4": 0.75,
+        "bonus5": 0.0
       }
     },
     {
       "level": 31,
       "build_time": 669600,
-      "increased_power": 1250,
+      "increased_power": 1000,
       "requirements": [
         {
           "name": "Operations",
-          "level": 31
+          "level": 45
         }
       ],
       "build_costs": {
@@ -980,25 +1012,27 @@
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 2250
+            "type": "recon locus schematics",
+            "value": 66
           }
         ]
       },
       "bonuses": {
-        "bonus1": 1.82,
-        "bonus2": 1.82,
-        "bonus3": 1.82
+        "bonus1": 0.2,
+        "bonus2": 0.65,
+        "bonus3": 0.31,
+        "bonus4": 0.8,
+        "bonus5": 0.0
       }
     },
     {
       "level": 32,
       "build_time": 685440,
-      "increased_power": 1525,
+      "increased_power": 1250,
       "requirements": [
         {
           "name": "Operations",
-          "level": 32
+          "level": 45
         }
       ],
       "build_costs": {
@@ -1011,25 +1045,27 @@
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 2425
+            "type": "recon locus schematics",
+            "value": 69
           }
         ]
       },
       "bonuses": {
-        "bonus1": 1.89,
-        "bonus2": 1.89,
-        "bonus3": 1.89
+        "bonus1": 0.2,
+        "bonus2": 0.7,
+        "bonus3": 0.32,
+        "bonus4": 0.85,
+        "bonus5": 0.0
       }
     },
     {
       "level": 33,
       "build_time": 996480,
-      "increased_power": 1600,
+      "increased_power": 1250,
       "requirements": [
         {
           "name": "Operations",
-          "level": 33
+          "level": 45
         }
       ],
       "build_costs": {
@@ -1042,25 +1078,27 @@
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 2600
+            "type": "recon locus schematics",
+            "value": 73
           }
         ]
       },
       "bonuses": {
-        "bonus1": 1.96,
-        "bonus2": 1.96,
-        "bonus3": 1.96
+        "bonus1": 0.2,
+        "bonus2": 0.75,
+        "bonus3": 0.33,
+        "bonus4": 0.9,
+        "bonus5": 0.0
       }
     },
     {
       "level": 34,
       "build_time": 1260000,
-      "increased_power": 1550,
+      "increased_power": 1250,
       "requirements": [
         {
           "name": "Operations",
-          "level": 34
+          "level": 45
         }
       ],
       "build_costs": {
@@ -1073,25 +1111,27 @@
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 2800
+            "type": "recon locus schematics",
+            "value": 76
           }
         ]
       },
       "bonuses": {
-        "bonus1": 2.03,
-        "bonus2": 2.03,
-        "bonus3": 2.03
+        "bonus1": 0.2,
+        "bonus2": 0.8,
+        "bonus3": 0.34,
+        "bonus4": 0.95,
+        "bonus5": 0.0
       }
     },
     {
       "level": 35,
       "build_time": 1752480,
-      "increased_power": 1575,
+      "increased_power": 1250,
       "requirements": [
         {
           "name": "Operations",
-          "level": 35
+          "level": 45
         }
       ],
       "build_costs": {
@@ -1104,25 +1144,27 @@
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 2975
+            "type": "recon locus schematics",
+            "value": 79
           }
         ]
       },
       "bonuses": {
-        "bonus1": 2.11,
-        "bonus2": 2.11,
-        "bonus3": 2.11
+        "bonus1": 0.2,
+        "bonus2": 0.85,
+        "bonus3": 0.35,
+        "bonus4": 1.0,
+        "bonus5": 0.0
       }
     },
     {
       "level": 36,
       "build_time": 2239200,
-      "increased_power": 1875,
+      "increased_power": 1500,
       "requirements": [
         {
           "name": "Operations",
-          "level": 36
+          "level": 45
         }
       ],
       "build_costs": {
@@ -1135,25 +1177,27 @@
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 3250
+            "type": "recon locus schematics",
+            "value": 82
           }
         ]
       },
       "bonuses": {
-        "bonus1": 2.19,
-        "bonus2": 2.19,
-        "bonus3": 2.19
+        "bonus1": 0.25,
+        "bonus2": 0.95,
+        "bonus3": 0.36,
+        "bonus4": 1.1,
+        "bonus5": 0.0
       }
     },
     {
       "level": 37,
       "build_time": 2193120,
-      "increased_power": 2200,
+      "increased_power": 1750,
       "requirements": [
         {
           "name": "Operations",
-          "level": 37
+          "level": 45
         }
       ],
       "build_costs": {
@@ -1166,25 +1210,27 @@
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 3500
+            "type": "recon locus schematics",
+            "value": 85
           }
         ]
       },
       "bonuses": {
-        "bonus1": 2.27,
-        "bonus2": 2.27,
-        "bonus3": 2.27
+        "bonus1": 0.25,
+        "bonus2": 1.05,
+        "bonus3": 0.37,
+        "bonus4": 1.2,
+        "bonus5": 0.0
       }
     },
     {
       "level": 38,
       "build_time": 3801600,
-      "increased_power": 2175,
+      "increased_power": 1750,
       "requirements": [
         {
           "name": "Operations",
-          "level": 38
+          "level": 45
         }
       ],
       "build_costs": {
@@ -1197,25 +1243,27 @@
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 3775
+            "type": "recon locus schematics",
+            "value": 88
           }
         ]
       },
       "bonuses": {
-        "bonus1": 2.35,
-        "bonus2": 2.35,
-        "bonus3": 2.35
+        "bonus1": 0.25,
+        "bonus2": 1.15,
+        "bonus3": 0.38,
+        "bonus4": 1.3,
+        "bonus5": 0.0
       }
     },
     {
       "level": 39,
       "build_time": 5045760,
-      "increased_power": 1875,
+      "increased_power": 1500,
       "requirements": [
         {
           "name": "Operations",
-          "level": 39
+          "level": 45
         }
       ],
       "build_costs": {
@@ -1228,25 +1276,27 @@
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 4050
+            "type": "recon locus schematics",
+            "value": 91
           }
         ]
       },
       "bonuses": {
-        "bonus1": 2.43,
-        "bonus2": 2.43,
-        "bonus3": 2.43
+        "bonus1": 0.25,
+        "bonus2": 1.25,
+        "bonus3": 0.39,
+        "bonus4": 1.4,
+        "bonus5": 0.0
       }
     },
     {
       "level": 40,
       "build_time": 8377920,
-      "increased_power": 2500,
+      "increased_power": 2000,
       "requirements": [
         {
           "name": "Operations",
-          "level": 40
+          "level": 45
         }
       ],
       "build_costs": {
@@ -1259,25 +1309,27 @@
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 4850
+            "type": "recon locus schematics",
+            "value": 94
           }
         ]
       },
       "bonuses": {
-        "bonus1": 2.51,
-        "bonus2": 2.51,
-        "bonus3": 2.51
+        "bonus1": 0.25,
+        "bonus2": 1.35,
+        "bonus3": 0.4,
+        "bonus4": 1.5,
+        "bonus5": 0.0
       }
     },
     {
       "level": 41,
       "build_time": 7850880,
-      "increased_power": 2500,
+      "increased_power": 2000,
       "requirements": [
         {
           "name": "Operations",
-          "level": 41
+          "level": 45
         }
       ],
       "build_costs": {
@@ -1290,25 +1342,27 @@
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 5225
+            "type": "recon locus schematics",
+            "value": 97
           }
         ]
       },
       "bonuses": {
-        "bonus1": 2.59,
-        "bonus2": 2.59,
-        "bonus3": 2.59
+        "bonus1": 0.3,
+        "bonus2": 1.45,
+        "bonus3": 0.41,
+        "bonus4": 1.6,
+        "bonus5": 0.0
       }
     },
     {
       "level": 42,
       "build_time": 12068640,
-      "increased_power": 2500,
+      "increased_power": 2000,
       "requirements": [
         {
           "name": "Operations",
-          "level": 42
+          "level": 45
         }
       ],
       "build_costs": {
@@ -1321,39 +1375,27 @@
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 5675
+            "type": "recon locus schematics",
+            "value": 100
           }
         ]
       },
       "bonuses": {
-        "bonus1": 2.67,
-        "bonus2": 2.67,
-        "bonus3": 2.67
-      },
-      "rewards": [
-        {
-          "type": "Kelvin Relentless Assault Shard",
-          "value": 60
-        },
-        {
-          "type": "K\u2019t\u2019inga Relentless Assault Shard",
-          "value": 60
-        },
-        {
-          "type": "Valdore Relentless Assault Shard",
-          "value": 60
-        }
-      ]
+        "bonus1": 0.3,
+        "bonus2": 1.55,
+        "bonus3": 0.42,
+        "bonus4": 1.7,
+        "bonus5": 0.0
+      }
     },
     {
       "level": 43,
       "build_time": 15945120,
-      "increased_power": 3125,
+      "increased_power": 2500,
       "requirements": [
         {
           "name": "Operations",
-          "level": 43
+          "level": 45
         }
       ],
       "build_costs": {
@@ -1366,25 +1408,27 @@
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 6125
+            "type": "recon locus schematics",
+            "value": 110
           }
         ]
       },
       "bonuses": {
-        "bonus1": 2.75,
-        "bonus2": 2.75,
-        "bonus3": 2.75
+        "bonus1": 0.3,
+        "bonus2": 1.65,
+        "bonus3": 0.43,
+        "bonus4": 1.8,
+        "bonus5": 0.0
       }
     },
     {
       "level": 44,
       "build_time": 20812320,
-      "increased_power": 3125,
+      "increased_power": 2500,
       "requirements": [
         {
           "name": "Operations",
-          "level": 44
+          "level": 45
         }
       ],
       "build_costs": {
@@ -1397,21 +1441,23 @@
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 6575
+            "type": "recon locus schematics",
+            "value": 110
           }
         ]
       },
       "bonuses": {
-        "bonus1": 2.83,
-        "bonus2": 2.83,
-        "bonus3": 2.83
+        "bonus1": 0.3,
+        "bonus2": 1.75,
+        "bonus3": 0.44,
+        "bonus4": 1.9,
+        "bonus5": 0.0
       }
     },
     {
       "level": 45,
       "build_time": 26867520,
-      "increased_power": 3125,
+      "increased_power": 2500,
       "requirements": [
         {
           "name": "Operations",
@@ -1428,21 +1474,23 @@
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 7100
+            "type": "recon locus schematics",
+            "value": 110
           }
         ]
       },
       "bonuses": {
-        "bonus1": 2.92,
-        "bonus2": 2.92,
-        "bonus3": 2.92
+        "bonus1": 0.3,
+        "bonus2": 1.85,
+        "bonus3": 0.46,
+        "bonus4": 2.0,
+        "bonus5": 0.0
       }
     },
     {
       "level": 46,
       "build_time": 34344000,
-      "increased_power": 3125,
+      "increased_power": 2500,
       "requirements": [
         {
           "name": "Operations",
@@ -1459,21 +1507,23 @@
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 7650
+            "type": "recon locus schematics",
+            "value": 120
           }
         ]
       },
       "bonuses": {
-        "bonus1": 3.01,
-        "bonus2": 3.01,
-        "bonus3": 3.01
+        "bonus1": 0.35,
+        "bonus2": 1.95,
+        "bonus3": 0.5,
+        "bonus4": 2.2,
+        "bonus5": 0.0
       }
     },
     {
       "level": 47,
       "build_time": 43506720,
-      "increased_power": 3750,
+      "increased_power": 3000,
       "requirements": [
         {
           "name": "Operations",
@@ -1490,21 +1540,23 @@
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 8275
+            "type": "recon locus schematics",
+            "value": 120
           }
         ]
       },
       "bonuses": {
-        "bonus1": 3.1,
-        "bonus2": 3.1,
-        "bonus3": 3.1
+        "bonus1": 0.35,
+        "bonus2": 2.05,
+        "bonus3": 0.55,
+        "bonus4": 2.4,
+        "bonus5": 0.0
       }
     },
     {
       "level": 48,
       "build_time": 54660960,
-      "increased_power": 3750,
+      "increased_power": 3000,
       "requirements": [
         {
           "name": "Operations",
@@ -1521,21 +1573,23 @@
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 8900
+            "type": "recon locus schematics",
+            "value": 120
           }
         ]
       },
       "bonuses": {
-        "bonus1": 3.19,
-        "bonus2": 3.19,
-        "bonus3": 3.19
+        "bonus1": 0.35,
+        "bonus2": 2.15,
+        "bonus3": 0.6,
+        "bonus4": 2.6,
+        "bonus5": 0.0
       }
     },
     {
       "level": 49,
       "build_time": 68152320,
-      "increased_power": 3750,
+      "increased_power": 3000,
       "requirements": [
         {
           "name": "Operations",
@@ -1552,21 +1606,23 @@
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 9625
+            "type": "recon locus schematics",
+            "value": 120
           }
         ]
       },
       "bonuses": {
-        "bonus1": 3.28,
-        "bonus2": 3.28,
-        "bonus3": 3.28
+        "bonus1": 0.35,
+        "bonus2": 2.25,
+        "bonus3": 0.65,
+        "bonus4": 2.8,
+        "bonus5": 0.0
       }
     },
     {
       "level": 50,
       "build_time": 84376800,
-      "increased_power": 3750,
+      "increased_power": 3000,
       "requirements": [
         {
           "name": "Operations",
@@ -1583,21 +1639,23 @@
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 11525
+            "type": "recon locus schematics",
+            "value": 130
           }
         ]
       },
       "bonuses": {
-        "bonus1": 3.38,
-        "bonus2": 3.38,
-        "bonus3": 3.38
+        "bonus1": 0.35,
+        "bonus2": 2.35,
+        "bonus3": 0.7,
+        "bonus4": 3.0,
+        "bonus5": 0.0
       }
     },
     {
       "level": 51,
       "build_time": 89439840,
-      "increased_power": 4375,
+      "increased_power": 3500,
       "requirements": [
         {
           "name": "Operations",
@@ -1614,21 +1672,23 @@
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 12425
+            "type": "recon locus schematics",
+            "value": 280
           }
         ]
       },
       "bonuses": {
-        "bonus1": 3.48,
-        "bonus2": 3.48,
-        "bonus3": 3.48
+        "bonus1": 0.5,
+        "bonus2": 2.5,
+        "bonus3": 0.75,
+        "bonus4": 3.2,
+        "bonus5": 1.0
       }
     },
     {
       "level": 52,
       "build_time": 94805280,
-      "increased_power": 4375,
+      "increased_power": 3500,
       "requirements": [
         {
           "name": "Operations",
@@ -1645,21 +1705,23 @@
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 13400
+            "type": "recon locus schematics",
+            "value": 430
           }
         ]
       },
       "bonuses": {
-        "bonus1": 3.58,
-        "bonus2": 3.58,
-        "bonus3": 3.58
+        "bonus1": 0.55,
+        "bonus2": 2.65,
+        "bonus3": 0.8,
+        "bonus4": 3.4,
+        "bonus5": 1.0
       }
     },
     {
       "level": 53,
       "build_time": 100494720,
-      "increased_power": 5000,
+      "increased_power": 4000,
       "requirements": [
         {
           "name": "Operations",
@@ -1676,35 +1738,23 @@
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 14500
+            "type": "recon locus schematics",
+            "value": 580
           }
         ]
       },
       "bonuses": {
-        "bonus1": 3.7,
-        "bonus2": 3.7,
-        "bonus3": 3.7
-      },
-      "rewards": [
-        {
-          "type": "Northcutt Relentless Assault Shard",
-          "value": 60
-        },
-        {
-          "type": "Vor\u2019cha Relentless Assault Shard",
-          "value": 60
-        },
-        {
-          "type": "Corvus Relentless Assault Shard",
-          "value": 60
-        }
-      ]
+        "bonus1": 0.6,
+        "bonus2": 2.8,
+        "bonus3": 0.85,
+        "bonus4": 3.6,
+        "bonus5": 1.0
+      }
     },
     {
       "level": 54,
       "build_time": 106524000,
-      "increased_power": 5000,
+      "increased_power": 4000,
       "requirements": [
         {
           "name": "Operations",
@@ -1721,21 +1771,23 @@
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 15650
+            "type": "recon locus schematics",
+            "value": 730
           }
         ]
       },
       "bonuses": {
-        "bonus1": 3.82,
-        "bonus2": 3.82,
-        "bonus3": 3.82
+        "bonus1": 0.65,
+        "bonus2": 2.95,
+        "bonus3": 0.9,
+        "bonus4": 3.8,
+        "bonus5": 1.0
       }
     },
     {
       "level": 55,
       "build_time": 112914720,
-      "increased_power": 5000,
+      "increased_power": 4000,
       "requirements": [
         {
           "name": "Operations",
@@ -1752,21 +1804,23 @@
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 16925
+            "type": "recon locus schematics",
+            "value": 880
           }
         ]
       },
       "bonuses": {
-        "bonus1": 3.96,
-        "bonus2": 3.96,
-        "bonus3": 3.96
+        "bonus1": 0.7,
+        "bonus2": 3.1,
+        "bonus3": 0.95,
+        "bonus4": 4.0,
+        "bonus5": 1.0
       }
     },
     {
       "level": 56,
       "build_time": 119689920,
-      "increased_power": 5000,
+      "increased_power": 4000,
       "requirements": [
         {
           "name": "Operations",
@@ -1783,21 +1837,23 @@
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 18275
+            "type": "recon locus schematics",
+            "value": 1200
           }
         ]
       },
       "bonuses": {
-        "bonus1": 4.1,
-        "bonus2": 4.1,
-        "bonus3": 4.1
+        "bonus1": 0.8,
+        "bonus2": 3.25,
+        "bonus3": 1.0,
+        "bonus4": 4.2,
+        "bonus5": 1.0
       }
     },
     {
       "level": 57,
       "build_time": 126871200,
-      "increased_power": 5000,
+      "increased_power": 4000,
       "requirements": [
         {
           "name": "Operations",
@@ -1814,21 +1870,23 @@
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 19700
+            "type": "recon locus schematics",
+            "value": 1500
           }
         ]
       },
       "bonuses": {
-        "bonus1": 4.26,
-        "bonus2": 4.26,
-        "bonus3": 4.26
+        "bonus1": 0.9,
+        "bonus2": 3.4,
+        "bonus3": 1.05,
+        "bonus4": 4.4,
+        "bonus5": 1.0
       }
     },
     {
       "level": 58,
       "build_time": 134484480,
-      "increased_power": 6250,
+      "increased_power": 5000,
       "requirements": [
         {
           "name": "Operations",
@@ -1845,21 +1903,23 @@
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 21325
+            "type": "recon locus schematics",
+            "value": 1800
           }
         ]
       },
       "bonuses": {
-        "bonus1": 4.42,
-        "bonus2": 4.42,
-        "bonus3": 4.42
+        "bonus1": 1.0,
+        "bonus2": 3.55,
+        "bonus3": 1.1,
+        "bonus4": 4.6,
+        "bonus5": 1.0
       }
     },
     {
       "level": 59,
       "build_time": 142552800,
-      "increased_power": 6250,
+      "increased_power": 5000,
       "requirements": [
         {
           "name": "Operations",
@@ -1876,21 +1936,23 @@
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 23050
+            "type": "recon locus schematics",
+            "value": 2100
           }
         ]
       },
       "bonuses": {
-        "bonus1": 4.6,
-        "bonus2": 4.6,
-        "bonus3": 4.6
+        "bonus1": 1.1,
+        "bonus2": 3.7,
+        "bonus3": 1.15,
+        "bonus4": 4.8,
+        "bonus5": 1.0
       }
     },
     {
       "level": 60,
       "build_time": 151106400,
-      "increased_power": 6250,
+      "increased_power": 5000,
       "requirements": [
         {
           "name": "Operations",
@@ -1907,21 +1969,23 @@
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 24850
+            "type": "recon locus schematics",
+            "value": 2400
           }
         ]
       },
       "bonuses": {
-        "bonus1": 4.8,
-        "bonus2": 4.8,
-        "bonus3": 4.8
+        "bonus1": 1.3,
+        "bonus2": 3.85,
+        "bonus3": 1.2,
+        "bonus4": 5.0,
+        "bonus5": 1.0
       }
     },
     {
       "level": 61,
-      "build_time": 3477600,
-      "increased_power": 32000,
+      "build_time": 3496320,
+      "increased_power": 6000,
       "requirements": [
         {
           "name": "Operations",
@@ -1932,27 +1996,29 @@
         "resources": [
           {
             "type": "\u03c3-parsteel",
-            "value": 127500
+            "value": 290700
           }
         ],
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 24850
+            "type": "recon locus schematics",
+            "value": 2900
           }
         ]
       },
       "bonuses": {
-        "bonus1": 5.0,
-        "bonus2": 5.0,
-        "bonus3": 5.0
+        "bonus1": 1.5,
+        "bonus2": 4.0,
+        "bonus3": 1.25,
+        "bonus4": 5.25,
+        "bonus5": 1.0
       }
     },
     {
       "level": 62,
-      "build_time": 4694760,
-      "increased_power": 10000,
+      "build_time": 4720320,
+      "increased_power": 6000,
       "requirements": [
         {
           "name": "Operations",
@@ -1963,27 +2029,29 @@
         "resources": [
           {
             "type": "\u03c3-parsteel",
-            "value": 187000
+            "value": 443700
           }
         ],
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 24850
+            "type": "recon locus schematics",
+            "value": 3300
           }
         ]
       },
       "bonuses": {
-        "bonus1": 5.2,
-        "bonus2": 5.2,
-        "bonus3": 5.2
+        "bonus1": 1.6,
+        "bonus2": 4.25,
+        "bonus3": 1.3,
+        "bonus4": 5.5,
+        "bonus5": 1.0
       }
     },
     {
       "level": 63,
-      "build_time": 6337926,
-      "increased_power": 10000,
+      "build_time": 6372000,
+      "increased_power": 7000,
       "requirements": [
         {
           "name": "Operations",
@@ -1994,27 +2062,29 @@
         "resources": [
           {
             "type": "\u03c3-parsteel",
-            "value": 272000
+            "value": 1306620
           }
         ],
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 24850
+            "type": "recon locus schematics",
+            "value": 3800
           }
         ]
       },
       "bonuses": {
-        "bonus1": 5.4,
-        "bonus2": 5.4,
-        "bonus3": 5.4
+        "bonus1": 1.7,
+        "bonus2": 4.5,
+        "bonus3": 1.35,
+        "bonus4": 5.75,
+        "bonus5": 1.0
       }
     },
     {
       "level": 64,
-      "build_time": 8556200,
-      "increased_power": 10000,
+      "build_time": 8602560,
+      "increased_power": 7000,
       "requirements": [
         {
           "name": "Operations",
@@ -2025,27 +2095,29 @@
         "resources": [
           {
             "type": "\u03c3-parsteel",
-            "value": 399500
+            "value": 3055368
           }
         ],
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 24850
+            "type": "recon locus schematics",
+            "value": 4200
           }
         ]
       },
       "bonuses": {
-        "bonus1": 5.6,
-        "bonus2": 5.6,
-        "bonus3": 5.6
+        "bonus1": 1.9,
+        "bonus2": 4.75,
+        "bonus3": 1.4,
+        "bonus4": 6.0,
+        "bonus5": 1.0
       }
     },
     {
       "level": 65,
-      "build_time": 11550870,
-      "increased_power": 12000,
+      "build_time": 11612160,
+      "increased_power": 8000,
       "requirements": [
         {
           "name": "Operations",
@@ -2056,27 +2128,29 @@
         "resources": [
           {
             "type": "\u03c3-parsteel",
-            "value": 603500
+            "value": 6014813
           }
         ],
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 24850
+            "type": "recon locus schematics",
+            "value": 4400
           }
         ]
       },
       "bonuses": {
-        "bonus1": 5.8,
-        "bonus2": 5.8,
-        "bonus3": 5.8
+        "bonus1": 2.1,
+        "bonus2": 5.0,
+        "bonus3": 1.5,
+        "bonus4": 6.25,
+        "bonus5": 1.0
       }
     },
     {
       "level": 66,
-      "build_time": 15593675,
-      "increased_power": 11000,
+      "build_time": 15677280,
+      "increased_power": 7000,
       "requirements": [
         {
           "name": "Operations",
@@ -2087,27 +2161,29 @@
         "resources": [
           {
             "type": "\u03c3-parsteel",
-            "value": 909500
+            "value": 7507115
           }
         ],
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 24850
+            "type": "recon locus schematics",
+            "value": 4500
           }
         ]
       },
       "bonuses": {
-        "bonus1": 6.0,
-        "bonus2": 6.0,
-        "bonus3": 6.0
+        "bonus1": 2.3,
+        "bonus2": 5.25,
+        "bonus3": 1.6,
+        "bonus4": 6.5,
+        "bonus5": 1.0
       }
     },
     {
       "level": 67,
-      "build_time": 21051461,
-      "increased_power": 10000,
+      "build_time": 21163680,
+      "increased_power": 9000,
       "requirements": [
         {
           "name": "Operations",
@@ -2118,27 +2194,29 @@
         "resources": [
           {
             "type": "\u03c3-parsteel",
-            "value": 1368500
+            "value": 9851500
           }
         ],
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 24850
+            "type": "recon locus schematics",
+            "value": 5300
           }
         ]
       },
       "bonuses": {
-        "bonus1": 6.25,
-        "bonus2": 6.25,
-        "bonus3": 6.25
+        "bonus1": 2.5,
+        "bonus2": 5.5,
+        "bonus3": 1.7,
+        "bonus4": 6.75,
+        "bonus5": 1.0
       }
     },
     {
       "level": 68,
-      "build_time": 27366899,
-      "increased_power": 15000,
+      "build_time": 27512640,
+      "increased_power": 8000,
       "requirements": [
         {
           "name": "Operations",
@@ -2149,27 +2227,29 @@
         "resources": [
           {
             "type": "\u03c3-parsteel",
-            "value": 2065500
+            "value": 13727500
           }
         ],
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 24850
+            "type": "recon locus schematics",
+            "value": 5400
           }
         ]
       },
       "bonuses": {
-        "bonus1": 6.5,
-        "bonus2": 6.5,
-        "bonus3": 6.5
+        "bonus1": 2.7,
+        "bonus2": 5.75,
+        "bonus3": 1.8,
+        "bonus4": 7.0,
+        "bonus5": 1.0
       }
     },
     {
       "level": 69,
-      "build_time": 35576969,
-      "increased_power": 15000,
+      "build_time": 35766720,
+      "increased_power": 9000,
       "requirements": [
         {
           "name": "Operations",
@@ -2180,27 +2260,29 @@
         "resources": [
           {
             "type": "\u03c3-parsteel",
-            "value": 3162000
+            "value": 19218500
           }
         ],
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 24850
+            "type": "recon locus schematics",
+            "value": 5900
           }
         ]
       },
       "bonuses": {
-        "bonus1": 6.75,
-        "bonus2": 6.75,
-        "bonus3": 6.75
+        "bonus1": 2.9,
+        "bonus2": 6.0,
+        "bonus3": 1.9,
+        "bonus4": 7.25,
+        "bonus5": 1.0
       }
     },
     {
       "level": 70,
-      "build_time": 46250059,
-      "increased_power": 10000,
+      "build_time": 46497600,
+      "increased_power": 9000,
       "requirements": [
         {
           "name": "Operations",
@@ -2211,36 +2293,46 @@
         "resources": [
           {
             "type": "\u03c3-parsteel",
-            "value": 4845000
+            "value": 26970500
           }
         ],
         "materials": [],
         "others": [
           {
-            "type": "nadion",
-            "value": 24850
+            "type": "recon locus schematics",
+            "value": 6000
           }
         ]
       },
       "bonuses": {
-        "bonus1": 7.0,
-        "bonus2": 7.0,
-        "bonus3": 7.0
+        "bonus1": 3.25,
+        "bonus2": 6.25,
+        "bonus3": 2.0,
+        "bonus4": 7.5,
+        "bonus5": 1.0
       }
     }
   ],
   "bonuses": {
     "bonus1": {
-      "name": "Hull Health Bonus",
+      "name": "Hyperthermic Stabilizer",
       "percentage": true
     },
     "bonus2": {
-      "name": "Shield Health Bonus",
+      "name": "Building Speed",
       "percentage": true
     },
     "bonus3": {
-      "name": "Mitigation Stats Bonus",
+      "name": "Ship Construction Speed",
       "percentage": true
+    },
+    "bonus4": {
+      "name": "Research Speed",
+      "percentage": true
+    },
+    "bonus5": {
+      "name": "Orion Syndicate Bomb Unlock",
+      "percentage": false
     }
   }
 }
