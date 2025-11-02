@@ -1,0 +1,462 @@
+{
+  "research_name": "Optimized Barrier: Interceptor",
+  "description": "Increases Apex Barrier versus Hostiles for 7\u21f5+ Interceptors (does not apply against Armadas or Invading Entities).",
+  "location": {
+    "column": 136,
+    "row": 1,
+    "tree": "combat"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 153014400,
+      "increased_power": 670000,
+      "requirements": [
+        {
+          "name": "7\u21f5 Isolytic Interceptors",
+          "level": 1
+        },
+        {
+          "name": "R&D Department",
+          "level": 74
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-tritanium",
+            "value": 23000000
+          },
+          {
+            "type": "\u03c3-dilithium",
+            "value": 65000000
+          }
+        ],
+        "materials": [
+          {
+            "type": "ore",
+            "value": 257395,
+            "grade": 7,
+            "rarity": "common"
+          },
+          {
+            "type": "ore",
+            "value": 75538,
+            "grade": 7,
+            "rarity": "uncommon"
+          }
+        ],
+        "others": []
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 500.0
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 154483200,
+      "increased_power": 30000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 74
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-tritanium",
+            "value": 23500000
+          },
+          {
+            "type": "\u03c3-dilithium",
+            "value": 65700000
+          }
+        ],
+        "materials": [
+          {
+            "type": "ore",
+            "value": 267901,
+            "grade": 7,
+            "rarity": "common"
+          },
+          {
+            "type": "ore",
+            "value": 78622,
+            "grade": 7,
+            "rarity": "uncommon"
+          }
+        ],
+        "others": []
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 600.0
+      }
+    },
+    {
+      "level": 3,
+      "research_time": 209952000,
+      "increased_power": 25000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 75
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-tritanium",
+            "value": 32200000
+          },
+          {
+            "type": "\u03c3-dilithium",
+            "value": 91000000
+          }
+        ],
+        "materials": [
+          {
+            "type": "ore",
+            "value": 319635,
+            "grade": 7,
+            "rarity": "common"
+          },
+          {
+            "type": "ore",
+            "value": 86948,
+            "grade": 7,
+            "rarity": "uncommon"
+          }
+        ],
+        "others": []
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 800.0
+      }
+    },
+    {
+      "level": 4,
+      "research_time": 212025600,
+      "increased_power": 30000,
+      "requirements": [
+        {
+          "name": "Savage Interceptors",
+          "level": 4
+        },
+        {
+          "name": "R&D Department",
+          "level": 75
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-tritanium",
+            "value": 32800000
+          },
+          {
+            "type": "\u03c3-dilithium",
+            "value": 91900000
+          }
+        ],
+        "materials": [
+          {
+            "type": "ore",
+            "value": 332681,
+            "grade": 7,
+            "rarity": "common"
+          },
+          {
+            "type": "ore",
+            "value": 90496,
+            "grade": 7,
+            "rarity": "uncommon"
+          }
+        ],
+        "others": []
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 1100.0
+      }
+    },
+    {
+      "level": 5,
+      "research_time": 272937600,
+      "increased_power": 30000,
+      "requirements": [
+        {
+          "name": "7\u21f5 Isolytic Interceptors",
+          "level": 5
+        },
+        {
+          "name": "R&D Department",
+          "level": 76
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-tritanium",
+            "value": 45100000
+          },
+          {
+            "type": "\u03c3-dilithium",
+            "value": 127000000
+          }
+        ],
+        "materials": [
+          {
+            "type": "ore",
+            "value": 424401,
+            "grade": 7,
+            "rarity": "common"
+          },
+          {
+            "type": "ore",
+            "value": 107816,
+            "grade": 7,
+            "rarity": "uncommon"
+          }
+        ],
+        "others": []
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 1400.0
+      }
+    },
+    {
+      "level": 6,
+      "research_time": 275616000,
+      "increased_power": 30000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 76
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-tritanium",
+            "value": 46000000
+          },
+          {
+            "type": "\u03c3-dilithium",
+            "value": 129000000
+          }
+        ],
+        "materials": [
+          {
+            "type": "ore",
+            "value": 441724,
+            "grade": 7,
+            "rarity": "common"
+          },
+          {
+            "type": "ore",
+            "value": 112217,
+            "grade": 7,
+            "rarity": "uncommon"
+          }
+        ],
+        "others": []
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 1800.0
+      }
+    },
+    {
+      "level": 7,
+      "research_time": 373420800,
+      "increased_power": 30000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 77
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-tritanium",
+            "value": 63100000
+          },
+          {
+            "type": "\u03c3-dilithium",
+            "value": 178000000
+          }
+        ],
+        "materials": [
+          {
+            "type": "ore",
+            "value": 113834,
+            "grade": 7,
+            "rarity": "uncommon"
+          },
+          {
+            "type": "ore",
+            "value": 61376,
+            "grade": 7,
+            "rarity": "rare"
+          }
+        ],
+        "others": []
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 2300.0
+      }
+    },
+    {
+      "level": 8,
+      "research_time": 377222400,
+      "increased_power": 35000,
+      "requirements": [
+        {
+          "name": "Savage Interceptors",
+          "level": 10
+        },
+        {
+          "name": "R&D Department",
+          "level": 77
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-tritanium",
+            "value": 64400000
+          },
+          {
+            "type": "\u03c3-dilithium",
+            "value": 180000000
+          }
+        ],
+        "materials": [
+          {
+            "type": "ore",
+            "value": 118480,
+            "grade": 7,
+            "rarity": "uncommon"
+          },
+          {
+            "type": "ore",
+            "value": 63882,
+            "grade": 7,
+            "rarity": "rare"
+          }
+        ],
+        "others": []
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 3000.0
+      }
+    },
+    {
+      "level": 9,
+      "research_time": 485481600,
+      "increased_power": 35000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 78
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-tritanium",
+            "value": 88300000
+          },
+          {
+            "type": "\u03c3-dilithium",
+            "value": 250000000
+          }
+        ],
+        "materials": [
+          {
+            "type": "ore",
+            "value": 124234,
+            "grade": 7,
+            "rarity": "uncommon"
+          },
+          {
+            "type": "ore",
+            "value": 65815,
+            "grade": 7,
+            "rarity": "rare"
+          }
+        ],
+        "others": []
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 3900.0
+      }
+    },
+    {
+      "level": 10,
+      "research_time": 490406400,
+      "increased_power": 35000,
+      "requirements": [
+        {
+          "name": "7\u21f5 Isolytic Interceptors",
+          "level": 10
+        },
+        {
+          "name": "R&D Department",
+          "level": 78
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-tritanium",
+            "value": 90100000
+          },
+          {
+            "type": "\u03c3-dilithium",
+            "value": 252000000
+          }
+        ],
+        "materials": [
+          {
+            "type": "ore",
+            "value": 129305,
+            "grade": 7,
+            "rarity": "uncommon"
+          },
+          {
+            "type": "ore",
+            "value": 68501,
+            "grade": 7,
+            "rarity": "rare"
+          }
+        ],
+        "others": []
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 5000.0
+      }
+    }
+  ],
+  "img_url": "./assets/optimized_barrier_interceptor_combat_1_136.png"
+}

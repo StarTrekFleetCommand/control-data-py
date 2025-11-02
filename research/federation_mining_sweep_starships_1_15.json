@@ -1,0 +1,38 @@
+{
+  "research_name": "Federation Mining Sweep",
+  "description": "Allows G3-G6 Federation Mining Daily Goals to be completed by mining Transogen.",
+  "location": {
+    "column": 15,
+    "row": 1,
+    "tree": "starships"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 660,
+      "increased_power": 56500,
+      "requirements": [
+        {
+          "name": "Officer Presets",
+          "level": 1
+        },
+        {
+          "name": "R&D Department",
+          "level": 40
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "black market schematics",
+            "value": 9000
+          }
+        ]
+      }
+    }
+  ],
+  "img_url": "./assets/federation_mining_sweep_starships_1_15.png"
+}

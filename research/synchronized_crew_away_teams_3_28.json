@@ -1,0 +1,158 @@
+{
+  "research_name": "Synchronized Crew",
+  "description": "Increases the base stats of all officers on the bridge of a ship.",
+  "location": {
+    "column": 28,
+    "row": 3,
+    "tree": "away teams"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 1820040,
+      "increased_power": 7750,
+      "requirements": [
+        {
+          "name": "Charismatic Orders",
+          "level": 1
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "service award",
+            "value": 27351
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.05
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 2438820,
+      "increased_power": 1500,
+      "requirements": [
+        {
+          "name": "Rerouting to Shields",
+          "level": 3
+        },
+        {
+          "name": "Academy",
+          "level": 37
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "service award",
+            "value": 56241
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.09
+      }
+    },
+    {
+      "level": 3,
+      "research_time": 4176180,
+      "increased_power": 1000,
+      "requirements": [
+        {
+          "name": "Rerouting to Shields",
+          "level": 4
+        },
+        {
+          "name": "Hypospray Technology",
+          "level": 4
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "service award",
+            "value": 80124
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.15
+      }
+    },
+    {
+      "level": 4,
+      "research_time": 5641140,
+      "increased_power": 750,
+      "requirements": [
+        {
+          "name": "Tactical Aggression",
+          "level": 4
+        },
+        {
+          "name": "Academy",
+          "level": 39
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "service award",
+            "value": 162494
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.23
+      }
+    },
+    {
+      "level": 5,
+      "research_time": 9887760,
+      "increased_power": 1000,
+      "requirements": [
+        {
+          "name": "Tactical Aggression",
+          "level": 5
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "service award",
+            "value": 235355
+          },
+          {
+            "type": "merit of honor",
+            "value": 25
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.35
+      }
+    }
+  ],
+  "img_url": "./assets/synchronized_crew_away_teams_3_28.png"
+}

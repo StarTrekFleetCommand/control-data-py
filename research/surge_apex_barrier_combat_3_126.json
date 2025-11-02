@@ -1,0 +1,512 @@
+{
+  "research_name": "Surge Apex Barrier",
+  "description": "Increases Apex Barrier for 6\u21f5+ ships (does not apply against Armadas, Invading Entities, or in Station Combat).",
+  "location": {
+    "column": 126,
+    "row": 3,
+    "tree": "combat"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 82166400,
+      "increased_power": 620000,
+      "requirements": [
+        {
+          "name": "Surge Apex Shred",
+          "level": 1
+        },
+        {
+          "name": "R&D Department",
+          "level": 71
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-tritanium",
+            "value": 5700000
+          },
+          {
+            "type": "\u03c3-dilithium",
+            "value": 16100000
+          }
+        ],
+        "materials": [
+          {
+            "type": "ore",
+            "value": 42403,
+            "grade": 7,
+            "rarity": "common"
+          }
+        ],
+        "others": [
+          {
+            "type": "primordial plasma",
+            "value": 4000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 5000.0
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 83030400,
+      "increased_power": 25000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 71
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-tritanium",
+            "value": 5820000
+          },
+          {
+            "type": "\u03c3-dilithium",
+            "value": 16300000
+          }
+        ],
+        "materials": [
+          {
+            "type": "ore",
+            "value": 44134,
+            "grade": 7,
+            "rarity": "common"
+          }
+        ],
+        "others": [
+          {
+            "type": "primordial plasma",
+            "value": 4000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 6300.0
+      }
+    },
+    {
+      "level": 3,
+      "research_time": 107395200,
+      "increased_power": 40000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 72
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-tritanium",
+            "value": 11500000
+          },
+          {
+            "type": "\u03c3-dilithium",
+            "value": 32400000
+          }
+        ],
+        "materials": [
+          {
+            "type": "ore",
+            "value": 112738,
+            "grade": 7,
+            "rarity": "common"
+          },
+          {
+            "type": "ore",
+            "value": 50075,
+            "grade": 7,
+            "rarity": "uncommon"
+          }
+        ],
+        "others": [
+          {
+            "type": "primordial plasma",
+            "value": 4000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 7900.0
+      }
+    },
+    {
+      "level": 4,
+      "research_time": 192153600,
+      "increased_power": 115000,
+      "requirements": [
+        {
+          "name": "Surge Apex Shred",
+          "level": 4
+        },
+        {
+          "name": "R&D Department",
+          "level": 74
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-tritanium",
+            "value": 29000000
+          },
+          {
+            "type": "\u03c3-dilithium",
+            "value": 81700000
+          }
+        ],
+        "materials": [
+          {
+            "type": "ore",
+            "value": 77080,
+            "grade": 7,
+            "rarity": "uncommon"
+          },
+          {
+            "type": "ore",
+            "value": 47601,
+            "grade": 7,
+            "rarity": "rare"
+          }
+        ],
+        "others": [
+          {
+            "type": "primordial plasma",
+            "value": 4000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 10000.0
+      }
+    },
+    {
+      "level": 5,
+      "research_time": 342835200,
+      "increased_power": 130000,
+      "requirements": [
+        {
+          "name": "Surge Apex Shred",
+          "level": 5
+        },
+        {
+          "name": "R&D Department",
+          "level": 76
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-tritanium",
+            "value": 56900000
+          },
+          {
+            "type": "\u03c3-dilithium",
+            "value": 160000000
+          }
+        ],
+        "materials": [
+          {
+            "type": "ore",
+            "value": 110017,
+            "grade": 7,
+            "rarity": "uncommon"
+          },
+          {
+            "type": "ore",
+            "value": 56410,
+            "grade": 7,
+            "rarity": "rare"
+          }
+        ],
+        "others": [
+          {
+            "type": "primordial plasma",
+            "value": 4000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 12600.0
+      }
+    },
+    {
+      "level": 6,
+      "research_time": 609897600,
+      "increased_power": 160000,
+      "requirements": [
+        {
+          "name": "Surge Apex Shred",
+          "level": 6
+        },
+        {
+          "name": "R&D Department",
+          "level": 78
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-tritanium",
+            "value": 112000000
+          },
+          {
+            "type": "\u03c3-dilithium",
+            "value": 314000000
+          }
+        ],
+        "materials": [
+          {
+            "type": "ore",
+            "value": 126770,
+            "grade": 7,
+            "rarity": "uncommon"
+          },
+          {
+            "type": "ore",
+            "value": 67158,
+            "grade": 7,
+            "rarity": "rare"
+          }
+        ],
+        "others": [
+          {
+            "type": "primordial plasma",
+            "value": 4000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 15900.0
+      }
+    },
+    {
+      "level": 7,
+      "research_time": 1071446400,
+      "increased_power": 150000,
+      "requirements": [
+        {
+          "name": "Surge Apex Shred",
+          "level": 7
+        },
+        {
+          "name": "R&D Department",
+          "level": 80
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-tritanium",
+            "value": 214000000
+          },
+          {
+            "type": "\u03c3-dilithium",
+            "value": 609000000
+          }
+        ],
+        "materials": [
+          {
+            "type": "ore",
+            "value": 245419,
+            "grade": 7,
+            "rarity": "uncommon"
+          },
+          {
+            "type": "ore",
+            "value": 88819,
+            "grade": 7,
+            "rarity": "rare"
+          }
+        ],
+        "others": [
+          {
+            "type": "primordial plasma",
+            "value": 4000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 20000.0
+      }
+    },
+    {
+      "level": 8,
+      "research_time": 1076889600,
+      "increased_power": 20000,
+      "requirements": [
+        {
+          "name": "Surge Apex Shred",
+          "level": 8
+        },
+        {
+          "name": "R&D Department",
+          "level": 80
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-tritanium",
+            "value": 216000000
+          },
+          {
+            "type": "\u03c3-dilithium",
+            "value": 612000000
+          }
+        ],
+        "materials": [
+          {
+            "type": "ore",
+            "value": 247924,
+            "grade": 7,
+            "rarity": "uncommon"
+          },
+          {
+            "type": "ore",
+            "value": 89725,
+            "grade": 7,
+            "rarity": "rare"
+          }
+        ],
+        "others": [
+          {
+            "type": "primordial plasma",
+            "value": 4000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 25200.0
+      }
+    },
+    {
+      "level": 9,
+      "research_time": 1087689600,
+      "increased_power": 20000,
+      "requirements": [
+        {
+          "name": "Surge Apex Shred",
+          "level": 9
+        },
+        {
+          "name": "R&D Department",
+          "level": 80
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-tritanium",
+            "value": 221000000
+          },
+          {
+            "type": "\u03c3-dilithium",
+            "value": 618000000
+          }
+        ],
+        "materials": [
+          {
+            "type": "ore",
+            "value": 252932,
+            "grade": 7,
+            "rarity": "uncommon"
+          },
+          {
+            "type": "ore",
+            "value": 91538,
+            "grade": 7,
+            "rarity": "rare"
+          }
+        ],
+        "others": [
+          {
+            "type": "primordial plasma",
+            "value": 4000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 31700.0
+      }
+    },
+    {
+      "level": 10,
+      "research_time": 1093132800,
+      "increased_power": 10000,
+      "requirements": [
+        {
+          "name": "Surge Apex Shred",
+          "level": 10
+        },
+        {
+          "name": "R&D Department",
+          "level": 80
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-tritanium",
+            "value": 223000000
+          },
+          {
+            "type": "\u03c3-dilithium",
+            "value": 621000000
+          }
+        ],
+        "materials": [
+          {
+            "type": "ore",
+            "value": 255437,
+            "grade": 7,
+            "rarity": "uncommon"
+          },
+          {
+            "type": "ore",
+            "value": 92444,
+            "grade": 7,
+            "rarity": "rare"
+          }
+        ],
+        "others": [
+          {
+            "type": "primordial plasma",
+            "value": 4000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 40000.0
+      }
+    }
+  ],
+  "img_url": "./assets/surge_apex_barrier_combat_3_126.png"
+}

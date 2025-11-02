@@ -1,0 +1,38 @@
+{
+  "research_name": "Prime Mining XP",
+  "description": "Increases the amount of ship XP gained from mining.",
+  "location": {
+    "column": 7,
+    "row": 1,
+    "tree": "galaxy"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 60,
+      "increased_power": 5000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 1
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "flashpoint prime particle",
+            "value": 1000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 1.0
+      }
+    }
+  ],
+  "img_url": "./assets/prime_mining_xp_galaxy_1_7.png"
+}

@@ -1,0 +1,52 @@
+{
+  "research_name": "<color=#fac710>Priority 1:</color> Harvesting Algorithm",
+  "description": "Permanently adds the chance to get standard (not Priority 1) away team assignments which reward significantly more Raw Ore, Crystal and Gas than existing assignments.",
+  "location": {
+    "column": 5,
+    "row": 2,
+    "tree": "away teams"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 39844260,
+      "increased_power": 40000,
+      "requirements": [
+        {
+          "name": "<color=#fac710>Priority 1:</color> Ship XP Acceleration",
+          "level": 1
+        },
+        {
+          "name": "Shuttle Bay",
+          "level": 35
+        },
+        {
+          "name": "Operations",
+          "level": 35
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "pioneer's crest",
+            "value": 12000
+          }
+        ]
+      },
+      "rewards": [
+        {
+          "type": "Mission Token",
+          "value": 1
+        }
+      ],
+      "bonus": {
+        "percentage": true,
+        "value": 5.0
+      }
+    }
+  ],
+  "img_url": "./assets/colorfac710priority_1color_harvesting_algorithm_away_teams_2_5.png"
+}

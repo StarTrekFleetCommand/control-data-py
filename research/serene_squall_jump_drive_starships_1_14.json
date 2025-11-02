@@ -1,0 +1,38 @@
+{
+  "research_name": "Serene Squall Jump Drive",
+  "description": "Unlocks the Serene Squall's Jump Drive. This allows the Serene Squall to instantly warp to another system.",
+  "location": {
+    "column": 14,
+    "row": 1,
+    "tree": "starships"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 660,
+      "increased_power": 73000,
+      "requirements": [
+        {
+          "name": "Serene Squall Automated Defenses Crit %",
+          "level": 1
+        },
+        {
+          "name": "R&D Department",
+          "level": 30
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "black market schematics",
+            "value": 100
+          }
+        ]
+      }
+    }
+  ],
+  "img_url": "./assets/serene_squall_jump_drive_starships_1_14.png"
+}

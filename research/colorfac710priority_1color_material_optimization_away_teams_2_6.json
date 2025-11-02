@@ -1,0 +1,52 @@
+{
+  "research_name": "<color=#fac710>Priority 1:</color> Material Optimization",
+  "description": "Permanently adds the chance to get standard (not Priority 1) away team assignments which reward guaranteed Uncommon Ore, Crystal and Gas.",
+  "location": {
+    "column": 6,
+    "row": 2,
+    "tree": "away teams"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 49805280,
+      "increased_power": 60000,
+      "requirements": [
+        {
+          "name": "<color=#fac710>Priority 1:</color> Harvesting Algorithm",
+          "level": 1
+        },
+        {
+          "name": "Shuttle Bay",
+          "level": 40
+        },
+        {
+          "name": "Operations",
+          "level": 40
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "pioneer's crest",
+            "value": 15000
+          }
+        ]
+      },
+      "rewards": [
+        {
+          "type": "Mission Token",
+          "value": 1
+        }
+      ],
+      "bonus": {
+        "percentage": false,
+        "value": 1.0
+      }
+    }
+  ],
+  "img_url": "./assets/colorfac710priority_1color_material_optimization_away_teams_2_6.png"
+}

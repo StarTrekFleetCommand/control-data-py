@@ -1,0 +1,52 @@
+{
+  "research_name": "<color=#fac710>Priority 1:</color> Officer XP Acceleration",
+  "description": "Permanently adds the chance to get standard (not Priority 1) away team assignments which reward significantly more Officer XP than existing assignments.",
+  "location": {
+    "column": 3,
+    "row": 2,
+    "tree": "away teams"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 33203520,
+      "increased_power": 12000,
+      "requirements": [
+        {
+          "name": "<color=#fac710>Priority 1:</color> Assignments Unlock",
+          "level": 1
+        },
+        {
+          "name": "Shuttle Bay",
+          "level": 26
+        },
+        {
+          "name": "Operations",
+          "level": 26
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "pioneer's crest",
+            "value": 10000
+          }
+        ]
+      },
+      "rewards": [
+        {
+          "type": "Mission Token",
+          "value": 1
+        }
+      ],
+      "bonus": {
+        "percentage": true,
+        "value": 5.0
+      }
+    }
+  ],
+  "img_url": "./assets/colorfac710priority_1color_officer_xp_acceleration_away_teams_2_3.png"
+}

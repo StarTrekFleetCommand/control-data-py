@@ -1,0 +1,180 @@
+{
+  "research_name": "Increased Transogen Mining Speed",
+  "description": "Increases Common, Uncommon, and Rare Transogen Mining Speed.",
+  "location": {
+    "column": 3,
+    "row": 1,
+    "tree": "aggregation"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 51062400,
+      "increased_power": 142000,
+      "requirements": [
+        {
+          "name": "Apex Barrier vs Aggregation",
+          "level": 1
+        },
+        {
+          "name": "Recon Locus",
+          "level": 1
+        },
+        {
+          "name": "R&D Department",
+          "level": 45
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "aggregation smuggled studies",
+            "value": 1260
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 5.0
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 113702400,
+      "increased_power": 33000,
+      "requirements": [
+        {
+          "name": "Recon Locus",
+          "level": 45
+        },
+        {
+          "name": "R&D Department",
+          "level": 48
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "aggregation smuggled studies",
+            "value": 1350
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 10.0
+      }
+    },
+    {
+      "level": 3,
+      "research_time": 195177600,
+      "increased_power": 39000,
+      "requirements": [
+        {
+          "name": "Recon Locus",
+          "level": 51
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "aggregation smuggled studies",
+            "value": 1440
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 15.0
+      }
+    },
+    {
+      "level": 4,
+      "research_time": 219715200,
+      "increased_power": 61000,
+      "requirements": [
+        {
+          "name": "Recon Locus",
+          "level": 55
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "aggregation smuggled studies",
+            "value": 1530
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 20.0
+      }
+    },
+    {
+      "level": 5,
+      "research_time": 264470400,
+      "increased_power": 117000,
+      "requirements": [
+        {
+          "name": "Recon Locus",
+          "level": 61
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "aggregation smuggled studies",
+            "value": 1620
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 25.0
+      }
+    },
+    {
+      "level": 6,
+      "research_time": 303436800,
+      "increased_power": 111000,
+      "requirements": [
+        {
+          "name": "Recon Locus",
+          "level": 65
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "aggregation smuggled studies",
+            "value": 1800
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 30.0
+      }
+    }
+  ],
+  "img_url": "./assets/increased_transogen_mining_speed_aggregation_1_3.png"
+}

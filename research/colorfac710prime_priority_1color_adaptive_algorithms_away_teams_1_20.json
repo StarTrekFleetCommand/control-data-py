@@ -1,0 +1,38 @@
+{
+  "research_name": "<color=#fac710>Prime Priority 1:</color> Adaptive Algorithms",
+  "description": "Permanently unlocks the chance for every Priority 1 Away Team Assignment to appear with a length of only 1 Hour.",
+  "location": {
+    "column": 20,
+    "row": 1,
+    "tree": "away teams"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 10870920,
+      "increased_power": 81000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 26
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "covert procurement particle",
+            "value": 1000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.2
+      }
+    }
+  ],
+  "img_url": "./assets/colorfac710prime_priority_1color_adaptive_algorithms_away_teams_1_20.png"
+}

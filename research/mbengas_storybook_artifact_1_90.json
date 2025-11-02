@@ -1,19 +1,19 @@
 {
-  "research_name": "NS Morale Isolytic Damage",
-  "description": "Increases Isolytic Damage while your ship has Morale.",
+  "research_name": "M'Benga's Storybook",
+  "description": "Increases base Isolytic Defense.",
   "location": {
-    "column": 1,
-    "row": 2,
-    "tree": "star path"
+    "column": 90,
+    "row": 1,
+    "tree": "artifact"
   },
   "levels": [
     {
       "level": 1,
-      "research_time": 60,
-      "increased_power": 57500,
+      "research_time": 0,
+      "increased_power": 71000,
       "requirements": [
         {
-          "name": "Operations",
+          "name": "Artifact Gallery",
           "level": 30
         }
       ],
@@ -23,20 +23,20 @@
         "materials": [],
         "others": [
           {
-            "type": "nova squadron particles",
-            "value": 63000
+            "type": "m'benga's storybook",
+            "value": 200
           }
         ]
       },
       "bonus": {
         "percentage": false,
-        "value": 0.05
+        "value": 0.25
       }
     },
     {
       "level": 2,
-      "research_time": 60,
-      "increased_power": 10500,
+      "research_time": 0,
+      "increased_power": 13000,
       "requirements": [],
       "required_by": [],
       "research_costs": {
@@ -44,20 +44,20 @@
         "materials": [],
         "others": [
           {
-            "type": "nova squadron particles",
-            "value": 63000
+            "type": "m'benga's storybook",
+            "value": 200
           }
         ]
       },
       "bonus": {
         "percentage": false,
-        "value": 0.06
+        "value": 0.38
       }
     },
     {
       "level": 3,
-      "research_time": 60,
-      "increased_power": 11000,
+      "research_time": 0,
+      "increased_power": 15000,
       "requirements": [],
       "required_by": [],
       "research_costs": {
@@ -65,24 +65,45 @@
         "materials": [],
         "others": [
           {
-            "type": "nova squadron particles",
-            "value": 63000
+            "type": "m'benga's storybook",
+            "value": 220
           }
         ]
       },
       "bonus": {
         "percentage": false,
-        "value": 0.07
+        "value": 0.5
       }
     },
     {
       "level": 4,
-      "research_time": 60,
-      "increased_power": 49500,
+      "research_time": 0,
+      "increased_power": 16000,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "m'benga's storybook",
+            "value": 240
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.63
+      }
+    },
+    {
+      "level": 5,
+      "research_time": 0,
+      "increased_power": 9000,
       "requirements": [
         {
-          "name": "Operations",
-          "level": 41
+          "name": "Artifact Gallery",
+          "level": 40
         }
       ],
       "required_by": [],
@@ -91,40 +112,19 @@
         "materials": [],
         "others": [
           {
-            "type": "nova squadron particles",
-            "value": 63000
+            "type": "m'benga's storybook",
+            "value": 260
           }
         ]
       },
       "bonus": {
         "percentage": false,
-        "value": 0.09
-      }
-    },
-    {
-      "level": 5,
-      "research_time": 60,
-      "increased_power": 17500,
-      "requirements": [],
-      "required_by": [],
-      "research_costs": {
-        "resources": [],
-        "materials": [],
-        "others": [
-          {
-            "type": "nova squadron particles",
-            "value": 63000
-          }
-        ]
-      },
-      "bonus": {
-        "percentage": false,
-        "value": 0.1
+        "value": 0.75
       }
     },
     {
       "level": 6,
-      "research_time": 60,
+      "research_time": 0,
       "increased_power": 19000,
       "requirements": [],
       "required_by": [],
@@ -133,23 +133,44 @@
         "materials": [],
         "others": [
           {
-            "type": "nova squadron particles",
-            "value": 63000
+            "type": "m'benga's storybook",
+            "value": 285
           }
         ]
       },
       "bonus": {
         "percentage": false,
-        "value": 0.12
+        "value": 0.9
       }
     },
     {
       "level": 7,
-      "research_time": 60,
-      "increased_power": 70000,
+      "research_time": 0,
+      "increased_power": 33000,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "m'benga's storybook",
+            "value": 310
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 1.05
+      }
+    },
+    {
+      "level": 8,
+      "research_time": 0,
+      "increased_power": 39000,
       "requirements": [
         {
-          "name": "Operations",
+          "name": "Artifact Gallery",
           "level": 51
         }
       ],
@@ -159,20 +180,20 @@
         "materials": [],
         "others": [
           {
-            "type": "nova squadron particles",
-            "value": 94500
+            "type": "m'benga's storybook",
+            "value": 335
           }
         ]
       },
       "bonus": {
         "percentage": false,
-        "value": 0.14
+        "value": 1.2
       }
     },
     {
-      "level": 8,
-      "research_time": 60,
-      "increased_power": 32000,
+      "level": 9,
+      "research_time": 0,
+      "increased_power": 55000,
       "requirements": [],
       "required_by": [],
       "research_costs": {
@@ -180,23 +201,23 @@
         "materials": [],
         "others": [
           {
-            "type": "nova squadron particles",
-            "value": 94500
+            "type": "m'benga's storybook",
+            "value": 365
           }
         ]
       },
       "bonus": {
         "percentage": false,
-        "value": 0.16
+        "value": 1.4
       }
     },
     {
-      "level": 9,
-      "research_time": 60,
-      "increased_power": 53500,
+      "level": 10,
+      "research_time": 0,
+      "increased_power": 140000,
       "requirements": [
         {
-          "name": "Operations",
+          "name": "Artifact Gallery",
           "level": 61
         }
       ],
@@ -206,20 +227,20 @@
         "materials": [],
         "others": [
           {
-            "type": "nova squadron particles",
-            "value": 94500
+            "type": "m'benga's storybook",
+            "value": 395
           }
         ]
       },
       "bonus": {
         "percentage": false,
-        "value": 0.18
+        "value": 1.6
       }
     },
     {
-      "level": 10,
-      "research_time": 60,
-      "increased_power": 39500,
+      "level": 11,
+      "research_time": 0,
+      "increased_power": 60000,
       "requirements": [],
       "required_by": [],
       "research_costs": {
@@ -227,16 +248,37 @@
         "materials": [],
         "others": [
           {
-            "type": "nova squadron particles",
-            "value": 94500
+            "type": "m'benga's storybook",
+            "value": 430
           }
         ]
       },
       "bonus": {
         "percentage": false,
-        "value": 0.2
+        "value": 1.8
+      }
+    },
+    {
+      "level": 12,
+      "research_time": 0,
+      "increased_power": 130000,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "m'benga's storybook",
+            "value": 470
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 2.0
       }
     }
   ],
-  "img_url": "./assets/ns_morale_isolytic_damage_star_path_2_1.png"
+  "img_url": "./assets/mbengas_storybook_artifact_1_90.png"
 }

@@ -1,0 +1,48 @@
+{
+  "research_name": "Unlock Rare Assignments",
+  "description": "Unlocks the chance to get rare away team assignments",
+  "location": {
+    "column": 9,
+    "row": 3,
+    "tree": "away teams"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 29100,
+      "increased_power": 2700,
+      "requirements": [
+        {
+          "name": "Away Team Air Filtration",
+          "level": 1
+        },
+        {
+          "name": "Shuttle Bay",
+          "level": 21
+        },
+        {
+          "name": "Operations",
+          "level": 25
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "service award",
+            "value": 1050
+          }
+        ]
+      },
+      "rewards": [
+        {
+          "type": "Mission Token",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "img_url": "./assets/unlock_rare_assignments_away_teams_3_9.png"
+}

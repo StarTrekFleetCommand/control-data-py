@@ -1,0 +1,124 @@
+{
+  "research_name": "Apex Shred vs Aggregation",
+  "description": "Increases base Apex Shred against Aggregation hostiles.",
+  "location": {
+    "column": 10,
+    "row": 2,
+    "tree": "aggregation"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 11318400,
+      "increased_power": 566000,
+      "requirements": [
+        {
+          "name": "Aggregation Critical Chance Reduction",
+          "level": 1
+        },
+        {
+          "name": "Recon Locus",
+          "level": 67
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "aggregation smuggled studies",
+            "value": 3500
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 3.0
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 14774400,
+      "increased_power": 34000,
+      "requirements": [
+        {
+          "name": "Recon Locus",
+          "level": 68
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "aggregation smuggled studies",
+            "value": 3650
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 5.0
+      }
+    },
+    {
+      "level": 3,
+      "research_time": 19180800,
+      "increased_power": 35000,
+      "requirements": [
+        {
+          "name": "Recon Locus",
+          "level": 69
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "aggregation smuggled studies",
+            "value": 3800
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 8.0
+      }
+    },
+    {
+      "level": 4,
+      "research_time": 24883200,
+      "increased_power": 35000,
+      "requirements": [
+        {
+          "name": "Aggregation Critical Chance Reduction",
+          "level": 8
+        },
+        {
+          "name": "Recon Locus",
+          "level": 70
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "aggregation smuggled studies",
+            "value": 4050
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 10.0
+      }
+    }
+  ],
+  "img_url": "./assets/apex_shred_vs_aggregation_aggregation_2_10.png"
+}

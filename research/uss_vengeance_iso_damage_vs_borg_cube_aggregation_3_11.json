@@ -1,0 +1,38 @@
+{
+  "research_name": "U.S.S. Vengeance Iso Damage vs Borg Cube",
+  "description": "Increases the U.S.S. Vengeance Isolytic Damage vs Borg Cube by 300%",
+  "location": {
+    "column": 11,
+    "row": 3,
+    "tree": "aggregation"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 23673600,
+      "increased_power": 660000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 70
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "aggregation smuggled studies",
+            "value": 500
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 3.0
+      }
+    }
+  ],
+  "img_url": "./assets/uss_vengeance_iso_damage_vs_borg_cube_aggregation_3_11.png"
+}

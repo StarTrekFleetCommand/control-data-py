@@ -1,19 +1,19 @@
 {
-  "research_name": "NS Morale Isolytic Damage",
-  "description": "Increases Isolytic Damage while your ship has Morale.",
+  "research_name": "Khan's Glove",
+  "description": "Increases base Apex Shred when fighting Player targets (does not apply while defending station).\n\nThis does not trigger when Tal is assigned to the bridge of your ship.",
   "location": {
-    "column": 1,
-    "row": 2,
-    "tree": "star path"
+    "column": 87,
+    "row": 1,
+    "tree": "artifact"
   },
   "levels": [
     {
       "level": 1,
-      "research_time": 60,
-      "increased_power": 57500,
+      "research_time": 0,
+      "increased_power": 38000,
       "requirements": [
         {
-          "name": "Operations",
+          "name": "Artifact Gallery",
           "level": 30
         }
       ],
@@ -23,8 +23,8 @@
         "materials": [],
         "others": [
           {
-            "type": "nova squadron particles",
-            "value": 63000
+            "type": "khan's glove",
+            "value": 55
           }
         ]
       },
@@ -35,8 +35,8 @@
     },
     {
       "level": 2,
-      "research_time": 60,
-      "increased_power": 10500,
+      "research_time": 0,
+      "increased_power": 4000,
       "requirements": [],
       "required_by": [],
       "research_costs": {
@@ -44,20 +44,20 @@
         "materials": [],
         "others": [
           {
-            "type": "nova squadron particles",
-            "value": 63000
+            "type": "khan's glove",
+            "value": 32
           }
         ]
       },
       "bonus": {
         "percentage": false,
-        "value": 0.06
+        "value": 0.08
       }
     },
     {
       "level": 3,
-      "research_time": 60,
-      "increased_power": 11000,
+      "research_time": 0,
+      "increased_power": 5000,
       "requirements": [],
       "required_by": [],
       "research_costs": {
@@ -65,55 +65,8 @@
         "materials": [],
         "others": [
           {
-            "type": "nova squadron particles",
-            "value": 63000
-          }
-        ]
-      },
-      "bonus": {
-        "percentage": false,
-        "value": 0.07
-      }
-    },
-    {
-      "level": 4,
-      "research_time": 60,
-      "increased_power": 49500,
-      "requirements": [
-        {
-          "name": "Operations",
-          "level": 41
-        }
-      ],
-      "required_by": [],
-      "research_costs": {
-        "resources": [],
-        "materials": [],
-        "others": [
-          {
-            "type": "nova squadron particles",
-            "value": 63000
-          }
-        ]
-      },
-      "bonus": {
-        "percentage": false,
-        "value": 0.09
-      }
-    },
-    {
-      "level": 5,
-      "research_time": 60,
-      "increased_power": 17500,
-      "requirements": [],
-      "required_by": [],
-      "research_costs": {
-        "resources": [],
-        "materials": [],
-        "others": [
-          {
-            "type": "nova squadron particles",
-            "value": 63000
+            "type": "khan's glove",
+            "value": 36
           }
         ]
       },
@@ -123,9 +76,9 @@
       }
     },
     {
-      "level": 6,
-      "research_time": 60,
-      "increased_power": 19000,
+      "level": 4,
+      "research_time": 0,
+      "increased_power": 5000,
       "requirements": [],
       "required_by": [],
       "research_costs": {
@@ -133,24 +86,24 @@
         "materials": [],
         "others": [
           {
-            "type": "nova squadron particles",
-            "value": 63000
+            "type": "khan's glove",
+            "value": 41
           }
         ]
       },
       "bonus": {
         "percentage": false,
-        "value": 0.12
+        "value": 0.13
       }
     },
     {
-      "level": 7,
-      "research_time": 60,
-      "increased_power": 70000,
+      "level": 5,
+      "research_time": 0,
+      "increased_power": 5000,
       "requirements": [
         {
-          "name": "Operations",
-          "level": 51
+          "name": "Artifact Gallery",
+          "level": 40
         }
       ],
       "required_by": [],
@@ -159,29 +112,8 @@
         "materials": [],
         "others": [
           {
-            "type": "nova squadron particles",
-            "value": 94500
-          }
-        ]
-      },
-      "bonus": {
-        "percentage": false,
-        "value": 0.14
-      }
-    },
-    {
-      "level": 8,
-      "research_time": 60,
-      "increased_power": 32000,
-      "requirements": [],
-      "required_by": [],
-      "research_costs": {
-        "resources": [],
-        "materials": [],
-        "others": [
-          {
-            "type": "nova squadron particles",
-            "value": 94500
+            "type": "khan's glove",
+            "value": 47
           }
         ]
       },
@@ -191,12 +123,101 @@
       }
     },
     {
-      "level": 9,
-      "research_time": 60,
-      "increased_power": 53500,
+      "level": 6,
+      "research_time": 0,
+      "increased_power": 5000,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "khan's glove",
+            "value": 53
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.2
+      }
+    },
+    {
+      "level": 7,
+      "research_time": 0,
+      "increased_power": 6000,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "khan's glove",
+            "value": 61
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.23
+      }
+    },
+    {
+      "level": 8,
+      "research_time": 0,
+      "increased_power": 7000,
       "requirements": [
         {
-          "name": "Operations",
+          "name": "Artifact Gallery",
+          "level": 51
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "khan's glove",
+            "value": 69
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.27
+      }
+    },
+    {
+      "level": 9,
+      "research_time": 0,
+      "increased_power": 6000,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "khan's glove",
+            "value": 80
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.31
+      }
+    },
+    {
+      "level": 10,
+      "research_time": 0,
+      "increased_power": 8000,
+      "requirements": [
+        {
+          "name": "Artifact Gallery",
           "level": 61
         }
       ],
@@ -206,20 +227,20 @@
         "materials": [],
         "others": [
           {
-            "type": "nova squadron particles",
-            "value": 94500
+            "type": "khan's glove",
+            "value": 91
           }
         ]
       },
       "bonus": {
         "percentage": false,
-        "value": 0.18
+        "value": 0.36
       }
     },
     {
-      "level": 10,
-      "research_time": 60,
-      "increased_power": 39500,
+      "level": 11,
+      "research_time": 0,
+      "increased_power": 7000,
       "requirements": [],
       "required_by": [],
       "research_costs": {
@@ -227,16 +248,37 @@
         "materials": [],
         "others": [
           {
-            "type": "nova squadron particles",
-            "value": 94500
+            "type": "khan's glove",
+            "value": 105
           }
         ]
       },
       "bonus": {
         "percentage": false,
-        "value": 0.2
+        "value": 0.43
+      }
+    },
+    {
+      "level": 12,
+      "research_time": 0,
+      "increased_power": 8000,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "khan's glove",
+            "value": 121
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.5
       }
     }
   ],
-  "img_url": "./assets/ns_morale_isolytic_damage_star_path_2_1.png"
+  "img_url": "./assets/khans_glove_artifact_1_87.png"
 }

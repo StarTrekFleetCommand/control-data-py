@@ -1,0 +1,38 @@
+{
+  "research_name": "Chaos Theory",
+  "description": "Increase payouts of Chaosmatter, Chaos Tier-Up Catalyst and Chaos Tech Reactors from the <i>Chaos Material Exchange</i> in the Continuum Refinery.",
+  "location": {
+    "column": 67,
+    "row": 3,
+    "tree": "starships"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 240,
+      "increased_power": 56520,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 42
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "ionized nexus particle",
+            "value": 100
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 1.0
+      }
+    }
+  ],
+  "img_url": "./assets/chaos_theory_starships_3_67.png"
+}

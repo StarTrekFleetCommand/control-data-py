@@ -1,20 +1,20 @@
 {
-  "research_name": "NS Morale Isolytic Damage",
-  "description": "Increases Isolytic Damage while your ship has Morale.",
+  "research_name": "Subspace Authorization",
+  "description": "Increases the GS-31's Warp Range.",
   "location": {
-    "column": 1,
+    "column": 79,
     "row": 2,
-    "tree": "star path"
+    "tree": "starships"
   },
   "levels": [
     {
       "level": 1,
-      "research_time": 60,
-      "increased_power": 57500,
+      "research_time": 240,
+      "increased_power": 35500,
       "requirements": [
         {
-          "name": "Operations",
-          "level": 30
+          "name": "R&D Department",
+          "level": 45
         }
       ],
       "required_by": [],
@@ -23,66 +23,24 @@
         "materials": [],
         "others": [
           {
-            "type": "nova squadron particles",
-            "value": 63000
+            "type": "covert modifications",
+            "value": 25
           }
         ]
       },
       "bonus": {
         "percentage": false,
-        "value": 0.05
+        "value": 50.0
       }
     },
     {
       "level": 2,
-      "research_time": 60,
-      "increased_power": 10500,
-      "requirements": [],
-      "required_by": [],
-      "research_costs": {
-        "resources": [],
-        "materials": [],
-        "others": [
-          {
-            "type": "nova squadron particles",
-            "value": 63000
-          }
-        ]
-      },
-      "bonus": {
-        "percentage": false,
-        "value": 0.06
-      }
-    },
-    {
-      "level": 3,
-      "research_time": 60,
-      "increased_power": 11000,
-      "requirements": [],
-      "required_by": [],
-      "research_costs": {
-        "resources": [],
-        "materials": [],
-        "others": [
-          {
-            "type": "nova squadron particles",
-            "value": 63000
-          }
-        ]
-      },
-      "bonus": {
-        "percentage": false,
-        "value": 0.07
-      }
-    },
-    {
-      "level": 4,
-      "research_time": 60,
-      "increased_power": 49500,
+      "research_time": 240,
+      "increased_power": 8500,
       "requirements": [
         {
-          "name": "Operations",
-          "level": 41
+          "name": "R&D Department",
+          "level": 48
         }
       ],
       "required_by": [],
@@ -91,65 +49,23 @@
         "materials": [],
         "others": [
           {
-            "type": "nova squadron particles",
-            "value": 63000
+            "type": "covert modifications",
+            "value": 30
           }
         ]
       },
       "bonus": {
         "percentage": false,
-        "value": 0.09
+        "value": 100.0
       }
     },
     {
-      "level": 5,
-      "research_time": 60,
-      "increased_power": 17500,
-      "requirements": [],
-      "required_by": [],
-      "research_costs": {
-        "resources": [],
-        "materials": [],
-        "others": [
-          {
-            "type": "nova squadron particles",
-            "value": 63000
-          }
-        ]
-      },
-      "bonus": {
-        "percentage": false,
-        "value": 0.1
-      }
-    },
-    {
-      "level": 6,
-      "research_time": 60,
-      "increased_power": 19000,
-      "requirements": [],
-      "required_by": [],
-      "research_costs": {
-        "resources": [],
-        "materials": [],
-        "others": [
-          {
-            "type": "nova squadron particles",
-            "value": 63000
-          }
-        ]
-      },
-      "bonus": {
-        "percentage": false,
-        "value": 0.12
-      }
-    },
-    {
-      "level": 7,
-      "research_time": 60,
-      "increased_power": 70000,
+      "level": 3,
+      "research_time": 240,
+      "increased_power": 9500,
       "requirements": [
         {
-          "name": "Operations",
+          "name": "R&D Department",
           "level": 51
         }
       ],
@@ -159,44 +75,75 @@
         "materials": [],
         "others": [
           {
-            "type": "nova squadron particles",
-            "value": 94500
+            "type": "covert modifications",
+            "value": 30
           }
         ]
       },
       "bonus": {
         "percentage": false,
-        "value": 0.14
+        "value": 225.0
       }
     },
     {
-      "level": 8,
-      "research_time": 60,
-      "increased_power": 32000,
-      "requirements": [],
+      "level": 4,
+      "research_time": 240,
+      "increased_power": 19500,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 56
+        }
+      ],
       "required_by": [],
       "research_costs": {
         "resources": [],
         "materials": [],
         "others": [
           {
-            "type": "nova squadron particles",
-            "value": 94500
+            "type": "covert modifications",
+            "value": 35
           }
         ]
       },
       "bonus": {
         "percentage": false,
-        "value": 0.16
+        "value": 400.0
       }
     },
     {
-      "level": 9,
-      "research_time": 60,
-      "increased_power": 53500,
+      "level": 5,
+      "research_time": 240,
+      "increased_power": 9000,
       "requirements": [
         {
-          "name": "Operations",
+          "name": "R&D Department",
+          "level": 58
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "covert modifications",
+            "value": 35
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 550.0
+      }
+    },
+    {
+      "level": 6,
+      "research_time": 240,
+      "increased_power": 16000,
+      "requirements": [
+        {
+          "name": "R&D Department",
           "level": 61
         }
       ],
@@ -206,37 +153,120 @@
         "materials": [],
         "others": [
           {
-            "type": "nova squadron particles",
-            "value": 94500
+            "type": "covert modifications",
+            "value": 40
           }
         ]
       },
       "bonus": {
         "percentage": false,
-        "value": 0.18
+        "value": 725.0
       }
     },
     {
-      "level": 10,
-      "research_time": 60,
-      "increased_power": 39500,
-      "requirements": [],
+      "level": 7,
+      "research_time": 240,
+      "increased_power": 28000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 65
+        }
+      ],
       "required_by": [],
       "research_costs": {
         "resources": [],
         "materials": [],
         "others": [
           {
-            "type": "nova squadron particles",
-            "value": 94500
+            "type": "covert modifications",
+            "value": 45
           }
         ]
       },
       "bonus": {
         "percentage": false,
-        "value": 0.2
+        "value": 825.0
+      }
+    },
+    {
+      "level": 8,
+      "research_time": 240,
+      "increased_power": 16000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 67
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "covert modifications",
+            "value": 45
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 900.0
+      }
+    },
+    {
+      "level": 9,
+      "research_time": 240,
+      "increased_power": 8000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 68
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "covert modifications",
+            "value": 50
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 940.0
+      }
+    },
+    {
+      "level": 10,
+      "research_time": 240,
+      "increased_power": 18000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 70
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "covert modifications",
+            "value": 55
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 1000.0
       }
     }
   ],
-  "img_url": "./assets/ns_morale_isolytic_damage_star_path_2_1.png"
+  "img_url": "./assets/subspace_authorization_starships_2_79.png"
 }

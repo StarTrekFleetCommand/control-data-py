@@ -1,0 +1,90 @@
+{
+  "research_name": "<color=#fac710>Prime</color> Augment Ordinance",
+  "description": "Increases reputation dropped by Augment Exile hostiles and unlocks a daily free claim in the Augment Faction store containing Common, <color=#00ed4b>Uncommon</color>, <color=#00b4ff>Rare</color> and <color=#ee84ff>Epic</color> Wrath Credits.",
+  "location": {
+    "column": 4,
+    "row": 2,
+    "tree": "galaxy"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 3019680,
+      "increased_power": 27000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 26
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "covert procurement particle",
+            "value": 200
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.5
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 3623640,
+      "increased_power": 0,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 26
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "covert procurement particle",
+            "value": 300
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 1.5
+      }
+    },
+    {
+      "level": 3,
+      "research_time": 4227600,
+      "increased_power": 0,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 26
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "covert procurement particle",
+            "value": 500
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 3.0
+      }
+    }
+  ],
+  "img_url": "./assets/colorfac710primecolor_augment_ordinance_galaxy_2_4.png"
+}

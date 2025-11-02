@@ -1,0 +1,296 @@
+{
+  "research_name": "Klingon Notoriety",
+  "description": "Increases the base amount of Klingon reputation gained or lost from defeating Hostiles and Armadas.",
+  "location": {
+    "column": 30,
+    "row": 2,
+    "tree": "away teams"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 1820040,
+      "increased_power": 7750,
+      "requirements": [
+        {
+          "name": "Federation Notoriety",
+          "level": 1
+        },
+        {
+          "name": "R&D Department",
+          "level": 35
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "service award",
+            "value": 27351
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.05
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 2449680,
+      "increased_power": 750,
+      "requirements": [
+        {
+          "name": "Klingon Graviton Shields",
+          "level": 4
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "service award",
+            "value": 38536
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.07
+      }
+    },
+    {
+      "level": 3,
+      "research_time": 2438820,
+      "increased_power": 750,
+      "requirements": [
+        {
+          "name": "Klingon Graviton Shields",
+          "level": 5
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "service award",
+            "value": 56241
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.09
+      }
+    },
+    {
+      "level": 4,
+      "research_time": 4176180,
+      "increased_power": 1000,
+      "requirements": [
+        {
+          "name": "Klingon Graviton Shields",
+          "level": 6
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "service award",
+            "value": 80124
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.12
+      }
+    },
+    {
+      "level": 5,
+      "research_time": 5641140,
+      "increased_power": 750,
+      "requirements": [
+        {
+          "name": "Klingon Graviton Shields",
+          "level": 7
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "service award",
+            "value": 162494
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.15
+      }
+    },
+    {
+      "level": 6,
+      "research_time": 9887760,
+      "increased_power": 1000,
+      "requirements": [
+        {
+          "name": "Klingon Graviton Shields",
+          "level": 8
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "service award",
+            "value": 235355
+          },
+          {
+            "type": "merit of honor",
+            "value": 25
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.2
+      }
+    },
+    {
+      "level": 7,
+      "research_time": 9419280,
+      "increased_power": 1000,
+      "requirements": [
+        {
+          "name": "Klingon Graviton Shields",
+          "level": 9
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "service award",
+            "value": 335040
+          },
+          {
+            "type": "merit of honor",
+            "value": 35
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.25
+      }
+    },
+    {
+      "level": 8,
+      "research_time": 14712240,
+      "increased_power": 1000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 42
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "service award",
+            "value": 465860
+          },
+          {
+            "type": "merit of honor",
+            "value": 45
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.32
+      }
+    },
+    {
+      "level": 9,
+      "research_time": 20537160,
+      "increased_power": 1250,
+      "requirements": [
+        {
+          "name": "Klingon Hauler",
+          "level": 3
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "service award",
+            "value": 657834
+          },
+          {
+            "type": "merit of honor",
+            "value": 65
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.4
+      }
+    },
+    {
+      "level": 10,
+      "research_time": 27253920,
+      "increased_power": 1250,
+      "requirements": [
+        {
+          "name": "Klingon Hauler",
+          "level": 4
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "service award",
+            "value": 917430
+          },
+          {
+            "type": "merit of honor",
+            "value": 90
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.5
+      }
+    }
+  ],
+  "img_url": "./assets/klingon_notoriety_away_teams_2_30.png"
+}

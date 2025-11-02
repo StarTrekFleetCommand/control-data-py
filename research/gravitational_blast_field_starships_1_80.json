@@ -1,0 +1,276 @@
+{
+  "research_name": "Gravitational Blast Field",
+  "description": "Increases the GS-31's Gravitational Blast damage against Wave Defense hostiles.",
+  "location": {
+    "column": 80,
+    "row": 1,
+    "tree": "starships"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 51062400,
+      "increased_power": 35500,
+      "requirements": [
+        {
+          "name": "Subspace Authorization",
+          "level": 1
+        },
+        {
+          "name": "R&D Department",
+          "level": 45
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "covert modifications",
+            "value": 130
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 60000000.0
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 113702400,
+      "increased_power": 8500,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 48
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "covert modifications",
+            "value": 140
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 75000000.0
+      }
+    },
+    {
+      "level": 3,
+      "research_time": 195177600,
+      "increased_power": 9500,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 51
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "covert modifications",
+            "value": 155
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 131000000.0
+      }
+    },
+    {
+      "level": 4,
+      "research_time": 226281600,
+      "increased_power": 19500,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 56
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "covert modifications",
+            "value": 170
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 190000000.0
+      }
+    },
+    {
+      "level": 5,
+      "research_time": 240105600,
+      "increased_power": 9000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 58
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "covert modifications",
+            "value": 180
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 200000000.0
+      }
+    },
+    {
+      "level": 6,
+      "research_time": 264435780,
+      "increased_power": 16000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 61
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "covert modifications",
+            "value": 200
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 220000000.0
+      }
+    },
+    {
+      "level": 7,
+      "research_time": 303432120,
+      "increased_power": 28000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 65
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "covert modifications",
+            "value": 220
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 300000000.0
+      }
+    },
+    {
+      "level": 8,
+      "research_time": 318785820,
+      "increased_power": 16000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 67
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "covert modifications",
+            "value": 235
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 420000000.0
+      }
+    },
+    {
+      "level": 9,
+      "research_time": 325161540,
+      "increased_power": 8000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 68
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "covert modifications",
+            "value": 250
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 510000000.0
+      }
+    },
+    {
+      "level": 10,
+      "research_time": 331697160,
+      "increased_power": 18000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 70
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "covert modifications",
+            "value": 265
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 810000000.0
+      }
+    }
+  ],
+  "img_url": "./assets/gravitational_blast_field_starships_1_80.png"
+}

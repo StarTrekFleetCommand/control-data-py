@@ -1,0 +1,45 @@
+{
+  "research_name": "Prime Cerritos Cooldown",
+  "description": "Increases the base cooldown speed of the Cerritos' active ability.",
+  "location": {
+    "column": 26,
+    "row": 2,
+    "tree": "starships"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 8748780,
+      "increased_power": 128000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 36
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 750000000
+          }
+        ],
+        "materials": [
+          {
+            "type": "gas",
+            "value": 2000,
+            "grade": 6,
+            "rarity": "uncommon"
+          }
+        ],
+        "others": []
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 1.0
+      }
+    }
+  ],
+  "img_url": "./assets/prime_cerritos_cooldown_starships_2_26.png"
+}

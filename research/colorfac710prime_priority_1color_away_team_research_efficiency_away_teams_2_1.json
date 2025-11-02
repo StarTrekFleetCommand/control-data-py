@@ -1,0 +1,102 @@
+{
+  "research_name": "<color=#fac710>Prime Priority 1:</color> Away Team Research Efficiency",
+  "description": "Increase base Cost Efficiency on Service Awards, Merit of Honor and Pioneer Crests in the Away Teams Research Tree.",
+  "location": {
+    "column": 1,
+    "row": 2,
+    "tree": "away teams"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 3019680,
+      "increased_power": 27000,
+      "requirements": [
+        {
+          "name": "Shuttle Bay",
+          "level": 26
+        },
+        {
+          "name": "Operations",
+          "level": 26
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "covert procurement particle",
+            "value": 200
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.05
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 3623640,
+      "increased_power": 0,
+      "requirements": [
+        {
+          "name": "Shuttle Bay",
+          "level": 26
+        },
+        {
+          "name": "Operations",
+          "level": 26
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "covert procurement particle",
+            "value": 300
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.2
+      }
+    },
+    {
+      "level": 3,
+      "research_time": 4227600,
+      "increased_power": 0,
+      "requirements": [
+        {
+          "name": "Shuttle Bay",
+          "level": 26
+        },
+        {
+          "name": "Operations",
+          "level": 26
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "covert procurement particle",
+            "value": 500
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.5
+      }
+    }
+  ],
+  "img_url": "./assets/colorfac710prime_priority_1color_away_team_research_efficiency_away_teams_2_1.png"
+}

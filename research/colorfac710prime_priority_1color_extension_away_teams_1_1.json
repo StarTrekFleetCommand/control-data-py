@@ -1,0 +1,84 @@
+{
+  "research_name": "<color=#fac710>Prime Priority 1:</color> Extension",
+  "description": "Permanently grants the ability to receive one extra Priority 1 Away Team Assignment.",
+  "location": {
+    "column": 1,
+    "row": 1,
+    "tree": "away teams"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 3019680,
+      "increased_power": 9000,
+      "requirements": [
+        {
+          "name": "Shuttle Bay",
+          "level": 26
+        },
+        {
+          "name": "Operations",
+          "level": 26
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "covert procurement particle",
+            "value": 200
+          }
+        ]
+      },
+      "rewards": [
+        {
+          "type": "Independent Credits",
+          "value": 1
+        }
+      ],
+      "bonus": {
+        "percentage": false,
+        "value": 1.0
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 4227600,
+      "increased_power": 0,
+      "requirements": [
+        {
+          "name": "Shuttle Bay",
+          "level": 26
+        },
+        {
+          "name": "Operations",
+          "level": 26
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "covert procurement particle",
+            "value": 500
+          }
+        ]
+      },
+      "rewards": [
+        {
+          "type": "Independent Credits",
+          "value": 1
+        }
+      ],
+      "bonus": {
+        "percentage": false,
+        "value": 2.0
+      }
+    }
+  ],
+  "img_url": "./assets/colorfac710prime_priority_1color_extension_away_teams_1_1.png"
+}

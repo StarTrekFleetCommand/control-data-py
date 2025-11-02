@@ -1,0 +1,38 @@
+{
+  "research_name": "Prime Material Fabricator Manufacturing",
+  "description": "Increases Fabricator Chips found in the Borg Type 3 claim by 1",
+  "location": {
+    "column": 71,
+    "row": 1,
+    "tree": "starships"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 240,
+      "increased_power": 28500,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 42
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "prime material fabricator particle",
+            "value": 1000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 1.0
+      }
+    }
+  ],
+  "img_url": "./assets/prime_material_fabricator_manufacturing_starships_1_71.png"
+}

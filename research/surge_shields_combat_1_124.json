@@ -1,0 +1,512 @@
+{
+  "research_name": "Surge Shields",
+  "description": "Increases base Shield Health for 6\u21f5+ ships.",
+  "location": {
+    "column": 124,
+    "row": 1,
+    "tree": "combat"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 82166400,
+      "increased_power": 620000,
+      "requirements": [
+        {
+          "name": "Surge Damage",
+          "level": 1
+        },
+        {
+          "name": "R&D Department",
+          "level": 71
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-tritanium",
+            "value": 5700000
+          },
+          {
+            "type": "\u03c3-dilithium",
+            "value": 16100000
+          }
+        ],
+        "materials": [
+          {
+            "type": "crystal",
+            "value": 42403,
+            "grade": 7,
+            "rarity": "common"
+          }
+        ],
+        "others": [
+          {
+            "type": "primordial plasma",
+            "value": 4000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 30.0
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 83030400,
+      "increased_power": 25000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 71
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-tritanium",
+            "value": 5820000
+          },
+          {
+            "type": "\u03c3-dilithium",
+            "value": 16300000
+          }
+        ],
+        "materials": [
+          {
+            "type": "crystal",
+            "value": 44134,
+            "grade": 7,
+            "rarity": "common"
+          }
+        ],
+        "others": [
+          {
+            "type": "primordial plasma",
+            "value": 4000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 36.0
+      }
+    },
+    {
+      "level": 3,
+      "research_time": 107395200,
+      "increased_power": 40000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 72
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-tritanium",
+            "value": 11500000
+          },
+          {
+            "type": "\u03c3-dilithium",
+            "value": 32400000
+          }
+        ],
+        "materials": [
+          {
+            "type": "crystal",
+            "value": 112738,
+            "grade": 7,
+            "rarity": "common"
+          },
+          {
+            "type": "crystal",
+            "value": 50075,
+            "grade": 7,
+            "rarity": "uncommon"
+          }
+        ],
+        "others": [
+          {
+            "type": "primordial plasma",
+            "value": 4000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 43.0
+      }
+    },
+    {
+      "level": 4,
+      "research_time": 147830400,
+      "increased_power": 55000,
+      "requirements": [
+        {
+          "name": "Surge Damage",
+          "level": 4
+        },
+        {
+          "name": "R&D Department",
+          "level": 73
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-tritanium",
+            "value": 20700000
+          },
+          {
+            "type": "\u03c3-dilithium",
+            "value": 58300000
+          }
+        ],
+        "materials": [
+          {
+            "type": "crystal",
+            "value": 58913,
+            "grade": 7,
+            "rarity": "uncommon"
+          },
+          {
+            "type": "crystal",
+            "value": 41820,
+            "grade": 7,
+            "rarity": "rare"
+          }
+        ],
+        "others": [
+          {
+            "type": "primordial plasma",
+            "value": 4000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 51.0
+      }
+    },
+    {
+      "level": 5,
+      "research_time": 263692800,
+      "increased_power": 125000,
+      "requirements": [
+        {
+          "name": "Surge Damage",
+          "level": 5
+        },
+        {
+          "name": "R&D Department",
+          "level": 75
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-tritanium",
+            "value": 40700000
+          },
+          {
+            "type": "\u03c3-dilithium",
+            "value": 114000000
+          }
+        ],
+        "materials": [
+          {
+            "type": "crystal",
+            "value": 88722,
+            "grade": 7,
+            "rarity": "uncommon"
+          },
+          {
+            "type": "crystal",
+            "value": 49950,
+            "grade": 7,
+            "rarity": "rare"
+          }
+        ],
+        "others": [
+          {
+            "type": "primordial plasma",
+            "value": 4000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 61.0
+      }
+    },
+    {
+      "level": 6,
+      "research_time": 469152000,
+      "increased_power": 145000,
+      "requirements": [
+        {
+          "name": "Surge Damage",
+          "level": 6
+        },
+        {
+          "name": "R&D Department",
+          "level": 77
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-tritanium",
+            "value": 79700000
+          },
+          {
+            "type": "\u03c3-dilithium",
+            "value": 224000000
+          }
+        ],
+        "materials": [
+          {
+            "type": "crystal",
+            "value": 116157,
+            "grade": 7,
+            "rarity": "uncommon"
+          },
+          {
+            "type": "crystal",
+            "value": 62629,
+            "grade": 7,
+            "rarity": "rare"
+          }
+        ],
+        "others": [
+          {
+            "type": "primordial plasma",
+            "value": 4000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 73.0
+      }
+    },
+    {
+      "level": 7,
+      "research_time": 832550400,
+      "increased_power": 160000,
+      "requirements": [
+        {
+          "name": "Surge Damage",
+          "level": 7
+        },
+        {
+          "name": "R&D Department",
+          "level": 79
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-tritanium",
+            "value": 156000000
+          },
+          {
+            "type": "\u03c3-dilithium",
+            "value": 439000000
+          }
+        ],
+        "materials": [
+          {
+            "type": "crystal",
+            "value": 154365,
+            "grade": 7,
+            "rarity": "uncommon"
+          },
+          {
+            "type": "crystal",
+            "value": 78625,
+            "grade": 7,
+            "rarity": "rare"
+          }
+        ],
+        "others": [
+          {
+            "type": "primordial plasma",
+            "value": 4000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 88.0
+      }
+    },
+    {
+      "level": 8,
+      "research_time": 1076889600,
+      "increased_power": 70000,
+      "requirements": [
+        {
+          "name": "Surge Damage",
+          "level": 8
+        },
+        {
+          "name": "R&D Department",
+          "level": 80
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-tritanium",
+            "value": 216000000
+          },
+          {
+            "type": "\u03c3-dilithium",
+            "value": 612000000
+          }
+        ],
+        "materials": [
+          {
+            "type": "crystal",
+            "value": 245419,
+            "grade": 7,
+            "rarity": "uncommon"
+          },
+          {
+            "type": "crystal",
+            "value": 88819,
+            "grade": 7,
+            "rarity": "rare"
+          }
+        ],
+        "others": [
+          {
+            "type": "primordial plasma",
+            "value": 4000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 105.0
+      }
+    },
+    {
+      "level": 9,
+      "research_time": 1082332800,
+      "increased_power": 30000,
+      "requirements": [
+        {
+          "name": "Surge Damage",
+          "level": 9
+        },
+        {
+          "name": "R&D Department",
+          "level": 80
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-tritanium",
+            "value": 219000000
+          },
+          {
+            "type": "\u03c3-dilithium",
+            "value": 615000000
+          }
+        ],
+        "materials": [
+          {
+            "type": "crystal",
+            "value": 250428,
+            "grade": 7,
+            "rarity": "uncommon"
+          },
+          {
+            "type": "crystal",
+            "value": 90632,
+            "grade": 7,
+            "rarity": "rare"
+          }
+        ],
+        "others": [
+          {
+            "type": "primordial plasma",
+            "value": 4000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 125.0
+      }
+    },
+    {
+      "level": 10,
+      "research_time": 1087689600,
+      "increased_power": 20000,
+      "requirements": [
+        {
+          "name": "Surge Damage",
+          "level": 10
+        },
+        {
+          "name": "R&D Department",
+          "level": 80
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-tritanium",
+            "value": 221000000
+          },
+          {
+            "type": "\u03c3-dilithium",
+            "value": 618000000
+          }
+        ],
+        "materials": [
+          {
+            "type": "crystal",
+            "value": 255437,
+            "grade": 7,
+            "rarity": "uncommon"
+          },
+          {
+            "type": "crystal",
+            "value": 92444,
+            "grade": 7,
+            "rarity": "rare"
+          }
+        ],
+        "others": [
+          {
+            "type": "primordial plasma",
+            "value": 4000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 200.0
+      }
+    }
+  ],
+  "img_url": "./assets/surge_shields_combat_1_124.png"
+}

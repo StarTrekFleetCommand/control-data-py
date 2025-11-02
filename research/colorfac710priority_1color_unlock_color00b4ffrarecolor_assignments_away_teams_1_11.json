@@ -1,0 +1,46 @@
+{
+  "research_name": "<color=#fac710>Priority 1:</color> Unlock <color=#00b4ff>Rare</color> Assignments",
+  "description": "Unlocks a 20% chance to get <color=#00b4ff>Rare</color> <color=#fac710>Priority 1</color> assignments.",
+  "location": {
+    "column": 11,
+    "row": 1,
+    "tree": "away teams"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 16601760,
+      "increased_power": 48000,
+      "requirements": [
+        {
+          "name": "<color=#fac710>Priority 1:</color> Unlock <color=#00ed4b>Uncommon</color> Assignments",
+          "level": 1
+        },
+        {
+          "name": "Shuttle Bay",
+          "level": 40
+        },
+        {
+          "name": "Operations",
+          "level": 40
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "pioneer's crest",
+            "value": 10000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 1.0
+      }
+    }
+  ],
+  "img_url": "./assets/colorfac710priority_1color_unlock_color00b4ffrarecolor_assignments_away_teams_1_11.png"
+}

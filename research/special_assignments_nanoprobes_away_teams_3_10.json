@@ -1,0 +1,48 @@
+{
+  "research_name": "Special Assignments: Nanoprobes",
+  "description": "Permanently adds the chance to get away team assignments which reward nanoprobes",
+  "location": {
+    "column": 10,
+    "row": 3,
+    "tree": "away teams"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 29100,
+      "increased_power": 2700,
+      "requirements": [
+        {
+          "name": "Unlock Rare Assignments",
+          "level": 1
+        },
+        {
+          "name": "Shuttle Bay",
+          "level": 21
+        },
+        {
+          "name": "Operations",
+          "level": 25
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "service award",
+            "value": 1050
+          }
+        ]
+      },
+      "rewards": [
+        {
+          "type": "Mission Token",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "img_url": "./assets/special_assignments_nanoprobes_away_teams_3_10.png"
+}

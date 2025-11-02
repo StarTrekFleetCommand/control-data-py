@@ -1,0 +1,354 @@
+{
+  "research_name": "Piercing Formation",
+  "description": "Increases base Armor Piercing against Group Armadas while buffed by the Defiant",
+  "location": {
+    "column": 21,
+    "row": 2,
+    "tree": "starships"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 2600040,
+      "increased_power": 31000,
+      "requirements": [
+        {
+          "name": "Collective Precision",
+          "level": 1
+        },
+        {
+          "name": "R&D Department",
+          "level": 35
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 1110000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "subspace transceivers",
+            "value": 340
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.35
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 5965920,
+      "increased_power": 9500,
+      "requirements": [
+        {
+          "name": "Stalwart Alliance",
+          "level": 1
+        },
+        {
+          "name": "R&D Department",
+          "level": 38
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 3860000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "subspace transceivers",
+            "value": 670
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.55
+      }
+    },
+    {
+      "level": 3,
+      "research_time": 8058720,
+      "increased_power": 4000,
+      "requirements": [
+        {
+          "name": "Stalwart Alliance",
+          "level": 2
+        },
+        {
+          "name": "R&D Department",
+          "level": 39
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 6590000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "subspace transceivers",
+            "value": 725
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.65
+      }
+    },
+    {
+      "level": 4,
+      "research_time": 11857140,
+      "increased_power": 3500,
+      "requirements": [
+        {
+          "name": "Stalwart Alliance",
+          "level": 3
+        },
+        {
+          "name": "R&D Department",
+          "level": 40
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 10400000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "subspace transceivers",
+            "value": 985
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.8
+      }
+    },
+    {
+      "level": 5,
+      "research_time": 14978040,
+      "increased_power": 4000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 41
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 15100000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "subspace transceivers",
+            "value": 1065
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.9
+      }
+    },
+    {
+      "level": 6,
+      "research_time": 21017460,
+      "increased_power": 4500,
+      "requirements": [
+        {
+          "name": "Stalwart Alliance",
+          "level": 4
+        },
+        {
+          "name": "R&D Department",
+          "level": 42
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 22450000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "subspace transceivers",
+            "value": 1445
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 1.1
+      }
+    },
+    {
+      "level": 7,
+      "research_time": 38934120,
+      "increased_power": 9500,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 44
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 49650000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "subspace transceivers",
+            "value": 2125
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 1.35
+      }
+    },
+    {
+      "level": 8,
+      "research_time": 68900340,
+      "increased_power": 10000,
+      "requirements": [
+        {
+          "name": "Stalwart Alliance",
+          "level": 5
+        },
+        {
+          "name": "R&D Department",
+          "level": 46
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 98750000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "subspace transceivers",
+            "value": 3110
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 1.85
+      }
+    },
+    {
+      "level": 9,
+      "research_time": 113694240,
+      "increased_power": 12000,
+      "requirements": [
+        {
+          "name": "Stalwart Alliance",
+          "level": 6
+        },
+        {
+          "name": "R&D Department",
+          "level": 48
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 235800000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "subspace transceivers",
+            "value": 4560
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 2.5
+      }
+    },
+    {
+      "level": 10,
+      "research_time": 195390840,
+      "increased_power": 19000,
+      "requirements": [
+        {
+          "name": "Stalwart Alliance",
+          "level": 7
+        },
+        {
+          "name": "R&D Department",
+          "level": 51
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 1772000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "subspace transceivers",
+            "value": 9065
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 3.85
+      }
+    }
+  ],
+  "img_url": "./assets/piercing_formation_starships_2_21.png"
+}

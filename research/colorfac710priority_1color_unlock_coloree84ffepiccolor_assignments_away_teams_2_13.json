@@ -1,0 +1,46 @@
+{
+  "research_name": "<color=#fac710>Priority 1:</color> Unlock <color=#ee84ff>Epic</color> Assignments",
+  "description": "Unlocks a 10% chance to get <color=#ee84ff>Epic</color> <color=#fac710>Priority 1</color> assignments.",
+  "location": {
+    "column": 13,
+    "row": 2,
+    "tree": "away teams"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 23242500,
+      "increased_power": 48000,
+      "requirements": [
+        {
+          "name": "<color=#fac710>Priority 1:</color> Isolytic Defense",
+          "level": 1
+        },
+        {
+          "name": "Shuttle Bay",
+          "level": 40
+        },
+        {
+          "name": "Operations",
+          "level": 40
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "pioneer's crest",
+            "value": 20000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 1.0
+      }
+    }
+  ],
+  "img_url": "./assets/colorfac710priority_1color_unlock_coloree84ffepiccolor_assignments_away_teams_2_13.png"
+}

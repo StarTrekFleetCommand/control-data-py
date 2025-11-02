@@ -1,0 +1,276 @@
+{
+  "research_name": "Temporal Hull Health",
+  "description": "Increase base Hull Health for all ships",
+  "location": {
+    "column": 78,
+    "row": 1,
+    "tree": "starships"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 19958400,
+      "increased_power": 111000,
+      "requirements": [
+        {
+          "name": "Krenim Invading Entity Apex Barrier",
+          "level": 1
+        },
+        {
+          "name": "R&D Department",
+          "level": 42
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "charged tachyons",
+            "value": 180
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 1.0
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 20390400,
+      "increased_power": 1000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 42
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "charged tachyons",
+            "value": 180
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 2.0
+      }
+    },
+    {
+      "level": 3,
+      "research_time": 21686400,
+      "increased_power": 2000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 42
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "charged tachyons",
+            "value": 180
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 3.0
+      }
+    },
+    {
+      "level": 4,
+      "research_time": 22032000,
+      "increased_power": 1000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 42
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "charged tachyons",
+            "value": 270
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 4.0
+      }
+    },
+    {
+      "level": 5,
+      "research_time": 185414400,
+      "increased_power": 95000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 51
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "charged tachyons",
+            "value": 360
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 5.5
+      }
+    },
+    {
+      "level": 6,
+      "research_time": 195177600,
+      "increased_power": 4000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 51
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "charged tachyons",
+            "value": 450
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 7.0
+      }
+    },
+    {
+      "level": 7,
+      "research_time": 204940800,
+      "increased_power": 4000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 51
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "charged tachyons",
+            "value": 540
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 9.0
+      }
+    },
+    {
+      "level": 8,
+      "research_time": 204940800,
+      "increased_power": 166000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 61
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "charged tachyons",
+            "value": 630
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 11.0
+      }
+    },
+    {
+      "level": 9,
+      "research_time": 204940800,
+      "increased_power": 8000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 61
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "charged tachyons",
+            "value": 810
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 13.0
+      }
+    },
+    {
+      "level": 10,
+      "research_time": 204940800,
+      "increased_power": 8000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 61
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "charged tachyons",
+            "value": 990
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 15.0
+      }
+    }
+  ],
+  "img_url": "./assets/temporal_hull_health_starships_1_78.png"
+}

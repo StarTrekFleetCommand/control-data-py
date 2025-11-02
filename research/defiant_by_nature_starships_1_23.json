@@ -1,0 +1,187 @@
+{
+  "research_name": "Defiant By Nature",
+  "description": "Increases Critical Hit Chance against Solo Armadas while buffed by the Defiant",
+  "location": {
+    "column": 23,
+    "row": 1,
+    "tree": "starships"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 2600040,
+      "increased_power": 31000,
+      "requirements": [
+        {
+          "name": "Seeing Through",
+          "level": 1
+        },
+        {
+          "name": "R&D Department",
+          "level": 35
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 1110000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "subspace transceivers",
+            "value": 340
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.03
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 68900340,
+      "increased_power": 45000,
+      "requirements": [
+        {
+          "name": "Army Of One",
+          "level": 4
+        },
+        {
+          "name": "R&D Department",
+          "level": 46
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 98750000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "subspace transceivers",
+            "value": 3110
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.14
+      }
+    },
+    {
+      "level": 3,
+      "research_time": 113694240,
+      "increased_power": 12000,
+      "requirements": [
+        {
+          "name": "Army Of One",
+          "level": 6
+        },
+        {
+          "name": "R&D Department",
+          "level": 48
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 235800000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "subspace transceivers",
+            "value": 4560
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.2
+      }
+    },
+    {
+      "level": 4,
+      "research_time": 189523500,
+      "increased_power": 12000,
+      "requirements": [
+        {
+          "name": "Army Of One",
+          "level": 8
+        },
+        {
+          "name": "R&D Department",
+          "level": 50
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 708800000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "subspace transceivers",
+            "value": 6685
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.28
+      }
+    },
+    {
+      "level": 5,
+      "research_time": 207172740,
+      "increased_power": 22000,
+      "requirements": [
+        {
+          "name": "Army Of One",
+          "level": 10
+        },
+        {
+          "name": "R&D Department",
+          "level": 53
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 3987000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "subspace transceivers",
+            "value": 13280
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.35
+      }
+    }
+  ],
+  "img_url": "./assets/defiant_by_nature_starships_1_23.png"
+}
