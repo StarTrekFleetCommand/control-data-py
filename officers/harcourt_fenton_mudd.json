@@ -8,13 +8,13 @@
   "ability_info": {
     "captain_maneuver": {
       "name": "The Ultimate Con",
-      "bonus": "When the ship takes damage from an Armada Target weapon attack, Harry Mudd decreases the Weapon Damage of that Armada Target by {value} for this round.\n(Weapons with multiple shots will only trigger this maneuver once per attack.)",
+      "bonus": "When the ship takes damage from an Armada Target weapon attack, Harry Mudd decreases the Weapon Damage of that Armada Target by {value} for this round. Works against Hostiles of level 70 and under.\n(Weapons with multiple shots will only trigger this maneuver once per attack.)",
       "percentage": true,
       "value": 0.1
     },
     "officer_ability": {
       "name": "Down but Never Out",
-      "bonus": "When the ship's Shield Health is depleted, Harry Mudd increases the Weapon Damage of the ship by {value} for the rest of the combat.",
+      "bonus": "When the ship's Shield Health is depleted, Harry Mudd increases the Weapon Damage of the ship by {value} for the rest of the combat. Works against Hostiles of level 70 and under.",
       "percentage": true
     },
     "below_decks_ability": null

@@ -1,0 +1,161 @@
+{
+  "officer_name": "WOK Leonard McCoy",
+  "description": "As chief medical officer of the USS Enterprise, the name \u201cMcCoy\u201d has become synonymous with the concepts associated with medical excellence. A renowned exobiologist, many species from all corners of the Federation could find comfort in the knowledge that their maladies would be treated by one Dr. McCoy. While highly proficient at providing comfort to his fellow crew in times of need, Dr. McCoy was also capable of inspiring resolve in his commanding officers. Admiral James T. Kirk regarded Dr. McCoy as a close friend, and their conversations were vital in inspiring Kirk to return to exploring the stars that he so dearly loved.\n\nFollowing the return of Khan and the subsequent Battle of the Mutara Nebula, Dr. McCoy was of paramount importance in the observation and treatment of casualties incurred by the Enterprise crew. Although Captain Spock\u2019s valiant sacrifice would be the turning point in the battle, the crew nonetheless would not have been capable of surviving the battle without Dr. McCoy\u2019s efforts.",
+  "class": "science",
+  "group": "wrath of khan",
+  "faction": "federation",
+  "rarity": "rare",
+  "ability_info": {
+    "captain_maneuver": {
+      "name": "Chain of Command",
+      "bonus": "This Officer does not have a Captain's Maneuver. Equipping this Officer as the captain of a ship provides no benefit.",
+      "percentage": true,
+      "value": 0.0
+    },
+    "officer_ability": {
+      "name": "Doctor's Orders",
+      "bonus": "",
+      "percentage": true
+    },
+    "below_decks_ability": {
+      "name": "A Fighting Chance",
+      "bonus": "Below-Deck Abilities are only activated when assigned to a below-decks slot on a ship.",
+      "percentage": true
+    }
+  },
+  "synergy": {
+    "command": 0.0,
+    "engineering": 0.0,
+    "science": 0.0
+  },
+  "traits": [
+    {
+      "name": "Passionate",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 1500
+        },
+        {
+          "level": 2,
+          "trait_xp": 2700
+        },
+        {
+          "level": 3,
+          "trait_xp": 3800
+        }
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Loyal",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 7650
+        },
+        {
+          "level": 2,
+          "trait_xp": 6000
+        },
+        {
+          "level": 3,
+          "trait_xp": 7000
+        },
+        {
+          "level": 4,
+          "trait_xp": 8850
+        }
+      ],
+      "tier": 2
+    }
+  ],
+  "ranks": [
+    {
+      "rank_id": 1,
+      "name": "ENSIGN I",
+      "officer_ability_value": 5.0,
+      "requirements": {
+        "badges": 0,
+        "credits": 0,
+        "others": [],
+        "shards": 38,
+        "xp": 0
+      },
+      "below_deck_ability_value": 3.0
+    },
+    {
+      "rank_id": 2,
+      "name": "LIEUTENANT JG II",
+      "officer_ability_value": 7.5,
+      "requirements": {
+        "badges": 0,
+        "credits": 0,
+        "others": [
+          {
+            "name": "pioneer's crest",
+            "value": 5000
+          }
+        ],
+        "shards": 55,
+        "xp": 0
+      },
+      "below_deck_ability_value": 3.75
+    },
+    {
+      "rank_id": 3,
+      "name": "LIEUTENANT III",
+      "officer_ability_value": 15.0,
+      "requirements": {
+        "badges": 0,
+        "credits": 1100,
+        "others": [
+          {
+            "name": "pioneer's crest",
+            "value": 10000
+          }
+        ],
+        "shards": 115,
+        "xp": 0
+      },
+      "below_deck_ability_value": 4.5
+    },
+    {
+      "rank_id": 4,
+      "name": "LT. COMMANDER IV",
+      "officer_ability_value": 30.0,
+      "requirements": {
+        "badges": 1,
+        "credits": 4500,
+        "others": [
+          {
+            "name": "pioneer's crest",
+            "value": 20000
+          }
+        ],
+        "shards": 155,
+        "xp": 0
+      },
+      "below_deck_ability_value": 6.0
+    },
+    {
+      "rank_id": 5,
+      "name": "COMMANDER V",
+      "officer_ability_value": 50.0,
+      "requirements": {
+        "badges": 2,
+        "credits": 11500,
+        "others": [
+          {
+            "name": "pioneer's crest",
+            "value": 50000
+          }
+        ],
+        "shards": 225,
+        "xp": 0
+      },
+      "below_deck_ability_value": 8.0
+    }
+  ],
+  "img_url": "./assets/wok_leonard_mccoy.png"
+}

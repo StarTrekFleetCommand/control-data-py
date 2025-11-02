@@ -1,0 +1,203 @@
+{
+  "officer_name": "WOK Joachim",
+  "description": "In the latter years of the 20th century, the natural charisma and leadership displayed by Khan Noonien Singh garnered him many devoted followers. Perhaps none were more dedicated to their faith than Joachim. With his legion of genetically-engineered \u201cAugments\u201d, Khan would lead a revolution that would become known as the Eugenics Wars. Following their defeat at the conclusion of this conflict, Joachim found himself among a contingent of the most loyal followers who would join Khan in exodus aboard the sleeper ship Botany Bay. Out there, among the stars, they would escape their would-be captors and awaken from cryogenic slumber in order to build a new life.\n\nWhen the Botany Bay was discovered by the USS Enterprise more than 70 years later, Khan attempted to hijack the ship in order to continue this pursuit of prosperity. However, when these efforts backfired, the Augments instead found themselves exiled to the barren sands of Ceti Alpha V. Here, Khan would eventually abandon his quest to find a home for his people, instead opting for the path of vengeance against those who banished them to this place.\n\nThroughout all of Khan\u2019s futile pursuits of dominance and revenge, Joachim stood by his side as a stalwart ally and advisor, his faith unwavering. Although his attempts to provide sound knowledge and counsel often fell on deaf ears, Joachim nonetheless trusted to the very end that Khan would act in the best interests of his genetically-engineered followers.",
+  "class": "command",
+  "group": "wrath of khan",
+  "faction": "neutral",
+  "rarity": "epic",
+  "ability_info": {
+    "captain_maneuver": {
+      "name": "Chain of Command",
+      "bonus": "This Officer does not have a Captain's Maneuver. Equipping this Officer as the captain of a ship provides no benefit.",
+      "percentage": true,
+      "value": 0.0
+    },
+    "officer_ability": {
+      "name": "Unwavering Faith",
+      "bonus": "This ability does not trigger when Tal is assigned to the bridge of your ship.\n\nApex Barrier provides <b>true damage mitigation from all sources after all other bonuses. Every 100 Apex Barrier increases the damage you can take by 1%.",
+      "percentage": false
+    },
+    "below_decks_ability": {
+      "name": "We Are Free",
+      "bonus": "Below-Deck Abilities are only activated when assigned to a below-decks slot on a ship.",
+      "percentage": true
+    }
+  },
+  "synergy": {
+    "command": 0.0,
+    "engineering": 0.0,
+    "science": 0.0
+  },
+  "traits": [
+    {
+      "name": "Loyal",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 1500
+        },
+        {
+          "level": 2,
+          "trait_xp": 2700
+        },
+        {
+          "level": 3,
+          "trait_xp": 3800
+        }
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Pragmatic",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 7650
+        },
+        {
+          "level": 2,
+          "trait_xp": 6000
+        },
+        {
+          "level": 3,
+          "trait_xp": 7000
+        },
+        {
+          "level": 4,
+          "trait_xp": 8850
+        }
+      ],
+      "tier": 2
+    },
+    {
+      "name": "Wrathful",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 10000
+        },
+        {
+          "level": 2,
+          "trait_xp": 4000
+        },
+        {
+          "level": 3,
+          "trait_xp": 7000
+        },
+        {
+          "level": 4,
+          "trait_xp": 10000
+        },
+        {
+          "level": 5,
+          "trait_xp": 15000
+        },
+        {
+          "level": 6,
+          "trait_xp": 23000
+        },
+        {
+          "level": 7,
+          "trait_xp": 42000
+        },
+        {
+          "level": 8,
+          "trait_xp": 68000
+        },
+        {
+          "level": 9,
+          "trait_xp": 107000
+        }
+      ],
+      "tier": 3
+    }
+  ],
+  "ranks": [
+    {
+      "rank_id": 1,
+      "name": "ENSIGN I",
+      "officer_ability_value": 10000.0,
+      "requirements": {
+        "badges": 0,
+        "credits": 0,
+        "others": [],
+        "shards": 50,
+        "xp": 0
+      },
+      "below_deck_ability_value": 1.0
+    },
+    {
+      "rank_id": 2,
+      "name": "LIEUTENANT JG II",
+      "officer_ability_value": 20000.0,
+      "requirements": {
+        "badges": 0,
+        "credits": 0,
+        "others": [
+          {
+            "name": "joachim affinity",
+            "value": 10000
+          }
+        ],
+        "shards": 50,
+        "xp": 0
+      },
+      "below_deck_ability_value": 1.5
+    },
+    {
+      "rank_id": 3,
+      "name": "LIEUTENANT III",
+      "officer_ability_value": 35000.0,
+      "requirements": {
+        "badges": 0,
+        "credits": 0,
+        "others": [
+          {
+            "name": "joachim affinity",
+            "value": 30000
+          }
+        ],
+        "shards": 100,
+        "xp": 0
+      },
+      "below_deck_ability_value": 2.0
+    },
+    {
+      "rank_id": 4,
+      "name": "LT. COMMANDER IV",
+      "officer_ability_value": 50000.0,
+      "requirements": {
+        "badges": 0,
+        "credits": 0,
+        "others": [
+          {
+            "name": "joachim affinity",
+            "value": 60000
+          }
+        ],
+        "shards": 100,
+        "xp": 0
+      },
+      "below_deck_ability_value": 3.0
+    },
+    {
+      "rank_id": 5,
+      "name": "COMMANDER V",
+      "officer_ability_value": 75000.0,
+      "requirements": {
+        "badges": 0,
+        "credits": 0,
+        "others": [
+          {
+            "name": "joachim affinity",
+            "value": 100000
+          }
+        ],
+        "shards": 200,
+        "xp": 0
+      },
+      "below_deck_ability_value": 5.0
+    }
+  ],
+  "img_url": "./assets/wok_joachim.png"
+}

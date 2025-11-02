@@ -1,0 +1,141 @@
+{
+  "officer_name": "SNW Black Ops Chapel",
+  "description": "Christine Chapel plays a vital role as Nurse in Doctor M\u2019Benga\u2019s staff aboard the U.S.S. Enterprise. As a strong and independent career woman, she has also served with the U.S.S. Farragut, faced down pirate intruders, and seen more than her fair share of field medicine during the Klingon War. Indeed, she has worked alongside M\u2019Benga, someone to whom she remains fiercely loyal, in a number of fraught combat situations - not least during the Battle of J\u2019Gal, and the later incident at Cajitar IV, where she and her superior were captured and taken to the false flag Federation vessel. Managing to fight their way to the ship\u2019s transponder, with the help of M\u2019Benga\u2019s combat drug, Protocol 12, they alerted the Enterprise, which destroyed the ship - moments after they\u2019d vented themselves into space without EV suits. Thankfully, the Enterprise soon beamed them aboard.\n\nInitially not wanting the complications of romantic attachment, there was however something about Lieutenant Spock, whom Chapel served with on the Enterprise, that intrigued her. The two had a whirlwind affair, despite the Vulcan being engaged to another. In the end though, Spock had no choice but to remain faithful to his fianc\u00e9e. Although they still harbored feelings for one another, this allowed Chapel to refocus on her career - something she has always taken great pride in. She continued her studies in archaeological medicine with the famous Doctor Korby, to whom she eventually became engaged, prior to his disappearance.\n\nNow firmly back aboard the Enterprise with M\u2019Benga, Chapel remains a vital part of the crew, as both an experienced healer and fighter, and one not unaccustomed to loss.",
+  "class": "engineering",
+  "group": "strange new worlds",
+  "faction": "federation",
+  "rarity": "rare",
+  "ability_info": {
+    "captain_maneuver": {
+      "name": "Chain of Command",
+      "bonus": "This Officer does not have a Captain's Maneuver. Equipping this Officer as the captain of a ship provides no benefit.",
+      "percentage": true,
+      "value": 0.0
+    },
+    "officer_ability": {
+      "name": "We Got This",
+      "bonus": "",
+      "percentage": true
+    },
+    "below_decks_ability": {
+      "name": "Juiced Up",
+      "bonus": "Below-Deck Abilities are only activated when assigned to a below-decks slot on a ship.",
+      "percentage": true
+    }
+  },
+  "synergy": {
+    "command": 0.0,
+    "engineering": 0.0,
+    "science": 0.0
+  },
+  "traits": [
+    {
+      "name": "Survivor",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 1500
+        },
+        {
+          "level": 2,
+          "trait_xp": 2700
+        },
+        {
+          "level": 3,
+          "trait_xp": 3800
+        }
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Passionate",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 7650
+        },
+        {
+          "level": 2,
+          "trait_xp": 6000
+        },
+        {
+          "level": 3,
+          "trait_xp": 7000
+        },
+        {
+          "level": 4,
+          "trait_xp": 8850
+        }
+      ],
+      "tier": 2
+    }
+  ],
+  "ranks": [
+    {
+      "rank_id": 1,
+      "name": "ENSIGN I",
+      "officer_ability_value": 0.75,
+      "requirements": {
+        "badges": 0,
+        "credits": 0,
+        "others": [],
+        "shards": 50,
+        "xp": 0
+      },
+      "below_deck_ability_value": 1.0
+    },
+    {
+      "rank_id": 2,
+      "name": "LIEUTENANT JG II",
+      "officer_ability_value": 1.25,
+      "requirements": {
+        "badges": 0,
+        "credits": 0,
+        "others": [],
+        "shards": 70,
+        "xp": 10000
+      },
+      "below_deck_ability_value": 1.5
+    },
+    {
+      "rank_id": 3,
+      "name": "LIEUTENANT III",
+      "officer_ability_value": 2.0,
+      "requirements": {
+        "badges": 0,
+        "credits": 1100,
+        "others": [],
+        "shards": 150,
+        "xp": 100000
+      },
+      "below_deck_ability_value": 2.0
+    },
+    {
+      "rank_id": 4,
+      "name": "LT. COMMANDER IV",
+      "officer_ability_value": 2.75,
+      "requirements": {
+        "badges": 1,
+        "credits": 4500,
+        "others": [],
+        "shards": 200,
+        "xp": 250000
+      },
+      "below_deck_ability_value": 3.0
+    },
+    {
+      "rank_id": 5,
+      "name": "COMMANDER V",
+      "officer_ability_value": 4.5,
+      "requirements": {
+        "badges": 2,
+        "credits": 11500,
+        "others": [],
+        "shards": 300,
+        "xp": 500000
+      },
+      "below_deck_ability_value": 5.0
+    }
+  ],
+  "img_url": "./assets/snw_black_ops_chapel.png"
+}

@@ -1,0 +1,161 @@
+{
+  "officer_name": "WOK Saavik",
+  "description": "The Kobayashi Maru scenario was a vital component of the Starfleet Academy curriculum during the 23rd century. An infamous training exercise, deliberately engineered to be near-impossible to complete, the test was designed to examine any given cadet\u2019s mettle and critical thinking under extreme duress. Countless cadets have attempted and failed to pass the Kobayashi Maru scenario. Although her valiant effort to satisfy the conditions of the test was noteworthy, for Lieutenant junior grade Saavik, the outcome would be no different. Regardless, the lessons learned from undertaking the Kobayashi Maru scenario would stay with Saavik throughout her career in Starfleet.\n\nDuring her time spent in the Academy, Saavik was fortunate enough to have been mentored by her eminent instructor and fellow Vulcan, Spock. Saavik\u2019s time spent under Spock\u2019s tutelage would prove to be a formative experience. Her initial placement following graduation from the Academy was to be the bridge of the USS Enterprise in the prestigious role of the ship\u2019s navigator. However, Saavik\u2019s inaugural training mission would soon be disrupted by the appearance of Khan Noonien Singh and the Augment exiles. Following Khan\u2019s plot to steal the Genesis Device, Saavik once again found herself facing imminent defeat, but this merely strengthened her resolve. Having already endured a loss during a no-win scenario, Saavik promised herself that this time, the outcome would be different.",
+  "class": "science",
+  "group": "wrath of khan",
+  "faction": "federation",
+  "rarity": "rare",
+  "ability_info": {
+    "captain_maneuver": {
+      "name": "Chain of Command",
+      "bonus": "This Officer does not have a Captain's Maneuver. Equipping this Officer as the captain of a ship provides no benefit.",
+      "percentage": true,
+      "value": 0.0
+    },
+    "officer_ability": {
+      "name": "A Fair Test",
+      "bonus": "",
+      "percentage": true
+    },
+    "below_decks_ability": {
+      "name": "By The Book",
+      "bonus": "Below-Deck Abilities are only activated when assigned to a below-decks slot on a ship.",
+      "percentage": true
+    }
+  },
+  "synergy": {
+    "command": 0.0,
+    "engineering": 0.0,
+    "science": 0.0
+  },
+  "traits": [
+    {
+      "name": "Disciplined",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 1500
+        },
+        {
+          "level": 2,
+          "trait_xp": 2700
+        },
+        {
+          "level": 3,
+          "trait_xp": 3800
+        }
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Resilient",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 7650
+        },
+        {
+          "level": 2,
+          "trait_xp": 6000
+        },
+        {
+          "level": 3,
+          "trait_xp": 7000
+        },
+        {
+          "level": 4,
+          "trait_xp": 8850
+        }
+      ],
+      "tier": 2
+    }
+  ],
+  "ranks": [
+    {
+      "rank_id": 1,
+      "name": "ENSIGN I",
+      "officer_ability_value": 0.7,
+      "requirements": {
+        "badges": 0,
+        "credits": 0,
+        "others": [],
+        "shards": 38,
+        "xp": 0
+      },
+      "below_deck_ability_value": 0.15
+    },
+    {
+      "rank_id": 2,
+      "name": "LIEUTENANT JG II",
+      "officer_ability_value": 0.9,
+      "requirements": {
+        "badges": 0,
+        "credits": 0,
+        "others": [
+          {
+            "name": "pioneer's crest",
+            "value": 5000
+          }
+        ],
+        "shards": 55,
+        "xp": 0
+      },
+      "below_deck_ability_value": 0.2
+    },
+    {
+      "rank_id": 3,
+      "name": "LIEUTENANT III",
+      "officer_ability_value": 1.1,
+      "requirements": {
+        "badges": 0,
+        "credits": 1100,
+        "others": [
+          {
+            "name": "pioneer's crest",
+            "value": 10000
+          }
+        ],
+        "shards": 115,
+        "xp": 0
+      },
+      "below_deck_ability_value": 0.3
+    },
+    {
+      "rank_id": 4,
+      "name": "LT. COMMANDER IV",
+      "officer_ability_value": 1.3,
+      "requirements": {
+        "badges": 1,
+        "credits": 4500,
+        "others": [
+          {
+            "name": "pioneer's crest",
+            "value": 20000
+          }
+        ],
+        "shards": 155,
+        "xp": 0
+      },
+      "below_deck_ability_value": 0.5
+    },
+    {
+      "rank_id": 5,
+      "name": "COMMANDER V",
+      "officer_ability_value": 1.5,
+      "requirements": {
+        "badges": 2,
+        "credits": 11500,
+        "others": [
+          {
+            "name": "pioneer's crest",
+            "value": 50000
+          }
+        ],
+        "shards": 225,
+        "xp": 0
+      },
+      "below_deck_ability_value": 0.7
+    }
+  ],
+  "img_url": "./assets/wok_saavik.png"
+}

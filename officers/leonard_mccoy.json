@@ -8,13 +8,13 @@
   "ability_info": {
     "captain_maneuver": {
       "name": "I'm a Doctor, not a ...",
-      "bonus": "McCoy gives a bonus of {value} to all the Officer Abilities of the Officers on the bridge during combat.",
+      "bonus": "McCoy gives a bonus of {value} to all the Officer Abilities of the Officers on the bridge during combat. Works against Hostiles of level 70 and under.",
       "percentage": true,
       "value": 0.2
     },
     "officer_ability": {
       "name": "Excellent Medicine",
-      "bonus": "Every time the ship gets hit by a weapon attack, McCoy increases the Defense of all the officers on the Bridge by {value}. \n(Weapons with multiple shots will only trigger this ability once per attack.)",
+      "bonus": "Every time the ship gets hit by a weapon attack, McCoy increases the Defense of all the officers on the Bridge by {value}. Works against Hostiles of level 70 and under. \n(Weapons with multiple shots will only trigger this ability once per attack.)",
       "percentage": true
     },
     "below_decks_ability": null

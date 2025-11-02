@@ -8,13 +8,13 @@
   "ability_info": {
     "captain_maneuver": {
       "name": "Opportunist",
-      "bonus": "When the ship loses Shield Health from a weapon attack, Eurydice increases the damage of the weapons by {value} (cumulative).\n(Weapons with multiple shots will only trigger this maneuver once per attack.)",
+      "bonus": "When the ship loses Shield Health from a weapon attack, Eurydice increases the damage of the weapons by {value} (cumulative). Works against Hostiles of level 70 and under.\n(Weapons with multiple shots will only trigger this maneuver once per attack.)",
       "percentage": true,
       "value": 0.1
     },
     "officer_ability": {
       "name": "Delta Quadrant Technology",
-      "bonus": "When the shields are depleted, Eurydice has a {value} chance to heal the Shield Health by 5%.",
+      "bonus": "When the shields are depleted, Eurydice has a {value} chance to heal the Shield Health by 5%. Works against Hostiles of level 70 and under.",
       "percentage": true
     },
     "below_decks_ability": null

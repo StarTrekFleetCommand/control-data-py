@@ -1,0 +1,183 @@
+{
+  "officer_name": "SNW Black Ops M'Benga",
+  "description": "Unusually for the Chief Medical Officer aboard the U.S.S. Enterprise, Joseph M\u2019Benga is not just a physician, but someone intimately familiar with violence. He fought hand-to-hand on the front lines during the Federation-Klingon War, and has a secretive past as a Starfleet special forces operative known as \u201cthe Ghost.\u201d In particular, he played a key role in the infamous Battle of J\u2019Gal, where he used his self-developed combat drug, Protocol 12, to single-handedly kill the Klingon battle commanders. Although General Dak\u2019Rah, known as the \u201cButcher of J\u2019Gal\u201d for reportedly slaying his own commanders, managed to escape.\n\nLater, M\u2019Benga met Dak\u2019Rah aboard the Enterprise, at a time when the Klingon was now a celebrated ambassador. The two exchanged heated words, M\u2019Benga unhappy that Dak\u2019Rah had built a career as a peacemaker, off the back of the blood on M\u2019Benga\u2019s own hands - since he had been the true Butcher of J\u2019Gal. They fought in sickbay, and M\u2019Benga\u2019s Klingon knife, which he\u2019d also used to slay the commanders on J\u2019Gal, found its way into Dak\u2019Rah\u2019s chest. He died on the spot. Although the instigator of the fight was unclear, as was how the knife wound up in Dak\u2019Rah\u2019s chest, M\u2019Benga\u2019s loyal friend and staff member, Nurse Chapel, claimed to have witnessed the whole thing, and vouched for his innocence.\n\nThis exemplifies how M\u2019Benga\u2019s medical expertise, combined with his military experience, makes him a valuable, if unorthodox asset, as the Enterprise continues to boldly go into an uncertain future.",
+  "class": "science",
+  "group": "strange new worlds",
+  "faction": "federation",
+  "rarity": "epic",
+  "ability_info": {
+    "captain_maneuver": {
+      "name": "Chain of Command",
+      "bonus": "This Officer does not have a Captain's Maneuver. Equipping this Officer as the captain of a ship provides no benefit.",
+      "percentage": true,
+      "value": 0.0
+    },
+    "officer_ability": {
+      "name": "The Ghost",
+      "bonus": "",
+      "percentage": true
+    },
+    "below_decks_ability": {
+      "name": "The War's Not Over",
+      "bonus": "Below-Deck Abilities are only activated when assigned to a below-decks slot on a ship.",
+      "percentage": true
+    }
+  },
+  "synergy": {
+    "command": 0.0,
+    "engineering": 0.0,
+    "science": 0.0
+  },
+  "traits": [
+    {
+      "name": "Relentless",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 1500
+        },
+        {
+          "level": 2,
+          "trait_xp": 2700
+        },
+        {
+          "level": 3,
+          "trait_xp": 3800
+        }
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Wrathful",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 7650
+        },
+        {
+          "level": 2,
+          "trait_xp": 6000
+        },
+        {
+          "level": 3,
+          "trait_xp": 7000
+        },
+        {
+          "level": 4,
+          "trait_xp": 8850
+        }
+      ],
+      "tier": 2
+    },
+    {
+      "name": "Resilient",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 10000
+        },
+        {
+          "level": 2,
+          "trait_xp": 4000
+        },
+        {
+          "level": 3,
+          "trait_xp": 7000
+        },
+        {
+          "level": 4,
+          "trait_xp": 10000
+        },
+        {
+          "level": 5,
+          "trait_xp": 15000
+        },
+        {
+          "level": 6,
+          "trait_xp": 23000
+        },
+        {
+          "level": 7,
+          "trait_xp": 42000
+        },
+        {
+          "level": 8,
+          "trait_xp": 68000
+        },
+        {
+          "level": 9,
+          "trait_xp": 107000
+        }
+      ],
+      "tier": 3
+    }
+  ],
+  "ranks": [
+    {
+      "rank_id": 1,
+      "name": "ENSIGN I",
+      "officer_ability_value": 0.4,
+      "requirements": {
+        "badges": 0,
+        "credits": 0,
+        "others": [],
+        "shards": 130,
+        "xp": 0
+      },
+      "below_deck_ability_value": 0.02
+    },
+    {
+      "rank_id": 2,
+      "name": "LIEUTENANT JG II",
+      "officer_ability_value": 0.6,
+      "requirements": {
+        "badges": 0,
+        "credits": 1100,
+        "others": [],
+        "shards": 130,
+        "xp": 50000
+      },
+      "below_deck_ability_value": 0.03
+    },
+    {
+      "rank_id": 3,
+      "name": "LIEUTENANT III",
+      "officer_ability_value": 0.9,
+      "requirements": {
+        "badges": 1,
+        "credits": 4500,
+        "others": [],
+        "shards": 260,
+        "xp": 500000
+      },
+      "below_deck_ability_value": 0.05
+    },
+    {
+      "rank_id": 4,
+      "name": "LT. COMMANDER IV",
+      "officer_ability_value": 1.3,
+      "requirements": {
+        "badges": 2,
+        "credits": 11500,
+        "others": [],
+        "shards": 390,
+        "xp": 1250000
+      },
+      "below_deck_ability_value": 0.07
+    },
+    {
+      "rank_id": 5,
+      "name": "COMMANDER V",
+      "officer_ability_value": 2.0,
+      "requirements": {
+        "badges": 4,
+        "credits": 25000,
+        "others": [],
+        "shards": 1040,
+        "xp": 2500000
+      },
+      "below_deck_ability_value": 0.1
+    }
+  ],
+  "img_url": "./assets/snw_black_ops_mbenga.png"
+}
