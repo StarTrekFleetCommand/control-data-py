@@ -1,0 +1,229 @@
+{
+  "research_name": "Ill-Fated Federation",
+  "description": "Reduces Federation Critical Hit Chance while on a 7\u21f5+ ship (does not apply to Armadas or Invading Entities).",
+  "location": {
+    "column": 148,
+    "row": 3,
+    "tree": "combat"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 274320000,
+      "increased_power": 800000,
+      "requirements": [
+        {
+          "name": "Shadow Talons",
+          "level": 1
+        },
+        {
+          "name": "R&D Department",
+          "level": 76
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-tritanium",
+            "value": 45500000
+          },
+          {
+            "type": "\u03c3-dilithium",
+            "value": 128000000
+          }
+        ],
+        "materials": [
+          {
+            "type": "ore",
+            "value": 433063,
+            "grade": 7,
+            "rarity": "common"
+          }
+        ],
+        "others": []
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.01
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 375321600,
+      "increased_power": 65000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 77
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-tritanium",
+            "value": 63700000
+          },
+          {
+            "type": "\u03c3-dilithium",
+            "value": 179000000
+          }
+        ],
+        "materials": [
+          {
+            "type": "ore",
+            "value": 465022,
+            "grade": 7,
+            "rarity": "common"
+          },
+          {
+            "type": "ore",
+            "value": 116157,
+            "grade": 7,
+            "rarity": "uncommon"
+          }
+        ],
+        "others": []
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.02
+      }
+    },
+    {
+      "level": 3,
+      "research_time": 487900800,
+      "increased_power": 65000,
+      "requirements": [
+        {
+          "name": "Shadow Talons",
+          "level": 8
+        },
+        {
+          "name": "R&D Department",
+          "level": 78
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-tritanium",
+            "value": 89200000
+          },
+          {
+            "type": "\u03c3-dilithium",
+            "value": 251000000
+          }
+        ],
+        "materials": [
+          {
+            "type": "ore",
+            "value": 126770,
+            "grade": 7,
+            "rarity": "uncommon"
+          },
+          {
+            "type": "ore",
+            "value": 67158,
+            "grade": 7,
+            "rarity": "rare"
+          }
+        ],
+        "others": []
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.04
+      }
+    },
+    {
+      "level": 4,
+      "research_time": 666057600,
+      "increased_power": 80000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 79
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-tritanium",
+            "value": 125000000
+          },
+          {
+            "type": "\u03c3-dilithium",
+            "value": 351000000
+          }
+        ],
+        "materials": [
+          {
+            "type": "ore",
+            "value": 154365,
+            "grade": 7,
+            "rarity": "uncommon"
+          },
+          {
+            "type": "ore",
+            "value": 78625,
+            "grade": 7,
+            "rarity": "rare"
+          }
+        ],
+        "others": []
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.06
+      }
+    },
+    {
+      "level": 5,
+      "research_time": 865814400,
+      "increased_power": 80000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 80
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-tritanium",
+            "value": 175000000
+          },
+          {
+            "type": "\u03c3-dilithium",
+            "value": 492000000
+          }
+        ],
+        "materials": [
+          {
+            "type": "ore",
+            "value": 250428,
+            "grade": 7,
+            "rarity": "uncommon"
+          },
+          {
+            "type": "ore",
+            "value": 90632,
+            "grade": 7,
+            "rarity": "rare"
+          }
+        ],
+        "others": []
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.1
+      }
+    }
+  ],
+  "img_url": "./assets/ill_fated_federation_combat_3_148.png"
+}

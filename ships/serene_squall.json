@@ -1,0 +1,7465 @@
+{
+  "ship_name": "SERENE SQUALL",
+  "description": "An infamous pirate mining vessel, the Serene Squall once did what few other ships and crews have ever accomplished: they seized the U.S.S. Enterprise! Under the command of Captain Angel, who was undercover aboard the Enterprise at the time, the Squall lured Captain Pike and his ship into an asteroid field, where it was captured by an energy net. Angel took command of the Enterprise, whose crew was transferred to the Squall, now under the command of Captain Remy, to be sold into slavery.\n\nHowever, with the help of his enviable cooking skills, Pike staged a mutiny by appealing to the Squall\u2019s disgruntled crew. He and his officers took control of the ship and used backdoor codes to disable the Enterprise. Angel abandoned their crew and fled, leaving them to face a lengthy jail term in a Federation maximum security prison. The Squall itself was impounded.\n\nBut surely this is not the end of the story, and it won\u2019t be long before such an infamous ship is out of jail, out for vengeance, and out for plunder.",
+  "ship_class": "survey",
+  "grade": 3,
+  "faction": "neutral",
+  "rarity": "epic",
+  "blueprints": {
+    "cost": 0,
+    "quantity": 200
+  },
+  "ship_ability": {
+    "title": "Transogen Haul",
+    "description": "Increases base mining speed of Epic Transogen by {value}.",
+    "percentage": true
+  },
+  "scrap_info": {
+    "scrappable": false
+  },
+  "requirements": [
+    {
+      "name": "Shipyard",
+      "level": 30
+    }
+  ],
+  "tiers": [
+    {
+      "tier": 1,
+      "build_time": 699840,
+      "repair_time": 46200,
+      "components": [
+        {
+          "name": "Orion Disruptor",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": []
+          },
+          "repair_cost": [],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 400,
+              "armor_pierce": 400,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 400,
+              "min_damage": 300,
+              "shield_pierce": 400,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Retrofit Slug Launcher",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": []
+          },
+          "repair_cost": [],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 400,
+              "armor_pierce": 400,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 400,
+              "min_damage": 300,
+              "shield_pierce": 400,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Orion Mining Laser",
+          "img_url": "./assets/component_mining_laser.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": []
+          },
+          "repair_cost": [],
+          "additional_info": {
+            "mining_laser_info": {
+              "mining_bonus": 1.2
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Angel Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": []
+          },
+          "repair_cost": [],
+          "additional_info": {
+            "armor_info": {
+              "armor": 3000,
+              "hull_health": 25000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Smugglers' Hold",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": []
+          },
+          "repair_cost": [],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 46000,
+              "increased_protected_cargo": 25600,
+              "ship_increased_cargo": 0,
+              "ship_increased_protected_cargo": 0
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": []
+          },
+          "repair_cost": [],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 30,
+              "warp_speed": 4.66
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": []
+          },
+          "repair_cost": [],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 450,
+              "impulse_speed": 110
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": []
+          },
+          "repair_cost": [],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 1000,
+              "shield_health": 15000
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 10530.0,
+          "additional_officer_slot": false,
+          "level": 1,
+          "ship_xp": 0
+        },
+        {
+          "ability_bonus": 10530.0,
+          "additional_officer_slot": false,
+          "level": 2,
+          "ship_xp": 800
+        },
+        {
+          "ability_bonus": 10530.0,
+          "additional_officer_slot": false,
+          "level": 3,
+          "ship_xp": 1000
+        },
+        {
+          "ability_bonus": 10530.0,
+          "additional_officer_slot": false,
+          "level": 4,
+          "ship_xp": 1400
+        },
+        {
+          "ability_bonus": 10530.0,
+          "additional_officer_slot": false,
+          "level": 5,
+          "ship_xp": 1700
+        }
+      ],
+      "initial_build_cost": {
+        "resources": [
+          {
+            "type": "tritanium",
+            "value": 1600000
+          },
+          {
+            "type": "dilithium",
+            "value": 180000
+          }
+        ],
+        "materials": [],
+        "others": []
+      }
+    },
+    {
+      "tier": 2,
+      "build_time": 480000,
+      "repair_time": 53940,
+      "components": [
+        {
+          "name": "Orion Disruptor",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 130,
+                "grade": 3,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 100,
+                "grade": 3,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 3000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 1351540
+            },
+            {
+              "type": "dilithium",
+              "value": 400
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 800,
+              "armor_pierce": 800,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 664,
+              "min_damage": 498,
+              "shield_pierce": 800,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Retrofit Slug Launcher",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 130,
+                "grade": 3,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 100,
+                "grade": 3,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 3000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 1351540
+            },
+            {
+              "type": "dilithium",
+              "value": 400
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 800,
+              "armor_pierce": 800,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 664,
+              "min_damage": 498,
+              "shield_pierce": 800,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Orion Mining Laser",
+          "img_url": "./assets/component_mining_laser.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 234,
+                "grade": 3,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 200,
+                "grade": 3,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 5400
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 2432772
+            },
+            {
+              "type": "dilithium",
+              "value": 719
+            }
+          ],
+          "additional_info": {
+            "mining_laser_info": {
+              "mining_bonus": 1.4
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Angel Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 182,
+                "grade": 3,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 200,
+                "grade": 3,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 4200
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 1892156
+            },
+            {
+              "type": "dilithium",
+              "value": 559
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 5000,
+              "hull_health": 35000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Smugglers' Hold",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 182,
+                "grade": 3,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 200,
+                "grade": 3,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 4200
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 1892156
+            },
+            {
+              "type": "dilithium",
+              "value": 559
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 28000,
+              "increased_protected_cargo": 8800,
+              "ship_increased_cargo": 2500,
+              "ship_increased_protected_cargo": 4000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 130,
+                "grade": 3,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 100,
+                "grade": 3,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 3000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 1351540
+            },
+            {
+              "type": "dilithium",
+              "value": 400
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 40,
+              "warp_speed": 5
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 104,
+                "grade": 3,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 100,
+                "grade": 3,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 2400
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 1081232
+            },
+            {
+              "type": "dilithium",
+              "value": 320
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 1000,
+              "impulse_speed": 111
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 208,
+                "grade": 3,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 200,
+                "grade": 3,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 4800
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 2162464
+            },
+            {
+              "type": "dilithium",
+              "value": 639
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 1500,
+              "shield_health": 25000
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 22680.0,
+          "additional_officer_slot": false,
+          "level": 6,
+          "ship_xp": 2400
+        },
+        {
+          "ability_bonus": 22680.0,
+          "additional_officer_slot": false,
+          "level": 7,
+          "ship_xp": 2900
+        },
+        {
+          "ability_bonus": 22680.0,
+          "additional_officer_slot": false,
+          "level": 8,
+          "ship_xp": 3900
+        },
+        {
+          "ability_bonus": 22680.0,
+          "additional_officer_slot": false,
+          "level": 9,
+          "ship_xp": 4600
+        },
+        {
+          "ability_bonus": 22680.0,
+          "additional_officer_slot": false,
+          "level": 10,
+          "ship_xp": 6000
+        }
+      ]
+    },
+    {
+      "tier": 3,
+      "build_time": 960000,
+      "repair_time": 64800,
+      "components": [
+        {
+          "name": "Orion Disruptor",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 273,
+                "grade": 3,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 300,
+                "grade": 3,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 5000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 5034790
+            },
+            {
+              "type": "dilithium",
+              "value": 1288
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 1400,
+              "armor_pierce": 1400,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 1102,
+              "min_damage": 827,
+              "shield_pierce": 1400,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Retrofit Slug Launcher",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 273,
+                "grade": 3,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 300,
+                "grade": 3,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 5000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 5034790
+            },
+            {
+              "type": "dilithium",
+              "value": 1288
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 1400,
+              "armor_pierce": 1400,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 1102,
+              "min_damage": 827,
+              "shield_pierce": 1400,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Orion Mining Laser",
+          "img_url": "./assets/component_mining_laser.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 492,
+                "grade": 3,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 500,
+                "grade": 3,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 9000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 9062622
+            },
+            {
+              "type": "dilithium",
+              "value": 2319
+            }
+          ],
+          "additional_info": {
+            "mining_laser_info": {
+              "mining_bonus": 1.6
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Angel Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 383,
+                "grade": 3,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 400,
+                "grade": 3,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 7000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 7048706
+            },
+            {
+              "type": "dilithium",
+              "value": 1804
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 8000,
+              "hull_health": 45000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Smugglers' Hold",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 383,
+                "grade": 3,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 400,
+                "grade": 3,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 7000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 7048706
+            },
+            {
+              "type": "dilithium",
+              "value": 1804
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 32000,
+              "increased_protected_cargo": 8000,
+              "ship_increased_cargo": 2500,
+              "ship_increased_protected_cargo": 4000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 273,
+                "grade": 3,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 300,
+                "grade": 3,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 5000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 5034790
+            },
+            {
+              "type": "dilithium",
+              "value": 1288
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 50,
+              "warp_speed": 5.33
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 219,
+                "grade": 3,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 200,
+                "grade": 3,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 4000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 4027832
+            },
+            {
+              "type": "dilithium",
+              "value": 1031
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 1600,
+              "impulse_speed": 112
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 437,
+                "grade": 3,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 400,
+                "grade": 3,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 8000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 8055664
+            },
+            {
+              "type": "dilithium",
+              "value": 2061
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 2500,
+              "shield_health": 40000
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 35640.0,
+          "additional_officer_slot": false,
+          "level": 11,
+          "ship_xp": 7000
+        },
+        {
+          "ability_bonus": 35640.0,
+          "additional_officer_slot": false,
+          "level": 12,
+          "ship_xp": 8500
+        },
+        {
+          "ability_bonus": 35640.0,
+          "additional_officer_slot": false,
+          "level": 13,
+          "ship_xp": 9500
+        },
+        {
+          "ability_bonus": 35640.0,
+          "additional_officer_slot": false,
+          "level": 14,
+          "ship_xp": 11000
+        },
+        {
+          "ability_bonus": 35640.0,
+          "additional_officer_slot": false,
+          "level": 15,
+          "ship_xp": 13500
+        }
+      ]
+    },
+    {
+      "tier": 4,
+      "build_time": 1600000,
+      "repair_time": 82800,
+      "components": [
+        {
+          "name": "Orion Disruptor",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 53,
+                "grade": 3,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 100,
+                "grade": 3,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 7000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 7612430
+            },
+            {
+              "type": "dilithium",
+              "value": 2588
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 2300,
+              "armor_pierce": 2300,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 1830,
+              "min_damage": 1372,
+              "shield_pierce": 2300,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Retrofit Slug Launcher",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 53,
+                "grade": 3,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 100,
+                "grade": 3,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 7000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 7612430
+            },
+            {
+              "type": "dilithium",
+              "value": 2588
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 2300,
+              "armor_pierce": 2300,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 1830,
+              "min_damage": 1372,
+              "shield_pierce": 2300,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Orion Mining Laser",
+          "img_url": "./assets/component_mining_laser.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 95,
+                "grade": 3,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 100,
+                "grade": 3,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 12600
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 13702374
+            },
+            {
+              "type": "dilithium",
+              "value": 4658
+            }
+          ],
+          "additional_info": {
+            "mining_laser_info": {
+              "mining_bonus": 1.8
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Angel Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 74,
+                "grade": 3,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 100,
+                "grade": 3,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 9800
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 10657402
+            },
+            {
+              "type": "dilithium",
+              "value": 3623
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 12000,
+              "hull_health": 60000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Smugglers' Hold",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 74,
+                "grade": 3,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 100,
+                "grade": 3,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 9800
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 10657402
+            },
+            {
+              "type": "dilithium",
+              "value": 3623
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 105000,
+              "increased_protected_cargo": 8000,
+              "ship_increased_cargo": 2500,
+              "ship_increased_protected_cargo": 4000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 53,
+                "grade": 3,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 100,
+                "grade": 3,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 7000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 7612430
+            },
+            {
+              "type": "dilithium",
+              "value": 2588
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 72,
+              "warp_speed": 5.66
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 42,
+                "grade": 3,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 5600
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 6089944
+            },
+            {
+              "type": "dilithium",
+              "value": 2070
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 3000,
+              "impulse_speed": 113
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 85,
+                "grade": 3,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 100,
+                "grade": 3,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 11200
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 12179888
+            },
+            {
+              "type": "dilithium",
+              "value": 4140
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 5000,
+              "shield_health": 60000
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 46980.0,
+          "additional_officer_slot": false,
+          "level": 16,
+          "ship_xp": 15000
+        },
+        {
+          "ability_bonus": 46980.0,
+          "additional_officer_slot": false,
+          "level": 17,
+          "ship_xp": 17500
+        },
+        {
+          "ability_bonus": 46980.0,
+          "additional_officer_slot": false,
+          "level": 18,
+          "ship_xp": 19500
+        },
+        {
+          "ability_bonus": 46980.0,
+          "additional_officer_slot": false,
+          "level": 19,
+          "ship_xp": 23000
+        },
+        {
+          "ability_bonus": 46980.0,
+          "additional_officer_slot": false,
+          "level": 20,
+          "ship_xp": 25000
+        }
+      ]
+    },
+    {
+      "tier": 5,
+      "build_time": 2400000,
+      "repair_time": 105600,
+      "components": [
+        {
+          "name": "Orion Disruptor",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 2400,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 829,
+                "grade": 4,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 7000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 50844870
+            },
+            {
+              "type": "dilithium",
+              "value": 17862
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 3500,
+              "armor_pierce": 3500,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 3037,
+              "min_damage": 2278,
+              "shield_pierce": 3500,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Retrofit Slug Launcher",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 2400,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 829,
+                "grade": 4,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 7000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 50844870
+            },
+            {
+              "type": "dilithium",
+              "value": 17862
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 3500,
+              "armor_pierce": 3500,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 3037,
+              "min_damage": 2278,
+              "shield_pierce": 3500,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Orion Mining Laser",
+          "img_url": "./assets/component_mining_laser.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 4300,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 1492,
+                "grade": 4,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 12600
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 91520766
+            },
+            {
+              "type": "dilithium",
+              "value": 32152
+            }
+          ],
+          "additional_info": {
+            "mining_laser_info": {
+              "mining_bonus": 2.0
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Angel Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 3300,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 1160,
+                "grade": 4,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 9800
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 71182818
+            },
+            {
+              "type": "dilithium",
+              "value": 25007
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 16000,
+              "hull_health": 90000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Smugglers' Hold",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 3300,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 1160,
+                "grade": 4,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 9800
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 71182818
+            },
+            {
+              "type": "dilithium",
+              "value": 25007
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 21000,
+              "increased_protected_cargo": 9600,
+              "ship_increased_cargo": 2500,
+              "ship_increased_protected_cargo": 4000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 2400,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 829,
+                "grade": 4,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 7000
+              },
+              {
+                "type": "makeshift rigging t5",
+                "value": 1
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 50844870
+            },
+            {
+              "type": "dilithium",
+              "value": 17862
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 76,
+              "warp_speed": 6
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 1900,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 663,
+                "grade": 4,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 5600
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 40675896
+            },
+            {
+              "type": "dilithium",
+              "value": 14290
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 5000,
+              "impulse_speed": 114
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 3800,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 1326,
+                "grade": 4,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 11200
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 81351792
+            },
+            {
+              "type": "dilithium",
+              "value": 28579
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 10000,
+              "shield_health": 80000
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 59940.0,
+          "additional_officer_slot": false,
+          "level": 21,
+          "ship_xp": 29000
+        },
+        {
+          "ability_bonus": 59940.0,
+          "additional_officer_slot": false,
+          "level": 22,
+          "ship_xp": 31500
+        },
+        {
+          "ability_bonus": 59940.0,
+          "additional_officer_slot": false,
+          "level": 23,
+          "ship_xp": 36000
+        },
+        {
+          "ability_bonus": 59940.0,
+          "additional_officer_slot": false,
+          "level": 24,
+          "ship_xp": 39000
+        },
+        {
+          "ability_bonus": 59940.0,
+          "additional_officer_slot": false,
+          "level": 25,
+          "ship_xp": 42000
+        }
+      ]
+    },
+    {
+      "tier": 6,
+      "build_time": 3200000,
+      "repair_time": 107940,
+      "components": [
+        {
+          "name": "Orion Disruptor",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 2700,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 950,
+                "grade": 4,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 8000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 86914370
+            },
+            {
+              "type": "dilithium",
+              "value": 30933
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 7000,
+              "armor_pierce": 7000,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 5042,
+              "min_damage": 3781,
+              "shield_pierce": 7000,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Retrofit Slug Launcher",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 2700,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 950,
+                "grade": 4,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 8000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 86914370
+            },
+            {
+              "type": "dilithium",
+              "value": 30933
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 7000,
+              "armor_pierce": 7000,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 5042,
+              "min_damage": 3781,
+              "shield_pierce": 7000,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Orion Mining Laser",
+          "img_url": "./assets/component_mining_laser.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 4900,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 1711,
+                "grade": 4,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 14400
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 156445866
+            },
+            {
+              "type": "dilithium",
+              "value": 55679
+            }
+          ],
+          "additional_info": {
+            "mining_laser_info": {
+              "mining_bonus": 2.3
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Angel Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 3800,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 1331,
+                "grade": 4,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 11200
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 121680118
+            },
+            {
+              "type": "dilithium",
+              "value": 43306
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 32000,
+              "hull_health": 180000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Smugglers' Hold",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 3800,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 1331,
+                "grade": 4,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 11200
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 121680118
+            },
+            {
+              "type": "dilithium",
+              "value": 43306
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 30000,
+              "increased_protected_cargo": 12800,
+              "ship_increased_cargo": 2500,
+              "ship_increased_protected_cargo": 4000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 2700,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 950,
+                "grade": 4,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 8000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 86914370
+            },
+            {
+              "type": "dilithium",
+              "value": 30933
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 80,
+              "warp_speed": 6.33
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 2200,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 760,
+                "grade": 4,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 6400
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 69531496
+            },
+            {
+              "type": "dilithium",
+              "value": 24746
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 8000,
+              "impulse_speed": 115
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 4400,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 1521,
+                "grade": 4,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 12800
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 139062992
+            },
+            {
+              "type": "dilithium",
+              "value": 49493
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 20000,
+              "shield_health": 150000
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 72900.0,
+          "additional_officer_slot": false,
+          "level": 26,
+          "ship_xp": 47000
+        },
+        {
+          "ability_bonus": 72900.0,
+          "additional_officer_slot": false,
+          "level": 27,
+          "ship_xp": 51000
+        },
+        {
+          "ability_bonus": 72900.0,
+          "additional_officer_slot": false,
+          "level": 28,
+          "ship_xp": 57000
+        },
+        {
+          "ability_bonus": 72900.0,
+          "additional_officer_slot": false,
+          "level": 29,
+          "ship_xp": 61000
+        },
+        {
+          "ability_bonus": 72900.0,
+          "additional_officer_slot": false,
+          "level": 30,
+          "ship_xp": 69000
+        }
+      ]
+    },
+    {
+      "tier": 7,
+      "build_time": 4000000,
+      "repair_time": 132600,
+      "components": [
+        {
+          "name": "Orion Disruptor",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 1000,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 1000,
+                "grade": 4,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 9000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 206989290
+            },
+            {
+              "type": "dilithium",
+              "value": 67540
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 13000,
+              "armor_pierce": 13000,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 8370,
+              "min_damage": 6277,
+              "shield_pierce": 13000,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Retrofit Slug Launcher",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 1000,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 1000,
+                "grade": 4,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 9000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 206989290
+            },
+            {
+              "type": "dilithium",
+              "value": 67540
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 13000,
+              "armor_pierce": 13000,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 8370,
+              "min_damage": 6277,
+              "shield_pierce": 13000,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Orion Mining Laser",
+          "img_url": "./assets/component_mining_laser.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 1700,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 1700,
+                "grade": 4,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 16200
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 372580722
+            },
+            {
+              "type": "dilithium",
+              "value": 121573
+            }
+          ],
+          "additional_info": {
+            "mining_laser_info": {
+              "mining_bonus": 2.6
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Angel Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 1400,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 1400,
+                "grade": 4,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 12600
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 289785006
+            },
+            {
+              "type": "dilithium",
+              "value": 94556
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 64000,
+              "hull_health": 450000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Smugglers' Hold",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 1400,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 1400,
+                "grade": 4,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 12600
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 289785006
+            },
+            {
+              "type": "dilithium",
+              "value": 94556
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 55000,
+              "increased_protected_cargo": 15200,
+              "ship_increased_cargo": 2500,
+              "ship_increased_protected_cargo": 4000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 1000,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 1000,
+                "grade": 4,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 9000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 206989290
+            },
+            {
+              "type": "dilithium",
+              "value": 67540
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 88,
+              "warp_speed": 6.66
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 800,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 800,
+                "grade": 4,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 7200
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 165591432
+            },
+            {
+              "type": "dilithium",
+              "value": 54032
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 12000,
+              "impulse_speed": 116
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 1500,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 1500,
+                "grade": 4,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 14400
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 331182864
+            },
+            {
+              "type": "dilithium",
+              "value": 108064
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 30000,
+              "shield_health": 250000
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 84240.0,
+          "additional_officer_slot": false,
+          "level": 31,
+          "ship_xp": 72000
+        },
+        {
+          "ability_bonus": 84240.0,
+          "additional_officer_slot": false,
+          "level": 32,
+          "ship_xp": 81000
+        },
+        {
+          "ability_bonus": 84240.0,
+          "additional_officer_slot": false,
+          "level": 33,
+          "ship_xp": 86000
+        },
+        {
+          "ability_bonus": 84240.0,
+          "additional_officer_slot": false,
+          "level": 34,
+          "ship_xp": 95000
+        },
+        {
+          "ability_bonus": 84240.0,
+          "additional_officer_slot": false,
+          "level": 35,
+          "ship_xp": 100000
+        }
+      ]
+    },
+    {
+      "tier": 8,
+      "build_time": 5200000,
+      "repair_time": 151200,
+      "components": [
+        {
+          "name": "Orion Disruptor",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 1000,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 1000,
+                "grade": 4,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 10000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 464216880
+            },
+            {
+              "type": "dilithium",
+              "value": 205936
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 21000,
+              "armor_pierce": 21000,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 13894,
+              "min_damage": 10420,
+              "shield_pierce": 21000,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Retrofit Slug Launcher",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 1000,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 1000,
+                "grade": 4,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 10000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 464216880
+            },
+            {
+              "type": "dilithium",
+              "value": 205936
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 21000,
+              "armor_pierce": 21000,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 13894,
+              "min_damage": 10420,
+              "shield_pierce": 21000,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Orion Mining Laser",
+          "img_url": "./assets/component_mining_laser.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 1900,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 1900,
+                "grade": 4,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 18000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 835590384
+            },
+            {
+              "type": "dilithium",
+              "value": 370685
+            }
+          ],
+          "additional_info": {
+            "mining_laser_info": {
+              "mining_bonus": 3.0
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Angel Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 1500,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 1500,
+                "grade": 4,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 14000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 649903632
+            },
+            {
+              "type": "dilithium",
+              "value": 288310
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 96000,
+              "hull_health": 750000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Smugglers' Hold",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 1500,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 1500,
+                "grade": 4,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 14000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 649903632
+            },
+            {
+              "type": "dilithium",
+              "value": 288310
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 105000,
+              "increased_protected_cargo": 20000,
+              "ship_increased_cargo": 2500,
+              "ship_increased_protected_cargo": 4000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 1000,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 1000,
+                "grade": 4,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 10000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 464216880
+            },
+            {
+              "type": "dilithium",
+              "value": 205936
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 96,
+              "warp_speed": 7
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 800,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 800,
+                "grade": 4,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 8000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 371373504
+            },
+            {
+              "type": "dilithium",
+              "value": 164749
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 20000,
+              "impulse_speed": 117
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 1700,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 1700,
+                "grade": 4,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 16000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 742747008
+            },
+            {
+              "type": "dilithium",
+              "value": 329498
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 38000,
+              "shield_health": 500000
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 97200.0,
+          "additional_officer_slot": false,
+          "level": 36,
+          "ship_xp": 105000
+        },
+        {
+          "ability_bonus": 97200.0,
+          "additional_officer_slot": false,
+          "level": 37,
+          "ship_xp": 116000
+        },
+        {
+          "ability_bonus": 97200.0,
+          "additional_officer_slot": false,
+          "level": 38,
+          "ship_xp": 122000
+        },
+        {
+          "ability_bonus": 97200.0,
+          "additional_officer_slot": false,
+          "level": 39,
+          "ship_xp": 134000
+        },
+        {
+          "ability_bonus": 97200.0,
+          "additional_officer_slot": false,
+          "level": 40,
+          "ship_xp": 140000
+        }
+      ]
+    },
+    {
+      "tier": 9,
+      "build_time": 6400000,
+      "repair_time": 175800,
+      "components": [
+        {
+          "name": "Orion Disruptor",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 300,
+                "grade": 4,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 300,
+                "grade": 4,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 11000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 667168270
+            },
+            {
+              "type": "dilithium",
+              "value": 328694
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 40000,
+              "armor_pierce": 40000,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 23063,
+              "min_damage": 17298,
+              "shield_pierce": 40000,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Retrofit Slug Launcher",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 300,
+                "grade": 4,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 300,
+                "grade": 4,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 11000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 667168270
+            },
+            {
+              "type": "dilithium",
+              "value": 328694
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 40000,
+              "armor_pierce": 40000,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 23063,
+              "min_damage": 17298,
+              "shield_pierce": 40000,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Orion Mining Laser",
+          "img_url": "./assets/component_mining_laser.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 600,
+                "grade": 4,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 600,
+                "grade": 4,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 19800
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 1200902886
+            },
+            {
+              "type": "dilithium",
+              "value": 591650
+            }
+          ],
+          "additional_info": {
+            "mining_laser_info": {
+              "mining_bonus": 3.4
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Angel Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 500,
+                "grade": 4,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 500,
+                "grade": 4,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 15400
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 934035578
+            },
+            {
+              "type": "dilithium",
+              "value": 460172
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 140000,
+              "hull_health": 1500000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Smugglers' Hold",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 500,
+                "grade": 4,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 500,
+                "grade": 4,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 15400
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 934035578
+            },
+            {
+              "type": "dilithium",
+              "value": 460172
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 422000,
+              "increased_protected_cargo": 18400,
+              "ship_increased_cargo": 2500,
+              "ship_increased_protected_cargo": 4000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 300,
+                "grade": 4,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 300,
+                "grade": 4,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 11000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 667168270
+            },
+            {
+              "type": "dilithium",
+              "value": 328694
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 112,
+              "warp_speed": 7.25
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 300,
+                "grade": 4,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 300,
+                "grade": 4,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 8800
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 533734616
+            },
+            {
+              "type": "dilithium",
+              "value": 262956
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 28000,
+              "impulse_speed": 118
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 500,
+                "grade": 4,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 500,
+                "grade": 4,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 17600
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 1067469232
+            },
+            {
+              "type": "dilithium",
+              "value": 525911
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 45000,
+              "shield_health": 900000
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 108540.0,
+          "additional_officer_slot": false,
+          "level": 41,
+          "ship_xp": 154000
+        },
+        {
+          "ability_bonus": 108540.0,
+          "additional_officer_slot": false,
+          "level": 42,
+          "ship_xp": 161000
+        },
+        {
+          "ability_bonus": 108540.0,
+          "additional_officer_slot": false,
+          "level": 43,
+          "ship_xp": 176000
+        },
+        {
+          "ability_bonus": 108540.0,
+          "additional_officer_slot": false,
+          "level": 44,
+          "ship_xp": 183000
+        },
+        {
+          "ability_bonus": 108540.0,
+          "additional_officer_slot": false,
+          "level": 45,
+          "ship_xp": 200000
+        }
+      ]
+    },
+    {
+      "tier": 10,
+      "build_time": 8000000,
+      "repair_time": 185460,
+      "components": [
+        {
+          "name": "Orion Disruptor",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 1600,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 1600,
+                "grade": 5,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 8000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 2075368550
+            },
+            {
+              "type": "dilithium",
+              "value": 1236990
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 60000,
+              "armor_pierce": 60000,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 38285,
+              "min_damage": 28714,
+              "shield_pierce": 60000,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Retrofit Slug Launcher",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 1600,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 1600,
+                "grade": 5,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 8000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 2075368550
+            },
+            {
+              "type": "dilithium",
+              "value": 1236990
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 60000,
+              "armor_pierce": 60000,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 38285,
+              "min_damage": 28714,
+              "shield_pierce": 60000,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Orion Mining Laser",
+          "img_url": "./assets/component_mining_laser.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 2900,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 2900,
+                "grade": 5,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 14400
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 3735663390
+            },
+            {
+              "type": "dilithium",
+              "value": 2226581
+            }
+          ],
+          "additional_info": {
+            "mining_laser_info": {
+              "mining_bonus": 3.9
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Angel Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 2200,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 2200,
+                "grade": 5,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 11200
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 2905515970
+            },
+            {
+              "type": "dilithium",
+              "value": 1731785
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 176000,
+              "hull_health": 2400000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Smugglers' Hold",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 2200,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 2200,
+                "grade": 5,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 11200
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 2905515970
+            },
+            {
+              "type": "dilithium",
+              "value": 1731785
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 106000,
+              "increased_protected_cargo": 24000,
+              "ship_increased_cargo": 2500,
+              "ship_increased_protected_cargo": 4000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 1600,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 1600,
+                "grade": 5,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 8000
+              },
+              {
+                "type": "makeshift rigging t10",
+                "value": 1
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 2075368550
+            },
+            {
+              "type": "dilithium",
+              "value": 1236990
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 128,
+              "warp_speed": 7.5
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 1300,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 1300,
+                "grade": 5,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 6400
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 1660294840
+            },
+            {
+              "type": "dilithium",
+              "value": 989592
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 35000,
+              "impulse_speed": 119
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 2600,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 2600,
+                "grade": 5,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 12800
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 3320589680
+            },
+            {
+              "type": "dilithium",
+              "value": 1979183
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 53000,
+              "shield_health": 1300000
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 121500.0,
+          "additional_officer_slot": false,
+          "level": 46,
+          "ship_xp": 200000
+        },
+        {
+          "ability_bonus": 121500.0,
+          "additional_officer_slot": false,
+          "level": 47,
+          "ship_xp": 200000
+        },
+        {
+          "ability_bonus": 121500.0,
+          "additional_officer_slot": false,
+          "level": 48,
+          "ship_xp": 210000
+        },
+        {
+          "ability_bonus": 121500.0,
+          "additional_officer_slot": false,
+          "level": 49,
+          "ship_xp": 210000
+        },
+        {
+          "ability_bonus": 121500.0,
+          "additional_officer_slot": false,
+          "level": 50,
+          "ship_xp": 220000
+        }
+      ]
+    },
+    {
+      "tier": 11,
+      "build_time": 10400000,
+      "repair_time": 196200,
+      "components": [
+        {
+          "name": "Orion Disruptor",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 2500,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 2500,
+                "grade": 5,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 10000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 3271444410
+            },
+            {
+              "type": "dilithium",
+              "value": 1886669
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 80000,
+              "armor_pierce": 80000,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 63554,
+              "min_damage": 47665,
+              "shield_pierce": 80000,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Retrofit Slug Launcher",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 2500,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 2500,
+                "grade": 5,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 10000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 3271444410
+            },
+            {
+              "type": "dilithium",
+              "value": 1886669
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 80000,
+              "armor_pierce": 80000,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 63554,
+              "min_damage": 47665,
+              "shield_pierce": 80000,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Orion Mining Laser",
+          "img_url": "./assets/component_mining_laser.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 4400,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 4400,
+                "grade": 5,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 18000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 5888599938
+            },
+            {
+              "type": "dilithium",
+              "value": 3396005
+            }
+          ],
+          "additional_info": {
+            "mining_laser_info": {
+              "mining_bonus": 4.4
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Angel Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 3500,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 3500,
+                "grade": 5,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 14000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 4580022174
+            },
+            {
+              "type": "dilithium",
+              "value": 2641337
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 208000,
+              "hull_health": 3600000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Smugglers' Hold",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 3500,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 3500,
+                "grade": 5,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 14000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 4580022174
+            },
+            {
+              "type": "dilithium",
+              "value": 2641337
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 126000,
+              "increased_protected_cargo": 25600,
+              "ship_increased_cargo": 2500,
+              "ship_increased_protected_cargo": 4000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 2500,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 2500,
+                "grade": 5,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 10000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 3271444410
+            },
+            {
+              "type": "dilithium",
+              "value": 1886669
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 160,
+              "warp_speed": 7.75
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 2000,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 2000,
+                "grade": 5,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 8000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 2617155528
+            },
+            {
+              "type": "dilithium",
+              "value": 1509336
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 42000,
+              "impulse_speed": 120
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 4000,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 4000,
+                "grade": 5,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 16000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 5234311056
+            },
+            {
+              "type": "dilithium",
+              "value": 3018671
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 60000,
+              "shield_health": 1900000
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 134460.0,
+          "additional_officer_slot": false,
+          "level": 51,
+          "ship_xp": 220000
+        },
+        {
+          "ability_bonus": 134460.0,
+          "additional_officer_slot": false,
+          "level": 52,
+          "ship_xp": 230000
+        },
+        {
+          "ability_bonus": 134460.0,
+          "additional_officer_slot": false,
+          "level": 53,
+          "ship_xp": 230000
+        },
+        {
+          "ability_bonus": 134460.0,
+          "additional_officer_slot": false,
+          "level": 54,
+          "ship_xp": 240000
+        },
+        {
+          "ability_bonus": 134460.0,
+          "additional_officer_slot": false,
+          "level": 55,
+          "ship_xp": 240000
+        }
+      ]
+    },
+    {
+      "tier": 12,
+      "build_time": 14400000,
+      "repair_time": 230460,
+      "components": [
+        {
+          "name": "Orion Disruptor",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 1300,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 1300,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 12000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 6600333680
+            },
+            {
+              "type": "dilithium",
+              "value": 4115085
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 100000,
+              "armor_pierce": 100000,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 105499,
+              "min_damage": 79124,
+              "shield_pierce": 100000,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Retrofit Slug Launcher",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 1300,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 1300,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 12000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 6600333680
+            },
+            {
+              "type": "dilithium",
+              "value": 4115085
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 100000,
+              "armor_pierce": 100000,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 105499,
+              "min_damage": 79124,
+              "shield_pierce": 100000,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Orion Mining Laser",
+          "img_url": "./assets/component_mining_laser.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 2300,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 2300,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 21600
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 11880600624
+            },
+            {
+              "type": "dilithium",
+              "value": 7407153
+            }
+          ],
+          "additional_info": {
+            "mining_laser_info": {
+              "mining_bonus": 5.1
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Angel Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 1800,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 1800,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 16800
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 9240467152
+            },
+            {
+              "type": "dilithium",
+              "value": 5761119
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 240000,
+              "hull_health": 5400000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Smugglers' Hold",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 1800,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 1800,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 16800
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 9240467152
+            },
+            {
+              "type": "dilithium",
+              "value": 5761119
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 147000,
+              "increased_protected_cargo": 44000,
+              "ship_increased_cargo": 2500,
+              "ship_increased_protected_cargo": 4000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 1300,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 1300,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 12000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 6600333680
+            },
+            {
+              "type": "dilithium",
+              "value": 4115085
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 200,
+              "warp_speed": 8
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 1000,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 1000,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 9600
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 5280266944
+            },
+            {
+              "type": "dilithium",
+              "value": 3292068
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 48000,
+              "impulse_speed": 121
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 2100,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 2100,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 19200
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 10560533888
+            },
+            {
+              "type": "dilithium",
+              "value": 6584136
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 67000,
+              "shield_health": 2500000
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 145800.0,
+          "additional_officer_slot": false,
+          "level": 56,
+          "ship_xp": 251000
+        },
+        {
+          "ability_bonus": 145800.0,
+          "additional_officer_slot": false,
+          "level": 57,
+          "ship_xp": 251000
+        },
+        {
+          "ability_bonus": 145800.0,
+          "additional_officer_slot": false,
+          "level": 58,
+          "ship_xp": 251000
+        },
+        {
+          "ability_bonus": 145800.0,
+          "additional_officer_slot": false,
+          "level": 59,
+          "ship_xp": 262000
+        },
+        {
+          "ability_bonus": 145800.0,
+          "additional_officer_slot": false,
+          "level": 60,
+          "ship_xp": 262000
+        }
+      ]
+    },
+    {
+      "tier": 13,
+      "build_time": 19200000,
+      "repair_time": 275940,
+      "components": [
+        {
+          "name": "Orion Disruptor",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 2000,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 2000,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 15000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 11228263020
+            },
+            {
+              "type": "dilithium",
+              "value": 7494084
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 120000,
+              "armor_pierce": 120000,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 175129,
+              "min_damage": 131346,
+              "shield_pierce": 120000,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Retrofit Slug Launcher",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 2000,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 2000,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 15000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 11228263020
+            },
+            {
+              "type": "dilithium",
+              "value": 7494084
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 120000,
+              "armor_pierce": 120000,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 175129,
+              "min_damage": 131346,
+              "shield_pierce": 120000,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Orion Mining Laser",
+          "img_url": "./assets/component_mining_laser.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 3600,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 3600,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 27000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 20210873436
+            },
+            {
+              "type": "dilithium",
+              "value": 13489351
+            }
+          ],
+          "additional_info": {
+            "mining_laser_info": {
+              "mining_bonus": 5.8
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Angel Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 2800,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 2800,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 21000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 15719568228
+            },
+            {
+              "type": "dilithium",
+              "value": 10491718
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 260000,
+              "hull_health": 7500000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Smugglers' Hold",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 2800,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 2800,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 21000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 15719568228
+            },
+            {
+              "type": "dilithium",
+              "value": 10491718
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 169000,
+              "increased_protected_cargo": 68000,
+              "ship_increased_cargo": 2500,
+              "ship_increased_protected_cargo": 4000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 2000,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 2000,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 15000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 11228263020
+            },
+            {
+              "type": "dilithium",
+              "value": 7494084
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 400,
+              "warp_speed": 8.25
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 1600,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 1600,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 12000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 8982610416
+            },
+            {
+              "type": "dilithium",
+              "value": 5995267
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 54000,
+              "impulse_speed": 122
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 3200,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 3200,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 24000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 17965220832
+            },
+            {
+              "type": "dilithium",
+              "value": 11990534
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 73000,
+              "shield_health": 3000000
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 158760.0,
+          "additional_officer_slot": false,
+          "level": 61,
+          "ship_xp": 264620
+        },
+        {
+          "ability_bonus": 158760.0,
+          "additional_officer_slot": false,
+          "level": 62,
+          "ship_xp": 267266
+        },
+        {
+          "ability_bonus": 158760.0,
+          "additional_officer_slot": false,
+          "level": 63,
+          "ship_xp": 269939
+        },
+        {
+          "ability_bonus": 158760.0,
+          "additional_officer_slot": false,
+          "level": 64,
+          "ship_xp": 272638
+        },
+        {
+          "ability_bonus": 158760.0,
+          "additional_officer_slot": false,
+          "level": 65,
+          "ship_xp": 275365
+        }
+      ]
+    },
+    {
+      "tier": 14,
+      "build_time": 22080000,
+      "repair_time": 313200,
+      "components": [
+        {
+          "name": "Orion Disruptor",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 1400,
+                "grade": 5,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 1400,
+                "grade": 5,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 20000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 15394903860
+            },
+            {
+              "type": "dilithium",
+              "value": 11061492
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 150000,
+              "armor_pierce": 150000,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 290713,
+              "min_damage": 218035,
+              "shield_pierce": 150000,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Retrofit Slug Launcher",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 1400,
+                "grade": 5,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 1400,
+                "grade": 5,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 20000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 15394903860
+            },
+            {
+              "type": "dilithium",
+              "value": 11061492
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 150000,
+              "armor_pierce": 150000,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 290713,
+              "min_damage": 218035,
+              "shield_pierce": 150000,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Orion Mining Laser",
+          "img_url": "./assets/component_mining_laser.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 2500,
+                "grade": 5,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 2500,
+                "grade": 5,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 36000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 27710826948
+            },
+            {
+              "type": "dilithium",
+              "value": 19910686
+            }
+          ],
+          "additional_info": {
+            "mining_laser_info": {
+              "mining_bonus": 6.6
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Angel Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 1900,
+                "grade": 5,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 1900,
+                "grade": 5,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 28000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 21552865404
+            },
+            {
+              "type": "dilithium",
+              "value": 15486089
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 280000,
+              "hull_health": 10500000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Smugglers' Hold",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 1900,
+                "grade": 5,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 1900,
+                "grade": 5,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 28000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 21552865404
+            },
+            {
+              "type": "dilithium",
+              "value": 15486089
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 212000,
+              "increased_protected_cargo": 96000,
+              "ship_increased_cargo": 2500,
+              "ship_increased_protected_cargo": 4000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 1400,
+                "grade": 5,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 1400,
+                "grade": 5,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 20000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 15394903860
+            },
+            {
+              "type": "dilithium",
+              "value": 11061492
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 550,
+              "warp_speed": 8.5
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 1100,
+                "grade": 5,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 1100,
+                "grade": 5,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 16000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 12315923088
+            },
+            {
+              "type": "dilithium",
+              "value": 8849194
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 62000,
+              "impulse_speed": 123
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 2200,
+                "grade": 5,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 2200,
+                "grade": 5,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 32000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 24631846176
+            },
+            {
+              "type": "dilithium",
+              "value": 17698387
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 78000,
+              "shield_health": 3600000
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 171720.0,
+          "additional_officer_slot": false,
+          "level": 66,
+          "ship_xp": 278118
+        },
+        {
+          "ability_bonus": 171720.0,
+          "additional_officer_slot": false,
+          "level": 67,
+          "ship_xp": 280899
+        },
+        {
+          "ability_bonus": 171720.0,
+          "additional_officer_slot": false,
+          "level": 68,
+          "ship_xp": 283708
+        },
+        {
+          "ability_bonus": 171720.0,
+          "additional_officer_slot": false,
+          "level": 69,
+          "ship_xp": 286546
+        },
+        {
+          "ability_bonus": 171720.0,
+          "additional_officer_slot": false,
+          "level": 70,
+          "ship_xp": 289411
+        }
+      ]
+    },
+    {
+      "tier": 15,
+      "build_time": 25440000,
+      "repair_time": 375600,
+      "components": [
+        {
+          "name": "Orion Disruptor",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 3655,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 3700,
+                "grade": 6,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 18000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 510
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 2
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 180000,
+              "armor_pierce": 180000,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 482584,
+              "min_damage": 361938,
+              "shield_pierce": 180000,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Retrofit Slug Launcher",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 3655,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 3700,
+                "grade": 6,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 18000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 510
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 2
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 180000,
+              "armor_pierce": 180000,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 482584,
+              "min_damage": 361938,
+              "shield_pierce": 180000,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Orion Mining Laser",
+          "img_url": "./assets/component_mining_laser.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 6579,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 6600,
+                "grade": 6,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 32400
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 918
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 3
+            }
+          ],
+          "additional_info": {
+            "mining_laser_info": {
+              "mining_bonus": 7.5
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Angel Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 5117,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 5100,
+                "grade": 6,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 25200
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 714
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 2
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 300000,
+              "hull_health": 12900000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Smugglers' Hold",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 5117,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 5100,
+                "grade": 6,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 25200
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 714
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 2
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 126000,
+              "increased_protected_cargo": 176000,
+              "ship_increased_cargo": 2500,
+              "ship_increased_protected_cargo": 4000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 3655,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 3700,
+                "grade": 6,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 18000
+              },
+              {
+                "type": "makeshift rigging t15",
+                "value": 1
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 510
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 2
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 580,
+              "warp_speed": 8.75
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 2924,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 2900,
+                "grade": 6,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 14400
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 408
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 1
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 70000,
+              "impulse_speed": 124
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 5848,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 5800,
+                "grade": 6,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 28800
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 816
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 3
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 84000,
+              "shield_health": 4200000
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 183060.0,
+          "additional_officer_slot": false,
+          "level": 71,
+          "ship_xp": 292276
+        },
+        {
+          "ability_bonus": 183060.0,
+          "additional_officer_slot": false,
+          "level": 72,
+          "ship_xp": 295142
+        },
+        {
+          "ability_bonus": 183060.0,
+          "additional_officer_slot": false,
+          "level": 73,
+          "ship_xp": 298007
+        },
+        {
+          "ability_bonus": 183060.0,
+          "additional_officer_slot": false,
+          "level": 74,
+          "ship_xp": 300873
+        },
+        {
+          "ability_bonus": 183060.0,
+          "additional_officer_slot": false,
+          "level": 75,
+          "ship_xp": 303738
+        }
+      ]
+    },
+    {
+      "tier": 16,
+      "build_time": 33120000,
+      "repair_time": 445200,
+      "components": [
+        {
+          "name": "Orion Disruptor",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 4320,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 4300,
+                "grade": 6,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 20000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 870
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 3
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 220000,
+              "armor_pierce": 220000,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 801090,
+              "min_damage": 600818,
+              "shield_pierce": 220000,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Retrofit Slug Launcher",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 4320,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 4300,
+                "grade": 6,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 20000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 870
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 3
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 220000,
+              "armor_pierce": 220000,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 801090,
+              "min_damage": 600818,
+              "shield_pierce": 220000,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Orion Mining Laser",
+          "img_url": "./assets/component_mining_laser.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 7776,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 7800,
+                "grade": 6,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 36000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 1566
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 5
+            }
+          ],
+          "additional_info": {
+            "mining_laser_info": {
+              "mining_bonus": 8.6
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Angel Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 6048,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 6000,
+                "grade": 6,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 28000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 1218
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 4
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 320000,
+              "hull_health": 15600000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Smugglers' Hold",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 6048,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 6000,
+                "grade": 6,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 28000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 1218
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 4
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 168000,
+              "increased_protected_cargo": 240000,
+              "ship_increased_cargo": 2500,
+              "ship_increased_protected_cargo": 4000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 4320,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 4300,
+                "grade": 6,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 20000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 870
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 3
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 600,
+              "warp_speed": 9
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 3456,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 3500,
+                "grade": 6,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 16000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 696
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 2
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 80000,
+              "impulse_speed": 126
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 6912,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 6900,
+                "grade": 6,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 32000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 1392
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 5
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 90000,
+              "shield_health": 4800000
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 194400.0,
+          "additional_officer_slot": false,
+          "level": 76,
+          "ship_xp": 306604
+        },
+        {
+          "ability_bonus": 194400.0,
+          "additional_officer_slot": false,
+          "level": 77,
+          "ship_xp": 309469
+        },
+        {
+          "ability_bonus": 194400.0,
+          "additional_officer_slot": false,
+          "level": 78,
+          "ship_xp": 312335
+        },
+        {
+          "ability_bonus": 194400.0,
+          "additional_officer_slot": false,
+          "level": 79,
+          "ship_xp": 315200
+        },
+        {
+          "ability_bonus": 194400.0,
+          "additional_officer_slot": false,
+          "level": 80,
+          "ship_xp": 318066
+        }
+      ]
+    },
+    {
+      "tier": 17,
+      "build_time": 43040000,
+      "repair_time": 559200,
+      "components": [
+        {
+          "name": "Orion Disruptor",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 103,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 2000,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 25000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 2550
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 9
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 270000,
+              "armor_pierce": 270000,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 1329809,
+              "min_damage": 997357,
+              "shield_pierce": 270000,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Retrofit Slug Launcher",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 103,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 2000,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 25000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 2550
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 9
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 270000,
+              "armor_pierce": 270000,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 1329809,
+              "min_damage": 997357,
+              "shield_pierce": 270000,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Orion Mining Laser",
+          "img_url": "./assets/component_mining_laser.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 186,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 3600,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 45000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 4590
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 15
+            }
+          ],
+          "additional_info": {
+            "mining_laser_info": {
+              "mining_bonus": 9.8
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Angel Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 144,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 2800,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 35000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 3570
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 12
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 340000,
+              "hull_health": 18900000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Smugglers' Hold",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 144,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 2800,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 35000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 3570
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 12
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 212000,
+              "increased_protected_cargo": 320000,
+              "ship_increased_cargo": 2500,
+              "ship_increased_protected_cargo": 4000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 103,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 2000,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 25000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 2550
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 9
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 620,
+              "warp_speed": 9.25
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 83,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 1600,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 20000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 2040
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 7
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 90000,
+              "impulse_speed": 128
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 165,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 3200,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 40000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 4080
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 14
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 95000,
+              "shield_health": 5800000
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 207360.0,
+          "additional_officer_slot": false,
+          "level": 81,
+          "ship_xp": 320931
+        },
+        {
+          "ability_bonus": 207360.0,
+          "additional_officer_slot": false,
+          "level": 82,
+          "ship_xp": 323796
+        },
+        {
+          "ability_bonus": 207360.0,
+          "additional_officer_slot": false,
+          "level": 83,
+          "ship_xp": 326662
+        },
+        {
+          "ability_bonus": 207360.0,
+          "additional_officer_slot": false,
+          "level": 84,
+          "ship_xp": 329527
+        },
+        {
+          "ability_bonus": 207360.0,
+          "additional_officer_slot": false,
+          "level": 85,
+          "ship_xp": 332393
+        }
+      ]
+    },
+    {
+      "tier": 18,
+      "build_time": 56000000,
+      "repair_time": 637800,
+      "components": [
+        {
+          "name": "Orion Disruptor",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 746,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 30000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 4510
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 16
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 400000,
+              "armor_pierce": 400000,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 3000000,
+              "min_damage": 2400000,
+              "shield_pierce": 400000,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Retrofit Slug Launcher",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 746,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 30000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 4510
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 16
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 400000,
+              "armor_pierce": 400000,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 3000000,
+              "min_damage": 2400000,
+              "shield_pierce": 400000,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Orion Mining Laser",
+          "img_url": "./assets/component_mining_laser.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 1343,
+                "grade": 6,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 100,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 54000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 8118
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 28
+            }
+          ],
+          "additional_info": {
+            "mining_laser_info": {
+              "mining_bonus": 11.1
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Angel Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 1044,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 42000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 6314
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 22
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 400000,
+              "hull_health": 25000000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Smugglers' Hold",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 1044,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 42000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 6314
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 22
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 295000,
+              "increased_protected_cargo": 480000,
+              "ship_increased_cargo": 2500,
+              "ship_increased_protected_cargo": 4000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Warp Engines",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 746,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 30000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 4510
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 16
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 660,
+              "warp_speed": 9.5
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engine",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 597,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 24000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 3608
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 12
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 100000,
+              "impulse_speed": 130
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 1193,
+                "grade": 6,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 100,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "mining bulkhead",
+                "value": 48000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 7216
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 25
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 100000,
+              "shield_health": 7500000
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 226800.0,
+          "additional_officer_slot": false,
+          "level": 86,
+          "ship_xp": 335258
+        },
+        {
+          "ability_bonus": 226800.0,
+          "additional_officer_slot": false,
+          "level": 87,
+          "ship_xp": 338124
+        },
+        {
+          "ability_bonus": 226800.0,
+          "additional_officer_slot": false,
+          "level": 88,
+          "ship_xp": 340989
+        },
+        {
+          "ability_bonus": 226800.0,
+          "additional_officer_slot": false,
+          "level": 89,
+          "ship_xp": 343855
+        },
+        {
+          "ability_bonus": 226800.0,
+          "additional_officer_slot": false,
+          "level": 90,
+          "ship_xp": 346720
+        }
+      ]
+    }
+  ],
+  "img_url": "./assets/serene_squall.png"
+}

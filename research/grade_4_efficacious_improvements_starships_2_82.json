@@ -1,0 +1,146 @@
+{
+  "research_name": "Grade 4+ Efficacious Improvements",
+  "description": "Increases base Ship Parts Cost Efficiency for upgrading Grade 4+ ships.",
+  "location": {
+    "column": 82,
+    "row": 2,
+    "tree": "starships"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 51062400,
+      "increased_power": 35500,
+      "requirements": [
+        {
+          "name": "Grade 4+ Mineral Trade-In",
+          "level": 1
+        },
+        {
+          "name": "R&D Department",
+          "level": 45
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "covert modifications",
+            "value": 1620
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.25
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 195177600,
+      "increased_power": 18000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 51
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "covert modifications",
+            "value": 1905
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.6
+      }
+    },
+    {
+      "level": 3,
+      "research_time": 226281600,
+      "increased_power": 19500,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 56
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "covert modifications",
+            "value": 2220
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 1.0
+      }
+    },
+    {
+      "level": 4,
+      "research_time": 264435780,
+      "increased_power": 25000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 61
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "covert modifications",
+            "value": 2580
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 1.45
+      }
+    },
+    {
+      "level": 5,
+      "research_time": 318785820,
+      "increased_power": 44000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 67
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "covert modifications",
+            "value": 3030
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 2.0
+      }
+    }
+  ],
+  "img_url": "./assets/grade_4_efficacious_improvements_starships_2_82.png"
+}

@@ -1,0 +1,203 @@
+{
+  "officer_name": "VIL Gul Dukat",
+  "description": "No other Cardassians could compare with Gul Dukat with regard to the number of challenges he has faced and the atrocities he has committed. After leaving Bajor and suffering numerous demotions, he has led multiple conspiracies and plots to restore his position in Cardassian society. In a pivotal move, he even struck an alliance with the Dominion, becoming their leader for a brief moment. However, a tremendous defeat in the Dominion War and the death of his beloved daughter, Ziyal, led him to madness and indomitable hate towards anything Bajoran, especially the Prophets.\n\nAfter studying their religious text, Dukat designed a plan to destroy the Bajoran people and his nemesis, the Emissary. The exasperated Cardassian conducted a ritual to become a vessel for the Pah-wraiths, and Dukat subsequently attacked the Prophets in an attempt to leave the Bajorans without their protectors. However, these efforts would prove futile, as the Pah-wraiths were still trapped in the Fire Caves of Bajor, limiting their abilities. Dukat underwent cosmetic surgery to fool Winn Adami, a religious leader of Bajor, and used her to get the Book of the Kosst Amojan. Surprisingly, he found an ally in Winn, and together they conspired to release the Pah-wraiths from their imprisonment in the hopes of acquiring the power they both craved.\n\nThis alliance would be short-lived following Winn Adami's betrayal, as she poisoned Dukat to sacrifice him to the Pah-wraiths. Much to Winn\u2019s horror, the Cardassian returned to life as the Emissary and an actual vessel of the evil Pah-wraiths. The only thing that ultimately stopped Dukat from setting the Alpha Quadrant aflame was a change of Winn\u2019s heart, as she gave her life to protect Benjamin Sisko, trapping Dukat forever in the Fire Caves in the process. But in one of the other Universes, Winn stepped aside and let Dukat emerge victorious, as his rage and inner fire set the Alpha Quadrant ablaze.",
+  "class": "command",
+  "group": "villains",
+  "faction": "neutral",
+  "rarity": "epic",
+  "ability_info": {
+    "captain_maneuver": {
+      "name": "Chain of Command",
+      "bonus": "This Officer does not have a Captain's Maneuver. Equipping this Officer as the captain of a ship provides no benefit.",
+      "percentage": true,
+      "value": 0.0
+    },
+    "officer_ability": {
+      "name": "Fiery Rage",
+      "bonus": "VIL Gul Dukat increases Shots by {value} ({value} at rank {value}) when attacking a Station.",
+      "percentage": true
+    },
+    "below_decks_ability": {
+      "name": "The Emissary of Pah-wraiths",
+      "bonus": "VIL Gul Dukat reduces enemy player Critical Chance by {value} ({value} at rank {value}) during 4 rounds at the start of the combat.\n\nBelow-Deck Abilities are only activated when assigned to a below-decks slot on a ship.",
+      "percentage": true
+    }
+  },
+  "synergy": {
+    "command": 0.0,
+    "engineering": 0.0,
+    "science": 0.0
+  },
+  "traits": [
+    {
+      "name": "Ambitious",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 1500
+        },
+        {
+          "level": 2,
+          "trait_xp": 2700
+        },
+        {
+          "level": 3,
+          "trait_xp": 3800
+        }
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Tactical",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 7650
+        },
+        {
+          "level": 2,
+          "trait_xp": 6000
+        },
+        {
+          "level": 3,
+          "trait_xp": 7000
+        },
+        {
+          "level": 4,
+          "trait_xp": 8850
+        }
+      ],
+      "tier": 2
+    },
+    {
+      "name": "Mastermind",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 10000
+        },
+        {
+          "level": 2,
+          "trait_xp": 4000
+        },
+        {
+          "level": 3,
+          "trait_xp": 7000
+        },
+        {
+          "level": 4,
+          "trait_xp": 10000
+        },
+        {
+          "level": 5,
+          "trait_xp": 15000
+        },
+        {
+          "level": 6,
+          "trait_xp": 23000
+        },
+        {
+          "level": 7,
+          "trait_xp": 42000
+        },
+        {
+          "level": 8,
+          "trait_xp": 68000
+        },
+        {
+          "level": 9,
+          "trait_xp": 107000
+        }
+      ],
+      "tier": 3
+    }
+  ],
+  "ranks": [
+    {
+      "rank_id": 1,
+      "name": "ENSIGN I",
+      "officer_ability_value": 0.6,
+      "requirements": {
+        "badges": 0,
+        "credits": 0,
+        "others": [],
+        "shards": 100,
+        "xp": 0
+      },
+      "below_deck_ability_value": 0.1
+    },
+    {
+      "rank_id": 2,
+      "name": "LIEUTENANT JG II",
+      "officer_ability_value": 0.8,
+      "requirements": {
+        "badges": 0,
+        "credits": 1100,
+        "others": [
+          {
+            "name": "pioneer's crest",
+            "value": 10000
+          }
+        ],
+        "shards": 100,
+        "xp": 0
+      },
+      "below_deck_ability_value": 0.15
+    },
+    {
+      "rank_id": 3,
+      "name": "LIEUTENANT III",
+      "officer_ability_value": 1.2,
+      "requirements": {
+        "badges": 1,
+        "credits": 4500,
+        "others": [
+          {
+            "name": "pioneer's crest",
+            "value": 25000
+          }
+        ],
+        "shards": 200,
+        "xp": 0
+      },
+      "below_deck_ability_value": 0.2
+    },
+    {
+      "rank_id": 4,
+      "name": "LT. COMMANDER IV",
+      "officer_ability_value": 1.8,
+      "requirements": {
+        "badges": 2,
+        "credits": 11500,
+        "others": [
+          {
+            "name": "pioneer's crest",
+            "value": 50000
+          }
+        ],
+        "shards": 300,
+        "xp": 0
+      },
+      "below_deck_ability_value": 0.3
+    },
+    {
+      "rank_id": 5,
+      "name": "COMMANDER V",
+      "officer_ability_value": 3.0,
+      "requirements": {
+        "badges": 4,
+        "credits": 25000,
+        "others": [
+          {
+            "name": "pioneer's crest",
+            "value": 120000
+          }
+        ],
+        "shards": 800,
+        "xp": 0
+      },
+      "below_deck_ability_value": 0.5
+    }
+  ],
+  "img_url": "./assets/vil_gul_dukat.png"
+}

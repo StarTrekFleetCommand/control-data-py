@@ -1,0 +1,276 @@
+{
+  "research_name": "Revised Colloquium",
+  "description": "Increases the base Cost Efficiency of Starfleet Honors when upgrading the Nova Squadron building.",
+  "location": {
+    "column": 69,
+    "row": 1,
+    "tree": "starships"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 240,
+      "increased_power": 56520,
+      "requirements": [
+        {
+          "name": "Modular Exhibitions",
+          "level": 1
+        },
+        {
+          "name": "R&D Department",
+          "level": 42
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "ionized nexus particle",
+            "value": 100
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.02
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 1281600,
+      "increased_power": 9300,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 44
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "nexus particle",
+            "value": 17000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.04
+      }
+    },
+    {
+      "level": 3,
+      "research_time": 2113200,
+      "increased_power": 10380,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 46
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "nexus particle",
+            "value": 18700
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.06
+      }
+    },
+    {
+      "level": 4,
+      "research_time": 3362400,
+      "increased_power": 11460,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 48
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "nexus particle",
+            "value": 20400
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.08
+      }
+    },
+    {
+      "level": 5,
+      "research_time": 5191200,
+      "increased_power": 12660,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 50
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "nexus particle",
+            "value": 23800
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.12
+      }
+    },
+    {
+      "level": 6,
+      "research_time": 5835600,
+      "increased_power": 13860,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 52
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "nexus particle",
+            "value": 27200
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.16
+      }
+    },
+    {
+      "level": 7,
+      "research_time": 6555600,
+      "increased_power": 15180,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 54
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "nexus particle",
+            "value": 30600
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.2
+      }
+    },
+    {
+      "level": 8,
+      "research_time": 7365600,
+      "increased_power": 16560,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 56
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "nexus particle",
+            "value": 32300
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.26
+      }
+    },
+    {
+      "level": 9,
+      "research_time": 8276400,
+      "increased_power": 18000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 58
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "nexus particle",
+            "value": 34000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.32
+      }
+    },
+    {
+      "level": 10,
+      "research_time": 240,
+      "increased_power": 19560,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 60
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "ionized nexus particle",
+            "value": 700
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.4
+      }
+    }
+  ],
+  "img_url": "./assets/revised_colloquium_starships_1_69.png"
+}

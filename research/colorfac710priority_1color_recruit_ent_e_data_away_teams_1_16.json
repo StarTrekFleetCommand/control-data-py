@@ -1,0 +1,82 @@
+{
+  "research_name": "<color=#fac710>Priority 1:</color> Recruit Ent-E Data",
+  "description": "Unlock shards for Officer Ent-E Data.",
+  "location": {
+    "column": 16,
+    "row": 1,
+    "tree": "away teams"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 23242500,
+      "increased_power": 108000,
+      "requirements": [
+        {
+          "name": "<color=#fac710>Priority 1:</color> ENTERPRISE-E Crew Allocation",
+          "level": 1
+        },
+        {
+          "name": "Shuttle Bay",
+          "level": 40
+        },
+        {
+          "name": "Operations",
+          "level": 40
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "pioneer's crest",
+            "value": 8000
+          }
+        ]
+      },
+      "rewards": [],
+      "bonus": {
+        "percentage": false,
+        "value": 14.0
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 29883180,
+      "increased_power": 0,
+      "requirements": [
+        {
+          "name": "<color=#fac710>Priority 1:</color> ENTERPRISE-E Crew Allocation",
+          "level": 5
+        },
+        {
+          "name": "Shuttle Bay",
+          "level": 40
+        },
+        {
+          "name": "Operations",
+          "level": 40
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "pioneer's crest",
+            "value": 12000
+          }
+        ]
+      },
+      "rewards": [],
+      "bonus": {
+        "percentage": false,
+        "value": 24.0
+      }
+    }
+  ],
+  "img_url": "./assets/colorfac710priority_1color_recruit_ent_e_data_away_teams_1_16.png"
+}

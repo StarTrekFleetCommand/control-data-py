@@ -1,0 +1,203 @@
+{
+  "officer_name": "VIL Winn Adami",
+  "description": "Winn Adami of the alternate dimension, just like her Prime Universe counterpart, has been many things: a prisoner of war, a preacher of the Bajoran religion, a ranjen, a vedek, and a kai, even the first minister of Bajor. Ever-ambitious and masterfully manipulative, Winn made her way up the Bajoran society, fueled by unbending loyalty to her people and burning ambition.  However, her only true goal - joining the Prophets as an Emissary - was snatched away by an alien, a human named Benjamin Sisko.\n\nBeing a Bajoran spiritual leader meant conversing with the gods, listening to them, and following their every word, but what if the Prophets never reply to your prayers? After decades of failures and doubts, years of serving the ungrateful and deaf gods, Winn Adami started to doubt her beliefs, and Pah-wraiths, evil deities and enemies of the Bajoran Prophets, took advantage of her. They deceived her with false visions and sent a disguised Gul Dukat to gain access to the Book of the Kosst Amojan - an ancient tome capable of releasing them from the Fire Caves of Bajor, where they have been trapped for millennia. Blinded by potential power and the chance to become an Emissary, she rejected the Prophets and dedicated herself to becoming a vessel for the Pah-wraiths, even if it meant colluding with the person she had hated the most - Dukat.\n\nDeep within the Fire Caves, Winn Adami attempted to murder her partner in the hope that this sacrifice would grant her the long-sought title of the Pah-wraith Emissary, but, instead, she was once again rejected by the gods in favor of what she regarded to be an alien being. In the Prime Universe, Winn decides to sacrifice herself in the name of the Prophets and the greater good to protect the Alpha Quadrant, but this Winn Adami never makes this choice. She allowed Dukat to win, and had to live with the consequences as the fiery rage of Pah-wraiths was unleashed, and millions of people she had once sworn to protect perished.",
+  "class": "command",
+  "group": "villains",
+  "faction": "neutral",
+  "rarity": "epic",
+  "ability_info": {
+    "captain_maneuver": {
+      "name": "Chain of Command",
+      "bonus": "This Officer does not have a Captain's Maneuver. Equipping this Officer as the captain of a ship provides no benefit.",
+      "percentage": true,
+      "value": 0.0
+    },
+    "officer_ability": {
+      "name": "A Patient Woman",
+      "bonus": "",
+      "percentage": true
+    },
+    "below_decks_ability": {
+      "name": "Pagh-Strong",
+      "bonus": "Below-Deck Abilities are only activated when assigned to a below-decks slot on a ship.",
+      "percentage": true
+    }
+  },
+  "synergy": {
+    "command": 0.0,
+    "engineering": 0.0,
+    "science": 0.0
+  },
+  "traits": [
+    {
+      "name": "Intelligent",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 1500
+        },
+        {
+          "level": 2,
+          "trait_xp": 2700
+        },
+        {
+          "level": 3,
+          "trait_xp": 3800
+        }
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Diplomat",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 7650
+        },
+        {
+          "level": 2,
+          "trait_xp": 6000
+        },
+        {
+          "level": 3,
+          "trait_xp": 7000
+        },
+        {
+          "level": 4,
+          "trait_xp": 8850
+        }
+      ],
+      "tier": 2
+    },
+    {
+      "name": "Dedicated",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 10000
+        },
+        {
+          "level": 2,
+          "trait_xp": 4000
+        },
+        {
+          "level": 3,
+          "trait_xp": 7000
+        },
+        {
+          "level": 4,
+          "trait_xp": 10000
+        },
+        {
+          "level": 5,
+          "trait_xp": 15000
+        },
+        {
+          "level": 6,
+          "trait_xp": 23000
+        },
+        {
+          "level": 7,
+          "trait_xp": 42000
+        },
+        {
+          "level": 8,
+          "trait_xp": 68000
+        },
+        {
+          "level": 9,
+          "trait_xp": 107000
+        }
+      ],
+      "tier": 3
+    }
+  ],
+  "ranks": [
+    {
+      "rank_id": 1,
+      "name": "ENSIGN I",
+      "officer_ability_value": 0.6,
+      "requirements": {
+        "badges": 0,
+        "credits": 0,
+        "others": [],
+        "shards": 100,
+        "xp": 0
+      },
+      "below_deck_ability_value": 1.0
+    },
+    {
+      "rank_id": 2,
+      "name": "LIEUTENANT JG II",
+      "officer_ability_value": 0.7,
+      "requirements": {
+        "badges": 0,
+        "credits": 1100,
+        "others": [
+          {
+            "name": "pioneer's crest",
+            "value": 10000
+          }
+        ],
+        "shards": 100,
+        "xp": 0
+      },
+      "below_deck_ability_value": 1.5
+    },
+    {
+      "rank_id": 3,
+      "name": "LIEUTENANT III",
+      "officer_ability_value": 0.8,
+      "requirements": {
+        "badges": 1,
+        "credits": 4500,
+        "others": [
+          {
+            "name": "pioneer's crest",
+            "value": 25000
+          }
+        ],
+        "shards": 200,
+        "xp": 0
+      },
+      "below_deck_ability_value": 2.0
+    },
+    {
+      "rank_id": 4,
+      "name": "LT. COMMANDER IV",
+      "officer_ability_value": 0.9,
+      "requirements": {
+        "badges": 2,
+        "credits": 11500,
+        "others": [
+          {
+            "name": "pioneer's crest",
+            "value": 50000
+          }
+        ],
+        "shards": 300,
+        "xp": 0
+      },
+      "below_deck_ability_value": 2.5
+    },
+    {
+      "rank_id": 5,
+      "name": "COMMANDER V",
+      "officer_ability_value": 1.0,
+      "requirements": {
+        "badges": 4,
+        "credits": 25000,
+        "others": [
+          {
+            "name": "pioneer's crest",
+            "value": 120000
+          }
+        ],
+        "shards": 800,
+        "xp": 0
+      },
+      "below_deck_ability_value": 3.5
+    }
+  ],
+  "img_url": "./assets/vil_winn_adami.png"
+}

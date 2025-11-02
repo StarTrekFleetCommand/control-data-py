@@ -1,0 +1,6510 @@
+{
+  "ship_name": "U.S.S. DAUNTLESS",
+  "description": "The U.S.S. Dauntless is one of a few Starfleet vessels that can boast an unusual origin. Unlike many other ships carefully designed by Federation professionals, the Dauntless was reverse-engineered from a facsimile of a prototype created by Arcturis - a Delta Quadrant inhabitant who wished to trap and punish the crew of the Voyager for allegedly dooming his people. Luckily, Starfleet officers were cautious enough to avoid danger and curious enough to explore the new ship. Their research proved fruitful - Arcturis had upgraded the Dauntless facsimile with an early prototype quantum slipstream drive, which was added to Starfleet\u2019s revised iteration, the U.S.S. Dauntless, making it one of the fastest vessels in Starfleet.\n\nIn addition to the quantum slipstream drive, the U.S.S. Dauntless is equipped with an automated system that allows it to target and destroy hostiles within its vicinity. This system turns the Dauntless into a self-sufficient unit capable of exploring the far depths of the Universe and providing military support in dire situations.",
+  "ship_class": "interceptor",
+  "grade": 4,
+  "faction": "neutral",
+  "rarity": "epic",
+  "blueprints": {
+    "cost": 0,
+    "quantity": 200
+  },
+  "ship_ability": {
+    "title": "Active Sweep",
+    "description": "Increases base Damage against non-Armada hostiles by {value} while Seek and Destroy is active.\nActive Apex Barrier\nIncreases Apex Barrier against non-Armada hostiles by 40,000 while Seek and Destroy is active.",
+    "percentage": true
+  },
+  "scrap_info": {
+    "scrappable": false
+  },
+  "requirements": [
+    {
+      "name": "Shipyard",
+      "level": 45
+    }
+  ],
+  "tiers": [
+    {
+      "tier": 1,
+      "build_time": 6696000,
+      "repair_time": 209220,
+      "components": [
+        {
+          "name": "Photon Torpedoes",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": []
+          },
+          "repair_cost": [],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 343,
+              "armor_pierce": 3663,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 2993,
+              "min_damage": 2449,
+              "shield_pierce": 351,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Ablative Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": []
+          },
+          "repair_cost": [],
+          "additional_info": {
+            "armor_info": {
+              "armor": 1420,
+              "hull_health": 149815
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Phaser Bank",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": []
+          },
+          "repair_cost": [],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 206,
+              "armor_pierce": 2206,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 662,
+              "min_damage": 549,
+              "shield_pierce": 211,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Expanded Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": []
+          },
+          "repair_cost": [],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 500000,
+              "increased_protected_cargo": 30000,
+              "ship_increased_cargo": 0,
+              "ship_increased_protected_cargo": 0
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Quantum Slipstream Drive",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": []
+          },
+          "repair_cost": [],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 150,
+              "warp_speed": 5
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Deflector Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": []
+          },
+          "repair_cost": [],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 1390,
+              "shield_health": 113990
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engines",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": []
+          },
+          "repair_cost": [],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 24664,
+              "impulse_speed": 110
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 1450.0,
+          "additional_officer_slot": false,
+          "level": 1,
+          "ship_xp": 0
+        },
+        {
+          "ability_bonus": 1600.0,
+          "additional_officer_slot": false,
+          "level": 2,
+          "ship_xp": 8000
+        },
+        {
+          "ability_bonus": 1750.0,
+          "additional_officer_slot": false,
+          "level": 3,
+          "ship_xp": 12000
+        },
+        {
+          "ability_bonus": 1850.0,
+          "additional_officer_slot": false,
+          "level": 4,
+          "ship_xp": 20000
+        },
+        {
+          "ability_bonus": 2000.0,
+          "additional_officer_slot": false,
+          "level": 5,
+          "ship_xp": 29000
+        }
+      ],
+      "initial_build_cost": {
+        "resources": [
+          {
+            "type": "tritanium",
+            "value": 258010000000
+          },
+          {
+            "type": "dilithium",
+            "value": 52000000
+          }
+        ],
+        "materials": [
+          {
+            "type": "gas",
+            "value": 100550,
+            "grade": 4,
+            "rarity": "common"
+          },
+          {
+            "type": "crystal",
+            "value": 178750,
+            "grade": 4,
+            "rarity": "common"
+          }
+        ],
+        "others": []
+      }
+    },
+    {
+      "tier": 2,
+      "build_time": 720000,
+      "repair_time": 257220,
+      "components": [
+        {
+          "name": "Photon Torpedoes",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 559048000000
+              },
+              {
+                "type": "dilithium",
+                "value": 142683000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 164600,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 142900,
+                "grade": 4,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 430
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 932617000
+            },
+            {
+              "type": "dilithium",
+              "value": 238050
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 501,
+              "armor_pierce": 5343,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 4166,
+              "min_damage": 3425,
+              "shield_pierce": 512,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Ablative Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 559048000000
+              },
+              {
+                "type": "dilithium",
+                "value": 142683000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 164600,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 665000,
+                "grade": 4,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 430
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 932617000
+            },
+            {
+              "type": "dilithium",
+              "value": 238050
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 1827,
+              "hull_health": 183154
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Phaser Bank",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 645055350000
+              },
+              {
+                "type": "dilithium",
+                "value": 164634000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 189900,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 164850,
+                "grade": 4,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 495
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 1076095000
+            },
+            {
+              "type": "dilithium",
+              "value": 274650
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 342,
+              "armor_pierce": 3648,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 959,
+              "min_damage": 798,
+              "shield_pierce": 350,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Expanded Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 215018450000
+              },
+              {
+                "type": "dilithium",
+                "value": 54878000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 63300,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 255750,
+                "grade": 4,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 165
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 358699000
+            },
+            {
+              "type": "dilithium",
+              "value": 91550
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 100000,
+              "increased_protected_cargo": 5000,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 200
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Quantum Slipstream Drive",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 215018450000
+              },
+              {
+                "type": "dilithium",
+                "value": 54878000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 63300,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 255750,
+                "grade": 4,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 165
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 358699000
+            },
+            {
+              "type": "dilithium",
+              "value": 91550
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 160,
+              "warp_speed": 5.5
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Deflector Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 559048000000
+              },
+              {
+                "type": "dilithium",
+                "value": 142683000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 164600,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 665000,
+                "grade": 4,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 430
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 932618000
+            },
+            {
+              "type": "dilithium",
+              "value": 237950
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 1788,
+              "shield_health": 138280
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engines",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 344029550000
+              },
+              {
+                "type": "dilithium",
+                "value": 87805000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 101300,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 409250,
+                "grade": 4,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 265
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 573918000
+            },
+            {
+              "type": "dilithium",
+              "value": 146500
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 31726,
+              "impulse_speed": 110
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 2135.0,
+          "additional_officer_slot": false,
+          "level": 6,
+          "ship_xp": 41000
+        },
+        {
+          "ability_bonus": 2265.0,
+          "additional_officer_slot": false,
+          "level": 7,
+          "ship_xp": 59000
+        },
+        {
+          "ability_bonus": 2400.0,
+          "additional_officer_slot": false,
+          "level": 8,
+          "ship_xp": 78000
+        },
+        {
+          "ability_bonus": 2535.0,
+          "additional_officer_slot": false,
+          "level": 9,
+          "ship_xp": 100000
+        },
+        {
+          "ability_bonus": 2665.0,
+          "additional_officer_slot": false,
+          "level": 10,
+          "ship_xp": 130000
+        }
+      ]
+    },
+    {
+      "tier": 3,
+      "build_time": 1440000,
+      "repair_time": 335220,
+      "components": [
+        {
+          "name": "Photon Torpedoes",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 1534073700000
+              },
+              {
+                "type": "dilithium",
+                "value": 426830000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 157050,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 84780,
+                "grade": 4,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 715
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 3097970000
+            },
+            {
+              "type": "dilithium",
+              "value": 861950
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 911,
+              "armor_pierce": 9699,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 7444,
+              "min_damage": 6170,
+              "shield_pierce": 931,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Ablative Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 1534073700000
+              },
+              {
+                "type": "dilithium",
+                "value": 426830000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 740200,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 459800,
+                "grade": 4,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 715
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 3097970000
+            },
+            {
+              "type": "dilithium",
+              "value": 861950
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 2182,
+              "hull_health": 235286
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Phaser Bank",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 1770085000000
+              },
+              {
+                "type": "dilithium",
+                "value": 492496000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 181200,
+                "grade": 4,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 97830,
+                "grade": 4,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 825
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 3574585000
+            },
+            {
+              "type": "dilithium",
+              "value": 994550
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 689,
+              "armor_pierce": 7347,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 1993,
+              "min_damage": 1659,
+              "shield_pierce": 704,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Expanded Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 590028350000
+              },
+              {
+                "type": "dilithium",
+                "value": 164165000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 284700,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 2227000,
+                "grade": 4,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 275
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 1191530000
+            },
+            {
+              "type": "dilithium",
+              "value": 331500
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 100000,
+              "increased_protected_cargo": 5000,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 200
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Quantum Slipstream Drive",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 590028350000
+              },
+              {
+                "type": "dilithium",
+                "value": 164165000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 284700,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 2227000,
+                "grade": 4,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 275
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 1191530000
+            },
+            {
+              "type": "dilithium",
+              "value": 331500
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 165,
+              "warp_speed": 6
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Deflector Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 1534073700000
+              },
+              {
+                "type": "dilithium",
+                "value": 426830000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 740200,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 459800,
+                "grade": 4,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 715
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 3097965000
+            },
+            {
+              "type": "dilithium",
+              "value": 862000
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 2136,
+              "shield_health": 181294
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engines",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 944045300000
+              },
+              {
+                "type": "dilithium",
+                "value": 262665000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 455500,
+                "grade": 4,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 282950,
+                "grade": 4,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 440
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 1906445000
+            },
+            {
+              "type": "dilithium",
+              "value": 530450
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 37889,
+              "impulse_speed": 110
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 2800.0,
+          "additional_officer_slot": false,
+          "level": 11,
+          "ship_xp": 158000
+        },
+        {
+          "ability_bonus": 2935.0,
+          "additional_officer_slot": false,
+          "level": 12,
+          "ship_xp": 190000
+        },
+        {
+          "ability_bonus": 3065.0,
+          "additional_officer_slot": false,
+          "level": 13,
+          "ship_xp": 235000
+        },
+        {
+          "ability_bonus": 3200.0,
+          "additional_officer_slot": false,
+          "level": 14,
+          "ship_xp": 275000
+        },
+        {
+          "ability_bonus": 3335.0,
+          "additional_officer_slot": false,
+          "level": 15,
+          "ship_xp": 318000
+        }
+      ]
+    },
+    {
+      "tier": 4,
+      "build_time": 2400000,
+      "repair_time": 396660,
+      "components": [
+        {
+          "name": "Photon Torpedoes",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 3720180000000
+              },
+              {
+                "type": "dilithium",
+                "value": 1308840000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 183850,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 326850,
+                "grade": 5,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 860
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 10066290000
+            },
+            {
+              "type": "dilithium",
+              "value": 3541500
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 1075,
+              "armor_pierce": 11457,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 8791,
+              "min_damage": 7267,
+              "shield_pierce": 1099,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Ablative Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 3720180000000
+              },
+              {
+                "type": "dilithium",
+                "value": 1308840000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 183850,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 326850,
+                "grade": 5,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 860
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 10066290000
+            },
+            {
+              "type": "dilithium",
+              "value": 3541500
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 2448,
+              "hull_health": 259885
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Phaser Bank",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 4292515300000
+              },
+              {
+                "type": "dilithium",
+                "value": 1510200000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 212150,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 377150,
+                "grade": 5,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 990
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 11614940000
+            },
+            {
+              "type": "dilithium",
+              "value": 4086400
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 772,
+              "armor_pierce": 8223,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 2234,
+              "min_damage": 1858,
+              "shield_pierce": 789,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Expanded Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 1430838400000
+              },
+              {
+                "type": "dilithium",
+                "value": 503401000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 70710,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 125700,
+                "grade": 5,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 330
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 3871650000
+            },
+            {
+              "type": "dilithium",
+              "value": 1362100
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 150000,
+              "increased_protected_cargo": 10000,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 200
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Quantum Slipstream Drive",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 1430838400000
+              },
+              {
+                "type": "dilithium",
+                "value": 503401000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 70710,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 125700,
+                "grade": 5,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 330
+              },
+              {
+                "type": "quantum drive core tier 4",
+                "value": 1
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 3871650000
+            },
+            {
+              "type": "dilithium",
+              "value": 1362100
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 170,
+              "warp_speed": 6.5
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Deflector Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 3720180000000
+              },
+              {
+                "type": "dilithium",
+                "value": 1308840000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 183850,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 326850,
+                "grade": 5,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 860
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 10066285000
+            },
+            {
+              "type": "dilithium",
+              "value": 3541600
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 2396,
+              "shield_health": 201416
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engines",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 2289341500000
+              },
+              {
+                "type": "dilithium",
+                "value": 805441000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 113150,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 201150,
+                "grade": 5,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 530
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 6194635000
+            },
+            {
+              "type": "dilithium",
+              "value": 2179400
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 42508,
+              "impulse_speed": 110
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 3465.0,
+          "additional_officer_slot": false,
+          "level": 16,
+          "ship_xp": 378000
+        },
+        {
+          "ability_bonus": 3600.0,
+          "additional_officer_slot": false,
+          "level": 17,
+          "ship_xp": 430000
+        },
+        {
+          "ability_bonus": 3735.0,
+          "additional_officer_slot": false,
+          "level": 18,
+          "ship_xp": 483000
+        },
+        {
+          "ability_bonus": 3865.0,
+          "additional_officer_slot": false,
+          "level": 19,
+          "ship_xp": 565000
+        },
+        {
+          "ability_bonus": 4000.0,
+          "additional_officer_slot": false,
+          "level": 20,
+          "ship_xp": 628000
+        }
+      ]
+    },
+    {
+      "tier": 5,
+      "build_time": 3600000,
+      "repair_time": 426540,
+      "components": [
+        {
+          "name": "Photon Torpedoes",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 7999186400000
+              },
+              {
+                "type": "dilithium",
+                "value": 2540905000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 256700,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 250750,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 1155
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 22064740000
+            },
+            {
+              "type": "dilithium",
+              "value": 7008800
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 1426,
+              "armor_pierce": 15180,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 11931,
+              "min_damage": 9918,
+              "shield_pierce": 1457,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Ablative Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 7999186400000
+              },
+              {
+                "type": "dilithium",
+                "value": 2540905000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 256700,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 1037200,
+                "grade": 5,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 1155
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 22064740000
+            },
+            {
+              "type": "dilithium",
+              "value": 7008800
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 3064,
+              "hull_health": 374638
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Phaser Bank",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 9229830500000
+              },
+              {
+                "type": "dilithium",
+                "value": 2931815000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 296200,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 289350,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 1330
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 25459320000
+            },
+            {
+              "type": "dilithium",
+              "value": 8087000
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 1145,
+              "armor_pierce": 12201,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 3215,
+              "min_damage": 2684,
+              "shield_pierce": 1170,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Expanded Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 3076610200000
+              },
+              {
+                "type": "dilithium",
+                "value": 977272000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 98730,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 398950,
+                "grade": 5,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 445
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 8486440000
+            },
+            {
+              "type": "dilithium",
+              "value": 2695700
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 150000,
+              "increased_protected_cargo": 10000,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 200
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Quantum Slipstream Drive",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 3076610200000
+              },
+              {
+                "type": "dilithium",
+                "value": 977272000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 98730,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 398950,
+                "grade": 5,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 445
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 8486440000
+            },
+            {
+              "type": "dilithium",
+              "value": 2695700
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 175,
+              "warp_speed": 7
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Deflector Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 7999186400000
+              },
+              {
+                "type": "dilithium",
+                "value": 2540905000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 256700,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 1037200,
+                "grade": 5,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 1155
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 22064710000
+            },
+            {
+              "type": "dilithium",
+              "value": 7008600
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 3000,
+              "shield_health": 305009
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engines",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 4922576300000
+              },
+              {
+                "type": "dilithium",
+                "value": 1563635000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 157950,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 638300,
+                "grade": 5,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 710
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 13578300000
+            },
+            {
+              "type": "dilithium",
+              "value": 4313100
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 53208,
+              "impulse_speed": 110
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 4135.0,
+          "additional_officer_slot": false,
+          "level": 21,
+          "ship_xp": 695000
+        },
+        {
+          "ability_bonus": 4265.0,
+          "additional_officer_slot": false,
+          "level": 22,
+          "ship_xp": 798000
+        },
+        {
+          "ability_bonus": 4400.0,
+          "additional_officer_slot": false,
+          "level": 23,
+          "ship_xp": 875000
+        },
+        {
+          "ability_bonus": 4535.0,
+          "additional_officer_slot": false,
+          "level": 24,
+          "ship_xp": 955000
+        },
+        {
+          "ability_bonus": 4665.0,
+          "additional_officer_slot": false,
+          "level": 25,
+          "ship_xp": 1083000
+        }
+      ]
+    },
+    {
+      "tier": 6,
+      "build_time": 4800000,
+      "repair_time": 497220,
+      "components": [
+        {
+          "name": "Photon Torpedoes",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 13599994500000
+              },
+              {
+                "type": "dilithium",
+                "value": 4557100000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 165050,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 164300,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 1400
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 40086280000
+            },
+            {
+              "type": "dilithium",
+              "value": 13432000
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 1689,
+              "armor_pierce": 17970,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 14252,
+              "min_damage": 11855,
+              "shield_pierce": 1725,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Ablative Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 13599994500000
+              },
+              {
+                "type": "dilithium",
+                "value": 4557100000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 685550,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 164300,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 1400
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 40086280000
+            },
+            {
+              "type": "dilithium",
+              "value": 13432000
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 2740,
+              "hull_health": 333609
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Phaser Bank",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 15692301500000
+              },
+              {
+                "type": "dilithium",
+                "value": 5258190000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 190400,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 189600,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 1615
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 46253400000
+            },
+            {
+              "type": "dilithium",
+              "value": 15498500
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 1362,
+              "armor_pierce": 14495,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 3871,
+              "min_damage": 3232,
+              "shield_pierce": 1391,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Expanded Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 5230767100000
+              },
+              {
+                "type": "dilithium",
+                "value": 1752730000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 263700,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 63190,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 540
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 15417800000
+            },
+            {
+              "type": "dilithium",
+              "value": 5166200
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 150000,
+              "increased_protected_cargo": 10000,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 200
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Quantum Slipstream Drive",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 5230767100000
+              },
+              {
+                "type": "dilithium",
+                "value": 1752730000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 263700,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 63190,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 540
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 15417800000
+            },
+            {
+              "type": "dilithium",
+              "value": 5166200
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 185,
+              "warp_speed": 7.25
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Deflector Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 13599994500000
+              },
+              {
+                "type": "dilithium",
+                "value": 4557100000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 685550,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 164300,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 1400
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 40086280000
+            },
+            {
+              "type": "dilithium",
+              "value": 13432700
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 2683,
+              "shield_health": 279433
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engines",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 8369227400000
+              },
+              {
+                "type": "dilithium",
+                "value": 2804370000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 421900,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 101100,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 860
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 24668480000
+            },
+            {
+              "type": "dilithium",
+              "value": 8265900
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 47583,
+              "impulse_speed": 110
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 4800.0,
+          "additional_officer_slot": false,
+          "level": 26,
+          "ship_xp": 1175000
+        },
+        {
+          "ability_bonus": 4935.0,
+          "additional_officer_slot": false,
+          "level": 27,
+          "ship_xp": 1270000
+        },
+        {
+          "ability_bonus": 5065.0,
+          "additional_officer_slot": false,
+          "level": 28,
+          "ship_xp": 1423000
+        },
+        {
+          "ability_bonus": 5200.0,
+          "additional_officer_slot": false,
+          "level": 29,
+          "ship_xp": 1530000
+        },
+        {
+          "ability_bonus": 5335.0,
+          "additional_officer_slot": false,
+          "level": 30,
+          "ship_xp": 1640000
+        }
+      ]
+    },
+    {
+      "tier": 7,
+      "build_time": 6000000,
+      "repair_time": 524880,
+      "components": [
+        {
+          "name": "Photon Torpedoes",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 20875250500000
+              },
+              {
+                "type": "dilithium",
+                "value": 7309305000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 131400,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 107150,
+                "grade": 5,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 1865
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 57493030000
+            },
+            {
+              "type": "dilithium",
+              "value": 20130500
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 1997,
+              "armor_pierce": 21252,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 17106,
+              "min_damage": 14304,
+              "shield_pierce": 2039,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Ablative Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 20875250500000
+              },
+              {
+                "type": "dilithium",
+                "value": 7309305000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 131400,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 530850,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 1865
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 57493030000
+            },
+            {
+              "type": "dilithium",
+              "value": 20130500
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 3093,
+              "hull_health": 439781
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Phaser Bank",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 24086827500000
+              },
+              {
+                "type": "dilithium",
+                "value": 8433815000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 151600,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 123650,
+                "grade": 5,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 2150
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 66338110000
+            },
+            {
+              "type": "dilithium",
+              "value": 23228000
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 1638,
+              "armor_pierce": 17437,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 5089,
+              "min_damage": 4301,
+              "shield_pierce": 1674,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Expanded Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 8028942500000
+              },
+              {
+                "type": "dilithium",
+                "value": 2811270000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 50530,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 204150,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 715
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 22112700000
+            },
+            {
+              "type": "dilithium",
+              "value": 7742600
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 150000,
+              "increased_protected_cargo": 15000,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 200
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Quantum Slipstream Drive",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 8028942500000
+              },
+              {
+                "type": "dilithium",
+                "value": 2811270000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 50530,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 204150,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 715
+              },
+              {
+                "type": "quantum drive core tier 7",
+                "value": 1
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 22112700000
+            },
+            {
+              "type": "dilithium",
+              "value": 7742600
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 195,
+              "warp_speed": 7.5
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Deflector Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 20875250500000
+              },
+              {
+                "type": "dilithium",
+                "value": 7309305000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 131400,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 530850,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 1865
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 57493010000
+            },
+            {
+              "type": "dilithium",
+              "value": 20131300
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 3028,
+              "shield_health": 369463
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engines",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 12846308000000
+              },
+              {
+                "type": "dilithium",
+                "value": 4498035000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 80850,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 326650,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 1150
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 35380330000
+            },
+            {
+              "type": "dilithium",
+              "value": 12388000
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 53704,
+              "impulse_speed": 110
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 5465.0,
+          "additional_officer_slot": false,
+          "level": 31,
+          "ship_xp": 1825000
+        },
+        {
+          "ability_bonus": 5600.0,
+          "additional_officer_slot": false,
+          "level": 32,
+          "ship_xp": 1948000
+        },
+        {
+          "ability_bonus": 5735.0,
+          "additional_officer_slot": false,
+          "level": 33,
+          "ship_xp": 2075000
+        },
+        {
+          "ability_bonus": 5865.0,
+          "additional_officer_slot": false,
+          "level": 34,
+          "ship_xp": 2293000
+        },
+        {
+          "ability_bonus": 6000.0,
+          "additional_officer_slot": false,
+          "level": 35,
+          "ship_xp": 2433000
+        }
+      ]
+    },
+    {
+      "tier": 8,
+      "build_time": 7800000,
+      "repair_time": 576540,
+      "components": [
+        {
+          "name": "Photon Torpedoes",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 34318385000000
+              },
+              {
+                "type": "dilithium",
+                "value": 12856450000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 76010,
+                "grade": 5,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 75670,
+                "grade": 5,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 2400
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 93939500000
+            },
+            {
+              "type": "dilithium",
+              "value": 35192000
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 2592,
+              "armor_pierce": 27586,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 21986,
+              "min_damage": 18408,
+              "shield_pierce": 2648,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Ablative Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 34318385000000
+              },
+              {
+                "type": "dilithium",
+                "value": 12856450000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 375650,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 75670,
+                "grade": 5,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 2400
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 93939500000
+            },
+            {
+              "type": "dilithium",
+              "value": 35192000
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 3964,
+              "hull_health": 566497
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Phaser Bank",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 39598136500000
+              },
+              {
+                "type": "dilithium",
+                "value": 14834370000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 87700,
+                "grade": 5,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 87310,
+                "grade": 5,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 2770
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 108391750000
+            },
+            {
+              "type": "dilithium",
+              "value": 40606000
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 2157,
+              "armor_pierce": 22948,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 6635,
+              "min_damage": 5608,
+              "shield_pierce": 2202,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Expanded Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 13199379000000
+              },
+              {
+                "type": "dilithium",
+                "value": 4944790000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 144500,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 29100,
+                "grade": 5,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 925
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 36130580000
+            },
+            {
+              "type": "dilithium",
+              "value": 13535500
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 150000,
+              "increased_protected_cargo": 15000,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 200
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Quantum Slipstream Drive",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 13199379000000
+              },
+              {
+                "type": "dilithium",
+                "value": 4944790000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 144500,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 29100,
+                "grade": 5,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 925
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 36130580000
+            },
+            {
+              "type": "dilithium",
+              "value": 13535500
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 210,
+              "warp_speed": 7.75
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Deflector Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 34318385000000
+              },
+              {
+                "type": "dilithium",
+                "value": 12856450000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 375650,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 75670,
+                "grade": 5,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 2400
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 93939470000
+            },
+            {
+              "type": "dilithium",
+              "value": 35191500
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 3882,
+              "shield_health": 482908
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engines",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 21119006000000
+              },
+              {
+                "type": "dilithium",
+                "value": 7911660000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 231150,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 46570,
+                "grade": 5,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 1480
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 57808920000
+            },
+            {
+              "type": "dilithium",
+              "value": 21656500
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 68844,
+              "impulse_speed": 110
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 6135.0,
+          "additional_officer_slot": false,
+          "level": 36,
+          "ship_xp": 2578000
+        },
+        {
+          "ability_bonus": 6265.0,
+          "additional_officer_slot": false,
+          "level": 37,
+          "ship_xp": 2830000
+        },
+        {
+          "ability_bonus": 6400.0,
+          "additional_officer_slot": false,
+          "level": 38,
+          "ship_xp": 2990000
+        },
+        {
+          "ability_bonus": 6535.0,
+          "additional_officer_slot": false,
+          "level": 39,
+          "ship_xp": 3153000
+        },
+        {
+          "ability_bonus": 6665.0,
+          "additional_officer_slot": false,
+          "level": 40,
+          "ship_xp": 3445000
+        }
+      ]
+    },
+    {
+      "tier": 9,
+      "build_time": 9600000,
+      "repair_time": 636120,
+      "components": [
+        {
+          "name": "Photon Torpedoes",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 64366132500000
+              },
+              {
+                "type": "dilithium",
+                "value": 26140280000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 54330,
+                "grade": 5,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 96590,
+                "grade": 5,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 3020
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 154226850000
+            },
+            {
+              "type": "dilithium",
+              "value": 62634500
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 4052,
+              "armor_pierce": 43109,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 32521,
+              "min_damage": 27366,
+              "shield_pierce": 4138,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Ablative Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 64366132500000
+              },
+              {
+                "type": "dilithium",
+                "value": 26140280000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 54330,
+                "grade": 5,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 96590,
+                "grade": 5,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 3020
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 154226850000
+            },
+            {
+              "type": "dilithium",
+              "value": 62634500
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 4395,
+              "hull_health": 718822
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Phaser Bank",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 74268614500000
+              },
+              {
+                "type": "dilithium",
+                "value": 30161860000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 62690,
+                "grade": 5,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 111450,
+                "grade": 5,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 3485
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 177954050000
+            },
+            {
+              "type": "dilithium",
+              "value": 72270500
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 3328,
+              "armor_pierce": 35411,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 9566,
+              "min_damage": 8031,
+              "shield_pierce": 3399,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Expanded Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 24756205000000
+              },
+              {
+                "type": "dilithium",
+                "value": 10053950000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 20900,
+                "grade": 5,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 37150,
+                "grade": 5,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 1160
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 59318020000
+            },
+            {
+              "type": "dilithium",
+              "value": 24090000
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 150000,
+              "increased_protected_cargo": 15000,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 200
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Quantum Slipstream Drive",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 24756205000000
+              },
+              {
+                "type": "dilithium",
+                "value": 10053950000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 20900,
+                "grade": 5,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 37150,
+                "grade": 5,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 1160
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 59318020000
+            },
+            {
+              "type": "dilithium",
+              "value": 24090000
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 250,
+              "warp_speed": 8
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Deflector Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 64366132500000
+              },
+              {
+                "type": "dilithium",
+                "value": 26140280000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 54330,
+                "grade": 5,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 96590,
+                "grade": 5,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 3020
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 154226790000
+            },
+            {
+              "type": "dilithium",
+              "value": 62634500
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 4303,
+              "shield_health": 615194
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engines",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 39609928000000
+              },
+              {
+                "type": "dilithium",
+                "value": 16086320000
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 33430,
+                "grade": 5,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 59440,
+                "grade": 5,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 1860
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 94908820000
+            },
+            {
+              "type": "dilithium",
+              "value": 38544000
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 76312,
+              "impulse_speed": 110
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 6800.0,
+          "additional_officer_slot": false,
+          "level": 41,
+          "ship_xp": 3623000
+        },
+        {
+          "ability_bonus": 6935.0,
+          "additional_officer_slot": false,
+          "level": 42,
+          "ship_xp": 3805000
+        },
+        {
+          "ability_bonus": 7065.0,
+          "additional_officer_slot": false,
+          "level": 43,
+          "ship_xp": 4140000
+        },
+        {
+          "ability_bonus": 7200.0,
+          "additional_officer_slot": false,
+          "level": 44,
+          "ship_xp": 4340000
+        },
+        {
+          "ability_bonus": 7335.0,
+          "additional_officer_slot": false,
+          "level": 45,
+          "ship_xp": 4543000
+        }
+      ]
+    },
+    {
+      "tier": 10,
+      "build_time": 12000000,
+      "repair_time": 739200,
+      "components": [
+        {
+          "name": "Photon Torpedoes",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 3805000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 6930
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 214900,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 382000,
+                "grade": 6,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 3565
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 6950
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 12
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 6151,
+              "armor_pierce": 65446,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 50221,
+              "min_damage": 42160,
+              "shield_pierce": 6282,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Ablative Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 3805000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 6930
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 214900,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 382000,
+                "grade": 6,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 3565
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 6950
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 12
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 5479,
+              "hull_health": 894372
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Phaser Bank",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 4390400
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 7995
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 247950,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 440750,
+                "grade": 6,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 4115
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 8020
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 14
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 4820,
+              "armor_pierce": 51280,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 14181,
+              "min_damage": 11915,
+              "shield_pierce": 4922,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Expanded Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 1463500
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 2665
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 82650,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 146900,
+                "grade": 6,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 1370
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 2675
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 4
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 200000,
+              "increased_protected_cargo": 15000,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 200
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Quantum Slipstream Drive",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 1463500
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 2665
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 82650,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 146900,
+                "grade": 6,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 1370
+              },
+              {
+                "type": "quantum drive core tier 10",
+                "value": 1
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 2675
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 4
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 300,
+              "warp_speed": 8.25
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Deflector Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 3805000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 6930
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 214900,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 382000,
+                "grade": 6,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 3565
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 6960
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 18
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 5364,
+              "shield_health": 783164
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engines",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 2341600
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 4265
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 132250,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 235050,
+                "grade": 6,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 2195
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 4280
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 7
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 95125,
+              "impulse_speed": 110
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 7465.0,
+          "additional_officer_slot": false,
+          "level": 46,
+          "ship_xp": 4923000
+        },
+        {
+          "ability_bonus": 7600.0,
+          "additional_officer_slot": false,
+          "level": 47,
+          "ship_xp": 5143000
+        },
+        {
+          "ability_bonus": 7735.0,
+          "additional_officer_slot": false,
+          "level": 48,
+          "ship_xp": 5370000
+        },
+        {
+          "ability_bonus": 7865.0,
+          "additional_officer_slot": false,
+          "level": 49,
+          "ship_xp": 5798000
+        },
+        {
+          "ability_bonus": 8000.0,
+          "additional_officer_slot": false,
+          "level": 50,
+          "ship_xp": 6040000
+        }
+      ]
+    },
+    {
+      "tier": 11,
+      "build_time": 15600000,
+      "repair_time": 785220,
+      "components": [
+        {
+          "name": "Photon Torpedoes",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 5691600
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 11670
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 246450,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 216900,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 4260
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 9725
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 19
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 8227,
+              "armor_pierce": 87538,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 70210,
+              "min_damage": 56791,
+              "shield_pierce": 8403,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Ablative Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 5691600
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 11670
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 246450,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 995600,
+                "grade": 6,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 4260
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 9725
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 19
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 5733,
+              "hull_health": 1277112
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Phaser Bank",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 6567300
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 13460
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 284350,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 250250,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 4915
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 11220
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 23
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 6803,
+              "armor_pierce": 72380,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 19829,
+              "min_damage": 15959,
+              "shield_pierce": 6948,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Expanded Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 2189100
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 4485
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 94790,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 382950,
+                "grade": 6,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 1640
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 3740
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 7
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 200000,
+              "increased_protected_cargo": 20000,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 200
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Quantum Slipstream Drive",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 2189100
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 4485
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 94790,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 382950,
+                "grade": 6,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 1640
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 3740
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 7
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 400,
+              "warp_speed": 8.5
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Deflector Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 5691600
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 11670
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 246450,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 995600,
+                "grade": 6,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 4260
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 9730
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 24
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 5613,
+              "shield_health": 1154509
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engines",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 3502500
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 7180
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 151650,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 612700,
+                "grade": 6,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 2620
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 5985
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 12
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 99536,
+              "impulse_speed": 110
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 8135.0,
+          "additional_officer_slot": false,
+          "level": 51,
+          "ship_xp": 6290000
+        },
+        {
+          "ability_bonus": 8265.0,
+          "additional_officer_slot": false,
+          "level": 52,
+          "ship_xp": 6770000
+        },
+        {
+          "ability_bonus": 8400.0,
+          "additional_officer_slot": false,
+          "level": 53,
+          "ship_xp": 7038000
+        },
+        {
+          "ability_bonus": 8535.0,
+          "additional_officer_slot": false,
+          "level": 54,
+          "ship_xp": 7310000
+        },
+        {
+          "ability_bonus": 8665.0,
+          "additional_officer_slot": false,
+          "level": 55,
+          "ship_xp": 7848000
+        }
+      ]
+    },
+    {
+      "tier": 12,
+      "build_time": 21600000,
+      "repair_time": 841980,
+      "components": [
+        {
+          "name": "Photon Torpedoes",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 9829700
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 19230
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 140700,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 140100,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 4960
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 16540
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 32
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 13367,
+              "armor_pierce": 142213,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 111785,
+              "min_damage": 90893,
+              "shield_pierce": 13651,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Ablative Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 9829700
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 19230
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 645300,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 140100,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 4960
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 16540
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 32
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 7419,
+              "hull_health": 1854150
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Phaser Bank",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 11342000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 22190
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 162350,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 161650,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 5720
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 19090
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 37
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 10360,
+              "armor_pierce": 110224,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 30101,
+              "min_damage": 24396,
+              "shield_pierce": 10580,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Expanded Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 3780600
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 7395
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 248200,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 53880,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 1905
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 6365
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 12
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 200000,
+              "increased_protected_cargo": 20000,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 200
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Quantum Slipstream Drive",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 3780600
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 7395
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 248200,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 53880,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 1905
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 6365
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 12
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 500,
+              "warp_speed": 8.75
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Deflector Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 9829700
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 19230
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 645300,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 140100,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 4960
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 16540
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 35
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 7264,
+              "shield_health": 1676020
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engines",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 6049000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 11830
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 397100,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 86210,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 3050
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 10180
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 19
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 128811,
+              "impulse_speed": 110
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 8800.0,
+          "additional_officer_slot": false,
+          "level": 56,
+          "ship_xp": 8143000
+        },
+        {
+          "ability_bonus": 8935.0,
+          "additional_officer_slot": false,
+          "level": 57,
+          "ship_xp": 8440000
+        },
+        {
+          "ability_bonus": 9065.0,
+          "additional_officer_slot": false,
+          "level": 58,
+          "ship_xp": 9038000
+        },
+        {
+          "ability_bonus": 9200.0,
+          "additional_officer_slot": false,
+          "level": 59,
+          "ship_xp": 9355000
+        },
+        {
+          "ability_bonus": 9335.0,
+          "additional_officer_slot": false,
+          "level": 60,
+          "ship_xp": 10000000
+        }
+      ]
+    },
+    {
+      "tier": 13,
+      "build_time": 28800000,
+      "repair_time": 907200,
+      "components": [
+        {
+          "name": "Photon Torpedoes",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 14796000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 30430
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 90000,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 75320,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 5705
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 24860
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 51
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 17455,
+              "armor_pierce": 185698,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 152366,
+              "min_damage": 126601,
+              "shield_pierce": 17826,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Ablative Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 14796000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 30430
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 90000,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 363550,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 5705
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 24860
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 51
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 9148,
+              "hull_health": 2360527
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Phaser Bank",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 17072000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 35110
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 103850,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 86900,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 6585
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 28680
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 58
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 14433,
+              "armor_pierce": 153559,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 40020,
+              "min_damage": 32820,
+              "shield_pierce": 14740,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Expanded Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 5690700
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 11700
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 34620,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 139850,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 2195
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 9560
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 19
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 200000,
+              "increased_protected_cargo": 30000,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 200
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Quantum Slipstream Drive",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 5690700
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 11700
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 34620,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 139850,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 2195
+              },
+              {
+                "type": "quantum drive core tier 13",
+                "value": 1
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 9560
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 19
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 600,
+              "warp_speed": 9
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Deflector Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 14796000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 30430
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 90000,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 363550,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 5705
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 24840
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 55
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 8958,
+              "shield_health": 2154520
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engines",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 9105100
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 18730
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 55390,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 223700,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 3510
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 15300
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 31
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 158842,
+              "impulse_speed": 110
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 9465.0,
+          "additional_officer_slot": false,
+          "level": 61,
+          "ship_xp": 10100000
+        },
+        {
+          "ability_bonus": 9600.0,
+          "additional_officer_slot": false,
+          "level": 62,
+          "ship_xp": 10201000
+        },
+        {
+          "ability_bonus": 9735.0,
+          "additional_officer_slot": false,
+          "level": 63,
+          "ship_xp": 10303010
+        },
+        {
+          "ability_bonus": 9865.0,
+          "additional_officer_slot": false,
+          "level": 64,
+          "ship_xp": 10406040
+        },
+        {
+          "ability_bonus": 10000.0,
+          "additional_officer_slot": false,
+          "level": 65,
+          "ship_xp": 10510101
+        }
+      ]
+    },
+    {
+      "tier": 14,
+      "build_time": 33120000,
+      "repair_time": 960540,
+      "components": [
+        {
+          "name": "Photon Torpedoes",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 20593000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 43520
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 50240,
+                "grade": 6,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 49970,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 7100
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 33040
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 69
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 20962,
+              "armor_pierce": 223016,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 181971,
+              "min_damage": 154322,
+              "shield_pierce": 21409,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Ablative Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 20593000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 43520
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 242350,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 49970,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 7100
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 33040
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 69
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 9764,
+              "hull_health": 2544975
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Phaser Bank",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 23761000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 50210
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 57970,
+                "grade": 6,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 57660,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 8190
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 38130
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 80
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 17341,
+              "armor_pierce": 184490,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 48110,
+              "min_damage": 40332,
+              "shield_pierce": 17710,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Expanded Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 7920300
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 16740
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 93220,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 19220,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 2730
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 12710
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 26
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 300000,
+              "increased_protected_cargo": 30000,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 200
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Quantum Slipstream Drive",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 7920300
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 16740
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 93220,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 19220,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 2730
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 12710
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 26
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 700,
+              "warp_speed": 9.25
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Deflector Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 20593000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 43520
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 242350,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 49970,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 7100
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 33020
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 76
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 9560,
+              "shield_health": 2340267
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engines",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 12672500
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 26780
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 149150,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 30750,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 4370
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 20330
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 42
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 169521,
+              "impulse_speed": 110
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 10200.0,
+          "additional_officer_slot": false,
+          "level": 66,
+          "ship_xp": 10615202
+        },
+        {
+          "ability_bonus": 10400.0,
+          "additional_officer_slot": false,
+          "level": 67,
+          "ship_xp": 10721354
+        },
+        {
+          "ability_bonus": 10600.0,
+          "additional_officer_slot": false,
+          "level": 68,
+          "ship_xp": 10828567
+        },
+        {
+          "ability_bonus": 10800.0,
+          "additional_officer_slot": false,
+          "level": 69,
+          "ship_xp": 10936853
+        },
+        {
+          "ability_bonus": 11000.0,
+          "additional_officer_slot": false,
+          "level": 70,
+          "ship_xp": 11046221
+        }
+      ]
+    },
+    {
+      "tier": 15,
+      "build_time": 38160000,
+      "repair_time": 1044900,
+      "components": [
+        {
+          "name": "Photon Torpedoes",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 35172000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 73260
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 33050,
+                "grade": 6,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 58710,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 8530
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 54620
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 113
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 26285,
+              "armor_pierce": 279638,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 202783,
+              "min_damage": 169572,
+              "shield_pierce": 26843,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Ablative Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 35172000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 73260
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 33050,
+                "grade": 6,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 58710,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 8530
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 54620
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 113
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 12337,
+              "hull_health": 3800979
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Phaser Bank",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 40583500
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 84530
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 38140,
+                "grade": 6,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 67740,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 9845
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 63020
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 131
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 23403,
+              "armor_pierce": 248993,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 52931,
+              "min_damage": 43889,
+              "shield_pierce": 23901,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Expanded Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 13528000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 28180
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 12710,
+                "grade": 6,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 22580,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 3280
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 21010
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 43
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 300000,
+              "increased_protected_cargo": 40000,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 200
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Quantum Slipstream Drive",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 13528000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 28180
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 12710,
+                "grade": 6,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 22580,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 3280
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 21010
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 43
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 1000,
+              "warp_speed": 9.5
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Deflector Shield",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 35172000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 73260
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 33050,
+                "grade": 6,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 58710,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 8530
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 54620
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 118
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 11546,
+              "shield_health": 3587972
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engines",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 21644500
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 45080
+              }
+            ],
+            "materials": [
+              {
+                "type": "gas",
+                "value": 20340,
+                "grade": 6,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 36130,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. dauntless parts",
+                "value": 5250
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 33610
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 70
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 204735,
+              "impulse_speed": 110
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 11200.0,
+          "additional_officer_slot": false,
+          "level": 71,
+          "ship_xp": 11155590
+        },
+        {
+          "ability_bonus": 11400.0,
+          "additional_officer_slot": false,
+          "level": 72,
+          "ship_xp": 11264958
+        },
+        {
+          "ability_bonus": 11600.0,
+          "additional_officer_slot": false,
+          "level": 73,
+          "ship_xp": 11374327
+        },
+        {
+          "ability_bonus": 11800.0,
+          "additional_officer_slot": false,
+          "level": 74,
+          "ship_xp": 11483695
+        },
+        {
+          "ability_bonus": 12000.0,
+          "additional_officer_slot": false,
+          "level": 75,
+          "ship_xp": 11593064
+        }
+      ]
+    }
+  ],
+  "img_url": "./assets/uss_dauntless.png"
+}

@@ -1,0 +1,146 @@
+{
+  "research_name": "Hypospray Technology",
+  "description": "Increases base health of all officers.",
+  "location": {
+    "column": 28,
+    "row": 2,
+    "tree": "away teams"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 444600,
+      "increased_power": 4700,
+      "requirements": [
+        {
+          "name": "Tactical Aggression",
+          "level": 1
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "service award",
+            "value": 3535
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.05
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 1162740,
+      "increased_power": 2300,
+      "requirements": [
+        {
+          "name": "Tactical Aggression",
+          "level": 2
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "service award",
+            "value": 19080
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.09
+      }
+    },
+    {
+      "level": 3,
+      "research_time": 2099700,
+      "increased_power": 1500,
+      "requirements": [
+        {
+          "name": "Academy",
+          "level": 36
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "service award",
+            "value": 38536
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.15
+      }
+    },
+    {
+      "level": 4,
+      "research_time": 3579540,
+      "increased_power": 1750,
+      "requirements": [
+        {
+          "name": "Academy",
+          "level": 38
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "service award",
+            "value": 80124
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.23
+      }
+    },
+    {
+      "level": 5,
+      "research_time": 8475240,
+      "increased_power": 1750,
+      "requirements": [
+        {
+          "name": "Rerouting to Shields",
+          "level": 5
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "service award",
+            "value": 235355
+          },
+          {
+            "type": "merit of honor",
+            "value": 25
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.35
+      }
+    }
+  ],
+  "img_url": "./assets/hypospray_technology_away_teams_2_28.png"
+}

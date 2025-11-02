@@ -1,0 +1,48 @@
+{
+  "research_name": "Away Team Launch Thrusters",
+  "description": "Permanently grants the ability to get one extra away team assignment",
+  "location": {
+    "column": 38,
+    "row": 3,
+    "tree": "away teams"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 1412520,
+      "increased_power": 12000,
+      "requirements": [
+        {
+          "name": "Unstoppable Battleships",
+          "level": 1
+        },
+        {
+          "name": "Shuttle Bay",
+          "level": 35
+        },
+        {
+          "name": "Operations",
+          "level": 39
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "service award",
+            "value": 235355
+          }
+        ]
+      },
+      "rewards": [
+        {
+          "type": "Independent Credits",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "img_url": "./assets/away_team_launch_thrusters_away_teams_3_38.png"
+}

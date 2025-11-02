@@ -1,0 +1,63 @@
+{
+  "research_name": "Daunting Vengeance",
+  "description": "Increases cost efficiency for the U.S.S. Vengeance ship parts.",
+  "location": {
+    "column": 17,
+    "row": 3,
+    "tree": "aggregation"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 23673600,
+      "increased_power": 660000,
+      "requirements": [
+        {
+          "name": "Seek and Destroy Isolytic Damage",
+          "level": 1
+        },
+        {
+          "name": "R&D Department",
+          "level": 70
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "u.s.s. dauntless prototype data",
+            "value": 15000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.075
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 24883200,
+      "increased_power": 10000,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "u.s.s. dauntless prototype data",
+            "value": 15000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.15
+      }
+    }
+  ],
+  "img_url": "./assets/daunting_vengeance_aggregation_3_17.png"
+}

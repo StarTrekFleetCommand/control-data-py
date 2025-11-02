@@ -1,0 +1,38 @@
+{
+  "research_name": "Prime Start Bundle",
+  "description": "Grants a free daily bundle containing Section 31 Private Ciphers, Borg Polygon Group Armada Directives, Rare Formation Armada Directives, and Armada Quick Starts in the Section 31 Faction store.",
+  "location": {
+    "column": 83,
+    "row": 1,
+    "tree": "starships"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 240,
+      "increased_power": 35500,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 45
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "prime start bundle particle",
+            "value": 1000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 1.0
+      }
+    }
+  ],
+  "img_url": "./assets/prime_start_bundle_starships_1_83.png"
+}

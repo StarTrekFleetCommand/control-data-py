@@ -1,0 +1,708 @@
+{
+  "research_name": "Mantis Weaponry",
+  "description": "Increases Mantis Damage against Actian Hostiles.",
+  "location": {
+    "column": 16,
+    "row": 2,
+    "tree": "starships"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 1594380,
+      "increased_power": 19250,
+      "requirements": [
+        {
+          "name": "Foundry",
+          "level": 33
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 1400000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "synthetic ion",
+            "value": 1200
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 175.0
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 1913220,
+      "increased_power": 5625,
+      "requirements": [
+        {
+          "name": "Mantis Weaponry",
+          "level": 1
+        },
+        {
+          "name": "Foundry",
+          "level": 33
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 1680000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "synthetic ion",
+            "value": 4000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 350.0
+      }
+    },
+    {
+      "level": 3,
+      "research_time": 6562500,
+      "increased_power": 5625,
+      "requirements": [
+        {
+          "name": "Mantis Weaponry",
+          "level": 2
+        },
+        {
+          "name": "Foundry",
+          "level": 38
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 11600000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "synthetic ion",
+            "value": 8000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 525.0
+      }
+    },
+    {
+      "level": 4,
+      "research_time": 16475820,
+      "increased_power": 8500,
+      "requirements": [
+        {
+          "name": "Mantis Weaponry",
+          "level": 3
+        },
+        {
+          "name": "Foundry",
+          "level": 41
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 45300000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "synthetic ion",
+            "value": 15000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 700.0
+      }
+    },
+    {
+      "level": 5,
+      "research_time": 23119200,
+      "increased_power": 3500,
+      "requirements": [
+        {
+          "name": "Mantis Weaponry",
+          "level": 4
+        },
+        {
+          "name": "Foundry",
+          "level": 42
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 67400000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "synthetic ion",
+            "value": 15500
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 875.0
+      }
+    },
+    {
+      "level": 6,
+      "research_time": 27743040,
+      "increased_power": 1500,
+      "requirements": [
+        {
+          "name": "Mantis Weaponry",
+          "level": 5
+        },
+        {
+          "name": "Foundry",
+          "level": 42
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 80880000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "synthetic ion",
+            "value": 16000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 1050.0
+      }
+    },
+    {
+      "level": 7,
+      "research_time": 33291660,
+      "increased_power": 2750,
+      "requirements": [
+        {
+          "name": "Mantis Weaponry",
+          "level": 6
+        },
+        {
+          "name": "Foundry",
+          "level": 42
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 97056000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "synthetic ion",
+            "value": 44000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 1225.0
+      }
+    },
+    {
+      "level": 8,
+      "research_time": 42827520,
+      "increased_power": 2750,
+      "requirements": [
+        {
+          "name": "Mantis Weaponry",
+          "level": 7
+        },
+        {
+          "name": "Foundry",
+          "level": 44
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 149000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "synthetic ion",
+            "value": 45000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 1400.0
+      }
+    },
+    {
+      "level": 9,
+      "research_time": 47110260,
+      "increased_power": 1000,
+      "requirements": [
+        {
+          "name": "Mantis Weaponry",
+          "level": 8
+        },
+        {
+          "name": "Foundry",
+          "level": 44
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 163900000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "synthetic ion",
+            "value": 45500
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 1575.0
+      }
+    },
+    {
+      "level": 10,
+      "research_time": 51821340,
+      "increased_power": 1250,
+      "requirements": [
+        {
+          "name": "Mantis Weaponry",
+          "level": 9
+        },
+        {
+          "name": "Foundry",
+          "level": 44
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 180290000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "synthetic ion",
+            "value": 64000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 1750.0
+      }
+    },
+    {
+      "level": 11,
+      "research_time": 56199480,
+      "increased_power": 1250,
+      "requirements": [
+        {
+          "name": "Mantis Weaponry",
+          "level": 10
+        },
+        {
+          "name": "Foundry",
+          "level": 45
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 212400000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "synthetic ion",
+            "value": 65000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 1925.0
+      }
+    },
+    {
+      "level": 12,
+      "research_time": 75790380,
+      "increased_power": 4000,
+      "requirements": [
+        {
+          "name": "Mantis Weaponry",
+          "level": 11
+        },
+        {
+          "name": "Foundry",
+          "level": 46
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 296200000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "synthetic ion",
+            "value": 85000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 2100.0
+      }
+    },
+    {
+      "level": 13,
+      "research_time": 90948420,
+      "increased_power": 1500,
+      "requirements": [
+        {
+          "name": "Mantis Weaponry",
+          "level": 12
+        },
+        {
+          "name": "Foundry",
+          "level": 46
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 355440000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "synthetic ion",
+            "value": 86000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 2275.0
+      }
+    },
+    {
+      "level": 14,
+      "research_time": 109138140,
+      "increased_power": 3750,
+      "requirements": [
+        {
+          "name": "Mantis Weaponry",
+          "level": 13
+        },
+        {
+          "name": "Foundry",
+          "level": 46
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 426528000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "synthetic ion",
+            "value": 150000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 2450.0
+      }
+    },
+    {
+      "level": 15,
+      "research_time": 125063640,
+      "increased_power": 3750,
+      "requirements": [
+        {
+          "name": "Mantis Weaponry",
+          "level": 14
+        },
+        {
+          "name": "Foundry",
+          "level": 48
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 707400000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "synthetic ion",
+            "value": 155000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 2625.0
+      }
+    },
+    {
+      "level": 16,
+      "research_time": 137570040,
+      "increased_power": 1000,
+      "requirements": [
+        {
+          "name": "Mantis Weaponry",
+          "level": 15
+        },
+        {
+          "name": "Foundry",
+          "level": 48
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 848880000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "synthetic ion",
+            "value": 220000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 2800.0
+      }
+    },
+    {
+      "level": 17,
+      "research_time": 151327020,
+      "increased_power": 1500,
+      "requirements": [
+        {
+          "name": "Mantis Weaponry",
+          "level": 16
+        },
+        {
+          "name": "Foundry",
+          "level": 48
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 1018656000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "synthetic ion",
+            "value": 220000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 2975.0
+      }
+    },
+    {
+      "level": 18,
+      "research_time": 165620160,
+      "increased_power": 1500,
+      "requirements": [
+        {
+          "name": "Mantis Weaponry",
+          "level": 17
+        },
+        {
+          "name": "Foundry",
+          "level": 49
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 1197000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "synthetic ion",
+            "value": 380000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 3150.0
+      }
+    },
+    {
+      "level": 19,
+      "research_time": 208475880,
+      "increased_power": 5000,
+      "requirements": [
+        {
+          "name": "Mantis Weaponry",
+          "level": 18
+        },
+        {
+          "name": "Foundry",
+          "level": 50
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 2126000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "synthetic ion",
+            "value": 600000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 3325.0
+      }
+    },
+    {
+      "level": 20,
+      "research_time": 250171020,
+      "increased_power": 3000,
+      "requirements": [
+        {
+          "name": "Mantis Weaponry",
+          "level": 19
+        },
+        {
+          "name": "Foundry",
+          "level": 50
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 2551200000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "synthetic ion",
+            "value": 1040000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 3500.0
+      }
+    }
+  ],
+  "img_url": "./assets/mantis_weaponry_starships_2_16.png"
+}

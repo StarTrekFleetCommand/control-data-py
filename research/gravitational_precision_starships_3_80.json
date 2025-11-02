@@ -1,0 +1,276 @@
+{
+  "research_name": "Gravitational Precision",
+  "description": "Increases Critical Chance against players Weakened by the Gravitational Blast.",
+  "location": {
+    "column": 80,
+    "row": 3,
+    "tree": "starships"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 51062400,
+      "increased_power": 35500,
+      "requirements": [
+        {
+          "name": "Subspace Authorization",
+          "level": 1
+        },
+        {
+          "name": "R&D Department",
+          "level": 45
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "covert modifications",
+            "value": 105
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.02
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 113702400,
+      "increased_power": 8500,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 48
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "covert modifications",
+            "value": 115
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.04
+      }
+    },
+    {
+      "level": 3,
+      "research_time": 195177600,
+      "increased_power": 9500,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 51
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "covert modifications",
+            "value": 125
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.06
+      }
+    },
+    {
+      "level": 4,
+      "research_time": 226281600,
+      "increased_power": 19500,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 56
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "covert modifications",
+            "value": 135
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.08
+      }
+    },
+    {
+      "level": 5,
+      "research_time": 240105600,
+      "increased_power": 9000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 58
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "covert modifications",
+            "value": 145
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.1
+      }
+    },
+    {
+      "level": 6,
+      "research_time": 264435780,
+      "increased_power": 16000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 61
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "covert modifications",
+            "value": 160
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.12
+      }
+    },
+    {
+      "level": 7,
+      "research_time": 303432120,
+      "increased_power": 28000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 65
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "covert modifications",
+            "value": 175
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.15
+      }
+    },
+    {
+      "level": 8,
+      "research_time": 318785820,
+      "increased_power": 16000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 67
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "covert modifications",
+            "value": 190
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.18
+      }
+    },
+    {
+      "level": 9,
+      "research_time": 325161540,
+      "increased_power": 8000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 68
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "covert modifications",
+            "value": 200
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.21
+      }
+    },
+    {
+      "level": 10,
+      "research_time": 331697160,
+      "increased_power": 18000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 70
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "covert modifications",
+            "value": 215
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.25
+      }
+    }
+  ],
+  "img_url": "./assets/gravitational_precision_starships_3_80.png"
+}

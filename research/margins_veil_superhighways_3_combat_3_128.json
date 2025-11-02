@@ -1,0 +1,42 @@
+{
+  "research_name": "Margins & Veil Superhighways 3",
+  "description": "Grants a mission in the Gifts section to unlock Superhighways in the Margins and the Veil.",
+  "location": {
+    "column": 128,
+    "row": 3,
+    "tree": "combat"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 406598400,
+      "increased_power": 311000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 80
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [
+          {
+            "type": "ore",
+            "value": 922301,
+            "grade": 7,
+            "rarity": "common"
+          },
+          {
+            "type": "ore",
+            "value": 126770,
+            "grade": 7,
+            "rarity": "uncommon"
+          }
+        ],
+        "others": []
+      }
+    }
+  ],
+  "img_url": "./assets/margins_veil_superhighways_3_combat_3_128.png"
+}

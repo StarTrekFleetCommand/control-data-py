@@ -1,0 +1,52 @@
+{
+  "research_name": "Unlock Epic Assignments",
+  "description": "Unlocks the chance to get epic away team assignments",
+  "location": {
+    "column": 40,
+    "row": 3,
+    "tree": "away teams"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 1412520,
+      "increased_power": 12000,
+      "requirements": [
+        {
+          "name": "Away Team Launch Thrusters",
+          "level": 1
+        },
+        {
+          "name": "Unlock Rare Assignments",
+          "level": 1
+        },
+        {
+          "name": "Shuttle Bay",
+          "level": 35
+        },
+        {
+          "name": "Operations",
+          "level": 39
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "service award",
+            "value": 235355
+          }
+        ]
+      },
+      "rewards": [
+        {
+          "type": "Mission Token",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "img_url": "./assets/unlock_epic_assignments_away_teams_3_40.png"
+}

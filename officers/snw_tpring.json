@@ -1,0 +1,183 @@
+{
+  "officer_name": "SNW T'Pring",
+  "description": "T\u2019Pring was arranged to marry Spock from a young age, but it was only in adulthood that the pair formalized their engagement, after Spock returned to Vulcan. However, T\u2019Pring had to be content with a long-distance relationship, as Spock could not ultimately forego his duties aboard the USS Enterprise. Nor did she wish to give up her responsibilities as an agent of the El-Keshtanktil, working to help Vulcan criminals purge the emotions that had led them to commit their crimes. Yet they still found time to be together, usually when T\u2019Pring visited Spock aboard the Enterprise or at a starbase - including one memorable occasion when a Vulcan ritual caused them to exchange bodies with one another!\n\nUnbeknownst to T\u2019Pring, Spock and Nurse Chapel had developed feelings for one another and had an affair aboard the Enterprise, with Spock growing more distant. Things came to a head during their engagement dinner when, despite Spock eventually managing to impress T\u2019Pring\u2019s parents, she discovered he\u2019d been hiding that he\u2019d temporarily become human. Offended he would keep this from her, she decided they should spend some time apart - though it is surely only a matter of time until they are reunited.",
+  "class": "science",
+  "group": "strange new worlds",
+  "faction": "federation",
+  "rarity": "epic",
+  "ability_info": {
+    "captain_maneuver": {
+      "name": "Chain of Command",
+      "bonus": "This Officer does not have a Captain's Maneuver. Equipping this Officer as the captain of a ship provides no benefit.",
+      "percentage": true,
+      "value": 0.0
+    },
+    "officer_ability": {
+      "name": "El-Keshtanktil Agent",
+      "bonus": "",
+      "percentage": true
+    },
+    "below_decks_ability": {
+      "name": "Logic Dictates",
+      "bonus": "Below-Deck Abilities are only activated when assigned to a below-decks slot on a ship.",
+      "percentage": true
+    }
+  },
+  "synergy": {
+    "command": 0.0,
+    "engineering": 0.0,
+    "science": 0.0
+  },
+  "traits": [
+    {
+      "name": "Resourceful",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 1500
+        },
+        {
+          "level": 2,
+          "trait_xp": 2700
+        },
+        {
+          "level": 3,
+          "trait_xp": 3800
+        }
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Disciplined",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 7650
+        },
+        {
+          "level": 2,
+          "trait_xp": 6000
+        },
+        {
+          "level": 3,
+          "trait_xp": 7000
+        },
+        {
+          "level": 4,
+          "trait_xp": 8850
+        }
+      ],
+      "tier": 2
+    },
+    {
+      "name": "Intelligent",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 10000
+        },
+        {
+          "level": 2,
+          "trait_xp": 4000
+        },
+        {
+          "level": 3,
+          "trait_xp": 7000
+        },
+        {
+          "level": 4,
+          "trait_xp": 10000
+        },
+        {
+          "level": 5,
+          "trait_xp": 15000
+        },
+        {
+          "level": 6,
+          "trait_xp": 23000
+        },
+        {
+          "level": 7,
+          "trait_xp": 42000
+        },
+        {
+          "level": 8,
+          "trait_xp": 68000
+        },
+        {
+          "level": 9,
+          "trait_xp": 107000
+        }
+      ],
+      "tier": 3
+    }
+  ],
+  "ranks": [
+    {
+      "rank_id": 1,
+      "name": "ENSIGN I",
+      "officer_ability_value": 12.0,
+      "requirements": {
+        "badges": 0,
+        "credits": 0,
+        "others": [],
+        "shards": 130,
+        "xp": 0
+      },
+      "below_deck_ability_value": 0.05
+    },
+    {
+      "rank_id": 2,
+      "name": "LIEUTENANT JG II",
+      "officer_ability_value": 15.0,
+      "requirements": {
+        "badges": 0,
+        "credits": 1100,
+        "others": [],
+        "shards": 130,
+        "xp": 50000
+      },
+      "below_deck_ability_value": 0.1
+    },
+    {
+      "rank_id": 3,
+      "name": "LIEUTENANT III",
+      "officer_ability_value": 18.0,
+      "requirements": {
+        "badges": 1,
+        "credits": 4500,
+        "others": [],
+        "shards": 260,
+        "xp": 500000
+      },
+      "below_deck_ability_value": 0.15
+    },
+    {
+      "rank_id": 4,
+      "name": "LT. COMMANDER IV",
+      "officer_ability_value": 21.0,
+      "requirements": {
+        "badges": 2,
+        "credits": 11500,
+        "others": [],
+        "shards": 390,
+        "xp": 1250000
+      },
+      "below_deck_ability_value": 0.2
+    },
+    {
+      "rank_id": 5,
+      "name": "COMMANDER V",
+      "officer_ability_value": 25.0,
+      "requirements": {
+        "badges": 4,
+        "credits": 25000,
+        "others": [],
+        "shards": 1040,
+        "xp": 2500000
+      },
+      "below_deck_ability_value": 0.3
+    }
+  ],
+  "img_url": "./assets/snw_tpring.png"
+}

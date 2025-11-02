@@ -1,0 +1,84 @@
+{
+  "research_name": "<color=#fac710>Priority 1:</color> Assignments Unlock",
+  "description": "Permanently grants the ability to receive one extra Priority 1 Away Team Assignment.",
+  "location": {
+    "column": 2,
+    "row": 1,
+    "tree": "away teams"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 1207920,
+      "increased_power": 9000,
+      "requirements": [
+        {
+          "name": "Shuttle Bay",
+          "level": 26
+        },
+        {
+          "name": "Operations",
+          "level": 26
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "service award",
+            "value": 500000
+          }
+        ]
+      },
+      "rewards": [
+        {
+          "type": "Independent Credits",
+          "value": 1
+        }
+      ],
+      "bonus": {
+        "percentage": false,
+        "value": 1.0
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 3019680,
+      "increased_power": 0,
+      "requirements": [
+        {
+          "name": "Shuttle Bay",
+          "level": 26
+        },
+        {
+          "name": "Operations",
+          "level": 26
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "hijacked insignia",
+            "value": 5000
+          }
+        ]
+      },
+      "rewards": [
+        {
+          "type": "Independent Credits",
+          "value": 1
+        }
+      ],
+      "bonus": {
+        "percentage": false,
+        "value": 2.0
+      }
+    }
+  ],
+  "img_url": "./assets/colorfac710priority_1color_assignments_unlock_away_teams_1_2.png"
+}

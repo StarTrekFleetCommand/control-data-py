@@ -1,0 +1,203 @@
+{
+  "officer_name": "WOK Carol Marcus",
+  "description": "Among other vital doctrines such as peace, justice and equality, a unified pursuit of scientific discovery was one of the core foundational principles of the United Federation of Planets. By gaining further understanding of the forces that governed existence itself, member states of the Federation who were once considered disparate entities instead sought to thrive and prosper under a single banner. Perhaps one of the greatest scientific minds of her time, Doctor Carol Marcus was among the Federation\u2019s leading scientists in the 23rd century.\n\nAs head scientist and chief architect of \u201cProject Genesis\u201d, Dr. Marcus endeavored to create \u201clife from lifelessness\u201d. Following the deployment of Genesis on a barren planet, the molecular structure of the planet itself was reorganized at the subatomic level into life-generating matter of equal mass. A dead moon could instead be transformed into a living, breathing planet capable of sustaining life. Genesis was to be the culmination of Dr. Marcus\u2019 life\u2019s work. However, when her research fell into the hands of one Khan Noonien Singh, Dr. Marcus was to instead realize the destructive potential of Genesis, should it fall into the wrong hands.\n\nFollowing a brief relationship with James T. Kirk, Dr. Marcus gave birth to their son, David. Although he retained the capacity to be an influential father figure in David\u2019s life, Carol knew deep inside that Kirk\u2019s place was on the bridge of a starship, exploring strange, new worlds. She instead chose to raise David alone, a decision that would see David\u2019s brilliant scientific potential realized - a potential that closely matched his mother\u2019s.",
+  "class": "science",
+  "group": "wrath of khan",
+  "faction": "federation",
+  "rarity": "epic",
+  "ability_info": {
+    "captain_maneuver": {
+      "name": "Chain of Command",
+      "bonus": "This Officer does not have a Captain's Maneuver. Equipping this Officer as the captain of a ship provides no benefit.",
+      "percentage": true,
+      "value": 0.0
+    },
+    "officer_ability": {
+      "name": "Scientific Evidence",
+      "bonus": "",
+      "percentage": true
+    },
+    "below_decks_ability": {
+      "name": "Null Hypothesis",
+      "bonus": "(Weapons with multiple shots will only trigger this ability once per attack.)\n\nBelow-Deck Abilities are only activated when assigned to a below-decks slot on a ship.",
+      "percentage": true
+    }
+  },
+  "synergy": {
+    "command": 0.0,
+    "engineering": 0.0,
+    "science": 0.0
+  },
+  "traits": [
+    {
+      "name": "Intelligent",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 1500
+        },
+        {
+          "level": 2,
+          "trait_xp": 2700
+        },
+        {
+          "level": 3,
+          "trait_xp": 3800
+        }
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Resilient",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 7650
+        },
+        {
+          "level": 2,
+          "trait_xp": 6000
+        },
+        {
+          "level": 3,
+          "trait_xp": 7000
+        },
+        {
+          "level": 4,
+          "trait_xp": 8850
+        }
+      ],
+      "tier": 2
+    },
+    {
+      "name": "Confident",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 10000
+        },
+        {
+          "level": 2,
+          "trait_xp": 4000
+        },
+        {
+          "level": 3,
+          "trait_xp": 7000
+        },
+        {
+          "level": 4,
+          "trait_xp": 10000
+        },
+        {
+          "level": 5,
+          "trait_xp": 15000
+        },
+        {
+          "level": 6,
+          "trait_xp": 23000
+        },
+        {
+          "level": 7,
+          "trait_xp": 42000
+        },
+        {
+          "level": 8,
+          "trait_xp": 68000
+        },
+        {
+          "level": 9,
+          "trait_xp": 107000
+        }
+      ],
+      "tier": 3
+    }
+  ],
+  "ranks": [
+    {
+      "rank_id": 1,
+      "name": "ENSIGN I",
+      "officer_ability_value": 1.5,
+      "requirements": {
+        "badges": 0,
+        "credits": 0,
+        "others": [],
+        "shards": 100,
+        "xp": 0
+      },
+      "below_deck_ability_value": 0.05
+    },
+    {
+      "rank_id": 2,
+      "name": "LIEUTENANT JG II",
+      "officer_ability_value": 2.0,
+      "requirements": {
+        "badges": 0,
+        "credits": 1100,
+        "others": [
+          {
+            "name": "pioneer's crest",
+            "value": 10000
+          }
+        ],
+        "shards": 100,
+        "xp": 0
+      },
+      "below_deck_ability_value": 0.07
+    },
+    {
+      "rank_id": 3,
+      "name": "LIEUTENANT III",
+      "officer_ability_value": 3.5,
+      "requirements": {
+        "badges": 1,
+        "credits": 4500,
+        "others": [
+          {
+            "name": "pioneer's crest",
+            "value": 25000
+          }
+        ],
+        "shards": 200,
+        "xp": 0
+      },
+      "below_deck_ability_value": 0.1
+    },
+    {
+      "rank_id": 4,
+      "name": "LT. COMMANDER IV",
+      "officer_ability_value": 5.0,
+      "requirements": {
+        "badges": 2,
+        "credits": 11500,
+        "others": [
+          {
+            "name": "pioneer's crest",
+            "value": 50000
+          }
+        ],
+        "shards": 300,
+        "xp": 0
+      },
+      "below_deck_ability_value": 0.15
+    },
+    {
+      "rank_id": 5,
+      "name": "COMMANDER V",
+      "officer_ability_value": 7.0,
+      "requirements": {
+        "badges": 4,
+        "credits": 25000,
+        "others": [
+          {
+            "name": "pioneer's crest",
+            "value": 120000
+          }
+        ],
+        "shards": 800,
+        "xp": 0
+      },
+      "below_deck_ability_value": 0.25
+    }
+  ],
+  "img_url": "./assets/wok_carol_marcus.png"
+}

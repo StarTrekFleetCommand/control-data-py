@@ -1,0 +1,219 @@
+{
+  "research_name": "Call For Victory",
+  "description": "Increases Critical Hit Chance against Group Armadas while buffed by the Defiant",
+  "location": {
+    "column": 23,
+    "row": 2,
+    "tree": "starships"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 2600040,
+      "increased_power": 31000,
+      "requirements": [
+        {
+          "name": "Stalwart Alliance",
+          "level": 1
+        },
+        {
+          "name": "R&D Department",
+          "level": 35
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 1110000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "subspace transceivers",
+            "value": 340
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.03
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 68900340,
+      "increased_power": 45000,
+      "requirements": [
+        {
+          "name": "Valiant Camaraderie",
+          "level": 3
+        },
+        {
+          "name": "Collective Precision",
+          "level": 3
+        },
+        {
+          "name": "Piercing Formation",
+          "level": 3
+        },
+        {
+          "name": "R&D Department",
+          "level": 46
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 98750000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "subspace transceivers",
+            "value": 3110
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.13
+      }
+    },
+    {
+      "level": 3,
+      "research_time": 113694240,
+      "increased_power": 12000,
+      "requirements": [
+        {
+          "name": "Valiant Camaraderie",
+          "level": 5
+        },
+        {
+          "name": "Collective Precision",
+          "level": 5
+        },
+        {
+          "name": "Piercing Formation",
+          "level": 5
+        },
+        {
+          "name": "R&D Department",
+          "level": 48
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 235800000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "subspace transceivers",
+            "value": 4560
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.2
+      }
+    },
+    {
+      "level": 4,
+      "research_time": 195390840,
+      "increased_power": 19000,
+      "requirements": [
+        {
+          "name": "Valiant Camaraderie",
+          "level": 7
+        },
+        {
+          "name": "Collective Precision",
+          "level": 7
+        },
+        {
+          "name": "Piercing Formation",
+          "level": 7
+        },
+        {
+          "name": "R&D Department",
+          "level": 51
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 1772000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "subspace transceivers",
+            "value": 9065
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.32
+      }
+    },
+    {
+      "level": 5,
+      "research_time": 219576840,
+      "increased_power": 30000,
+      "requirements": [
+        {
+          "name": "Valiant Camaraderie",
+          "level": 10
+        },
+        {
+          "name": "Collective Precision",
+          "level": 10
+        },
+        {
+          "name": "Piercing Formation",
+          "level": 10
+        },
+        {
+          "name": "R&D Department",
+          "level": 55
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 8971000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "subspace transceivers",
+            "value": 19460
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.43
+      }
+    }
+  ],
+  "img_url": "./assets/call_for_victory_starships_2_23.png"
+}

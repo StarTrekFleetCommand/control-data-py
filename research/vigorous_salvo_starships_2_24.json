@@ -1,0 +1,187 @@
+{
+  "research_name": "Vigorous Salvo",
+  "description": "Increases Critical Hit Damage against Group Armadas while buffed by the Defiant",
+  "location": {
+    "column": 24,
+    "row": 2,
+    "tree": "starships"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 2600040,
+      "increased_power": 31000,
+      "requirements": [
+        {
+          "name": "Call For Victory",
+          "level": 1
+        },
+        {
+          "name": "R&D Department",
+          "level": 35
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 1110000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "subspace transceivers",
+            "value": 340
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.3
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 113694240,
+      "increased_power": 57000,
+      "requirements": [
+        {
+          "name": "Call For Victory",
+          "level": 2
+        },
+        {
+          "name": "R&D Department",
+          "level": 48
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 235800000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "subspace transceivers",
+            "value": 4560
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 1.1
+      }
+    },
+    {
+      "level": 3,
+      "research_time": 189523500,
+      "increased_power": 12000,
+      "requirements": [
+        {
+          "name": "Call For Victory",
+          "level": 3
+        },
+        {
+          "name": "R&D Department",
+          "level": 50
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 708800000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "subspace transceivers",
+            "value": 6685
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 1.5
+      }
+    },
+    {
+      "level": 4,
+      "research_time": 207172740,
+      "increased_power": 22000,
+      "requirements": [
+        {
+          "name": "Call For Victory",
+          "level": 4
+        },
+        {
+          "name": "R&D Department",
+          "level": 53
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 3987000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "subspace transceivers",
+            "value": 13280
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 2.1
+      }
+    },
+    {
+      "level": 5,
+      "research_time": 219576840,
+      "increased_power": 15000,
+      "requirements": [
+        {
+          "name": "Call For Victory",
+          "level": 5
+        },
+        {
+          "name": "R&D Department",
+          "level": 55
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 8971000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "subspace transceivers",
+            "value": 19460
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 2.9
+      }
+    }
+  ],
+  "img_url": "./assets/vigorous_salvo_starships_2_24.png"
+}

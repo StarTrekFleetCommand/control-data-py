@@ -1,0 +1,38 @@
+{
+  "research_name": "U.S.S. Vengeance Borg Suppression",
+  "description": "Reduces the opponent Borg Cube Critical Hit Chance by 100% at the beginning of each round while using the U.S.S. Vengeance.",
+  "location": {
+    "column": 11,
+    "row": 1,
+    "tree": "aggregation"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 23673600,
+      "increased_power": 660000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 70
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "aggregation smuggled studies",
+            "value": 500
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 1.0
+      }
+    }
+  ],
+  "img_url": "./assets/uss_vengeance_borg_suppression_aggregation_1_11.png"
+}

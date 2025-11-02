@@ -1,0 +1,484 @@
+{
+  "research_name": "Serene Squall Automated Defenses Crit %",
+  "description": "Increases the Serene Squall's Crit Chance while Squall Automated Defenses is active and the ship is mining.",
+  "location": {
+    "column": 13,
+    "row": 1,
+    "tree": "starships"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 660,
+      "increased_power": 260,
+      "requirements": [
+        {
+          "name": "Serene Squall Isolytic Damage",
+          "level": 1
+        },
+        {
+          "name": "R&D Department",
+          "level": 30
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "black market schematics",
+            "value": 70
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.2
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 2700,
+      "increased_power": 390,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 30
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "black market schematics",
+            "value": 80
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.24
+      }
+    },
+    {
+      "level": 3,
+      "research_time": 10800,
+      "increased_power": 700,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 30
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "black market schematics",
+            "value": 95
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.28
+      }
+    },
+    {
+      "level": 4,
+      "research_time": 12600,
+      "increased_power": 750,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 30
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "black market schematics",
+            "value": 110
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.32
+      }
+    },
+    {
+      "level": 5,
+      "research_time": 28800,
+      "increased_power": 1100,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 30
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "black market schematics",
+            "value": 125
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.36
+      }
+    },
+    {
+      "level": 6,
+      "research_time": 43200,
+      "increased_power": 1500,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 30
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "black market schematics",
+            "value": 145
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.4
+      }
+    },
+    {
+      "level": 7,
+      "research_time": 50400,
+      "increased_power": 2050,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 30
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "black market schematics",
+            "value": 165
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.44
+      }
+    },
+    {
+      "level": 8,
+      "research_time": 100800,
+      "increased_power": 2500,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 30
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "black market schematics",
+            "value": 190
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.48
+      }
+    },
+    {
+      "level": 9,
+      "research_time": 129600,
+      "increased_power": 3250,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 30
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "black market schematics",
+            "value": 220
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.52
+      }
+    },
+    {
+      "level": 10,
+      "research_time": 324000,
+      "increased_power": 6250,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 30
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "black market schematics",
+            "value": 250
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.56
+      }
+    },
+    {
+      "level": 11,
+      "research_time": 414000,
+      "increased_power": 5250,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 30
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "black market schematics",
+            "value": 290
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.6
+      }
+    },
+    {
+      "level": 12,
+      "research_time": 576000,
+      "increased_power": 6500,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 30
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "black market schematics",
+            "value": 330
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.64
+      }
+    },
+    {
+      "level": 13,
+      "research_time": 738000,
+      "increased_power": 7500,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 30
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "black market schematics",
+            "value": 380
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.68
+      }
+    },
+    {
+      "level": 14,
+      "research_time": 972000,
+      "increased_power": 8500,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 30
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "black market schematics",
+            "value": 440
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.72
+      }
+    },
+    {
+      "level": 15,
+      "research_time": 1944000,
+      "increased_power": 10000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 30
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "black market schematics",
+            "value": 505
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.76
+      }
+    },
+    {
+      "level": 16,
+      "research_time": 3499200,
+      "increased_power": 11500,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 30
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "black market schematics",
+            "value": 580
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.8
+      }
+    },
+    {
+      "level": 17,
+      "research_time": 5961600,
+      "increased_power": 13000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 30
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "black market schematics",
+            "value": 665
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.84
+      }
+    },
+    {
+      "level": 18,
+      "research_time": 13478400,
+      "increased_power": 23000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 30
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "black market schematics",
+            "value": 765
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.88
+      }
+    }
+  ],
+  "img_url": "./assets/serene_squall_automated_defenses_crit_starships_1_13.png"
+}

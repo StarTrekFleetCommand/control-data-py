@@ -1,0 +1,38 @@
+{
+  "research_name": "Klingon Mining Sweep",
+  "description": "Allows G3-G6 Klingon Mining Daily Goals to be completed by mining Transogen.",
+  "location": {
+    "column": 15,
+    "row": 2,
+    "tree": "starships"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 660,
+      "increased_power": 56500,
+      "requirements": [
+        {
+          "name": "Officer Presets",
+          "level": 1
+        },
+        {
+          "name": "R&D Department",
+          "level": 40
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "black market schematics",
+            "value": 9000
+          }
+        ]
+      }
+    }
+  ],
+  "img_url": "./assets/klingon_mining_sweep_starships_2_15.png"
+}

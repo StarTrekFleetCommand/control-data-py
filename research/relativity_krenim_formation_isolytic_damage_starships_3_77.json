@@ -1,0 +1,38 @@
+{
+  "research_name": "Relativity Krenim Formation Isolytic Damage",
+  "description": "Increases the Isolytic Damage for the USS Relativity against Krenim Formation Armadas",
+  "location": {
+    "column": 77,
+    "row": 3,
+    "tree": "starships"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 240,
+      "increased_power": 310000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 42
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "static tachyons",
+            "value": 10
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 1.0
+      }
+    }
+  ],
+  "img_url": "./assets/relativity_krenim_formation_isolytic_damage_starships_3_77.png"
+}

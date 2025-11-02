@@ -1,0 +1,120 @@
+{
+  "research_name": "Forbidden Tech Tier Up Optimization",
+  "description": "Increases Cost Efficiency of Catalysts and Reactors.",
+  "location": {
+    "column": 6,
+    "row": 1,
+    "tree": "aggregation"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 195177600,
+      "increased_power": 214000,
+      "requirements": [
+        {
+          "name": "Forbidden Tech Upgrade Optimization",
+          "level": 1
+        },
+        {
+          "name": "Recon Locus",
+          "level": 51
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "aggregation smuggled studies",
+            "value": 2430
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.05
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 226281600,
+      "increased_power": 78000,
+      "requirements": [
+        {
+          "name": "Recon Locus",
+          "level": 56
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "aggregation smuggled studies",
+            "value": 2970
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.08
+      }
+    },
+    {
+      "level": 3,
+      "research_time": 264470400,
+      "increased_power": 100000,
+      "requirements": [
+        {
+          "name": "Recon Locus",
+          "level": 61
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "aggregation smuggled studies",
+            "value": 3600
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.13
+      }
+    },
+    {
+      "level": 4,
+      "research_time": 303436800,
+      "increased_power": 111000,
+      "requirements": [
+        {
+          "name": "Recon Locus",
+          "level": 65
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "aggregation smuggled studies",
+            "value": 4500
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.2
+      }
+    }
+  ],
+  "img_url": "./assets/forbidden_tech_tier_up_optimization_aggregation_1_6.png"
+}

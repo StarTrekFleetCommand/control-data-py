@@ -1,0 +1,38 @@
+{
+  "research_name": "Forge Reward Claim Unlock",
+  "description": "Unlocks One Time Rewards Claims when the Transogen Forge Building is the required level.",
+  "location": {
+    "column": 4,
+    "row": 1,
+    "tree": "star path"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 240,
+      "increased_power": 38000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 30
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge dust",
+            "value": 1600
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 1.0
+      }
+    }
+  ],
+  "img_url": "./assets/forge_reward_claim_unlock_star_path_1_4.png"
+}

@@ -1,0 +1,183 @@
+{
+  "officer_name": "SNW D'Chok",
+  "description": "Captain D\u2019Chok is one of Spock\u2019s oldest friends. They first met during a diplomatic incident between Starfleet and the Klingon Defense Force, at the Dilithium mining planet of Cajitar IV. A rogue syndicate known as the Broken Circle tried to restart the Klingon War for personal gain, via a false flag attack on D\u2019Chok\u2019s vessel. Spock prevented the attack by destroying the false Federation starship. When D\u2019Chok questioned his motivations, Spock suggested they open a barrel of bloodwine to conclude their discussion and show that he could be trusted. D\u2019Chok was impressed at this suggestion from a Vulcan, and was eager to see the results in person. \n\nSince then, D\u2019Chok has continued to excel in the Klingon military, being particularly noted for his genial personality and diplomatic qualities - especially towards non-Klingons. It is surely only a matter of time before Chancellor L\u2019Rell promotes him to the rank of General.",
+  "class": "command",
+  "group": "strange new worlds",
+  "faction": "klingon",
+  "rarity": "epic",
+  "ability_info": {
+    "captain_maneuver": {
+      "name": "Chain of Command",
+      "bonus": "This Officer does not have a Captain's Maneuver. Equipping this Officer as the captain of a ship provides no benefit.",
+      "percentage": true,
+      "value": 0.0
+    },
+    "officer_ability": {
+      "name": "May Your Blood Scream",
+      "bonus": "",
+      "percentage": true
+    },
+    "below_decks_ability": {
+      "name": "Superior Might",
+      "bonus": "Below-Deck Abilities are only activated when assigned to a below-decks slot on a ship.",
+      "percentage": true
+    }
+  },
+  "synergy": {
+    "command": 0.0,
+    "engineering": 0.0,
+    "science": 0.0
+  },
+  "traits": [
+    {
+      "name": "Leader",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 1500
+        },
+        {
+          "level": 2,
+          "trait_xp": 2700
+        },
+        {
+          "level": 3,
+          "trait_xp": 3800
+        }
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Confident",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 7650
+        },
+        {
+          "level": 2,
+          "trait_xp": 6000
+        },
+        {
+          "level": 3,
+          "trait_xp": 7000
+        },
+        {
+          "level": 4,
+          "trait_xp": 8850
+        }
+      ],
+      "tier": 2
+    },
+    {
+      "name": "Passionate",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 10000
+        },
+        {
+          "level": 2,
+          "trait_xp": 4000
+        },
+        {
+          "level": 3,
+          "trait_xp": 7000
+        },
+        {
+          "level": 4,
+          "trait_xp": 10000
+        },
+        {
+          "level": 5,
+          "trait_xp": 15000
+        },
+        {
+          "level": 6,
+          "trait_xp": 23000
+        },
+        {
+          "level": 7,
+          "trait_xp": 42000
+        },
+        {
+          "level": 8,
+          "trait_xp": 68000
+        },
+        {
+          "level": 9,
+          "trait_xp": 107000
+        }
+      ],
+      "tier": 3
+    }
+  ],
+  "ranks": [
+    {
+      "rank_id": 1,
+      "name": "ENSIGN I",
+      "officer_ability_value": 10.0,
+      "requirements": {
+        "badges": 0,
+        "credits": 0,
+        "others": [],
+        "shards": 130,
+        "xp": 0
+      },
+      "below_deck_ability_value": 7.0
+    },
+    {
+      "rank_id": 2,
+      "name": "LIEUTENANT JG II",
+      "officer_ability_value": 20.0,
+      "requirements": {
+        "badges": 0,
+        "credits": 1100,
+        "others": [],
+        "shards": 130,
+        "xp": 50000
+      },
+      "below_deck_ability_value": 10.0
+    },
+    {
+      "rank_id": 3,
+      "name": "LIEUTENANT III",
+      "officer_ability_value": 35.0,
+      "requirements": {
+        "badges": 1,
+        "credits": 4500,
+        "others": [],
+        "shards": 260,
+        "xp": 500000
+      },
+      "below_deck_ability_value": 15.0
+    },
+    {
+      "rank_id": 4,
+      "name": "LT. COMMANDER IV",
+      "officer_ability_value": 50.0,
+      "requirements": {
+        "badges": 2,
+        "credits": 11500,
+        "others": [],
+        "shards": 390,
+        "xp": 1250000
+      },
+      "below_deck_ability_value": 21.0
+    },
+    {
+      "rank_id": 5,
+      "name": "COMMANDER V",
+      "officer_ability_value": 75.0,
+      "requirements": {
+        "badges": 4,
+        "credits": 25000,
+        "others": [],
+        "shards": 1040,
+        "xp": 2500000
+      },
+      "below_deck_ability_value": 30.0
+    }
+  ],
+  "img_url": "./assets/snw_dchok.png"
+}

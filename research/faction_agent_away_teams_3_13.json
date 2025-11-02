@@ -1,0 +1,48 @@
+{
+  "research_name": "Faction Agent",
+  "description": "Permanently grants the ability to get one extra away team assignment from a faction. Factions will only offer assignments to those who have a high enough reputation",
+  "location": {
+    "column": 13,
+    "row": 3,
+    "tree": "away teams"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 97860,
+      "increased_power": 5750,
+      "requirements": [
+        {
+          "name": "Special Assignments: Blueprints",
+          "level": 1
+        },
+        {
+          "name": "Shuttle Bay",
+          "level": 28
+        },
+        {
+          "name": "Operations",
+          "level": 32
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "service award",
+            "value": 9375
+          }
+        ]
+      },
+      "rewards": [
+        {
+          "type": "Independent Credits",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "img_url": "./assets/faction_agent_away_teams_3_13.png"
+}

@@ -1,0 +1,68 @@
+{
+  "research_name": "U.S.S. Vengeance Optimization",
+  "description": "Increases cost efficiency for the U.S.S. Vengeance ship parts.",
+  "location": {
+    "column": 11,
+    "row": 2,
+    "tree": "aggregation"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 23673600,
+      "increased_power": 660000,
+      "requirements": [
+        {
+          "name": "Apex Shred vs Aggregation",
+          "level": 1
+        },
+        {
+          "name": "Recon Locus",
+          "level": 70
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "aggregation smuggled studies",
+            "value": 25000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.075
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 24883200,
+      "increased_power": 10000,
+      "requirements": [
+        {
+          "name": "Recon Locus",
+          "level": 70
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "aggregation smuggled studies",
+            "value": 25000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.15
+      }
+    }
+  ],
+  "img_url": "./assets/uss_vengeance_optimization_aggregation_2_11.png"
+}

@@ -1,0 +1,38 @@
+{
+  "research_name": "Prime Recycle Reward Tokens",
+  "description": "Increases base GS-31 Recycle Reward Tokens from the GS-31 Strongbox by 100%.",
+  "location": {
+    "column": 83,
+    "row": 3,
+    "tree": "starships"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 240,
+      "increased_power": 35500,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 45
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "prime recycle reward tokens particle",
+            "value": 1000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 1.0
+      }
+    }
+  ],
+  "img_url": "./assets/prime_recycle_reward_tokens_starships_3_83.png"
+}

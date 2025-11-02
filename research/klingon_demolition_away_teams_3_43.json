@@ -1,0 +1,316 @@
+{
+  "research_name": "Klingon Demolition",
+  "description": "Increases base damage against Klingon armada targets.",
+  "location": {
+    "column": 43,
+    "row": 3,
+    "tree": "away teams"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 15537960,
+      "increased_power": 24000,
+      "requirements": [
+        {
+          "name": "Federation Demolition",
+          "level": 1
+        },
+        {
+          "name": "R&D Department",
+          "level": 40
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "service award",
+            "value": 235355
+          },
+          {
+            "type": "merit of honor",
+            "value": 25
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.06
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 14801760,
+      "increased_power": 2000,
+      "requirements": [
+        {
+          "name": "Infamy and Heroism",
+          "level": 3
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "service award",
+            "value": 335040
+          },
+          {
+            "type": "merit of honor",
+            "value": 35
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.12
+      }
+    },
+    {
+      "level": 3,
+      "research_time": 23119200,
+      "increased_power": 2000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 42
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "service award",
+            "value": 465860
+          },
+          {
+            "type": "merit of honor",
+            "value": 45
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.19
+      }
+    },
+    {
+      "level": 4,
+      "research_time": 32272680,
+      "increased_power": 2500,
+      "requirements": [
+        {
+          "name": "Infamy and Heroism",
+          "level": 4
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "service award",
+            "value": 657834
+          },
+          {
+            "type": "merit of honor",
+            "value": 65
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.26
+      }
+    },
+    {
+      "level": 5,
+      "research_time": 42827580,
+      "increased_power": 2500,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 44
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "service award",
+            "value": 917430
+          },
+          {
+            "type": "merit of honor",
+            "value": 90
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.34
+      }
+    },
+    {
+      "level": 6,
+      "research_time": 56199420,
+      "increased_power": 2500,
+      "requirements": [
+        {
+          "name": "Infamy and Heroism",
+          "level": 5
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "service award",
+            "value": 1259626
+          },
+          {
+            "type": "merit of honor",
+            "value": 125
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.43
+      }
+    },
+    {
+      "level": 7,
+      "research_time": 97777320,
+      "increased_power": 5500,
+      "requirements": [
+        {
+          "name": "Explorer Focus Shot",
+          "level": 4
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "service award",
+            "value": 2669728
+          },
+          {
+            "type": "merit of honor",
+            "value": 275
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.54
+      }
+    },
+    {
+      "level": 8,
+      "research_time": 125063640,
+      "increased_power": 3000,
+      "requirements": [
+        {
+          "name": "Explorer Focus Shot",
+          "level": 6
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "service award",
+            "value": 4412607
+          },
+          {
+            "type": "merit of honor",
+            "value": 455
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.68
+      }
+    },
+    {
+      "level": 9,
+      "research_time": 165620100,
+      "increased_power": 3000,
+      "requirements": [
+        {
+          "name": "Explorer Focus Shot",
+          "level": 8
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "service award",
+            "value": 7673146
+          },
+          {
+            "type": "merit of honor",
+            "value": 805
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.82
+      }
+    },
+    {
+      "level": 10,
+      "research_time": 208475820,
+      "increased_power": 3000,
+      "requirements": [
+        {
+          "name": "Explorer Focus Shot",
+          "level": 10
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "service award",
+            "value": 12766604
+          },
+          {
+            "type": "merit of honor",
+            "value": 1340
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 1.0
+      }
+    }
+  ],
+  "img_url": "./assets/klingon_demolition_away_teams_3_43.png"
+}

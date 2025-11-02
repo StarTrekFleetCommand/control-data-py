@@ -1,0 +1,34 @@
+{
+  "research_name": "Dauntless Jump Drive",
+  "description": "Unlocks the Dauntless' Jump Drive, allowing it to instantly warp to another system.",
+  "location": {
+    "column": 18,
+    "row": 2,
+    "tree": "aggregation"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 2289600,
+      "increased_power": 98000,
+      "requirements": [
+        {
+          "name": "Active Apex Barrier",
+          "level": 1
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "u.s.s. dauntless prototype data",
+            "value": 5500
+          }
+        ]
+      }
+    }
+  ],
+  "img_url": "./assets/dauntless_jump_drive_aggregation_2_18.png"
+}

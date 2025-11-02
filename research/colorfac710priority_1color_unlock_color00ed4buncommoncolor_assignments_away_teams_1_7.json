@@ -1,0 +1,46 @@
+{
+  "research_name": "<color=#fac710>Priority 1:</color> Unlock <color=#00ed4b>Uncommon</color> Assignments",
+  "description": "Unlocks a 30% chance to get <color=#00ed4b>Uncommon</color> <color=#fac710>Priority 1</color> assignments.",
+  "location": {
+    "column": 7,
+    "row": 1,
+    "tree": "away teams"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 16601760,
+      "increased_power": 12000,
+      "requirements": [
+        {
+          "name": "<color=#fac710>Priority 1:</color> Apex Shredding",
+          "level": 1
+        },
+        {
+          "name": "Shuttle Bay",
+          "level": 26
+        },
+        {
+          "name": "Operations",
+          "level": 26
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "pioneer's crest",
+            "value": 5000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 1.0
+      }
+    }
+  ],
+  "img_url": "./assets/colorfac710priority_1color_unlock_color00ed4buncommoncolor_assignments_away_teams_1_7.png"
+}

@@ -1,0 +1,708 @@
+{
+  "research_name": "Mantis Cargo",
+  "description": "Increases Mantis Base Max Cargo.",
+  "location": {
+    "column": 17,
+    "row": 2,
+    "tree": "starships"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 1594380,
+      "increased_power": 19250,
+      "requirements": [
+        {
+          "name": "Foundry",
+          "level": 33
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 1400000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "synthetic ion",
+            "value": 1000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.6
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 1913220,
+      "increased_power": 1125,
+      "requirements": [
+        {
+          "name": "Mantis Cargo",
+          "level": 1
+        },
+        {
+          "name": "Foundry",
+          "level": 33
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 1680000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "synthetic ion",
+            "value": 4000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.8
+      }
+    },
+    {
+      "level": 3,
+      "research_time": 2131680,
+      "increased_power": 1125,
+      "requirements": [
+        {
+          "name": "Mantis Cargo",
+          "level": 2
+        },
+        {
+          "name": "Foundry",
+          "level": 34
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 2240000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "synthetic ion",
+            "value": 5000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 1.0
+      }
+    },
+    {
+      "level": 4,
+      "research_time": 2860020,
+      "increased_power": 2000,
+      "requirements": [
+        {
+          "name": "Mantis Cargo",
+          "level": 3
+        },
+        {
+          "name": "Foundry",
+          "level": 35
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 3340000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "synthetic ion",
+            "value": 18000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 1.4
+      }
+    },
+    {
+      "level": 5,
+      "research_time": 3432060,
+      "increased_power": 1000,
+      "requirements": [
+        {
+          "name": "Mantis Cargo",
+          "level": 4
+        },
+        {
+          "name": "Foundry",
+          "level": 35
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 4008000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "synthetic ion",
+            "value": 19000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 1.7
+      }
+    },
+    {
+      "level": 6,
+      "research_time": 3727860,
+      "increased_power": 1000,
+      "requirements": [
+        {
+          "name": "Mantis Cargo",
+          "level": 5
+        },
+        {
+          "name": "Foundry",
+          "level": 36
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 4980000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "synthetic ion",
+            "value": 19500
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 2.0
+      }
+    },
+    {
+      "level": 7,
+      "research_time": 6562500,
+      "increased_power": 5000,
+      "requirements": [
+        {
+          "name": "Mantis Cargo",
+          "level": 6
+        },
+        {
+          "name": "Foundry",
+          "level": 38
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 11600000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "synthetic ion",
+            "value": 44000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 2.15
+      }
+    },
+    {
+      "level": 8,
+      "research_time": 8864580,
+      "increased_power": 2500,
+      "requirements": [
+        {
+          "name": "Mantis Cargo",
+          "level": 7
+        },
+        {
+          "name": "Foundry",
+          "level": 39
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 19800000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "synthetic ion",
+            "value": 45000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 2.2
+      }
+    },
+    {
+      "level": 9,
+      "research_time": 13042860,
+      "increased_power": 3000,
+      "requirements": [
+        {
+          "name": "Mantis Cargo",
+          "level": 8
+        },
+        {
+          "name": "Foundry",
+          "level": 40
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 31200000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "synthetic ion",
+            "value": 45500
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 2.4
+      }
+    },
+    {
+      "level": 10,
+      "research_time": 16475820,
+      "increased_power": 3000,
+      "requirements": [
+        {
+          "name": "Mantis Cargo",
+          "level": 9
+        },
+        {
+          "name": "Foundry",
+          "level": 41
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 45300000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "synthetic ion",
+            "value": 64000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 2.45
+      }
+    },
+    {
+      "level": 11,
+      "research_time": 19771020,
+      "increased_power": 3500,
+      "requirements": [
+        {
+          "name": "Mantis Cargo",
+          "level": 10
+        },
+        {
+          "name": "Foundry",
+          "level": 41
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 54360000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "synthetic ion",
+            "value": 65000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 2.5
+      }
+    },
+    {
+      "level": 12,
+      "research_time": 32272680,
+      "increased_power": 3500,
+      "requirements": [
+        {
+          "name": "Mantis Cargo",
+          "level": 11
+        },
+        {
+          "name": "Foundry",
+          "level": 43
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 97800000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "synthetic ion",
+            "value": 85000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 2.6
+      }
+    },
+    {
+      "level": 13,
+      "research_time": 38727240,
+      "increased_power": 3500,
+      "requirements": [
+        {
+          "name": "Mantis Cargo",
+          "level": 12
+        },
+        {
+          "name": "Foundry",
+          "level": 43
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 117360000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "synthetic ion",
+            "value": 86000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 2.75
+      }
+    },
+    {
+      "level": 14,
+      "research_time": 56199480,
+      "increased_power": 3500,
+      "requirements": [
+        {
+          "name": "Mantis Cargo",
+          "level": 13
+        },
+        {
+          "name": "Foundry",
+          "level": 45
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 212400000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "synthetic ion",
+            "value": 150000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 2.8
+      }
+    },
+    {
+      "level": 15,
+      "research_time": 75790380,
+      "increased_power": 4000,
+      "requirements": [
+        {
+          "name": "Mantis Cargo",
+          "level": 14
+        },
+        {
+          "name": "Foundry",
+          "level": 46
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 296200000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "synthetic ion",
+            "value": 158000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 3.1
+      }
+    },
+    {
+      "level": 16,
+      "research_time": 97777260,
+      "increased_power": 4000,
+      "requirements": [
+        {
+          "name": "Mantis Cargo",
+          "level": 15
+        },
+        {
+          "name": "Foundry",
+          "level": 47
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 438000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "synthetic ion",
+            "value": 225000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 3.25
+      }
+    },
+    {
+      "level": 17,
+      "research_time": 117332760,
+      "increased_power": 4500,
+      "requirements": [
+        {
+          "name": "Mantis Cargo",
+          "level": 16
+        },
+        {
+          "name": "Foundry",
+          "level": 47
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 525600000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "synthetic ion",
+            "value": 230000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 3.5
+      }
+    },
+    {
+      "level": 18,
+      "research_time": 165620160,
+      "increased_power": 4500,
+      "requirements": [
+        {
+          "name": "Mantis Cargo",
+          "level": 17
+        },
+        {
+          "name": "Foundry",
+          "level": 49
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 1197000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "synthetic ion",
+            "value": 390000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 4.0
+      }
+    },
+    {
+      "level": 19,
+      "research_time": 198744180,
+      "increased_power": 2000,
+      "requirements": [
+        {
+          "name": "Mantis Cargo",
+          "level": 18
+        },
+        {
+          "name": "Foundry",
+          "level": 49
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 1256850000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "synthetic ion",
+            "value": 600000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 4.5
+      }
+    },
+    {
+      "level": 20,
+      "research_time": 238492980,
+      "increased_power": 3000,
+      "requirements": [
+        {
+          "name": "Mantis Cargo",
+          "level": 19
+        },
+        {
+          "name": "Foundry",
+          "level": 49
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 1319692500
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "synthetic ion",
+            "value": 1040000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 5.0
+      }
+    }
+  ],
+  "img_url": "./assets/mantis_cargo_starships_2_17.png"
+}

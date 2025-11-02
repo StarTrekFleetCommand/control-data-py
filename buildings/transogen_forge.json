@@ -1,0 +1,2487 @@
+{
+  "building_name": "Transogen Forge",
+  "description": "The Transogen Forge provides bonuses to Common, Uncommon and Rare Transogen Mining Speed and increases the rewards from their respective refineries. \n\nIt also unlocks the Forge Exocomp slot, which can be used with powerful Forge Consumables.\n\nAlongside this it unlocks One-Time Reward bundles of Refined Transogen, Parsteel, Tritanium, Dilithium, Sigma Speeds and Materials if the Forge Reward Claim Unlock research node is researched.",
+  "levels": [
+    {
+      "level": 1,
+      "build_time": 35,
+      "increased_power": 20,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 30
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 800
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge key",
+            "value": 100
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.01,
+        "bonus2": 250.0,
+        "bonus3": 1.0,
+        "bonus4": 1.0,
+        "bonus5": 1.0,
+        "bonus6": 0.02,
+        "bonus7": 1.0
+      },
+      "rewards": []
+    },
+    {
+      "level": 2,
+      "build_time": 150,
+      "increased_power": 20,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 30
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 1000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 30
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.02,
+        "bonus2": 250.0,
+        "bonus3": 4.0,
+        "bonus4": 5.0,
+        "bonus5": 7.0,
+        "bonus6": 0.03,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 3,
+      "build_time": 330,
+      "increased_power": 25,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 30
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 1200
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 35
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.02,
+        "bonus2": 250.0,
+        "bonus3": 7.0,
+        "bonus4": 9.0,
+        "bonus5": 13.0,
+        "bonus6": 0.05,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 4,
+      "build_time": 480,
+      "increased_power": 25,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 30
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 1500
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 35
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.03,
+        "bonus2": 250.0,
+        "bonus3": 10.0,
+        "bonus4": 13.0,
+        "bonus5": 19.0,
+        "bonus6": 0.06,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 5,
+      "build_time": 780,
+      "increased_power": 30,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 30
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 1800
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 35
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.04,
+        "bonus2": 250.0,
+        "bonus3": 13.0,
+        "bonus4": 17.0,
+        "bonus5": 25.0,
+        "bonus6": 0.08,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 6,
+      "build_time": 1380,
+      "increased_power": 40,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 30
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 2200
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 40
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.05,
+        "bonus2": 250.0,
+        "bonus3": 16.0,
+        "bonus4": 21.0,
+        "bonus5": 31.0,
+        "bonus6": 0.09,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 7,
+      "build_time": 2640,
+      "increased_power": 50,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 30
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 3000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 40
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.05,
+        "bonus2": 250.0,
+        "bonus3": 19.0,
+        "bonus4": 25.0,
+        "bonus5": 37.0,
+        "bonus6": 0.11,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 8,
+      "build_time": 3600,
+      "increased_power": 60,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 30
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 4000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 50
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.06,
+        "bonus2": 250.0,
+        "bonus3": 22.0,
+        "bonus4": 29.0,
+        "bonus5": 43.0,
+        "bonus6": 0.12,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 9,
+      "build_time": 5400,
+      "increased_power": 70,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 30
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 5500
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 55
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.07,
+        "bonus2": 250.0,
+        "bonus3": 25.0,
+        "bonus4": 33.0,
+        "bonus5": 49.0,
+        "bonus6": 0.14,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 10,
+      "build_time": 6600,
+      "increased_power": 80,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 30
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 7000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 55
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.08,
+        "bonus2": 625.0,
+        "bonus3": 28.0,
+        "bonus4": 37.0,
+        "bonus5": 55.0,
+        "bonus6": 0.15,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 11,
+      "build_time": 7500,
+      "increased_power": 105,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 30
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 6800
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 60
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.08,
+        "bonus2": 625.0,
+        "bonus3": 31.0,
+        "bonus4": 41.0,
+        "bonus5": 61.0,
+        "bonus6": 0.17,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 12,
+      "build_time": 13800,
+      "increased_power": 125,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 30
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 9350
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 65
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.09,
+        "bonus2": 625.0,
+        "bonus3": 34.0,
+        "bonus4": 45.0,
+        "bonus5": 67.0,
+        "bonus6": 0.19,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 13,
+      "build_time": 19500,
+      "increased_power": 150,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 30
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 13600
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 65
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.1,
+        "bonus2": 625.0,
+        "bonus3": 37.0,
+        "bonus4": 49.0,
+        "bonus5": 73.0,
+        "bonus6": 0.21,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 14,
+      "build_time": 25920,
+      "increased_power": 175,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 30
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 18700
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 70
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.11,
+        "bonus2": 625.0,
+        "bonus3": 40.0,
+        "bonus4": 53.0,
+        "bonus5": 79.0,
+        "bonus6": 0.23,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 15,
+      "build_time": 34560,
+      "increased_power": 200,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 30
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 25500
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 80
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.11,
+        "bonus2": 625.0,
+        "bonus3": 43.0,
+        "bonus4": 57.0,
+        "bonus5": 85.0,
+        "bonus6": 0.25,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 16,
+      "build_time": 41760,
+      "increased_power": 225,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 30
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 34000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 85
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.12,
+        "bonus2": 625.0,
+        "bonus3": 44.0,
+        "bonus4": 61.0,
+        "bonus5": 91.0,
+        "bonus6": 0.27,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 17,
+      "build_time": 43200,
+      "increased_power": 300,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 30
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 47600
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 90
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.13,
+        "bonus2": 625.0,
+        "bonus3": 45.0,
+        "bonus4": 65.0,
+        "bonus5": 97.0,
+        "bonus6": 0.29,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 18,
+      "build_time": 64800,
+      "increased_power": 300,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 30
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 68000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 95
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.14,
+        "bonus2": 625.0,
+        "bonus3": 46.0,
+        "bonus4": 69.0,
+        "bonus5": 103.0,
+        "bonus6": 0.31,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 19,
+      "build_time": 93600,
+      "increased_power": 300,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 30
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 102000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 110
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.14,
+        "bonus2": 625.0,
+        "bonus3": 47.0,
+        "bonus4": 73.0,
+        "bonus5": 109.0,
+        "bonus6": 0.33,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 20,
+      "build_time": 134640,
+      "increased_power": 400,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 30
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 144500
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 115
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.15,
+        "bonus2": 1250.0,
+        "bonus3": 48.0,
+        "bonus4": 77.0,
+        "bonus5": 115.0,
+        "bonus6": 0.35,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 21,
+      "build_time": 117360,
+      "increased_power": 400,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 30
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 243270
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 120
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.16,
+        "bonus2": 1250.0,
+        "bonus3": 49.0,
+        "bonus4": 81.0,
+        "bonus5": 121.0,
+        "bonus6": 0.38,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 22,
+      "build_time": 177840,
+      "increased_power": 500,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 30
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 378420
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 130
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.17,
+        "bonus2": 1250.0,
+        "bonus3": 50.0,
+        "bonus4": 85.0,
+        "bonus5": 127.0,
+        "bonus6": 0.4,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 23,
+      "build_time": 216000,
+      "increased_power": 500,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 30
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 622710
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 140
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.17,
+        "bonus2": 1250.0,
+        "bonus3": 51.0,
+        "bonus4": 89.0,
+        "bonus5": 133.0,
+        "bonus6": 0.43,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 24,
+      "build_time": 264960,
+      "increased_power": 600,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 30
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 981240
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 150
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.18,
+        "bonus2": 1250.0,
+        "bonus3": 52.0,
+        "bonus4": 93.0,
+        "bonus5": 139.0,
+        "bonus6": 0.45,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 25,
+      "build_time": 237600,
+      "increased_power": 550,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 30
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 1591200
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 160
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.19,
+        "bonus2": 1250.0,
+        "bonus3": 53.0,
+        "bonus4": 97.0,
+        "bonus5": 145.0,
+        "bonus6": 0.48,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 26,
+      "build_time": 334080,
+      "increased_power": 750,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 30
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 2486250
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 175
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.2,
+        "bonus2": 1250.0,
+        "bonus3": 54.0,
+        "bonus4": 101.0,
+        "bonus5": 151.0,
+        "bonus6": 0.5,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 27,
+      "build_time": 381600,
+      "increased_power": 750,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 30
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 3794400
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 185
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.2,
+        "bonus2": 1250.0,
+        "bonus3": 55.0,
+        "bonus4": 105.0,
+        "bonus5": 157.0,
+        "bonus6": 0.53,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 28,
+      "build_time": 427680,
+      "increased_power": 750,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 30
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 5691600
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 205
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.21,
+        "bonus2": 1250.0,
+        "bonus3": 56.0,
+        "bonus4": 109.0,
+        "bonus5": 163.0,
+        "bonus6": 0.55,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 29,
+      "build_time": 491040,
+      "increased_power": 1000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 30
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 9061000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 215
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.22,
+        "bonus2": 1250.0,
+        "bonus3": 57.0,
+        "bonus4": 113.0,
+        "bonus5": 169.0,
+        "bonus6": 0.58,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 30,
+      "build_time": 531360,
+      "increased_power": 1000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 30
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 13260000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 235
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.23,
+        "bonus2": 1875.0,
+        "bonus3": 58.0,
+        "bonus4": 117.0,
+        "bonus5": 175.0,
+        "bonus6": 0.6,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 31,
+      "build_time": 669600,
+      "increased_power": 1000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 31
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 20961000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 250
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.23,
+        "bonus2": 1875.0,
+        "bonus3": 59.0,
+        "bonus4": 120.0,
+        "bonus5": 181.0,
+        "bonus6": 0.63,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 32,
+      "build_time": 685440,
+      "increased_power": 1250,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 32
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 30277000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 270
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.24,
+        "bonus2": 1875.0,
+        "bonus3": 60.0,
+        "bonus4": 123.0,
+        "bonus5": 187.0,
+        "bonus6": 0.66,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 33,
+      "build_time": 996480,
+      "increased_power": 1250,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 33
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 46835000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 290
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.25,
+        "bonus2": 2500.0,
+        "bonus3": 61.0,
+        "bonus4": 126.0,
+        "bonus5": 193.0,
+        "bonus6": 0.69,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 34,
+      "build_time": 1260000,
+      "increased_power": 1250,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 34
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 73950000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 310
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.26,
+        "bonus2": 2500.0,
+        "bonus3": 62.0,
+        "bonus4": 129.0,
+        "bonus5": 199.0,
+        "bonus6": 0.72,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 35,
+      "build_time": 1752480,
+      "increased_power": 1250,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 35
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 114444000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 335
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.26,
+        "bonus2": 2500.0,
+        "bonus3": 63.0,
+        "bonus4": 132.0,
+        "bonus5": 205.0,
+        "bonus6": 0.75,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 36,
+      "build_time": 2239200,
+      "increased_power": 1500,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 36
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 161262000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 360
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.27,
+        "bonus2": 2750.0,
+        "bonus3": 64.0,
+        "bonus4": 135.0,
+        "bonus5": 211.0,
+        "bonus6": 0.78,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 37,
+      "build_time": 2193120,
+      "increased_power": 1750,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 37
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 247860000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 390
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.28,
+        "bonus2": 3000.0,
+        "bonus3": 65.0,
+        "bonus4": 138.0,
+        "bonus5": 217.0,
+        "bonus6": 0.81,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 38,
+      "build_time": 3801600,
+      "increased_power": 1750,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 38
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 385560000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 415
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.29,
+        "bonus2": 3250.0,
+        "bonus3": 66.0,
+        "bonus4": 141.0,
+        "bonus5": 223.0,
+        "bonus6": 0.84,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 39,
+      "build_time": 5045760,
+      "increased_power": 1500,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 39
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 657900000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 450
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.29,
+        "bonus2": 3500.0,
+        "bonus3": 67.0,
+        "bonus4": 144.0,
+        "bonus5": 229.0,
+        "bonus6": 0.87,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 40,
+      "build_time": 8377920,
+      "increased_power": 2000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 40
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 2865520000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 480
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.3,
+        "bonus2": 3750.0,
+        "bonus3": 68.0,
+        "bonus4": 147.0,
+        "bonus5": 235.0,
+        "bonus6": 0.9,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 41,
+      "build_time": 7850880,
+      "increased_power": 2000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 41
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 2924000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 515
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.32,
+        "bonus2": 4000.0,
+        "bonus3": 69.0,
+        "bonus4": 150.0,
+        "bonus5": 241.0,
+        "bonus6": 0.95,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 42,
+      "build_time": 12068640,
+      "increased_power": 2000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 42
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 4355400000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 560
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.33,
+        "bonus2": 4250.0,
+        "bonus3": 70.0,
+        "bonus4": 153.0,
+        "bonus5": 247.0,
+        "bonus6": 1.0,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 43,
+      "build_time": 15945120,
+      "increased_power": 2500,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 43
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 6222000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 600
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.35,
+        "bonus2": 4500.0,
+        "bonus3": 71.0,
+        "bonus4": 156.0,
+        "bonus5": 253.0,
+        "bonus6": 1.05,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 44,
+      "build_time": 20812320,
+      "increased_power": 2500,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 44
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 9333000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 640
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.36,
+        "bonus2": 4750.0,
+        "bonus3": 72.0,
+        "bonus4": 159.0,
+        "bonus5": 259.0,
+        "bonus6": 1.1,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 45,
+      "build_time": 26867520,
+      "increased_power": 2500,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 45
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 13260000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 690
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.38,
+        "bonus2": 5000.0,
+        "bonus3": 73.0,
+        "bonus4": 162.0,
+        "bonus5": 265.0,
+        "bonus6": 1.15,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 46,
+      "build_time": 34344000,
+      "increased_power": 2500,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 46
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 18232500000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 745
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.39,
+        "bonus2": 5250.0,
+        "bonus3": 74.0,
+        "bonus4": 165.0,
+        "bonus5": 267.0,
+        "bonus6": 1.2,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 47,
+      "build_time": 43506720,
+      "increased_power": 3000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 47
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 26520000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 800
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.41,
+        "bonus2": 5500.0,
+        "bonus3": 75.0,
+        "bonus4": 168.0,
+        "bonus5": 269.0,
+        "bonus6": 1.25,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 48,
+      "build_time": 54660960,
+      "increased_power": 3000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 48
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 42840000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 860
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.42,
+        "bonus2": 5750.0,
+        "bonus3": 76.0,
+        "bonus4": 171.0,
+        "bonus5": 271.0,
+        "bonus6": 1.3,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 49,
+      "build_time": 68152320,
+      "increased_power": 3000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 49
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 71400000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 925
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.44,
+        "bonus2": 6000.0,
+        "bonus3": 77.0,
+        "bonus4": 174.0,
+        "bonus5": 273.0,
+        "bonus6": 1.35,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 50,
+      "build_time": 84376800,
+      "increased_power": 3000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 50
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 124950000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 990
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.45,
+        "bonus2": 6250.0,
+        "bonus3": 78.0,
+        "bonus4": 177.0,
+        "bonus5": 275.0,
+        "bonus6": 1.4,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 51,
+      "build_time": 89439840,
+      "increased_power": 3500,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 51
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 623220000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 1070
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.47,
+        "bonus2": 6500.0,
+        "bonus3": 79.0,
+        "bonus4": 180.0,
+        "bonus5": 277.0,
+        "bonus6": 1.45,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 52,
+      "build_time": 94805280,
+      "increased_power": 3500,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 52
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 1127100000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 1145
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.48,
+        "bonus2": 6750.0,
+        "bonus3": 80.0,
+        "bonus4": 183.0,
+        "bonus5": 279.0,
+        "bonus6": 1.5,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 53,
+      "build_time": 100494720,
+      "increased_power": 4000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 53
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 1893120000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 1230
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.5,
+        "bonus2": 7000.0,
+        "bonus3": 81.0,
+        "bonus4": 186.0,
+        "bonus5": 281.0,
+        "bonus6": 1.55,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 54,
+      "build_time": 106524000,
+      "increased_power": 4000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 54
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 2839680000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 1325
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.51,
+        "bonus2": 7250.0,
+        "bonus3": 82.0,
+        "bonus4": 189.0,
+        "bonus5": 283.0,
+        "bonus6": 1.6,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 55,
+      "build_time": 112914720,
+      "increased_power": 4000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 55
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 4826640000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 1420
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.53,
+        "bonus2": 7500.0,
+        "bonus3": 83.0,
+        "bonus4": 192.0,
+        "bonus5": 285.0,
+        "bonus6": 1.65,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 56,
+      "build_time": 119689920,
+      "increased_power": 4000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 56
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 7584720000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 1530
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.54,
+        "bonus2": 7750.0,
+        "bonus3": 84.0,
+        "bonus4": 195.0,
+        "bonus5": 287.0,
+        "bonus6": 1.7,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 57,
+      "build_time": 126871200,
+      "increased_power": 4000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 57
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 11873888000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 1645
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.56,
+        "bonus2": 8000.0,
+        "bonus3": 85.0,
+        "bonus4": 198.0,
+        "bonus5": 289.0,
+        "bonus6": 1.75,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 58,
+      "build_time": 134484480,
+      "increased_power": 5000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 58
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 17155584000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 1770
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.57,
+        "bonus2": 8250.0,
+        "bonus3": 86.0,
+        "bonus4": 201.0,
+        "bonus5": 291.0,
+        "bonus6": 1.8,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 59,
+      "build_time": 142552800,
+      "increased_power": 5000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 59
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 25733376000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 1900
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.59,
+        "bonus2": 8500.0,
+        "bonus3": 87.0,
+        "bonus4": 204.0,
+        "bonus5": 293.0,
+        "bonus6": 1.85,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 60,
+      "build_time": 151106400,
+      "increased_power": 5000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 60
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 40188000000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 2045
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.6,
+        "bonus2": 8750.0,
+        "bonus3": 88.0,
+        "bonus4": 207.0,
+        "bonus5": 295.0,
+        "bonus6": 1.9,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 61,
+      "build_time": 3496320,
+      "increased_power": 6000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 61
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 290700
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 2195
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.62,
+        "bonus2": 9000.0,
+        "bonus3": 89.0,
+        "bonus4": 210.0,
+        "bonus5": 297.0,
+        "bonus6": 2.0,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 62,
+      "build_time": 4720320,
+      "increased_power": 6000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 62
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 443700
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 2365
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.63,
+        "bonus2": 9250.0,
+        "bonus3": 90.0,
+        "bonus4": 213.0,
+        "bonus5": 299.0,
+        "bonus6": 2.1,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 63,
+      "build_time": 6372000,
+      "increased_power": 7000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 63
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 1306620
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 2540
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.65,
+        "bonus2": 9500.0,
+        "bonus3": 91.0,
+        "bonus4": 216.0,
+        "bonus5": 301.0,
+        "bonus6": 2.2,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 64,
+      "build_time": 8602560,
+      "increased_power": 7000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 64
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 3055368
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 2730
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.66,
+        "bonus2": 9750.0,
+        "bonus3": 92.0,
+        "bonus4": 219.0,
+        "bonus5": 303.0,
+        "bonus6": 2.3,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 65,
+      "build_time": 11612160,
+      "increased_power": 8000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 65
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 6014813
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 2935
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.68,
+        "bonus2": 10000.0,
+        "bonus3": 93.0,
+        "bonus4": 222.0,
+        "bonus5": 305.0,
+        "bonus6": 2.4,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 66,
+      "build_time": 15677280,
+      "increased_power": 7000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 66
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 7507115
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 3155
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.69,
+        "bonus2": 10500.0,
+        "bonus3": 94.0,
+        "bonus4": 225.0,
+        "bonus5": 307.0,
+        "bonus6": 2.5,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 67,
+      "build_time": 21163680,
+      "increased_power": 9000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 67
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 9851500
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 3390
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.71,
+        "bonus2": 11000.0,
+        "bonus3": 95.0,
+        "bonus4": 228.0,
+        "bonus5": 309.0,
+        "bonus6": 2.6,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 68,
+      "build_time": 27512640,
+      "increased_power": 8000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 68
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 13727500
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 3650
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.72,
+        "bonus2": 11500.0,
+        "bonus3": 96.0,
+        "bonus4": 231.0,
+        "bonus5": 311.0,
+        "bonus6": 2.7,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 69,
+      "build_time": 35766720,
+      "increased_power": 9000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 69
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 19218500
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 3920
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.74,
+        "bonus2": 12000.0,
+        "bonus3": 97.0,
+        "bonus4": 234.0,
+        "bonus5": 313.0,
+        "bonus6": 2.8,
+        "bonus7": 1.0
+      }
+    },
+    {
+      "level": 70,
+      "build_time": 46497600,
+      "increased_power": 9000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 70
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 26970500
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "transogen forge foundation",
+            "value": 4210
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 0.75,
+        "bonus2": 12500.0,
+        "bonus3": 98.0,
+        "bonus4": 237.0,
+        "bonus5": 315.0,
+        "bonus6": 3.0,
+        "bonus7": 1.0
+      }
+    }
+  ],
+  "bonuses": {
+    "bonus1": {
+      "name": "Isolytic Damage",
+      "percentage": false
+    },
+    "bonus2": {
+      "name": "PvP Apex Barrier",
+      "percentage": false
+    },
+    "bonus3": {
+      "name": "Common Transogen Mining Rate",
+      "percentage": true
+    },
+    "bonus4": {
+      "name": "Uncommon Transogen Mining Rate",
+      "percentage": true
+    },
+    "bonus5": {
+      "name": "Rare Transogen Mining Rate",
+      "percentage": true
+    },
+    "bonus6": {
+      "name": "Ship Scrapping Speed",
+      "percentage": true
+    },
+    "bonus7": {
+      "name": "Transogen Exocomp Slot",
+      "percentage": false
+    }
+  }
+}

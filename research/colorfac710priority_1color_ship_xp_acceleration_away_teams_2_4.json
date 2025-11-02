@@ -1,0 +1,52 @@
+{
+  "research_name": "<color=#fac710>Priority 1:</color> Ship XP Acceleration",
+  "description": "Permanently adds the chance to get standard (not Priority 1) away team assignments which reward significantly more Ship XP than existing assignments.",
+  "location": {
+    "column": 4,
+    "row": 2,
+    "tree": "away teams"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 49805280,
+      "increased_power": 15000,
+      "requirements": [
+        {
+          "name": "<color=#fac710>Priority 1:</color> Officer XP Acceleration",
+          "level": 1
+        },
+        {
+          "name": "Shuttle Bay",
+          "level": 26
+        },
+        {
+          "name": "Operations",
+          "level": 26
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "pioneer's crest",
+            "value": 12000
+          }
+        ]
+      },
+      "rewards": [
+        {
+          "type": "Mission Token",
+          "value": 1
+        }
+      ],
+      "bonus": {
+        "percentage": true,
+        "value": 10.0
+      }
+    }
+  ],
+  "img_url": "./assets/colorfac710priority_1color_ship_xp_acceleration_away_teams_2_4.png"
+}

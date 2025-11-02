@@ -1,0 +1,42 @@
+{
+  "research_name": "Titan's Wane",
+  "description": "Eliminates Weapon Fire Delay for 1 round while affected by Venomous Puncture and Max Fortified",
+  "location": {
+    "column": 40,
+    "row": 1,
+    "tree": "starships"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 75809400,
+      "increased_power": 100500,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 50
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "veridium isotope",
+            "value": 895
+          },
+          {
+            "type": "enhanced veridium isotope",
+            "value": 1000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 1.0
+      }
+    }
+  ],
+  "img_url": "./assets/titans_wane_starships_1_40.png"
+}

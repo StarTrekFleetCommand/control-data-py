@@ -1,0 +1,48 @@
+{
+  "research_name": "Prime Away Team Extension",
+  "description": "Permanently grants the ability to get one extra away team assignment",
+  "location": {
+    "column": 19,
+    "row": 2,
+    "tree": "away teams"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 41820,
+      "increased_power": 3000,
+      "requirements": [
+        {
+          "name": "Shuttle Bay",
+          "level": 22
+        },
+        {
+          "name": "Operations",
+          "level": 26
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "service award",
+            "value": 4000
+          },
+          {
+            "type": "away teams particle",
+            "value": 200
+          }
+        ]
+      },
+      "rewards": [
+        {
+          "type": "Independent Credits",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "img_url": "./assets/prime_away_team_extension_away_teams_2_19.png"
+}

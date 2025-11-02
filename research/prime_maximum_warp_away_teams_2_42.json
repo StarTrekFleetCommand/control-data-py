@@ -1,0 +1,46 @@
+{
+  "research_name": "Prime Maximum Warp",
+  "description": "Increases base warp speed for all ships.",
+  "location": {
+    "column": 42,
+    "row": 2,
+    "tree": "away teams"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 33640320,
+      "increased_power": 65000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 41
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "service award",
+            "value": 837600
+          },
+          {
+            "type": "merit of honor",
+            "value": 90
+          },
+          {
+            "type": "away teams particle",
+            "value": 1000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 2.0
+      }
+    }
+  ],
+  "img_url": "./assets/prime_maximum_warp_away_teams_2_42.png"
+}
