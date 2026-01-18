@@ -1,0 +1,210 @@
+{
+  "officer_name": "The Hierarch",
+  "description": "As the Borg made their way through the Delta Quadrant, they efficiently and mercilessly assimilated any species they encountered into the Collective. Over the eons, countless civilizations and differing ways of life have been lost to the Borg hivemind. For the Kis\u2019yhn, a once-peaceful humanoid species hailing from the Delta Quadrant, their encounter with the Borg would be no different. Assimilated and catalogued as Species 1862, the Kis\u2019yhn\u2019s way of life was decimated and erased from existence. Now, they would be forced to be nothing more than another node in the Borg\u2019s network. And yet, despite the loss of everything they once held dear, a single spark remained that would soon light the fires of their resistance.\n\nFollowing their assimilation, a lone Kis\u2019yhn would prove to be incompatible with the Borg hivemind, retaining a semblance of their original identity that could not be erased. Their resistance was quickly recognized by the Borg Queen as a \u201cvirus\u201d that could soon propagate throughout the entire Collective. In acknowledgment of this threat, the Borg Queen ordered the severance of the Kis\u2019yhn contingent, condemning them to remain lost and adrift in the Delta Quadrant, as the Collective moved on without them.\n \nHowever, the Kis\u2019yhn would not be so easily forgotten. Utilizing the Borg technology that had been forced upon them, they returned to their homeworld and consolidated their power. There, they discovered Transogen, a naturally occurring element found deep beneath the mantle of the planet. Transogen would soon prove to be their lifeblood. Not only could it be embedded into the systems of the reclaimed Borg technology, making it their own in the process, but it would also serve as a conduit for the influence of the one who inspired the Kis\u2019yhn\u2019s resistance against the Borg. This once-lowly Kis\u2019yhn has now risen up as the Hierarch of a new order. Under the banner of the Node, the Hierarch pursues only one goal - revenge against the Borg.",
+  "class": "engineering",
+  "group": "status control team",
+  "faction": "neutral",
+  "rarity": "epic",
+  "ability_info": {
+    "captain_maneuver": {
+      "name": "Twisted Blade",
+      "bonus": "The Hierarch increases Shots by {value} (200% at max synergy) for 2 rounds on round start against players.",
+      "percentage": true,
+      "value": 1.2
+    },
+    "officer_ability": {
+      "name": "Affliction",
+      "bonus": "The Hierarch has a {value} ({value} at rank {value}) chance of applying Hull Breach, Burning, or Assimilate for 2 rounds on a round start against players.",
+      "percentage": true
+    },
+    "below_decks_ability": null
+  },
+  "synergy": {
+    "command": 0.4,
+    "engineering": 0.4,
+    "science": 0.4
+  },
+  "traits": [
+    {
+      "name": "Intelligent",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 1500
+        },
+        {
+          "level": 2,
+          "trait_xp": 2700
+        },
+        {
+          "level": 3,
+          "trait_xp": 3800
+        }
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Wrathful",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 7650
+        },
+        {
+          "level": 2,
+          "trait_xp": 6000
+        },
+        {
+          "level": 3,
+          "trait_xp": 7000
+        },
+        {
+          "level": 4,
+          "trait_xp": 8850
+        }
+      ],
+      "tier": 2
+    },
+    {
+      "name": "Psionic",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 10000
+        },
+        {
+          "level": 2,
+          "trait_xp": 4000
+        },
+        {
+          "level": 3,
+          "trait_xp": 7000
+        },
+        {
+          "level": 4,
+          "trait_xp": 10000
+        },
+        {
+          "level": 5,
+          "trait_xp": 15000
+        },
+        {
+          "level": 6,
+          "trait_xp": 23000
+        },
+        {
+          "level": 7,
+          "trait_xp": 42000
+        },
+        {
+          "level": 8,
+          "trait_xp": 68000
+        },
+        {
+          "level": 9,
+          "trait_xp": 107000
+        }
+      ],
+      "tier": 3
+    }
+  ],
+  "ranks": [
+    {
+      "rank_id": 1,
+      "name": "ENSIGN I",
+      "officer_ability_value": 0.5,
+      "requirements": {
+        "badges": 0,
+        "credits": 0,
+        "others": [],
+        "shards": 120,
+        "xp": 0
+      }
+    },
+    {
+      "rank_id": 2,
+      "name": "LIEUTENANT JG II",
+      "officer_ability_value": 0.65,
+      "requirements": {
+        "badges": 0,
+        "credits": 0,
+        "others": [
+          {
+            "name": "<color=#fac710>retaliation plunder</color>",
+            "value": 4000
+          },
+          {
+            "name": "outpost retaliation medal",
+            "value": 30000
+          }
+        ],
+        "shards": 120,
+        "xp": 0
+      }
+    },
+    {
+      "rank_id": 3,
+      "name": "LIEUTENANT III",
+      "officer_ability_value": 0.8,
+      "requirements": {
+        "badges": 1,
+        "credits": 0,
+        "others": [
+          {
+            "name": "<color=#fac710>retaliation plunder</color>",
+            "value": 8000
+          },
+          {
+            "name": "outpost retaliation medal",
+            "value": 60000
+          }
+        ],
+        "shards": 240,
+        "xp": 0
+      }
+    },
+    {
+      "rank_id": 4,
+      "name": "LT. COMMANDER IV",
+      "officer_ability_value": 0.9,
+      "requirements": {
+        "badges": 2,
+        "credits": 0,
+        "others": [
+          {
+            "name": "<color=#fac710>retaliation plunder</color>",
+            "value": 15000
+          },
+          {
+            "name": "outpost retaliation medal",
+            "value": 120000
+          }
+        ],
+        "shards": 360,
+        "xp": 0
+      }
+    },
+    {
+      "rank_id": 5,
+      "name": "COMMANDER V",
+      "officer_ability_value": 1.0,
+      "requirements": {
+        "badges": 4,
+        "credits": 0,
+        "others": [
+          {
+            "name": "<color=#fac710>retaliation plunder</color>",
+            "value": 25000
+          },
+          {
+            "name": "outpost retaliation medal",
+            "value": 200000
+          }
+        ],
+        "shards": 960,
+        "xp": 0
+      }
+    }
+  ],
+  "img_url": "./assets/the_hierarch.png"
+}

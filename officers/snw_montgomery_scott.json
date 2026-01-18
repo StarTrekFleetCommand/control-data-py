@@ -1,6 +1,6 @@
 {
   "officer_name": "SNW Montgomery Scott",
-  "description": "Montgomery Scott, known to his friends as \u201cScotty,\u201d and to Commander Pelia as \u201cthat pain in my backside that could have done so much better at the Academy, but is surprisingly adept in a pinch,\u201d is an extremely promising young Starfleet engineer.\n\nAlready experienced from serving on various starships and freighters, Scott found himself stationed aboard the USS Stardiver when it was attacked and destroyed by the Gorn in the Shangdi system. His ingenuity led to him being the sole survivor, and he later assisted the crew of the USS Enterprise in their battle against the Gorn on Parnassus Beta.\n\nReunited with his old Academy professor, and Chief Engineer of the Enterprise, Commander Pelia, she has taken him under her extensive wing, sharing teachings and insights from her long lifetime - amidst a few choice insults - to help him maximize his potential. Recently promoted to a full Lieutenant, and noted for his ability to work engineering miracles, Scotty\u2019s future would appear to be very bright indeed.",
+  "description": "Montgomery Scott, known to his friends as \u201cScotty,\u201d and to Commander Pelia as \u201cthat pain in my backside that could have done so much better at the Academy, but is surprisingly adept in a pinch,\u201d is an extremely promising young Starfleet engineer.\n\nAlready experienced from serving on various starships and freighters, Scott found himself stationed aboard the U.S.S. Stardiver when it was attacked and destroyed by the Gorn in the Shangdi system. His ingenuity led to him being the sole survivor, and he later assisted the crew of the U.S.S. Enterprise in their battle against the Gorn on Parnassus Beta.\n\nReunited with his old Academy professor, and Chief Engineer of the Enterprise, Commander Pelia, she has taken him under her extensive wing, sharing teachings and insights from her long lifetime - amidst a few choice insults - to help him maximize his potential. Recently promoted to a full Lieutenant, and noted for his ability to work engineering miracles, Scotty\u2019s future would appear to be very bright indeed.",
   "class": "engineering",
   "group": "strange new worlds",
   "faction": "federation",
@@ -14,12 +14,12 @@
     },
     "officer_ability": {
       "name": "Where Are My Manners?",
-      "bonus": "",
+      "bonus": "SNW Montgomery Scott increases Isolytic Cascade Damage by {value} ({value} at rank {value}) versus Suliban Hostiles.",
       "percentage": true
     },
     "below_decks_ability": {
       "name": "Jury-Rigged",
-      "bonus": "Below-Deck Abilities are only activated when assigned to a below-decks slot on a ship.",
+      "bonus": "SNW Montgomery Scott increases the ship's Shield Health by {value} ({value} at rank {value}).\n\nBelow-Deck Abilities are only activated when assigned to a below-decks slot on a ship.",
       "percentage": true
     }
   },

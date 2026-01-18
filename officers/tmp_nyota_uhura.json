@@ -1,9 +1,9 @@
 {
-  "officer_name": "SNW T'Pring",
-  "description": "T\u2019Pring was arranged to marry Spock from a young age, but it was only in adulthood that the pair formalized their engagement, after Spock returned to Vulcan. However, T\u2019Pring had to be content with a long-distance relationship, as Spock could not ultimately forego his duties aboard the U.S.S. Enterprise. Nor did she wish to give up her responsibilities as an agent of the El-Keshtanktil, working to help Vulcan criminals purge the emotions that had led them to commit their crimes. Yet they still found time to be together, usually when T\u2019Pring visited Spock aboard the Enterprise or at a starbase - including one memorable occasion when a Vulcan ritual caused them to exchange bodies with one another!\n\nUnbeknownst to T\u2019Pring, Spock and Nurse Chapel had developed feelings for one another and had an affair aboard the Enterprise, with Spock growing more distant. Things came to a head during their engagement dinner when, despite Spock eventually managing to impress T\u2019Pring\u2019s parents, she discovered he\u2019d been hiding that he\u2019d temporarily become human. Offended he would keep this from her, she decided they should spend some time apart - though it is surely only a matter of time until they are reunited.",
+  "officer_name": "TMP Nyota Uhura",
+  "description": "Famous communications officer of the U.S.S. Enterprise, Nyota Uhura has had a long and illustrious Starfleet career, from her peerless Academy days, to multiple five-year missions aboard the Enterprise, under both Captains Pike and Kirk. Despite her initial reservations about such a career, doubting that she was good enough, she ultimately embraced the journey and boldly followed in her grandmother\u2019s footsteps.\n\nFew, if any, Starfleet officers possess Uhura\u2019s level of skill and excellence in both linguistics and exolinguistics. She not only deploys this practically as a communications officer, but also commands great diplomatic power, given her intimate knowledge of the languages and cultures of the galaxy.\n\nShe is also a master of modern and legacy communications protocols and technologies. Indeed, she was able to retrieve 20th-century NASA transmission codes aboard the Enterprise, which were integral to communication with the V\u2019ger entity, when it assailed the Solar System. On another occasion, she visited 20th-century Earth herself, aboard a commandeered Klingon Bird-of-Prey, and proved that her communications expertise even extended to whale song!\n\nNo stranger to promotion, she has recently been elevated to the rank of captain, though she is yet to receive her first command. Thus, despite the recent decommissioning of the U.S.S. Enterprise-A, a message relayed to the bridge crew by Uhura herself, her career is certainly not winding down. In fact, she is just getting started.",
   "class": "science",
-  "group": "strange new worlds",
-  "faction": "federation",
+  "group": "the motion pictures",
+  "faction": "neutral",
   "rarity": "epic",
   "ability_info": {
     "captain_maneuver": {
@@ -13,13 +13,13 @@
       "value": 0.0
     },
     "officer_ability": {
-      "name": "El-Keshtanktil Agent",
-      "bonus": "SNW T'Pring increases Armor, Shield Deflection, and Dodge by {value} ({value} at rank {value}) of total Defense against non-Armada hostiles.",
+      "name": "Message From Starfleet",
+      "bonus": "On round start vs non-Armada Hostiles, Outposts, or Retaliation Hostiles, TMP Nyota Uhura has a {value} ({value} at rank {value}) chance to apply Hull Breach for 2 rounds.",
       "percentage": true
     },
     "below_decks_ability": {
-      "name": "Logic Dictates",
-      "bonus": "SNW T'Pring Increases the amount of 3\u21f5-6\u21f5 Ore/Crystal/Gas collected by {value} ({value} at rank {value}), without draining the mining node faster.\n\nBelow-Deck Abilities are only activated when assigned to a below-decks slot on a ship.",
+      "name": "Be Careful What You Wish For",
+      "bonus": "TMP Nyota Uhura increases your ship's Isolytic Cascade Damage by {value} ({value} at rank {value}) when fighting non-Armada Hostiles, Outposts, or Retaliation Hostiles.\n\nBelow-Deck Abilities are only activated when assigned to a below-decks slot on a ship.",
       "percentage": true
     }
   },
@@ -30,7 +30,7 @@
   },
   "traits": [
     {
-      "name": "Resourceful",
+      "name": "Analytical",
       "levels": [
         {
           "level": 1,
@@ -48,7 +48,7 @@
       "tier": 1
     },
     {
-      "name": "Disciplined",
+      "name": "Loyal",
       "levels": [
         {
           "level": 1,
@@ -116,68 +116,68 @@
     {
       "rank_id": 1,
       "name": "ENSIGN I",
-      "officer_ability_value": 12.0,
+      "officer_ability_value": 0.5,
       "requirements": {
         "badges": 0,
         "credits": 0,
         "others": [],
-        "shards": 130,
+        "shards": 120,
         "xp": 0
-      },
-      "below_deck_ability_value": 0.05
-    },
-    {
-      "rank_id": 2,
-      "name": "LIEUTENANT JG II",
-      "officer_ability_value": 15.0,
-      "requirements": {
-        "badges": 0,
-        "credits": 1100,
-        "others": [],
-        "shards": 130,
-        "xp": 50000
       },
       "below_deck_ability_value": 0.1
     },
     {
-      "rank_id": 3,
-      "name": "LIEUTENANT III",
-      "officer_ability_value": 18.0,
+      "rank_id": 2,
+      "name": "LIEUTENANT JG II",
+      "officer_ability_value": 0.6,
       "requirements": {
-        "badges": 1,
-        "credits": 4500,
+        "badges": 0,
+        "credits": 1100,
         "others": [],
-        "shards": 260,
-        "xp": 500000
-      },
-      "below_deck_ability_value": 0.15
-    },
-    {
-      "rank_id": 4,
-      "name": "LT. COMMANDER IV",
-      "officer_ability_value": 21.0,
-      "requirements": {
-        "badges": 2,
-        "credits": 11500,
-        "others": [],
-        "shards": 390,
-        "xp": 1250000
+        "shards": 120,
+        "xp": 50000
       },
       "below_deck_ability_value": 0.2
     },
     {
+      "rank_id": 3,
+      "name": "LIEUTENANT III",
+      "officer_ability_value": 0.7,
+      "requirements": {
+        "badges": 1,
+        "credits": 4500,
+        "others": [],
+        "shards": 240,
+        "xp": 500000
+      },
+      "below_deck_ability_value": 0.3
+    },
+    {
+      "rank_id": 4,
+      "name": "LT. COMMANDER IV",
+      "officer_ability_value": 0.8,
+      "requirements": {
+        "badges": 2,
+        "credits": 11500,
+        "others": [],
+        "shards": 360,
+        "xp": 1250000
+      },
+      "below_deck_ability_value": 0.4
+    },
+    {
       "rank_id": 5,
       "name": "COMMANDER V",
-      "officer_ability_value": 25.0,
+      "officer_ability_value": 0.9,
       "requirements": {
         "badges": 4,
         "credits": 25000,
         "others": [],
-        "shards": 1040,
+        "shards": 960,
         "xp": 2500000
       },
-      "below_deck_ability_value": 0.3
+      "below_deck_ability_value": 0.5
     }
   ],
-  "img_url": "./assets/snw_tpring.png"
+  "img_url": "./assets/tmp_nyota_uhura.png"
 }

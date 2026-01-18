@@ -1,32 +1,32 @@
 {
-  "officer_name": "SNW M'Benga",
-  "description": "Kenyan-born Doctor Joseph M\u2019Benga is the Chief Medical Officer aboard the U.S.S. Enterprise. One of Starfleet\u2019s most skilled physicians, M\u2019Benga\u2019s knowledge encompasses much of the Federation. He has particular expertise with Vulcan biology, having conducted his medical internship on Vulcan itself.\n\nYet for all his skill, M\u2019Benga was unable to cure his daughter Rukiya of a terrible illness, storing her instead in the transporter buffers of the Enterprise until a cure could be found. Ultimately, her only chance was to stay behind with an alien entity as a being of pure consciousness. A fate better than death, to be sure.\n\nAnd M\u2019Benga has seen more than his fair share of death, meting it out himself as a Starfleet special operative known as the Ghost and serving on the front lines during the Klingon War. While outwardly, he appears measured and mild-mannered, beneath the surface beats the heart of a fierce fighter, a man who has experienced tragedy and come out the other side marked but intact, the embodiment of quiet strength.",
+  "officer_name": "TMP Hikaru Sulu",
+  "description": "Once helmsman of the U.S.S. Enterprise, now Captain of the U.S.S. Excelsior, Hikaru Sulu cuts a sharp figure and even sharper wit, in pursuit of upholding the Federation\u2019s noblest ideals. A recent accomplishment was assisting Captain Kirk and the Enterprise-A in defeating General Chang, bringing about a once-unthinkable peace with the Klingon Empire at Camp Khitomer.\n\nFond of hot tea, Sulu is a warm and approachable confidante for his crew, helping to steer the early Starfleet career of one Ensign Tuvok, who served aboard the Excelsior as a junior science officer. He also appointed Commander Janice Rand as his communications officer, having served with her aboard both the Enterprise and Enterprise-A. But once the alert condition turns red, Sulu transforms into the fine tactician demanded of his station, adopting a controlled and disciplined approach that speaks to his other loves: fencing, judo, aikido, and botany (perhaps explaining his love of tea). With a flair for the dramatic, he inspires his crew to rise to the occasion of whatever challenge lies before them, be that cataloguing gaseous anomalies, or racing to the aid of the Enterprise against General Chang.\n\nAs well as being a Starfleet career veteran, Sulu also found time to start a family. His daughter, Demora, followed in his footsteps, attending Starfleet Academy and earning her own place as the helmsman of the Enterprise-B, when it launched in 2293.",
   "class": "command",
-  "group": "strange new worlds",
-  "faction": "federation",
+  "group": "the motion pictures",
+  "faction": "neutral",
   "rarity": "epic",
   "ability_info": {
     "captain_maneuver": {
-      "name": "Butcher of J\u2019Gal",
-      "bonus": "SNW M'Benga increases all mitigation stats by {value} of Officer Health vs non-Armada Hostiles",
-      "percentage": true,
-      "value": 15.0
+      "name": "Master of This Vessel",
+      "bonus": "TMP Hikaru Sulu increases Apex Barrier by {value} for 10 rounds against non-Armada Hostiles, Outposts and Retaliation Hostiles. Works against Hostiles of level 81 and under.\n\nApex Barrier provides <b>true damage mitigation from all sources after all other bonuses. Every 100 Apex Barrier increases the damage you can take by 1%.\n\nThis ability does not trigger when Tal is assigned to the bridge of your ship.",
+      "percentage": false,
+      "value": 2000.0
     },
     "officer_ability": {
-      "name": "Fight for Peace",
-      "bonus": "SNW M'Benga increases SHP every round by {value} ({value} at rank {value}) vs non-Armada Hostiles",
+      "name": "Don't Call Me Tiny",
+      "bonus": "On round start, TMP Hikaru Sulu increases your ship's critical chance by {value} ({value} at rank {value}) for 4 rounds, if any state is applied to non-Armada Hostiles, Outposts or Retaliation Hostiles.",
       "percentage": true
     },
     "below_decks_ability": null
   },
   "synergy": {
-    "command": 15.0,
-    "engineering": 25.0,
-    "science": 25.0
+    "command": 3000.0,
+    "engineering": 3000.0,
+    "science": 3000.0
   },
   "traits": [
     {
-      "name": "Doctor",
+      "name": "Captain",
       "levels": [
         {
           "level": 1,
@@ -44,7 +44,7 @@
       "tier": 1
     },
     {
-      "name": "Deceptive",
+      "name": "Astronomer",
       "levels": [
         {
           "level": 1,
@@ -66,7 +66,7 @@
       "tier": 2
     },
     {
-      "name": "Adaptable",
+      "name": "Passionate",
       "levels": [
         {
           "level": 1,
@@ -160,7 +160,7 @@
     {
       "rank_id": 5,
       "name": "COMMANDER V",
-      "officer_ability_value": 0.15,
+      "officer_ability_value": 0.1,
       "requirements": {
         "badges": 4,
         "credits": 25000,
@@ -170,5 +170,5 @@
       }
     }
   ],
-  "img_url": "./assets/snw_mbenga.png"
+  "img_url": "./assets/tmp_hikaru_sulu.png"
 }
