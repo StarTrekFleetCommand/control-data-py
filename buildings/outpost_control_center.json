@@ -1,0 +1,2956 @@
+{
+  "building_name": "Outpost Control Center",
+  "description": "As an Independent operator's Station continues to develop and grow, so too does their reputation. Following the emergence of new and significant threats throughout the galaxy, a select few of the most prosperous Independents have been commissioned to engage and neutralize hostile Outposts. The Outpost Control Center enables an Independent to coordinate large-scale fleets and oversee assaults on Outposts with ease. Use the Outpost Control Center to generate Material Fragments.\n\nReach level 40 of Outpost Control Center to increase the Outpost Fleet size by 1, and level 67 to unlock an additional Fleet preset!\n\nMaterial Fragments collected from this building can be exchanged for materials of your choice in the Outpost Refinery. As you level up the building higher grades and rarities of material exchanges will unlock and improve!\n\u2022Level 1: Unlock 5\u2605 Uncommon\n\u2022Level 15: Improve 5\u2605 Uncommon\n\u2022Level 20: Unlock 5\u2605 Rare\n\u2022Level 30: Improve 5\u2605 Rare\n\u2022Level 37: Unlock 6\u2605 Uncommon\n\u2022Level 45: Improve 6\u2605 Uncommon\n\u2022Level 50: Unlock 5\u2605 Epic\n\u2022Level 55: Improve 5\u2605 Epic\n\u2022Level 60: Unlock 7\u2605 Uncommon\n\u2022Level 63: Improve 7\u2605 Uncommon\n\u2022Level 67: Unlock 6\u2605 Rare\n\u2022Level 70: Improve 6\u2605 Rare\n\u2022Level 75: Unlock 7\u2605 Rare\n\u2022Level 80: Improve 7\u2605 Rare",
+  "levels": [
+    {
+      "level": 1,
+      "build_time": 35,
+      "increased_power": 20,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 51
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 29713500000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "outpost control schematics",
+            "value": 1
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 4167.0,
+        "bonus2": 50000.0,
+        "bonus3": 300000.0,
+        "bonus4": 0.09,
+        "bonus5": 0.25,
+        "bonus6": 1.0,
+        "bonus7": 2.0
+      }
+    },
+    {
+      "level": 2,
+      "build_time": 150,
+      "increased_power": 20,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 51
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 62482150000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 210
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 4173.0,
+        "bonus2": 50145.0,
+        "bonus3": 300450.0,
+        "bonus4": 0.1,
+        "bonus5": 0.5,
+        "bonus6": 1.01,
+        "bonus7": 2.0
+      }
+    },
+    {
+      "level": 3,
+      "build_time": 330,
+      "increased_power": 25,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 51
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 95554875000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 210
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 4191.0,
+        "bonus2": 50465.0,
+        "bonus3": 301850.0,
+        "bonus4": 0.11,
+        "bonus5": 0.75,
+        "bonus6": 1.03,
+        "bonus7": 2.0
+      }
+    },
+    {
+      "level": 4,
+      "build_time": 480,
+      "increased_power": 25,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 51
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 128849400000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 220
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 4221.0,
+        "bonus2": 50980.0,
+        "bonus3": 304200.0,
+        "bonus4": 0.12,
+        "bonus5": 1.0,
+        "bonus6": 1.05,
+        "bonus7": 2.0
+      }
+    },
+    {
+      "level": 5,
+      "build_time": 780,
+      "increased_power": 30,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 51
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 162308025000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 220
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 4263.0,
+        "bonus2": 51695.0,
+        "bonus3": 307450.0,
+        "bonus4": 0.13,
+        "bonus5": 1.25,
+        "bonus6": 1.09,
+        "bonus7": 2.0
+      }
+    },
+    {
+      "level": 6,
+      "build_time": 1380,
+      "increased_power": 40,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 51
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 195903625000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 220
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 4317.0,
+        "bonus2": 52565.0,
+        "bonus3": 311650.0,
+        "bonus4": 0.14,
+        "bonus5": 1.5,
+        "bonus6": 1.13,
+        "bonus7": 2.0
+      }
+    },
+    {
+      "level": 7,
+      "build_time": 2640,
+      "increased_power": 50,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 51
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 338262800000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 330
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 4383.0,
+        "bonus2": 53615.0,
+        "bonus3": 316800.0,
+        "bonus4": 0.16,
+        "bonus5": 1.75,
+        "bonus6": 1.17,
+        "bonus7": 2.0
+      }
+    },
+    {
+      "level": 8,
+      "build_time": 3600,
+      "increased_power": 60,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 51
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 727180975000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 610
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 4462.0,
+        "bonus2": 54820.0,
+        "bonus3": 322900.0,
+        "bonus4": 0.18,
+        "bonus5": 2.0,
+        "bonus6": 1.22,
+        "bonus7": 2.0
+      }
+    },
+    {
+      "level": 9,
+      "build_time": 5400,
+      "increased_power": 70,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 51
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 994252850000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 740
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 4552.0,
+        "bonus2": 56245.0,
+        "bonus3": 329950.0,
+        "bonus4": 0.2,
+        "bonus5": 2.25,
+        "bonus6": 1.28,
+        "bonus7": 2.0
+      }
+    },
+    {
+      "level": 10,
+      "build_time": 6600,
+      "increased_power": 80,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 51
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 1307314250000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 880
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 4654.0,
+        "bonus2": 57835.0,
+        "bonus3": 337950.0,
+        "bonus4": 0.22,
+        "bonus5": 2.5,
+        "bonus6": 1.34,
+        "bonus7": 2.0
+      }
+    },
+    {
+      "level": 11,
+      "build_time": 7500,
+      "increased_power": 105,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 51
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 1670968125000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 1000
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 4768.0,
+        "bonus2": 59625.0,
+        "bonus3": 346950.0,
+        "bonus4": 0.24,
+        "bonus5": 2.75,
+        "bonus6": 1.41,
+        "bonus7": 2.0
+      }
+    },
+    {
+      "level": 12,
+      "build_time": 13800,
+      "increased_power": 125,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 51
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 2086534950000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 1200
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 4894.0,
+        "bonus2": 61620.0,
+        "bonus3": 356900.0,
+        "bonus4": 0.26,
+        "bonus5": 3.0,
+        "bonus6": 1.48,
+        "bonus7": 2.0
+      }
+    },
+    {
+      "level": 13,
+      "build_time": 19500,
+      "increased_power": 150,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 51
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 2555731075000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 1300
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 5032.0,
+        "bonus2": 63795.0,
+        "bonus3": 367850.0,
+        "bonus4": 0.29,
+        "bonus5": 3.25,
+        "bonus6": 1.56,
+        "bonus7": 2.0
+      }
+    },
+    {
+      "level": 14,
+      "build_time": 25920,
+      "increased_power": 175,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 51
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 3080198375000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 1500
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 5183.0,
+        "bonus2": 66155.0,
+        "bonus3": 379850.0,
+        "bonus4": 0.32,
+        "bonus5": 3.5,
+        "bonus6": 1.64,
+        "bonus7": 2.0
+      }
+    },
+    {
+      "level": 15,
+      "build_time": 34560,
+      "increased_power": 200,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 51
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 3661489200000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 1600
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 5345.0,
+        "bonus2": 68740.0,
+        "bonus3": 392850.0,
+        "bonus4": 0.35,
+        "bonus5": 3.75,
+        "bonus6": 1.73,
+        "bonus7": 2.0
+      }
+    },
+    {
+      "level": 16,
+      "build_time": 41760,
+      "increased_power": 225,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 51
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 4301080450000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 1800
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 5519.0,
+        "bonus2": 71555.0,
+        "bonus3": 406900.0,
+        "bonus4": 0.38,
+        "bonus5": 4.0,
+        "bonus6": 1.82,
+        "bonus7": 2.0
+      }
+    },
+    {
+      "level": 17,
+      "build_time": 43200,
+      "increased_power": 300,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 51
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 5000382600000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 2000
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 5705.0,
+        "bonus2": 74575.0,
+        "bonus3": 422000.0,
+        "bonus4": 0.41,
+        "bonus5": 4.25,
+        "bonus6": 1.92,
+        "bonus7": 2.0
+      }
+    },
+    {
+      "level": 18,
+      "build_time": 64800,
+      "increased_power": 300,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 51
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 5760746775000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 2200
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 5904.0,
+        "bonus2": 77845.0,
+        "bonus3": 438150.0,
+        "bonus4": 0.44,
+        "bonus5": 4.5,
+        "bonus6": 2.02,
+        "bonus7": 2.0
+      }
+    },
+    {
+      "level": 19,
+      "build_time": 93600,
+      "increased_power": 300,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 51
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 6583470750000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 2300
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 6114.0,
+        "bonus2": 81330.0,
+        "bonus3": 455400.0,
+        "bonus4": 0.47,
+        "bonus5": 4.75,
+        "bonus6": 2.12,
+        "bonus7": 2.0
+      }
+    },
+    {
+      "level": 20,
+      "build_time": 117360,
+      "increased_power": 400,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 51
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 7469804050000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 2500
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 6336.0,
+        "bonus2": 85045.0,
+        "bonus3": 473750.0,
+        "bonus4": 0.5,
+        "bonus5": 5.0,
+        "bonus6": 2.23,
+        "bonus7": 2.0
+      }
+    },
+    {
+      "level": 21,
+      "build_time": 134640,
+      "increased_power": 400,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 51
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 8420952200000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 2700
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 6571.0,
+        "bonus2": 89035.0,
+        "bonus3": 493250.0,
+        "bonus4": 0.53,
+        "bonus5": 5.5,
+        "bonus6": 2.34,
+        "bonus7": 2.0
+      }
+    },
+    {
+      "level": 22,
+      "build_time": 177840,
+      "increased_power": 500,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 51
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 9438080500000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 2900
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 6817.0,
+        "bonus2": 93325.0,
+        "bonus3": 513900.0,
+        "bonus4": 0.57,
+        "bonus5": 6.0,
+        "bonus6": 2.46,
+        "bonus7": 2.0
+      }
+    },
+    {
+      "level": 23,
+      "build_time": 216000,
+      "increased_power": 500,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 51
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 10522317200000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 3100
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 7075.0,
+        "bonus2": 97865.0,
+        "bonus3": 535750.0,
+        "bonus4": 0.61,
+        "bonus5": 6.5,
+        "bonus6": 2.58,
+        "bonus7": 2.0
+      }
+    },
+    {
+      "level": 24,
+      "build_time": 237600,
+      "increased_power": 600,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 51
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 11674756500000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 3300
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 7346.0,
+        "bonus2": 102670.0,
+        "bonus3": 558750.0,
+        "bonus4": 0.65,
+        "bonus5": 7.0,
+        "bonus6": 2.7,
+        "bonus7": 2.0
+      }
+    },
+    {
+      "level": 25,
+      "build_time": 264960,
+      "increased_power": 550,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 51
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 12896460825000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 3500
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 7628.0,
+        "bonus2": 107750.0,
+        "bonus3": 583000.0,
+        "bonus4": 0.69,
+        "bonus5": 7.5,
+        "bonus6": 2.83,
+        "bonus7": 2.0
+      }
+    },
+    {
+      "level": 26,
+      "build_time": 334080,
+      "increased_power": 750,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 51
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 14188463275000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 3700
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 7923.0,
+        "bonus2": 113170.0,
+        "bonus3": 608450.0,
+        "bonus4": 0.73,
+        "bonus5": 8.0,
+        "bonus6": 2.96,
+        "bonus7": 2.0
+      }
+    },
+    {
+      "level": 27,
+      "build_time": 381600,
+      "increased_power": 750,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 51
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 15551769475000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 3900
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 8229.0,
+        "bonus2": 118965.0,
+        "bonus3": 635250.0,
+        "bonus4": 0.77,
+        "bonus5": 8.5,
+        "bonus6": 3.09,
+        "bonus7": 2.0
+      }
+    },
+    {
+      "level": 28,
+      "build_time": 427680,
+      "increased_power": 750,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 51
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 16987359375000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 4100
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 8547.0,
+        "bonus2": 125080.0,
+        "bonus3": 663300.0,
+        "bonus4": 0.81,
+        "bonus5": 9.0,
+        "bonus6": 3.23,
+        "bonus7": 2.0
+      }
+    },
+    {
+      "level": 29,
+      "build_time": 491040,
+      "increased_power": 1000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 51
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 18496188900000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 4300
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 8878.0,
+        "bonus2": 131520.0,
+        "bonus3": 692700.0,
+        "bonus4": 0.85,
+        "bonus5": 9.5,
+        "bonus6": 3.37,
+        "bonus7": 2.0
+      }
+    },
+    {
+      "level": 30,
+      "build_time": 531360,
+      "increased_power": 1000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 51
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 20079191300000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 4500
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 9220.0,
+        "bonus2": 138300.0,
+        "bonus3": 723450.0,
+        "bonus4": 0.89,
+        "bonus5": 10.0,
+        "bonus6": 3.52,
+        "bonus7": 2.0
+      }
+    },
+    {
+      "level": 31,
+      "build_time": 669600,
+      "increased_power": 1000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 51
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 21737278550000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 4700
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 9575.0,
+        "bonus2": 145525.0,
+        "bonus3": 755650.0,
+        "bonus4": 0.93,
+        "bonus5": 10.5,
+        "bonus6": 3.67,
+        "bonus7": 2.0
+      }
+    },
+    {
+      "level": 32,
+      "build_time": 685440,
+      "increased_power": 1250,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 51
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 23471342525000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 4900
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 9941.0,
+        "bonus2": 153135.0,
+        "bonus3": 789250.0,
+        "bonus4": 0.97,
+        "bonus5": 11.0,
+        "bonus6": 3.82,
+        "bonus7": 2.0
+      }
+    },
+    {
+      "level": 33,
+      "build_time": 996480,
+      "increased_power": 1250,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 51
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 25282256100000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 5200
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 10320.0,
+        "bonus2": 161245.0,
+        "bonus3": 824300.0,
+        "bonus4": 1.01,
+        "bonus5": 11.5,
+        "bonus6": 3.98,
+        "bonus7": 2.0
+      }
+    },
+    {
+      "level": 34,
+      "build_time": 1260000,
+      "increased_power": 1250,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 51
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 27170874000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 5400
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 10711.0,
+        "bonus2": 169775.0,
+        "bonus3": 860850.0,
+        "bonus4": 1.06,
+        "bonus5": 12.0,
+        "bonus6": 4.14,
+        "bonus7": 2.0
+      }
+    },
+    {
+      "level": 35,
+      "build_time": 1752480,
+      "increased_power": 1250,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 51
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 29138034000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 5600
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 11113.0,
+        "bonus2": 178755.0,
+        "bonus3": 898900.0,
+        "bonus4": 1.11,
+        "bonus5": 12.5,
+        "bonus6": 4.3,
+        "bonus7": 2.0
+      }
+    },
+    {
+      "level": 36,
+      "build_time": 2193120,
+      "increased_power": 1500,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 51
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 31184557475000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 5800
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 11528.0,
+        "bonus2": 188330.0,
+        "bonus3": 938550.0,
+        "bonus4": 1.16,
+        "bonus5": 13.0,
+        "bonus6": 4.47,
+        "bonus7": 2.0
+      }
+    },
+    {
+      "level": 37,
+      "build_time": 2239200,
+      "increased_power": 1750,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 51
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 33311250400000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 6100
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 11954.0,
+        "bonus2": 198405.0,
+        "bonus3": 979850.0,
+        "bonus4": 1.21,
+        "bonus5": 13.5,
+        "bonus6": 4.64,
+        "bonus7": 2.0
+      }
+    },
+    {
+      "level": 38,
+      "build_time": 3801600,
+      "increased_power": 1750,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 51
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 35518903925000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 6300
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 12393.0,
+        "bonus2": 209010.0,
+        "bonus3": 1022750.0,
+        "bonus4": 1.26,
+        "bonus5": 14.0,
+        "bonus6": 4.81,
+        "bonus7": 2.0
+      }
+    },
+    {
+      "level": 39,
+      "build_time": 5045760,
+      "increased_power": 1500,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 51
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 37808295125000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 6500
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 12844.0,
+        "bonus2": 220170.0,
+        "bonus3": 1067350.0,
+        "bonus4": 1.31,
+        "bonus5": 14.5,
+        "bonus6": 4.99,
+        "bonus7": 2.0
+      }
+    },
+    {
+      "level": 40,
+      "build_time": 7850880,
+      "increased_power": 2000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 51
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 40180187575000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 6800
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 13306.0,
+        "bonus2": 232080.0,
+        "bonus3": 1113650.0,
+        "bonus4": 1.36,
+        "bonus5": 15.0,
+        "bonus6": 5.17,
+        "bonus7": 3.0
+      }
+    },
+    {
+      "level": 41,
+      "build_time": 8377920,
+      "increased_power": 2000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 51
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 42635331975000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 7000
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 13781.0,
+        "bonus2": 244805.0,
+        "bonus3": 1161800.0,
+        "bonus4": 1.41,
+        "bonus5": 15.75,
+        "bonus6": 5.35,
+        "bonus7": 3.0
+      }
+    },
+    {
+      "level": 42,
+      "build_time": 12068640,
+      "increased_power": 2000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 51
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 45174466650000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 7200
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 14268.0,
+        "bonus2": 258035.0,
+        "bonus3": 1211700.0,
+        "bonus4": 1.46,
+        "bonus5": 16.5,
+        "bonus6": 5.54,
+        "bonus7": 3.0
+      }
+    },
+    {
+      "level": 43,
+      "build_time": 15945120,
+      "increased_power": 2500,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 51
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 47798318025000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 7500
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 14766.0,
+        "bonus2": 272185.0,
+        "bonus3": 1263500.0,
+        "bonus4": 1.51,
+        "bonus5": 17.25,
+        "bonus6": 5.73,
+        "bonus7": 3.0
+      }
+    },
+    {
+      "level": 44,
+      "build_time": 20812320,
+      "increased_power": 2500,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 51
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 50507601250000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 7700
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 15277.0,
+        "bonus2": 287110.0,
+        "bonus3": 1317150.0,
+        "bonus4": 1.57,
+        "bonus5": 18.0,
+        "bonus6": 5.92,
+        "bonus7": 3.0
+      }
+    },
+    {
+      "level": 45,
+      "build_time": 26867520,
+      "increased_power": 2500,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 51
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 53303020375000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 8000
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 15800.0,
+        "bonus2": 302865.0,
+        "bonus3": 1372800.0,
+        "bonus4": 1.63,
+        "bonus5": 18.75,
+        "bonus6": 6.12,
+        "bonus7": 3.0
+      }
+    },
+    {
+      "level": 46,
+      "build_time": 34344000,
+      "increased_power": 2500,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 51
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 56185269075000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 8200
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 16335.0,
+        "bonus2": 319755.0,
+        "bonus3": 1430450.0,
+        "bonus4": 1.69,
+        "bonus5": 19.5,
+        "bonus6": 6.32,
+        "bonus7": 3.0
+      }
+    },
+    {
+      "level": 47,
+      "build_time": 43506720,
+      "increased_power": 3000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 51
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 59155030775000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 8500
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 16881.0,
+        "bonus2": 337620.0,
+        "bonus3": 1490150.0,
+        "bonus4": 1.75,
+        "bonus5": 20.25,
+        "bonus6": 6.52,
+        "bonus7": 3.0
+      }
+    },
+    {
+      "level": 48,
+      "build_time": 54660960,
+      "increased_power": 3000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 51
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 62212979150000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 8700
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 17440.0,
+        "bonus2": 356520.0,
+        "bonus3": 1551950.0,
+        "bonus4": 1.81,
+        "bonus5": 21.0,
+        "bonus6": 6.73,
+        "bonus7": 3.0
+      }
+    },
+    {
+      "level": 49,
+      "build_time": 68152320,
+      "increased_power": 3000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 51
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 65359778525000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 9000
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 18011.0,
+        "bonus2": 376530.0,
+        "bonus3": 1615900.0,
+        "bonus4": 1.87,
+        "bonus5": 21.75,
+        "bonus6": 6.94,
+        "bonus7": 3.0
+      }
+    },
+    {
+      "level": 50,
+      "build_time": 84376800,
+      "increased_power": 3000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 51
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 68596084050000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 9200
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 18594.0,
+        "bonus2": 398075.0,
+        "bonus3": 1682100.0,
+        "bonus4": 1.93,
+        "bonus5": 22.5,
+        "bonus6": 7.15,
+        "bonus7": 3.0
+      }
+    },
+    {
+      "level": 51,
+      "build_time": 89439840,
+      "increased_power": 3500,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 51
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 70512296175000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 9400
+          },
+          {
+            "type": "<color=#00b4ff>rare</color> outpost control core",
+            "value": 5600
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 19189.0,
+        "bonus2": 420950.0,
+        "bonus3": 1750500.0,
+        "bonus4": 1.99,
+        "bonus5": 23.25,
+        "bonus6": 7.36,
+        "bonus7": 3.0
+      }
+    },
+    {
+      "level": 52,
+      "build_time": 94805280,
+      "increased_power": 3500,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 52
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 93897291550000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 9800
+          },
+          {
+            "type": "<color=#00b4ff>rare</color> outpost control core",
+            "value": 5800
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 19796.0,
+        "bonus2": 445670.0,
+        "bonus3": 1821250.0,
+        "bonus4": 2.05,
+        "bonus5": 24.0,
+        "bonus6": 7.58,
+        "bonus7": 3.0
+      }
+    },
+    {
+      "level": 53,
+      "build_time": 100494720,
+      "increased_power": 4000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 53
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 120599704250000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 10000
+          },
+          {
+            "type": "<color=#00b4ff>rare</color> outpost control core",
+            "value": 6000
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 20415.0,
+        "bonus2": 471545.0,
+        "bonus3": 1894350.0,
+        "bonus4": 2.11,
+        "bonus5": 24.75,
+        "bonus6": 7.8,
+        "bonus7": 3.0
+      }
+    },
+    {
+      "level": 54,
+      "build_time": 106524000,
+      "increased_power": 4000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 54
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 149054562050000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 10200
+          },
+          {
+            "type": "<color=#00b4ff>rare</color> outpost control core",
+            "value": 6200
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 21045.0,
+        "bonus2": 499585.0,
+        "bonus3": 1969900.0,
+        "bonus4": 2.17,
+        "bonus5": 25.5,
+        "bonus6": 8.02,
+        "bonus7": 3.0
+      }
+    },
+    {
+      "level": 55,
+      "build_time": 112914720,
+      "increased_power": 4000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 55
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 196124406400000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 11600
+          },
+          {
+            "type": "<color=#00b4ff>rare</color> outpost control core",
+            "value": 6800
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 21688.0,
+        "bonus2": 529510.0,
+        "bonus3": 2047950.0,
+        "bonus4": 2.23,
+        "bonus5": 26.25,
+        "bonus6": 8.25,
+        "bonus7": 3.0
+      }
+    },
+    {
+      "level": 56,
+      "build_time": 119689920,
+      "increased_power": 4000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 56
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 249734326900000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 11800
+          },
+          {
+            "type": "<color=#00b4ff>rare</color> outpost control core",
+            "value": 7000
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 22343.0,
+        "bonus2": 562085.0,
+        "bonus3": 2128500.0,
+        "bonus4": 2.29,
+        "bonus5": 27.0,
+        "bonus6": 8.48,
+        "bonus7": 3.0
+      }
+    },
+    {
+      "level": 57,
+      "build_time": 126871200,
+      "increased_power": 4000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 57
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 353153018825000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 12200
+          },
+          {
+            "type": "<color=#00b4ff>rare</color> outpost control core",
+            "value": 7200
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 23010.0,
+        "bonus2": 596365.0,
+        "bonus3": 2211700.0,
+        "bonus4": 2.35,
+        "bonus5": 27.75,
+        "bonus6": 8.71,
+        "bonus7": 3.0
+      }
+    },
+    {
+      "level": 58,
+      "build_time": 134484480,
+      "increased_power": 5000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 58
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 422652765925000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 12400
+          },
+          {
+            "type": "<color=#00b4ff>rare</color> outpost control core",
+            "value": 7400
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 23689.0,
+        "bonus2": 633815.0,
+        "bonus3": 2297550.0,
+        "bonus4": 2.41,
+        "bonus5": 28.5,
+        "bonus6": 8.95,
+        "bonus7": 3.0
+      }
+    },
+    {
+      "level": 59,
+      "build_time": 142552800,
+      "increased_power": 5000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 59
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 510056102325000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 12800
+          },
+          {
+            "type": "<color=#00b4ff>rare</color> outpost control core",
+            "value": 7600
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 24380.0,
+        "bonus2": 674095.0,
+        "bonus3": 2386100.0,
+        "bonus4": 2.48,
+        "bonus5": 29.25,
+        "bonus6": 9.19,
+        "bonus7": 3.0
+      }
+    },
+    {
+      "level": 60,
+      "build_time": 151106400,
+      "increased_power": 5000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 60
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "parsteel",
+            "value": 701194890100000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 14200
+          },
+          {
+            "type": "<color=#00b4ff>rare</color> outpost control core",
+            "value": 8400
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 25083.0,
+        "bonus2": 718360.0,
+        "bonus3": 2477500.0,
+        "bonus4": 2.55,
+        "bonus5": 30.0,
+        "bonus6": 9.43,
+        "bonus7": 3.0
+      }
+    },
+    {
+      "level": 61,
+      "build_time": 3496320,
+      "increased_power": 6000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 61
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 7275000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 15800
+          },
+          {
+            "type": "<color=#00b4ff>rare</color> outpost control core",
+            "value": 9200
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 25798.0,
+        "bonus2": 765325.0,
+        "bonus3": 2571750.0,
+        "bonus4": 2.62,
+        "bonus5": 31.0,
+        "bonus6": 9.67,
+        "bonus7": 3.0
+      }
+    },
+    {
+      "level": 62,
+      "build_time": 4720320,
+      "increased_power": 6000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 62
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 9625000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 16200
+          },
+          {
+            "type": "<color=#00b4ff>rare</color> outpost control core",
+            "value": 9400
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 26525.0,
+        "bonus2": 817195.0,
+        "bonus3": 2668900.0,
+        "bonus4": 2.69,
+        "bonus5": 32.0,
+        "bonus6": 9.92,
+        "bonus7": 3.0
+      }
+    },
+    {
+      "level": 63,
+      "build_time": 6372000,
+      "increased_power": 7000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 63
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 13050000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 16600
+          },
+          {
+            "type": "<color=#00b4ff>rare</color> outpost control core",
+            "value": 9600
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 27264.0,
+        "bonus2": 873610.0,
+        "bonus3": 2769050.0,
+        "bonus4": 2.76,
+        "bonus5": 33.0,
+        "bonus6": 10.17,
+        "bonus7": 3.0
+      }
+    },
+    {
+      "level": 64,
+      "build_time": 8602560,
+      "increased_power": 7000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 64
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 17925000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 17000
+          },
+          {
+            "type": "<color=#00b4ff>rare</color> outpost control core",
+            "value": 9800
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 28016.0,
+        "bonus2": 936435.0,
+        "bonus3": 2872250.0,
+        "bonus4": 2.83,
+        "bonus5": 34.0,
+        "bonus6": 10.42,
+        "bonus7": 3.0
+      }
+    },
+    {
+      "level": 65,
+      "build_time": 11612160,
+      "increased_power": 8000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 65
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 22575000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 18600
+          },
+          {
+            "type": "<color=#00b4ff>rare</color> outpost control core",
+            "value": 10600
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 28779.0,
+        "bonus2": 1005350.0,
+        "bonus3": 2978600.0,
+        "bonus4": 2.9,
+        "bonus5": 35.0,
+        "bonus6": 10.68,
+        "bonus7": 3.0
+      }
+    },
+    {
+      "level": 66,
+      "build_time": 15677280,
+      "increased_power": 7000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 66
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 30200000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 19000
+          },
+          {
+            "type": "<color=#00b4ff>rare</color> outpost control core",
+            "value": 10800
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 29554.0,
+        "bonus2": 1079570.0,
+        "bonus3": 3088150.0,
+        "bonus4": 2.97,
+        "bonus5": 36.0,
+        "bonus6": 10.94,
+        "bonus7": 3.0
+      }
+    },
+    {
+      "level": 67,
+      "build_time": 21163680,
+      "increased_power": 9000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 67
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 39275000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 19400
+          },
+          {
+            "type": "<color=#00b4ff>rare</color> outpost control core",
+            "value": 11000
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 30341.0,
+        "bonus2": 1165070.0,
+        "bonus3": 3201000.0,
+        "bonus4": 3.04,
+        "bonus5": 37.0,
+        "bonus6": 11.2,
+        "bonus7": 3.0
+      }
+    },
+    {
+      "level": 68,
+      "build_time": 27512640,
+      "increased_power": 8000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 68
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 50950000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 19800
+          },
+          {
+            "type": "<color=#00b4ff>rare</color> outpost control core",
+            "value": 11400
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 31140.0,
+        "bonus2": 1258160.0,
+        "bonus3": 3317150.0,
+        "bonus4": 3.11,
+        "bonus5": 38.0,
+        "bonus6": 11.46,
+        "bonus7": 3.0
+      }
+    },
+    {
+      "level": 69,
+      "build_time": 35766720,
+      "increased_power": 9000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 69
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 61625000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 20200
+          },
+          {
+            "type": "<color=#00b4ff>rare</color> outpost control core",
+            "value": 11600
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 31951.0,
+        "bonus2": 1362020.0,
+        "bonus3": 3436750.0,
+        "bonus4": 3.18,
+        "bonus5": 39.0,
+        "bonus6": 11.73,
+        "bonus7": 3.0
+      }
+    },
+    {
+      "level": 70,
+      "build_time": 46497600,
+      "increased_power": 9000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 70
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 87025000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 22000
+          },
+          {
+            "type": "<color=#00b4ff>rare</color> outpost control core",
+            "value": 13200
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 32774.0,
+        "bonus2": 1481305.0,
+        "bonus3": 3559800.0,
+        "bonus4": 3.25,
+        "bonus5": 40.0,
+        "bonus6": 12.0,
+        "bonus7": 3.0
+      }
+    },
+    {
+      "level": 71,
+      "build_time": 58122000,
+      "increased_power": 12000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 71
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 181400000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 24000
+          },
+          {
+            "type": "<color=#00b4ff>rare</color> outpost control core",
+            "value": 15000
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 33610.0,
+        "bonus2": 1616470.0,
+        "bonus3": 3686450.0,
+        "bonus4": 3.32,
+        "bonus5": 41.0,
+        "bonus6": 12.3,
+        "bonus7": 3.0
+      }
+    },
+    {
+      "level": 72,
+      "build_time": 72071280,
+      "increased_power": 12000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 72
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 231050000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 24400
+          },
+          {
+            "type": "<color=#00b4ff>rare</color> outpost control core",
+            "value": 15400
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 34457.0,
+        "bonus2": 1774575.0,
+        "bonus3": 3816750.0,
+        "bonus4": 3.39,
+        "bonus5": 42.0,
+        "bonus6": 12.75,
+        "bonus7": 3.0
+      }
+    },
+    {
+      "level": 73,
+      "build_time": 86020560,
+      "increased_power": 13000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 73
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 285400000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 25000
+          },
+          {
+            "type": "<color=#00b4ff>rare</color> outpost control core",
+            "value": 15600
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 35316.0,
+        "bonus2": 1952930.0,
+        "bonus3": 3950750.0,
+        "bonus4": 3.46,
+        "bonus5": 43.0,
+        "bonus6": 13.65,
+        "bonus7": 3.0
+      }
+    },
+    {
+      "level": 74,
+      "build_time": 102294720,
+      "increased_power": 12000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 74
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 352375000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 25400
+          },
+          {
+            "type": "<color=#00b4ff>rare</color> outpost control core",
+            "value": 15800
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 36187.0,
+        "bonus2": 2165790.0,
+        "bonus3": 4088600.0,
+        "bonus4": 3.53,
+        "bonus5": 44.0,
+        "bonus6": 14.75,
+        "bonus7": 3.0
+      }
+    },
+    {
+      "level": 75,
+      "build_time": 120893760,
+      "increased_power": 15000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 75
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 434925000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 28400
+          },
+          {
+            "type": "<color=#00b4ff>rare</color> outpost control core",
+            "value": 17800
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 37071.0,
+        "bonus2": 2417610.0,
+        "bonus3": 4230300.0,
+        "bonus4": 3.6,
+        "bonus5": 45.0,
+        "bonus6": 16.05,
+        "bonus7": 3.0
+      }
+    },
+    {
+      "level": 76,
+      "build_time": 139492800,
+      "increased_power": 18000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 76
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 544300000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 28800
+          },
+          {
+            "type": "<color=#00b4ff>rare</color> outpost control core",
+            "value": 18200
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 37966.0,
+        "bonus2": 2719905.0,
+        "bonus3": 4375950.0,
+        "bonus4": 3.68,
+        "bonus5": 46.0,
+        "bonus6": 17.55,
+        "bonus7": 3.0
+      }
+    },
+    {
+      "level": 77,
+      "build_time": 158091840,
+      "increased_power": 22000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 77
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 680825000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 29400
+          },
+          {
+            "type": "<color=#00b4ff>rare</color> outpost control core",
+            "value": 18400
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 38873.0,
+        "bonus2": 3089215.0,
+        "bonus3": 4525700.0,
+        "bonus4": 3.76,
+        "bonus5": 47.0,
+        "bonus6": 19.2,
+        "bonus7": 3.0
+      }
+    },
+    {
+      "level": 78,
+      "build_time": 181340640,
+      "increased_power": 30000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 78
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 851125000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 29800
+          },
+          {
+            "type": "<color=#00b4ff>rare</color> outpost control core",
+            "value": 18800
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 39792.0,
+        "bonus2": 3563460.0,
+        "bonus3": 4679550.0,
+        "bonus4": 3.84,
+        "bonus5": 48.0,
+        "bonus6": 21.0,
+        "bonus7": 3.0
+      }
+    },
+    {
+      "level": 79,
+      "build_time": 204589440,
+      "increased_power": 34000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 79
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 1063500000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 30000
+          },
+          {
+            "type": "<color=#00b4ff>rare</color> outpost control core",
+            "value": 19200
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 40724.0,
+        "bonus2": 4176750.0,
+        "bonus3": 4837600.0,
+        "bonus4": 3.92,
+        "bonus5": 49.0,
+        "bonus6": 22.95,
+        "bonus7": 3.0
+      }
+    },
+    {
+      "level": 80,
+      "build_time": 232488000,
+      "increased_power": 34000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 80
+        }
+      ],
+      "build_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-parsteel",
+            "value": 1325775000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "common outpost control core",
+            "value": 34000
+          },
+          {
+            "type": "<color=#00b4ff>rare</color> outpost control core",
+            "value": 20000
+          }
+        ]
+      },
+      "bonuses": {
+        "bonus1": 41667.0,
+        "bonus2": 5000000.0,
+        "bonus3": 5000000.0,
+        "bonus4": 4.0,
+        "bonus5": 50.0,
+        "bonus6": 25.0,
+        "bonus7": 3.0
+      }
+    }
+  ],
+  "bonuses": {
+    "bonus1": {
+      "name": "Material Fragment Production",
+      "percentage": false
+    },
+    "bonus2": {
+      "name": "Material Fragment Storage",
+      "percentage": false
+    },
+    "bonus3": {
+      "name": "Material Fragment Capacity",
+      "percentage": false
+    },
+    "bonus4": {
+      "name": "Outpost Component Loot",
+      "percentage": true
+    },
+    "bonus5": {
+      "name": "Weapon Damage against Outposts",
+      "percentage": true
+    },
+    "bonus6": {
+      "name": "<color=#ffffff>HHP for FED, KLG, and ROM ships</color>",
+      "percentage": true
+    },
+    "bonus7": {
+      "name": "Outpost Fleet size",
+      "percentage": false
+    }
+  }
+}
