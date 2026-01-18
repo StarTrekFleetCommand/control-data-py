@@ -1,0 +1,95 @@
+{
+  "research_name": "<color=#fac710>Prime</color> Solo Outpost Components",
+  "description": "Increases the amount of Common, <color=#00ed4b>Uncommon</color> and <color=#00b4ff>Rare</color> Solo Outpost Components your ship receives from Solo Outpost Retaliation attacks.",
+  "location": {
+    "column": 43,
+    "row": 3,
+    "tree": "galaxy"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 28624320,
+      "increased_power": 216000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 51
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 3724131840000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "prime <color=#fac710>outpost</color> insignia",
+            "value": 500
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.5
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 36402060,
+      "increased_power": 60000,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 15931495440000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "prime <color=#fac710>outpost</color> insignia",
+            "value": 1000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 1.5
+      }
+    },
+    {
+      "level": 3,
+      "research_time": 48211200,
+      "increased_power": 92000,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 37719254000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "prime <color=#fac710>outpost</color> insignia",
+            "value": 1000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 3.0
+      }
+    }
+  ],
+  "img_url": "./assets/colorfac710primecolor_solo_outpost_components_galaxy_3_43.png"
+}

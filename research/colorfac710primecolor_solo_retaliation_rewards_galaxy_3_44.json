@@ -1,0 +1,95 @@
+{
+  "research_name": "<color=#fac710>Prime</color> Solo Retaliation Rewards",
+  "description": "Increases the amount of Outpost Retaliation Medals and <color=#fac710>Retaliation Plunder</color> your ship receives from Solo Outpost Retaliation attacks.",
+  "location": {
+    "column": 44,
+    "row": 3,
+    "tree": "galaxy"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 20037060,
+      "increased_power": 162000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 51
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 3724131840000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "prime <color=#fac710>outpost</color> insignia",
+            "value": 500
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.3
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 30335040,
+      "increased_power": 45000,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 15931495440000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "prime <color=#fac710>outpost</color> insignia",
+            "value": 1000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 1.0
+      }
+    },
+    {
+      "level": 3,
+      "research_time": 38568960,
+      "increased_power": 69000,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 37719254000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "prime <color=#fac710>outpost</color> insignia",
+            "value": 1000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 2.0
+      }
+    }
+  ],
+  "img_url": "./assets/colorfac710primecolor_solo_retaliation_rewards_galaxy_3_44.png"
+}

@@ -1,0 +1,210 @@
+{
+  "research_name": "G5+ FKR PvP Apex Barrier",
+  "description": "Increases the Apex Barrier of all G5+ FKR ships vs Players for 1 round at the start of combat.",
+  "location": {
+    "column": 90,
+    "row": 3,
+    "tree": "starships"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 224121600,
+      "increased_power": 81973,
+      "requirements": [
+        {
+          "name": "G5+ FKR PvP Isolytic Defense",
+          "level": 1
+        },
+        {
+          "name": "R&D Department",
+          "level": 58
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 49300000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "u.s.s. excelsior experimental research",
+            "value": 1440
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 1400.0
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 264470400,
+      "increased_power": 15962,
+      "requirements": [
+        {
+          "name": "G5+ FKR PvP Isolytic Defense",
+          "level": 2
+        },
+        {
+          "name": "R&D Department",
+          "level": 61
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-dilithium",
+            "value": 4140
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "u.s.s. excelsior experimental research",
+            "value": 2060
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 2400.0
+      }
+    },
+    {
+      "level": 3,
+      "research_time": 303436800,
+      "increased_power": 27798,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 65
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-dilithium",
+            "value": 9890
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "u.s.s. excelsior experimental research",
+            "value": 2880
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 3600.0
+      }
+    },
+    {
+      "level": 4,
+      "research_time": 328406400,
+      "increased_power": 32949,
+      "requirements": [
+        {
+          "name": "G5+ FKR PvP Isolytic Defense",
+          "level": 4
+        },
+        {
+          "name": "R&D Department",
+          "level": 69
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-dilithium",
+            "value": 43100
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "u.s.s. excelsior experimental research",
+            "value": 4030
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 5000.0
+      }
+    },
+    {
+      "level": 5,
+      "research_time": 360806400,
+      "increased_power": 22526,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 71
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-dilithium",
+            "value": 99690
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "u.s.s. excelsior experimental research",
+            "value": 5880
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 6600.0
+      }
+    },
+    {
+      "level": 6,
+      "research_time": 438566400,
+      "increased_power": 65324,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 75
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-dilithium",
+            "value": 273680
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "u.s.s. excelsior experimental research",
+            "value": 8640
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 9000.0
+      }
+    }
+  ],
+  "img_url": "./assets/g5_fkr_pvp_apex_barrier_starships_3_90.png"
+}

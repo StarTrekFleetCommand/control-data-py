@@ -1,0 +1,156 @@
+{
+  "research_name": "Written by the Victors",
+  "description": "Instantly repairs HHP of all your deployed ships throughout the universe and ships stationed in Outposts.\n<i>This ability is ineffective on ships that are engaged in combat or warping.</i>\nDecrease cooldown by ranking up your Fleet Commander. 2h 25min cooldown (1h 30min cooldown at max Rank)\n<color=#FFEF40>(On Duty - Active Ability)</color>",
+  "location": {
+    "column": 5,
+    "row": 2,
+    "tree": "fc luther tactician"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 0,
+      "increased_power": 128000,
+      "requirements": [
+        {
+          "name": "You Can\u2019t Outrun It",
+          "level": 1
+        },
+        {
+          "name": "Destiny Catches Up",
+          "level": 1
+        },
+        {
+          "name": "Command Center",
+          "level": 25
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "sisko skill points",
+            "value": 900
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.05
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 0,
+      "increased_power": 96000,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "sisko skill points",
+            "value": 1800
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.1
+      }
+    },
+    {
+      "level": 3,
+      "research_time": 0,
+      "increased_power": 127000,
+      "requirements": [
+        {
+          "name": "You Can\u2019t Outrun It",
+          "level": 5
+        },
+        {
+          "name": "Destiny Catches Up",
+          "level": 5
+        },
+        {
+          "name": "Command Center",
+          "level": 40
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "sisko skill points",
+            "value": 2600
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.15
+      }
+    },
+    {
+      "level": 4,
+      "research_time": 0,
+      "increased_power": 167000,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "sisko skill points",
+            "value": 3300
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.2
+      }
+    },
+    {
+      "level": 5,
+      "research_time": 0,
+      "increased_power": 279000,
+      "requirements": [
+        {
+          "name": "You Can\u2019t Outrun It",
+          "level": 7
+        },
+        {
+          "name": "Destiny Catches Up",
+          "level": 7
+        },
+        {
+          "name": "Command Center",
+          "level": 55
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "sisko skill points",
+            "value": 4000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 0.25
+      }
+    }
+  ],
+  "img_url": "./assets/written_by_the_victors_fc_luther_tactician_2_5.png"
+}

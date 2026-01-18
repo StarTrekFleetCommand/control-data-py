@@ -1,0 +1,376 @@
+{
+  "research_name": "Tactical Prowess",
+  "description": "On Combat start, increase your <color=#6BB7FF>Apex Barrier</color> against players, for all Federation, Klingon and Romulan ships.\n<color=#FFEF40>(Always On)</color>",
+  "location": {
+    "column": 2,
+    "row": 2,
+    "tree": "fleet commander"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 0,
+      "increased_power": 36000,
+      "requirements": [
+        {
+          "name": "Tactical Acumen",
+          "level": 1
+        },
+        {
+          "name": "Paradise Lost",
+          "level": 1
+        },
+        {
+          "name": "Command Center",
+          "level": 10
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "sisko skill points",
+            "value": 150
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 500.0
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 0,
+      "increased_power": 11000,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "sisko skill points",
+            "value": 220
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 750.0
+      }
+    },
+    {
+      "level": 3,
+      "research_time": 0,
+      "increased_power": 10000,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "sisko skill points",
+            "value": 290
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 1000.0
+      }
+    },
+    {
+      "level": 4,
+      "research_time": 0,
+      "increased_power": 14000,
+      "requirements": [
+        {
+          "name": "Tactical Acumen",
+          "level": 3
+        },
+        {
+          "name": "Paradise Lost",
+          "level": 3
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "sisko skill points",
+            "value": 360
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 1250.0
+      }
+    },
+    {
+      "level": 5,
+      "research_time": 0,
+      "increased_power": 14000,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "sisko skill points",
+            "value": 420
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 1500.0
+      }
+    },
+    {
+      "level": 6,
+      "research_time": 0,
+      "increased_power": 15000,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "sisko skill points",
+            "value": 480
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 1750.0
+      }
+    },
+    {
+      "level": 7,
+      "research_time": 0,
+      "increased_power": 17000,
+      "requirements": [
+        {
+          "name": "Tactical Acumen",
+          "level": 5
+        },
+        {
+          "name": "Paradise Lost",
+          "level": 5
+        },
+        {
+          "name": "Command Center",
+          "level": 25
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "sisko skill points",
+            "value": 530
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 2000.0
+      }
+    },
+    {
+      "level": 8,
+      "research_time": 0,
+      "increased_power": 18000,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "sisko skill points",
+            "value": 580
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 2250.0
+      }
+    },
+    {
+      "level": 9,
+      "research_time": 0,
+      "increased_power": 21000,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "sisko skill points",
+            "value": 620
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 2500.0
+      }
+    },
+    {
+      "level": 10,
+      "research_time": 0,
+      "increased_power": 22000,
+      "requirements": [
+        {
+          "name": "Tactical Acumen",
+          "level": 7
+        },
+        {
+          "name": "Paradise Lost",
+          "level": 7
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "sisko skill points",
+            "value": 660
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 2750.0
+      }
+    },
+    {
+      "level": 11,
+      "research_time": 0,
+      "increased_power": 24000,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "sisko skill points",
+            "value": 700
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 3000.0
+      }
+    },
+    {
+      "level": 12,
+      "research_time": 0,
+      "increased_power": 29000,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "sisko skill points",
+            "value": 740
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 3250.0
+      }
+    },
+    {
+      "level": 13,
+      "research_time": 0,
+      "increased_power": 35000,
+      "requirements": [
+        {
+          "name": "Command Center",
+          "level": 40
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "sisko skill points",
+            "value": 770
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 3500.0
+      }
+    },
+    {
+      "level": 14,
+      "research_time": 0,
+      "increased_power": 43000,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "sisko skill points",
+            "value": 860
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 4000.0
+      }
+    },
+    {
+      "level": 15,
+      "research_time": 0,
+      "increased_power": 46000,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "sisko skill points",
+            "value": 1040
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 5000.0
+      }
+    }
+  ],
+  "img_url": "./assets/tactical_prowess_fleet_commander_2_2.png"
+}

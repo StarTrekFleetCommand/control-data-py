@@ -1,0 +1,116 @@
+{
+  "research_name": "7\u21f5 Unc Ore Station Efficiency",
+  "description": "Increases base Cost Efficiency of 7\u21f5 Uncommon Ore for Station buildings.",
+  "location": {
+    "column": 77,
+    "row": 1,
+    "tree": "station"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 97891200,
+      "increased_power": 172148,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 68
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "v'ger particle",
+            "value": 1000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.4
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 104025600,
+      "increased_power": 1812,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 68
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "v'ger particle",
+            "value": 1000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.75
+      }
+    },
+    {
+      "level": 3,
+      "research_time": 110160000,
+      "increased_power": 1812,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 68
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "v'ger particle",
+            "value": 1000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 1.8
+      }
+    },
+    {
+      "level": 4,
+      "research_time": 116294400,
+      "increased_power": 1812,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 68
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "v'ger particle",
+            "value": 1000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 3.0
+      }
+    }
+  ],
+  "img_url": "./assets/7_unc_ore_station_efficiency_station_1_77.png"
+}

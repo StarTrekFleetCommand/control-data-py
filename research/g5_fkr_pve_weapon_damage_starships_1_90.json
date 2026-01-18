@@ -1,0 +1,210 @@
+{
+  "research_name": "G5+ FKR PvE Weapon Damage",
+  "description": "Increases the Weapon Damage of all G5+ FKR ships vs Hostiles, Invading Entities, Armadas, Outposts and Retaliation Hostiles.",
+  "location": {
+    "column": 90,
+    "row": 1,
+    "tree": "starships"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 224121600,
+      "increased_power": 81973,
+      "requirements": [
+        {
+          "name": "G5+ FKR PvE Isolytic Defense",
+          "level": 1
+        },
+        {
+          "name": "R&D Department",
+          "level": 58
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 49300000000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "u.s.s. excelsior experimental research",
+            "value": 1440
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 7.5
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 264470400,
+      "increased_power": 15962,
+      "requirements": [
+        {
+          "name": "G5+ FKR PvE Isolytic Defense",
+          "level": 2
+        },
+        {
+          "name": "R&D Department",
+          "level": 61
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-dilithium",
+            "value": 4140
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "u.s.s. excelsior experimental research",
+            "value": 2060
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 10.0
+      }
+    },
+    {
+      "level": 3,
+      "research_time": 303436800,
+      "increased_power": 27798,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 65
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-dilithium",
+            "value": 9890
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "u.s.s. excelsior experimental research",
+            "value": 2880
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 15.0
+      }
+    },
+    {
+      "level": 4,
+      "research_time": 328406400,
+      "increased_power": 32949,
+      "requirements": [
+        {
+          "name": "G5+ FKR PvE Isolytic Defense",
+          "level": 4
+        },
+        {
+          "name": "R&D Department",
+          "level": 69
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-dilithium",
+            "value": 43100
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "u.s.s. excelsior experimental research",
+            "value": 4030
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 22.5
+      }
+    },
+    {
+      "level": 5,
+      "research_time": 360806400,
+      "increased_power": 22526,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 71
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-dilithium",
+            "value": 99690
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "u.s.s. excelsior experimental research",
+            "value": 5880
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 30.0
+      }
+    },
+    {
+      "level": 6,
+      "research_time": 438566400,
+      "increased_power": 65324,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 75
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-dilithium",
+            "value": 273680
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "u.s.s. excelsior experimental research",
+            "value": 8640
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 40.0
+      }
+    }
+  ],
+  "img_url": "./assets/g5_fkr_pve_weapon_damage_starships_1_90.png"
+}

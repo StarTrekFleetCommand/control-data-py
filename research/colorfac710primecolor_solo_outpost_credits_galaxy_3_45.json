@@ -1,0 +1,69 @@
+{
+  "research_name": "<color=#fac710>Prime</color> Solo Outpost Credits",
+  "description": "Increases Solo Outpost Credits and <color=#fac710>Elite</color> Solo Outpost Credits dropped from Outposts and Outpost Retaliation ships.",
+  "location": {
+    "column": 45,
+    "row": 3,
+    "tree": "galaxy"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 30335040,
+      "increased_power": 207000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 51
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 15931495440000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "prime <color=#fac710>outpost</color> insignia",
+            "value": 1000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.25
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 30335040,
+      "increased_power": 69000,
+      "requirements": [],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 15931495440000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "prime <color=#fac710>outpost</color> insignia",
+            "value": 1000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 0.75
+      }
+    }
+  ],
+  "img_url": "./assets/colorfac710primecolor_solo_outpost_credits_galaxy_3_45.png"
+}

@@ -1,0 +1,42 @@
+{
+  "research_name": "Frontier Command",
+  "description": "Increases Outpost Fleet Size by 1, allowing you to use an extra ship in all Outposts engagements.\n<color=#FFEF40>(Always On)</color>",
+  "location": {
+    "column": 5,
+    "row": 1,
+    "tree": "fleet commander"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 0,
+      "increased_power": 797000,
+      "requirements": [
+        {
+          "name": "Commander's Authority",
+          "level": 13
+        },
+        {
+          "name": "Command Center",
+          "level": 50
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "sisko skill points",
+            "value": 7000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": false,
+        "value": 1.0
+      }
+    }
+  ],
+  "img_url": "./assets/frontier_command_fleet_commander_1_5.png"
+}
