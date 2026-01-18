@@ -1,0 +1,146 @@
+{
+  "research_name": "Preceding Reputation",
+  "description": "Increases base amount of Federation, Romulan and Klingon faction points gained when defeating hostiles with the U.S.S. Dauntless.",
+  "location": {
+    "column": 19,
+    "row": 2,
+    "tree": "aggregation"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 82166400,
+      "increased_power": 620000,
+      "requirements": [
+        {
+          "name": "Dauntless Jump Drive",
+          "level": 1
+        },
+        {
+          "name": "Operations",
+          "level": 71
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "u.s.s. dauntless prototype data",
+            "value": 6000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 3.0
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 83030400,
+      "increased_power": 25000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 71
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "u.s.s. dauntless prototype data",
+            "value": 6000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 6.0
+      }
+    },
+    {
+      "level": 3,
+      "research_time": 83860680,
+      "increased_power": 25000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 71
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "u.s.s. dauntless prototype data",
+            "value": 6000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 9.0
+      }
+    },
+    {
+      "level": 4,
+      "research_time": 84699300,
+      "increased_power": 25000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 71
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "u.s.s. dauntless prototype data",
+            "value": 6000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 12.0
+      }
+    },
+    {
+      "level": 5,
+      "research_time": 85546320,
+      "increased_power": 30000,
+      "requirements": [
+        {
+          "name": "Operations",
+          "level": 71
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [],
+        "materials": [],
+        "others": [
+          {
+            "type": "u.s.s. dauntless prototype data",
+            "value": 6000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 15.0
+      }
+    }
+  ],
+  "img_url": "./assets/preceding_reputation_aggregation_2_19.png"
+}

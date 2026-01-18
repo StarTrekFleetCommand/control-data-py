@@ -1,6 +1,6 @@
 {
   "officer_name": "WOK Montgomery Scott",
-  "description": "Of all the crew who walked the hallowed hallways and served on the prestigious decks of the USS Enterprise and its subsequent iterations, perhaps none were as intimately acquainted with the ship as its Chief Engineer, Montgomery \u201cScotty\u201d Scott. For almost three decades, Scotty devoted himself to the continued maintenance of his beloved ship, ensuring that the name \u201cEnterprise\u201d became synonymous with excellence in the annals of Federation history. From encounters with fearsome Klingon fleets, to standoffs with unyielding Romulan warbirds, there was no threat capable of standing in the way of Scotty and his ability to realize the full potential of the Enterprise.\n\nAlthough he would be the first person to refute his given title, Scotty was known throughout Starfleet ranks as an eminent \u201cmiracle worker\u201d. However, no single miracle could alter the events that transpired following the reemergence of Khan Noonien Singh and his subsequent plot to steal the Genesis Device. Following Khan\u2019s defeat at the conclusion of a fierce battle in the Mutara Nebula, Scotty bore witness to the valiant sacrifice made by Captain Spock, who would give his very life in order to prevent the destruction of the Enterprise. Not only had Spock saved Scotty\u2019s life, he also saved the very ship that Scotty loved so dearly. As a small token of recompense, Scotty would volunteer to pay tribute to his fallen comrade by playing the bagpipes during Spock\u2019s funeral.",
+  "description": "Of all the crew who walked the hallowed hallways and served on the prestigious decks of the U.S.S. Enterprise and its subsequent iterations, perhaps none were as intimately acquainted with the ship as its Chief Engineer, Montgomery \u201cScotty\u201d Scott. For almost three decades, Scotty devoted himself to the continued maintenance of his beloved ship, ensuring that the name \u201cEnterprise\u201d became synonymous with excellence in the annals of Federation history. From encounters with fearsome Klingon fleets, to standoffs with unyielding Romulan warbirds, there was no threat capable of standing in the way of Scotty and his ability to realize the full potential of the Enterprise.\n\nAlthough he would be the first person to refute his given title, Scotty was known throughout Starfleet ranks as an eminent \u201cmiracle worker\u201d. However, no single miracle could alter the events that transpired following the reemergence of Khan Noonien Singh and his subsequent plot to steal the Genesis Device. Following Khan\u2019s defeat at the conclusion of a fierce battle in the Mutara Nebula, Scotty bore witness to the valiant sacrifice made by Captain Spock, who would give his very life in order to prevent the destruction of the Enterprise. Not only had Spock saved Scotty\u2019s life, he also saved the very ship that Scotty loved so dearly. As a small token of recompense, Scotty would volunteer to pay tribute to his fallen comrade by playing the bagpipes during Spock\u2019s funeral.",
   "class": "engineering",
   "group": "wrath of khan",
   "faction": "federation",
@@ -14,12 +14,12 @@
     },
     "officer_ability": {
       "name": "All They've Got",
-      "bonus": "",
+      "bonus": "WOK Montgomery Scott increases loot gained from Armadas by {value} ({value} at rank {value}).",
       "percentage": true
     },
     "below_decks_ability": {
       "name": "Too Many Bumps",
-      "bonus": "Below-Deck Abilities are only activated when assigned to a below-decks slot on a ship.",
+      "bonus": "WOK Montgomery Scott reduces enemy Shield Mitigation by {value} ({value} at rank {value}) when fighting non-Armada hostiles.\n\nBelow-Deck Abilities are only activated when assigned to a below-decks slot on a ship.",
       "percentage": true
     }
   },

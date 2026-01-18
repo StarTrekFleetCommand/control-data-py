@@ -1,0 +1,210 @@
+{
+  "officer_name": "Nog",
+  "description": "Born on Ferenginar in the mid-24th century, Nog was the only son of Rom and Prinadora. Following the tumultuous separation of his parents while he was still a lobeling, Nog\u2019s father was forced to raise him alone. Seeking support in this task, Rom reached out to his brother, Quark, for aid. This call for help would prove to be a formative moment in Nog\u2019s life, as it was this arrangement that led him to a permanent residence on the space station Terok Nor. The station would later become known as Deep Space Nine following the withdrawal of the Cardassian contingent at the conclusion of the Occupation of Bajor.\n\nAs the Cardassians withdrew from Deep Space Nine, and stewardship of the station was handed over to Starfleet, Nog would soon be introduced to Jake Sisko, son of commanding officer Benjamin Sisko. The pair would quickly become the best of friends, forming a deep bond that would endure throughout the years. Nog\u2019s friendship with Jake and subsequent introduction to the dynamics of a family overseen by a Starfleet officer would prove incredibly influential in Nog\u2019s development, and would directly contribute to the discovery of his deepest ambitions.\n\nFor the majority of Ferengi males, the pursuit of profit is an irresistible calling that must be answered upon reaching maturity. However, from an early age, Nog would demonstrate a lack of the typical business acumen expected of a Ferengi entrepreneur. Bereft of a natural instinct for trade and commerce, Nog would instead be forced to rely on his other latent talents. Endowed with the hands of his father and the tenacity of his uncle, Nog\u2019s goals and ambitions would instead lead him down another path that would eventually see him enlisted as the first Ferengi cadet in Starfleet.",
+  "class": "command",
+  "group": "status control team",
+  "faction": "neutral",
+  "rarity": "epic",
+  "ability_info": {
+    "captain_maneuver": {
+      "name": "Inherent Tenacity",
+      "bonus": "Nog increases Apex Barrier by {value} for 2 rounds on round start, when attacking a Station.\n\nThis ability does not trigger when Tal is assigned to the bridge of your ship.\n\nApex Barrier provides <b>true damage mitigation from all sources after all other bonuses. Every 100 Apex Barrier increases the damage you can take by 1%.",
+      "percentage": false,
+      "value": 20000.0
+    },
+    "officer_ability": {
+      "name": "Defiance",
+      "bonus": "Nog reduces Critical Hit Chance by {value} ({value} at rank {value}) for 2 rounds on round start against players, if the opponent has any state.",
+      "percentage": true
+    },
+    "below_decks_ability": null
+  },
+  "synergy": {
+    "command": 0.0,
+    "engineering": 0.0,
+    "science": 0.0
+  },
+  "traits": [
+    {
+      "name": "Ambitious",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 1500
+        },
+        {
+          "level": 2,
+          "trait_xp": 2700
+        },
+        {
+          "level": 3,
+          "trait_xp": 3800
+        }
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Resilient",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 7650
+        },
+        {
+          "level": 2,
+          "trait_xp": 6000
+        },
+        {
+          "level": 3,
+          "trait_xp": 7000
+        },
+        {
+          "level": 4,
+          "trait_xp": 8850
+        }
+      ],
+      "tier": 2
+    },
+    {
+      "name": "Impulsive",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 10000
+        },
+        {
+          "level": 2,
+          "trait_xp": 4000
+        },
+        {
+          "level": 3,
+          "trait_xp": 7000
+        },
+        {
+          "level": 4,
+          "trait_xp": 10000
+        },
+        {
+          "level": 5,
+          "trait_xp": 15000
+        },
+        {
+          "level": 6,
+          "trait_xp": 23000
+        },
+        {
+          "level": 7,
+          "trait_xp": 42000
+        },
+        {
+          "level": 8,
+          "trait_xp": 68000
+        },
+        {
+          "level": 9,
+          "trait_xp": 107000
+        }
+      ],
+      "tier": 3
+    }
+  ],
+  "ranks": [
+    {
+      "rank_id": 1,
+      "name": "ENSIGN I",
+      "officer_ability_value": 0.2,
+      "requirements": {
+        "badges": 0,
+        "credits": 0,
+        "others": [],
+        "shards": 120,
+        "xp": 0
+      }
+    },
+    {
+      "rank_id": 2,
+      "name": "LIEUTENANT JG II",
+      "officer_ability_value": 0.35,
+      "requirements": {
+        "badges": 0,
+        "credits": 0,
+        "others": [
+          {
+            "name": "<color=#fac710>retaliation plunder</color>",
+            "value": 4000
+          },
+          {
+            "name": "outpost retaliation medal",
+            "value": 30000
+          }
+        ],
+        "shards": 120,
+        "xp": 0
+      }
+    },
+    {
+      "rank_id": 3,
+      "name": "LIEUTENANT III",
+      "officer_ability_value": 0.5,
+      "requirements": {
+        "badges": 1,
+        "credits": 0,
+        "others": [
+          {
+            "name": "<color=#fac710>retaliation plunder</color>",
+            "value": 8000
+          },
+          {
+            "name": "outpost retaliation medal",
+            "value": 60000
+          }
+        ],
+        "shards": 240,
+        "xp": 0
+      }
+    },
+    {
+      "rank_id": 4,
+      "name": "LT. COMMANDER IV",
+      "officer_ability_value": 0.6,
+      "requirements": {
+        "badges": 2,
+        "credits": 0,
+        "others": [
+          {
+            "name": "<color=#fac710>retaliation plunder</color>",
+            "value": 15000
+          },
+          {
+            "name": "outpost retaliation medal",
+            "value": 120000
+          }
+        ],
+        "shards": 360,
+        "xp": 0
+      }
+    },
+    {
+      "rank_id": 5,
+      "name": "COMMANDER V",
+      "officer_ability_value": 0.7,
+      "requirements": {
+        "badges": 4,
+        "credits": 0,
+        "others": [
+          {
+            "name": "<color=#fac710>retaliation plunder</color>",
+            "value": 25000
+          },
+          {
+            "name": "outpost retaliation medal",
+            "value": 200000
+          }
+        ],
+        "shards": 960,
+        "xp": 0
+      }
+    }
+  ],
+  "img_url": "./assets/nog.png"
+}

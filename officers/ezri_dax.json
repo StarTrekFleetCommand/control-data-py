@@ -1,0 +1,210 @@
+{
+  "officer_name": "Ezri Dax",
+  "description": "When a Trill humanoid is chosen to be joined with a Trill symbiont, they are typically provided with years of preparation and training. This ensures that the chosen recipient is aware of the ramifications of what they are about to undertake. Following the untimely passing of Jadzia Dax, the eighth host of the Dax symbiont, an unjoined Trill was called upon to temporarily act as a replacement host, until it could be safely carried back to the Trill homeworld, where a suitable permanent host could be found. Ezri Tigan, an ensign serving aboard the U.S.S. Destiny, was chosen for this task.\n\nUnfortunately, en route back to the Trill homeworld, the Dax symbiont\u2019s health deteriorated. If not joined permanently to a Trill host as soon as possible, the symbiont would not survive the journey home. Understanding the gravity of the situation, Ezri agreed to undergo the full joining procedure, permanently committing herself to serve as the ninth host of the Dax symbiont. In lieu of the years of expected training, Ezri was instead provided with a mere fifteen-minute briefing from the ship\u2019s surgeon. Nonetheless, despite the fear and uncertainty, Ezri agreed to host the symbiont - a testament to her empathy and willingness to help others.\n\nFollowing the successful joining procedure, the unjoined Trill known as Ezri Tigan was no more. Taking on the name of Ezri Dax in honor of her new identity as a joined Trill, she now played host not only to the symbiont, but also to the memories of all eight hosts who came before her. At the conclusion of a briefing with the Symbiosis Commission\u2019s Evaluation Board, Ezri looked to Captain Benjamin Sisko for guidance, as he had been a good friend of the previous two hosts. Understanding that she could be a valuable addition to his crew, Captain Sisko requested Ezri stay on at Deep Space Nine to serve as the station\u2019s counselor - a role she would go on to excel in.",
+  "class": "science",
+  "group": "status control team",
+  "faction": "neutral",
+  "rarity": "epic",
+  "ability_info": {
+    "captain_maneuver": {
+      "name": "Tigan Mining Defenses",
+      "bonus": "Ezri Dax increases Isolytic Cascade Damage by {value} when attacked by a Player while on a Survey Ship.",
+      "percentage": true,
+      "value": 15.0
+    },
+    "officer_ability": {
+      "name": "Grief Counseling",
+      "bonus": "Ezri Dax increases Isolytic Cascade Damage by {value} ({value} at rank {value}) for 2 rounds on round start against players, if the opponent has any state.",
+      "percentage": true
+    },
+    "below_decks_ability": null
+  },
+  "synergy": {
+    "command": 0.0,
+    "engineering": 0.0,
+    "science": 0.0
+  },
+  "traits": [
+    {
+      "name": "Advisor",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 1500
+        },
+        {
+          "level": 2,
+          "trait_xp": 2700
+        },
+        {
+          "level": 3,
+          "trait_xp": 3800
+        }
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Pragmatic",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 7650
+        },
+        {
+          "level": 2,
+          "trait_xp": 6000
+        },
+        {
+          "level": 3,
+          "trait_xp": 7000
+        },
+        {
+          "level": 4,
+          "trait_xp": 8850
+        }
+      ],
+      "tier": 2
+    },
+    {
+      "name": "Empathic",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 10000
+        },
+        {
+          "level": 2,
+          "trait_xp": 4000
+        },
+        {
+          "level": 3,
+          "trait_xp": 7000
+        },
+        {
+          "level": 4,
+          "trait_xp": 10000
+        },
+        {
+          "level": 5,
+          "trait_xp": 15000
+        },
+        {
+          "level": 6,
+          "trait_xp": 23000
+        },
+        {
+          "level": 7,
+          "trait_xp": 42000
+        },
+        {
+          "level": 8,
+          "trait_xp": 68000
+        },
+        {
+          "level": 9,
+          "trait_xp": 107000
+        }
+      ],
+      "tier": 3
+    }
+  ],
+  "ranks": [
+    {
+      "rank_id": 1,
+      "name": "ENSIGN I",
+      "officer_ability_value": 1.0,
+      "requirements": {
+        "badges": 0,
+        "credits": 0,
+        "others": [],
+        "shards": 120,
+        "xp": 0
+      }
+    },
+    {
+      "rank_id": 2,
+      "name": "LIEUTENANT JG II",
+      "officer_ability_value": 1.3,
+      "requirements": {
+        "badges": 0,
+        "credits": 0,
+        "others": [
+          {
+            "name": "<color=#fac710>retaliation plunder</color>",
+            "value": 4000
+          },
+          {
+            "name": "outpost retaliation medal",
+            "value": 30000
+          }
+        ],
+        "shards": 120,
+        "xp": 0
+      }
+    },
+    {
+      "rank_id": 3,
+      "name": "LIEUTENANT III",
+      "officer_ability_value": 1.6,
+      "requirements": {
+        "badges": 1,
+        "credits": 0,
+        "others": [
+          {
+            "name": "<color=#fac710>retaliation plunder</color>",
+            "value": 8000
+          },
+          {
+            "name": "outpost retaliation medal",
+            "value": 60000
+          }
+        ],
+        "shards": 240,
+        "xp": 0
+      }
+    },
+    {
+      "rank_id": 4,
+      "name": "LT. COMMANDER IV",
+      "officer_ability_value": 1.8,
+      "requirements": {
+        "badges": 2,
+        "credits": 0,
+        "others": [
+          {
+            "name": "<color=#fac710>retaliation plunder</color>",
+            "value": 15000
+          },
+          {
+            "name": "outpost retaliation medal",
+            "value": 120000
+          }
+        ],
+        "shards": 360,
+        "xp": 0
+      }
+    },
+    {
+      "rank_id": 5,
+      "name": "COMMANDER V",
+      "officer_ability_value": 2.0,
+      "requirements": {
+        "badges": 4,
+        "credits": 0,
+        "others": [
+          {
+            "name": "<color=#fac710>retaliation plunder</color>",
+            "value": 25000
+          },
+          {
+            "name": "outpost retaliation medal",
+            "value": 200000
+          }
+        ],
+        "shards": 960,
+        "xp": 0
+      }
+    }
+  ],
+  "img_url": "./assets/ezri_dax.png"
+}

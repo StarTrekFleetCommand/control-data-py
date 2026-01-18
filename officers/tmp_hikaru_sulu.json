@@ -1,0 +1,174 @@
+{
+  "officer_name": "TMP Hikaru Sulu",
+  "description": "Once helmsman of the U.S.S. Enterprise, now Captain of the U.S.S. Excelsior, Hikaru Sulu cuts a sharp figure and even sharper wit, in pursuit of upholding the Federation\u2019s noblest ideals. A recent accomplishment was assisting Captain Kirk and the Enterprise-A in defeating General Chang, bringing about a once-unthinkable peace with the Klingon Empire at Camp Khitomer.\n\nFond of hot tea, Sulu is a warm and approachable confidante for his crew, helping to steer the early Starfleet career of one Ensign Tuvok, who served aboard the Excelsior as a junior science officer. He also appointed Commander Janice Rand as his communications officer, having served with her aboard both the Enterprise and Enterprise-A. But once the alert condition turns red, Sulu transforms into the fine tactician demanded of his station, adopting a controlled and disciplined approach that speaks to his other loves: fencing, judo, aikido, and botany (perhaps explaining his love of tea). With a flair for the dramatic, he inspires his crew to rise to the occasion of whatever challenge lies before them, be that cataloguing gaseous anomalies, or racing to the aid of the Enterprise against General Chang.\n\nAs well as being a Starfleet career veteran, Sulu also found time to start a family. His daughter, Demora, followed in his footsteps, attending Starfleet Academy and earning her own place as the helmsman of the Enterprise-B, when it launched in 2293.",
+  "class": "command",
+  "group": "the motion pictures",
+  "faction": "neutral",
+  "rarity": "epic",
+  "ability_info": {
+    "captain_maneuver": {
+      "name": "Master of This Vessel",
+      "bonus": "TMP Hikaru Sulu increases Apex Barrier by {value} for 10 rounds against non-Armada Hostiles, Outposts and Retaliation Hostiles. Works against Hostiles of level 81 and under.\n\nApex Barrier provides <b>true damage mitigation from all sources after all other bonuses. Every 100 Apex Barrier increases the damage you can take by 1%.\n\nThis ability does not trigger when Tal is assigned to the bridge of your ship.",
+      "percentage": false,
+      "value": 2000.0
+    },
+    "officer_ability": {
+      "name": "Don't Call Me Tiny",
+      "bonus": "On round start, TMP Hikaru Sulu increases your ship's critical chance by {value} ({value} at rank {value}) for 4 rounds, if any state is applied to non-Armada Hostiles, Outposts or Retaliation Hostiles.",
+      "percentage": true
+    },
+    "below_decks_ability": null
+  },
+  "synergy": {
+    "command": 3000.0,
+    "engineering": 3000.0,
+    "science": 3000.0
+  },
+  "traits": [
+    {
+      "name": "Captain",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 1500
+        },
+        {
+          "level": 2,
+          "trait_xp": 2700
+        },
+        {
+          "level": 3,
+          "trait_xp": 3800
+        }
+      ],
+      "tier": 1
+    },
+    {
+      "name": "Astronomer",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 7650
+        },
+        {
+          "level": 2,
+          "trait_xp": 6000
+        },
+        {
+          "level": 3,
+          "trait_xp": 7000
+        },
+        {
+          "level": 4,
+          "trait_xp": 8850
+        }
+      ],
+      "tier": 2
+    },
+    {
+      "name": "Passionate",
+      "levels": [
+        {
+          "level": 1,
+          "trait_xp": 10000
+        },
+        {
+          "level": 2,
+          "trait_xp": 4000
+        },
+        {
+          "level": 3,
+          "trait_xp": 7000
+        },
+        {
+          "level": 4,
+          "trait_xp": 10000
+        },
+        {
+          "level": 5,
+          "trait_xp": 15000
+        },
+        {
+          "level": 6,
+          "trait_xp": 23000
+        },
+        {
+          "level": 7,
+          "trait_xp": 42000
+        },
+        {
+          "level": 8,
+          "trait_xp": 68000
+        },
+        {
+          "level": 9,
+          "trait_xp": 107000
+        }
+      ],
+      "tier": 3
+    }
+  ],
+  "ranks": [
+    {
+      "rank_id": 1,
+      "name": "ENSIGN I",
+      "officer_ability_value": 0.02,
+      "requirements": {
+        "badges": 0,
+        "credits": 0,
+        "others": [],
+        "shards": 120,
+        "xp": 0
+      }
+    },
+    {
+      "rank_id": 2,
+      "name": "LIEUTENANT JG II",
+      "officer_ability_value": 0.04,
+      "requirements": {
+        "badges": 0,
+        "credits": 1100,
+        "others": [],
+        "shards": 120,
+        "xp": 50000
+      }
+    },
+    {
+      "rank_id": 3,
+      "name": "LIEUTENANT III",
+      "officer_ability_value": 0.06,
+      "requirements": {
+        "badges": 1,
+        "credits": 4500,
+        "others": [],
+        "shards": 240,
+        "xp": 500000
+      }
+    },
+    {
+      "rank_id": 4,
+      "name": "LT. COMMANDER IV",
+      "officer_ability_value": 0.08,
+      "requirements": {
+        "badges": 2,
+        "credits": 11500,
+        "others": [],
+        "shards": 360,
+        "xp": 1250000
+      }
+    },
+    {
+      "rank_id": 5,
+      "name": "COMMANDER V",
+      "officer_ability_value": 0.1,
+      "requirements": {
+        "badges": 4,
+        "credits": 25000,
+        "others": [],
+        "shards": 960,
+        "xp": 2500000
+      }
+    }
+  ],
+  "img_url": "./assets/tmp_hikaru_sulu.png"
+}

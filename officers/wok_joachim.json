@@ -1,6 +1,6 @@
 {
   "officer_name": "WOK Joachim",
-  "description": "In the latter years of the 20th century, the natural charisma and leadership displayed by Khan Noonien Singh garnered him many devoted followers. Perhaps none were more dedicated to their faith than Joachim. With his legion of genetically-engineered \u201cAugments\u201d, Khan would lead a revolution that would become known as the Eugenics Wars. Following their defeat at the conclusion of this conflict, Joachim found himself among a contingent of the most loyal followers who would join Khan in exodus aboard the sleeper ship Botany Bay. Out there, among the stars, they would escape their would-be captors and awaken from cryogenic slumber in order to build a new life.\n\nWhen the Botany Bay was discovered by the USS Enterprise more than 70 years later, Khan attempted to hijack the ship in order to continue this pursuit of prosperity. However, when these efforts backfired, the Augments instead found themselves exiled to the barren sands of Ceti Alpha V. Here, Khan would eventually abandon his quest to find a home for his people, instead opting for the path of vengeance against those who banished them to this place.\n\nThroughout all of Khan\u2019s futile pursuits of dominance and revenge, Joachim stood by his side as a stalwart ally and advisor, his faith unwavering. Although his attempts to provide sound knowledge and counsel often fell on deaf ears, Joachim nonetheless trusted to the very end that Khan would act in the best interests of his genetically-engineered followers.",
+  "description": "In the latter years of the 20th century, the natural charisma and leadership displayed by Khan Noonien Singh garnered him many devoted followers. Perhaps none were more dedicated to their faith than Joachim. With his legion of genetically-engineered \u201cAugments\u201d, Khan would lead a revolution that would become known as the Eugenics Wars. Following their defeat at the conclusion of this conflict, Joachim found himself among a contingent of the most loyal followers who would join Khan in exodus aboard the sleeper ship Botany Bay. Out there, among the stars, they would escape their would-be captors and awaken from cryogenic slumber in order to build a new life.\n\nWhen the Botany Bay was discovered by the U.S.S. Enterprise more than 70 years later, Khan attempted to hijack the ship in order to continue this pursuit of prosperity. However, when these efforts backfired, the Augments instead found themselves exiled to the barren sands of Ceti Alpha V. Here, Khan would eventually abandon his quest to find a home for his people, instead opting for the path of vengeance against those who banished them to this place.\n\nThroughout all of Khan\u2019s futile pursuits of dominance and revenge, Joachim stood by his side as a stalwart ally and advisor, his faith unwavering. Although his attempts to provide sound knowledge and counsel often fell on deaf ears, Joachim nonetheless trusted to the very end that Khan would act in the best interests of his genetically-engineered followers.",
   "class": "command",
   "group": "wrath of khan",
   "faction": "neutral",
@@ -14,12 +14,12 @@
     },
     "officer_ability": {
       "name": "Unwavering Faith",
-      "bonus": "This ability does not trigger when Tal is assigned to the bridge of your ship.\n\nApex Barrier provides <b>true damage mitigation from all sources after all other bonuses. Every 100 Apex Barrier increases the damage you can take by 1%.",
+      "bonus": "On combat start, WOK Joachim increases your Apex Barrier by {value} ({value} at rank {value}) when attacked by a player while on a Survey ship.\n\nThis ability does not trigger when Tal is assigned to the bridge of your ship.\n\nApex Barrier provides <b>true damage mitigation from all sources after all other bonuses. Every 100 Apex Barrier increases the damage you can take by 1%.",
       "percentage": false
     },
     "below_decks_ability": {
       "name": "We Are Free",
-      "bonus": "Below-Deck Abilities are only activated when assigned to a below-decks slot on a ship.",
+      "bonus": "WOK Joachim increases your Isolytic Defense by {value} ({value} at rank {value}) against hostiles and players.\n\nBelow-Deck Abilities are only activated when assigned to a below-decks slot on a ship.",
       "percentage": true
     }
   },

@@ -1,6 +1,6 @@
 {
   "officer_name": "WOK Saavik",
-  "description": "The Kobayashi Maru scenario was a vital component of the Starfleet Academy curriculum during the 23rd century. An infamous training exercise, deliberately engineered to be near-impossible to complete, the test was designed to examine any given cadet\u2019s mettle and critical thinking under extreme duress. Countless cadets have attempted and failed to pass the Kobayashi Maru scenario. Although her valiant effort to satisfy the conditions of the test was noteworthy, for Lieutenant junior grade Saavik, the outcome would be no different. Regardless, the lessons learned from undertaking the Kobayashi Maru scenario would stay with Saavik throughout her career in Starfleet.\n\nDuring her time spent in the Academy, Saavik was fortunate enough to have been mentored by her eminent instructor and fellow Vulcan, Spock. Saavik\u2019s time spent under Spock\u2019s tutelage would prove to be a formative experience. Her initial placement following graduation from the Academy was to be the bridge of the USS Enterprise in the prestigious role of the ship\u2019s navigator. However, Saavik\u2019s inaugural training mission would soon be disrupted by the appearance of Khan Noonien Singh and the Augment exiles. Following Khan\u2019s plot to steal the Genesis Device, Saavik once again found herself facing imminent defeat, but this merely strengthened her resolve. Having already endured a loss during a no-win scenario, Saavik promised herself that this time, the outcome would be different.",
+  "description": "The Kobayashi Maru scenario was a vital component of the Starfleet Academy curriculum during the 23rd century. An infamous training exercise, deliberately engineered to be near-impossible to complete, the test was designed to examine any given cadet\u2019s mettle and critical thinking under extreme duress. Countless cadets have attempted and failed to pass the Kobayashi Maru scenario. Although her valiant effort to satisfy the conditions of the test was noteworthy, for Lieutenant junior grade Saavik, the outcome would be no different. Regardless, the lessons learned from undertaking the Kobayashi Maru scenario would stay with Saavik throughout her career in Starfleet.\n\nDuring her time spent in the Academy, Saavik was fortunate enough to have been mentored by her eminent instructor and fellow Vulcan, Spock. Saavik\u2019s time spent under Spock\u2019s tutelage would prove to be a formative experience. Her initial placement following graduation from the Academy was to be the bridge of the U.S.S. Enterprise in the prestigious role of the ship\u2019s navigator. However, Saavik\u2019s inaugural training mission would soon be disrupted by the appearance of Khan Noonien Singh and the Augment exiles. Following Khan\u2019s plot to steal the Genesis Device, Saavik once again found herself facing imminent defeat, but this merely strengthened her resolve. Having already endured a loss during a no-win scenario, Saavik promised herself that this time, the outcome would be different.",
   "class": "science",
   "group": "wrath of khan",
   "faction": "federation",
@@ -14,12 +14,12 @@
     },
     "officer_ability": {
       "name": "A Fair Test",
-      "bonus": "",
+      "bonus": "On combat start, WOK Saavik increases Isolytic Cascade damage by {value} ({value} at rank {value}) when in Wave Defense.",
       "percentage": true
     },
     "below_decks_ability": {
       "name": "By The Book",
-      "bonus": "Below-Deck Abilities are only activated when assigned to a below-decks slot on a ship.",
+      "bonus": "On round start, against non-Armada hostiles, WOK Saavik increases your Isolytic Cascade damage by {value} ({value} at rank {value}) for 1 round, if the enemy has any state.\n\nBelow-Deck Abilities are only activated when assigned to a below-decks slot on a ship.",
       "percentage": true
     }
   },

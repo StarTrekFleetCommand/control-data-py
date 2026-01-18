@@ -1,0 +1,105 @@
+{
+  "research_name": "<color=#fac710>Prime</color> Solo Outpost Assault",
+  "description": "Increase base Weapon Damage for all ships against Outpost and their Retaliation ships.",
+  "location": {
+    "column": 40,
+    "row": 2,
+    "tree": "combat"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "research_time": 42936480,
+      "increased_power": 243000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 51
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "dilithium",
+            "value": 7448263680000
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "prime <color=#fac710>outpost</color> insignia",
+            "value": 1000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 10.0
+      }
+    },
+    {
+      "level": 2,
+      "research_time": 68929920,
+      "increased_power": 194000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 61
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-dilithium",
+            "value": 1654048
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "prime <color=#fac710>outpost</color> insignia",
+            "value": 1000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 25.0
+      }
+    },
+    {
+      "level": 3,
+      "research_time": 104608800,
+      "increased_power": 247000,
+      "requirements": [
+        {
+          "name": "R&D Department",
+          "level": 71
+        }
+      ],
+      "required_by": [],
+      "research_costs": {
+        "resources": [
+          {
+            "type": "\u03c3-dilithium",
+            "value": 15764760
+          }
+        ],
+        "materials": [],
+        "others": [
+          {
+            "type": "prime <color=#fac710>outpost</color> insignia",
+            "value": 1000
+          }
+        ]
+      },
+      "bonus": {
+        "percentage": true,
+        "value": 50.0
+      }
+    }
+  ],
+  "img_url": "./assets/colorfac710primecolor_solo_outpost_assault_combat_2_40.png"
+}

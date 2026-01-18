@@ -1,0 +1,6502 @@
+{
+  "ship_name": "U.S.S. EXCELSIOR",
+  "description": "The first vessel and namesake of the Excelsior-class, the U.S.S. Excelsior initially entered service in 2285, under the command of Captain Lawrence H. Styles. With registry number NX-2000, it was a prototype vessel, dubbed \u201cThe Great Experiment\u201d by some, but likened to his grandmother with wheels constituting a wagon, by famed Enterprise engineer, Montgomery Scott. Built around its pioneering transwarp drive, the ship was designed as a benchmark for a new fleet that could replace the aging Constitution II-class vessels, including the U.S.S. Enterprise-A. Indeed, it was in pursuit of the Enterprise, stolen by Captain Kirk and his crew in an effort to reunite Spock\u2019s katra with his body, that the Excelsior underwent its first real test - a test it failed spectacularly, due to the sabotage of none other than Montgomery Scott.\n\nBy the end of the decade, and following an extensive rework, the Excelsior had entered active service under its new registry, NCC-2000. Now under the command of Captain Hikaru Sulu, the once helmsman of the Enterprise, its key bridge crew included Commander Janice Rand as communications officer, Lieutenant Commander Dimitri Valtane as science officer, Lieutenant Commander Lojur as helmsman, and Ensign Tuvok as junior science officer. It was in this new guise that the Excelsior earned its renown, though initially this wasn\u2019t assured, as it spent a three-year mission cataloguing gaseous planetary anomalies in the Beta Quadrant. However, on its way home, it was drawn into the political war between the Federation and Klingon Empire, as it was in the vicinity of the Klingon moon Praxis when it exploded due to a mining accident. This led directly to the Klingons brokering peace with the Federation - something General Chang would have prevented, were it not for the direct intervention of Sulu and the Excelsior, as they rushed to the aid of Kirk and the Enterprise during the climactic battle.\n\nDespite its reconfiguration, the Excelsior remains a marvel of contemporary Starfleet engineering. It boasts such design refinements as a luxurious captain\u2019s ready room, and the ability to separate its primary hull, or saucer section, from its secondary stardrive hull in an emergency. The ship has proven so successful that when the Enterprise-A was recently decommissioned, the Excelsior-class became the foundation for its successor, the Enterprise-B. Even Montgomery Scott must now concede that this is indeed a vessel to be reckoned with.",
+  "ship_class": "battleship",
+  "grade": 5,
+  "faction": "neutral",
+  "rarity": "epic",
+  "blueprints": {
+    "cost": 0,
+    "quantity": 200
+  },
+  "ship_ability": {
+    "title": "Pattern Delta",
+    "description": "Increases Isolytic Damage against V'ger Fighters [VGER-FIGHTER] by {value}.",
+    "percentage": true
+  },
+  "scrap_info": {
+    "scrappable": false
+  },
+  "requirements": [
+    {
+      "name": "Shipyard",
+      "level": 51
+    }
+  ],
+  "tiers": [
+    {
+      "tier": 1,
+      "build_time": 10625700,
+      "repair_time": 297480,
+      "components": [
+        {
+          "name": "Photon Torpedo Launcher",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": []
+          },
+          "repair_cost": [],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 5600,
+              "armor_pierce": 5600,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 10080,
+              "min_damage": 8400,
+              "shield_pierce": 56000,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": []
+          },
+          "repair_cost": [],
+          "additional_info": {
+            "armor_info": {
+              "armor": 36000,
+              "hull_health": 1200000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Phaser Cannons",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": []
+          },
+          "repair_cost": [],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 5600,
+              "armor_pierce": 5600,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 10080,
+              "min_damage": 8400,
+              "shield_pierce": 56000,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": []
+          },
+          "repair_cost": [],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 90000,
+              "increased_protected_cargo": 5000,
+              "ship_increased_cargo": 0,
+              "ship_increased_protected_cargo": 0
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Experimental Transwarp Drive",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": []
+          },
+          "repair_cost": [],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 200,
+              "warp_speed": 11.5
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield Generator",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": []
+          },
+          "repair_cost": [],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 4000,
+              "shield_health": 1000000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engines",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [],
+            "materials": [],
+            "others": []
+          },
+          "repair_cost": [],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 4000,
+              "impulse_speed": 90
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 5000.0,
+          "additional_officer_slot": false,
+          "level": 1,
+          "ship_xp": 0
+        },
+        {
+          "ability_bonus": 5000.0,
+          "additional_officer_slot": false,
+          "level": 2,
+          "ship_xp": 100000
+        },
+        {
+          "ability_bonus": 5000.0,
+          "additional_officer_slot": false,
+          "level": 3,
+          "ship_xp": 135000
+        },
+        {
+          "ability_bonus": 5000.0,
+          "additional_officer_slot": false,
+          "level": 4,
+          "ship_xp": 198315
+        },
+        {
+          "ability_bonus": 5000.0,
+          "additional_officer_slot": false,
+          "level": 5,
+          "ship_xp": 260784
+        }
+      ],
+      "initial_build_cost": {
+        "resources": [
+          {
+            "type": "tritanium",
+            "value": 18686936500000
+          },
+          {
+            "type": "dilithium",
+            "value": 5051360000
+          }
+        ],
+        "materials": [
+          {
+            "type": "ore",
+            "value": 3227900,
+            "grade": 5,
+            "rarity": "common"
+          },
+          {
+            "type": "crystal",
+            "value": 1815700,
+            "grade": 5,
+            "rarity": "common"
+          }
+        ],
+        "others": []
+      }
+    },
+    {
+      "tier": 2,
+      "build_time": 3000000,
+      "repair_time": 421620,
+      "components": [
+        {
+          "name": "Photon Torpedo Launcher",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 747477450000
+              },
+              {
+                "type": "dilithium",
+                "value": 202054000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 48700,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 27390,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 200
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 503616000
+            },
+            {
+              "type": "dilithium",
+              "value": 177200
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 6745,
+              "armor_pierce": 6745,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 12780,
+              "min_damage": 10650,
+              "shield_pierce": 67450,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 747477450000
+              },
+              {
+                "type": "dilithium",
+                "value": 202054000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 107600,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 60520,
+                "grade": 5,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 200
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 503616000
+            },
+            {
+              "type": "dilithium",
+              "value": 177200
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 54000,
+              "hull_health": 1440000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Phaser Cannons",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 747477450000
+              },
+              {
+                "type": "dilithium",
+                "value": 202054000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 48700,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 27390,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 200
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 503616000
+            },
+            {
+              "type": "dilithium",
+              "value": 177200
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 6745,
+              "armor_pierce": 6745,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 12780,
+              "min_damage": 10650,
+              "shield_pierce": 67450,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 747477450000
+              },
+              {
+                "type": "dilithium",
+                "value": 202054000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 107600,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 60520,
+                "grade": 5,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 200
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 503616000
+            },
+            {
+              "type": "dilithium",
+              "value": 177200
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 5000,
+              "increased_protected_cargo": 500,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 200
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Experimental Transwarp Drive",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 1494954900000
+              },
+              {
+                "type": "dilithium",
+                "value": 404109000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 215200,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 121050,
+                "grade": 5,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 400
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 1007230000
+            },
+            {
+              "type": "dilithium",
+              "value": 354350
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 205,
+              "warp_speed": 11.6
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield Generator",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 747477450000
+              },
+              {
+                "type": "dilithium",
+                "value": 202054000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 107600,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 60520,
+                "grade": 5,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 200
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 503613000
+            },
+            {
+              "type": "dilithium",
+              "value": 177050
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 6000,
+              "shield_health": 1200000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engines",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 747477450000
+              },
+              {
+                "type": "dilithium",
+                "value": 202054000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 107600,
+                "grade": 5,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 60520,
+                "grade": 5,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 200
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 503616000
+            },
+            {
+              "type": "dilithium",
+              "value": 177200
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 6000,
+              "impulse_speed": 90
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 5500.0,
+          "additional_officer_slot": false,
+          "level": 6,
+          "ship_xp": 335629
+        },
+        {
+          "ability_bonus": 5500.0,
+          "additional_officer_slot": false,
+          "level": 7,
+          "ship_xp": 439003
+        },
+        {
+          "ability_bonus": 5500.0,
+          "additional_officer_slot": false,
+          "level": 8,
+          "ship_xp": 537340
+        },
+        {
+          "ability_bonus": 5500.0,
+          "additional_officer_slot": false,
+          "level": 9,
+          "ship_xp": 642658
+        },
+        {
+          "ability_bonus": 5500.0,
+          "additional_officer_slot": false,
+          "level": 10,
+          "ship_xp": 777617
+        }
+      ]
+    },
+    {
+      "tier": 3,
+      "build_time": 6000000,
+      "repair_time": 578880,
+      "components": [
+        {
+          "name": "Photon Torpedo Launcher",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 2463327400000
+              },
+              {
+                "type": "dilithium",
+                "value": 657602000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 31850,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 17920,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 306
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 2126635000
+            },
+            {
+              "type": "dilithium",
+              "value": 686050
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 9120,
+              "armor_pierce": 9120,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 17328,
+              "min_damage": 14440,
+              "shield_pierce": 91200,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 2463327400000
+              },
+              {
+                "type": "dilithium",
+                "value": 657602000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 31850,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 17920,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 306
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 2126635000
+            },
+            {
+              "type": "dilithium",
+              "value": 686050
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 81000,
+              "hull_health": 2040000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Phaser Cannons",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 2463327400000
+              },
+              {
+                "type": "dilithium",
+                "value": 657602000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 31850,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 17920,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 306
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 2126635000
+            },
+            {
+              "type": "dilithium",
+              "value": 686050
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 9120,
+              "armor_pierce": 9120,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 17328,
+              "min_damage": 14440,
+              "shield_pierce": 91200,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 2463327400000
+              },
+              {
+                "type": "dilithium",
+                "value": 657602000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 31850,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 17920,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 306
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 2126635000
+            },
+            {
+              "type": "dilithium",
+              "value": 686050
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 5000,
+              "increased_protected_cargo": 500,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 200
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Experimental Transwarp Drive",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 4926654900000
+              },
+              {
+                "type": "dilithium",
+                "value": 1315205000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 63710,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 35830,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 613
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 4253270000
+            },
+            {
+              "type": "dilithium",
+              "value": 1372100
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 210,
+              "warp_speed": 11.7
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield Generator",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 2463327400000
+              },
+              {
+                "type": "dilithium",
+                "value": 657602000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 31850,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 17920,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 306
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 2126645000
+            },
+            {
+              "type": "dilithium",
+              "value": 686150
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 9000,
+              "shield_health": 1700000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engines",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 2463327400000
+              },
+              {
+                "type": "dilithium",
+                "value": 657602000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 31850,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 17920,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 306
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 2126635000
+            },
+            {
+              "type": "dilithium",
+              "value": 686050
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 9000,
+              "impulse_speed": 90
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 6000.0,
+          "additional_officer_slot": false,
+          "level": 11,
+          "ship_xp": 897370
+        },
+        {
+          "ability_bonus": 6000.0,
+          "additional_officer_slot": false,
+          "level": 12,
+          "ship_xp": 1023001
+        },
+        {
+          "ability_bonus": 6000.0,
+          "additional_officer_slot": false,
+          "level": 13,
+          "ship_xp": 1194866
+        },
+        {
+          "ability_bonus": 6000.0,
+          "additional_officer_slot": false,
+          "level": 14,
+          "ship_xp": 1337055
+        },
+        {
+          "ability_bonus": 6000.0,
+          "additional_officer_slot": false,
+          "level": 15,
+          "ship_xp": 1486805
+        }
+      ]
+    },
+    {
+      "tier": 4,
+      "build_time": 10000000,
+      "repair_time": 846420,
+      "components": [
+        {
+          "name": "Photon Torpedo Launcher",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 10748546500000
+              },
+              {
+                "type": "dilithium",
+                "value": 3263185000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 53740,
+                "grade": 5,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 30230,
+                "grade": 5,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 738
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 5779185000
+            },
+            {
+              "type": "dilithium",
+              "value": 2065800
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 11400,
+              "armor_pierce": 11400,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 21888,
+              "min_damage": 18240,
+              "shield_pierce": 114000,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 10748546500000
+              },
+              {
+                "type": "dilithium",
+                "value": 3263185000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 139100,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 78250,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 738
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 5779185000
+            },
+            {
+              "type": "dilithium",
+              "value": 2065800
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 117000,
+              "hull_health": 2760000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Phaser Cannons",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 10748546500000
+              },
+              {
+                "type": "dilithium",
+                "value": 3263185000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 53740,
+                "grade": 5,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 30230,
+                "grade": 5,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 738
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 5779185000
+            },
+            {
+              "type": "dilithium",
+              "value": 2065800
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 11400,
+              "armor_pierce": 11400,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 21888,
+              "min_damage": 18240,
+              "shield_pierce": 114000,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 10748546500000
+              },
+              {
+                "type": "dilithium",
+                "value": 3263185000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 139100,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 78250,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 738
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 5779185000
+            },
+            {
+              "type": "dilithium",
+              "value": 2065800
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 5000,
+              "increased_protected_cargo": 500,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 200
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Experimental Transwarp Drive",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 21497092500000
+              },
+              {
+                "type": "dilithium",
+                "value": 6526370000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 278250,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 156500,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 1475
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 11558370000
+            },
+            {
+              "type": "dilithium",
+              "value": 4131600
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 215,
+              "warp_speed": 11.8
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield Generator",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 10748546500000
+              },
+              {
+                "type": "dilithium",
+                "value": 3263185000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 139100,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 78250,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 738
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 5779175000
+            },
+            {
+              "type": "dilithium",
+              "value": 2065800
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 13000,
+              "shield_health": 2300000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engines",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 10748546500000
+              },
+              {
+                "type": "dilithium",
+                "value": 3263185000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 139100,
+                "grade": 5,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 78250,
+                "grade": 5,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 738
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 5779185000
+            },
+            {
+              "type": "dilithium",
+              "value": 2065800
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 13000,
+              "impulse_speed": 90
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 6500.0,
+          "additional_officer_slot": false,
+          "level": 16,
+          "ship_xp": 1684550
+        },
+        {
+          "ability_bonus": 6500.0,
+          "additional_officer_slot": false,
+          "level": 17,
+          "ship_xp": 1849636
+        },
+        {
+          "ability_bonus": 6500.0,
+          "additional_officer_slot": false,
+          "level": 18,
+          "ship_xp": 2005005
+        },
+        {
+          "ability_bonus": 6500.0,
+          "additional_officer_slot": false,
+          "level": 19,
+          "ship_xp": 2243601
+        },
+        {
+          "ability_bonus": 6500.0,
+          "additional_officer_slot": false,
+          "level": 20,
+          "ship_xp": 2416358
+        }
+      ]
+    },
+    {
+      "tier": 5,
+      "build_time": 15000000,
+      "repair_time": 1094340,
+      "components": [
+        {
+          "name": "Photon Torpedo Launcher",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 25805776500000
+              },
+              {
+                "type": "dilithium",
+                "value": 8862030000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 32260,
+                "grade": 5,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 18140,
+                "grade": 5,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 1145
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 10596060000
+            },
+            {
+              "type": "dilithium",
+              "value": 4178800
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 15200,
+              "armor_pierce": 15200,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 27360,
+              "min_damage": 22800,
+              "shield_pierce": 152000,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 25805776500000
+              },
+              {
+                "type": "dilithium",
+                "value": 8862030000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 32260,
+                "grade": 5,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 18140,
+                "grade": 5,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 1145
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 10596060000
+            },
+            {
+              "type": "dilithium",
+              "value": 4178800
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 162000,
+              "hull_health": 3600000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Phaser Cannons",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 25805776500000
+              },
+              {
+                "type": "dilithium",
+                "value": 8862030000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 32260,
+                "grade": 5,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 18140,
+                "grade": 5,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 1145
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 10596060000
+            },
+            {
+              "type": "dilithium",
+              "value": 4178800
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 15200,
+              "armor_pierce": 15200,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 27360,
+              "min_damage": 22800,
+              "shield_pierce": 152000,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 25805776500000
+              },
+              {
+                "type": "dilithium",
+                "value": 8862030000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 32260,
+                "grade": 5,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 18140,
+                "grade": 5,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 1145
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 10596060000
+            },
+            {
+              "type": "dilithium",
+              "value": 4178800
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 5000,
+              "increased_protected_cargo": 500,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 200
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Experimental Transwarp Drive",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 51611553000000
+              },
+              {
+                "type": "dilithium",
+                "value": 17724060000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 64510,
+                "grade": 5,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 36290,
+                "grade": 5,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 2290
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 21192120000
+            },
+            {
+              "type": "dilithium",
+              "value": 8357600
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 220,
+              "warp_speed": 11.9
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield Generator",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 25805776500000
+              },
+              {
+                "type": "dilithium",
+                "value": 8862030000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 32260,
+                "grade": 5,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 18140,
+                "grade": 5,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 1145
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 10596060000
+            },
+            {
+              "type": "dilithium",
+              "value": 4178800
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 18000,
+              "shield_health": 3000000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engines",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "tritanium",
+                "value": 25805776500000
+              },
+              {
+                "type": "dilithium",
+                "value": 8862030000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 32260,
+                "grade": 5,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 18140,
+                "grade": 5,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 1145
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "tritanium",
+              "value": 10596060000
+            },
+            {
+              "type": "dilithium",
+              "value": 4178800
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 18000,
+              "impulse_speed": 90
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 7000.0,
+          "additional_officer_slot": false,
+          "level": 21,
+          "ship_xp": 2602418
+        },
+        {
+          "ability_bonus": 7000.0,
+          "additional_officer_slot": false,
+          "level": 22,
+          "ship_xp": 2875671
+        },
+        {
+          "ability_bonus": 7000.0,
+          "additional_officer_slot": false,
+          "level": 23,
+          "ship_xp": 3076968
+        },
+        {
+          "ability_bonus": 7000.0,
+          "additional_officer_slot": false,
+          "level": 24,
+          "ship_xp": 3270817
+        },
+        {
+          "ability_bonus": 7000.0,
+          "additional_officer_slot": false,
+          "level": 25,
+          "ship_xp": 3568462
+        }
+      ]
+    },
+    {
+      "tier": 6,
+      "build_time": 20000000,
+      "repair_time": 1305540,
+      "components": [
+        {
+          "name": "Photon Torpedo Launcher",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 1461200
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 2400
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 141250,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 79470,
+                "grade": 6,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 1535
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 635
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 1
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 19760,
+              "armor_pierce": 19760,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 36480,
+              "min_damage": 30400,
+              "shield_pierce": 197600,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 1461200
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 2400
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 141250,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 79470,
+                "grade": 6,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 1535
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 635
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 1
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 216000,
+              "hull_health": 4800000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Phaser Cannons",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 1461200
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 2400
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 141250,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 79470,
+                "grade": 6,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 1535
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 635
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 1
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 19760,
+              "armor_pierce": 19760,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 36480,
+              "min_damage": 30400,
+              "shield_pierce": 197600,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 1461200
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 2400
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 141250,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 79470,
+                "grade": 6,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 1535
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 635
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 1
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 5000,
+              "increased_protected_cargo": 500,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 200
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Experimental Transwarp Drive",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 2922400
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 4800
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 282500,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 158950,
+                "grade": 6,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 3070
+              },
+              {
+                "type": "transwarp core tier 5",
+                "value": 1
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 1270
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 2
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 225,
+              "warp_speed": 12
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield Generator",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 1461200
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 2400
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 141250,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 79470,
+                "grade": 6,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 1535
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 640
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 2
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 24000,
+              "shield_health": 4000000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engines",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 1461200
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 2400
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 141250,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 79470,
+                "grade": 6,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 1535
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 635
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 1
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 24000,
+              "impulse_speed": 90
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 7500.0,
+          "additional_officer_slot": false,
+          "level": 26,
+          "ship_xp": 3768296
+        },
+        {
+          "ability_bonus": 7500.0,
+          "additional_officer_slot": false,
+          "level": 27,
+          "ship_xp": 3979320
+        },
+        {
+          "ability_bonus": 7500.0,
+          "additional_officer_slot": false,
+          "level": 28,
+          "ship_xp": 4313583
+        },
+        {
+          "ability_bonus": 7500.0,
+          "additional_officer_slot": false,
+          "level": 29,
+          "ship_xp": 4555144
+        },
+        {
+          "ability_bonus": 7500.0,
+          "additional_officer_slot": false,
+          "level": 30,
+          "ship_xp": 4778346
+        }
+      ]
+    },
+    {
+      "tier": 7,
+      "build_time": 25000000,
+      "repair_time": 1714740,
+      "components": [
+        {
+          "name": "Photon Torpedo Launcher",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 2294200
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 4235
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 116000,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 65240,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 1930
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 1150
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 2
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 25080,
+              "armor_pierce": 25080,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 54720,
+              "min_damage": 45600,
+              "shield_pierce": 250800,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 2294200
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 4235
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 278900,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 156900,
+                "grade": 6,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 1930
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 1150
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 2
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 279000,
+              "hull_health": 6360000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Phaser Cannons",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 2294200
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 4235
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 116000,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 65240,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 1930
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 1150
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 2
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 25080,
+              "armor_pierce": 25080,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 54720,
+              "min_damage": 45600,
+              "shield_pierce": 250800,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 2294200
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 4235
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 278900,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 156900,
+                "grade": 6,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 1930
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 1150
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 2
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 5000,
+              "increased_protected_cargo": 500,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 200
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Experimental Transwarp Drive",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 4588300
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 8470
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 557800,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 313800,
+                "grade": 6,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 3860
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 2295
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 4
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 230,
+              "warp_speed": 12.1
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield Generator",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 2294200
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 4235
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 278900,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 156900,
+                "grade": 6,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 1930
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 1145
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 5
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 31000,
+              "shield_health": 5300000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engines",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 2294200
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 4235
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 278900,
+                "grade": 6,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 156900,
+                "grade": 6,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 1930
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 1150
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 2
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 31000,
+              "impulse_speed": 90
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 8000.0,
+          "additional_officer_slot": false,
+          "level": 31,
+          "ship_xp": 5146278
+        },
+        {
+          "ability_bonus": 8000.0,
+          "additional_officer_slot": false,
+          "level": 32,
+          "ship_xp": 5398446
+        },
+        {
+          "ability_bonus": 8000.0,
+          "additional_officer_slot": false,
+          "level": 33,
+          "ship_xp": 5662970
+        },
+        {
+          "ability_bonus": 8000.0,
+          "additional_officer_slot": false,
+          "level": 34,
+          "ship_xp": 6099019
+        },
+        {
+          "ability_bonus": 8000.0,
+          "additional_officer_slot": false,
+          "level": 35,
+          "ship_xp": 6355177
+        }
+      ]
+    },
+    {
+      "tier": 8,
+      "build_time": 32500000,
+      "repair_time": 2076540,
+      "components": [
+        {
+          "name": "Photon Torpedo Launcher",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 4235500
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 7435
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 54840,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 30840,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 2370
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 2310
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 4
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 30400,
+              "armor_pierce": 30400,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 91200,
+              "min_damage": 76000,
+              "shield_pierce": 304000,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 4235500
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 7435
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 54840,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 30840,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 2370
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 2310
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 4
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 351000,
+              "hull_health": 9600000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Phaser Cannons",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 4235500
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 7435
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 54840,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 30840,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 2370
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 2310
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 4
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 30400,
+              "armor_pierce": 30400,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 91200,
+              "min_damage": 76000,
+              "shield_pierce": 304000,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 4235500
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 7435
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 54840,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 30840,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 2370
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 2310
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 4
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 5000,
+              "increased_protected_cargo": 500,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 200
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Experimental Transwarp Drive",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 8471000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 14870
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 109650,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 61680,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 4735
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 4625
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 9
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 300,
+              "warp_speed": 12.2
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield Generator",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 4235500
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 7435
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 54840,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 30840,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 2370
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 2325
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 8
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 39000,
+              "shield_health": 8000000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engines",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 4235500
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 7435
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 54840,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 30840,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 2370
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 2310
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 4
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 39000,
+              "impulse_speed": 90
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 8500.0,
+          "additional_officer_slot": false,
+          "level": 36,
+          "ship_xp": 6622095
+        },
+        {
+          "ability_bonus": 8500.0,
+          "additional_officer_slot": false,
+          "level": 37,
+          "ship_xp": 7085641
+        },
+        {
+          "ability_bonus": 8500.0,
+          "additional_officer_slot": false,
+          "level": 38,
+          "ship_xp": 7383238
+        },
+        {
+          "ability_bonus": 8500.0,
+          "additional_officer_slot": false,
+          "level": 39,
+          "ship_xp": 7641652
+        },
+        {
+          "ability_bonus": 8500.0,
+          "additional_officer_slot": false,
+          "level": 40,
+          "ship_xp": 8123076
+        }
+      ]
+    },
+    {
+      "tier": 9,
+      "build_time": 40000000,
+      "repair_time": 2484540,
+      "components": [
+        {
+          "name": "Photon Torpedo Launcher",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 6526300
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 11960
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 41430,
+                "grade": 6,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 23320,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 2800
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 4530
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 9
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 38000,
+              "armor_pierce": 38000,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 145920,
+              "min_damage": 121600,
+              "shield_pierce": 380000,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 6526300
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 11960
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 104750,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 58930,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 2800
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 4530
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 9
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 441000,
+              "hull_health": 13200000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Phaser Cannons",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 6526300
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 11960
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 41430,
+                "grade": 6,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 23320,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 2800
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 4530
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 9
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 38000,
+              "armor_pierce": 38000,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 145920,
+              "min_damage": 121600,
+              "shield_pierce": 380000,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 6526300
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 11960
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 104750,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 58930,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 2800
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 4530
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 9
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 5000,
+              "increased_protected_cargo": 500,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 200
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Experimental Transwarp Drive",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 13052500
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 23920
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 209500,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 117850,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 5600
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 9065
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 18
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 350,
+              "warp_speed": 12.3
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield Generator",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 6526300
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 11960
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 104750,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 58930,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 2800
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 4555
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 12
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 49000,
+              "shield_health": 11000000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engines",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 6526300
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 11960
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 104750,
+                "grade": 6,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 58930,
+                "grade": 6,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 2800
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 4530
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 9
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 49000,
+              "impulse_speed": 90
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 9000.0,
+          "additional_officer_slot": false,
+          "level": 41,
+          "ship_xp": 8407383
+        },
+        {
+          "ability_bonus": 9000.0,
+          "additional_officer_slot": false,
+          "level": 42,
+          "ship_xp": 8701642
+        },
+        {
+          "ability_bonus": 9000.0,
+          "additional_officer_slot": false,
+          "level": 43,
+          "ship_xp": 9249845
+        },
+        {
+          "ability_bonus": 9000.0,
+          "additional_officer_slot": false,
+          "level": 44,
+          "ship_xp": 9573590
+        },
+        {
+          "ability_bonus": 9000.0,
+          "additional_officer_slot": false,
+          "level": 45,
+          "ship_xp": 9908666
+        }
+      ]
+    },
+    {
+      "tier": 10,
+      "build_time": 50000000,
+      "repair_time": 2996340,
+      "components": [
+        {
+          "name": "Photon Torpedo Launcher",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 10791000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 19900
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 18440,
+                "grade": 6,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 10380,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 3315
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 9730
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 20
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 49400,
+              "armor_pierce": 49400,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 218880,
+              "min_damage": 182400,
+              "shield_pierce": 494000,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 10791000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 19900
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 18440,
+                "grade": 6,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 10380,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 3315
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 9730
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 20
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 540000,
+              "hull_health": 18000000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Phaser Cannons",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 10791000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 19900
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 18440,
+                "grade": 6,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 10380,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 3315
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 9730
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 20
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 49400,
+              "armor_pierce": 49400,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 218880,
+              "min_damage": 182400,
+              "shield_pierce": 494000,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 10791000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 19900
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 18440,
+                "grade": 6,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 10380,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 3315
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 9730
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 20
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 5000,
+              "increased_protected_cargo": 500,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 200
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Experimental Transwarp Drive",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 21582000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 39790
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 36880,
+                "grade": 6,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 20760,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 6635
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 19460
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 40
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 450,
+              "warp_speed": 12.4
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield Generator",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 10791000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 19900
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 18440,
+                "grade": 6,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 10380,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 3315
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 9750
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 21
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 60000,
+              "shield_health": 15000000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engines",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 10791000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 19900
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 18440,
+                "grade": 6,
+                "rarity": "rare"
+              },
+              {
+                "type": "crystal",
+                "value": 10380,
+                "grade": 6,
+                "rarity": "rare"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 3315
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 9730
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 20
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 60000,
+              "impulse_speed": 90
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 9500.0,
+          "additional_officer_slot": false,
+          "level": 46,
+          "ship_xp": 10463551
+        },
+        {
+          "ability_bonus": 9500.0,
+          "additional_officer_slot": false,
+          "level": 47,
+          "ship_xp": 10756530
+        },
+        {
+          "ability_bonus": 9500.0,
+          "additional_officer_slot": false,
+          "level": 48,
+          "ship_xp": 11057713
+        },
+        {
+          "ability_bonus": 9500.0,
+          "additional_officer_slot": false,
+          "level": 49,
+          "ship_xp": 11676945
+        },
+        {
+          "ability_bonus": 9500.0,
+          "additional_officer_slot": false,
+          "level": 50,
+          "ship_xp": 12003899
+        }
+      ]
+    },
+    {
+      "tier": 11,
+      "build_time": 65000000,
+      "repair_time": 3420540,
+      "components": [
+        {
+          "name": "Photon Torpedo Launcher",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 26641000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 380450
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 99860,
+                "grade": 7,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 56520,
+                "grade": 7,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 3770
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 29190
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 466
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 64600,
+              "armor_pierce": 64600,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 328320,
+              "min_damage": 273600,
+              "shield_pierce": 646000,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 26641000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 380450
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 99860,
+                "grade": 7,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 56520,
+                "grade": 7,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 3770
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 29190
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 466
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 648000,
+              "hull_health": 22800000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Phaser Cannons",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 26641000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 380450
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 99860,
+                "grade": 7,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 56520,
+                "grade": 7,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 3770
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 29190
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 466
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 64600,
+              "armor_pierce": 64600,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 328320,
+              "min_damage": 273600,
+              "shield_pierce": 646000,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 26641000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 380450
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 99860,
+                "grade": 7,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 56520,
+                "grade": 7,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 3770
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 29190
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 466
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 5000,
+              "increased_protected_cargo": 500,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 200
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Experimental Transwarp Drive",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 53281500
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 760950
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 199750,
+                "grade": 7,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 113050,
+                "grade": 7,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 7540
+              },
+              {
+                "type": "transwarp core tier 10",
+                "value": 1
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 58390
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 932
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 500,
+              "warp_speed": 12.5
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield Generator",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 26641000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 380450
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 99860,
+                "grade": 7,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 56520,
+                "grade": 7,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 3770
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 29230
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 466
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 72000,
+              "shield_health": 19000000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engines",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 26641000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 380450
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 99860,
+                "grade": 7,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 56520,
+                "grade": 7,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 3770
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 29190
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 466
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 72000,
+              "impulse_speed": 90
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 10000.0,
+          "additional_officer_slot": false,
+          "level": 51,
+          "ship_xp": 12340009
+        },
+        {
+          "ability_bonus": 10000.0,
+          "additional_officer_slot": false,
+          "level": 52,
+          "ship_xp": 13031049
+        },
+        {
+          "ability_bonus": 10000.0,
+          "additional_officer_slot": false,
+          "level": 53,
+          "ship_xp": 13395919
+        },
+        {
+          "ability_bonus": 10000.0,
+          "additional_officer_slot": false,
+          "level": 54,
+          "ship_xp": 13771004
+        },
+        {
+          "ability_bonus": 10000.0,
+          "additional_officer_slot": false,
+          "level": 55,
+          "ship_xp": 14445783
+        }
+      ]
+    },
+    {
+      "tier": 12,
+      "build_time": 90000000,
+      "repair_time": 3715740,
+      "components": [
+        {
+          "name": "Photon Torpedo Launcher",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 41478000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 592000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 110850,
+                "grade": 7,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 62740,
+                "grade": 7,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 4305
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 51190
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 817
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 83600,
+              "armor_pierce": 83600,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 437760,
+              "min_damage": 364800,
+              "shield_pierce": 836000,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 41478000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 592000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 110850,
+                "grade": 7,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 62740,
+                "grade": 7,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 4305
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 51190
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 817
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 765000,
+              "hull_health": 30000000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Phaser Cannons",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 41478000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 592000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 110850,
+                "grade": 7,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 62740,
+                "grade": 7,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 4305
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 51190
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 817
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 83600,
+              "armor_pierce": 83600,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 437760,
+              "min_damage": 364800,
+              "shield_pierce": 836000,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 41478000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 592000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 110850,
+                "grade": 7,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 62740,
+                "grade": 7,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 4305
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 51190
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 817
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 5000,
+              "increased_protected_cargo": 500,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 200
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Experimental Transwarp Drive",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 82956000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 1184000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 221650,
+                "grade": 7,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 125500,
+                "grade": 7,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 8610
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 102350
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 1635
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 750,
+              "warp_speed": 12.6
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield Generator",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 41478000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 592000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 110850,
+                "grade": 7,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 62740,
+                "grade": 7,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 4305
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 51170
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 816
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 85000,
+              "shield_health": 25000000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engines",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 41478000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 592000
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 110850,
+                "grade": 7,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 62740,
+                "grade": 7,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 4305
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 51190
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 817
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 85000,
+              "impulse_speed": 90
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 10500.0,
+          "additional_officer_slot": false,
+          "level": 56,
+          "ship_xp": 14850265
+        },
+        {
+          "ability_bonus": 10500.0,
+          "additional_officer_slot": false,
+          "level": 57,
+          "ship_xp": 15266073
+        },
+        {
+          "ability_bonus": 10500.0,
+          "additional_officer_slot": false,
+          "level": 58,
+          "ship_xp": 16014110
+        },
+        {
+          "ability_bonus": 10500.0,
+          "additional_officer_slot": false,
+          "level": 59,
+          "ship_xp": 16462505
+        },
+        {
+          "ability_bonus": 10500.0,
+          "additional_officer_slot": false,
+          "level": 60,
+          "ship_xp": 17269168
+        }
+      ]
+    },
+    {
+      "tier": 13,
+      "build_time": 120000000,
+      "repair_time": 4010940,
+      "components": [
+        {
+          "name": "Photon Torpedo Launcher",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 63464000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 905650
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 120850,
+                "grade": 7,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 68400,
+                "grade": 7,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 4820
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 86870
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 1385
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 114000,
+              "armor_pierce": 114000,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 565440,
+              "min_damage": 471200,
+              "shield_pierce": 1140000,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 63464000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 905650
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 120850,
+                "grade": 7,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 68400,
+                "grade": 7,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 4820
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 86870
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 1385
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 900000,
+              "hull_health": 48000000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Phaser Cannons",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 63464000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 905650
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 120850,
+                "grade": 7,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 68400,
+                "grade": 7,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 4820
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 86870
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 1385
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 114000,
+              "armor_pierce": 114000,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 565440,
+              "min_damage": 471200,
+              "shield_pierce": 1140000,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 63464000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 905650
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 120850,
+                "grade": 7,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 68400,
+                "grade": 7,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 4820
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 86870
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 1385
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 5000,
+              "increased_protected_cargo": 500,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 200
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Experimental Transwarp Drive",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 126928000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 1811300
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 241750,
+                "grade": 7,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 136800,
+                "grade": 7,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 9645
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 173750
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 2770
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 950,
+              "warp_speed": 12.7
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield Generator",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 63464000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 905650
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 120850,
+                "grade": 7,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 68400,
+                "grade": 7,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 4820
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 86910
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 1395
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 100000,
+              "shield_health": 40000000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engines",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 63464000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 905650
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 120850,
+                "grade": 7,
+                "rarity": "common"
+              },
+              {
+                "type": "crystal",
+                "value": 68400,
+                "grade": 7,
+                "rarity": "common"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 4820
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 86870
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 1385
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 100000,
+              "impulse_speed": 90
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 11000.0,
+          "additional_officer_slot": false,
+          "level": 61,
+          "ship_xp": 17441860
+        },
+        {
+          "ability_bonus": 11000.0,
+          "additional_officer_slot": false,
+          "level": 62,
+          "ship_xp": 17616278
+        },
+        {
+          "ability_bonus": 11000.0,
+          "additional_officer_slot": false,
+          "level": 63,
+          "ship_xp": 17792441
+        },
+        {
+          "ability_bonus": 11000.0,
+          "additional_officer_slot": false,
+          "level": 64,
+          "ship_xp": 17970365
+        },
+        {
+          "ability_bonus": 11000.0,
+          "additional_officer_slot": false,
+          "level": 65,
+          "ship_xp": 18150069
+        }
+      ]
+    },
+    {
+      "tier": 14,
+      "build_time": 138000000,
+      "repair_time": 4601340,
+      "components": [
+        {
+          "name": "Photon Torpedo Launcher",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 96757000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 1380900
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 37600,
+                "grade": 7,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 21250,
+                "grade": 7,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 5365
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 151600
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 2420
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 144000,
+              "armor_pierce": 144000,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 635440,
+              "min_damage": 551200,
+              "shield_pierce": 1440000,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 96757000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 1380900
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 37600,
+                "grade": 7,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 21250,
+                "grade": 7,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 5365
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 151600
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 2420
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 1000000,
+              "hull_health": 58000000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Phaser Cannons",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 96757000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 1380900
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 37600,
+                "grade": 7,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 21250,
+                "grade": 7,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 5365
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 151600
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 2420
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 144000,
+              "armor_pierce": 144000,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 635440,
+              "min_damage": 551200,
+              "shield_pierce": 1440000,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 96757000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 1380900
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 37600,
+                "grade": 7,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 21250,
+                "grade": 7,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 5365
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 151600
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 2420
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 5000,
+              "increased_protected_cargo": 500,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 200
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Experimental Transwarp Drive",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 193514000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 2761700
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 75190,
+                "grade": 7,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 42510,
+                "grade": 7,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 10730
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 303250
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 4840
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 1000,
+              "warp_speed": 12.8
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield Generator",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 96757000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 1380900
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 37600,
+                "grade": 7,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 21250,
+                "grade": 7,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 5365
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 151750
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 2420
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 110000,
+              "shield_health": 50000000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engines",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 96757000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 1380900
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 37600,
+                "grade": 7,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 21250,
+                "grade": 7,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 5365
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 151600
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 2420
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 110000,
+              "impulse_speed": 90
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 11500.0,
+          "additional_officer_slot": false,
+          "level": 66,
+          "ship_xp": 18331570
+        },
+        {
+          "ability_bonus": 11500.0,
+          "additional_officer_slot": false,
+          "level": 67,
+          "ship_xp": 18514886
+        },
+        {
+          "ability_bonus": 11500.0,
+          "additional_officer_slot": false,
+          "level": 68,
+          "ship_xp": 18700034
+        },
+        {
+          "ability_bonus": 11500.0,
+          "additional_officer_slot": false,
+          "level": 69,
+          "ship_xp": 18887035
+        },
+        {
+          "ability_bonus": 11500.0,
+          "additional_officer_slot": false,
+          "level": 70,
+          "ship_xp": 19075905
+        }
+      ]
+    },
+    {
+      "tier": 15,
+      "build_time": 159000000,
+      "repair_time": 6077340,
+      "components": [
+        {
+          "name": "Photon Torpedo Launcher",
+          "img_url": "./assets/component_weapon_kinetic.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 148619000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 2120900
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 41080,
+                "grade": 7,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 23280,
+                "grade": 7,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 6000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 272900
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 4355
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 174800,
+              "armor_pierce": 174800,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 729600,
+              "min_damage": 608000,
+              "shield_pierce": 1748000,
+              "weapon_type": "kinetic",
+              "firing_pattern": [
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2,
+                0,
+                2
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Tritanium Armor",
+          "img_url": "./assets/component_armor.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 148619000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 2120900
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 41080,
+                "grade": 7,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 23280,
+                "grade": 7,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 6000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 272900
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 4355
+            }
+          ],
+          "additional_info": {
+            "armor_info": {
+              "armor": 1170000,
+              "hull_health": 72000000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Phaser Cannons",
+          "img_url": "./assets/component_weapon_energy.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 148619000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 2120900
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 41080,
+                "grade": 7,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 23280,
+                "grade": 7,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 6000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 272900
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 4355
+            }
+          ],
+          "additional_info": {
+            "weapons_info": {
+              "accuracy": 174800,
+              "armor_pierce": 174800,
+              "crit_chance": 0.1,
+              "crit_damage": 1.5,
+              "max_damage": 729600,
+              "min_damage": 608000,
+              "shield_pierce": 1748000,
+              "weapon_type": "energy",
+              "firing_pattern": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ]
+            }
+          },
+          "quantity": 2
+        },
+        {
+          "name": "Cargo Bay",
+          "img_url": "./assets/component_cargo_bay.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 148619000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 2120900
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 41080,
+                "grade": 7,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 23280,
+                "grade": 7,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 6000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 272900
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 4355
+            }
+          ],
+          "additional_info": {
+            "cargo_info": {
+              "increased_cargo": 5000,
+              "increased_protected_cargo": 500,
+              "ship_increased_cargo": 9000,
+              "ship_increased_protected_cargo": 200
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Experimental Transwarp Drive",
+          "img_url": "./assets/component_warp_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 297239000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 4241700
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 82170,
+                "grade": 7,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 46570,
+                "grade": 7,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 12000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 545850
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 8710
+            }
+          ],
+          "additional_info": {
+            "warp_info": {
+              "warp_distance": 1100,
+              "warp_speed": 12.9
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Shield Generator",
+          "img_url": "./assets/component_shield.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 148619000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 2120900
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 41080,
+                "grade": 7,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 23280,
+                "grade": 7,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 6000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 273050
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 4365
+            }
+          ],
+          "additional_info": {
+            "shield_info": {
+              "shield_deflection": 130000,
+              "shield_health": 60000000
+            }
+          },
+          "quantity": 1
+        },
+        {
+          "name": "Impulse Engines",
+          "img_url": "./assets/component_impulse_engines.png",
+          "build_cost": {
+            "resources": [
+              {
+                "type": "\u03c3-tritanium",
+                "value": 148619000
+              },
+              {
+                "type": "\u03c3-dilithium",
+                "value": 2120900
+              }
+            ],
+            "materials": [
+              {
+                "type": "ore",
+                "value": 41080,
+                "grade": 7,
+                "rarity": "uncommon"
+              },
+              {
+                "type": "crystal",
+                "value": 23280,
+                "grade": 7,
+                "rarity": "uncommon"
+              }
+            ],
+            "others": [
+              {
+                "type": "u.s.s. excelsior parts",
+                "value": 6000
+              }
+            ]
+          },
+          "repair_cost": [
+            {
+              "type": "\u03c3-tritanium",
+              "value": 272900
+            },
+            {
+              "type": "\u03c3-dilithium",
+              "value": 4355
+            }
+          ],
+          "additional_info": {
+            "impulse_info": {
+              "dodge": 130000,
+              "impulse_speed": 90
+            }
+          },
+          "quantity": 1
+        }
+      ],
+      "levels": [
+        {
+          "ability_bonus": 12000.0,
+          "additional_officer_slot": false,
+          "level": 71,
+          "ship_xp": 19264775
+        },
+        {
+          "ability_bonus": 12000.0,
+          "additional_officer_slot": false,
+          "level": 72,
+          "ship_xp": 19453646
+        },
+        {
+          "ability_bonus": 12000.0,
+          "additional_officer_slot": false,
+          "level": 73,
+          "ship_xp": 19642516
+        },
+        {
+          "ability_bonus": 12000.0,
+          "additional_officer_slot": false,
+          "level": 74,
+          "ship_xp": 19831386
+        },
+        {
+          "ability_bonus": 12000.0,
+          "additional_officer_slot": false,
+          "level": 75,
+          "ship_xp": 20020257
+        }
+      ]
+    }
+  ],
+  "img_url": "./assets/uss_excelsior.png"
+}
